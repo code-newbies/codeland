@@ -2,6 +2,8 @@ body {
   background: #4dcdf7;
   padding: 50px;
 }
+a { color: inherit; }
+a:hover { color: #2c52af; }
 h1 {
   text-align: center;
   font-family: "Neucha", "san-serif";
@@ -11,10 +13,11 @@ h1 {
   margin-top: 0px;
   margin-bottom: 0px;
   background: transparent;
+  letter-spacing: 10;
 }
 h2 {
   font-family: "Helvetica";
-  color: #0348c7;
+  color: #2b6de6;
   text-transform: uppercase;
   margin-bottom: 10px;
   text-align: center;
@@ -23,12 +26,12 @@ h2 {
 }
 p {
   font-family: "Neucha";
-  color: #0348c7;
+  color: #2b6de6;
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: center;
   font-size: 30px;
-  font-weight: 900;
+  font-weight: 600;
 }
 span { font-family: "Roboto"; }
 .cloud-container {
@@ -41,6 +44,51 @@ span { font-family: "Roboto"; }
   border-radius: 50%;
   position: absolute;
 }
+
+.mailchimp-signup { margin-top: 20px; }
+#mc_embed_signup {
+  width: 50%;
+  padding: 20px 40px 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#mc_embed_signup .clear {display: inline; }
+#mc_embed_signup form { margin-bottom: 0px; }
+#mc_embed_signup input {
+  margin-bottom: 0px;
+  padding: 5px 20px;
+}
+#mc_embed_signup input.email {
+  width: 75%;
+  height: 40px;
+  border: none;
+  font-size: 16px;
+}
+
+#mc_embed_signup label {
+  margin-bottom: 5px;
+  display: block;
+  font-size: 20px;
+  color: white;
+  font-family: "Roboto";
+  padding: 10px 25px;
+}
+
+#mc_embed_signup .button {
+  box-shadow: none;
+  height: 40px;
+  border-radius: 0;
+  background: #2b6de6;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-size: 14px;
+  padding: 0px 30px;
+}
+#mc_embed_signup .button:hover { background: #2c52af; }
+
 .cloud-1 {
   width:100px;
   height: 120px;
