@@ -53,20 +53,20 @@ span { font-family: "Roboto"; }
   text-align: center;
 }
 
-#mc_embed_signup .clear {display: inline; }
-#mc_embed_signup form { margin-bottom: 0px; }
-#mc_embed_signup input {
+.mailchimp-signup #mc_embed_signup .clear {display: inline; }
+.mailchimp-signup #mc_embed_signup form { margin-bottom: 0px; }
+.mailchimp-signup #mc_embed_signup input {
   margin-bottom: 0px;
   padding: 5px 20px;
 }
-#mc_embed_signup input.email {
+.mailchimp-signup #mc_embed_signup input.email {
   width: 75%;
   height: 40px;
   border: none;
   font-size: 16px;
 }
 
-#mc_embed_signup label {
+.mailchimp-signup #mc_embed_signup label {
   margin-bottom: 5px;
   display: block;
   font-size: 20px;
@@ -75,7 +75,7 @@ span { font-family: "Roboto"; }
   padding: 10px 25px;
 }
 
-#mc_embed_signup .button {
+.mailchimp-signup #mc_embed_signup .button {
   box-shadow: none;
   height: 40px;
   border-radius: 0;
@@ -87,16 +87,14 @@ span { font-family: "Roboto"; }
   font-size: 14px;
   padding: 0px 30px;
 }
-#mc_embed_signup .button:hover { background: #2c52af; }
+.mailchimp-signup #mc_embed_signup .button:hover { background: #2c52af; }
 
 .cloud-1 {
   width:100px;
   height: 120px;
   left: 50px;
 }
-.shadow-1 {
-  left: 45px;
-}
+.shadow-1 { left: 45px; }
 .cloud-shadow {
   background: lightgray;
   border-radius: 50%;
