@@ -10,10 +10,11 @@ body {
 a { color: inherit; }
 a:hover { color: #2c52af; }
 span { font-family: "Roboto"; }
+
 h1 {
   text-align: center;
   font-family: "Neucha", "san-serif";
-  font-size: 200px;
+  font-size: 12vw;
   color: white;
   text-transform: uppercase;
   margin-top: 0px;
@@ -27,7 +28,7 @@ h2 {
   text-transform: uppercase;
   margin-bottom: 10px;
   text-align: center;
-  font-size: 30px;
+  font-size: 3vw;
   font-weight: 900;
 }
 p {
@@ -38,4 +39,9 @@ p {
   text-align: center;
   font-size: 30px;
   font-weight: 600;
+}
+
+@media only screen and (max-width: 600px){
+  h2 { font-size: 16px; }
+  p { font-size: 20px; }
 }
