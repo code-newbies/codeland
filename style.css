@@ -108,7 +108,10 @@ html {
       text-transform: uppercase;
       font-family: "Roboto";
       font-size: 14px;
-      padding: 0px 30px; }
+      padding: 0px 30px;
+      cursor: pointer;
+      white-space: no-wrap;
+      -webkit-appearance: none; }
       .mailchimp-signup #mc_embed_signup .button:last-child {
         margin-right: 0; }
     .mailchimp-signup #mc_embed_signup .button:hover {

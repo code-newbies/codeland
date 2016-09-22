@@ -36,6 +36,9 @@
       font-family: "Roboto";
       font-size: 14px;
       padding: 0px 30px;
+      cursor: pointer;
+      white-space: no-wrap;
+      -webkit-appearance: none;
     }
     .button:hover {
       background: #2c52af;
