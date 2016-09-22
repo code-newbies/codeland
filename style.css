@@ -6,7 +6,8 @@ html {
 
 .cloud-wrapper {
   width: 100%;
-  position: fixed; }
+  position: fixed;
+  z-index: -1; }
   .cloud-wrapper::after {
     clear: both;
     content: "";
@@ -17,6 +18,9 @@ html {
   width: 300px;
   height: 150px;
   z-index: -1; }
+
+.container-1 {
+  position: absolute; }
 
 .cloud {
   background: white;
@@ -179,7 +183,6 @@ h1 {
   text-align: center;
   font-family: "Neucha", "san-serif";
   font-size: 12vw;
-  color: white;
   text-transform: uppercase;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -188,7 +191,6 @@ h1 {
 
 h2 {
   font-family: "Helvetica";
-  color: #2b6de6;
   text-transform: uppercase;
   margin-bottom: 10px;
   text-align: center;
@@ -197,7 +199,6 @@ h2 {
 
 p {
   font-family: "Neucha";
-  color: #2b6de6;
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: center;
