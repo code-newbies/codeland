@@ -2,6 +2,7 @@
   position: relative;
   width: 200px;
   height: 150px;
+  z-index: -1;
 }
 .cloud {
   background: white;
@@ -105,10 +106,12 @@
   left: 0px;
 }
 .container-2 {
-  left: 1000px;
-  top: -50px;
+  position: absolute;
+  left: 80%;
+  top: 400px;
 }
 .container-3 {
-  left: 300px;
-  top: -50px;
+  position: absolute;
+  left: 20%;
+  top: 800px;
 }
