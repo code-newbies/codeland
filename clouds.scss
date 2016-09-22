@@ -1,5 +1,7 @@
 .cloud-wrapper {
-  overflow-x: hidden;
+  @include clearfix();
+  width: 100%;
+  position: fixed;
 }
 .cloud-container {
   position: fixed;
@@ -51,10 +53,10 @@
 .container-2 {
   position: absolute;
   left: 80%;
-  top: 400px;
+  top: 300px;
 }
 .container-3 {
   position: absolute;
   left: 20%;
-  top: 800px;
+  top: 500px;
 }

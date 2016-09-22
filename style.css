@@ -5,7 +5,12 @@ html {
   box-sizing: inherit; }
 
 .cloud-wrapper {
-  overflow-x: hidden; }
+  width: 100%;
+  position: fixed; }
+  .cloud-wrapper::after {
+    clear: both;
+    content: "";
+    display: block; }
 
 .cloud-container {
   position: fixed;
@@ -55,12 +60,12 @@ html {
 .container-2 {
   position: absolute;
   left: 80%;
-  top: 400px; }
+  top: 300px; }
 
 .container-3 {
   position: absolute;
   left: 20%;
-  top: 800px; }
+  top: 500px; }
 
 .mailchimp-signup {
   margin-top: 20px; }
