@@ -9,7 +9,7 @@ body {
 }
 a { color: inherit; }
 a:hover { color: #2c52af; }
-span { font-family: "Roboto"; }
+a span { font-family: "Roboto"; }
 
 header {
   padding: 30px 20px 0px;
@@ -43,7 +43,13 @@ p {
 }
 
 @media only screen and (max-width: 600px){
-  h1 { font-size: 20vw; }
+  h1 {
+    font-size: 30vw;
+    line-height: .8;
+    span {
+      display: block;
+    }
+  }
   h2 { font-size: 16px; }
   p { font-size: 20px; }
 }
