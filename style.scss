@@ -1,11 +1,11 @@
 $blue: #2b6de6;
+@import "neat/neat";
 @import "clouds";
 @import "mailchimp_signup";
-@import "neat/neat";
 
 body {
   background: #4dcdf7;
-  padding: 50px;
+  padding: 5%;
   overflow-x: hidden;
 }
 a { color: inherit; }

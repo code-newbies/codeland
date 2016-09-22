@@ -1,3 +1,9 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 .cloud-container {
   position: relative;
   width: 300px;
@@ -56,10 +62,15 @@
 .mailchimp-signup {
   margin-top: 20px; }
   .mailchimp-signup #mc_embed_signup {
-    width: 50%;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-left: 17.05961%;
     padding: 20px 40px 30px;
-    margin: 0 auto;
     text-align: center; }
+    .mailchimp-signup #mc_embed_signup:last-child {
+      margin-right: 0; }
     .mailchimp-signup #mc_embed_signup .clear {
       display: inline; }
     .mailchimp-signup #mc_embed_signup form {
@@ -68,18 +79,26 @@
       margin-bottom: 0px;
       padding: 5px 20px; }
     .mailchimp-signup #mc_embed_signup input.email {
-      width: 75%;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%;
       height: 40px;
       border: none;
       font-size: 16px; }
+      .mailchimp-signup #mc_embed_signup input.email:last-child {
+        margin-right: 0; }
     .mailchimp-signup #mc_embed_signup label {
-      margin-bottom: 5px;
       display: block;
       font-size: 20px;
       color: white;
       font-family: "Roboto";
-      padding: 10px 25px; }
+      padding: 60px 25px; }
     .mailchimp-signup #mc_embed_signup .button {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
       box-shadow: none;
       height: 40px;
       border-radius: 0;
@@ -90,18 +109,36 @@
       font-family: "Roboto";
       font-size: 14px;
       padding: 0px 30px; }
+      .mailchimp-signup #mc_embed_signup .button:last-child {
+        margin-right: 0; }
     .mailchimp-signup #mc_embed_signup .button:hover {
       background: #2c52af; }
-
-html {
-  box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
+  @media only screen and (min-width: 750px) and (max-width: 900px) {
+    .mailchimp-signup #mc_embed_signup {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 82.94039%;
+      margin-left: 8.5298%;
+      padding: 2px 4px 3px; }
+      .mailchimp-signup #mc_embed_signup:last-child {
+        margin-right: 0; } }
+  @media only screen and (max-width: 749px) {
+    .mailchimp-signup #mc_embed_signup {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-left: 0%;
+      padding: 2px 4px 3px; }
+      .mailchimp-signup #mc_embed_signup:last-child {
+        margin-right: 0; }
+      .mailchimp-signup #mc_embed_signup .button {
+        padding: 5px 10px; } }
 
 body {
   background: #4dcdf7;
-  padding: 50px;
+  padding: 5%;
   overflow-x: hidden; }
 
 a {

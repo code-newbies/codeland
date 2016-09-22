@@ -1,9 +1,9 @@
 .mailchimp-signup {
   margin-top: 20px;
   #mc_embed_signup {
-    width: 50%;
+    @include span-columns(8);
+    @include shift(2);
     padding: 20px 40px 30px;
-    margin: 0 auto;
     text-align: center;
     .clear { display: inline; }
     form { margin-bottom: 0px; }
@@ -12,20 +12,20 @@
       padding: 5px 20px;
     }
     input.email {
-      width: 75%;
+      @include span-columns(8);
       height: 40px;
       border: none;
       font-size: 16px;
     }
     label {
-      margin-bottom: 5px;
       display: block;
       font-size: 20px;
       color: white;
       font-family: "Roboto";
-      padding: 10px 25px;
+      padding: 60px 25px;
     }
     .button {
+      @include span-columns(4);
       box-shadow: none;
       height: 40px;
       border-radius: 0;
@@ -39,6 +39,21 @@
     }
     .button:hover {
       background: #2c52af;
+    }
+  }
+  @media only screen and (min-width: 750px) and (max-width: 900px) {
+    #mc_embed_signup {
+      @include span-columns(10);
+      @include shift(1);
+      padding: 2px 4px 3px;
+    }
+  }
+  @media only screen and (max-width: 749px) {
+    #mc_embed_signup {
+      @include span-columns(12);
+      @include shift(0);
+      padding: 2px 4px 3px;
+      .button { padding: 5px 10px; }
     }
   }
 }
