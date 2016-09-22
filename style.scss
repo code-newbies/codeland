@@ -11,6 +11,10 @@ a { color: inherit; }
 a:hover { color: #2c52af; }
 span { font-family: "Roboto"; }
 
+header {
+  padding: 30px 20px 0px;
+}
+
 h1 {
   text-align: center;
   font-family: "Neucha", "san-serif";
@@ -30,15 +34,16 @@ h2 {
   font-weight: 900;
 }
 p {
-  font-family: "Neucha";
+  font-family: "Helvetica";
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: center;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 100;
 }
 
 @media only screen and (max-width: 600px){
+  h1 { font-size: 20vw; }
   h2 { font-size: 16px; }
   p { font-size: 20px; }
 }

@@ -114,9 +114,9 @@ html {
       box-shadow: none;
       height: 40px;
       border-radius: 0;
-      background: #2b6de6;
+      background: #fffd19;
       border: none;
-      color: white;
+      color: #333;
       text-transform: uppercase;
       font-family: "Roboto";
       font-size: 14px;
@@ -179,6 +179,9 @@ a:hover {
 span {
   font-family: "Roboto"; }
 
+header {
+  padding: 30px 20px 0px; }
+
 h1 {
   text-align: center;
   font-family: "Neucha", "san-serif";
@@ -198,14 +201,17 @@ h2 {
   font-weight: 900; }
 
 p {
-  font-family: "Neucha";
+  font-family: "Helvetica";
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: center;
   font-size: 30px;
-  font-weight: 600; }
+  font-weight: 100; }
 
 @media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 20vw; }
+
   h2 {
     font-size: 16px; }
 
