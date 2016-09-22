@@ -56,7 +56,15 @@
       @include span-columns(12);
       @include shift(0);
       padding: 2px 4px 3px;
-      .button { padding: 5px 10px; }
+      input.email {
+        @include span-columns(12);
+        text-align: center;
+      }
+      .button {
+        @include span-columns(12);
+        padding: 5px 10px;
+        margin-bottom: 20px;
+      }
     }
   }
 }

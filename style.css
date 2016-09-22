@@ -136,8 +136,23 @@ html {
       padding: 2px 4px 3px; }
       .mailchimp-signup #mc_embed_signup:last-child {
         margin-right: 0; }
+      .mailchimp-signup #mc_embed_signup input.email {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        text-align: center; }
+        .mailchimp-signup #mc_embed_signup input.email:last-child {
+          margin-right: 0; }
       .mailchimp-signup #mc_embed_signup .button {
-        padding: 5px 10px; } }
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        padding: 5px 10px;
+        margin-bottom: 20px; }
+        .mailchimp-signup #mc_embed_signup .button:last-child {
+          margin-right: 0; } }
 
 body {
   background: #4dcdf7;
