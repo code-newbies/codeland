@@ -1,5 +1,8 @@
+.cloud-wrapper {
+  overflow-x: hidden;
+}
 .cloud-container {
-  position: relative;
+  position: fixed;
   width: 300px;
   height: 150px;
   z-index: -1;
