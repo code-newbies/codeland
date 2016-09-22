@@ -1,58 +1,8 @@
 .cloud-container {
   position: relative;
-  width: 200px;
+  width: 300px;
   height: 150px;
   z-index: -1; }
-
-.cloud {
-  background: white;
-  border-radius: 50%;
-  position: absolute; }
-
-.cloud-container {
-  position: relative;
-  width: 200px;
-  height: 150px; }
-
-.cloud {
-  background: white;
-  border-radius: 50%;
-  position: absolute; }
-
-.cloud-container {
-  position: relative;
-  width: 200px;
-  height: 150px; }
-
-.cloud {
-  background: white;
-  border-radius: 50%;
-  position: absolute; }
-
-.cloud-container {
-  position: relative;
-  width: 200px;
-  height: 150px; }
-
-.cloud {
-  background: white;
-  border-radius: 50%;
-  position: absolute; }
-
-.cloud-container {
-  position: relative;
-  width: 200px;
-  height: 150px; }
-
-.cloud {
-  background: white;
-  border-radius: 50%;
-  position: absolute; }
-
-.cloud-container {
-  position: relative;
-  width: 200px;
-  height: 150px; }
 
 .cloud {
   background: white;
@@ -151,7 +101,8 @@ html {
 
 body {
   background: #4dcdf7;
-  padding: 50px; }
+  padding: 50px;
+  overflow-x: hidden; }
 
 a {
   color: inherit; }
