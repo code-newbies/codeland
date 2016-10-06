@@ -44,20 +44,21 @@ p {
   .subtitle {
     font-weight: 100;
     text-transform: none;
-    }
-    font-size: 24px;
-    margin-top: 10px;
-    text-align: left;
-    position: relative;
-    .box {
-      border: 2px solid black;
-      padding: 5px 20px;
-      background: white;
-    }
-    .box-shadow {
-      display: block;
+  }
+  font-size: 24px;
+  margin-top: 10px;
+  text-align: left;
+  position: relative;
+  .box {
+    border: 2px solid black;
+    padding: 5px 20px;
+    background: white;
+    display: inline-block;
+  }
+  .box-shadow {
+      display: inline-block;
       position: absolute;
-      top: 0;
+      top: 7px;
       left: 10px;
       width: auto;
       height: 40px;
