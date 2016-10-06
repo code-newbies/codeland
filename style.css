@@ -107,7 +107,9 @@ html {
           margin-right: 0; } }
 
 body {
-  padding: 5%; }
+  padding: 5%;
+  margin: 0px;
+  border-top: 20px solid #fffd2e; }
 
 a {
   color: inherit; }
@@ -120,6 +122,8 @@ a span {
 
 header {
   padding: 30px 20px 0px; }
+  header .boxed, header .box {
+    text-align: center; }
 
 h2 {
   font-family: "Helvetica";
@@ -137,6 +141,36 @@ p {
   font-size: 30px;
   font-weight: 100; }
 
+.boxed {
+  margin-bottom: 30px;
+  font-size: 24px;
+  margin-top: 10px;
+  text-align: left;
+  position: relative; }
+  .boxed .subtitle {
+    font-weight: 100;
+    text-transform: none; }
+  .boxed .box {
+    border: 2px solid black;
+    padding: 5px 20px;
+    background: white; }
+  .boxed .box-shadow {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: auto;
+    height: 40px;
+    border: 2px solid black;
+    background: #fffd2e;
+    z-index: -999; }
+    .boxed .box-shadow.color-1 {
+      background: #fffd2e; }
+    .boxed .box-shadow.color-2 {
+      background: #ffaa62; }
+    .boxed .box-shadow.color-3 {
+      background: #ff94de; }
+
 section {
   max-width: 100%;
   margin-left: auto;
@@ -152,40 +186,22 @@ section {
     width: 48.82117%; }
     section .faqs:last-child {
       margin-right: 0; }
+  section .tickets {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    background: #f8f8f8; }
+    section .tickets:last-child {
+      margin-right: 0; }
+    section .tickets h2 {
+      text-align: center;
+      padding-top: 20px; }
   section article {
     margin-bottom: 30px; }
     section article p {
       font-size: 18px;
       text-align: left; }
-    section article h2 {
-      font-size: 24px;
-      margin-top: 10px;
-      margin-bottom: 30px;
-      text-align: left;
-      position: relative; }
-      section article h2 .box {
-        border: 2px solid black;
-        padding: 5px 20px;
-        background: white; }
-        section article h2 .box .faq {
-          font-weight: 100;
-          text-transform: none; }
-      section article h2 .box-shadow {
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 10px;
-        width: auto;
-        height: 40px;
-        border: 2px solid black;
-        background: #fffd2e;
-        z-index: -999; }
-        section article h2 .box-shadow.color-1 {
-          background: #fffd2e; }
-        section article h2 .box-shadow.color-2 {
-          background: #ffaa62; }
-        section article h2 .box-shadow.color-3 {
-          background: #ff94de; }
 
 @media only screen and (min-width: 599px) {
   .mobile {

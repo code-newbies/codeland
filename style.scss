@@ -9,6 +9,8 @@ $orange: #ffaa62;
 
 body {
   padding: 5%;
+  margin: 0px;
+  border-top: 20px solid $yellow;
 }
 a { color: inherit; }
 a:hover { color: #2c52af; }
@@ -16,6 +18,7 @@ a span { font-family: "Roboto"; }
 
 header {
   padding: 30px 20px 0px;
+  .boxed, .box { text-align: center; }
 }
 
 h2 {
@@ -36,44 +39,52 @@ p {
   font-weight: 100;
 }
 
-section {
-  @include outer-container(100%);
-  .faqs { @include span-columns(6) };
+.boxed {
+  margin-bottom: 30px;
+  .subtitle {
+    font-weight: 100;
+    text-transform: none;
+    }
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: left;
+    position: relative;
+    .box {
+      border: 2px solid black;
+      padding: 5px 20px;
+      background: white;
+    }
+    .box-shadow {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 10px;
+      width: auto;
+      height: 40px;
+      border: 2px solid black;
+      background: $yellow;
+      z-index: -999;
+      &.color-1 {background: $yellow;}
+      &.color-2 {background: $orange;}
+      &.color-3 {background: $pink;}
+    }
+  }
+  section {
+    @include outer-container(100%);
+    .faqs { @include span-columns(6) };
+  .tickets {
+    @include span-columns(6);
+    background: #f8f8f8;
+    h2 {
+      text-align: center;
+      padding-top: 20px;
+    }
+  }
   article {
     margin-bottom: 30px;
     p {
       font-size: 18px;
       text-align: left;
-    }
-    h2 {
-      font-size: 24px;
-      margin-top: 10px;
-      margin-bottom: 30px;
-      text-align: left;
-      position: relative;
-      .box {
-        border: 2px solid black;
-        padding: 5px 20px;
-        background: white;
-        .faq {
-          font-weight: 100;
-          text-transform: none;
-        }
-      }
-      .box-shadow {
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 10px;
-        width: auto;
-        height: 40px;
-        border: 2px solid black;
-        background: $yellow;
-        z-index: -999;
-        &.color-1 {background: $yellow;}
-        &.color-2 {background: $orange;}
-        &.color-3 {background: $pink;}
-      }
     }
   }
 }
