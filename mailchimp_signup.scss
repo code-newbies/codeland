@@ -1,4 +1,5 @@
 .mailchimp-signup {
+  @include row();
   margin-top: 20px;
   #mc_embed_signup {
     @include span-columns(8);
@@ -20,10 +21,9 @@
     label {
       display: block;
       font-size: 20px;
-      color: white;
+      color: #999;
       font-family: "Roboto";
-      padding: 60px 25px;
-      font-weight: 900;
+      padding: 60px 10px 10px;
     }
     .button {
       @include span-columns(4);
@@ -32,7 +32,7 @@
       border-radius: 0;
       background: $yellow;
       border: 4px solid black;
-      color: #333;
+      color: black;
       text-transform: uppercase;
       font-family: "Roboto";
       font-size: 18px;
@@ -43,7 +43,7 @@
       -webkit-appearance: none;
     }
     .button:hover {
-      background: $blue;
+      background: $green;
     }
   }
   @media only screen and (min-width: 750px) and (max-width: 900px) {
