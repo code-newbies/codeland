@@ -138,6 +138,13 @@ h2 {
   font-size: 3vw;
   font-weight: 900; }
 
+h3 {
+  font-family: "Helvetica";
+  font-size: 2vw;
+  font-weight: 100;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
 p {
   font-family: "Helvetica";
   margin-bottom: 0px;
@@ -213,6 +220,21 @@ section {
     section article h2 {
       font-size: 24px;
       text-align: left; }
+
+.description {
+  margin-top: 30px; }
+
+.callout {
+  float: left;
+  display: block;
+  width: 34.11922%;
+  padding: 50px 60px 60px;
+  background: #fffd2e; }
+  .callout:last-child {
+    width: 31.76157%; }
+  .callout h3 {
+    color: black;
+    font-weight: 900; }
 
 @media only screen and (min-width: 599px) {
   img {

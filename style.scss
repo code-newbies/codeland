@@ -32,6 +32,14 @@ h2 {
   font-weight: 900;
 }
 
+h3 {
+  font-family: "Helvetica";
+  font-size: 2vw;
+  font-weight: 100;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 p {
   font-family: "Helvetica";
   margin-bottom: 0px;
@@ -95,6 +103,23 @@ p {
       text-align: left;
     }
   }
+}
+
+.description { margin-top: 30px; }
+.callout {
+  @include span-columns(4, $display: block-collapse);
+  padding: 50px 60px 60px;
+  background: $yellow;
+  h3 {
+    color: black;
+    font-weight: 900;
+    // background: white;
+    // padding: 5px 15px;
+    // margin-left: -15px;
+  }
+  // &.explore { background: $yellow; }
+  // &.design { background: #ffd3f1; }
+  // &.hear { background: #ffdaba; }
 }
 
 @media only screen and (min-width: 599px){
