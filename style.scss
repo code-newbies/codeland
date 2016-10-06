@@ -73,14 +73,14 @@ p {
   section {
     @include outer-container(100%);
     .faqs { @include span-columns(6) };
-  .tickets {
-    @include span-columns(6);
-    background: #f8f8f8;
-    h2 {
-      text-align: center;
-      padding-top: 20px;
-    }
+    .tickets {
+      @include span-columns(6);
+      background: #f8f8f8;
+      h2 {
+        text-align: center;
+        padding-top: 20px;
   }
+}
   article {
     margin-bottom: 30px;
     p {
@@ -97,6 +97,10 @@ p {
   }
   .mobile { display: none; }
   .desktop { display: block; }
+}
+
+@media only screen and (max-width: 800px){
+  div.faqs { @include span-columns(12); }
 }
 
 @media only screen and (max-width: 600px){

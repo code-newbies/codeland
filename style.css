@@ -216,6 +216,14 @@ section {
 
   .desktop {
     display: block; } }
+@media only screen and (max-width: 800px) {
+  div.faqs {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    div.faqs:last-child {
+      margin-right: 0; } }
 @media only screen and (max-width: 600px) {
   .mobile {
     display: block; }
