@@ -4,6 +4,6 @@ $(document).ready(function(){
     var width = $(this).closest(".boxed").find(".box").css("width");
     $(this).width(width);
   });
-  var headerLeft = $(".boxed").first().position().left;
-  $(".boxed .box-shadow").first().css("left", "300px");
+  var headerLeft = $(".boxed span").first().position().left;
+  $(".boxed .box-shadow").first().css("left", (headerLeft+10)+"px");
 });

@@ -204,6 +204,10 @@ section {
       text-align: left; }
 
 @media only screen and (min-width: 599px) {
+  img {
+    max-width: 900px;
+    margin: 0 auto; }
+
   .mobile {
     display: none; }
 
