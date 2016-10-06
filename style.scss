@@ -73,7 +73,7 @@ p {
   section {
     > div { padding: 0 5%; }
     @include outer-container(100%);
-    .faqs { @include span-columns(6) };
+    .faqs, .venue { @include span-columns(6) };
     .tickets {
       @include span-columns(6);
       background: #f8f8f8;
