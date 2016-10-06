@@ -5,8 +5,10 @@ html {
   box-sizing: inherit; }
 
 .mailchimp-signup {
+  background: #fafafa;
   display: block;
-  margin-top: 20px; }
+  margin-top: 20px;
+  padding-top: 30px; }
   .mailchimp-signup::after {
     clear: both;
     content: "";
@@ -34,14 +36,14 @@ html {
       margin-right: 2.35765%;
       width: 65.88078%;
       height: 50px;
-      border: 4px solid black;
+      border: 2px solid black;
       font-size: 16px; }
       .mailchimp-signup #mc_embed_signup input.email:last-child {
         margin-right: 0; }
     .mailchimp-signup #mc_embed_signup label {
       display: block;
       font-size: 20px;
-      color: #999;
+      color: black;
       font-family: "Roboto";
       padding: 60px 10px 10px; }
     .mailchimp-signup #mc_embed_signup .button {
@@ -53,7 +55,7 @@ html {
       height: 50px;
       border-radius: 0;
       background: #fffd2e;
-      border: 4px solid black;
+      border: 2px solid black;
       color: black;
       text-transform: uppercase;
       font-family: "Roboto";

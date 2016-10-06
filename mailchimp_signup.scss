@@ -1,6 +1,8 @@
 .mailchimp-signup {
+  background: #fafafa;
   @include row();
   margin-top: 20px;
+  padding-top: 30px;
   #mc_embed_signup {
     @include span-columns(8);
     @include shift(2);
@@ -15,13 +17,13 @@
     input.email {
       @include span-columns(8);
       height: 50px;
-      border: 4px solid black;
+      border: 2px solid black;
       font-size: 16px;
     }
     label {
       display: block;
       font-size: 20px;
-      color: #999;
+      color: black;
       font-family: "Roboto";
       padding: 60px 10px 10px;
     }
@@ -31,7 +33,7 @@
       height: 50px;
       border-radius: 0;
       background: $yellow;
-      border: 4px solid black;
+      border: 2px solid black;
       color: black;
       text-transform: uppercase;
       font-family: "Roboto";
