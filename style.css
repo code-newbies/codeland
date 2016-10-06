@@ -122,6 +122,9 @@ a:hover {
 a span {
   font-family: "Roboto"; }
 
+img {
+  width: 100%; }
+
 header {
   padding: 30px 20px; }
   header .boxed, header .box {
