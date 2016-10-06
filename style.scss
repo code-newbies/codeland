@@ -17,7 +17,7 @@ a:hover { color: #2c52af; }
 a span { font-family: "Roboto"; }
 
 header {
-  padding: 30px 20px 0px;
+  padding: 30px 20px;
   .boxed, .box { text-align: center; }
 }
 
@@ -86,6 +86,10 @@ p {
     margin-bottom: 30px;
     p {
       font-size: 18px;
+      text-align: left;
+    }
+    h2 {
+      font-size: 24px;
       text-align: left;
     }
   }

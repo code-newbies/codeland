@@ -123,7 +123,7 @@ a span {
   font-family: "Roboto"; }
 
 header {
-  padding: 30px 20px 0px; }
+  padding: 30px 20px; }
   header .boxed, header .box {
     text-align: center; }
 
@@ -206,6 +206,9 @@ section {
     margin-bottom: 30px; }
     section article p {
       font-size: 18px;
+      text-align: left; }
+    section article h2 {
+      font-size: 24px;
       text-align: left; }
 
 @media only screen and (min-width: 599px) {
