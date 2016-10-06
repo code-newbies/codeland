@@ -8,9 +8,9 @@ $orange: #ffaa62;
 @import "mailchimp_signup";
 
 body {
-  padding: 5%;
   margin: 0px;
   border-top: 20px solid $yellow;
+  border-bottom: 20px solid $yellow;
 }
 a { color: inherit; }
 a:hover { color: #2c52af; }
@@ -71,6 +71,7 @@ p {
     }
   }
   section {
+    > div { padding: 0 5%; }
     @include outer-container(100%);
     .faqs { @include span-columns(6) };
     .tickets {

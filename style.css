@@ -109,9 +109,9 @@ html {
           margin-right: 0; } }
 
 body {
-  padding: 5%;
   margin: 0px;
-  border-top: 20px solid #fffd2e; }
+  border-top: 20px solid #fffd2e;
+  border-bottom: 20px solid #fffd2e; }
 
 a {
   color: inherit; }
@@ -178,6 +178,8 @@ section {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
+  section > div {
+    padding: 0 5%; }
   section::after {
     clear: both;
     content: "";
