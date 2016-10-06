@@ -4,73 +4,6 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-.cloud-wrapper {
-  width: 100%;
-  position: fixed;
-  z-index: -1; }
-  .cloud-wrapper::after {
-    clear: both;
-    content: "";
-    display: block; }
-
-.cloud-container {
-  position: fixed;
-  width: 300px;
-  height: 150px;
-  z-index: -1; }
-
-.container-1 {
-  position: absolute; }
-
-.cloud {
-  background: white;
-  border-radius: 50%;
-  position: absolute; }
-
-.cloud-1 {
-  width: 100px;
-  height: 120px;
-  left: 50px; }
-
-.shadow-1 {
-  left: 45px; }
-
-.cloud-shadow {
-  background: lightgray;
-  border-radius: 50%;
-  position: absolute; }
-
-.cloud-2 {
-  width: 250px;
-  height: 80px;
-  left: 0px;
-  bottom: 0px; }
-
-.shadow-2 {
-  left: -5px; }
-
-.cloud-3 {
-  width: 110px;
-  height: 100px;
-  bottom: 10px;
-  left: 100px; }
-
-.cloud-4 {
-  width: 250px;
-  height: 80px;
-  bottom: 0px;
-  left: 0px; }
-
-.container-2 {
-  position: absolute;
-  left: 80%;
-  top: 300px; }
-
-.container-3 {
-  position: absolute;
-  left: 20%;
-  top: 500px; }
-
 .mailchimp-signup {
   margin-top: 20px; }
   .mailchimp-signup #mc_embed_signup {
@@ -167,7 +100,6 @@ html {
           margin-right: 0; } }
 
 body {
-  background: #4dcdf7;
   padding: 5%; }
 
 a {
@@ -181,16 +113,6 @@ a span {
 
 header {
   padding: 30px 20px 0px; }
-
-h1 {
-  text-align: center;
-  font-family: "Neucha", "san-serif";
-  font-size: 12vw;
-  text-transform: uppercase;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  background: transparent;
-  letter-spacing: 10; }
 
 h2 {
   font-family: "Helvetica";
@@ -208,7 +130,19 @@ p {
   font-size: 30px;
   font-weight: 100; }
 
+@media only screen and (min-width: 599px) {
+  .mobile {
+    display: none; }
+
+  .desktop {
+    display: block; } }
 @media only screen and (max-width: 600px) {
+  .mobile {
+    display: block; }
+
+  .desktop {
+    display: none; }
+
   h1 {
     font-size: 30vw;
     line-height: .8; }

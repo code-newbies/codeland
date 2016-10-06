@@ -1,10 +1,8 @@
 $blue: #2b6de6;
 @import "neat/neat";
-@import "clouds";
 @import "mailchimp_signup";
 
 body {
-  background: #4dcdf7;
   padding: 5%;
 }
 a { color: inherit; }
@@ -15,16 +13,6 @@ header {
   padding: 30px 20px 0px;
 }
 
-h1 {
-  text-align: center;
-  font-family: "Neucha", "san-serif";
-  font-size: 12vw;
-  text-transform: uppercase;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  background: transparent;
-  letter-spacing: 10;
-}
 h2 {
   font-family: "Helvetica";
   text-transform: uppercase;
@@ -33,6 +21,8 @@ h2 {
   font-size: 3vw;
   font-weight: 900;
 }
+
+
 p {
   font-family: "Helvetica";
   margin-bottom: 0px;
@@ -42,7 +32,14 @@ p {
   font-weight: 100;
 }
 
+@media only screen and (min-width: 599px){
+  .mobile { display: none; }
+  .desktop { display: block; }
+}
+
 @media only screen and (max-width: 600px){
+  .mobile { display: block; }
+  .desktop { display: none; }
   h1 {
     font-size: 30vw;
     line-height: .8;
