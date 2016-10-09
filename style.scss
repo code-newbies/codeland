@@ -4,6 +4,16 @@ $green: #4eff5c;
 $pink: #ff94de;
 $orange: #ffaa62;
 
+$red: #ff2e8e;
+$purple: #fc2eff;
+$light-blue: #1ffff5;
+
+$art-gaming-color: $purple;
+$health-color: $red;
+$education-color: $orange;
+$community-color: $green;
+$city-life-color: $light-blue;
+
 @import "neat/neat";
 @import "mailchimp_signup";
 
@@ -15,12 +25,17 @@ body {
 a { color: inherit; }
 a:hover { color: #2c52af; }
 a span { font-family: "Roboto"; }
+p {
+  font-size: 18px;
+  text-align: left;
+}
 
 img { width: 100%; }
 
 header {
   padding: 30px 20px;
   .boxed, .box { text-align: center; }
+  p { font-size: 30px; }
 }
 
 h2 {
@@ -45,12 +60,11 @@ p {
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: center;
-  font-size: 30px;
   font-weight: 100;
 }
 
 .boxed {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   .subtitle {
     font-weight: 100;
     text-transform: none;
@@ -66,22 +80,21 @@ p {
     display: inline-block;
   }
   .box-shadow {
-      display: inline-block;
-      position: absolute;
-      top: 7px;
-      left: 10px;
-      width: auto;
-      height: 40px;
-      border: 2px solid black;
-      background: $yellow;
-      z-index: -999;
-      &.color-1 {background: $yellow;}
-      &.color-2 {background: $orange;}
-      &.color-3 {background: $pink;}
-    }
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    width: auto;
+    height: 40px;
+    border: 2px solid black;
+    background: $yellow;
+    z-index: -999;
+    &.color-1 {background: $yellow;}
+    &.color-2 {background: $orange;}
+    &.color-3 {background: $pink;}
   }
+}
   section {
-    > div { padding: 0 5%; }
     @include outer-container(100%);
     .faqs, .venue { @include span-columns(6) };
     .tickets {
@@ -105,21 +118,34 @@ p {
   }
 }
 
-.description { margin-top: 30px; }
-.callout {
-  @include span-columns(4, $display: block-collapse);
-  padding: 50px 60px 60px;
-  background: $yellow;
-  h3 {
-    color: black;
-    font-weight: 900;
-    // background: white;
-    // padding: 5px 15px;
-    // margin-left: -15px;
+.description {
+  margin-top: 30px;
+  @include span-columns(9);
+  p {
+    text-align: left;
+    margin-bottom: 20px;
   }
-  // &.explore { background: $yellow; }
-  // &.design { background: #ffd3f1; }
-  // &.hear { background: #ffdaba; }
+  h3 { font-weight: 500; }
+}
+
+.wrapper {
+  padding: 0 10%;
+  margin-bottom: 30px;
+}
+
+.topics {
+  @include span-columns(3);
+  .boxed { text-align: right; }
+  .boxed .box-shadow {
+    right: -10px;
+    left: auto;
+    &.health { background: $health-color; }
+    &.education { background: $education-color; }
+    &.city-life { background: $city-life-color; }
+    &.community { background: $community-color; }
+    &.art-gaming { background: $art-gaming-color; }
+  }
+  .box { text-align: right; }
 }
 
 @media only screen and (min-width: 599px){

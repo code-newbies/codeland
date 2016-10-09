@@ -122,6 +122,10 @@ a:hover {
 a span {
   font-family: "Roboto"; }
 
+p {
+  font-size: 18px;
+  text-align: left; }
+
 img {
   width: 100%; }
 
@@ -129,6 +133,8 @@ header {
   padding: 30px 20px; }
   header .boxed, header .box {
     text-align: center; }
+  header p {
+    font-size: 30px; }
 
 h2 {
   font-family: "Helvetica";
@@ -150,11 +156,10 @@ p {
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: center;
-  font-size: 30px;
   font-weight: 100; }
 
 .boxed {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 24px;
   margin-top: 10px;
   text-align: left;
@@ -170,7 +175,7 @@ p {
   .boxed .box-shadow {
     display: inline-block;
     position: absolute;
-    top: 7px;
+    top: 3px;
     left: 10px;
     width: auto;
     height: 40px;
@@ -188,8 +193,6 @@ section {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
-  section > div {
-    padding: 0 5%; }
   section::after {
     clear: both;
     content: "";
@@ -222,19 +225,47 @@ section {
       text-align: left; }
 
 .description {
-  margin-top: 30px; }
-
-.callout {
+  margin-top: 30px;
   float: left;
   display: block;
-  width: 34.11922%;
-  padding: 50px 60px 60px;
-  background: #fffd2e; }
-  .callout:last-child {
-    width: 31.76157%; }
-  .callout h3 {
-    color: black;
-    font-weight: 900; }
+  margin-right: 2.35765%;
+  width: 74.41059%; }
+  .description:last-child {
+    margin-right: 0; }
+  .description p {
+    text-align: left;
+    margin-bottom: 20px; }
+  .description h3 {
+    font-weight: 500; }
+
+.wrapper {
+  padding: 0 10%;
+  margin-bottom: 30px; }
+
+.topics {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%; }
+  .topics:last-child {
+    margin-right: 0; }
+  .topics .boxed {
+    text-align: right; }
+  .topics .boxed .box-shadow {
+    right: -10px;
+    left: auto; }
+    .topics .boxed .box-shadow.health {
+      background: #ff2e8e; }
+    .topics .boxed .box-shadow.education {
+      background: #ffaa62; }
+    .topics .boxed .box-shadow.city-life {
+      background: #1ffff5; }
+    .topics .boxed .box-shadow.community {
+      background: #4eff5c; }
+    .topics .boxed .box-shadow.art-gaming {
+      background: #fc2eff; }
+  .topics .box {
+    text-align: right; }
 
 @media only screen and (min-width: 599px) {
   img {
