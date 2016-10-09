@@ -119,13 +119,15 @@ p {
 }
 
 .description {
-  margin-top: 30px;
   @include span-columns(9);
   p {
     text-align: left;
     margin-bottom: 20px;
   }
-  h3 { font-weight: 500; }
+  h3 {
+    font-weight: 500;
+    font-size: 24px;
+  }
 }
 
 .wrapper {
@@ -161,9 +163,22 @@ p {
   div.faqs { @include span-columns(12); }
 }
 
+@media only screen and (max-width: 1000px){
+  .topics, .description { @include span-columns(6); }
+}
+
 @media only screen and (max-width: 600px){
   .mobile { display: block; }
   .desktop { display: none; }
+  .topics, .description { @include span-columns(12); }
+  .topics .boxed {
+    text-align: left;
+    .box-shadow {
+      text-align: left;
+      left: 10px;
+      right: auto;
+    }
+  }
   h1 {
     font-size: 30vw;
     line-height: .8;
