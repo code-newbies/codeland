@@ -125,20 +125,54 @@ a:hover {
 a span {
   font-family: "Roboto"; }
 
-h2, h3 {
+p {
+  font-size: 18px;
+  font-family: "Helvetica"; }
+
+h2 {
+  font-size: 36px;
+  font-weight: 100;
   font-family: "Roboto"; }
 
 h3 {
   font-size: 24px;
+  margin-bottom: 0px;
+  font-family: "Roboto"; }
+
+h4 {
+  font-size: 24px;
+  font-weight: 100;
+  font-family: "Roboto";
   margin-bottom: 0px; }
 
-h2 {
-  font-size: 36px;
-  font-weight: 100; }
-
-p {
+h5 {
+  font-family: "Roboto";
   font-size: 18px;
-  font-family: "Helvetica"; }
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: 20px; }
+
+.topics .boxed {
+  margin-bottom: 20px; }
+  .topics .boxed .box {
+    padding: 3px 15px;
+    border: 2px solid black;
+    background: white; }
+  .topics .boxed .box-shadow {
+    z-index: -999;
+    top: 2px;
+    height: 32px;
+    left: 5px; }
+    .topics .boxed .box-shadow.health {
+      background: #ff2e8e; }
+    .topics .boxed .box-shadow.education {
+      background: #ffaa62; }
+    .topics .boxed .box-shadow.city-life {
+      background: #1ffff5; }
+    .topics .boxed .box-shadow.community {
+      background: #00ff00; }
+    .topics .boxed .box-shadow.art-gaming {
+      background: #fc2eff; }
 
 header {
   padding: 5% 20px;
@@ -163,7 +197,7 @@ header {
     padding: 5px 10px;
     display: inline-block; }
     header span.highlight.logo {
-      padding: 10px 20px;
+      padding: 10px;
       border-radius: 20%; }
 
 .get-tickets {
@@ -177,16 +211,33 @@ header {
   .get-tickets a {
     text-decoration: none; }
 
-article.conference-pitch {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%;
-  margin-left: 25.58941%;
-  text-align: center;
-  padding-top: 30px; }
-  article.conference-pitch:last-child {
-    margin-right: 0; }
+article {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  article::after {
+    clear: both;
+    content: "";
+    display: block; }
+  article.program {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    article.program:last-child {
+      margin-right: 0; }
+    article.program p {
+      margin-top: 5px; }
+  article.conference-pitch {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-left: 17.05961%;
+    text-align: center;
+    padding-top: 30px; }
+    article.conference-pitch:last-child {
+      margin-right: 0; }
 
 .boxed {
   margin-top: 10px;
@@ -229,6 +280,14 @@ article.conference-pitch {
 
   .desktop {
     display: none; }
+
+  article.program {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    article.program:last-child {
+      margin-right: 0; }
 
   img {
     margin: 0 auto;

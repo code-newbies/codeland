@@ -29,20 +29,56 @@ body {
 a { color: inherit; }
 a:hover { color: #2c52af; }
 a span { font-family: "Roboto"; }
-h2, h3 { font-family: "Roboto"; }
-h3 {
-  font-size: 24px;
-  margin-bottom: 0px;
-}
-
-h2 {
-  font-size: 36px;
-  font-weight: 100;
-}
 p {
   font-size: 18px;
   font-family: "Helvetica";
 }
+h2 {
+  font-size: 36px;
+  font-weight: 100;
+  font-family: "Roboto";
+}
+h3 {
+  font-size: 24px;
+  margin-bottom: 0px;
+  font-family: "Roboto";
+}
+h4 {
+  font-size: 24px;
+  font-weight: 100;
+  font-family: "Roboto";
+  margin-bottom: 0px;
+}
+h5 {
+  font-family: "Roboto";
+  font-size: 18px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.topics {
+  .boxed {
+    margin-bottom: 20px;
+    .box {
+      padding: 3px 15px;
+      border: 2px solid black;
+      background: white;
+    }
+    .box-shadow {
+      z-index: -999;
+      top: 2px;
+      height: 32px;
+      left: 5px;
+      &.health { background: $health-color; }
+      &.education { background: $education-color; }
+      &.city-life { background: $city-life-color; }
+      &.community { background: $community-color; }
+      &.art-gaming { background: $art-gaming-color; }
+    }
+  }
+}
+
 
 header {
   padding: 5% 20px;
@@ -66,7 +102,7 @@ header {
     padding: 5px 10px;
     display: inline-block;
     &.logo {
-      padding: 10px 20px;
+      padding: 10px;
       border-radius: 20%;
     }
   }
@@ -87,9 +123,14 @@ header {
 }
 
 article {
-  &.conference-pitch {
+  @include outer-container();
+  &.program {
     @include span-columns(6);
-    @include shift(3);
+    p { margin-top: 5px ; }
+  }
+  &.conference-pitch {
+    @include span-columns(8);
+    @include shift(2);
     text-align: center;
     padding-top: 30px;
   }
@@ -217,6 +258,7 @@ article {
 @media only screen and (max-width: 800px){
   .mobile { display: block; }
   .desktop { display: none; }
+  article.program { @include span-columns(12); }
   img {
     margin: 0 auto;
     width: 100%;
