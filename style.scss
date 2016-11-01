@@ -19,6 +19,7 @@ $city-life-color: $light-blue;
 
 body {
   margin: 0px;
+  border-top: 30px solid black;
 }
 a { color: inherit; }
 a:hover { color: #2c52af; }
@@ -44,8 +45,21 @@ header {
       border: 2px solid black;
       padding: 5px 30px;
       display: inline-block;
+      background: white;
     }
   }
+  span.highlight {
+    background: white;
+    padding: 5px 10px;
+    display: inline-block;
+    &.logo {
+      padding: 10px 20px;
+      border-radius: 20%;
+    }
+  }
+  background-image: url("maze-gray.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .get-tickets {

@@ -109,7 +109,8 @@ html {
           margin-right: 0; } }
 
 body {
-  margin: 0px; }
+  margin: 0px;
+  border-top: 30px solid black; }
 
 a {
   color: inherit; }
@@ -133,7 +134,10 @@ p {
 
 header {
   padding: 30px 20px;
-  text-align: center; }
+  text-align: center;
+  background-image: url("maze-gray.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%; }
   header .boxed, header .box {
     text-align: center; }
   header .conference-description {
@@ -141,7 +145,15 @@ header {
     header .conference-description span {
       border: 2px solid black;
       padding: 5px 30px;
-      display: inline-block; }
+      display: inline-block;
+      background: white; }
+  header span.highlight {
+    background: white;
+    padding: 5px 10px;
+    display: inline-block; }
+    header span.highlight.logo {
+      padding: 10px 20px;
+      border-radius: 20%; }
 
 .get-tickets {
   text-transform: uppercase;
