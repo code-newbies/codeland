@@ -219,6 +219,8 @@ article {
     clear: both;
     content: "";
     display: block; }
+  article p {
+    margin-top: 5px; }
   article.program {
     float: left;
     display: block;
@@ -226,8 +228,6 @@ article {
     width: 48.82117%; }
     article.program:last-child {
       margin-right: 0; }
-    article.program p {
-      margin-top: 5px; }
   article.conference-pitch {
     float: left;
     display: block;
@@ -238,6 +238,35 @@ article {
     padding-top: 30px; }
     article.conference-pitch:last-child {
       margin-right: 0; }
+  article.ticket-header {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-left: 17.05961%;
+    text-align: center;
+    padding-top: 30px; }
+    article.ticket-header:last-child {
+      margin-right: 0; }
+  article.ticket {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    text-align: center; }
+    article.ticket:last-child {
+      margin-right: 0; }
+    article.ticket h4 {
+      margin-top: 0; }
+
+.tickets {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  margin-left: 17.05961%; }
+  .tickets:last-child {
+    margin-right: 0; }
 
 .boxed {
   margin-top: 10px;

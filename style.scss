@@ -79,7 +79,6 @@ h5 {
   }
 }
 
-
 header {
   padding: 5% 20px;
   text-align: center;
@@ -124,9 +123,9 @@ header {
 
 article {
   @include outer-container();
+  p { margin-top: 5px ; }
   &.program {
     @include span-columns(6);
-    p { margin-top: 5px ; }
   }
   &.conference-pitch {
     @include span-columns(8);
@@ -134,7 +133,22 @@ article {
     text-align: center;
     padding-top: 30px;
   }
+  &.ticket-header {
+    @include span-columns(8);
+    @include shift(2);
+    text-align: center;
+    padding-top: 30px;
+  }
+  &.ticket {
+    @include span-columns(4);
+    h4 { margin-top: 0; }
+    text-align: center;
+  }
+}
 
+.tickets {
+  @include span-columns(8);
+  @include shift(2);
 }
 
 // h2 {
