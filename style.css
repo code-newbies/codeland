@@ -68,7 +68,7 @@ html {
       .mailchimp-signup #mc_embed_signup .button:last-child {
         margin-right: 0; }
     .mailchimp-signup #mc_embed_signup .button:hover {
-      background: #4eff5c; }
+      background: #00ff00; }
   @media only screen and (min-width: 750px) and (max-width: 900px) {
     .mailchimp-signup #mc_embed_signup {
       float: left;
@@ -109,9 +109,7 @@ html {
           margin-right: 0; } }
 
 body {
-  margin: 0px;
-  border-top: 20px solid #fffd2e;
-  border-bottom: 20px solid #fffd2e; }
+  margin: 0px; }
 
 a {
   color: inherit; }
@@ -122,150 +120,51 @@ a:hover {
 a span {
   font-family: "Roboto"; }
 
-p {
-  font-size: 18px;
-  text-align: left; }
-
-img {
-  width: 100%; }
-
-header {
-  padding: 30px 20px; }
-  header .boxed, header .box {
-    text-align: center; }
-  header p {
-    font-size: 30px; }
+h2, h3 {
+  font-family: "Roboto"; }
 
 h2 {
-  font-family: "Helvetica";
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  text-align: center;
-  font-size: 3vw;
-  font-weight: 900; }
-
-h3 {
-  font-family: "Helvetica";
-  font-size: 2vw;
-  font-weight: 100;
-  margin-top: 5px;
-  margin-bottom: 5px; }
-
-p {
-  font-family: "Helvetica";
-  margin-bottom: 0px;
-  margin-top: 0px;
-  text-align: center;
+  font-size: 36px;
   font-weight: 100; }
 
+p {
+  font-size: 18px;
+  font-family: "Helvetica"; }
+
+header {
+  padding: 30px 20px;
+  text-align: center; }
+  header .boxed, header .box {
+    text-align: center; }
+  header .conference-description span {
+    border: 2px solid black;
+    padding: 5px 30px; }
+
+.get-tickets {
+  text-transform: uppercase;
+  font-size: 18px;
+  background: #00ff00;
+  border: 2px solid black;
+  padding: 5px 20px;
+  font-weight: 600;
+  font-family: "Roboto", san-serif; }
+  .get-tickets a {
+    text-decoration: none; }
+
 .boxed {
-  margin-bottom: 20px;
-  font-size: 24px;
   margin-top: 10px;
   text-align: left;
   position: relative; }
-  .boxed .subtitle {
-    font-weight: 100;
-    text-transform: none; }
-  .boxed .box {
-    border: 2px solid black;
-    padding: 5px 20px;
-    background: white;
-    display: inline-block; }
   .boxed .box-shadow {
     display: inline-block;
     position: absolute;
-    top: 3px;
+    top: -5px;
     left: 10px;
     width: auto;
     height: 40px;
     border: 2px solid black;
-    background: #fffd2e;
-    z-index: -999; }
-    .boxed .box-shadow.color-1 {
-      background: #fffd2e; }
-    .boxed .box-shadow.color-2 {
-      background: #ffaa62; }
-    .boxed .box-shadow.color-3 {
-      background: #ff94de; }
-
-section {
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto; }
-  section::after {
-    clear: both;
-    content: "";
-    display: block; }
-  section .faqs, section .venue {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%; }
-    section .faqs:last-child, section .venue:last-child {
-      margin-right: 0; }
-  section .tickets {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%;
-    background: #f8f8f8; }
-    section .tickets:last-child {
-      margin-right: 0; }
-    section .tickets h2 {
-      text-align: center;
-      padding-top: 20px; }
-  section article {
-    margin-bottom: 30px; }
-    section article p {
-      font-size: 18px;
-      text-align: left; }
-    section article h2 {
-      font-size: 24px;
-      text-align: left; }
-
-.description {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 74.41059%; }
-  .description:last-child {
-    margin-right: 0; }
-  .description p {
-    text-align: left;
-    margin-bottom: 20px; }
-  .description h3 {
-    font-weight: 500;
-    font-size: 24px; }
-
-.wrapper {
-  padding: 0 10%;
-  margin-bottom: 30px; }
-
-.topics {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 23.23176%; }
-  .topics:last-child {
-    margin-right: 0; }
-  .topics .boxed {
-    text-align: right; }
-  .topics .boxed .box-shadow {
-    right: -10px;
-    left: auto; }
-    .topics .boxed .box-shadow.health {
-      background: #ff2e8e; }
-    .topics .boxed .box-shadow.education {
-      background: #ffaa62; }
-    .topics .boxed .box-shadow.city-life {
-      background: #1ffff5; }
-    .topics .boxed .box-shadow.community {
-      background: #4eff5c; }
-    .topics .boxed .box-shadow.art-gaming {
-      background: #fc2eff; }
-  .topics .box {
-    text-align: right; }
+    z-index: -999;
+    background: white; }
 
 @media only screen and (min-width: 599px) {
   img {
@@ -277,54 +176,11 @@ section {
 
   .desktop {
     display: block; } }
-@media only screen and (max-width: 800px) {
-  div.faqs {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%; }
-    div.faqs:last-child {
-      margin-right: 0; } }
-@media only screen and (max-width: 1000px) {
-  .topics, .description {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%; }
-    .topics:last-child, .description:last-child {
-      margin-right: 0; } }
 @media only screen and (max-width: 600px) {
   .mobile {
     display: block; }
 
   .desktop {
-    display: none; }
-
-  .topics, .description {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%; }
-    .topics:last-child, .description:last-child {
-      margin-right: 0; }
-
-  .topics .boxed {
-    text-align: left; }
-    .topics .boxed .box-shadow {
-      text-align: left;
-      left: 10px;
-      right: auto; }
-
-  h1 {
-    font-size: 30vw;
-    line-height: .8; }
-    h1 span {
-      display: block; }
-
-  h2 {
-    font-size: 16px; }
-
-  p {
-    font-size: 20px; } }
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */

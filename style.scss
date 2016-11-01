@@ -1,6 +1,6 @@
 $blue: #4d94ff;
 $yellow: #fffd2e;
-$green: #4eff5c;
+$green: #00ff00;
 $pink: #ff94de;
 $orange: #ffaa62;
 
@@ -19,134 +19,138 @@ $city-life-color: $light-blue;
 
 body {
   margin: 0px;
-  border-top: 20px solid $yellow;
-  border-bottom: 20px solid $yellow;
 }
 a { color: inherit; }
 a:hover { color: #2c52af; }
 a span { font-family: "Roboto"; }
+h2, h3 { font-family: "Roboto"; }
+
+h2 {
+  font-size: 36px;
+  font-weight: 100;
+}
 p {
   font-size: 18px;
+  font-family: "Helvetica";
 }
-
-img { width: 100%; }
 
 header {
   padding: 30px 20px;
+  text-align: center;
   .boxed, .box { text-align: center; }
+  .conference-description span {
+    border: 2px solid black;
+    padding: 5px 30px;
+  }
 }
 
-h2 {
-  font-family: "Helvetica";
+.get-tickets {
   text-transform: uppercase;
-  margin-bottom: 10px;
-  text-align: center;
-  font-size: 3vw;
-  font-weight: 900;
+  font-size: 18px;
+  background: $green;
+  border: 2px solid black;
+  padding: 5px 20px;
+  font-weight: 600;
+  font-family: "Roboto", san-serif;
+  a { text-decoration: none; }
 }
 
-h3 {
-  font-family: "Helvetica";
-  font-size: 2vw;
-  font-weight: 100;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
+// h2 {
+//   font-family: "Helvetica";
+//   text-transform: uppercase;
+//   margin-bottom: 10px;
+//   text-align: center;
+//   font-size: 3vw;
+//   font-weight: 900;
+// }
 
-p {
-  font-family: "Helvetica";
-  margin-bottom: 0px;
-  margin-top: 0px;
-  text-align: center;
-  font-weight: 100;
-}
+// h3 {
+//   font-family: "Helvetica";
+//   font-size: 2vw;
+//   font-weight: 100;
+//   margin-top: 5px;
+//   margin-bottom: 5px;
+// }
+
+// p {
+//   font-family: "Helvetica";
+//   margin-bottom: 0px;
+//   margin-top: 0px;
+//   text-align: center;
+//   font-weight: 100;
+// }
 
 .boxed {
-  margin-bottom: 20px;
-  .subtitle {
-    font-weight: 100;
-    text-transform: none;
-  }
-  font-size: 24px;
   margin-top: 10px;
   text-align: left;
   position: relative;
-  .box {
-    border: 2px solid black;
-    padding: 5px 20px;
-    background: white;
-    display: inline-block;
-  }
   .box-shadow {
     display: inline-block;
     position: absolute;
-    top: 3px;
+    top: -5px;
     left: 10px;
     width: auto;
     height: 40px;
     border: 2px solid black;
-    background: $yellow;
     z-index: -999;
-    &.color-1 {background: $yellow;}
-    &.color-2 {background: $orange;}
-    &.color-3 {background: $pink;}
+    background: white;
   }
 }
-  section {
-    @include outer-container(100%);
-    .faqs, .venue { @include span-columns(6) };
-    .tickets {
-      @include span-columns(6);
-      background: #f8f8f8;
-      h2 {
-        text-align: center;
-        padding-top: 20px;
-  }
-}
-  article {
-    margin-bottom: 30px;
-    p {
-      font-size: 18px;
-      text-align: left;
-    }
-    h2 {
-      font-size: 24px;
-      text-align: left;
-    }
-  }
-}
+//   section {
+//     @include outer-container(100%);
+//     .faqs, .venue { @include span-columns(6) };
+//     .tickets {
+//       @include span-columns(6);
+//       background: #f8f8f8;
+//       h2 {
+//         text-align: center;
+//         padding-top: 20px;
+//   }
+// }
+//   article {
+//     margin-bottom: 30px;
+//     p {
+//       font-size: 18px;
+//       text-align: left;
+//     }
+//     h2 {
+//       font-size: 24px;
+//       text-align: left;
+//     }
+//   }
+// }
 
-.description {
-  @include span-columns(9);
-  p {
-    text-align: left;
-    margin-bottom: 20px;
-  }
-  h3 {
-    font-weight: 500;
-    font-size: 24px;
-  }
-}
+// .description {
+//   @include span-columns(9);
+//   p {
+//     text-align: left;
+//     margin-bottom: 20px;
+//   }
+//   h3 {
+//     font-weight: 500;
+//     font-size: 24px;
+//   }
+// }
 
-.wrapper {
-  padding: 0 10%;
-  margin-bottom: 30px;
-}
+// .wrapper {
+//   padding: 0 10%;
+//   margin-bottom: 30px;
+// }
 
-.topics {
-  @include span-columns(3);
-  .boxed { text-align: right; }
-  .boxed .box-shadow {
-    right: -10px;
-    left: auto;
-    &.health { background: $health-color; }
-    &.education { background: $education-color; }
-    &.city-life { background: $city-life-color; }
-    &.community { background: $community-color; }
-    &.art-gaming { background: $art-gaming-color; }
-  }
-  .box { text-align: right; }
-}
+// .topics {
+//   @include span-columns(3);
+//   .boxed { text-align: right; }
+//   .boxed .box-shadow {
+//     right: -10px;
+//     left: auto;
+//     &.health { background: $health-color; }
+//     &.education { background: $education-color; }
+//     &.city-life { background: $city-life-color; }
+//     &.community { background: $community-color; }
+//     &.art-gaming { background: $art-gaming-color; }
+//   }
+//   .box { text-align: right; }
+// }
 
 @media only screen and (min-width: 599px){
   img {
@@ -157,33 +161,33 @@ p {
   .desktop { display: block; }
 }
 
-@media only screen and (max-width: 800px){
-  div.faqs { @include span-columns(12); }
-}
+// @media only screen and (max-width: 800px){
+//   div.faqs { @include span-columns(12); }
+// }
 
-@media only screen and (max-width: 1000px){
-  .topics, .description { @include span-columns(6); }
-}
+// @media only screen and (max-width: 1000px){
+//   .topics, .description { @include span-columns(6); }
+// }
 
 @media only screen and (max-width: 600px){
   .mobile { display: block; }
   .desktop { display: none; }
-  .topics, .description { @include span-columns(12); }
-  .topics .boxed {
-    text-align: left;
-    .box-shadow {
-      text-align: left;
-      left: 10px;
-      right: auto;
-    }
-  }
-  h1 {
-    font-size: 30vw;
-    line-height: .8;
-    span {
-      display: block;
-    }
-  }
-  h2 { font-size: 16px; }
-  p { font-size: 20px; }
+//   .topics, .description { @include span-columns(12); }
+//   .topics .boxed {
+//     text-align: left;
+//     .box-shadow {
+//       text-align: left;
+//       left: 10px;
+//       right: auto;
+//     }
+//   }
+//   h1 {
+//     font-size: 30vw;
+//     line-height: .8;
+//     span {
+//       display: block;
+//     }
+//   }
+//   h2 { font-size: 16px; }
+//   p { font-size: 20px; }
 }
