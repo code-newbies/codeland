@@ -108,6 +108,10 @@ html {
         .mailchimp-signup #mc_embed_signup .button:last-child {
           margin-right: 0; } }
 
+.wrapper {
+  padding: 0 10%;
+  margin-bottom: 30px; }
+
 body {
   margin: 0px;
   border-top: 30px solid black; }
@@ -124,6 +128,10 @@ a span {
 h2, h3 {
   font-family: "Roboto"; }
 
+h3 {
+  font-size: 24px;
+  margin-bottom: 0px; }
+
 h2 {
   font-size: 36px;
   font-weight: 100; }
@@ -133,13 +141,16 @@ p {
   font-family: "Helvetica"; }
 
 header {
-  padding: 30px 20px;
+  padding: 5% 20px;
   text-align: center;
   background-image: url("maze-gray.jpg");
   background-repeat: no-repeat;
   background-size: 100%; }
   header .boxed, header .box {
     text-align: center; }
+  header .line-break::before {
+    content: "\A";
+    white-space: pre; }
   header .conference-description {
     margin-top: 5px; }
     header .conference-description span {
@@ -166,6 +177,17 @@ header {
   .get-tickets a {
     text-decoration: none; }
 
+article.conference-pitch {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-left: 25.58941%;
+  text-align: center;
+  padding-top: 30px; }
+  article.conference-pitch:last-child {
+    margin-right: 0; }
+
 .boxed {
   margin-top: 10px;
   text-align: left;
@@ -182,6 +204,10 @@ header {
     background: white; }
 
 @media only screen and (min-width: 599px) {
+  .line-break {
+    content: "\A";
+    white-space: pre; }
+
   img {
     max-width: 900px;
     margin: 0 auto; }
@@ -191,7 +217,13 @@ header {
 
   .desktop {
     display: block; } }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
+  p {
+    font-size: 12px; }
+
+  h2, h3 {
+    font-size: 18px; } }
+@media only screen and (max-width: 800px) {
   .mobile {
     display: block; }
 
@@ -206,6 +238,15 @@ header {
     font-size: 12px; }
 
   h2 {
-    font-size: 18px; } }
+    font-size: 18px; }
+
+  article.conference-pitch {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%;
+    margin-left: 8.5298%; }
+    article.conference-pitch:last-child {
+      margin-right: 0; } }
 
 /*# sourceMappingURL=style.css.map */

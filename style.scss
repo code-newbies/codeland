@@ -17,6 +17,11 @@ $city-life-color: $light-blue;
 @import "neat/neat";
 @import "mailchimp_signup";
 
+.wrapper {
+  padding: 0 10%;
+  margin-bottom: 30px;
+}
+
 body {
   margin: 0px;
   border-top: 30px solid black;
@@ -25,6 +30,10 @@ a { color: inherit; }
 a:hover { color: #2c52af; }
 a span { font-family: "Roboto"; }
 h2, h3 { font-family: "Roboto"; }
+h3 {
+  font-size: 24px;
+  margin-bottom: 0px;
+}
 
 h2 {
   font-size: 36px;
@@ -36,9 +45,13 @@ p {
 }
 
 header {
-  padding: 30px 20px;
+  padding: 5% 20px;
   text-align: center;
   .boxed, .box { text-align: center; }
+  .line-break::before {
+    content: "\A";
+    white-space: pre;
+  }
   .conference-description {
     margin-top: 5px;
     span {
@@ -71,6 +84,16 @@ header {
   font-weight: 600;
   font-family: "Roboto", san-serif;
   a { text-decoration: none; }
+}
+
+article {
+  &.conference-pitch {
+    @include span-columns(6);
+    @include shift(3);
+    text-align: center;
+    padding-top: 30px;
+  }
+
 }
 
 // h2 {
@@ -150,11 +173,6 @@ header {
 //   }
 // }
 
-// .wrapper {
-//   padding: 0 10%;
-//   margin-bottom: 30px;
-// }
-
 // .topics {
 //   @include span-columns(3);
 //   .boxed { text-align: right; }
@@ -171,6 +189,10 @@ header {
 // }
 
 @media only screen and (min-width: 599px){
+  .line-break {
+    content: "\A";
+    white-space: pre;
+  }
   img {
     max-width: 900px;
     margin: 0 auto;
@@ -187,7 +209,12 @@ header {
 //   .topics, .description { @include span-columns(6); }
 // }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 500px){
+  p { font-size: 12px; }
+  h2, h3 { font-size: 18px; }
+}
+
+@media only screen and (max-width: 800px){
   .mobile { display: block; }
   .desktop { display: none; }
   img {
@@ -196,6 +223,12 @@ header {
   }
   header p { font-size: 12px; }
   h2 { font-size: 18px; }
+  article {
+    &.conference-pitch {
+    @include span-columns(10);
+    @include shift(1);
+    }
+  }
 //   .topics, .description { @include span-columns(12); }
 //   .topics .boxed {
 //     text-align: left;
