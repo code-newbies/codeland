@@ -90,6 +90,15 @@ header {
     content: "\A";
     white-space: pre;
   }
+  .date-location {
+    font-weight: 600;
+    margin-bottom: 0;
+    .highlight {
+      padding-top: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
   .conference-description {
     margin-top: 5px;
     span {

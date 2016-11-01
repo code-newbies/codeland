@@ -189,6 +189,13 @@ header {
   header .line-break::before {
     content: "\A";
     white-space: pre; }
+  header .date-location {
+    font-weight: 600;
+    margin-bottom: 0; }
+    header .date-location .highlight {
+      padding-top: 10px;
+      padding-left: 15px;
+      padding-right: 15px; }
   header .conference-description {
     margin-top: 5px; }
     header .conference-description span {
