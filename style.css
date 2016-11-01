@@ -5,7 +5,6 @@ html {
   box-sizing: inherit; }
 
 .mailchimp-signup {
-  background: #fafafa;
   display: block;
   margin-top: 20px;
   padding-top: 30px; }
@@ -276,10 +275,29 @@ article {
     text-align: center; }
     article.buy-tickets:last-child {
       margin-right: 0; }
+  article.ticket-explainer {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    text-align: center; }
+    article.ticket-explainer:last-child {
+      margin-right: 0; }
+    article.ticket-explainer p {
+      margin: 0; }
+    article.ticket-explainer .ticket-name {
+      font-weight: 600; }
+      article.ticket-explainer .ticket-name::after {
+        content: ":"; }
+    article.ticket-explainer .ticket-question {
+      margin-top: 30px;
+      margin-bottom: 10px;
+      font-weight: 600; }
 
 .ticket-info {
   background: #f8f8f8;
-  padding-bottom: 50px; }
+  padding-bottom: 90px;
+  margin-bottom: 0px; }
 
 .tickets {
   float: left;

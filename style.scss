@@ -155,11 +155,26 @@ article {
     @include span-columns(12);
     text-align: center;
   }
+  &.ticket-explainer {
+    @include span-columns(12);
+    text-align: center;
+    p { margin: 0; }
+    .ticket-name {
+      &::after { content: ":";}
+      font-weight: 600;
+    }
+    .ticket-question {
+      margin-top: 30px;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+  }
 }
 
 .ticket-info {
   background: $lightgray;
-  padding-bottom: 50px;
+  padding-bottom: 90px;
+  margin-bottom: 0px;
 }
 
 .tickets {
