@@ -38,9 +38,13 @@ header {
   padding: 30px 20px;
   text-align: center;
   .boxed, .box { text-align: center; }
-  .conference-description span {
-    border: 2px solid black;
-    padding: 5px 30px;
+  .conference-description {
+    margin-top: 5px;
+    span {
+      border: 2px solid black;
+      padding: 5px 30px;
+      display: inline-block;
+    }
   }
 }
 
@@ -172,6 +176,11 @@ header {
 @media only screen and (max-width: 600px){
   .mobile { display: block; }
   .desktop { display: none; }
+  img {
+    margin: 0 auto;
+    width: 100%;
+  }
+  h2 { font-size: 24px; }
 //   .topics, .description { @include span-columns(12); }
 //   .topics .boxed {
 //     text-align: left;

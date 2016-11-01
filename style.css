@@ -136,9 +136,12 @@ header {
   text-align: center; }
   header .boxed, header .box {
     text-align: center; }
-  header .conference-description span {
-    border: 2px solid black;
-    padding: 5px 30px; }
+  header .conference-description {
+    margin-top: 5px; }
+    header .conference-description span {
+      border: 2px solid black;
+      padding: 5px 30px;
+      display: inline-block; }
 
 .get-tickets {
   text-transform: uppercase;
@@ -181,6 +184,13 @@ header {
     display: block; }
 
   .desktop {
-    display: none; } }
+    display: none; }
+
+  img {
+    margin: 0 auto;
+    width: 100%; }
+
+  h2 {
+    font-size: 24px; } }
 
 /*# sourceMappingURL=style.css.map */
