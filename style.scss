@@ -7,6 +7,7 @@ $orange: #ffaa62;
 $red: #ff2e8e;
 $purple: #fc2eff;
 $light-blue: #1ffff5;
+$lightgray: #f8f8f8;
 
 $art-gaming-color: $purple;
 $health-color: $red;
@@ -20,6 +21,7 @@ $city-life-color: $light-blue;
 .wrapper {
   padding: 0 10%;
   margin-bottom: 30px;
+  @include clearfix;
 }
 
 body {
@@ -119,6 +121,10 @@ header {
   font-weight: 600;
   font-family: "Roboto", san-serif;
   a { text-decoration: none; }
+  &:hover {
+    background: yellow;
+    a { color: black; font-weight: 900; }
+  }
 }
 
 article {
@@ -144,6 +150,16 @@ article {
     h4 { margin-top: 0; }
     text-align: center;
   }
+  &.buy-tickets {
+    margin-top: 40px;
+    @include span-columns(12);
+    text-align: center;
+  }
+}
+
+.ticket-info {
+  background: $lightgray;
+  padding-bottom: 50px;
 }
 
 .tickets {
@@ -267,6 +283,17 @@ article {
 @media only screen and (max-width: 500px){
   p { font-size: 12px; }
   h2, h3 { font-size: 18px; }
+  .tickets {
+    @include shift(0);
+    @include span-columns(12);
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px){
+  .tickets {
+    @include shift(1);
+    @include span-columns(10);
+  }
 }
 
 @media only screen and (max-width: 800px){

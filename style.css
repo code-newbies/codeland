@@ -111,6 +111,10 @@ html {
 .wrapper {
   padding: 0 10%;
   margin-bottom: 30px; }
+  .wrapper::after {
+    clear: both;
+    content: "";
+    display: block; }
 
 body {
   margin: 0px;
@@ -210,6 +214,11 @@ header {
   font-family: "Roboto", san-serif; }
   .get-tickets a {
     text-decoration: none; }
+  .get-tickets:hover {
+    background: yellow; }
+    .get-tickets:hover a {
+      color: black;
+      font-weight: 900; }
 
 article {
   max-width: 1200px;
@@ -258,6 +267,19 @@ article {
       margin-right: 0; }
     article.ticket h4 {
       margin-top: 0; }
+  article.buy-tickets {
+    margin-top: 40px;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    text-align: center; }
+    article.buy-tickets:last-child {
+      margin-right: 0; }
+
+.ticket-info {
+  background: #f8f8f8;
+  padding-bottom: 50px; }
 
 .tickets {
   float: left;
@@ -302,7 +324,25 @@ article {
     font-size: 12px; }
 
   h2, h3 {
-    font-size: 18px; } }
+    font-size: 18px; }
+
+  .tickets {
+    margin-left: 0%;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .tickets:last-child {
+      margin-right: 0; } }
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  .tickets {
+    margin-left: 8.5298%;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%; }
+    .tickets:last-child {
+      margin-right: 0; } }
 @media only screen and (max-width: 800px) {
   .mobile {
     display: block; }
