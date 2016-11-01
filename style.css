@@ -279,7 +279,15 @@ article {
     article.ticket h4 {
       margin-top: 0; }
     article.ticket:hover {
-      background: yellow; }
+      background: white; }
+      article.ticket:hover .student, article.ticket:hover .individual, article.ticket:hover .supporter {
+        background: white; }
+      article.ticket:hover .student .checkbox-top {
+        background: yellow; }
+      article.ticket:hover .individual .checkbox-top {
+        background: #ff94de; }
+      article.ticket:hover .supporter .checkbox-top {
+        background: #4d94ff; }
   article.buy-tickets {
     margin-top: 40px;
     float: left;
@@ -362,6 +370,29 @@ footer {
     z-index: -999;
     background: white; }
 
+.checkbox {
+  padding: 3px 9px;
+  font-size: 10px;
+  margin-right: 10px;
+  border: 2px solid black;
+  position: relative; }
+  .checkbox.student {
+    background: yellow; }
+  .checkbox.individual {
+    background: #ff94de; }
+  .checkbox.supporter {
+    background: #4d94ff; }
+  .checkbox .checkbox-top {
+    position: absolute;
+    padding: 3px 9px;
+    font-size: 10px;
+    height: 23px;
+    margin-right: 8px;
+    top: -6px;
+    right: -5px;
+    background: white;
+    border: 2px solid black; }
+
 @media only screen and (min-width: 599px) {
   .line-break {
     content: "\A";
@@ -376,13 +407,7 @@ footer {
 
   .desktop {
     display: block; } }
-@media only screen and (max-width: 500px) {
-  p {
-    font-size: 12px; }
-
-  h2, h3 {
-    font-size: 18px; }
-
+@media only screen and (max-width: 1000px) {
   .tickets {
     margin-left: 0%;
     float: left;
@@ -391,14 +416,19 @@ footer {
     width: 100%; }
     .tickets:last-child {
       margin-right: 0; } }
-@media only screen and (min-width: 500px) and (max-width: 800px) {
-  .tickets {
-    margin-left: 8.5298%;
+@media only screen and (max-width: 500px) {
+  p {
+    font-size: 12px; }
+
+  h2, h3 {
+    font-size: 18px; }
+
+  article.ticket {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 82.94039%; }
-    .tickets:last-child {
+    width: 100%; }
+    article.ticket:last-child {
       margin-right: 0; } }
 @media only screen and (max-width: 800px) {
   .mobile {

@@ -162,7 +162,15 @@ article {
     padding-bottom: 20px;
     h4 { margin-top: 0; }
     text-align: center;
-    &:hover { background: yellow; }
+    &:hover {
+      background: white;
+      .student, .individual, .supporter {
+        background: white;
+      }
+      .student .checkbox-top { background: yellow; }
+      .individual .checkbox-top { background: $pink; }
+      .supporter .checkbox-top { background: $blue; }
+    }
   }
   &.buy-tickets {
     margin-top: 40px;
@@ -254,6 +262,29 @@ footer {
     background: white;
   }
 }
+
+.checkbox {
+  padding: 3px 9px;
+  font-size: 10px;
+  margin-right: 10px;
+  &.student { background: yellow; }
+  &.individual { background: $pink; }
+  &.supporter { background: $blue; }
+  border: 2px solid black;
+  position: relative;
+  .checkbox-top {
+    position: absolute;
+    padding: 3px 9px;
+    font-size: 10px;
+    height: 23px;
+    margin-right: 8px;
+    top: -6px;
+    right: -5px;
+    background: white;
+    border: 2px solid black;
+  }
+}
+
 //   section {
 //     @include outer-container(100%);
 //     .faqs, .venue { @include span-columns(6) };
@@ -318,20 +349,17 @@ footer {
   .desktop { display: block; }
 }
 
-@media only screen and (max-width: 500px){
-  p { font-size: 12px; }
-  h2, h3 { font-size: 18px; }
+@media only screen and (max-width: 1000px){
   .tickets {
     @include shift(0);
     @include span-columns(12);
   }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 800px){
-  .tickets {
-    @include shift(1);
-    @include span-columns(10);
-  }
+@media only screen and (max-width: 500px){
+  p { font-size: 12px; }
+  h2, h3 { font-size: 18px; }
+  article.ticket { @include span-columns(12); }
 }
 
 @media only screen and (max-width: 800px){
