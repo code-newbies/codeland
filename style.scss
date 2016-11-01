@@ -202,12 +202,12 @@ article {
 .tickets {
   @include span-columns(8);
   @include shift(2);
-    a {
-      text-decoration: none;
-      &:hover {
-        color: black;
-      }
+  a {
+    text-decoration: none;
+    &:hover {
+      color: black;
     }
+  }
 }
 
 footer {
@@ -220,31 +220,6 @@ footer {
   .about-codenewbie { @include span-columns(8); }
   .sponsorship { @include span-columns(4); }
 }
-
-// h2 {
-//   font-family: "Helvetica";
-//   text-transform: uppercase;
-//   margin-bottom: 10px;
-//   text-align: center;
-//   font-size: 3vw;
-//   font-weight: 900;
-// }
-
-// h3 {
-//   font-family: "Helvetica";
-//   font-size: 2vw;
-//   font-weight: 100;
-//   margin-top: 5px;
-//   margin-bottom: 5px;
-// }
-
-// p {
-//   font-family: "Helvetica";
-//   margin-bottom: 0px;
-//   margin-top: 0px;
-//   text-align: center;
-//   font-weight: 100;
-// }
 
 .boxed {
   margin-top: 10px;
@@ -284,57 +259,6 @@ footer {
     border: 2px solid black;
   }
 }
-
-//   section {
-//     @include outer-container(100%);
-//     .faqs, .venue { @include span-columns(6) };
-//     .tickets {
-//       @include span-columns(6);
-//       background: #f8f8f8;
-//       h2 {
-//         text-align: center;
-//         padding-top: 20px;
-//   }
-// }
-//   article {
-//     margin-bottom: 30px;
-//     p {
-//       font-size: 18px;
-//       text-align: left;
-//     }
-//     h2 {
-//       font-size: 24px;
-//       text-align: left;
-//     }
-//   }
-// }
-
-// .description {
-//   @include span-columns(9);
-//   p {
-//     text-align: left;
-//     margin-bottom: 20px;
-//   }
-//   h3 {
-//     font-weight: 500;
-//     font-size: 24px;
-//   }
-// }
-
-// .topics {
-//   @include span-columns(3);
-//   .boxed { text-align: right; }
-//   .boxed .box-shadow {
-//     right: -10px;
-//     left: auto;
-//     &.health { background: $health-color; }
-//     &.education { background: $education-color; }
-//     &.city-life { background: $city-life-color; }
-//     &.community { background: $community-color; }
-//     &.art-gaming { background: $art-gaming-color; }
-//   }
-//   .box { text-align: right; }
-// }
 
 @media only screen and (min-width: 599px){
   .line-break {
@@ -380,22 +304,4 @@ footer {
     @include shift(1);
     }
   }
-//   .topics, .description { @include span-columns(12); }
-//   .topics .boxed {
-//     text-align: left;
-//     .box-shadow {
-//       text-align: left;
-//       left: 10px;
-//       right: auto;
-//     }
-//   }
-//   h1 {
-//     font-size: 30vw;
-//     line-height: .8;
-//     span {
-//       display: block;
-//     }
-//   }
-//   h2 { font-size: 16px; }
-//   p { font-size: 20px; }
 }
