@@ -117,7 +117,8 @@ html {
 
 body {
   margin: 0px;
-  border-top: 30px solid black; }
+  border-top: 30px solid black;
+  border-bottom: 30px solid black; }
 
 a {
   color: inherit; }
@@ -308,6 +309,27 @@ article {
   .tickets:last-child {
     margin-right: 0; }
 
+footer {
+  background: #f8f8f8; }
+  footer.wrapper {
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 60px; }
+  footer .about-codenewbie {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%; }
+    footer .about-codenewbie:last-child {
+      margin-right: 0; }
+  footer .sponsorship {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    footer .sponsorship:last-child {
+      margin-right: 0; }
+
 .boxed {
   margin-top: 10px;
   text-align: left;
@@ -385,6 +407,22 @@ article {
 
   h2 {
     font-size: 18px; }
+
+  footer .about-codenewbie {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    footer .about-codenewbie:last-child {
+      margin-right: 0; }
+
+  footer .sponsorship {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    footer .sponsorship:last-child {
+      margin-right: 0; }
 
   article.conference-pitch {
     float: left;

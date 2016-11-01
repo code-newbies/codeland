@@ -27,6 +27,7 @@ $city-life-color: $light-blue;
 body {
   margin: 0px;
   border-top: 30px solid black;
+  border-bottom: 30px solid black;
 }
 a { color: inherit; }
 a:hover { color: #2c52af; }
@@ -182,6 +183,17 @@ article {
   @include shift(2);
 }
 
+footer {
+  &.wrapper {
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  background: $lightgray;
+  .about-codenewbie { @include span-columns(8); }
+  .sponsorship { @include span-columns(4); }
+}
+
 // h2 {
 //   font-family: "Helvetica";
 //   text-transform: uppercase;
@@ -287,14 +299,6 @@ article {
   .desktop { display: block; }
 }
 
-// @media only screen and (max-width: 800px){
-//   div.faqs { @include span-columns(12); }
-// }
-
-// @media only screen and (max-width: 1000px){
-//   .topics, .description { @include span-columns(6); }
-// }
-
 @media only screen and (max-width: 500px){
   p { font-size: 12px; }
   h2, h3 { font-size: 18px; }
@@ -321,6 +325,8 @@ article {
   }
   header p { font-size: 12px; }
   h2 { font-size: 18px; }
+  footer .about-codenewbie { @include span-columns(12); }
+  footer .sponsorship { @include span-columns(12); }
   article {
     &.conference-pitch {
     @include span-columns(10);
