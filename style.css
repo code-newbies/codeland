@@ -156,6 +156,9 @@ h5 {
   display: inline-block;
   margin-right: 20px; }
 
+.capitalize {
+  text-transform: uppercase; }
+
 .topics .boxed {
   margin-bottom: 20px; }
   .topics .boxed .box {
@@ -269,11 +272,14 @@ article {
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%;
+    padding-bottom: 20px;
     text-align: center; }
     article.ticket:last-child {
       margin-right: 0; }
     article.ticket h4 {
       margin-top: 0; }
+    article.ticket:hover {
+      background: yellow; }
   article.buy-tickets {
     margin-top: 40px;
     float: left;
@@ -315,6 +321,10 @@ article {
   margin-left: 17.05961%; }
   .tickets:last-child {
     margin-right: 0; }
+  .tickets a {
+    text-decoration: none; }
+    .tickets a:hover {
+      color: black; }
 
 footer {
   background: #f8f8f8; }
