@@ -293,6 +293,10 @@ footer {
     @include span-columns(12);
     @include shift(0);
   }
+  .line-break::before {
+    content: none;
+    white-space: normal;
+  }
 }
 
 @media only screen and (max-width: 800px){
