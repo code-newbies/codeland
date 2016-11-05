@@ -152,8 +152,8 @@ article {
     padding-top: 30px;
   }
   &.ticket-header {
-    @include span-columns(8);
-    @include shift(2);
+    @include span-columns(10);
+    @include shift(1);
     text-align: center;
     padding-top: 30px;
   }
@@ -174,11 +174,14 @@ article {
   }
   &.buy-tickets {
     margin-top: 40px;
-    @include span-columns(12);
+    margin: 0 auto;
     text-align: center;
+    @include span-columns(10);
+    @include shift(1);
   }
   &.ticket-explainer {
-    @include span-columns(12);
+    @include span-columns(10);
+    @include shift(1);
     text-align: center;
     p { margin: 0; }
     .ticket-name {
@@ -283,7 +286,13 @@ footer {
 @media only screen and (max-width: 500px){
   p { font-size: 12px; }
   h2, h3 { font-size: 18px; }
-  article.ticket { @include span-columns(12); }
+  article {
+    @include shift(0);
+  }
+  article.ticket, article.ticket-explainer {
+    @include span-columns(12);
+    @include shift(0);
+  }
 }
 
 @media only screen and (max-width: 800px){

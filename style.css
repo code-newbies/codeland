@@ -261,8 +261,8 @@ article {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 65.88078%;
-    margin-left: 17.05961%;
+    width: 82.94039%;
+    margin-left: 8.5298%;
     text-align: center;
     padding-top: 30px; }
     article.ticket-header:last-child {
@@ -290,18 +290,21 @@ article {
         background: #4d94ff; }
   article.buy-tickets {
     margin-top: 40px;
+    margin: 0 auto;
+    text-align: center;
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 100%;
-    text-align: center; }
+    width: 82.94039%;
+    margin-left: 8.5298%; }
     article.buy-tickets:last-child {
       margin-right: 0; }
   article.ticket-explainer {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 100%;
+    width: 82.94039%;
+    margin-left: 8.5298%;
     text-align: center; }
     article.ticket-explainer:last-child {
       margin-right: 0; }
@@ -423,12 +426,16 @@ footer {
   h2, h3 {
     font-size: 18px; }
 
-  article.ticket {
+  article {
+    margin-left: 0%; }
+
+  article.ticket, article.ticket-explainer {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 100%; }
-    article.ticket:last-child {
+    width: 100%;
+    margin-left: 0%; }
+    article.ticket:last-child, article.ticket-explainer:last-child {
       margin-right: 0; } }
 @media only screen and (max-width: 800px) {
   .mobile {
