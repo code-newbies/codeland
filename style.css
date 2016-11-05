@@ -135,8 +135,8 @@ p {
 
 h2 {
   font-size: 36px;
-  font-weight: 100;
-  font-family: "Roboto"; }
+  font-weight: 300;
+  font-family: "Roboto", "san serif"; }
 
 h3 {
   font-size: 24px;
@@ -145,7 +145,7 @@ h3 {
 
 h4 {
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 300;
   font-family: "Roboto";
   margin-bottom: 0px; }
 
@@ -193,7 +193,7 @@ header {
     content: "\A";
     white-space: pre; }
   header .date-location {
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 0; }
     header .date-location .highlight {
       padding-top: 10px;
@@ -220,7 +220,7 @@ header {
   background: #00ff00;
   border: 2px solid black;
   padding: 5px 20px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Roboto", san-serif; }
   .get-tickets a {
     text-decoration: none; }
@@ -311,13 +311,13 @@ article {
     article.ticket-explainer p {
       margin: 0; }
     article.ticket-explainer .ticket-name {
-      font-weight: 600; }
+      font-weight: 500; }
       article.ticket-explainer .ticket-name::after {
         content: ":"; }
     article.ticket-explainer .ticket-question {
       margin-top: 30px;
       margin-bottom: 10px;
-      font-weight: 600; }
+      font-weight: 500; }
 
 .ticket-info {
   background: #f8f8f8;

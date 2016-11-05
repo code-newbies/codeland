@@ -38,8 +38,8 @@ p {
 }
 h2 {
   font-size: 36px;
-  font-weight: 100;
-  font-family: "Roboto";
+  font-weight: 300;
+  font-family: "Roboto", "san serif";
 }
 h3 {
   font-size: 24px;
@@ -48,7 +48,7 @@ h3 {
 }
 h4 {
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 300;
   font-family: "Roboto";
   margin-bottom: 0px;
 }
@@ -93,7 +93,7 @@ header {
     white-space: pre;
   }
   .date-location {
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 0;
     .highlight {
       padding-top: 10px;
@@ -130,7 +130,7 @@ header {
   background: $green;
   border: 2px solid black;
   padding: 5px 20px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Roboto", san-serif;
   a { text-decoration: none; }
   &:hover {
@@ -186,12 +186,12 @@ article {
     p { margin: 0; }
     .ticket-name {
       &::after { content: ":";}
-      font-weight: 600;
+      font-weight: 500;
     }
     .ticket-question {
       margin-top: 30px;
       margin-bottom: 10px;
-      font-weight: 600;
+      font-weight: 500;
     }
   }
 }
