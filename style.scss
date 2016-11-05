@@ -186,12 +186,12 @@ article {
     p { margin: 0; }
     .ticket-name {
       &::after { content: ":";}
-      font-weight: 500;
+      font-weight: bold;
     }
     .ticket-question {
       margin-top: 30px;
       margin-bottom: 10px;
-      font-weight: 500;
+      font-weight: bold;
     }
   }
 }

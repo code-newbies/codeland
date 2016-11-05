@@ -311,13 +311,13 @@ article {
     article.ticket-explainer p {
       margin: 0; }
     article.ticket-explainer .ticket-name {
-      font-weight: 500; }
+      font-weight: bold; }
       article.ticket-explainer .ticket-name::after {
         content: ":"; }
     article.ticket-explainer .ticket-question {
       margin-top: 30px;
       margin-bottom: 10px;
-      font-weight: 500; }
+      font-weight: bold; }
 
 .ticket-info {
   background: #f8f8f8;
