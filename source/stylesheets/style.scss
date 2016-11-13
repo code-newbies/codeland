@@ -15,8 +15,8 @@ $education-color: $orange;
 $community-color: $green;
 $city-life-color: $light-blue;
 
-@import "neat/neat";
-@import "mailchimp_signup";
+@import "lib/_neat/neat";
+@import "lib/_mailchimp_signup";
 
 .wrapper {
   padding: 0 10%;
@@ -119,7 +119,7 @@ header {
       border-radius: 20%;
     }
   }
-  background-image: url("maze-gray.jpg");
+  background-image: url("../images/maze-gray.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
