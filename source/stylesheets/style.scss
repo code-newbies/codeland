@@ -88,10 +88,6 @@ header {
   padding: 5% 20px;
   text-align: center;
   .boxed, .box { text-align: center; }
-  .line-break::before {
-    content: "\A";
-    white-space: pre;
-  }
   .date-location {
     font-weight: 500;
     margin-bottom: 0;
@@ -102,6 +98,10 @@ header {
     }
   }
   .conference-description {
+    max-width: 680px;
+    margin: 10px auto;
+  }
+  .conference-header {
     margin-top: 5px;
     span {
       border: 2px solid black;
@@ -264,10 +264,6 @@ footer {
 }
 
 @media only screen and (min-width: 599px){
-  .line-break {
-    content: "\A";
-    white-space: pre;
-  }
   img {
     max-width: 900px;
     margin: 0 auto;
