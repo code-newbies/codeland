@@ -189,9 +189,6 @@ header {
   background-size: 100%; }
   header .boxed, header .box {
     text-align: center; }
-  header .line-break::before {
-    content: "\A";
-    white-space: pre; }
   header .date-location {
     font-weight: 500;
     margin-bottom: 0; }
@@ -200,8 +197,11 @@ header {
       padding-left: 15px;
       padding-right: 15px; }
   header .conference-description {
+    max-width: 680px;
+    margin: 10px auto; }
+  header .conference-header {
     margin-top: 5px; }
-    header .conference-description span {
+    header .conference-header span {
       border: 2px solid black;
       padding: 5px 30px;
       display: inline-block;
@@ -397,10 +397,6 @@ footer {
     border: 2px solid black; }
 
 @media only screen and (min-width: 599px) {
-  .line-break {
-    content: "\A";
-    white-space: pre; }
-
   img {
     max-width: 900px;
     margin: 0 auto; }
