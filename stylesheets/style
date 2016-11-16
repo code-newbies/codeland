@@ -1,0 +1,492 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.mailchimp-signup {
+  display: block;
+  margin-top: 20px;
+  padding-top: 30px; }
+  .mailchimp-signup::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .mailchimp-signup #mc_embed_signup {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-left: 17.05961%;
+    padding: 20px 40px 30px;
+    text-align: center; }
+    .mailchimp-signup #mc_embed_signup:last-child {
+      margin-right: 0; }
+    .mailchimp-signup #mc_embed_signup .clear {
+      display: inline; }
+    .mailchimp-signup #mc_embed_signup form {
+      margin-bottom: 0px; }
+    .mailchimp-signup #mc_embed_signup input {
+      margin-bottom: 0px;
+      padding: 5px 20px; }
+    .mailchimp-signup #mc_embed_signup input.email {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      height: 50px;
+      border: 2px solid black;
+      font-size: 16px; }
+      .mailchimp-signup #mc_embed_signup input.email:last-child {
+        margin-right: 0; }
+    .mailchimp-signup #mc_embed_signup label {
+      display: block;
+      font-size: 20px;
+      color: black;
+      font-family: "Roboto";
+      padding: 60px 10px 10px; }
+    .mailchimp-signup #mc_embed_signup .button {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      box-shadow: none;
+      height: 50px;
+      border-radius: 0;
+      background: #fffd2e;
+      border: 2px solid black;
+      color: black;
+      text-transform: uppercase;
+      font-family: "Roboto";
+      font-size: 18px;
+      font-weight: 900;
+      padding: 0px 30px;
+      cursor: pointer;
+      white-space: no-wrap;
+      -webkit-appearance: none; }
+      .mailchimp-signup #mc_embed_signup .button:last-child {
+        margin-right: 0; }
+    .mailchimp-signup #mc_embed_signup .button:hover {
+      background: #00ff00; }
+  @media only screen and (min-width: 750px) and (max-width: 900px) {
+    .mailchimp-signup #mc_embed_signup {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 82.94039%;
+      margin-left: 8.5298%;
+      padding: 2px 4px 3px; }
+      .mailchimp-signup #mc_embed_signup:last-child {
+        margin-right: 0; } }
+  @media only screen and (max-width: 749px) {
+    .mailchimp-signup #mc_embed_signup {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-left: 0%;
+      padding: 2px 4px 3px; }
+      .mailchimp-signup #mc_embed_signup:last-child {
+        margin-right: 0; }
+      .mailchimp-signup #mc_embed_signup input.email {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px; }
+        .mailchimp-signup #mc_embed_signup input.email:last-child {
+          margin-right: 0; }
+      .mailchimp-signup #mc_embed_signup .button {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        padding: 5px 10px;
+        margin-bottom: 20px; }
+        .mailchimp-signup #mc_embed_signup .button:last-child {
+          margin-right: 0; } }
+
+.wrapper {
+  padding: 0 10%;
+  margin-bottom: 30px; }
+  .wrapper::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+body {
+  margin: 0px;
+  border-top: 30px solid black;
+  border-bottom: 30px solid black; }
+
+a {
+  color: inherit; }
+
+a:hover {
+  color: #2c52af; }
+
+a span {
+  font-family: "Roboto"; }
+
+p {
+  font-size: 18px;
+  font-family: "Helvetica"; }
+
+h2 {
+  font-size: 36px;
+  font-weight: 300;
+  font-family: "Roboto", "san serif"; }
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 0px;
+  font-family: "Roboto"; }
+
+h4 {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Roboto";
+  margin-bottom: 0px; }
+
+h5 {
+  font-family: "Roboto";
+  font-size: 18px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: 20px; }
+
+.capitalize {
+  text-transform: uppercase; }
+
+.topics .boxed {
+  margin-bottom: 20px; }
+  .topics .boxed .box {
+    padding: 3px 15px;
+    border: 2px solid black;
+    background: white; }
+  .topics .boxed .box-shadow {
+    z-index: -999;
+    top: 2px;
+    height: 32px;
+    left: 5px; }
+    .topics .boxed .box-shadow.health {
+      background: #ff2e8e; }
+    .topics .boxed .box-shadow.education {
+      background: #ffaa62; }
+    .topics .boxed .box-shadow.city-life {
+      background: #1ffff5; }
+    .topics .boxed .box-shadow.community {
+      background: #00ff00; }
+    .topics .boxed .box-shadow.art-gaming {
+      background: #fc2eff; }
+
+header {
+  padding: 5% 20px;
+  text-align: center;
+  background-image: url("../images/maze-gray.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%; }
+  header .boxed, header .box {
+    text-align: center; }
+  header .line-break::before {
+    content: "\A";
+    white-space: pre; }
+  header .date-location {
+    font-weight: 500;
+    margin-bottom: 0; }
+    header .date-location .highlight {
+      padding-top: 10px;
+      padding-left: 15px;
+      padding-right: 15px; }
+  header .conference-description {
+    margin-top: 5px; }
+    header .conference-description span {
+      border: 2px solid black;
+      padding: 5px 30px;
+      display: inline-block;
+      background: white; }
+  header span.highlight {
+    background: white;
+    padding: 5px 10px;
+    display: inline-block; }
+    header span.highlight.logo {
+      padding: 10px;
+      border-radius: 20%; }
+
+.get-tickets {
+  text-transform: uppercase;
+  font-size: 18px;
+  background: #00ff00;
+  border: 2px solid black;
+  padding: 5px 20px;
+  font-weight: 500;
+  font-family: "Roboto", san-serif; }
+  .get-tickets a {
+    text-decoration: none; }
+  .get-tickets:hover {
+    background: yellow; }
+    .get-tickets:hover a {
+      color: black;
+      font-weight: 900; }
+
+article {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  article::after {
+    clear: both;
+    content: "";
+    display: block; }
+  article p {
+    margin-top: 5px; }
+  article.program {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    article.program:last-child {
+      margin-right: 0; }
+  article.conference-pitch {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-left: 17.05961%;
+    text-align: center;
+    padding-top: 30px; }
+    article.conference-pitch:last-child {
+      margin-right: 0; }
+  article.ticket-header {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%;
+    margin-left: 8.5298%;
+    text-align: center;
+    padding-top: 30px; }
+    article.ticket-header:last-child {
+      margin-right: 0; }
+  article.ticket {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    padding-bottom: 20px;
+    text-align: center; }
+    article.ticket:last-child {
+      margin-right: 0; }
+    article.ticket h4 {
+      margin-top: 0; }
+    article.ticket:hover {
+      background: white; }
+      article.ticket:hover .student, article.ticket:hover .individual, article.ticket:hover .supporter {
+        background: white; }
+      article.ticket:hover .student .checkbox-top {
+        background: yellow; }
+      article.ticket:hover .individual .checkbox-top {
+        background: #ff94de; }
+      article.ticket:hover .supporter .checkbox-top {
+        background: #4d94ff; }
+  article.buy-tickets {
+    margin-top: 40px;
+    margin: 0 auto;
+    text-align: center;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%;
+    margin-left: 8.5298%; }
+    article.buy-tickets:last-child {
+      margin-right: 0; }
+  article.ticket-explainer {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%;
+    margin-left: 8.5298%;
+    text-align: center; }
+    article.ticket-explainer:last-child {
+      margin-right: 0; }
+    article.ticket-explainer p {
+      margin: 0; }
+    article.ticket-explainer .ticket-name {
+      font-weight: bold; }
+      article.ticket-explainer .ticket-name::after {
+        content: ":"; }
+    article.ticket-explainer .ticket-question {
+      margin-top: 30px;
+      margin-bottom: 10px;
+      font-weight: bold; }
+
+.ticket-info {
+  background: #f8f8f8;
+  padding-bottom: 90px;
+  margin-bottom: 0px; }
+
+.tickets {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  margin-left: 17.05961%; }
+  .tickets:last-child {
+    margin-right: 0; }
+  .tickets a {
+    text-decoration: none; }
+    .tickets a:hover {
+      color: black; }
+
+footer {
+  background: #f8f8f8; }
+  footer.wrapper {
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 60px; }
+  footer .about-codenewbie {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%; }
+    footer .about-codenewbie:last-child {
+      margin-right: 0; }
+  footer .sponsorship {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    footer .sponsorship:last-child {
+      margin-right: 0; }
+
+.boxed {
+  margin-top: 10px;
+  text-align: left;
+  position: relative; }
+  .boxed .box-shadow {
+    display: inline-block;
+    position: absolute;
+    top: -5px;
+    left: 10px;
+    width: auto;
+    height: 40px;
+    border: 2px solid black;
+    z-index: -999;
+    background: white; }
+
+.checkbox {
+  padding: 3px 9px;
+  font-size: 10px;
+  margin-right: 10px;
+  border: 2px solid black;
+  position: relative; }
+  .checkbox.student {
+    background: yellow; }
+  .checkbox.individual {
+    background: #ff94de; }
+  .checkbox.supporter {
+    background: #4d94ff; }
+  .checkbox .checkbox-top {
+    position: absolute;
+    padding: 3px 9px;
+    font-size: 10px;
+    height: 23px;
+    margin-right: 8px;
+    top: -6px;
+    right: -5px;
+    background: white;
+    border: 2px solid black; }
+
+@media only screen and (min-width: 599px) {
+  .line-break {
+    content: "\A";
+    white-space: pre; }
+
+  img {
+    max-width: 900px;
+    margin: 0 auto; }
+
+  .mobile {
+    display: none; }
+
+  .desktop {
+    display: block; } }
+@media only screen and (max-width: 1000px) {
+  .tickets {
+    margin-left: 0%;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .tickets:last-child {
+      margin-right: 0; } }
+@media only screen and (max-width: 500px) {
+  p {
+    font-size: 12px; }
+
+  h2, h3 {
+    font-size: 18px; }
+
+  article {
+    margin-left: 0%; }
+
+  article.ticket, article.ticket-explainer {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-left: 0%; }
+    article.ticket:last-child, article.ticket-explainer:last-child {
+      margin-right: 0; }
+
+  .line-break::before {
+    content: none;
+    white-space: normal; } }
+@media only screen and (max-width: 800px) {
+  .mobile {
+    display: block; }
+
+  .desktop {
+    display: none; }
+
+  article.program {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    article.program:last-child {
+      margin-right: 0; }
+
+  img {
+    margin: 0 auto;
+    width: 100%; }
+
+  header p {
+    font-size: 12px; }
+
+  h2 {
+    font-size: 18px; }
+
+  footer .about-codenewbie {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    footer .about-codenewbie:last-child {
+      margin-right: 0; }
+
+  footer .sponsorship {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    footer .sponsorship:last-child {
+      margin-right: 0; }
+
+  article.conference-pitch {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%;
+    margin-left: 8.5298%; }
+    article.conference-pitch:last-child {
+      margin-right: 0; } }
