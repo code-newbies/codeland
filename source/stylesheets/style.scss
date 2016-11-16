@@ -124,7 +124,12 @@ header {
   background-size: 100%;
 }
 
-.get-tickets {
+.apply-button, .donate-button {
+  background: yellow;
+  &:hover { background: $green; }
+}
+
+button, .get-tickets {
   text-transform: uppercase;
   font-size: 18px;
   background: $green;
@@ -211,6 +216,17 @@ article {
       color: black;
     }
   }
+}
+
+.scholarship-description, .scholarship-about {
+  max-width: 700px;
+  margin: 10px auto;
+  text-align: center;
+  h3 { text-align: center; }
+}
+
+.scholarship-application, .scholarship-donate {
+  @include span-columns(6);
 }
 
 footer {
