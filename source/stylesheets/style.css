@@ -108,7 +108,7 @@ html {
           margin-right: 0; } }
 
 .wrapper {
-  padding: 0 10%;
+  padding: 30px 10%;
   margin-bottom: 30px; }
   .wrapper::after {
     clear: both;
@@ -258,8 +258,7 @@ article {
     margin-right: 2.35765%;
     width: 65.88078%;
     margin-left: 17.05961%;
-    text-align: center;
-    padding-top: 30px; }
+    text-align: center; }
     article.conference-pitch:last-child {
       margin-right: 0; }
   article.ticket-header {
@@ -268,8 +267,7 @@ article {
     margin-right: 2.35765%;
     width: 82.94039%;
     margin-left: 8.5298%;
-    text-align: center;
-    padding-top: 30px; }
+    text-align: center; }
     article.ticket-header:last-child {
       margin-right: 0; }
   article.ticket {
@@ -342,20 +340,36 @@ article {
     .tickets a:hover {
       color: black; }
 
-.scholarship-description, .scholarship-about {
+.scholarship-description {
   max-width: 700px;
   margin: 10px auto;
   text-align: center; }
-  .scholarship-description h3, .scholarship-about h3 {
+  .scholarship-description h3 {
     text-align: center; }
+
+.scholarship-options {
+  display: flex; }
 
 .scholarship-application, .scholarship-donate {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%; }
+  width: 48.82117%;
+  padding: 30px 40px; }
   .scholarship-application:last-child, .scholarship-donate:last-child {
     margin-right: 0; }
+  .scholarship-application h3, .scholarship-donate h3 {
+    margin: 0; }
+
+.scholarship-application {
+  background: #ffedff; }
+  .scholarship-application button {
+    background: #f52eff; }
+
+.scholarship-donate {
+  background: #fff4d6; }
+  .scholarship-donate button {
+    background: #ffaa62; }
 
 footer {
   background: #f8f8f8; }
@@ -505,6 +519,18 @@ footer {
     width: 82.94039%;
     margin-left: 8.5298%; }
     article.conference-pitch:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+
+  .scholarship-application, .scholarship-donate {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-bottom: 10px; }
+    .scholarship-application:last-child, .scholarship-donate:last-child {
+      margin-right: 0; }
+
+  .scholarship-options {
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */

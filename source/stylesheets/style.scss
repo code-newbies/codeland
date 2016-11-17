@@ -3,6 +3,8 @@ $yellow: #fffd2e;
 $green: #00ff00;
 $pink: #ff94de;
 $orange: #ffaa62;
+$light-orange: #fff1ca;
+$light-yellow: #ffffed;
 
 $red: #ff2e8e;
 $purple: #fc2eff;
@@ -19,7 +21,7 @@ $city-life-color: $light-blue;
 @import "lib/_mailchimp_signup";
 
 .wrapper {
-  padding: 0 10%;
+  padding: 30px 10%;
   margin-bottom: 30px;
   @include clearfix;
 }
@@ -154,13 +156,11 @@ article {
     @include span-columns(8);
     @include shift(2);
     text-align: center;
-    padding-top: 30px;
   }
   &.ticket-header {
     @include span-columns(10);
     @include shift(1);
     text-align: center;
-    padding-top: 30px;
   }
   &.ticket {
     @include span-columns(4);
@@ -218,15 +218,28 @@ article {
   }
 }
 
-.scholarship-description, .scholarship-about {
+.scholarship-description {
   max-width: 700px;
   margin: 10px auto;
   text-align: center;
   h3 { text-align: center; }
 }
 
+.scholarship-options { display: flex; }
+
 .scholarship-application, .scholarship-donate {
   @include span-columns(6);
+  h3 { margin: 0; }
+  padding: 30px 40px;
+}
+
+.scholarship-application {
+  background: #ffedff;
+  button { background: #f52eff; }
+}
+.scholarship-donate {
+  background: #fff4d6;
+  button { background: $orange; }
 }
 
 footer {
@@ -329,4 +342,9 @@ footer {
     @include shift(1);
     }
   }
+  .scholarship-application, .scholarship-donate {
+    @include span-columns(12);
+    margin-bottom: 10px;
+  }
+  .scholarship-options { display: block; }
 }
