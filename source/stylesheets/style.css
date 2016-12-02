@@ -340,11 +340,11 @@ article {
     .tickets a:hover {
       color: black; }
 
-.scholarship-description {
+.scholarship-description, .cfp-description {
   max-width: 700px;
   margin: 10px auto;
   text-align: center; }
-  .scholarship-description h3 {
+  .scholarship-description h3, .cfp-description h3 {
     text-align: center; }
 
 .scholarship-options {
