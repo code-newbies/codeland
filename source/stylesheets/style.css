@@ -219,7 +219,8 @@ header {
   .apply-button:hover, .donate-button:hover {
     background: #00ff00; }
 
-button, .get-tickets {
+.button, .get-tickets {
+  display: inline-block;
   text-transform: uppercase;
   font-size: 18px;
   background: #00ff00;
@@ -227,11 +228,11 @@ button, .get-tickets {
   padding: 5px 20px;
   font-weight: 500;
   font-family: "Roboto", san-serif; }
-  button a, .get-tickets a {
+  .button a, .get-tickets a {
     text-decoration: none; }
-  button:hover, .get-tickets:hover {
+  .button:hover, .get-tickets:hover {
     background: yellow; }
-    button:hover a, .get-tickets:hover a {
+    .button:hover a, .get-tickets:hover a {
       color: black;
       font-weight: 900; }
 
@@ -363,12 +364,12 @@ article {
 
 .scholarship-application {
   background: #ffedff; }
-  .scholarship-application button {
+  .scholarship-application .button {
     background: #f52eff; }
 
 .scholarship-donate {
   background: #fff4d6; }
-  .scholarship-donate button {
+  .scholarship-donate .button {
     background: #ffaa62; }
 
 footer {
