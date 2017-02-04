@@ -22,7 +22,7 @@ $city-life-color: $light-blue;
 
 .wrapper {
   padding: 30px 10%;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   @include clearfix;
 }
 
@@ -204,8 +204,7 @@ article {
 
 .ticket-info {
   background: $lightgray;
-  padding-bottom: 90px;
-  margin-bottom: 0px;
+  padding-bottom: 40px;
 }
 
 .tickets {
@@ -224,6 +223,12 @@ article {
   margin: 10px auto;
   text-align: center;
   h3 { text-align: center; }
+}
+
+.cfp-description {
+  max-width: none;
+  background: $light-orange;
+  padding: 20px 30px;
 }
 
 .scholarship-options { display: flex; }

@@ -1,6 +1,6 @@
 .mailchimp-signup {
   @include row();
-  margin-top: 20px;
+  background: black;
   padding-top: 30px;
   #mc_embed_signup {
     @include span-columns(8);
@@ -22,7 +22,7 @@
     label {
       display: block;
       font-size: 20px;
-      color: black;
+      color: white;
       font-family: "Roboto";
       padding: 60px 10px 10px;
     }
