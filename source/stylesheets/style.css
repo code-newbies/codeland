@@ -53,7 +53,7 @@ html {
       box-shadow: none;
       height: 50px;
       border-radius: 0;
-      background: #fffd2e;
+      background: #00ff00;
       border: 2px solid black;
       color: black;
       text-transform: uppercase;
@@ -67,7 +67,7 @@ html {
       .mailchimp-signup #mc_embed_signup .button:last-child {
         margin-right: 0; }
     .mailchimp-signup #mc_embed_signup .button:hover {
-      background: #00ff00; }
+      background: #fffd2e; }
   @media only screen and (min-width: 750px) and (max-width: 900px) {
     .mailchimp-signup #mc_embed_signup {
       float: left;
@@ -349,7 +349,7 @@ article {
 
 .cfp-description {
   max-width: none;
-  background: #fff1ca;
+  background: #00ff00;
   padding: 20px 30px; }
 
 .scholarship-options {
