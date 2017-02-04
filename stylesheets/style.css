@@ -6,7 +6,7 @@ html {
 
 .mailchimp-signup {
   display: block;
-  margin-top: 20px;
+  background: black;
   padding-top: 30px; }
   .mailchimp-signup::after {
     clear: both;
@@ -42,7 +42,7 @@ html {
     .mailchimp-signup #mc_embed_signup label {
       display: block;
       font-size: 20px;
-      color: black;
+      color: white;
       font-family: "Roboto";
       padding: 60px 10px 10px; }
     .mailchimp-signup #mc_embed_signup .button {
@@ -53,7 +53,7 @@ html {
       box-shadow: none;
       height: 50px;
       border-radius: 0;
-      background: #fffd2e;
+      background: #00ff00;
       border: 2px solid black;
       color: black;
       text-transform: uppercase;
@@ -67,7 +67,7 @@ html {
       .mailchimp-signup #mc_embed_signup .button:last-child {
         margin-right: 0; }
     .mailchimp-signup #mc_embed_signup .button:hover {
-      background: #00ff00; }
+      background: #fffd2e; }
   @media only screen and (min-width: 750px) and (max-width: 900px) {
     .mailchimp-signup #mc_embed_signup {
       float: left;
@@ -109,7 +109,7 @@ html {
 
 .wrapper {
   padding: 30px 10%;
-  margin-bottom: 30px; }
+  margin-bottom: 15px; }
   .wrapper::after {
     clear: both;
     content: "";
@@ -325,8 +325,7 @@ article {
 
 .ticket-info {
   background: #f8f8f8;
-  padding-bottom: 90px;
-  margin-bottom: 0px; }
+  padding-bottom: 40px; }
 
 .tickets {
   float: left;
@@ -347,6 +346,11 @@ article {
   text-align: center; }
   .scholarship-description h3, .cfp-description h3 {
     text-align: center; }
+
+.cfp-description {
+  max-width: none;
+  background: #00ff00;
+  padding: 20px 30px; }
 
 .scholarship-options {
   display: flex; }
