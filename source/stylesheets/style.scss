@@ -220,7 +220,8 @@ article {
   }
 }
 
-.scholarship-description, .cfp-description, .sponsor-description {
+.scholarship-description, .cfp-description, .sponsor-description,
+.speaker-description {
   max-width: 700px;
   margin: 10px auto;
   text-align: center;
@@ -231,6 +232,26 @@ article {
   max-width: none;
   background: $green;
   padding: 20px 30px;
+}
+
+.speaker-list {
+  @include clearfix;
+}
+
+.speaker {
+  @include span-columns(2);
+  @include omega(6n);
+  margin-bottom: 10px;
+  position: relative;
+  img { width: 100%; }
+  .speaker-title {
+    margin-bottom: 15px;
+    position: absolute;
+    bottom: 0px;
+    background: white;
+    padding: 5px 15px;
+    font-family: "Roboto";
+  }
 }
 
 .sponsors {
@@ -321,6 +342,20 @@ footer {
   }
   .mobile { display: none; }
   .desktop { display: block; }
+}
+@media only screen and (max-width: 1350px){
+  .speaker {
+    @include span-columns(3);
+    @include omega(4n);
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .speaker {
+    @include span-columns(4);
+    @include omega(3n);
+    .speaker-title { position: inherit; }
+  }
 }
 
 @media only screen and (max-width: 1000px){

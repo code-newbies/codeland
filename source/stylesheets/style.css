@@ -342,17 +342,47 @@ article {
     .tickets a:hover {
       color: black; }
 
-.scholarship-description, .cfp-description, .sponsor-description {
+.scholarship-description, .cfp-description, .sponsor-description,
+.speaker-description {
   max-width: 700px;
   margin: 10px auto;
   text-align: center; }
-  .scholarship-description h3, .cfp-description h3, .sponsor-description h3 {
+  .scholarship-description h3, .cfp-description h3, .sponsor-description h3,
+  .speaker-description h3 {
     text-align: center; }
 
 .cfp-description {
   max-width: none;
   background: #00ff00;
   padding: 20px 30px; }
+
+.speaker-list::after {
+  clear: both;
+  content: "";
+  display: block; }
+
+.speaker {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 14.70196%;
+  margin-bottom: 10px;
+  position: relative; }
+  .speaker:last-child {
+    margin-right: 0; }
+  .speaker:nth-child(6n) {
+    margin-right: 0; }
+  .speaker:nth-child(6n+1) {
+    clear: left; }
+  .speaker img {
+    width: 100%; }
+  .speaker .speaker-title {
+    margin-bottom: 15px;
+    position: absolute;
+    bottom: 0px;
+    background: white;
+    padding: 5px 15px;
+    font-family: "Roboto"; }
 
 .sponsors .sponsor-list {
   display: flex;
@@ -466,6 +496,32 @@ footer {
 
   .desktop {
     display: block; } }
+@media only screen and (max-width: 1350px) {
+  .speaker {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .speaker:last-child {
+      margin-right: 0; }
+    .speaker:nth-child(4n) {
+      margin-right: 0; }
+    .speaker:nth-child(4n+1) {
+      clear: left; } }
+@media only screen and (max-width: 900px) {
+  .speaker {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    .speaker:last-child {
+      margin-right: 0; }
+    .speaker:nth-child(3n) {
+      margin-right: 0; }
+    .speaker:nth-child(3n+1) {
+      clear: left; }
+    .speaker .speaker-title {
+      position: inherit; } }
 @media only screen and (max-width: 1000px) {
   .tickets {
     margin-left: 0%;

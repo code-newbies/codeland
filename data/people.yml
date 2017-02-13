@@ -1,0 +1,34 @@
+speakers:
+- full_name: Celia La 
+  image_url: "http://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/CeliaLa.jpg" 
+- full_name: Michelle Morales
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/Michelle.jpg"
+- full_name: Esra'a Al-Shafei
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/esra.png"
+- full_name: Courteney Ervin
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/courteney_ervin.jpeg"
+- full_name: Eleanor Stribling
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/eleanor_stribling.jpg"
+- full_name: Quincy Larson
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/quincy.png"
+- full_name: Kate Rabinowitz
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/kate.jpeg"
+- full_name: Rapi Castillo
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/rapi.jpeg"
+- full_name: Katrina Owen
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/katrina-owen.jpg"
+- full_name: Nell Shamrell-Harrington
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/nell.jpeg"
+- full_name: Opher Vishnia
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/opher.jpeg"
+- full_name: Stephanie Nemeth
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/stephanie.jpeg"
+- full_name: Breset "Sterling" Walker
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/sterling.jpg"
+- full_name: Susan Tan
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/susan.jpeg"
+- full_name: Valerie Woolard Srinivasan
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/valerie.jpg"
+- full_name: Jessica Rudder
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/jessica_rudder.png"
+
