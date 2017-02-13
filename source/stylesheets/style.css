@@ -356,15 +356,21 @@ article {
 
 .sponsors .sponsor-list {
   display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   align-items: center; }
-.sponsors .sponsor-logo {
+  .sponsors .sponsor-list::after {
+    clear: both;
+    content: "";
+    display: block; }
+.sponsors .sponsor-image {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 23.23176%; }
-  .sponsors .sponsor-logo:last-child {
+  .sponsors .sponsor-image:last-child {
     margin-right: 0; }
-  .sponsors .sponsor-logo img {
+  .sponsors .sponsor-image img {
     width: 100%; }
 
 .scholarship-options {
@@ -558,12 +564,12 @@ footer {
   header .conference-header span {
     font-size: 12px; }
 
-  .sponsor-list .sponsor-logo {
+  .sponsor-list .sponsor-image {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%; }
-    .sponsor-list .sponsor-logo:last-child {
+    .sponsor-list .sponsor-image:last-child {
       margin-right: 0; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -235,10 +235,13 @@ article {
 
 .sponsors {
   .sponsor-list {
+    @include clearfix;
     display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     align-items: center;
   }
-  .sponsor-logo {
+  .sponsor-image {
     @include span-columns(3);
     img { width: 100%; }
   }
@@ -373,7 +376,7 @@ footer {
 
 @media only screen and (max-width: 600px){
   header .conference-header span { font-size: 12px; }
-  .sponsor-list .sponsor-logo {
+  .sponsor-list .sponsor-image {
     @include span-columns(4);
   }
 }
