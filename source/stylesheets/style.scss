@@ -346,6 +346,7 @@ footer {
 @media only screen and (max-width: 1350px){
   .speaker {
     @include span-columns(3);
+    &:nth-child(6n+1) { clear: none; }
     @include omega(4n);
   }
 }
@@ -353,6 +354,7 @@ footer {
 @media only screen and (max-width: 900px){
   .speaker {
     @include span-columns(4);
+    &:nth-child(4n+1) { clear: none; }
     @include omega(3n);
     .speaker-title { position: inherit; }
   }

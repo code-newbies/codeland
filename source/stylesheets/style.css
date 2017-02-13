@@ -504,6 +504,8 @@ footer {
     width: 23.23176%; }
     .speaker:last-child {
       margin-right: 0; }
+    .speaker:nth-child(6n+1) {
+      clear: none; }
     .speaker:nth-child(4n) {
       margin-right: 0; }
     .speaker:nth-child(4n+1) {
@@ -516,6 +518,8 @@ footer {
     width: 31.76157%; }
     .speaker:last-child {
       margin-right: 0; }
+    .speaker:nth-child(4n+1) {
+      clear: none; }
     .speaker:nth-child(3n) {
       margin-right: 0; }
     .speaker:nth-child(3n+1) {
