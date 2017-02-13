@@ -108,7 +108,7 @@ html {
           margin-right: 0; } }
 
 .wrapper {
-  padding: 30px 10%;
+  padding: 10px 10%;
   margin-bottom: 15px; }
   .wrapper::after {
     clear: both;
@@ -200,18 +200,20 @@ header {
     max-width: 680px;
     margin: 10px auto; }
   header .conference-header {
-    margin-top: 5px; }
+    margin-top: 0px; }
     header .conference-header span {
       border: 2px solid black;
       padding: 5px 30px;
       display: inline-block;
-      background: white; }
+      background: white;
+      font-size: 22px; }
   header span.highlight {
     background: white;
     padding: 5px 10px;
     display: inline-block; }
     header span.highlight.logo {
       padding: 10px;
+      padding-bottom: 0px;
       border-radius: 20%; }
 
 .apply-button, .donate-button {
@@ -340,17 +342,30 @@ article {
     .tickets a:hover {
       color: black; }
 
-.scholarship-description, .cfp-description {
+.scholarship-description, .cfp-description, .sponsor-description {
   max-width: 700px;
   margin: 10px auto;
   text-align: center; }
-  .scholarship-description h3, .cfp-description h3 {
+  .scholarship-description h3, .cfp-description h3, .sponsor-description h3 {
     text-align: center; }
 
 .cfp-description {
   max-width: none;
   background: #00ff00;
   padding: 20px 30px; }
+
+.sponsors .sponsor-list {
+  display: flex;
+  align-items: center; }
+.sponsors .sponsor-logo {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%; }
+  .sponsors .sponsor-logo:last-child {
+    margin-right: 0; }
+  .sponsors .sponsor-logo img {
+    width: 100%; }
 
 .scholarship-options {
   display: flex; }
@@ -461,8 +476,10 @@ footer {
   h2, h3 {
     font-size: 18px; }
 
+  padding-bottom: 0px;
   article {
-    margin-left: 0%; }
+    margin-left: 0%;
+    padding-bottom: 0px; }
 
   article.ticket, article.ticket-explainer {
     float: left;
@@ -537,5 +554,16 @@ footer {
 
   .scholarship-options {
     display: block; } }
+@media only screen and (max-width: 600px) {
+  header .conference-header span {
+    font-size: 12px; }
+
+  .sponsor-list .sponsor-logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    .sponsor-list .sponsor-logo:last-child {
+      margin-right: 0; } }
 
 /*# sourceMappingURL=style.css.map */
