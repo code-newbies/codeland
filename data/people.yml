@@ -1,44 +1,120 @@
 speakers:
 - full_name: Celia La 
   image_url: "http://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/CeliaLa.jpg" 
+  talk_title: "Scaling an education platform for millions of people worldwide"
+  talk_abstract: "Celia takes us behind the scenes of Khan Academy to show us
+  what it takes to build an education platform for millions of users, including
+  running A/B tests, refactoring backend code to account for international
+  growth, and refactoring frontend code to render the most important things
+  first."
 - full_name: Michelle Morales
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/Michelle.jpg"
+  talk_title: "Diagnosing Depression: Open source tools for mental health"
+  talk_abstract: "Mental health disorders affects millions of people in the
+  United States alone. Diagnosing mental health disorders is difficult and
+  important work, and technical tools can help that process. Michelle, a Ph.D
+  candidate studying open source technologies and mental health, will discuss
+  existing projects that help automatically assess depression and introduces the
+  coding tools she uses in her own research."
 - full_name: Scott Hanselman
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/scott-hanselman.jpg"
 - full_name: Esra'a Al-Shafei
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/esra.png"
+  talk_title: "The Fallacy of Exporting Tech Solutions to the Middle East"
+  talk_abstract: "Regional innovators are bucking the notion that Western
+  imported tech is the solution to the Middle East's problems. Music, creative
+  ways to bypass censorship, and grassroots literacy are the real paths to
+  change, and are being forged by innovators already in the region: they just
+  need partners brave enough to join them."
 - full_name: Courteney Ervin
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/courteney_ervin.jpeg"
+  talk_title: "Creating an e-library card. Lessons in coding for one of the
+  largest library systems in the world"
+  talk_abstract: "Many people depend on the public library, and as one of the
+  largest library systems in the world, building for the New York Public Library
+  requires a lot of careful navigation of bureaucracy, a deep empathy of the
+  diverse users that rely on the library, and the technical chops to get the job
+  done. Courteney shares her journey of building an e-library card for the
+  library and the lessons she learned in the process."
 - full_name: Quincy Larson
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/quincy.png"
+  talk_title: How to write technical blog posts that people will actually read
+  talk_abstract: You know you should have a tech blog, but how do you get people to actually read it? Quincy, editor of Medium's largest technical publication, will discuss how to create technical blog posts that will impress prospective employers and show off your knowledge, with strategies including establishing social proof, getting syndicated, and packaging your content for easy consumption.
 - full_name: Eleanor Stribling
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/eleanor_stribling.jpg"
+  talk_title: "Your portfolio as a product: How to use product development
+  strategies to impress employers"
+  talk_abstract: "Eleanor shares three core product management principles that
+  will help you take your side projects and toy apps, and craft a portfolio to
+  wow technical interviewers and show off your skills."
 - full_name: Kate Rabinowitz
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/kate.jpeg"
+  talk_title: "Open Data + You = Better Cities"
+  talk_abstract: "Cities are releasing more and more data on everything from
+  transportation to business to city finances. This presents a huge opportunity
+  to better understand and improve our communities. We'll discuss what and where
+  open data is, the opportunities and challenges of working with open data, and
+  how you can code to make a difference."
 - full_name: Rapi Castillo
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/rapi-large.jpeg"
+  talk_title: "The Bernie Map: Building tools for the Progressive Movement"
+  talk_abstract: Rapi joined the Coders for Sanders movement and built an open source map, a project that would later be used for other movements, including the Womens March and the Indivisible Guide. Rapi takes us through his journey of building that map, and using his skills to build other open source tools and create a network of developers to power the progressive movement.
 - full_name: Katrina Owen
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/katrina-owen.jpg"
+  talk_title: "Incognito Mentorship"
+  talk_abstract: "It's no wonder that you feel stuck and overwhelmed in your
+  coding journey. There's just too much. Too much to learn, too much to know.
+  Too many unknowns, too many resources, too many options. This talk explores how to get the mentorship you need, and you may be
+  surprised to discover that this is not the same thing as the mentorship you
+  want."
 - full_name: Nell Shamrell-Harrington
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/nell.jpeg"
+  talk_title: "Open source governance 101: What it really takes to maintain an open source project"
+  talk_abstract: "Running a successful open source project is just as much, if
+  not more, of a social task as a technical one. The combination of technical
+  and social skills required can seem very intimidating at first. The good new
+  is that all these skills can be learned. Learn how to tell when a project is
+  ready to be open sourced (hint: it’s more than throwing it on Github),
+  publicizing your project, reviewing pull requests, kindly saying “no” when a
+  pull request isn’t the right direction for a project, creating and managing
+  versioned releases, and more."
 - full_name: Brian Douglas
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/brian-douglas.jpg"
 - full_name: Opher Vishnia
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/opher.jpeg"
+  talk_title: Web sites are video games waiting to happen
+  talk_abstract: How can you make your site feel less like a static page and more like a video game? Opher will show how to apply video game principles to websites using Javascript/CSS libraries for particles, physics, multiplayer, camera movement and interactive video. Using these tools, your users can stop watching passively and start playing actively!
 - full_name: Stephanie Nemeth
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/stephanie.jpeg"
+  talk_title: Creating art with a Raspberry Pi
+  talk_abstract: Inspired by a visit to an art museum, Stephanie created an interactive LED art project using javascript, python, and hardware. She shares her story of building with hardware for the first time and how she sharpened her coding skills and built her confidence along the way.
 - full_name: Breset "Sterling" Walker
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/sterling.jpg"
 - full_name: Maurice Rogers
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/maurice-rogers.jpeg"
+  talk_title: "Abacus: Shaping the future of education in Belize"
+  talk_abstract: "Maurice shares the story of how his simple side project
+  blossomed into one of the fastest growing school information systems in
+  Belize, impacting more than 15,000 students throughout the country."
 - full_name: Susan Tan
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/susan.jpeg"
+  talk_title: Rants and ruminations from 💯 CS job interviews in Silicon Valley
+  talk_abstract: What is it like to interview at one tech company? Stressful and tiring. Now imagine what it's like to interview at 100. A year ago, Susan quit an uninspiring full-time remote software job and talked to 100 employers in the Bay Area to find the best fit. Listen to her rants and ruminations about that journey.
 - full_name: Valerie Woolard Srinivasan
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/valerie.jpg"
+  talk_title: Good Fences Make Good Communities
+  talk_abstract: Web developers build online communities through their products, and they have a responsibility to protect those communities. Failures in security not only hurt your users, they erode trust in your product and the community around it. You can't build a strong community without strong security. This talk will walk through common security vulnerabilities and ways to protect against them. 
 - full_name: Jessica Rudder
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/jessica_rudder.png"
+  talk_title: "The Good Bad Bug: Learning to Embrace Mistakes"
+  talk_abstract: "The history of programming is filled with examples of bugs
+  that actually turned out to be features and limitations that pushed developers
+  to make an even more interesting product. We’ll journey through code that was
+  so ‘bad’ it was actually good. Then we’ll learn to tame our inner
+  perfectionists so our code will be even better than it is today."
 - full_name: Johnny Ray Austin
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/johnny-ray-austin.jpg"
 - full_name: Rebecca Poulson
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/rebecca-poulson.jpeg"
-
+  talk_title: VR for Web Developers with A-Frame
+  talk_abstract: Learn how to leverage your web development skills to build virtual environments with A-Frame. It's a flexible WebVR framework that's perfect for people just getting started with HTML and Javascript, and also offers exciting challenges for advanced users.

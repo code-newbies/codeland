@@ -237,28 +237,33 @@ article {
 }
 
 .full-program {
-  background: $green;
+  background: $lightgray;
 }
 .program-item {
   background: white;
   img { @include span-columns(2); }
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 10px;
 
   .program-item-summary {
     display: inline-block;
     @include span-columns(10);
+    padding-right: 10px;
     h2 { margin-top: 0px; }
    }
 
    .program-item-author {
-     margin-top: 10px;
+     margin-top: 0px;
      margin-bottom: 0px;
      font-weight: 100;
    }
 
    .program-item-title {
      margin-top: 0px;
+     margin-bottom: 0px;
+   }
+
+   .program-item-abstract {
      margin-bottom: 0px;
    }
 }
