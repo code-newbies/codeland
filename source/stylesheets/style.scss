@@ -40,8 +40,10 @@ p {
 }
 h2 {
   font-size: 36px;
-  font-weight: 300;
+  font-weight: 500;
   font-family: "Roboto", "san serif";
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 h3 {
   font-size: 24px;
@@ -102,6 +104,7 @@ header {
   .conference-description {
     max-width: 680px;
     margin: 10px auto;
+    text-transform: none;
   }
   .conference-header {
     margin-top: 0px;
@@ -220,8 +223,7 @@ article {
   }
 }
 
-.scholarship-description, .cfp-description, .sponsor-description,
-.speaker-description {
+[class*="-description"] {
   max-width: 700px;
   margin: 10px auto;
   text-align: center;
@@ -232,6 +234,33 @@ article {
   max-width: none;
   background: $green;
   padding: 20px 30px;
+}
+
+.full-program {
+  background: $green;
+}
+.program-item {
+  background: white;
+  img { @include span-columns(2); }
+  padding: 10px;
+  margin-bottom: 10px;
+
+  .program-item-summary {
+    display: inline-block;
+    @include span-columns(10);
+    h2 { margin-top: 0px; }
+   }
+
+   .program-item-author {
+     margin-top: 10px;
+     margin-bottom: 0px;
+     font-weight: 100;
+   }
+
+   .program-item-title {
+     margin-top: 0px;
+     margin-bottom: 0px;
+   }
 }
 
 .speaker-list {
@@ -358,6 +387,14 @@ footer {
     @include omega(3n);
     .speaker-title { position: inherit; }
   }
+
+  .program-item {
+    img { display: none; }
+    .program-item-summary {
+      @include span-columns(12);
+      padding: 10px;
+    }
+  }
 }
 
 @media only screen and (max-width: 1000px){
@@ -370,7 +407,8 @@ footer {
 
 @media only screen and (max-width: 500px){
   p { font-size: 12px; }
-  h2, h3 { font-size: 18px; }
+  h2 { font-size: 22px; }
+  h3 { font-size: 18px; }
   padding-bottom: 0px;
   article {
     @include shift(0);
@@ -395,7 +433,8 @@ footer {
     width: 100%;
   }
   header p { font-size: 12px; }
-  h2 { font-size: 18px; }
+  h2 { font-size: 22px; }
+  h2.conference-description { font-size: 18px; }
   footer .about-codenewbie { @include span-columns(12); }
   footer .sponsorship { @include span-columns(12); }
   article {
