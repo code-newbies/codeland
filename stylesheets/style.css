@@ -135,8 +135,10 @@ p {
 
 h2 {
   font-size: 36px;
-  font-weight: 300;
-  font-family: "Roboto", "san serif"; }
+  font-weight: 500;
+  font-family: "Roboto", "san serif";
+  text-transform: uppercase;
+  margin-bottom: 10px; }
 
 h3 {
   font-size: 24px;
@@ -198,7 +200,8 @@ header {
       padding-right: 15px; }
   header .conference-description {
     max-width: 680px;
-    margin: 10px auto; }
+    margin: 10px auto;
+    text-transform: none; }
   header .conference-header {
     margin-top: 0px; }
     header .conference-header span {
@@ -342,19 +345,52 @@ article {
     .tickets a:hover {
       color: black; }
 
-.scholarship-description, .cfp-description, .sponsor-description,
-.speaker-description {
+[class*="-description"] {
   max-width: 700px;
   margin: 10px auto;
   text-align: center; }
-  .scholarship-description h3, .cfp-description h3, .sponsor-description h3,
-  .speaker-description h3 {
+  [class*="-description"] h3 {
     text-align: center; }
 
 .cfp-description {
   max-width: none;
   background: #00ff00;
   padding: 20px 30px; }
+
+.full-program {
+  background: #f8f8f8; }
+
+.program-item {
+  background: white;
+  padding: 20px;
+  margin-bottom: 10px; }
+  .program-item img {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%; }
+    .program-item img:last-child {
+      margin-right: 0; }
+  .program-item .program-item-summary {
+    display: inline-block;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%;
+    padding-right: 10px; }
+    .program-item .program-item-summary:last-child {
+      margin-right: 0; }
+    .program-item .program-item-summary h2 {
+      margin-top: 0px; }
+  .program-item .program-item-author {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 100; }
+  .program-item .program-item-title {
+    margin-top: 0px;
+    margin-bottom: 0px; }
+  .program-item .program-item-abstract {
+    margin-bottom: 0px; }
 
 .speaker-list::after {
   clear: both;
@@ -525,7 +561,18 @@ footer {
     .speaker:nth-child(3n+1) {
       clear: left; }
     .speaker .speaker-title {
-      position: inherit; } }
+      position: inherit; }
+
+  .program-item img {
+    display: none; }
+  .program-item .program-item-summary {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    padding: 10px; }
+    .program-item .program-item-summary:last-child {
+      margin-right: 0; } }
 @media only screen and (max-width: 1000px) {
   .tickets {
     margin-left: 0%;
@@ -539,7 +586,10 @@ footer {
   p {
     font-size: 12px; }
 
-  h2, h3 {
+  h2 {
+    font-size: 22px; }
+
+  h3 {
     font-size: 18px; }
 
   padding-bottom: 0px;
@@ -582,6 +632,9 @@ footer {
     font-size: 12px; }
 
   h2 {
+    font-size: 22px; }
+
+  h2.conference-description {
     font-size: 18px; }
 
   footer .about-codenewbie {
