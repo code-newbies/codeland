@@ -118,3 +118,48 @@ speakers:
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/rebecca-poulson.jpeg"
   talk_title: VR for Web Developers with A-Frame
   talk_abstract: Learn how to leverage your web development skills to build virtual environments with A-Frame. It's a flexible WebVR framework that's perfect for people just getting started with HTML and Javascript, and also offers exciting challenges for advanced users.
+- full_name: Morgan Whaley
+  image_url: https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/morgan_whaley.jpg
+- full_name: Allison McMillan
+  image_url: https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/allison_mcmillan.jpg
+- full_name: Andreas Fast
+  image_url: https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/andreas.jpg
+- full_name: Daniel Shiffman
+  image_url: https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/dan_shiffman.png
+  talk_title: "Creative Coding"
+  talk_abstract: "Let's explore the beautiful, artisitic world of creative
+  coding. This art and code showcase will highlight incredible projects from NYU
+  ITP, the Processing Foundation, and more. Get ready to be inspired."
+- full_name: Safia Abdalla
+  image_url: https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/safia_abdalla.jpg
+- full_name: Laura Gaetano
+  image_url: http://s3.amazonaws.com/codenewbie-assets/original/laura.jpg?1484541925
+- full_name: Eddie Washington
+  image_url: https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/eddie_washington.jpg
+- full_name: Stephanie Slattery
+  image_url: https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/stephanie_slattery.jpg
+  talk_title: "Web Accessibility and You: Let's Learn to Audit Websites"
+  talk_abstract: "What if you launched your awesome new website, but twenty
+  percent of your visitors couldn't use it? That's not hyperbole, roughly 1 in 5
+  Americans with a disability that impacts their ability to use the web. We as
+  developers owe it to our users to make sure that our sites are accessible for
+  users with disabilities, but where do we start? In this workshop, Stephanie
+  will explain how we measure and evaluate for accessibility and guide you
+  through the process of auditing a website."
+- full_name: Jess Unrein
+  image_url: https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/jess_unrein.JPG
+  talk_title: "Write Your Resume Like a Fanfic"
+  talk_abstract: "Resume building can be difficult and distracting, especially
+  when looking for a job in a new industry. This workshop teaches new job
+  seekers how to narrativize their work and personal experiences through the lens of
+  fanfiction to create a standout resume. Attendees will learn common fanfic
+  lingo like Mary Sue and canon-compliant that will give them tools to craft
+  their story story as passionate, inspired career changers. They will also have
+  the opportunity to test out their new skills on workshop writing samples and
+  resumes."
+
+
+
+
+
+
