@@ -1,0 +1,10 @@
+sponsors:
+- name: "GitHub"
+  link: "https://github.com/"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/GitHub_Logo.png"
+- name: "Etsy"
+  link: "https://www.etsy.com/"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Etsy_logo.png"
+- name: "Google Chrome"
+  link: "https://www.google.com/chrome/"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Chrome-Logo.png"
