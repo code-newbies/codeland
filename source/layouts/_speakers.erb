@@ -7,10 +7,10 @@
   </article>
   <div class="speaker-list">
     <% data.people.speakers.each do |speaker| %>
-    <article class="speaker">
-    <img src="<%= speaker.image_url %>">
-    <p class="speaker-title"><%= speaker.full_name %></p>
-    </article>
+      <article class="speaker">
+        <img src="<%= speaker.image_url %>">
+        <p class="speaker-title"><%= speaker.full_name %></p>
+      </article>
     <% end %>
   </div>
 </section>

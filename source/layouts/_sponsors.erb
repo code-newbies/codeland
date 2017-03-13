@@ -1,4 +1,4 @@
-<section id="sponsors" class="wrapper sponsors">
+<section id="sponsors" class="wrapper speakers">
   <article class="sponsor-description">
     <h2>Sponsors</h2>
     <p>A huge thank you to the following sponsors for making our first
@@ -7,13 +7,23 @@
     hello@codenewbie.org.</p>
   </article>
   <div class="sponsor-list">
-    <% data.sponsors.sponsors.each do |sponsor| %>
+    <div class="flex-container">
+   <% data.sponsors.sponsors[0..2].each do |sponsor| %> 
       <article class="sponsor-image">
         <a href=<%= sponsor.link %> target="_blank">
-        <img
-        src=<%= sponsor.image_url %>></img>
+          <img src=<%= sponsor.image_url %>></img>
         </a>
       </article>
     <% end %>
+    </div>
+    <div class="flex-container">
+   <% data.sponsors.sponsors[3..7].each do |sponsor| %> 
+      <article class="sponsor-image">
+        <a href=<%= sponsor.link %> target="_blank">
+          <img src=<%= sponsor.image_url %>></img>
+        </a>
+      </article>
+    <% end %>
+    </div>
   </div>
 </section>
