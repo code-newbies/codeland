@@ -1,4 +1,8 @@
 speakers:
+- full_name: Carol Willing
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/carol_willing.jpg"
+- full_name: Ashley Jean
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/ashley_jean.jpeg"
 - full_name: Celia La 
   image_url: "http://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/CeliaLa.jpg" 
   talk_title: "Scaling an education platform for millions of people worldwide"
@@ -47,6 +51,8 @@ speakers:
   talk_abstract: "Eleanor shares three core product management principles that
   will help you take your side projects and toy apps, and craft a portfolio to
   wow technical interviewers and show off your skills."
+- full_name: Bryan Liles
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/bryan_liles.JPG"
 - full_name: Kate Rabinowitz
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/kate.jpeg"
   talk_title: "Open Data + You = Better Cities"
