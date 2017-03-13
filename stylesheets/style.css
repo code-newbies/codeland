@@ -129,7 +129,7 @@ a:hover {
 a span {
   font-family: "Roboto"; }
 
-p {
+p, li {
   font-size: 18px;
   font-family: "Helvetica"; }
 
