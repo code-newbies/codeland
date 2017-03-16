@@ -301,7 +301,7 @@ article {
     -ms-flex-align: center;
     -webkit-align-items: center;
     .sponsor-image {
-      padding: 20px 5%;
+      padding: 20px 3.5%;
       align-items: center;
       img { width: 100%; }
     }
@@ -310,8 +310,8 @@ article {
       @include omega(4n);
     }
     &:last .sponsor-image {
-      @include span-columns(3);
-      @include omega(4n);
+      @include span-columns(5);
+      @include omega(2n);
     }
   }
 }

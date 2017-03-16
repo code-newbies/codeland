@@ -8,7 +8,7 @@
   </article>
   <div class="sponsor-list">
     <div class="flex-container">
-   <% data.sponsors.sponsors[0..2].each do |sponsor| %> 
+   <% data.sponsors.sponsors[0..3].each do |sponsor| %> 
       <article class="sponsor-image">
         <a href=<%= sponsor.link %> target="_blank">
           <img src=<%= sponsor.image_url %>></img>
@@ -17,7 +17,7 @@
     <% end %>
     </div>
     <div class="flex-container">
-   <% data.sponsors.sponsors[3..7].each do |sponsor| %> 
+   <% data.sponsors.sponsors[4..8].each do |sponsor| %> 
       <article class="sponsor-image">
         <a href=<%= sponsor.link %> target="_blank">
           <img src=<%= sponsor.image_url %>></img>
