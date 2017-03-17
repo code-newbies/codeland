@@ -434,7 +434,7 @@ article {
   -ms-flex-align: center;
   -webkit-align-items: center; }
   .sponsor-list .flex-container .sponsor-image {
-    padding: 20px 5%;
+    padding: 20px 3.5%;
     align-items: center; }
     .sponsor-list .flex-container .sponsor-image img {
       width: 100%; }
@@ -453,12 +453,12 @@ article {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 23.23176%; }
+    width: 40.29137%; }
     .sponsor-list .flex-container:last .sponsor-image:last-child {
       margin-right: 0; }
-    .sponsor-list .flex-container:last .sponsor-image:nth-child(4n) {
+    .sponsor-list .flex-container:last .sponsor-image:nth-child(2n) {
       margin-right: 0; }
-    .sponsor-list .flex-container:last .sponsor-image:nth-child(4n+1) {
+    .sponsor-list .flex-container:last .sponsor-image:nth-child(2n+1) {
       clear: left; }
 
 .scholarship-options {
