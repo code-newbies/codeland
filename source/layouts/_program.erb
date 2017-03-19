@@ -4,18 +4,36 @@
     <p>Join us for some of the most dynamic and engaging tech talks you'll ever
     hear.</p>
   </article>
-  <div class="program-list">
+  <div class="program-list day-one">
+    <p class="day-title">Day One</p>
     <% data.people.speakers.each do |speaker| %>
-    <% next if speaker.talk_title.nil? %>
+      <% next unless speaker.day == "1" && speaker.talk_title %>
+      <a href="#">
     <article class="program-item">
       <img
       src="<%= speaker.image_url %>">
       <div class="program-item-summary">
         <p class="program-item-author"><%= speaker.full_name %></p>
         <h3 class="program-item-title"><%= speaker.talk_title %></h3>
-        <p class="program-item-abstract"><%= speaker.talk_abstract %></p>
       </div>
     </article>
+      </a>
+    <% end %>
+  </div>
+  <div class="program-list day-two">
+    <p class="day-title">Day Two</p>
+    <% data.people.speakers.each do |speaker| %>
+      <% next unless speaker.day == "2" && speaker.talk_title %>
+      <a href="#">
+    <article class="program-item">
+      <img
+      src="<%= speaker.image_url %>">
+      <div class="program-item-summary">
+        <p class="program-item-author"><%= speaker.full_name %></p>
+        <h3 class="program-item-title"><%= speaker.talk_title %></h3>
+      </div>
+    </article>
+      </a>
     <% end %>
   </div>
 </section>

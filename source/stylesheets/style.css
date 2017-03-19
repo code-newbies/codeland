@@ -124,7 +124,7 @@ a {
   color: inherit; }
 
 a:hover {
-  color: #2c52af; }
+  color: #00ff00; }
 
 a span {
   font-family: "Roboto"; }
@@ -359,6 +359,31 @@ article {
 
 .full-program {
   background: #f8f8f8; }
+  .full-program .day-one, .full-program .day-two {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .full-program .day-one:last-child, .full-program .day-two:last-child {
+      margin-right: 0; }
+    .full-program .day-one .program-item, .full-program .day-two .program-item {
+      border: 5px solid white; }
+  .full-program .day-one .day-title {
+    background: #00ff00; }
+  .full-program .day-one a:hover .program-item {
+    border: 5px solid #00ff00; }
+  .full-program .day-two .day-title {
+    background: #fffd2e; }
+  .full-program .day-two a:hover .program-item {
+    border: 5px solid #fffd2e; }
+  .full-program .day-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 20px;
+    padding: 20px; }
+  .full-program a:hover .program-item {
+    color: black; }
 
 .program-item {
   background: white;
@@ -385,10 +410,14 @@ article {
   .program-item .program-item-author {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-weight: 100; }
+    font-weight: 300;
+    font-family: "Roboto";
+    font-size: 16px; }
   .program-item .program-item-title {
     margin-top: 0px;
-    margin-bottom: 0px; }
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 500; }
   .program-item .program-item-abstract {
     margin-bottom: 0px; }
 
@@ -708,6 +737,16 @@ footer {
     margin-right: 2.35765%;
     width: 31.76157%; }
     .sponsor-list .sponsor-image:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+
+  .full-program .day-one, .full-program .day-two {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .full-program .day-one:last-child, .full-program .day-two:last-child {
+      margin-right: 0; }
+  .full-program .program-item {
+    padding: 5px; } }
 
 /*# sourceMappingURL=style.css.map */

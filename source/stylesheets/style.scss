@@ -32,7 +32,7 @@ body {
   border-bottom: 30px solid black;
 }
 a { color: inherit; }
-a:hover { color: #2c52af; }
+a:hover { color: $green; }
 a span { font-family: "Roboto"; }
 p, li {
   font-size: 18px;
@@ -237,6 +237,30 @@ article {
 }
 
 .full-program {
+  .day-one, .day-two {
+    @include span-columns(6);
+    .program-item { border: 5px solid white; }
+  }
+  .day-one {
+    .day-title { background: $green; }
+    a:hover .program-item { border: 5px solid $green; }
+  }
+  .day-two {
+    .day-title { background: $yellow; }
+    a:hover .program-item { border: 5px solid $yellow; }
+  }
+  .day-title {
+    text-transform: uppercase; 
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  a:hover {
+    .program-item {
+      color: black;
+    }
+  }
   background: $lightgray;
 }
 .program-item {
@@ -255,12 +279,16 @@ article {
    .program-item-author {
      margin-top: 0px;
      margin-bottom: 0px;
-     font-weight: 100;
+     font-weight: 300;
+     font-family: "Roboto";
+     font-size: 16px;
    }
 
    .program-item-title {
      margin-top: 0px;
      margin-bottom: 0px;
+     font-size: 18px;
+     font-weight: 500;
    }
 
    .program-item-abstract {
@@ -476,5 +504,9 @@ footer {
   header .conference-header span { font-size: 12px; }
   .sponsor-list .sponsor-image {
     @include span-columns(4);
+  }
+  .full-program {
+    .day-one, .day-two { @include span-columns(12); }
+    .program-item { padding: 5px; }
   }
 }
