@@ -157,7 +157,7 @@ speakers:
 - full_name: Daniel Shiffman
   day: "1"
   image_url: https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/dan_shiffman.png
-  talk_title: "Creative Coding"
+  talk_title: "Creative Coding: An art and code showcase"
   talk_abstract: "Let's explore the beautiful, artisitic world of creative
   coding. This art and code showcase will highlight incredible projects from NYU
   ITP, the Processing Foundation, and more. Get ready to be inspired."

@@ -107,6 +107,40 @@ html {
         .mailchimp-signup #mc_embed_signup .button:last-child {
           margin-right: 0; } }
 
+.speaker-page nav {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  padding: 20px;
+  background: white; }
+  .speaker-page nav img {
+    max-width: 200px; }
+  .speaker-page nav .boxed {
+    float: right;
+    margin-top: 0px; }
+.speaker-page section {
+  padding: 50px 10%; }
+.speaker-page .speaker-profile img {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%; }
+  .speaker-page .speaker-profile img:last-child {
+    margin-right: 0; }
+.speaker-page .speaker-profile .speaker-profile-info {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%; }
+  .speaker-page .speaker-profile .speaker-profile-info:last-child {
+    margin-right: 0; }
+  .speaker-page .speaker-profile .speaker-profile-info h2 {
+    margin-top: 0px;
+    text-transform: none; }
+  .speaker-page .speaker-profile .speaker-profile-info h4 {
+    margin-top: 0px; }
+
 .wrapper {
   padding: 10px 10%;
   margin-bottom: 15px; }

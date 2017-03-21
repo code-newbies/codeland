@@ -13,10 +13,10 @@ page '/*.txt', layout: false
 # page "/path/to/file.html", layout: :otherlayout
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
-data.people.speakers.each do |name|
-  first_name = name.full_name.split(" ").first.downcase
-  proxy "/speakers/#{first_name}", "/speakers/template.html", locals: { speaker: name
-  }
+data.people.speakers.each do |speaker|
+  first_name = speaker.full_name.split(" ").first.downcase
+  proxy "/speakers/#{first_name}", "/speakers/template.html", locals: {
+    speaker: speaker }
 end
 
 # General configuration

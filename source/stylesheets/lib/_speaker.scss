@@ -1,0 +1,30 @@
+.speaker-page {
+  nav {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    padding: 20px;
+    background: white;
+    img { max-width: 200px; }
+    .boxed {
+      float: right;
+      margin-top: 0px;
+    }
+    
+  }
+
+  section { padding: 50px 10%; }
+
+  .speaker-profile {
+    img { @include span-columns(3); }
+    .speaker-profile-info {
+      @include span-columns(9);
+      h2 {
+        margin-top: 0px;
+        text-transform: none;
+      }
+      h4 { margin-top: 0px; }
+    }
+  }
+}
