@@ -1,11 +1,22 @@
 <section class="wrapper">
-  <article class="speaker-profile">
+  <article class="speaker-profile desktop">
     <img src="<%= speaker.image_url =%>">
     <div class="speaker-profile-info">
       <h4><%= speaker.full_name %></h4>
+        <h2><%= speaker.talk_title %></h2>
+        <p><%= speaker.talk_abstract %></p>
+        <h4><a href="/#full-program">&#8592 Back to program</a></h4>
+    </div>
+  </article>
+  <article class="speaker-profile mobile">
+    <div class="speaker-profile-info">
       <h2><%= speaker.talk_title %></h2>
       <p><%= speaker.talk_abstract %></p>
-      <h4><a href="/#full-program">&#8592 Back to program</a></h4>
+    </div>
+    <div>
+      <img src="<%= speaker.image_url =%>">
+      <h5><%= speaker.full_name %></h5>
+      <p><a href="/#full-program">&#8592 Back to program</a></p>
     </div>
   </article>
 </section>

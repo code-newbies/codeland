@@ -14,8 +14,8 @@ page '/*.txt', layout: false
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 data.people.speakers.each do |speaker|
-  first_name = speaker.full_name.split(" ").first.downcase
-  proxy "/speakers/#{first_name}", "/speakers/template.html", locals: {
+  slug = speaker.full_name.gsub(" ", "-").downcase
+  proxy "/speakers/#{slug}", "/speakers/template.html", locals: {
     speaker: speaker }
 end
 
