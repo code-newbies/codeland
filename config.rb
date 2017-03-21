@@ -16,7 +16,7 @@ page '/*.txt', layout: false
 data.people.speakers.each do |speaker|
   slug = speaker.full_name.gsub(" ", "-").downcase
   proxy "/speakers/#{slug}", "/speakers/template.html", locals: {
-    speaker: speaker }
+    speaker: speaker }, ignore: true
 end
 
 # General configuration

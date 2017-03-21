@@ -1,9 +1,9 @@
 speakers:
-- full_name: Carol Willing
+- full_name: "Carol Willing"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/carol_willing.jpg"
-- full_name: Ashley Jean
+- full_name: "Ashley Jean"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/ashley_jean.jpeg"
-- full_name: Celia La 
+- full_name: "Celia La" 
   image_url: "http://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/CeliaLa.jpg" 
   talk_title: "Scaling an education platform for millions of people worldwide"
   talk_abstract: "Celia takes us behind the scenes of Khan Academy to show us
@@ -11,7 +11,7 @@ speakers:
   running A/B tests, refactoring backend code to account for international
   growth, and refactoring frontend code to render the most important things
   first."
-- full_name: Michelle Morales
+- full_name: "Michelle Morales"
   day: 1
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/Michelle.jpg"
   talk_title: "Diagnosing Depression: Open source tools for mental health"
