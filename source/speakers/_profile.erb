@@ -2,10 +2,13 @@
   <article class="speaker-profile desktop">
     <img src="<%= speaker.image_url =%>">
     <div class="speaker-profile-info">
-      <h4><%= speaker.full_name %></h4>
-        <h2><%= speaker.talk_title %></h2>
-        <p><%= speaker.talk_abstract %></p>
-        <h4><a href="/#full-program">&#8592 Back to program</a></h4>
+      <h2><%= speaker.talk_title %></h2>
+      <p><%= speaker.talk_abstract %></p>
+      <br>
+      <p><span class="speaker-bio-name">Kate Rabinowitz</span> Developer, The New
+      School <a href="#" class="social-media-link">@katerobinowitz</a></p>
+      <p><%= speaker.talk_abstract %></p>
+      <h4><a href="/#full-program">&#8592 Back to program</a></h4>
     </div>
   </article>
   <article class="speaker-profile mobile">
@@ -16,7 +19,8 @@
     <div>
       <img src="<%= speaker.image_url =%>">
       <h5><%= speaker.full_name %></h5>
-      <p><a href="/#full-program">&#8592 Back to program</a></p>
+      <p>Developer, The New School <a href="#" class="social-media-link">@katerobinowitz</a></p>
     </div>
   </article>
+  <p class="mobile"><a href="/#full-program">&#8592 Back to program</a></p>
 </section>
