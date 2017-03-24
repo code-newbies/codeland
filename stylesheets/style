@@ -504,12 +504,17 @@ article {
   .speaker img {
     width: 100%; }
   .speaker .speaker-title {
-    margin-bottom: 15px;
-    position: absolute;
-    bottom: 0px;
-    background: white;
+    background: #ffedff;
     padding: 5px 15px;
-    font-family: "Roboto"; }
+    font-family: "Roboto";
+    margin-top: 0px; }
+  .speaker a:hover img {
+    border: 5px #f52eff solid; }
+  .speaker a .speaker-title {
+    text-decoration: none; }
+  .speaker a:hover {
+    color: black;
+    font-weight: 900; }
 
 .sponsor-list::after {
   clear: both;
