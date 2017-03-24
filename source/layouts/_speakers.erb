@@ -8,8 +8,10 @@
   <div class="speaker-list">
     <% data.people.speakers.each do |speaker| %>
       <article class="speaker">
+      <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
         <img src="<%= speaker.image_url %>">
         <p class="speaker-title"><%= speaker.full_name %></p>
+      </a>
       </article>
     <% end %>
   </div>

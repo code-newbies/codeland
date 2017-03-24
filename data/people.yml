@@ -4,6 +4,13 @@ speakers:
 - full_name: "Minerva Tantoco"
   type: "fireside chat"
   day: "1"
+  talk_title: "Being the first CTO of NYC"
+  talk_abstract: "We sit down for a fireside chat with the former CTO of NYC, a
+  technologist with a passion for making the city a thriving and accessible
+  technology industry. We'll unpack how the city's worked to bring tech and
+  tech education to New Yorkers across all five boroughs, how technology can
+  help empower citizens and help address urban problems, and what's in store for technology in the big
+  city."
   job_title: "Chief Technology Officer"
   company: "City Strategies, LLC"
   twitter_handle: "@minervatweet"
@@ -93,6 +100,13 @@ speakers:
 - full_name: "Scott Hanselman"
   type: "talk"
   day: "1"
+  job_title: "Principal Program Manager"
+  company: "Microsoft"
+  twitter_handle: "@shanselman"
+  github_username: "shanselman"
+  bio: "Scott is a web developer who has been blogging at http://hanselman.com
+  for over 15 years. He works in Open Source for Microsoft out of his home office in Portland, Oregon. He also has a number of popular podcasts."
+  other_link: "http://hanselminutes.com/"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/scott-hanselman.jpg"
 - full_name: "Esra'a Al-Shafei"
   type: "talk"

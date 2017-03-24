@@ -306,15 +306,18 @@ article {
   @include omega(6n);
   margin-bottom: 10px;
   position: relative;
-  img { width: 100%; }
+  img {
+    width: 100%;
+  }
   .speaker-title {
-    margin-bottom: 15px;
-    position: absolute;
-    bottom: 0px;
-    background: white;
+    background: #ffedff;
     padding: 5px 15px;
     font-family: "Roboto";
+    margin-top: 0px;
   }
+  a:hover img { border: 5px #ffedff solid; }
+  a .speaker-title { text-decoration: none; }
+  a:hover { color: black; }
 }
 
 
