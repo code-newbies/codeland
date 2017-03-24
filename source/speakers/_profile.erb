@@ -5,9 +5,11 @@
       <h2><%= speaker.talk_title %></h2>
       <p><%= speaker.talk_abstract %></p>
       <br>
-      <p><span class="speaker-bio-name">Kate Rabinowitz</span> Developer, The New
-      School <a href="#" class="social-media-link">@katerobinowitz</a></p>
-      <p><%= speaker.talk_abstract %></p>
+      <p><span class="speaker-bio-name"><%= speaker.full_name %></span> <%=
+      speaker.job_title %>, <%= speaker.company %> <a href="http://twitter.com/<%=
+      speaker.twitter_handle %>" class="social-media-link"><%=
+      speaker.twitter_handle %></a></p>
+      <p><%= speaker.bio %></p>
       <h4><a href="/#full-program">&#8592 Back to program</a></h4>
     </div>
   </article>
@@ -19,7 +21,10 @@
     <div>
       <img src="<%= speaker.image_url =%>">
       <h5><%= speaker.full_name %></h5>
-      <p>Developer, The New School <a href="#" class="social-media-link">@katerobinowitz</a></p>
+      <p><%= speaker.job_title %>, <%= speaker.company %> <a
+      href=<%= "http://twitter.com/#{speaker.twitter_handle}" %>
+      class="social-media-link"><%= speaker.twitter_handle %></a></p>
+      <p><%= speaker.bio %></p>
     </div>
   </article>
   <p class="mobile"><a href="/#full-program">&#8592 Back to program</a></p>
