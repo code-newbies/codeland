@@ -5,7 +5,7 @@
     hear.</p>
   </article>
   <div class="program-list day-one">
-    <p class="day-title">Day One</p>
+    <p class="day-title">Day One (8AM - 5PM)</p>
     <% data.people.speakers.each do |speaker| %>
       <% next unless speaker.day == "1" && speaker.talk_title %>
       <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
@@ -21,7 +21,7 @@
     <% end %>
   </div>
   <div class="program-list day-two">
-    <p class="day-title">Day Two</p>
+    <p class="day-title">Day Two (8AM - 5PM)</p>
     <% data.people.speakers.each do |speaker| %>
       <% next unless speaker.day == "2" && speaker.talk_title %>
       <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
