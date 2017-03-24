@@ -143,6 +143,8 @@ html {
     text-transform: none; }
   .speaker-page .speaker-profile .speaker-profile-info h4 {
     margin-top: 0px; }
+.speaker-page .speaker-profile .speaker-bio-name {
+  font-weight: 600; }
 @media only screen and (max-width: 500px) {
   .speaker-page .mobile {
     display: inline-block; }
