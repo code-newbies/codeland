@@ -315,9 +315,12 @@ article {
     font-family: "Roboto";
     margin-top: 0px;
   }
-  a:hover img { border: 5px #ffedff solid; }
+  a:hover img { border: 5px #f52eff solid; }
   a .speaker-title { text-decoration: none; }
-  a:hover { color: black; }
+  a:hover {
+    color: black;
+    font-weight: 900;
+  }
 }
 
 
