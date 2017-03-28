@@ -549,7 +549,7 @@ speakers:
   tech as a web developer somewhat by accident. Laura is passionate about making
   things, coaching at programming workshops, Open Source software, feminism,
   music and space (as in rockets)."
-  image_url: "http://s3.amazonaws.com/codenewbie-assets/original/laura.jpg?1484541925"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/laura_gaetano.jpg"
 - full_name: "Eddie Washington"
   type: "panel"
   day: "2"
