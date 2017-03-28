@@ -530,7 +530,7 @@ article {
   -ms-flex-align: center;
   -webkit-align-items: center; }
   .sponsor-list .flex-container .sponsor-image {
-    padding: 20px 3.5%;
+    padding: 20px 2.5%;
     align-items: center; }
     .sponsor-list .flex-container .sponsor-image img {
       width: 100%; }
@@ -729,7 +729,7 @@ footer {
     white-space: normal; }
 
   .sponsor-list .flex-container .sponsor-image {
-    padding: 20px 7px; } }
+    padding: 10px 3px; } }
 @media only screen and (max-width: 800px) {
   .mobile {
     display: block; }
