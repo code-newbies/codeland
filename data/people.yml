@@ -4,7 +4,7 @@ speakers:
 - full_name: "Minerva Tantoco"
   type: "fireside chat"
   day: "1"
-  talk_title: "Being the first CTO of NYC"
+  talk_title: "The first CTO of NYC: A fireside chat"
   talk_abstract: "We sit down for a fireside chat with the former CTO of NYC, a
   technologist with a passion for making the city a thriving and accessible
   technology industry. We'll unpack how the city's worked to bring tech and
@@ -98,6 +98,15 @@ speakers:
   Initiative. Her main research interests are Natural Language Processing for
   mental health applications and open source technologies."
 - full_name: "Scott Hanselman"
+  talk_title: "JavaScript, The Cloud, And The Rise of the New Virtual Machine"
+  talk_abstract: "One day we woke up and things were different. Maybe it
+  happened overnight, maybe it took many years. Suddenly we are scripting
+  against thousands of Virtual Machines from the command line while creating
+  things today with JavaScript in the browser that were impossible yesterday.
+  LiveScript becomes JavaScript becomes ES6 and now we're compiling C++ to JS.
+  Join Scott Hanselman as he explores the relationship between the Cloud and the
+  Browser, many Languages and one Language, how it might all fit together and
+  what might come next."
   type: "talk"
   day: "1"
   job_title: "Principal Program Manager"
@@ -139,7 +148,7 @@ speakers:
   bio: "Courteney Ervin codes in the space where open source meets social good.
   She’s a developer at the New York Public Library, where she supports
   accessible literacy in NYC and beyond."
-  talk_title: "Creating an e-library card. Lessons in coding for one of the
+  talk_title: "Creating An E-Library Card: Lessons in coding for one of the
   largest library systems in the world"
   talk_abstract: "Many people depend on the public library, and as one of the
   largest library systems in the world, building for the New York Public Library
@@ -271,7 +280,8 @@ speakers:
   is also the scholarship chair of and a mentor with Operation Code - a
   non-profit which teaches coding skills to active duty military personnel,
   their dependents, and veterans transitioning into civilian life."
-  talk_title: "Open source governance 101: What it really takes to maintain an open source project"
+  talk_title: "Open Source Governance 101: What it really takes to be an effective
+  maintainer and contributer of an open source project"
   talk_abstract: "Running a successful open source project is just as much, if
   not more, of a social task as a technical one. The combination of technical
   and social skills required can seem very intimidating at first. The good new
@@ -416,7 +426,8 @@ speakers:
   can be found training for ultra marathons on the streets of NYC or creating
   code-related videos on YouTube for CompChomp. She is an avid squirrel
   photographer and loves the color green."
-  talk_title: "The Good Bad Bug: Learning to Embrace Mistakes"
+  talk_title: "The Good Bad Bug: Learning to embrace failure from lessons in
+  game development"
   talk_abstract: "The history of programming is filled with examples of bugs
   that actually turned out to be features and limitations that pushed developers
   to make an even more interesting product. We’ll journey through code that was
@@ -451,7 +462,7 @@ speakers:
   particularly excited about WebVR, getting writers involved with open source
   and, tacos. Prior to joining Knight Lab, Rebecca was an engineer at
   Kickstarter, playwright and bartender."
-  talk_title: "VR for Web Developers with A-Frame"
+  talk_title: "Getting Started With VR for Web Developers with A-Frame"
   talk_abstract: "Learn how to leverage your web development skills to build
   virtual environments with A-Frame. It's a flexible WebVR framework that's
   perfect for people just getting started with HTML and Javascript, and also
@@ -492,7 +503,7 @@ speakers:
   type: "panel"
   day: "2"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/andreas.jpg"
-  talk_title: &hiringpanel "Getting The Job Panelist"
+  talk_title: &hiringpanel "Hiring Panel: How do I get the job? Panelist"
   talk_abstract: &hiringpanelabstract "The most intimidating and challenging
   part of the codenewbie journey is that first job. Hear from our hiring panel
   on what your future tech job is looking for, where they're looking, and how

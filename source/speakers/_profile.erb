@@ -7,7 +7,7 @@
       <br>
       <p><span class="speaker-bio-name"><%= speaker.full_name %></span> <%=
       speaker.job_title %>, <%= speaker.company %> <a href="http://twitter.com/<%=
-      speaker.twitter_handle %>" class="social-media-link"><%=
+      speaker.twitter_handle %>" class="social-media-link" target="_blank"><%=
       speaker.twitter_handle %></a></p>
       <p><%= speaker.bio %></p>
       <h4><a href="/#full-program">&#8592 Back to program</a></h4>
@@ -22,8 +22,8 @@
       <img src="<%= speaker.image_url =%>">
       <h5><%= speaker.full_name %></h5>
       <p><%= speaker.job_title %>, <%= speaker.company %> <a
-      href=<%= "http://twitter.com/#{speaker.twitter_handle}" %>
-      class="social-media-link"><%= speaker.twitter_handle %></a></p>
+      href=<%= "http://twitter.com/#{speaker.twitter_handle}"%>
+      class="social-media-link" target="_blank" ><%= speaker.twitter_handle %></a></p>
       <p><%= speaker.bio %></p>
     </div>
   </article>
