@@ -28,6 +28,7 @@ speakers:
   Strategy."
 - full_name: "Carol Willing"
   type: "panel"
+  category: "open source"
   day: "2"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/carol_willing.jpg"
   talk_title: &opensourcetitle "Open Source Panelist"
@@ -49,6 +50,7 @@ speakers:
 - full_name: "Ashley Jean"
   type: "panel"
   day: "2"
+  category: "code life balance"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/ashley_jean.jpeg"
   talk_title: &codelifebalance "Code-Life Balance Panelist"
   talk_abstract: &codelifebalanceabstract "Learning to code and balancing everything in your life can be
@@ -197,6 +199,7 @@ speakers:
   wow technical interviewers and show off your skills."
 - full_name: "Bryan Liles"
   type: "panel"
+  category: "open source"
   day: "2"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/bryan_liles.JPG"
   talk_title: *opensourcetitle
@@ -300,6 +303,7 @@ speakers:
 - full_name: "Brian Douglas"
   type: "panel"
   day: "2"
+  category: "code life balance"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/brian-douglas.jpg"
   talk_title: *codelifebalance
   talk_abstract: *codelifebalanceabstract
@@ -449,6 +453,7 @@ speakers:
 - full_name: "Johnny Ray Austin"
   type: "panel"
   day: "2"
+  category: "code life balance"
   talk_title: *codelifebalance
   talk_abstract: *codelifebalanceabstract
   twitter_handle: "@recursivefunk"
@@ -483,6 +488,7 @@ speakers:
 - full_name: "Morgan Whaley"
   type: "panel"
   day: "2"
+  category: "code life balance"
   talk_title: *codelifebalance
   talk_abstract: *codelifebalanceabstract
   job_title: "Senior Front End Engineer"
@@ -499,6 +505,7 @@ speakers:
 - full_name: "Allison McMillan"
   type: "panel"
   day: "2"
+  category: "code life balance"
   talk_title: *codelifebalance
   talk_abstract: *codelifebalanceabstract
   job_title: "Software Developer"
@@ -515,6 +522,7 @@ speakers:
 - full_name: "Andreas Fast"
   type: "panel"
   day: "2"
+  category: "hiring"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/andreas.jpg"
   talk_title: &hiringpanel "Hiring Panel: How do I get the job? Panelist"
   talk_abstract: &hiringpanelabstract "The most intimidating and challenging
@@ -548,6 +556,7 @@ speakers:
   ITP, the Processing Foundation, and more. Get ready to be inspired."
 - full_name: "Safia Abdalla"
   type: "panel"
+  category: "open source"
   day: "2"
   talk_title: *opensourcetitle
   talk_abstract: *opensourceabstract
@@ -562,6 +571,7 @@ speakers:
 - full_name: "Laura Gaetano"
   type: "panel"
   day: "2"
+  category: "open source"
   talk_title: *opensourcetitle
   talk_abstract: *opensourceabstract
   job_title: "Manager"
@@ -578,6 +588,7 @@ speakers:
 - full_name: "Eddie Washington"
   type: "panel"
   day: "2"
+  category: "hiring"
   talk_title: *hiringpanel
   talk_abstract: *hiringpanelabstract
   job_title: "Recruiting Engineer"

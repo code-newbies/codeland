@@ -473,6 +473,14 @@ article {
       margin-right: 0; }
     .program-item .talk-meta img {
       width: 100%; }
+  .program-item .panelists img {
+    width: 18%; }
+  .program-item .panelists a {
+    text-decoration: none; }
+    .program-item .panelists a img {
+      border: 1px solid white; }
+    .program-item .panelists a:hover img {
+      border: 2px solid yellow; }
   .program-item .program-item-summary {
     display: inline-block;
     float: left;
@@ -491,6 +499,13 @@ article {
       width: 100%; }
       .program-item .program-item-summary .talk-header:last-child {
         margin-right: 0; }
+  .program-item .program-item-summary.panel {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .program-item .program-item-summary.panel:last-child {
+      margin-right: 0; }
   .program-item .program-item-author {
     margin-top: 0px;
     margin-bottom: 0px;
