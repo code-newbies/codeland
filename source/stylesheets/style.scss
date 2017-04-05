@@ -10,6 +10,7 @@ $red: #ff2e8e;
 $purple: #fc2eff;
 $light-blue: #1ffff5;
 $lightgray: #f8f8f8;
+$gray: #c9c9c9;
 
 $art-gaming-color: $purple;
 $health-color: $red;
@@ -20,6 +21,7 @@ $city-life-color: $light-blue;
 @import "lib/_neat/neat";
 @import "lib/_mailchimp_signup";
 @import "lib/_speaker";
+
 
 .wrapper {
   padding: 10px 10%;
@@ -237,18 +239,34 @@ article {
   padding: 20px 30px;
 }
 
+.talk-type, .talk-category {
+  text-transform: uppercase;
+  padding: 3px 7px;
+  font-size: 10px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.talk-type { border: 1px solid $gray; }
+.talk-category {
+  &.city-life { border: 1px solid $city-life-color; }
+  &.health { border: 1px solid $health-color; }
+  &.art-gaming { border: 1px solid $art-gaming-color; }
+  &.education { border: 1px solid $education-color; }
+  &.community { border: 1px solid $community-color; }
+}
+
 .full-program {
+  .grid-item, .grid-sizer { width: 31%; margin: 1% }
   .day-one, .day-two {
-    @include span-columns(6);
-    .program-item { border: 5px solid white; }
+    .program-item { border: 2px solid white; }
   }
-  .day-one {
-    .day-title { background: $green; }
-    a:hover .program-item { border: 5px solid $green; }
-  }
-  .day-two {
+  .program-list {
     .day-title { background: $yellow; }
-    a:hover .program-item { border: 5px solid $yellow; }
+    a:hover article {
+      color: black;
+    }
+    .program-item:hover { border: 2px solid $yellow; }
   }
   .day-title {
     text-transform: uppercase; 
@@ -257,16 +275,14 @@ article {
     margin-bottom: 20px;
     padding: 20px;
   }
-  a:hover {
-    .program-item {
-      color: black;
-    }
-  }
   background: $lightgray;
 }
 .program-item {
   background: white;
-  img { @include span-columns(2); }
+  .talk-meta {
+    @include span-columns(2);
+    img { width: 100%; }
+  }
   padding: 20px;
   margin-bottom: 10px;
 
@@ -275,6 +291,7 @@ article {
     @include span-columns(10);
     padding-right: 10px;
     h2 { margin-top: 0px; }
+    .talk-header { @include span-columns(12); }
    }
 
    .program-item-author {
@@ -288,7 +305,6 @@ article {
    .program-item-title {
      margin-top: 0px;
      margin-bottom: 0px;
-     font-size: 18px;
      font-weight: 500;
    }
 

@@ -1,4 +1,10 @@
 $(document).ready(function(){
+  var elem = document.querySelector('.grid');
+  var msnry = new Masonry( elem, {
+      // options
+        itemSelector: '.grid-item',
+          columnWidth: '.grid-sizer' 
+  });
   var boxes = $(".box-shadow");
   $.each(boxes, function(i, box){
     var width = $(this).closest(".boxed").find(".box").css("width");
