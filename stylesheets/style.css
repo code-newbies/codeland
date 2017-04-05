@@ -419,45 +419,60 @@ article {
   background: #00ff00;
   padding: 20px 30px; }
 
+.talk-type, .talk-category {
+  text-transform: uppercase;
+  padding: 3px 7px;
+  font-size: 10px;
+  font-weight: 600;
+  display: inline-block; }
+
+.talk-type {
+  border: 1px solid #c9c9c9; }
+
+.talk-category.city-life {
+  border: 1px solid #1ffff5; }
+.talk-category.health {
+  border: 1px solid #ff2e8e; }
+.talk-category.art-gaming {
+  border: 1px solid #fc2eff; }
+.talk-category.education {
+  border: 1px solid #ffaa62; }
+.talk-category.community {
+  border: 1px solid #00ff00; }
+
 .full-program {
   background: #f8f8f8; }
-  .full-program .day-one, .full-program .day-two {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%; }
-    .full-program .day-one:last-child, .full-program .day-two:last-child {
-      margin-right: 0; }
-    .full-program .day-one .program-item, .full-program .day-two .program-item {
-      border: 5px solid white; }
-  .full-program .day-one .day-title {
-    background: #00ff00; }
-  .full-program .day-one a:hover .program-item {
-    border: 5px solid #00ff00; }
-  .full-program .day-two .day-title {
+  .full-program .grid-item, .full-program .grid-sizer {
+    width: 31%;
+    margin: 1%; }
+  .full-program .day-one .program-item, .full-program .day-two .program-item {
+    border: 2px solid white; }
+  .full-program .program-list .day-title {
     background: #fffd2e; }
-  .full-program .day-two a:hover .program-item {
-    border: 5px solid #fffd2e; }
+  .full-program .program-list a:hover article {
+    color: black; }
+  .full-program .program-list .program-item:hover {
+    border: 2px solid #fffd2e; }
   .full-program .day-title {
     text-transform: uppercase;
     text-align: center;
     font-weight: 900;
     margin-bottom: 20px;
     padding: 20px; }
-  .full-program a:hover .program-item {
-    color: black; }
 
 .program-item {
   background: white;
   padding: 20px;
   margin-bottom: 10px; }
-  .program-item img {
+  .program-item .talk-meta {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 14.70196%; }
-    .program-item img:last-child {
+    .program-item .talk-meta:last-child {
       margin-right: 0; }
+    .program-item .talk-meta img {
+      width: 100%; }
   .program-item .program-item-summary {
     display: inline-block;
     float: left;
@@ -469,6 +484,13 @@ article {
       margin-right: 0; }
     .program-item .program-item-summary h2 {
       margin-top: 0px; }
+    .program-item .program-item-summary .talk-header {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .program-item .program-item-summary .talk-header:last-child {
+        margin-right: 0; }
   .program-item .program-item-author {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -478,7 +500,6 @@ article {
   .program-item .program-item-title {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 18px;
     font-weight: 500; }
   .program-item .program-item-abstract {
     margin-bottom: 0px; }
@@ -731,6 +752,9 @@ footer {
   .sponsor-list .flex-container .sponsor-image {
     padding: 10px 3px; } }
 @media only screen and (max-width: 800px) {
+  .full-program .grid-sizer, .full-program .grid-item {
+    width: 100%; }
+
   .mobile {
     display: block; }
 

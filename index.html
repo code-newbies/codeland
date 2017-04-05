@@ -16,6 +16,7 @@
     href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
     rel="stylesheet">
     <link href="/stylesheets/style.css" rel="stylesheet" />
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <script src="https://use.fontawesome.com/ee4d561681.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="/javascripts/main.js"></script>
@@ -405,6 +406,24 @@
         <p class="speaker-title">Cassie Tarakajian</p>
       </a>
       </article>
+      <article class="speaker">
+      <a href=/speakers/lauren-ellsworth>
+        <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/lauren_ellsworth.jpg">
+        <p class="speaker-title">Lauren Ellsworth</p>
+      </a>
+      </article>
+      <article class="speaker">
+      <a href=/speakers/chris-algoo>
+        <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/chris-algoo.jpg">
+        <p class="speaker-title">Chris Algoo</p>
+      </a>
+      </article>
+      <article class="speaker">
+      <a href=/speakers/cole-furfaro-strode>
+        <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/cole-furfaro-strode.jpg">
+        <p class="speaker-title">Cole Furfaro-Strode</p>
+      </a>
+      </article>
   </div>
 </section>
 
@@ -416,359 +435,675 @@
   </article>
   <div class="program-list day-one">
     <p class="day-title">Day One (8AM - 5PM)</p>
-      <a href=/speakers/minerva-tantoco>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/minerva_tantoco.jpg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Minerva Tantoco</p>
-        <h3 class="program-item-title">The first CTO of NYC: A fireside chat</h3>
-      </div>
-    </article>
+    <div class="grid">
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/minerva-tantoco>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/minerva_tantoco.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Minerva Tantoco
+              </p>
+              <h3 class="program-item-title">The first CTO of NYC: A fireside chat</h3>
+              <p><span class="talk-type">fireside chat</span>
+                <span class="talk-category city-life">city life</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/michelle-morales>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/Michelle.jpg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Michelle Morales</p>
-        <h3 class="program-item-title">Diagnosing Depression: Open source tools for mental health</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/michelle-morales>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/Michelle.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Michelle Morales
+              </p>
+              <h3 class="program-item-title">Diagnosing Depression: Open source tools for mental health</h3>
+              <p><span class="talk-type">talk</span>
+                <span class="talk-category health">health</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/scott-hanselman>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/scott-hanselman.jpg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Scott Hanselman</p>
-        <h3 class="program-item-title">JavaScript, The Cloud, And The Rise of the New Virtual Machine</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/scott-hanselman>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/scott-hanselman.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Scott Hanselman
+              </p>
+              <h3 class="program-item-title">JavaScript, The Cloud, And The Rise of the New Virtual Machine</h3>
+              <p><span class="talk-type">keynote</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/esra'a-al-shafei>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/esra.png">
-      <div class="program-item-summary">
-        <p class="program-item-author">Esra'a Al-Shafei</p>
-        <h3 class="program-item-title">The Fallacy of Exporting Tech Solutions to the Middle East</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/esra'a-al-shafei>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/esra.png">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Esra'a Al-Shafei
+              </p>
+              <h3 class="program-item-title">The Fallacy of Exporting Tech Solutions to the Middle East</h3>
+              <p><span class="talk-type">talk</span>
+                <span class="talk-category community">community</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/courteney-ervin>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/courteney_ervin.jpeg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Courteney Ervin</p>
-        <h3 class="program-item-title">Creating An E-Library Card: Lessons in coding for one of the largest library systems in the world</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/courteney-ervin>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/courteney_ervin.jpeg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Courteney Ervin
+              </p>
+              <h3 class="program-item-title">Creating An E-Library Card: Lessons in coding for one of the largest library systems in the world</h3>
+              <p><span class="talk-type">talk</span>
+                <span class="talk-category education">education</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/kate-rabinowitz>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/kate.jpeg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Kate Rabinowitz</p>
-        <h3 class="program-item-title">Open Data + You = Better Cities</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/kate-rabinowitz>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/kate.jpeg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Kate Rabinowitz
+              </p>
+              <h3 class="program-item-title">Open Data + You = Better Cities</h3>
+              <p><span class="talk-type">talk</span>
+                <span class="talk-category city-life">city life</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/rapi-castillo>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/rapi-large.jpeg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Rapi Castillo</p>
-        <h3 class="program-item-title">The Bernie Map: Building tools for the Progressive Movement</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/rapi-castillo>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/rapi-large.jpeg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Rapi Castillo
+              </p>
+              <h3 class="program-item-title">The Bernie Map: Building tools for the Progressive Movement</h3>
+              <p><span class="talk-type">talk</span>
+                <span class="talk-category community">community</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/katrina-owen>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/katrina-owen.jpg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Katrina Owen</p>
-        <h3 class="program-item-title">Incognito Mentorship</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/katrina-owen>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/katrina-owen.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Katrina Owen
+              </p>
+              <h3 class="program-item-title">Incognito Mentorship</h3>
+              <p><span class="talk-type">talk</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/nell-shamrell-harrington>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/nell.jpeg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Nell Shamrell-Harrington</p>
-        <h3 class="program-item-title">Open Source Governance 101: What it really takes to be an effective maintainer and contributer of an open source project</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/nell-shamrell-harrington>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/nell.jpeg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Nell Shamrell-Harrington
+              </p>
+              <h3 class="program-item-title">Open Source Governance 101: What it really takes to be an effective maintainer and contributer of an open source project</h3>
+              <p><span class="talk-type">talk</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/opher-vishnia>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/opher.jpeg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Opher Vishnia</p>
-        <h3 class="program-item-title">Web sites are video games waiting to happen</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/opher-vishnia>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/opher.jpeg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Opher Vishnia
+              </p>
+              <h3 class="program-item-title">Web sites are video games waiting to happen</h3>
+              <p><span class="talk-type">talk</span>
+                <span class="talk-category art-gaming">art gaming</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/stephanie-nemeth>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/stephanie.jpeg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Stephanie Nemeth</p>
-        <h3 class="program-item-title">Creating art with a Raspberry Pi</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/stephanie-nemeth>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/stephanie.jpeg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Stephanie Nemeth
+              </p>
+              <h3 class="program-item-title">Creating art with a Raspberry Pi</h3>
+              <p><span class="talk-type">talk</span>
+                <span class="talk-category art-gaming">art gaming</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/breset-"sterling"-walker>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/sterling.jpg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Breset "Sterling" Walker</p>
-        <h3 class="program-item-title">The Users Your Site Is Missing: Lessons on accessibility from my first coding project</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/breset-"sterling"-walker>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/sterling.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Breset "Sterling" Walker
+              </p>
+              <h3 class="program-item-title">The Users Your Site Is Missing: Lessons on accessibility from my first coding project</h3>
+              <p><span class="talk-type">talk</span>
+                <span class="talk-category community">community</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/maurice-rogers>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/maurice-rogers.jpeg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Maurice Rogers</p>
-        <h3 class="program-item-title">Abacus: Shaping the future of education in Belize</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/maurice-rogers>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/maurice-rogers.jpeg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Maurice Rogers
+              </p>
+              <h3 class="program-item-title">Abacus: Shaping the future of education in Belize</h3>
+              <p><span class="talk-type">talk</span>
+                <span class="talk-category education">education</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/susan-tan>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/susan.jpeg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Susan Tan</p>
-        <h3 class="program-item-title">Rants and ruminations from 💯 CS job interviews in Silicon Valley</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/valerie-woolard-srinivasan>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/valerie.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Valerie Woolard Srinivasan
+              </p>
+              <h3 class="program-item-title">Good Fences Make Good Communities</h3>
+              <p><span class="talk-type">talk</span>
+                <span class="talk-category community">community</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/valerie-woolard-srinivasan>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/valerie.jpg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Valerie Woolard Srinivasan</p>
-        <h3 class="program-item-title">Good Fences Make Good Communities</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/daniel-shiffman>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/dan_shiffman.png">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Daniel Shiffman
+              </p>
+              <h3 class="program-item-title">Creative Coding: An art and code showcase</h3>
+              <p><span class="talk-type">talk</span>
+                <span class="talk-category art-gaming">art gaming</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/daniel-shiffman>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/dan_shiffman.png">
-      <div class="program-item-summary">
-        <p class="program-item-author">Daniel Shiffman</p>
-        <h3 class="program-item-title">Creative Coding: An art and code showcase</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/eric-brelsford>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/eric_brelsford.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Eric Brelsford
+              </p>
+              <h3 class="program-item-title">Coding the City We Want to Live In: Open sourcing public vacant land</h3>
+              <p><span class="talk-type">talk</span>
+                <span class="talk-category city-life">city life</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/eric-brelsford>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/eric_brelsford.jpg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Eric Brelsford</p>
-        <h3 class="program-item-title">Coding the City We Want to Live In: Open sourcing public vacant land</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/lauren-ellsworth>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/lauren_ellsworth.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Lauren Ellsworth
+              </p>
+              <h3 class="program-item-title">Infrastructure of Cancer Research Technology: Navigating the Complex, Regulated World of Healthcare Research</h3>
+              <p><span class="talk-type">talk</span>
+                <span class="talk-category health">health</span>
+              </p>
+            </div>
+          </article>
       </a>
+      </div>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/chris-algoo>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/chris-algoo.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Chris Algoo
+              </p>
+              <h3 class="program-item-title">Running Into Your Ex at a Party: Elements of a Successful Video Game</h3>
+              <p><span class="talk-type">talk</span>
+                <span class="talk-category art-gaming">art gaming</span>
+              </p>
+            </div>
+          </article>
+      </a>
+      </div>
+    </div>
   </div>
   <div class="program-list day-two">
     <p class="day-title">Day Two (8AM - 5PM)</p>
-      <a href=/speakers/carol-willing>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/carol_willing.jpg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Carol Willing</p>
-        <h3 class="program-item-title">Open Source Panelist</h3>
-      </div>
-    </article>
+    <div class="grid">
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/carol-willing>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/carol_willing.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Carol Willing
+              </p>
+              <h3 class="program-item-title">Open Source Panelist</h3>
+              <p><span class="talk-type">panel</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/ashley-jean>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/ashley_jean.jpeg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Ashley Jean</p>
-        <h3 class="program-item-title">Code-Life Balance Panelist</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/ashley-jean>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/ashley_jean.jpeg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Ashley Jean
+              </p>
+              <h3 class="program-item-title">Code-Life Balance Panelist</h3>
+              <p><span class="talk-type">panel</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/quincy-larson>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/quincy.png">
-      <div class="program-item-summary">
-        <p class="program-item-author">Quincy Larson</p>
-        <h3 class="program-item-title">How to write technical blog posts that people will actually read</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/quincy-larson>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/quincy.png">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Quincy Larson
+              </p>
+              <h3 class="program-item-title">How to write technical blog posts that people will actually read</h3>
+              <p><span class="talk-type">talk</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/eleanor-stribling>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/eleanor_stribling.jpg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Eleanor Stribling</p>
-        <h3 class="program-item-title">Your portfolio as a product: How to use product development strategies to impress employers</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/eleanor-stribling>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/eleanor_stribling.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Eleanor Stribling
+              </p>
+              <h3 class="program-item-title">Your portfolio as a product: How to use product development strategies to impress employers</h3>
+              <p><span class="talk-type">workshop</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/bryan-liles>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/bryan_liles.JPG">
-      <div class="program-item-summary">
-        <p class="program-item-author">Bryan Liles</p>
-        <h3 class="program-item-title">Open Source Panelist</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/bryan-liles>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/bryan_liles.JPG">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Bryan Liles
+              </p>
+              <h3 class="program-item-title">Open Source Panelist</h3>
+              <p><span class="talk-type">panel</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/brian-douglas>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/brian-douglas.jpg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Brian Douglas</p>
-        <h3 class="program-item-title">Code-Life Balance Panelist</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/brian-douglas>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/brian-douglas.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Brian Douglas
+              </p>
+              <h3 class="program-item-title">Code-Life Balance Panelist</h3>
+              <p><span class="talk-type">panel</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/jessica-rudder>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/jessica_rudder.png">
-      <div class="program-item-summary">
-        <p class="program-item-author">Jessica Rudder</p>
-        <h3 class="program-item-title">The Good Bad Bug: Learning to embrace failure from lessons in game development</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/susan-tan>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/susan.jpeg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Susan Tan
+              </p>
+              <h3 class="program-item-title">Rants and ruminations from 💯 CS job interviews in Silicon Valley</h3>
+              <p><span class="talk-type">talk</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/johnny-ray-austin>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/johnny-ray-austin.jpg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Johnny Ray Austin</p>
-        <h3 class="program-item-title">Code-Life Balance Panelist</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/jessica-rudder>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/jessica_rudder.png">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Jessica Rudder
+              </p>
+              <h3 class="program-item-title">The Good Bad Bug: Learning to embrace failure from lessons in game development</h3>
+              <p><span class="talk-type">talk</span>
+                <span class="talk-category art-gaming">art gaming</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/rebecca-poulson>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/rebecca-poulson.jpeg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Rebecca Poulson</p>
-        <h3 class="program-item-title">Getting Started With VR for Web Developers with A-Frame</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/johnny-ray-austin>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/johnny-ray-austin.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Johnny Ray Austin
+              </p>
+              <h3 class="program-item-title">Code-Life Balance Panelist</h3>
+              <p><span class="talk-type">panel</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/morgan-whaley>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/morgan_whaley.jpg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Morgan Whaley</p>
-        <h3 class="program-item-title">Code-Life Balance Panelist</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/rebecca-poulson>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/rebecca-poulson.jpeg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Rebecca Poulson
+              </p>
+              <h3 class="program-item-title">Getting Started With VR for Web Developers with A-Frame</h3>
+              <p><span class="talk-type">workshop</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/allison-mcmillan>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/allison_mcmillan.jpg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Allison McMillan</p>
-        <h3 class="program-item-title">Code-Life Balance Panelist</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/morgan-whaley>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/morgan_whaley.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Morgan Whaley
+              </p>
+              <h3 class="program-item-title">Code-Life Balance Panelist</h3>
+              <p><span class="talk-type">panel</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/andreas-fast>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/andreas.jpg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Andreas Fast</p>
-        <h3 class="program-item-title">Hiring Panel: How do I get the job? Panelist</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/allison-mcmillan>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/allison_mcmillan.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Allison McMillan
+              </p>
+              <h3 class="program-item-title">Code-Life Balance Panelist</h3>
+              <p><span class="talk-type">panel</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/safia-abdalla>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/safia_abdalla.jpg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Safia Abdalla</p>
-        <h3 class="program-item-title">Open Source Panelist</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/andreas-fast>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/andreas.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Andreas Fast
+              </p>
+              <h3 class="program-item-title">Hiring Panel: How do I get the job? Panelist</h3>
+              <p><span class="talk-type">panel</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/laura-gaetano>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/laura_gaetano.jpg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Laura Gaetano</p>
-        <h3 class="program-item-title">Open Source Panelist</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/safia-abdalla>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/safia_abdalla.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Safia Abdalla
+              </p>
+              <h3 class="program-item-title">Open Source Panelist</h3>
+              <p><span class="talk-type">panel</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/eddie-washington>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/eddie_washington.jpg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Eddie Washington</p>
-        <h3 class="program-item-title">Hiring Panel: How do I get the job? Panelist</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/laura-gaetano>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/laura_gaetano.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Laura Gaetano
+              </p>
+              <h3 class="program-item-title">Open Source Panelist</h3>
+              <p><span class="talk-type">panel</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/stephanie-slattery>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/stephanie_slattery.jpg">
-      <div class="program-item-summary">
-        <p class="program-item-author">Stephanie Slattery</p>
-        <h3 class="program-item-title">Web Accessibility and You: Let's Learn to Audit Websites</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/eddie-washington>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/eddie_washington.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Eddie Washington
+              </p>
+              <h3 class="program-item-title">Hiring Panel: How do I get the job? Panelist</h3>
+              <p><span class="talk-type">panel</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/jess-unrein>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/jess_unrein.JPG">
-      <div class="program-item-summary">
-        <p class="program-item-author">Jess Unrein</p>
-        <h3 class="program-item-title">Write Your Resume Like a Fanfic</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/stephanie-slattery>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/stephanie_slattery.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Stephanie Slattery
+              </p>
+              <h3 class="program-item-title">Web Accessibility and You: Let's Learn to Audit Websites</h3>
+              <p><span class="talk-type">workshop</span>
+              </p>
+            </div>
+          </article>
       </a>
-      <a href=/speakers/cassie-tarakajian>
-    <article class="program-item">
-      <img
-      src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/cassie_tarakajian.JPG">
-      <div class="program-item-summary">
-        <p class="program-item-author">Cassie Tarakajian</p>
-        <h3 class="program-item-title">Introduction to Creative Coding in p5.js for Web Developers</h3>
       </div>
-    </article>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/jess-unrein>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/jess_unrein.JPG">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Jess Unrein
+              </p>
+              <h3 class="program-item-title">Write Your Resume Like a Fanfic</h3>
+              <p><span class="talk-type">workshop</span>
+              </p>
+            </div>
+          </article>
       </a>
+      </div>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/cassie-tarakajian>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/cassie_tarakajian.JPG">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Cassie Tarakajian
+              </p>
+              <h3 class="program-item-title">Introduction to Creative Coding in p5.js for Web Developers</h3>
+              <p><span class="talk-type">workshop</span>
+              </p>
+            </div>
+          </article>
+      </a>
+      </div>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=/speakers/cole-furfaro-strode>
+          <article>
+            <div class="talk-meta">
+              <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/cole-furfaro-strode.jpg">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author">Cole Furfaro-Strode
+              </p>
+              <h3 class="program-item-title">'Pizza' Bot Fun Time Spectacular: Let's Make a Slack Bot</h3>
+              <p><span class="talk-type">workshop</span>
+              </p>
+            </div>
+          </article>
+      </a>
+      </div>
+    </div>
   </div>
 </section>
 
