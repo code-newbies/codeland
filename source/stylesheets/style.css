@@ -752,6 +752,9 @@ footer {
   .sponsor-list .flex-container .sponsor-image {
     padding: 10px 3px; } }
 @media only screen and (max-width: 800px) {
+  .full-program .grid-sizer, .full-program .grid-item {
+    width: 100%; }
+
   .mobile {
     display: block; }
 

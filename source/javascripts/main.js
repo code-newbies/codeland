@@ -1,7 +1,11 @@
 $(document).ready(function(){
   var elem = document.querySelector('.grid');
+  var day_two = document.querySelector('.day-two .grid');
+  var day_two_msnry = new Masonry( day_two, {
+        itemSelector: '.grid-item',
+          columnWidth: '.grid-sizer' 
+  });
   var msnry = new Masonry( elem, {
-      // options
         itemSelector: '.grid-item',
           columnWidth: '.grid-sizer' 
   });

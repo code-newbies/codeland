@@ -32,4 +32,32 @@
     <% end %>
     </div>
   </div>
+  <div class="program-list day-two">
+    <p class="day-title">Day Two (8AM - 5PM)</p>
+    <div class="grid">
+    <% data.people.speakers.each do |speaker| %>
+      <% next unless speaker.day == "2" && speaker.talk_title %>
+      <div class="grid-sizer"></div>
+      <div class="program-item grid-item">
+        <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
+          <article>
+            <div class="talk-meta">
+              <img src="<%= speaker.image_url %>">
+            </div>
+            <div class="program-item-summary">
+              <p class="program-item-author"><%= speaker.full_name %>
+              </p>
+              <h3 class="program-item-title"><%= speaker.talk_title %></h3>
+              <p><span class="talk-type"><%= speaker.type %></span>
+              <% if speaker.category %>
+                <span class="talk-category <%=speaker.category.gsub(" ", "-")%>"><%= speaker.category %></span>
+              <% end %>
+              </p>
+            </div>
+          </article>
+      </a>
+      </div>
+    <% end %>
+    </div>
+  </div>
 </section>

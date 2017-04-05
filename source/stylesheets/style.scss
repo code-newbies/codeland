@@ -498,6 +498,9 @@ footer {
 }
 
 @media only screen and (max-width: 800px){
+  .full-program {
+    .grid-sizer, .grid-item { width: 100%; }
+  }
   .mobile { display: block; }
   .desktop { display: none; }
   article.program { @include span-columns(12); }

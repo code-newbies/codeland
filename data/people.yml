@@ -650,7 +650,7 @@ speakers:
   data, maps, and code to help passionate community members start outdoor
   projects with vacant land and a little bit of support."
 - full_name: "Cassie Tarakajian"
-  talk: "workshop"
+  type: "workshop"
   day: "2"
   job_title: "Founder, Software Developer, and Creative Technologist"
   company: "Girlfriends"
