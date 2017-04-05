@@ -649,6 +649,68 @@ speakers:
   introducing randomness, and algorithmic generation. Basic familiarity with
   JavaScript, HTML, and CSS is required."
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/cassie_tarakajian.JPG"
+- full_name: "Lauren Ellsworth"
+  type: "talk"
+  day: "1"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/lauren_ellsworth.jpg"
+  job_title: "Senior Software Engineer"
+  company: "Flatiron Health"
+  twitter_handle: "@redyaffle"
+  github_username: "redyaffle"
+  bio: "Lauren Ellsworth is a Senior Software Engineer at Flatiron Health, a
+  company working to accelerate cancer research and improve cancer care. In her
+  years of development, Lauren has contributed to a half dozen analytics
+  platforms, software that aids in facial recognition of lions, and foster care
+  case management software, among others. Currently, Lauren is scaling
+  engineering onboarding at Flatiron Health, while developing agile and secure
+  services on the Developer Infrastructure team."
+  talk_title: "Infrastructure of Cancer Research Technology: Navigating the
+  Complex, Regulated World of Healthcare Research"
+  talk_abstract: "Working on cancer research technology requires scaling
+  quickly, but that's notnearly  as essential as maintaining HIPAA compliance
+  and safety in our architecture. Only a limited set of Amazon Web Services are
+  available for HIPAA compliant companies. This talk will cover how Flatiron
+  Health uses those services to accelerate cancer research and improve cancer
+  care."
+- full_name: "Chris Algoo"
+  type: "talk"
+  day: "1"
+  job_title: "Co-Founder"
+  company: "Brooklyn Gamery"
+  twitter_handle: "@ChrisAlgoo"
+  other_link: "http://breakupsquadgame.com/"
+  bio: "Chris Algoo is a game developer, event organizer, speaker, and educator
+  from Brooklyn. His events and games have a strong focus on diversity and
+  inclusion. He's currently working on Breakup Squad, a party game displayed
+  internationally in museums, festivals, and other venues."
+  talk_title: "Running Into Your Ex at a Party: Elements of a Successful Video
+  Game"
+  talk_abstract: "Breakup Squad is an award winning game that's been played in
+  festivals, parties, and museums around the world. Get an inside look at how it
+  was made, its code, and how you can make games too."
+  day: "1"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/chris-algoo.jpg"
+- full_name: "Cole Furfaro-Strode"
+  type: "workshop"
+  day: "2"
+  job_title: "Lead Software Engineer"
+  company: "SparkPost"
+  twitter_handle: "@colestrode"
+  github_username: "colestrode"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/cole-furfaro-strode.jpg"
+  bio: "Cole is a full-stack javascript developer and part-time bot wrangler at
+  SparkPost where he helps build their API, UI, and client libraries. SparkPost
+  helps Twitter, Pinterest, Zillow, and thousands of developers send billions of
+  emails a year. He also helped make a tiny person. She doesn't send any email
+  yet."
+  talk_title: "'Pizza' Bot Fun Time Spectacular: Let's Make a Slack Bot"
+  talk_abstract: "Join the SparkPost team for a fun few hours building a Slack
+  bot that will order you a delicious, hot pizza straight to your door. If you
+  can write some Javascript, you can build a pizza bot! During this workshop
+  you’ll learn how to build a Slack bot from scratch, translate an idea into
+  working code by breaking it down into smaller problems, and work with
+  real-world (sometimes messy) APIs and documentation."
+
 
 
 
