@@ -333,6 +333,7 @@ article {
   position: relative;
   img {
     width: 100%;
+    border: 5px white solid;
   }
   .speaker-title {
     background: #ffedff;
@@ -341,10 +342,10 @@ article {
     margin-top: 0px;
   }
   a:hover img { border: 5px #f52eff solid; }
-  a .speaker-title { text-decoration: none; }
+  a { text-decoration: none; }
   a:hover {
     color: black;
-    font-weight: 900;
+    font-weight: 600;
   }
 }
 
@@ -355,7 +356,6 @@ article {
     display: flex;
     display: -webkit-box;
     display: -webkit-flex;
-    display: -moz-box;
     display: -ms-flexbox;
     -webkit-flex-align: center;
     -ms-flex-align: center;
