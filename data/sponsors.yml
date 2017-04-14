@@ -29,3 +29,6 @@ sponsors:
 - name: "Linode"
   link: "https://www.linode.com/"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Linode-Logo.png"
+- name: "Flatiron"
+  link: "http://www.flatiron.com/"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/flatiron_health.png"
