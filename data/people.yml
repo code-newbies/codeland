@@ -717,7 +717,42 @@ speakers:
   festivals, parties, and museums around the world. Get an inside look at how it
   was made, its code, and how you can make games too."
   day: "1"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/chris-algoo.jpg"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/nicholas-corvino.jpg"
+- full_name: "Nicholas Corvino"
+  type: "panel"
+  day: "2"
+  job_title: "Sr Engineering and Leadership Recruiter"
+  company: "Google"
+  bio: "Nick is currently a Sr Engineering and Leadership Recruiter with Google
+  here in NYC; and he formerly worked for the nation’s largest staffing agency,
+  TEKsystems. With proven experience working with industry leaders, Nick has
+  great insight into what companies are really looking for, from new grad to
+  industry leaders."
+  category: "hiring"
+  talk_title: *hiringpanel
+  talk_abstract: *hiringpanel
+  image_url: "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/8/005/0b4/17d/0ec9d57.jpg"
+- full_name: "Iuliia Kotlenko"
+  type: "workshop"
+  day: "2"
+  job_title: "Instructor"
+  company_name: "Dev Bootcamp"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/iuliia-kotlenko.png"
+  bio: "Iuliia is a New York-based web developer specializing in Ruby on Rails.
+  She currently works at Dev Bootcamp as a Full Stack Instructor. She’s
+  passionate about algorithms and new technology and sharing knowledge."
+  twitter_handle: "iuliiakot"
+  github_username: "iuliiakot"
+  talk_title: "Preparing for a Technical Interview"
+  talk_abstract: "Technical interviews can be tough -  interviewers usually ask
+  a set of specific questions, expect you to know certain concepts, and like you
+  to communicate your knowledge in a specific way. Knowing what to expect in
+  advance and how to best prepare for a technical interview is the key for
+  landing your dream job. We’ll cover Big O notation, some data structures such
+  as array, stack, queue, and binary tree and algorithms for sorting and
+  searching. The main goal of this workshop is not only focusing on the
+  theoretical aspects of coding but also allowing participants to solve problems
+  together and show a step by step guide in how to approach problem solving."
 - full_name: "Cole Furfaro-Strode"
   type: "workshop"
   day: "2"

@@ -350,7 +350,7 @@ article {
 }
 
 
-.sponsor-list {
+.sponsor-list, .sponsor-sub-list {
   @include clearfix;
   .flex-container {
     display: flex;
@@ -373,6 +373,24 @@ article {
       @include span-columns(5);
       @include omega(2n);
     }
+  }
+}
+
+.sponsor-sub-list {
+  @include span-columns(12);
+  @include shift(2); 
+  .sponsor-sub {
+    &:first-child { @include span-columns(3); }
+    &:last-child {
+      @include span-columns(5);
+      .sponsor-image { @include span-columns(6); }
+    }
+    padding: 0px 50px 30px;
+    text-align: center;
+    .sponsor-image {
+      padding-top: 30px;
+    }
+    img { width: 100%; }
   }
 }
 
@@ -460,6 +478,15 @@ footer {
 }
 
 @media only screen and (max-width: 900px){
+  .sponsor-sub-list {
+    @include shift(0);
+    .sponsor-sub {
+      padding: 0 20px 30px;
+      h3 { font-size: 16px; }
+    }
+    .sponsor-sub:first-child { @include span-columns(4); }
+    .sponsor-sub:last-child { @include span-columns(8); }
+  }
   .speaker {
     @include span-columns(4);
     &:nth-child(4n+1) { clear: none; }
