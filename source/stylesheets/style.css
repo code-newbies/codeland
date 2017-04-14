@@ -184,6 +184,10 @@ html {
     background: white;
     padding: 5px 15px;
     margin: 10px 0px; }
+    .schedule .schedule-item a {
+      text-decoration: none; }
+      .schedule .schedule-item a:hover .talk-category {
+        color: black; }
     .schedule .schedule-item.talks p.start-time {
       color: #4caf50; }
       .schedule .schedule-item.talks p.start-time span {
@@ -204,7 +208,8 @@ html {
     .schedule .schedule-item .speakers {
       font-weight: 100;
       font-size: 16px;
-      padding-left: 10px; }
+      padding-left: 10px;
+      font-family: "Helvetica"; }
   @media only screen and (max-width: 900px) {
     .schedule .schedule-day {
       float: left;

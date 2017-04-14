@@ -8,6 +8,10 @@
     background: white;
     padding: 5px 15px;
     margin: 10px 0px;
+    a {
+      text-decoration: none;
+      &:hover .talk-category { color: black; }
+    }
     &.talks p.start-time 
     {
       color: #4caf50;
@@ -35,6 +39,7 @@
       font-weight: 100;
       font-size: 16px;
       padding-left: 10px;
+      font-family: "Helvetica";
     }
   }
   @media only screen and (max-width: 900px){
