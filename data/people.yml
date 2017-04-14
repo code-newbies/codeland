@@ -5,6 +5,7 @@ speakers:
   type: "fireside chat"
   category: "city life"
   day: "1"
+  order: "8"
   talk_title: "The first CTO of NYC: A fireside chat"
   talk_abstract: "We sit down for a fireside chat with the former CTO of NYC, a
   technologist with a passion for making the city a thriving and accessible
@@ -50,6 +51,7 @@ speakers:
 - full_name: "Ashley Jean"
   type: "panel"
   day: "2"
+  order: "5"
   category: "code life balance"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/ashley_jean.jpeg"
   talk_title: &codelifebalance "Code-Life Balance Panelist"
@@ -65,6 +67,8 @@ speakers:
   her spare time, she enjoys training for foot races and organizing events in
   Baltimore for women learning to program."
 - full_name: "Celia La" 
+  day: "1"
+  order: "18"
   type: "talk"
   category: "education"
   image_url: "http://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/CeliaLa.jpg" 
@@ -86,6 +90,7 @@ speakers:
   type: "talk"
   category: "health"
   day: "1"
+  order: "10"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/Michelle.jpg"
   talk_title: "Diagnosing Depression: Open source tools for mental health"
   talk_abstract: "Mental health disorders affects millions of people in the
@@ -114,6 +119,7 @@ speakers:
   Browser, many Languages and one Language, how it might all fit together and
   what might come next."
   day: "1"
+  order: "19"
   job_title: "Principal Program Manager"
   company: "Microsoft"
   twitter_handle: "@shanselman"
@@ -126,6 +132,7 @@ speakers:
   type: "talk"
   category: "community"
   day: "1"
+  order: "15"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/esra.png"
   talk_title: "The Fallacy of Exporting Tech Solutions to the Middle East"
   talk_abstract: "Regional innovators are bucking the notion that Western
@@ -147,6 +154,7 @@ speakers:
   type: "talk"
   category: "education"
   day: "1"
+  order: "17"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/courteney_ervin.jpeg"
   job_title: "Software Developer"
   company: "The New York Public Library"
@@ -166,6 +174,7 @@ speakers:
 - full_name: "Quincy Larson"
   type: "talk"
   day: "2"
+  order: "2"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/quincy.png"
   job_title: "Teacher"
   company: "freeCodeCamp"
@@ -215,6 +224,7 @@ speakers:
   type: "talk"
   category: "city life"
   day: "1"
+  order: "6"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/kate.jpeg"
   job_title: "Founder"
   company: "DataLensDC"
@@ -235,6 +245,7 @@ speakers:
   type: "talk"
   category: "community"
   day: "1"
+  order: "12"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/rapi-large.jpeg"
   job_title: "Executive Director"
   company: "Progressive Coders Network"
@@ -255,7 +266,8 @@ speakers:
   and create a network of developers to power the progressive movement."
 - full_name: "Katrina Owen"
   type: "talk"
-  day: "1"
+  day: "2"
+  order: "1"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/katrina-owen.jpg"
   job_title: "Advocate—Open Source"
   company: "GitHub"
@@ -276,7 +288,8 @@ speakers:
   want."
 - full_name: "Nell Shamrell-Harrington"
   type: "talk"
-  day: "1"
+  day: "2"
+  order: "4"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/nell.jpeg"
   job_title: "Sr. Software Engineer"
   company: "Chef Software"
@@ -320,6 +333,7 @@ speakers:
   type: "talk"
   category: "art gaming"
   day: "1"
+  order: "4"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/opher.jpeg"
   job_title: "Senior Creative Developer"
   company: "Eko"
@@ -342,6 +356,7 @@ speakers:
   type: "talk"
   category: "art gaming"
   day: "1"
+  order: "1"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/stephanie.jpeg"
   job_title: "Frontend Developer"
   company: "SpronQ"
@@ -358,6 +373,7 @@ speakers:
   type: "talk"
   category: "community"
   day: "1"
+  order: "14"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/sterling.jpg"
   talk_title: "The Users Your Site Is Missing: Lessons on accessibility from my
   first coding project"
@@ -379,6 +395,7 @@ speakers:
   type: "talk"
   category: "education"
   day: "1"
+  order: "16"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/maurice-rogers.jpeg"
   job_title: "Software Consultant"
   company: "BayTechnologies"
@@ -411,6 +428,7 @@ speakers:
   type: "talk"
   category: "community"
   day: "1"
+  order: "12"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/valerie.jpg"
   job_title: "Software Engineer"
   company: "Panoply"
@@ -430,7 +448,8 @@ speakers:
 - full_name: "Jessica Rudder"
   type: "talk"
   category: "art gaming"
-  day: "2"
+  day: "1"
+  order: "3"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/jessica_rudder.png"
   job_title: "Developer"
   company: "Flatiron School"
@@ -541,6 +560,7 @@ speakers:
   type: "talk"
   category: "art gaming"
   day: "1"
+  order: "2"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/dan_shiffman.png"
   job_title: "Associate Arts Professor"
   company: "ITP (Tisch, NYU)"
@@ -649,6 +669,7 @@ speakers:
   type: "talk"
   category: "city life"
   day: "1"
+  order: "7"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/eric_brelsford.jpg"
   job_title: "Freelance Developer"
   twitter_handle: "@ebrelsford"
@@ -679,6 +700,7 @@ speakers:
   type: "talk"
   category: "health"
   day: "1"
+  order: "9"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/lauren_ellsworth.jpg"
   job_title: "Senior Software Engineer"
   company: "Flatiron Health"
@@ -691,10 +713,10 @@ speakers:
   case management software, among others. Currently, Lauren is scaling
   engineering onboarding at Flatiron Health, while developing agile and secure
   services on the Developer Infrastructure team."
-  talk_title: "Infrastructure of Cancer Research Technology: Navigating the
+  talk_title: "Infrastructure of Oncology Data Technology: Navigating the
   Complex, Regulated World of Healthcare Research"
   talk_abstract: "Working on cancer research technology requires scaling
-  quickly, but that's notnearly  as essential as maintaining HIPAA compliance
+  quickly, but that's not nearly  as essential as maintaining HIPAA compliance
   and safety in our architecture. Only a limited set of Amazon Web Services are
   available for HIPAA compliant companies. This talk will cover how Flatiron
   Health uses those services to accelerate cancer research and improve cancer
@@ -703,6 +725,7 @@ speakers:
   type: "talk"
   category: "art gaming"
   day: "1"
+  order: "5"
   job_title: "Co-Founder"
   company: "Brooklyn Gamery"
   twitter_handle: "@ChrisAlgoo"

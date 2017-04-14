@@ -5,6 +5,7 @@ $pink: #ff94de;
 $orange: #ffaa62;
 $light-orange: #fff1ca;
 $light-yellow: #ffffed;
+$light-green: #85ff85;
 
 $red: #ff2e8e;
 $purple: #fc2eff;
@@ -21,6 +22,7 @@ $city-life-color: $light-blue;
 @import "lib/_neat/neat";
 @import "lib/_mailchimp_signup";
 @import "lib/_speaker";
+@import "lib/_schedule";
 
 
 .wrapper {
@@ -245,6 +247,7 @@ article {
   font-size: 10px;
   font-weight: 600;
   display: inline-block;
+  background: white;
 }
 
 .talk-type { border: 1px solid $gray; }

@@ -169,6 +169,33 @@ html {
   .speaker-page .desktop {
     display: inline-block; } }
 
+.schedule {
+  background: #f8f8f8; }
+  .schedule .schedule-item {
+    background: white;
+    padding: 5px 15px;
+    margin: 10px 0px; }
+    .schedule .schedule-item.talks p.start-time {
+      color: #4caf50; }
+      .schedule .schedule-item.talks p.start-time span {
+        background: #85ff85;
+        color: darkgreen; }
+    .schedule .schedule-item p {
+      margin: 15px 10px; }
+      .schedule .schedule-item p.start-time {
+        color: gray;
+        font-size: 14px;
+        text-transform: uppercase; }
+        .schedule .schedule-item p.start-time span {
+          background: #f8f8f8;
+          padding: 8px 15px 5px;
+          margin-left: -10px;
+          margin-right: 10px; }
+    .schedule .schedule-item .speakers {
+      font-weight: 100;
+      font-size: 16px;
+      padding-left: 10px; }
+
 .wrapper {
   padding: 10px 10%;
   margin-bottom: 15px; }
@@ -424,7 +451,8 @@ article {
   padding: 3px 7px;
   font-size: 10px;
   font-weight: 600;
-  display: inline-block; }
+  display: inline-block;
+  background: white; }
 
 .talk-type {
   border: 1px solid #c9c9c9; }

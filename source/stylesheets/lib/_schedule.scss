@@ -1,0 +1,35 @@
+.schedule {
+  background: $lightgray;
+  .schedule-item {
+    background: white;
+    padding: 5px 15px;
+    margin: 10px 0px;
+    &.talks p.start-time 
+    {
+      color: #4caf50;
+      span {
+        background: $light-green;
+        color: darkgreen;
+      }
+    }
+    p {
+      margin: 15px 10px;
+      &.start-time {
+        color: gray;
+        font-size: 14px;
+        text-transform: uppercase;
+        span {
+          background: $lightgray;
+          padding: 8px 15px 5px;
+          margin-left: -10px;
+          margin-right: 10px;
+        }
+      }
+    }
+    .speakers {
+      font-weight: 100;
+      font-size: 16px;
+      padding-left: 10px;
+    }
+  }
+}
