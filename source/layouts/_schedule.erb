@@ -40,7 +40,7 @@
       <p class="start-time"><span>11:45 AM</span>Lunch</p>
     </article>
     <article class="schedule-item talks">
-      <p class="start-time"><span>10:15 AM</span>Talks</p>
+      <p class="start-time"><span>12:45 PM</span>Talks</p>
       <% day_one[8..9].each do |speaker| %>
       <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>><p class="schedule-item-title"><%= speaker.talk_title %><span
       class="speakers"><%= speaker.full_name %></span>
@@ -69,7 +69,7 @@
     </article>
     <article class="schedule-item talks">
       <p class="start-time"><span>3:20 PM</span>Talks</p>
-      <% day_one[14..18].each do |speaker| %>
+      <% day_one[14..17].each do |speaker| %>
       <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>><p class="schedule-item-title"><%= speaker.talk_title %><span
       class="speakers"><%= speaker.full_name %></span>
       <% if speaker.category %>
@@ -77,10 +77,20 @@
       <% end %>
       </p></a>
     <% end %>
-      <p>Closing<span class="speakers">Nikhil Paul, Saron Yitbrek</span></p>
+    </article>
+    <article class="schedule-item talks">
+      <p class="start-time"><span>4:05 PM</span>Keynote</p>
+      <% speaker = day_one[18] %>
+        <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>><p class="schedule-item-title"><%= speaker.talk_title %><span
+        class="speakers"><%= speaker.full_name %></span>
+        <% if speaker.category %>
+          <span class="talk-category <%=speaker.category.gsub(" ", "-")%>"><%= speaker.category %></span>
+        <% end %>
+        </p></a>
     </article>
     <article class="schedule-item break">
-      <p class="start-time"><span>5:00 PM</span>The End</p>
+      <p class="start-time"><span>5:00 PM</span></p>
+      <p>Closing<span class="speakers">Nikhil Paul, Saron Yitbrek</span></p>
     </article>
   </div>
   <div class="schedule-day">
@@ -150,10 +160,10 @@
       <p class="schedule-item-title">Hiring Panel: How do I get the job?<span
       class="speakers">Adreas Fast, Eddie Washington, Vesha Parker, Nick Corvino
       </span></p>
-      <p>Closing<span class="speakers">Nikhil Paul, Saron Yitbarek</span></p>
     </article>
     <article class="schedule-item break">
-      <p class="start-time"><span>5:00 PM</span>The End</p>
+      <p class="start-time"><span>5:00 PM</span></p>
+      <p>Closing<span class="speakers">Nikhil Paul, Saron Yitbarek</span></p>
     </article>
   </div>
 </section>
