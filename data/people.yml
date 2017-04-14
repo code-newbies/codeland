@@ -411,6 +411,7 @@ speakers:
 - full_name: "Susan Tan"
   type: "talk"
   day: "2"
+  order: "7"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/susan.jpeg"
   job_title: "Software Engineer"
   company: "bepress"
@@ -740,7 +741,7 @@ speakers:
   festivals, parties, and museums around the world. Get an inside look at how it
   was made, its code, and how you can make games too."
   day: "1"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/nicholas-corvino.jpg"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/chris-algoo.jpg"
 - full_name: "Nicholas Corvino"
   type: "panel"
   day: "2"
@@ -754,7 +755,7 @@ speakers:
   category: "hiring"
   talk_title: *hiringpanel
   talk_abstract: *hiringpanel
-  image_url: "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/8/005/0b4/17d/0ec9d57.jpg"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/nicholas-corvino.jpg"
 - full_name: "Iuliia Kotlenko"
   type: "workshop"
   day: "2"

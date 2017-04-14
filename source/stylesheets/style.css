@@ -171,6 +171,15 @@ html {
 
 .schedule {
   background: #f8f8f8; }
+  .schedule h3 {
+    text-align: center; }
+  .schedule .schedule-day {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .schedule .schedule-day:last-child {
+      margin-right: 0; }
   .schedule .schedule-item {
     background: white;
     padding: 5px 15px;
@@ -183,18 +192,33 @@ html {
     .schedule .schedule-item p {
       margin: 15px 10px; }
       .schedule .schedule-item p.start-time {
-        color: gray;
+        color: #454545;
         font-size: 14px;
         text-transform: uppercase; }
         .schedule .schedule-item p.start-time span {
-          background: #f8f8f8;
+          background: #e2e2e2;
           padding: 8px 15px 5px;
           margin-left: -10px;
-          margin-right: 10px; }
+          margin-right: 10px;
+          display: inline-block; }
     .schedule .schedule-item .speakers {
       font-weight: 100;
       font-size: 16px;
       padding-left: 10px; }
+  @media only screen and (max-width: 900px) {
+    .schedule .schedule-day {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .schedule .schedule-day:last-child {
+        margin-right: 0; } }
+  @media only screen and (max-width: 500px) {
+    .schedule .schedule-item p, .schedule .schedule-item p.start-time, .schedule .schedule-item .speakers {
+      font-size: 12px; }
+    .schedule .schedule-item .talk-type, .schedule .schedule-item .talk-category {
+      padding: 1px 3px;
+      font-size: 8px; } }
 
 .wrapper {
   padding: 10px 10%;

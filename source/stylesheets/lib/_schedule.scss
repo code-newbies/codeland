@@ -1,5 +1,9 @@
 .schedule {
   background: $lightgray;
+  h3 { text-align: center; }
+  .schedule-day {
+    @include span-columns(6);
+  }
   .schedule-item {
     background: white;
     padding: 5px 15px;
@@ -15,14 +19,15 @@
     p {
       margin: 15px 10px;
       &.start-time {
-        color: gray;
+        color: $charcoal;
         font-size: 14px;
         text-transform: uppercase;
         span {
-          background: $lightgray;
+          background: #e2e2e2;
           padding: 8px 15px 5px;
           margin-left: -10px;
           margin-right: 10px;
+          display: inline-block;
         }
       }
     }
@@ -30,6 +35,18 @@
       font-weight: 100;
       font-size: 16px;
       padding-left: 10px;
+    }
+  }
+  @media only screen and (max-width: 900px){
+    .schedule-day { @include span-columns(12); }
+  }
+  @media only screen and (max-width: 500px){
+    .schedule-item {
+      p, p.start-time, .speakers { font-size: 12px; }
+      .talk-type, .talk-category {
+        padding: 1px 3px;
+        font-size: 8px;
+      }
     }
   }
 }
