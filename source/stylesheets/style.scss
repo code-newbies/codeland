@@ -225,7 +225,15 @@ article {
     text-decoration: none;
     &:hover {
       color: black;
+      .ticket-update { background: yellow; }
     }
+  }
+  .ticket-update {
+    font-size: 12px;
+    color: $charcoal;
+    border: 1px solid gray;
+    padding: 2px 7px;
+    text-transform: uppercase;
   }
 }
 
