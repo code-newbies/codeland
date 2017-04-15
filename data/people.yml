@@ -710,7 +710,7 @@ speakers:
   the last year."
   github_username: "lottspot"
   job_title: "Systems Engineer"
-  company_name: "Linode"
+  company: "Linode"
   twitter_handle: "lottspot"
   talk_title: "Shipping Containers"
   talk_abstract: "In this workshop we will cover the fundamentals of running
@@ -718,19 +718,6 @@ speakers:
   might consider doing so."
 - full_name: "Jess Unrein"
   type: "workshop"
-  bio: "James got his start in technology as a hobbyist while in school. After
-  graduating with his liberal arts based degree, he began working for a web
-  hosting company in Los Angeles. After three years of working in various roles
-  there, he moved to southern New Jersey to join Linode, where he has worked for
-  the last year."
-  github_username: "lottspot"
-  job_title: "Systems Engineer"
-  company_name: "Linode"
-  twitter_handle: "lottspot"
-  talk_title: "Shipping Containers"
-  talk_abstract: "In this workshop we will cover the fundamentals of running
-  applications inside docker containers as well as some reasons as to why you
-  might consider doing so."
   day: "2"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/jess_unrein.JPG"
   job_title: "Software Engineer"
@@ -863,7 +850,7 @@ speakers:
   type: "workshop"
   day: "2"
   job_title: "Instructor"
-  company_name: "Dev Bootcamp"
+  company: "Dev Bootcamp"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/iuliia-kotlenko.png"
   bio: "Iuliia is a New York-based web developer specializing in Ruby on Rails.
   She currently works at Dev Bootcamp as a Full Stack Instructor. She’s
