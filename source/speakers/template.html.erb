@@ -1,14 +1,5 @@
 <div class="speaker-page">
-  <nav class="wrapper">
-    <a href="/">
-    <%= image_tag "codeland-title-long.png" %>
-    </a>
-    <span class="boxed">
-      <div class="button get-tickets box">
-        <a href="https://ti.to/codenewbie/codeland" target="_blank" class="box">get tickets</a>
-      </div>
-    </span>
-  </nav>
+  <%= partial "layouts/nav" %>
   <%= partial "speakers/profile" %>
   <%= partial "layouts/ticket_information" %>
   <%= partial "layouts/mailchimp_signup" %>

@@ -1,8 +1,39 @@
+@charset "UTF-8";
 html {
   box-sizing: border-box; }
 
 *, *::after, *::before {
   box-sizing: inherit; }
+
+nav {
+  background: black; }
+  nav .main-nav {
+    margin-left: auto;
+    margin-right: auto;
+    float: none; }
+    nav .main-nav img {
+      max-width: 200px; }
+    nav .main-nav ul {
+      text-align: center; }
+      nav .main-nav ul a {
+        text-decoration: none; }
+        nav .main-nav ul a::after {
+          content: "•";
+          padding: 0px 10px;
+          color: white; }
+        nav .main-nav ul a:last-child::after {
+          content: none; }
+        nav .main-nav ul a:hover {
+          color: black; }
+          nav .main-nav ul a:hover li {
+            background: white;
+            color: black; }
+      nav .main-nav ul li {
+        color: white;
+        display: inline-block;
+        text-transform: uppercase;
+        padding: 5px 15px;
+        font-size: 14px; }
 
 .mailchimp-signup {
   display: block;
