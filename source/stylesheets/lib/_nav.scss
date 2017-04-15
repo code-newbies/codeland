@@ -1,5 +1,9 @@
 nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
   background: black;
+  z-index: 9999999999;
   .main-nav {
     margin-left: auto;
     margin-right: auto;

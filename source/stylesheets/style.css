@@ -6,7 +6,11 @@ html {
   box-sizing: inherit; }
 
 nav {
-  background: black; }
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: black;
+  z-index: 9999999999; }
   nav .main-nav {
     margin-left: auto;
     margin-right: auto;
@@ -266,7 +270,7 @@ nav {
 
 body {
   margin: 0px;
-  border-top: 30px solid black;
+  margin-top: 80px;
   border-bottom: 30px solid black; }
 
 a {

@@ -1,4 +1,11 @@
 $(document).ready(function(){
+  $(".main-nav a").on("click", function(e){
+    var href = $(this).attr("href").replace("/", "");
+    $("body").animate({
+      scrollTop: $(href).offset().top - 70 
+    }, 'slow');
+  });
+
   var elem = document.querySelector('.grid');
   var day_two = document.querySelector('.day-two .grid');
   var day_two_msnry = new Masonry( day_two, {
