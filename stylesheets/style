@@ -462,6 +462,14 @@ article {
     text-decoration: none; }
     .tickets a:hover {
       color: black; }
+      .tickets a:hover .ticket-update {
+        background: yellow; }
+  .tickets .ticket-update {
+    font-size: 12px;
+    color: #454545;
+    border: 1px solid gray;
+    padding: 2px 7px;
+    text-transform: uppercase; }
 
 [class*="-description"] {
   max-width: 700px;
