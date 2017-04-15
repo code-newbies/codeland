@@ -5,6 +5,17 @@ $(document).ready(function(){
       scrollTop: $(href).offset().top - 70 
     }, 'slow');
   });
+  $(".mobile-home").on("click", function(e){
+    $(".mobile-nav").slideToggle();
+  });
+  $(window).resize(function(){
+    var mq = window.matchMedia("(min-width: 649px)");
+    if(mq.matches){
+      $(".mobile-nav").show();
+    }else{
+      $(".mobile-nav").hide();
+    }
+  });
 
   var elem = document.querySelector('.grid');
   var day_two = document.querySelector('.day-two .grid');

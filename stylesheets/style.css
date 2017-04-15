@@ -11,6 +11,8 @@ nav {
   width: 100%;
   background: black;
   z-index: 9999999999; }
+  nav .mobile-home {
+    display: none; }
   nav .main-nav {
     margin-left: auto;
     margin-right: auto;
@@ -43,10 +45,19 @@ nav {
       padding: 0px; }
     nav.wrapper ul {
       padding: 0px 5px; } }
+  @media only screen and (min-width: 649px) {
+    nav.main-nav .mobile-nav {
+      display: block; } }
   @media only screen and (max-width: 650px) {
     nav.main-nav ul li {
       font-size: 12px;
-      padding: 5px 0px; } }
+      padding: 5px 0px; }
+    nav.main-nav .mobile-home {
+      display: block; }
+      nav.main-nav .mobile-home li {
+        padding: 5px 10px; }
+    nav .mobile-nav {
+      display: none; } }
 
 .mailchimp-signup {
   display: block;
