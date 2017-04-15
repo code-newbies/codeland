@@ -286,6 +286,19 @@ speakers:
   Too many unknowns, too many resources, too many options. This talk explores how to get the mentorship you need, and you may be
   surprised to discover that this is not the same thing as the mentorship you
   want."
+- full_name: "Phil Eaton"
+  type: "talk"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/phil_eaton.jpg" 
+  job_title: "Developer"
+  company: "Linode"
+  bio: "Phil is a Developer at Linode. There he enjoys organizing company-wide
+  hack nights, educational talks, and a book club. After work he enjoys reading
+  and studying Korean."
+  github_username: "eatonphil"
+  talk_title: "Shipping Containers"
+  talk_abstract: "In this workshop we will cover the fundamentals of running
+  applications inside docker containers as well as some reasons as to why you
+  might consider doing so."
 - full_name: "Nell Shamrell-Harrington"
   type: "talk"
   day: "2"
@@ -408,6 +421,31 @@ speakers:
   talk_abstract: "Maurice shares the story of how his simple side project
   blossomed into one of the fastest growing school information systems in
   Belize, impacting more than 15,000 students throughout the country."
+- full_name: "Eric Hollenberry"
+  type: "workshop"
+  day: "2"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/eric-hollenberry.jpg"
+  job_title: "Trainer"
+  github_username: "hollenberry"
+  talk_title: "Introduction to Git, GitHub, and the CLI && Git Into Ship Shape"
+  talk_abstract: "Introduction to Git, GitHub, and the CLI: Make sure your
+  laptop is charged up and ready to go for this comprehensive review of GitHub
+  as a collaboration platform. Though the workshop assumes no prior experience
+  with Git, GitHub trainer Eric Hollenberry is positive he can teach old dogs
+  new command line tricks. Walk away with industry best-practices, a great
+  conceptual overview of the GitHub Flow, and prepared to contribute to the Open
+  Source community.
+
+  Git Into Ship Shape: Don’t get caught in a development whirlpool without the
+  proper tools at your fingertips. In this intermediate offering, GitHub trainer
+  Eric Hollenberry utilizes visualization tools to a-shore you learn and utilize
+  the right commands, solidify your Git mental model, and give you the
+  confidence to sail through your next no good very bad gituation."
+  company: "GitHub"
+  bio: "Eric is a Trainer at GitHub, traveling the world to teach customers how
+  to best adopt and utilize all things Git. A teacher by trade, he's deeply
+  invested in education and open source software, with enthusiasm for both
+  non-technical users and software developers."
 - full_name: "Susan Tan"
   type: "talk"
   day: "2"
@@ -746,6 +784,22 @@ speakers:
   introducing randomness, and algorithmic generation. Basic familiarity with
   JavaScript, HTML, and CSS is required."
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/cassie_tarakajian.JPG"
+- full_name: "La Vesha Parker"
+  type: "panel"
+  day: "2"
+  category: "hiring"
+  job_title: "Software Engineer"
+  company: "Etsy"
+  twitter_handle: "@feministcoder"
+  github_username: "laveshaparker"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/vesha_parker.jpg"
+  talk_title: *hiringpanel
+  talk_abstract: *hiringpanel
+  bio: "La Vesha is a full-stack developer at Etsy who works on tools that help
+  sellers manage their shops more easily at Etsy. Before working at Etsy, she
+  graduated with a CS degree from Cornell University. She is part of the
+  Progressive Coders Network, and spends a lot of her free time working on a
+  hacknight for social betterment in NYC!"
 - full_name: "Lauren Ellsworth"
   type: "talk"
   category: "health"
