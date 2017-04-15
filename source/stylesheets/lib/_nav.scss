@@ -38,4 +38,14 @@ nav {
       }
     }
   }
+  @media only screen and (max-width: 1350px){
+    &.wrapper { padding: 0px; }
+    &.wrapper ul { padding: 0px 5px; }
+  }
+  @media only screen and (max-width: 650px){
+    &.main-nav ul li {
+      font-size: 12px;
+      padding: 5px 0px;
+    }
+  }
 }

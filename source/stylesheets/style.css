@@ -38,6 +38,15 @@ nav {
         text-transform: uppercase;
         padding: 5px 15px;
         font-size: 14px; }
+  @media only screen and (max-width: 1350px) {
+    nav.wrapper {
+      padding: 0px; }
+    nav.wrapper ul {
+      padding: 0px 5px; } }
+  @media only screen and (max-width: 650px) {
+    nav.main-nav ul li {
+      font-size: 12px;
+      padding: 5px 0px; } }
 
 .mailchimp-signup {
   display: block;
