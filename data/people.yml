@@ -794,7 +794,7 @@ speakers:
   github_username: "laveshaparker"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/vesha_parker.jpg"
   talk_title: *hiringpanel
-  talk_abstract: *hiringpanel
+  talk_abstract: *hiringpanelabstract
   bio: "La Vesha is a full-stack developer at Etsy who works on tools that help
   sellers manage their shops more easily at Etsy. Before working at Etsy, she
   graduated with a CS degree from Cornell University. She is part of the
@@ -857,7 +857,7 @@ speakers:
   industry leaders."
   category: "hiring"
   talk_title: *hiringpanel
-  talk_abstract: *hiringpanel
+  talk_abstract: *hiringpanelabstract
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/nicholas-corvino.jpg"
 - full_name: "Iuliia Kotlenko"
   type: "workshop"
