@@ -41,7 +41,7 @@
     </article>
     <article class="schedule-item talks">
       <p class="start-time"><span>12:45 PM</span>Talks</p>
-      <% day_one[8..9].each do |speaker| %>
+      <% day_one[8..10].each do |speaker| %>
       <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>><p class="schedule-item-title"><%= speaker.talk_title %><span
       class="speakers"><%= speaker.full_name %></span>
       <% if speaker.category %>
@@ -55,7 +55,7 @@
     </article>
     <article class="schedule-item talks">
       <p class="start-time"><span>1:50 PM</span>Talks</p>
-      <% day_one[10..13].each do |speaker| %>
+      <% day_one[11..13].each do |speaker| %>
       <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>><p class="schedule-item-title"><%= speaker.talk_title %><span
       class="speakers"><%= speaker.full_name %></span>
       <% if speaker.category %>
@@ -107,10 +107,18 @@
     <article class="schedule-item workshps">
       <p class="start-time"><span>9:05 AM</span>Workshops - Select one</p>
       <% workshops.each do |speaker| %>
+      <% next if speaker.talk_title == "Shipping Containers" %>
       <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>><p class="schedule-item-title"><%= speaker.talk_title %><span
       class="speakers"><%= speaker.full_name %></span>
       </p></a>
       <% end %>
+      <% speaker = data.people.speakers.find {|s| s[:full_name] == "Phil Eaton" } %> 
+      <p class="schedule-item-title"><%= speaker.talk_title %>
+      <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
+        <span class="speakers"><%= speaker.full_name %></span>
+      </a>,
+      <a href="/speakers/james-lott"><span class="speakers">James Lott</span></a>
+      </p>
     </article>
     <article class="schedule-item break">
       <p class="start-time"><span>12:20 PM</span>Lunch</p>
