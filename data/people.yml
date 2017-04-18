@@ -179,6 +179,25 @@ speakers:
   and contextualizes social justice movements worldwide, and Mideast Tunes, the
   largest platform for underground musicians in the Middle East and North
   Africa."
+- full_name: "Quincy Larson"
+  type: "talk"
+  day: "2"
+  order: "2"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/quincy.png"
+  job_title: "Teacher"
+  company: "freeCodeCamp"
+  twitter_handle: "@ossia"
+  github_username: "quincylarson"
+  other_link: "http://medium.com/@quincylarson"
+  bio: "Quincy is a teacher at freeCodeCamp.com. Editor of Medium's largest technical
+  publication."
+  talk_title: "How to write technical blog posts that people will actually read"
+  talk_abstract: "You know you should have a tech blog, but how do you get
+  people to actually read it? Quincy, editor of Medium's largest technical
+  publication, will discuss how to create technical blog posts that will impress
+  prospective employers and show off your knowledge, with strategies including
+  establishing social proof, getting syndicated, and packaging your content for
+  easy consumption."
 - full_name: "Courteney Ervin"
   type: "talk"
   category: "education"
@@ -200,25 +219,6 @@ speakers:
   diverse users that rely on the library, and the technical chops to get the job
   done. Courteney shares her journey of building an e-library card for the
   library and the lessons she learned in the process."
-- full_name: "Quincy Larson"
-  type: "talk"
-  day: "2"
-  order: "2"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/quincy.png"
-  job_title: "Teacher"
-  company: "freeCodeCamp"
-  twitter_handle: "@ossia"
-  github_username: "quincylarson"
-  other_link: "http://medium.com/@quincylarson"
-  bio: "Quincy is a teacher at freeCodeCamp.com. Editor of Medium's largest technical
-  publication."
-  talk_title: "How to write technical blog posts that people will actually read"
-  talk_abstract: "You know you should have a tech blog, but how do you get
-  people to actually read it? Quincy, editor of Medium's largest technical
-  publication, will discuss how to create technical blog posts that will impress
-  prospective employers and show off your knowledge, with strategies including
-  establishing social proof, getting syndicated, and packaging your content for
-  easy consumption."
 - full_name: "Eleanor Stribling"
   type: "workshop"
   day: "2"
@@ -235,20 +235,6 @@ speakers:
   talk_abstract: "Eleanor shares three core product management principles that
   will help you take your side projects and toy apps, and craft a portfolio to
   wow technical interviewers and show off your skills."
-- full_name: "Bryan Liles"
-  type: "panel"
-  category: "open source"
-  day: "2"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/bryan_liles.JPG"
-  talk_title: *opensourcetitle
-  talk_abstract: *opensourceabstract
-  job_title: "Director, Principal Software Engineer"
-  company: "Capital One"
-  twitter_handle: "@bryanl"
-  github_username: "bryanl"
-  bio: "During the day, Bryan is a developer and leader of developers at Capital
-  One. While not working, he spends his time trying to leave the world in a
-  slightly better condition that it was before."
 - full_name: "Kate Rabinowitz"
   type: "talk"
   category: "city life"
@@ -270,29 +256,20 @@ speakers:
   to better understand and improve our communities. We'll discuss what and where
   open data is, the opportunities and challenges of working with open data, and
   how you can code to make a difference."
-- full_name: "Rapi Castillo"
-  type: "talk"
-  category: "community"
-  day: "1"
-  order: "12"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/rapi-large.jpeg"
-  job_title: "Executive Director"
-  company: "Progressive Coders Network"
-  twitter_handle: "@pikittakbo"
-  github_username: "rapicastillo"
-  bio: "Executive Director of Progressive Coders Network, movement building are
-  my passion, focusing on creating platforms for people to become engaged,
-  empowered, and excited, about a cause, campaign, or product. Passionate about
-  knowing how to create a bottom-up movement that creates a new means of
-  distribution and organizing, and how technology affects it. Mark Granovetter,
-  Jon Kleinberg, and Malcom Gladwell are his heroes."
-  other_link: "http://www.progcode.co/"
-  talk_title: "The Bernie Map: Building tools for the Progressive Movement"
-  talk_abstract: "Rapi joined the Coders for Sanders movement and built an open
-  source map, a project that would later be used for other movements, including
-  the Womens March and the Indivisible Guide. Rapi takes us through his journey
-  of building that map, and using his skills to build other open source tools
-  and create a network of developers to power the progressive movement."
+- full_name: "Bryan Liles"
+  type: "panel"
+  category: "open source"
+  day: "2"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/bryan_liles.JPG"
+  talk_title: *opensourcetitle
+  talk_abstract: *opensourceabstract
+  job_title: "Director, Principal Software Engineer"
+  company: "Capital One"
+  twitter_handle: "@bryanl"
+  github_username: "bryanl"
+  bio: "During the day, Bryan is a developer and leader of developers at Capital
+  One. While not working, he spends his time trying to leave the world in a
+  slightly better condition that it was before."
 - full_name: "Katrina Owen"
   type: "talk"
   day: "2"
@@ -328,6 +305,29 @@ speakers:
   talk_abstract: "In this workshop we will cover the fundamentals of running
   applications inside docker containers as well as some reasons as to why you
   might consider doing so."
+- full_name: "Rapi Castillo"
+  type: "talk"
+  category: "community"
+  day: "1"
+  order: "12"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/rapi-large.jpeg"
+  job_title: "Executive Director"
+  company: "Progressive Coders Network"
+  twitter_handle: "@pikittakbo"
+  github_username: "rapicastillo"
+  bio: "Executive Director of Progressive Coders Network, movement building are
+  my passion, focusing on creating platforms for people to become engaged,
+  empowered, and excited, about a cause, campaign, or product. Passionate about
+  knowing how to create a bottom-up movement that creates a new means of
+  distribution and organizing, and how technology affects it. Mark Granovetter,
+  Jon Kleinberg, and Malcom Gladwell are his heroes."
+  other_link: "http://www.progcode.co/"
+  talk_title: "The Bernie Map: Building tools for the Progressive Movement"
+  talk_abstract: "Rapi joined the Coders for Sanders movement and built an open
+  source map, a project that would later be used for other movements, including
+  the Womens March and the Indivisible Guide. Rapi takes us through his journey
+  of building that map, and using his skills to build other open source tools
+  and create a network of developers to power the progressive movement."
 - full_name: "Nell Shamrell-Harrington"
   type: "talk"
   day: "2"
@@ -606,6 +606,20 @@ speakers:
   non-profit. When she's not coding, you can find her encouraging her toddler's
   climbing skills or pretending she has time to bake."
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/allison_mcmillan.jpg"
+- full_name: "Safia Abdalla"
+  type: "panel"
+  category: "open source"
+  day: "2"
+  talk_title: *opensourcetitle
+  talk_abstract: *opensourceabstract
+  job_title: "Open Source Developer"
+  twitter_handle: "@captainsafia"
+  github_username: "captainsafia"
+  bio: "Safia is an open source developer with a passion for open source, data
+  science for social good, great documentation, kind communities, and good
+  writing. When she is not writing software or organizing tech community events,
+  she can be found drinking tea or running."
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/safia_abdalla.jpg"
 - full_name: "Andreas Fast"
   type: "panel"
   day: "2"
@@ -642,20 +656,6 @@ speakers:
   talk_abstract: "Let's explore the beautiful, artisitic world of creative
   coding. This art and code showcase will highlight incredible projects from NYU
   ITP, the Processing Foundation, and more. Get ready to be inspired."
-- full_name: "Safia Abdalla"
-  type: "panel"
-  category: "open source"
-  day: "2"
-  talk_title: *opensourcetitle
-  talk_abstract: *opensourceabstract
-  job_title: "Open Source Developer"
-  twitter_handle: "@captainsafia"
-  github_username: "captainsafia"
-  bio: "Safia is an open source developer with a passion for open source, data
-  science for social good, great documentation, kind communities, and good
-  writing. When she is not writing software or organizing tech community events,
-  she can be found drinking tea or running."
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/safia_abdalla.jpg"
 - full_name: "Laura Gaetano"
   type: "panel"
   day: "2"
