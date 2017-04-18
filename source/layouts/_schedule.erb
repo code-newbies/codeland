@@ -57,7 +57,7 @@
     </article>
     <article class="schedule-item talks">
       <p class="start-time"><span>1:50 PM</span>Talks</p>
-      <% day_one[11..13].each do |speaker| %>
+      <% day_one[11..14].each do |speaker| %>
       <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>><p class="schedule-item-title"><%= speaker.talk_title %><span
       class="speakers"><%= speaker.full_name %></span>
       <% if speaker.category %>
@@ -71,7 +71,7 @@
     </article>
     <article class="schedule-item talks">
       <p class="start-time"><span>3:20 PM</span>Talks</p>
-      <% day_one[14..17].each do |speaker| %>
+      <% day_one[15..17].each do |speaker| %>
       <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>><p class="schedule-item-title"><%= speaker.talk_title %><span
       class="speakers"><%= speaker.full_name %></span>
       <% if speaker.category %>
@@ -138,7 +138,8 @@
       class="speakers"><%= speaker.full_name %></span>
       </p></a>
       <p class="schedule-item-title">Bootcamp Battle<span
-      class="speakers">Dev Bootcamp, Thinkful, Coder Foundry</span>
+      class="speakers">Dev Bootcamp, Thinkful, <a
+      href="/speakers/bobby-davis">Coder Foundry</a></span>
       </p>
     </article>
     <article class="schedule-item break">
@@ -152,8 +153,13 @@
       class="speakers"><%= speaker.full_name %></span>
       </p></a>
       <p class="schedule-item-title">Do I have to do open source?<span
-      class="speakers">Safia Abdalla, Bryan Liles, Laura Gaetano, Carol
-      Willing</span></p>
+      class="speakers">
+      <a href="/speakers/safia-abdalla">Safia Abdalla</a>,
+      <a href="/speakers/bryan-liles">Bryan Liles</a>,
+      <a href="/speakers/laura-gaetano">Laura Gaetano</a>,
+      <a href="/speakers/carol-willing">Carol Willing</a>,
+      <a href="/speakers/maria-naggaga">Maria Naggaga</a>
+      </span></p>
     </article>
     <article class="schedule-item break">
       <p class="start-time"><span>3:35 PM</span>Afternoon Break</p>
@@ -161,14 +167,23 @@
     <article class="schedule-item talks">
       <p class="start-time"><span>3:55 PM</span>Life & Career</p>
       <p class="schedule-item-title">Code-Life Balance: Can we really have it all?<span
-      class="speakers">Ashley Jean, Brian Douglas, Johnny Ray Austin, Morgan
-      Whaley, Allison McMillan</span></p>
+      class="speakers">
+      <a href="/speakers/ashley-jean">Ashley Jean</a>,
+      <a href="/speakers/brian-douglas">Brian Douglas</a>,
+      <a href="/speakers/johnny-ray-austin">Johnny Ray Austin</a>,
+      <a href="/speakers/morgan-whaley">Morgan Whaley</a>,
+      <a href="/speakers/allison-mcmillan">Allison McMillan</a>
+      </span></p>
       <% speaker = data.people.speakers.find {|s| s[:day] == "2" && s[:order] == "7" } %>
       <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>><p class="schedule-item-title"><%= speaker.talk_title %><span
       class="speakers"><%= speaker.full_name %></span>
       </p></a>
       <p class="schedule-item-title">Hiring Panel: How do I get the job?<span
-      class="speakers">Adreas Fast, Eddie Washington, Vesha Parker, Nick Corvino
+      class="speakers">
+      <a href="/speakers/andreas-fast">Andreas Fast</a>,
+      <a href="/speakers/eddie-washington">Eddie Washington</a>,
+      <a href="/speakers/la-vesha-parker">Vesha Parker</a>,
+      <a href="/speakers/nicholas-corvino">Nick Corvino</a>
       </span></p>
     </article>
     <article class="schedule-item break">
