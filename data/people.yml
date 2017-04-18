@@ -27,6 +27,19 @@ speakers:
   policy and government tech, such as LinkNYC, CSforAll, Neighborhoods.NYC, the
   first-ever IoT Guidelines for New York City, and NYC’s Smart+Equitable City
   Strategy."
+- full_name: "Nikhil Paul"
+  type: "emcee"
+  talk_title: "Emcee"
+  job_title: "CTO"
+  company: "T3 Interactive"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/nikhil-paul.jpg"
+  twitter_handle: "@nikhiljpaul"
+  github_username: "nikhiljpaul"
+  bio: "Nikhil is the CTO of T3 Interactive, a public speaking coach startup by
+  day, and a Bollywood dance workshop leader by night. He's a startup guy
+  looking to solve real problems and build a community filled with laughter,
+  dance and real moments."
+  other_link: "http://www.nikhilpaul.com/"
 - full_name: "Carol Willing"
   type: "panel"
   category: "open source"
@@ -66,6 +79,22 @@ speakers:
   code, she graduated from Loyola University Maryland and worked in finance. In
   her spare time, she enjoys training for foot races and organizing events in
   Baltimore for women learning to program."
+- full_name: "Bobby Davis"
+  day: "2"
+  type: "panel"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/bobby-davis.jpg"
+  talk_title: "Bootcamp Battle"
+  talk_abstract: &bootcampbattle "Bootcamps have gotten a lot of praise and a
+  lot of criticism. Some say it's changed their lives. Others feel it's a total
+  scam. In this fast-paced panel moderated by Scott Hanselman, we'll unpack the
+  pros and cons of the bootcamp model and hear directly from the bootcamps
+  themselves. Get ready for an honest, informative battle among the bootcamps."
+  job_title: "Founder"
+  company: "Coder Foundry"
+  twitter_handle: "@ctbobbydavis"
+  bio: "Serial Entrepreneur involved in multiple start-ups. Proven leader in
+  software development and design. Particularly interested in new technologies
+  that create disruption in the marketplace."
 - full_name: "Celia La" 
   day: "1"
   order: "18"
@@ -806,11 +835,12 @@ speakers:
   services on the Developer Infrastructure team."
   talk_title: "Infrastructure of Oncology Data Technology: Navigating the
   Complex, Regulated World of Healthcare Research"
-  talk_abstract: "Working on cancer research technology requires scaling
-  quickly, but that's not nearly  as essential as maintaining HIPAA compliance
-  and safety in our architecture. Only a limited set of Amazon Web Services are
-  available for HIPAA compliant companies. This talk will cover how Flatiron
-  Health uses those services to accelerate cancer research and improve cancer
+  talk_abstract: "Building technology for oncology data requires scaling
+  quickly, but that's not nearly as essential as maintaining HIPAA compliance,
+  security and safety in our architecture. Health data carries a variety of
+  risks and the services available to HIPAA compliant companies are limited as a
+  consequence. This talk will cover how Flatiron Health navigates those risks
+  and uses these services to accelerate cancer research and improve cancer
   care."
 - full_name: "Chris Algoo"
   type: "talk"
@@ -846,6 +876,20 @@ speakers:
   talk_title: *hiringpanel
   talk_abstract: *hiringpanelabstract
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/nicholas-corvino.jpg"
+- full_name: "Maria Naggaga"
+  type: "panel"
+  day: "2"
+  category: "open source"
+  talk_title: "Open Source Panel Moderator"
+  talk_abstract: *opensourceabstract
+  job_title: "Program Manager"
+  company: "Microsoft"
+  twitter_handle: "@ladynaggaga"
+  github_username: "LadyNaggaga"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/maria-naggaga.png"
+  bio: "Maria Naggaga a developer and artist. She is a Program Manager on the
+  Visual Studio and .NET team where she explores ways to engage and teach new
+  developers about  .NET OSS."
 - full_name: "Iuliia Kotlenko"
   type: "workshop"
   day: "2"
