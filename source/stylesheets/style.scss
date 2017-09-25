@@ -3,6 +3,7 @@ $yellow: #fffd2e;
 $green: #00ff00;
 $pink: #ff94de;
 $orange: #ffaa62;
+$main-orange: #ffc107;
 $light-orange: #fff1ca;
 $light-yellow: #ffffed;
 $light-green: #85ff85;
@@ -35,7 +36,6 @@ $city-life-color: $light-blue;
 
 body {
   margin: 0px;
-  margin-top: 80px;
   border-bottom: 30px solid black;
 }
 a { color: inherit; }
@@ -96,10 +96,13 @@ h5 {
 }
 
 header {
+  background: $main-orange;
   padding: 5% 20px;
+  padding-top: 100px;
   text-align: center;
   .boxed, .box { text-align: center; }
   .date-location {
+    font-size: 48px;
     font-weight: 500;
     margin-bottom: 0;
     .highlight {
@@ -114,17 +117,16 @@ header {
     text-transform: none;
   }
   .conference-header {
-    margin-top: 0px;
+    margin-top: 10px;
     span {
+      background: yellow;
       border: 2px solid black;
-      padding: 5px 30px;
+      padding: 10px 40px;
       display: inline-block;
-      background: white;
-      font-size: 22px;
+      font-size: 28px;
     }
   }
   span.highlight {
-    background: white;
     padding: 5px 10px;
     display: inline-block;
     &.logo {
@@ -133,21 +135,18 @@ header {
       border-radius: 20%;
     }
   }
-  background-image: url("../images/maze-asia-big.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 .apply-button, .donate-button {
   background: yellow;
-  &:hover { background: $green; }
+  &:hover { background: yellow; }
 }
 
 .button, .get-tickets {
   display: inline-block;
   text-transform: uppercase;
-  font-size: 18px;
-  background: $green;
+  font-size: 28px;
+  background: white;
   border: 2px solid black;
   padding: 5px 20px;
   font-weight: 500;
@@ -479,6 +478,7 @@ footer {
     max-width: 900px;
     margin: 0 auto;
   }
+  .highlight { font-size: 28px; }
   .mobile { display: none; }
   .desktop { display: block; }
 }
