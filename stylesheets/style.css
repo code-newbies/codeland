@@ -290,7 +290,6 @@ nav {
 
 body {
   margin: 0px;
-  margin-top: 80px;
   border-bottom: 30px solid black; }
 
 a {
@@ -357,14 +356,14 @@ h5 {
       background: #fc2eff; }
 
 header {
+  background: #ffc107;
   padding: 5% 20px;
-  text-align: center;
-  background-image: url("../images/maze-asia-big.png");
-  background-repeat: no-repeat;
-  background-size: 100%; }
+  padding-top: 100px;
+  text-align: center; }
   header .boxed, header .box {
     text-align: center; }
   header .date-location {
+    font-size: 48px;
     font-weight: 500;
     margin-bottom: 0; }
     header .date-location .highlight {
@@ -376,15 +375,14 @@ header {
     margin: 10px auto;
     text-transform: none; }
   header .conference-header {
-    margin-top: 0px; }
+    margin-top: 10px; }
     header .conference-header span {
+      background: yellow;
       border: 2px solid black;
-      padding: 5px 30px;
+      padding: 10px 40px;
       display: inline-block;
-      background: white;
-      font-size: 22px; }
+      font-size: 28px; }
   header span.highlight {
-    background: white;
     padding: 5px 10px;
     display: inline-block; }
     header span.highlight.logo {
@@ -395,13 +393,13 @@ header {
 .apply-button, .donate-button {
   background: yellow; }
   .apply-button:hover, .donate-button:hover {
-    background: #00ff00; }
+    background: yellow; }
 
 .button, .get-tickets {
   display: inline-block;
   text-transform: uppercase;
-  font-size: 18px;
-  background: #00ff00;
+  font-size: 28px;
+  background: white;
   border: 2px solid black;
   padding: 5px 20px;
   font-weight: 500;
@@ -837,6 +835,9 @@ footer {
   img {
     max-width: 900px;
     margin: 0 auto; }
+
+  .highlight {
+    font-size: 28px; }
 
   .mobile {
     display: none; }
