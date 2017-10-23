@@ -398,7 +398,7 @@ header {
 .button, .get-tickets {
   display: inline-block;
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 22px;
   background: white;
   border: 2px solid black;
   padding: 5px 20px;
@@ -532,9 +532,11 @@ article {
     text-align: center; }
 
 .cfp-description {
-  max-width: none;
-  background: #00ff00;
-  padding: 20px 30px; }
+  max-width: 700px;
+  margin: 10px auto;
+  text-align: center; }
+  .cfp-description h3 {
+    text-align: center; }
 
 .talk-type, .talk-category {
   text-transform: uppercase;
