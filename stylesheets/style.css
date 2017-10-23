@@ -290,6 +290,8 @@ nav {
 
 body {
   margin: 0px;
+  margin-top: -30px;
+  padding-top: 80px;
   border-bottom: 30px solid black; }
 
 a {
@@ -358,12 +360,12 @@ h5 {
 header {
   background: #ffc107;
   padding: 5% 20px;
-  padding-top: 100px;
+  padding-top: 80px;
   text-align: center; }
   header .boxed, header .box {
     text-align: center; }
   header .date-location {
-    font-size: 48px;
+    font-size: 18px;
     font-weight: 500;
     margin-bottom: 0; }
     header .date-location .highlight {
@@ -398,7 +400,7 @@ header {
 .button, .get-tickets {
   display: inline-block;
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 22px;
   background: white;
   border: 2px solid black;
   padding: 5px 20px;
@@ -532,9 +534,11 @@ article {
     text-align: center; }
 
 .cfp-description {
-  max-width: none;
-  background: #00ff00;
-  padding: 20px 30px; }
+  max-width: 700px;
+  margin: 10px auto;
+  text-align: center; }
+  .cfp-description h3 {
+    text-align: center; }
 
 .talk-type, .talk-category {
   text-transform: uppercase;
