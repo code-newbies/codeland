@@ -36,6 +36,8 @@ $city-life-color: $light-blue;
 
 body {
   margin: 0px;
+  margin-top: -30px;
+  padding-top: 80px;
   border-bottom: 30px solid black;
 }
 a { color: inherit; }
@@ -98,11 +100,11 @@ h5 {
 header {
   background: $main-orange;
   padding: 5% 20px;
-  padding-top: 100px;
+  padding-top: 50px;
   text-align: center;
   .boxed, .box { text-align: center; }
   .date-location {
-    font-size: 48px;
+    font-size: 18px;
     font-weight: 500;
     margin-bottom: 0;
     .highlight {

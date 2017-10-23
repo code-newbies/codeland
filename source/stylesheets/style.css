@@ -290,6 +290,8 @@ nav {
 
 body {
   margin: 0px;
+  margin-top: -30px;
+  padding-top: 80px;
   border-bottom: 30px solid black; }
 
 a {
@@ -358,12 +360,12 @@ h5 {
 header {
   background: #ffc107;
   padding: 5% 20px;
-  padding-top: 100px;
+  padding-top: 50px;
   text-align: center; }
   header .boxed, header .box {
     text-align: center; }
   header .date-location {
-    font-size: 48px;
+    font-size: 18px;
     font-weight: 500;
     margin-bottom: 0; }
     header .date-location .highlight {
