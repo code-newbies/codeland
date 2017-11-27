@@ -540,6 +540,10 @@ article {
   .cfp-description h3 {
     text-align: center; }
 
+.cfp-closed {
+  background: #fff1ca;
+  padding-bottom: 50px; }
+
 .talk-type, .talk-category {
   text-transform: uppercase;
   padding: 3px 7px;
