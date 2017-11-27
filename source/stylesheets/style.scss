@@ -253,6 +253,11 @@ article {
   h3 { text-align: center; }
 }
 
+.cfp-closed {
+  background: $light-orange;
+  padding-bottom: 50px;
+}
+
 .talk-type, .talk-category {
   text-transform: uppercase;
   padding: 3px 7px;
