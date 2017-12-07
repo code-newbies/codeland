@@ -1,0 +1,36 @@
+blockquote::before{
+  font-family: "Impact";
+  content: "\201C";
+  color: $yellow;
+  font-size:10em;
+  position: absolute;
+  left: 30px;
+  top: 0px;
+  margin-right: 20px;
+}
+
+.blockquote {
+  position: relative;
+  background: $lightgray;
+  border: 5px solid $light-yellow;
+  margin: 0px;
+  padding: 30px;
+
+  &-body {
+    font-family: "Roboto", "Helvetica", "san serif";
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    padding-left: 80px;
+  }
+
+  &-byline {
+    font-size: 18px;
+    font-family: "Lato", "Helvetica", "san serif";
+    margin: 30px 0px 10px;
+    padding-left: 80px;
+
+    &-name { font-weight: 900; }
+    &-title { font-weight: 400; }
+  }
+}

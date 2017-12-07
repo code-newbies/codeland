@@ -1,0 +1,52 @@
+.section-header {
+  font-family: "Lato", "Helvetica", "san serif";
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.section-paragraph {
+  font-family: "Roboto", "Helvetica", "san serif";
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.left-panel {
+  @include span-columns(8);
+}
+
+.right-panel {
+  @include span-columns(4);
+}
+
+.sidebar {
+  border: 5px solid $yellow;
+  margin-top: 30px;
+
+  h4 {
+    background: $yellow;
+    padding: 10px 30px;
+    margin-top: 0px;
+  }
+
+  &-content {
+    padding-top: 30px;
+
+    h5, p {
+      padding: 0px 30px;
+      margin: 0px;
+    }
+
+    h5 {
+      font-size: 14px;
+      font-weight: 900;
+      font-family: "Lato", "Helvetica", "san serif";
+    }
+
+    p {
+      font-size: 24px;
+      font-weight: 300;
+      font-family: "Roboto", "Helvetica", "san serif";
+      margin-bottom: 30px;
+    }
+  }
+}

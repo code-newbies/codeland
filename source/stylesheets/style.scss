@@ -4,6 +4,7 @@ $green: #00ff00;
 $pink: #ff94de;
 $orange: #ffaa62;
 $main-orange: #ffc107;
+$yellow: #F8E71C;
 $light-orange: #fff1ca;
 $light-yellow: #ffffed;
 $light-green: #85ff85;
@@ -22,10 +23,14 @@ $community-color: $green;
 $city-life-color: $light-blue;
 
 @import "lib/_neat/neat";
+
+@import "lib/_header";
 @import "lib/_nav";
 @import "lib/_mailchimp_signup";
+@import "lib/_quote";
 @import "lib/_speaker";
 @import "lib/_schedule";
+@import "lib/_section";
 
 
 .wrapper {
@@ -97,47 +102,6 @@ h5 {
   }
 }
 
-header {
-  background: $main-orange;
-  padding: 5% 20px;
-  padding-top: 80px;
-  text-align: center;
-  .boxed, .box { text-align: center; }
-  .date-location {
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 0;
-    .highlight {
-      padding-top: 10px;
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-  }
-  .conference-description {
-    max-width: 680px;
-    margin: 10px auto;
-    text-transform: none;
-  }
-  .conference-header {
-    margin-top: 10px;
-    span {
-      background: yellow;
-      border: 2px solid black;
-      padding: 10px 40px;
-      display: inline-block;
-      font-size: 28px;
-    }
-  }
-  span.highlight {
-    padding: 5px 10px;
-    display: inline-block;
-    &.logo {
-      padding: 10px;
-      padding-bottom: 0px;
-      border-radius: 20%;
-    }
-  }
-}
 
 .apply-button, .donate-button {
   background: yellow;

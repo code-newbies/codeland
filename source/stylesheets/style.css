@@ -5,11 +5,57 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+header {
+  background-image: url("../images/geometry3.png");
+  padding: 5% 20px;
+  padding-top: 100px;
+  text-align: center; }
+  header .boxed, header .box {
+    text-align: center; }
+  header .date-location {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0; }
+    header .date-location .highlight {
+      padding-top: 10px;
+      padding-left: 15px;
+      padding-right: 15px; }
+  header .conference-description {
+    max-width: 680px;
+    margin: 10px auto;
+    text-transform: none; }
+  header .conference-header {
+    margin-top: 10px; }
+    header .conference-header span {
+      background: yellow;
+      border: 2px solid black;
+      padding: 10px 40px;
+      display: inline-block;
+      font-size: 28px; }
+  header .subheader {
+    font-size: 38px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: white; }
+    @media only screen and (max-width: 700px) {
+      header .subheader {
+        font-size: 24px; } }
+  header span.highlight {
+    padding: 5px 10px;
+    display: inline-block; }
+    header span.highlight.logo {
+      padding: 0px;
+      padding-bottom: 0px;
+      border-radius: 20%; }
+  @media only screen and (max-width: 650px) {
+    header {
+      padding-top: 50px; } }
+
 nav {
   position: fixed;
   top: 0px;
   width: 100%;
-  background: black;
+  background: #F8E71C;
   z-index: 9999999999; }
   nav .mobile-home {
     display: none; }
@@ -26,7 +72,7 @@ nav {
         nav .main-nav ul a::after {
           content: "•";
           padding: 0px 10px;
-          color: white; }
+          color: black; }
         nav .main-nav ul a:last-child::after {
           content: none; }
         nav .main-nav ul a:hover {
@@ -35,9 +81,11 @@ nav {
             background: white;
             color: black; }
       nav .main-nav ul li {
-        color: white;
+        color: black;
         display: inline-block;
         text-transform: uppercase;
+        font-family: "Lato", "Helvetica", "san serif";
+        font-weight: 600;
         padding: 5px 15px;
         font-size: 14px; }
   @media only screen and (max-width: 1350px) {
@@ -122,7 +170,7 @@ nav {
       .mailchimp-signup #mc_embed_signup .button:last-child {
         margin-right: 0; }
     .mailchimp-signup #mc_embed_signup .button:hover {
-      background: #fffd2e; }
+      background: #F8E71C; }
   @media only screen and (min-width: 750px) and (max-width: 900px) {
     .mailchimp-signup #mc_embed_signup {
       float: left;
@@ -161,6 +209,38 @@ nav {
         margin-bottom: 20px; }
         .mailchimp-signup #mc_embed_signup .button:last-child {
           margin-right: 0; } }
+
+blockquote::before {
+  font-family: "Impact";
+  content: "\201C";
+  color: #F8E71C;
+  font-size: 10em;
+  position: absolute;
+  left: 30px;
+  top: 0px;
+  margin-right: 20px; }
+
+.blockquote {
+  position: relative;
+  background: #f8f8f8;
+  border: 5px solid #ffffed;
+  margin: 0px;
+  padding: 30px; }
+  .blockquote-body {
+    font-family: "Roboto", "Helvetica", "san serif";
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    padding-left: 80px; }
+  .blockquote-byline {
+    font-size: 18px;
+    font-family: "Lato", "Helvetica", "san serif";
+    margin: 30px 0px 10px;
+    padding-left: 80px; }
+    .blockquote-byline-name {
+      font-weight: 900; }
+    .blockquote-byline-title {
+      font-weight: 400; }
 
 .speaker-page nav {
   max-width: 1200px;
@@ -280,6 +360,54 @@ nav {
       padding: 1px 3px;
       font-size: 8px; } }
 
+.section-header {
+  font-family: "Lato", "Helvetica", "san serif";
+  font-weight: 900;
+  text-transform: uppercase; }
+
+.section-paragraph {
+  font-family: "Roboto", "Helvetica", "san serif";
+  font-size: 24px;
+  font-weight: 300; }
+
+.left-panel {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .left-panel:last-child {
+    margin-right: 0; }
+
+.right-panel {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .right-panel:last-child {
+    margin-right: 0; }
+
+.sidebar {
+  border: 5px solid #F8E71C;
+  margin-top: 30px; }
+  .sidebar h4 {
+    background: #F8E71C;
+    padding: 10px 30px;
+    margin-top: 0px; }
+  .sidebar-content {
+    padding-top: 30px; }
+    .sidebar-content h5, .sidebar-content p {
+      padding: 0px 30px;
+      margin: 0px; }
+    .sidebar-content h5 {
+      font-size: 14px;
+      font-weight: 900;
+      font-family: "Lato", "Helvetica", "san serif"; }
+    .sidebar-content p {
+      font-size: 24px;
+      font-weight: 300;
+      font-family: "Roboto", "Helvetica", "san serif";
+      margin-bottom: 30px; }
+
 .wrapper {
   padding: 10px 10%;
   margin-bottom: 15px; }
@@ -356,41 +484,6 @@ h5 {
       background: #00ff00; }
     .topics .boxed .box-shadow.art-gaming {
       background: #fc2eff; }
-
-header {
-  background: #ffc107;
-  padding: 5% 20px;
-  padding-top: 80px;
-  text-align: center; }
-  header .boxed, header .box {
-    text-align: center; }
-  header .date-location {
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 0; }
-    header .date-location .highlight {
-      padding-top: 10px;
-      padding-left: 15px;
-      padding-right: 15px; }
-  header .conference-description {
-    max-width: 680px;
-    margin: 10px auto;
-    text-transform: none; }
-  header .conference-header {
-    margin-top: 10px; }
-    header .conference-header span {
-      background: yellow;
-      border: 2px solid black;
-      padding: 10px 40px;
-      display: inline-block;
-      font-size: 28px; }
-  header span.highlight {
-    padding: 5px 10px;
-    display: inline-block; }
-    header span.highlight.logo {
-      padding: 10px;
-      padding-bottom: 0px;
-      border-radius: 20%; }
 
 .apply-button, .donate-button {
   background: yellow; }
@@ -574,11 +667,11 @@ article {
   .full-program .day-one .program-item, .full-program .day-two .program-item {
     border: 2px solid white; }
   .full-program .program-list .day-title {
-    background: #fffd2e; }
+    background: #F8E71C; }
   .full-program .program-list a:hover article {
     color: black; }
   .full-program .program-list .program-item:hover {
-    border: 2px solid #fffd2e; }
+    border: 2px solid #F8E71C; }
   .full-program .day-title {
     text-transform: uppercase;
     text-align: center;
