@@ -33,6 +33,7 @@ $city-life-color: $light-blue;
 @import "lib/_schedule";
 @import "lib/_section";
 @import "lib/_sidebar";
+@import "lib/_tickets";
 
 
 .wrapper {
@@ -56,15 +57,15 @@ p, li {
 }
 h2 {
   font-size: 36px;
-  font-weight: 500;
-  font-family: "Roboto", "san serif";
+  font-weight: 900;
+  font-family: "Lato", "Helvetica", "san serif";
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 h3 {
   font-size: 24px;
   margin-bottom: 0px;
-  font-family: "Roboto";
+  font-family: "Lato", "Helvetica", "san serif";
 }
 h4 {
   font-size: 24px;
@@ -137,11 +138,6 @@ article {
     @include shift(2);
     text-align: center;
   }
-  &.ticket-header {
-    @include span-columns(10);
-    @include shift(1);
-    text-align: center;
-  }
   &.ticket {
     @include span-columns(4);
     padding-bottom: 20px;
@@ -183,12 +179,12 @@ article {
 
 .ticket-info {
   background: $lightgray;
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 80px;
 }
 
 .tickets {
-  @include span-columns(8);
-  @include shift(2);
+  padding: 30px 0px;
   a {
     text-decoration: none;
     &:hover {
@@ -489,14 +485,6 @@ footer {
     }
   }
 }
-
-@media only screen and (max-width: 1000px){
-  .tickets {
-    @include shift(0);
-    @include span-columns(12);
-  }
-}
-
 
 @media only screen and (max-width: 500px){
   p { font-size: 12px; }

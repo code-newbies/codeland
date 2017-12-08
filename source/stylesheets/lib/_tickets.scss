@@ -1,0 +1,79 @@
+.tickets-info {
+  background: $lightgray;
+  &.wrapper { 
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .ticket-header {
+    text-align: center;
+    p.description {
+      font-family: "Roboto", "Helvetica", "san serif";
+      font-weight: 300;
+      font-size: 24px;
+    }
+  }
+
+  .tickets {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    @media only screen and (max-width: 700px){
+      .ticket-type-price { font-size: 32px; }
+      .ticket-type-name { font-size: 22px; }
+    }
+    @media only screen and (max-width: 600px){
+      padding: 0px;
+      .ticket-time { font-size: 12px; }
+      .ticket-type-price { font-size: 22px; }
+      .ticket-type-name { font-size: 18px; }
+      .ticket-type__wrapper { padding: 20px 0px; }
+    }
+    @media only screen and (max-width: 600px){
+      .ticket-type-name { font-size: 14px; }
+      .ticket { padding: 0px 3px; }
+    }
+  }
+
+  .ticket {
+    @include span-columns(4);
+    background: white;
+    padding: 0px 10px;
+    text-align: center;
+
+    &:hover {
+      .ticket-type__wrapper {
+        background: $yellow;
+      }
+      .ticket-time__wrapper {
+        background: black;
+        border: 2px solid black;
+        color: white;
+      }
+    }
+
+    &-time {
+      margin: 0px;
+      &__wrapper {
+        padding: 10px 0px;
+        background: $yellow;
+        border: 2px solid $yellow;
+      }
+    }
+    &-type {
+      &__wrapper {
+        border: 2px solid $yellow;
+        padding: 30px 0px;
+      }
+
+      &-name {
+        margin: 0px;
+      }
+      &-price {
+        margin: 0px;
+        font-size: 36px;
+        font-family: "Roboto", "Helvetica", "san serif";
+      }
+    }
+  }
+}

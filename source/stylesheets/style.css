@@ -548,6 +548,73 @@ blockquote::before {
       font-family: "Roboto", "Helvetica", "san serif";
       margin-bottom: 30px; }
 
+.tickets-info {
+  background: #f8f8f8; }
+  .tickets-info.wrapper {
+    padding-top: 30px;
+    padding-bottom: 50px; }
+  .tickets-info .ticket-header {
+    text-align: center; }
+    .tickets-info .ticket-header p.description {
+      font-family: "Roboto", "Helvetica", "san serif";
+      font-weight: 300;
+      font-size: 24px; }
+  .tickets-info .tickets {
+    max-width: 1000px;
+    margin: 0 auto; }
+    @media only screen and (max-width: 700px) {
+      .tickets-info .tickets .ticket-type-price {
+        font-size: 32px; }
+      .tickets-info .tickets .ticket-type-name {
+        font-size: 22px; } }
+    @media only screen and (max-width: 600px) {
+      .tickets-info .tickets {
+        padding: 0px; }
+        .tickets-info .tickets .ticket-time {
+          font-size: 12px; }
+        .tickets-info .tickets .ticket-type-price {
+          font-size: 22px; }
+        .tickets-info .tickets .ticket-type-name {
+          font-size: 18px; }
+        .tickets-info .tickets .ticket-type__wrapper {
+          padding: 20px 0px; } }
+    @media only screen and (max-width: 600px) {
+      .tickets-info .tickets .ticket-type-name {
+        font-size: 14px; }
+      .tickets-info .tickets .ticket {
+        padding: 0px 3px; } }
+  .tickets-info .ticket {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    background: white;
+    padding: 0px 10px;
+    text-align: center; }
+    .tickets-info .ticket:last-child {
+      margin-right: 0; }
+    .tickets-info .ticket:hover .ticket-type__wrapper {
+      background: #F8E71C; }
+    .tickets-info .ticket:hover .ticket-time__wrapper {
+      background: black;
+      border: 2px solid black;
+      color: white; }
+    .tickets-info .ticket-time {
+      margin: 0px; }
+      .tickets-info .ticket-time__wrapper {
+        padding: 10px 0px;
+        background: #F8E71C;
+        border: 2px solid #F8E71C; }
+    .tickets-info .ticket-type__wrapper {
+      border: 2px solid #F8E71C;
+      padding: 30px 0px; }
+    .tickets-info .ticket-type-name {
+      margin: 0px; }
+    .tickets-info .ticket-type-price {
+      margin: 0px;
+      font-size: 36px;
+      font-family: "Roboto", "Helvetica", "san serif"; }
+
 .wrapper {
   padding: 10px 10% 30px;
   margin-bottom: 0px; }
@@ -577,15 +644,15 @@ p, li {
 
 h2 {
   font-size: 36px;
-  font-weight: 500;
-  font-family: "Roboto", "san serif";
+  font-weight: 900;
+  font-family: "Lato", "Helvetica", "san serif";
   text-transform: uppercase;
   margin-bottom: 10px; }
 
 h3 {
   font-size: 24px;
   margin-bottom: 0px;
-  font-family: "Roboto"; }
+  font-family: "Lato", "Helvetica", "san serif"; }
 
 h4 {
   font-size: 24px;
@@ -673,15 +740,6 @@ article {
     text-align: center; }
     article.conference-pitch:last-child {
       margin-right: 0; }
-  article.ticket-header {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 82.94039%;
-    margin-left: 8.5298%;
-    text-align: center; }
-    article.ticket-header:last-child {
-      margin-right: 0; }
   article.ticket {
     float: left;
     display: block;
@@ -736,16 +794,11 @@ article {
 
 .ticket-info {
   background: #f8f8f8;
-  padding-bottom: 40px; }
+  padding-top: 60px;
+  padding-bottom: 80px; }
 
 .tickets {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 65.88078%;
-  margin-left: 17.05961%; }
-  .tickets:last-child {
-    margin-right: 0; }
+  padding: 30px 0px; }
   .tickets a {
     text-decoration: none; }
     .tickets a:hover {
@@ -1146,15 +1199,6 @@ footer {
     width: 100%;
     padding: 10px; }
     .program-item .program-item-summary:last-child {
-      margin-right: 0; } }
-@media only screen and (max-width: 1000px) {
-  .tickets {
-    margin-left: 0%;
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%; }
-    .tickets:last-child {
       margin-right: 0; } }
 @media only screen and (max-width: 500px) {
   p {
