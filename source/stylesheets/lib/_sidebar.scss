@@ -1,0 +1,49 @@
+.sidebar {
+  background: white;
+  border: 5px solid $yellow;
+  margin-top: 30px;
+
+  h4 {
+    background: $yellow;
+    padding: 10px 30px;
+    margin-top: 0px;
+  }
+
+  .location {
+    &-name, &-street, &-city-state { display: block; }
+
+    @media only screen and (max-width: 800px){
+      &-name, &-street, &-city-state { display: inline; }
+    }
+  }
+
+  .date-days, .date-hours {
+    display: block;
+
+    @media only screen and (max-width: 800px){
+      display: inline;
+    }
+  }
+
+  &-content {
+    padding-top: 30px;
+
+    h5, p {
+      padding: 0px 30px;
+      margin: 0px;
+    }
+
+    h5 {
+      font-size: 14px;
+      font-weight: 900;
+      font-family: "Lato", "Helvetica", "san serif";
+    }
+
+    p {
+      font-size: 24px;
+      font-weight: 300;
+      font-family: "Roboto", "Helvetica", "san serif";
+      margin-bottom: 30px;
+    }
+  }
+}

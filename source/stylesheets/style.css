@@ -8,7 +8,7 @@ html {
 header {
   background-image: url("../images/geometry3.png");
   padding: 5% 20px;
-  padding-top: 100px;
+  padding-top: 130px;
   text-align: center; }
   header .boxed, header .box {
     text-align: center; }
@@ -222,7 +222,7 @@ blockquote::before {
 
 .blockquote {
   position: relative;
-  background: #f8f8f8;
+  background: white;
   border: 5px solid #ffffed;
   margin: 0px;
   padding: 30px; }
@@ -232,6 +232,10 @@ blockquote::before {
     font-weight: 300;
     margin-bottom: 0px;
     padding-left: 80px; }
+    @media only screen and (max-width: 500px) {
+      .blockquote-body {
+        padding-left: 0px;
+        padding-top: 60px; } }
   .blockquote-byline {
     font-size: 18px;
     font-family: "Lato", "Helvetica", "san serif";
@@ -241,6 +245,9 @@ blockquote::before {
       font-weight: 900; }
     .blockquote-byline-title {
       font-weight: 400; }
+    @media only screen and (max-width: 500px) {
+      .blockquote-byline {
+        padding-left: 0px; } }
 
 .speaker-page nav {
   max-width: 1200px;
@@ -364,11 +371,20 @@ blockquote::before {
   font-family: "Lato", "Helvetica", "san serif";
   font-weight: 900;
   text-transform: uppercase; }
+  @media only screen and (max-width: 800px) {
+    .section-header {
+      font-size: 16px; } }
+
+.overview {
+  background: #f8f8f8; }
 
 .section-paragraph {
   font-family: "Roboto", "Helvetica", "san serif";
   font-size: 24px;
   font-weight: 300; }
+  @media only screen and (max-width: 800px) {
+    .section-paragraph {
+      font-size: 24px; } }
 
 .left-panel {
   float: left;
@@ -377,6 +393,14 @@ blockquote::before {
   width: 65.88078%; }
   .left-panel:last-child {
     margin-right: 0; }
+  @media only screen and (max-width: 800px) {
+    .left-panel {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .left-panel:last-child {
+        margin-right: 0; } }
 
 .right-panel {
   float: left;
@@ -385,14 +409,33 @@ blockquote::before {
   width: 31.76157%; }
   .right-panel:last-child {
     margin-right: 0; }
+  @media only screen and (max-width: 800px) {
+    .right-panel {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .right-panel:last-child {
+        margin-right: 0; } }
 
 .sidebar {
+  background: white;
   border: 5px solid #F8E71C;
   margin-top: 30px; }
   .sidebar h4 {
     background: #F8E71C;
     padding: 10px 30px;
     margin-top: 0px; }
+  .sidebar .location-name, .sidebar .location-street, .sidebar .location-city-state {
+    display: block; }
+  @media only screen and (max-width: 800px) {
+    .sidebar .location-name, .sidebar .location-street, .sidebar .location-city-state {
+      display: inline; } }
+  .sidebar .date-days, .sidebar .date-hours {
+    display: block; }
+    @media only screen and (max-width: 800px) {
+      .sidebar .date-days, .sidebar .date-hours {
+        display: inline; } }
   .sidebar-content {
     padding-top: 30px; }
     .sidebar-content h5, .sidebar-content p {

@@ -11,7 +11,7 @@ blockquote::before{
 
 .blockquote {
   position: relative;
-  background: $lightgray;
+  background: white;
   border: 5px solid $light-yellow;
   margin: 0px;
   padding: 30px;
@@ -22,6 +22,11 @@ blockquote::before{
     font-weight: 300;
     margin-bottom: 0px;
     padding-left: 80px;
+
+    @media only screen and (max-width: 500px){
+      padding-left: 0px;
+      padding-top: 60px;
+    }
   }
 
   &-byline {
@@ -32,5 +37,9 @@ blockquote::before{
 
     &-name { font-weight: 900; }
     &-title { font-weight: 400; }
+
+    @media only screen and (max-width: 500px){
+      padding-left: 0px;
+    }
   }
 }
