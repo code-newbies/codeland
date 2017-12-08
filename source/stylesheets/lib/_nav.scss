@@ -6,6 +6,10 @@ nav {
   background: $yellow;
   z-index: 9999999999;
 
+  &.main-nav {
+    padding-bottom: 10px;
+  }
+
   .main-nav {
     margin-left: auto;
     margin-right: auto;

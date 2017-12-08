@@ -59,6 +59,8 @@ nav {
   z-index: 9999999999; }
   nav .mobile-home {
     display: none; }
+  nav.main-nav {
+    padding-bottom: 10px; }
   nav .main-nav {
     margin-left: auto;
     margin-right: auto;
@@ -248,6 +250,101 @@ blockquote::before {
     @media only screen and (max-width: 500px) {
       .blockquote-byline {
         padding-left: 0px; } }
+
+.photo-panel {
+  background: white;
+  display: flex; }
+  .photo-panel::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .photo-panel .group-photo, .photo-panel .reasons-to-come {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .photo-panel .group-photo:last-child, .photo-panel .reasons-to-come:last-child {
+      margin-right: 0; }
+  @media only screen and (max-width: 1300px) {
+    .photo-panel .group-photo {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .photo-panel .group-photo:last-child {
+        margin-right: 0; }
+    .photo-panel .reasons-to-come {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      .photo-panel .reasons-to-come:last-child {
+        margin-right: 0; } }
+  @media only screen and (max-width: 1000px) {
+    .photo-panel .group-photo {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .photo-panel .group-photo:last-child {
+        margin-right: 0; }
+    .photo-panel .reasons-to-come {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 82.94039%; }
+      .photo-panel .reasons-to-come:last-child {
+        margin-right: 0; } }
+  @media only screen and (max-width: 800px) {
+    .photo-panel {
+      display: block; }
+      .photo-panel .group-photo {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .photo-panel .group-photo:last-child {
+          margin-right: 0; }
+      .photo-panel .reasons-to-come {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px; }
+        .photo-panel .reasons-to-come:last-child {
+          margin-right: 0; } }
+  .photo-panel .group-photo img {
+    object-fit: cover; }
+  .photo-panel-text {
+    padding: 50px; }
+
+.reasons-to-come {
+  background: white;
+  padding-bottom: 10px; }
+  .reasons-to-come h5 {
+    margin: 0px; }
+  .reasons-to-come ol {
+    counter-reset: li;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 0px; }
+    .reasons-to-come ol li {
+      position: relative;
+      margin: 0 0 6px 2em;
+      list-style: none;
+      font-size: 36px; }
+      .reasons-to-come ol li:before {
+        content: counter(li);
+        counter-increment: li;
+        position: absolute;
+        top: 12px;
+        left: -2em;
+        padding: 10px 20px;
+        background: #F8E71C; }
+      .reasons-to-come ol li p {
+        font-weight: 300;
+        font-family: "Roboto", "Helvetica", "san serif"; }
 
 .speaker-page nav {
   max-width: 1200px;
@@ -452,8 +549,8 @@ blockquote::before {
       margin-bottom: 30px; }
 
 .wrapper {
-  padding: 10px 10%;
-  margin-bottom: 15px; }
+  padding: 10px 10% 30px;
+  margin-bottom: 0px; }
   .wrapper::after {
     clear: both;
     content: "";

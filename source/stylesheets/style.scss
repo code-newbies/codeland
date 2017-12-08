@@ -28,6 +28,7 @@ $city-life-color: $light-blue;
 @import "lib/_nav";
 @import "lib/_mailchimp_signup";
 @import "lib/_quote";
+@import "lib/_photo-panel";
 @import "lib/_speaker";
 @import "lib/_schedule";
 @import "lib/_section";
@@ -35,8 +36,8 @@ $city-life-color: $light-blue;
 
 
 .wrapper {
-  padding: 10px 10%;
-  margin-bottom: 15px;
+  padding: 10px 10% 30px;
+  margin-bottom: 0px;
   @include clearfix;
 }
 
