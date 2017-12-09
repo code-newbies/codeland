@@ -562,6 +562,10 @@ blockquote::before {
   .tickets-info .tickets {
     max-width: 1000px;
     margin: 0 auto; }
+    .tickets-info .tickets::after {
+      clear: both;
+      content: "";
+      display: block; }
     @media only screen and (max-width: 700px) {
       .tickets-info .tickets .ticket-type-price {
         font-size: 32px; }
@@ -588,7 +592,6 @@ blockquote::before {
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%;
-    background: white;
     padding: 0px 10px;
     text-align: center; }
     .tickets-info .ticket:last-child {
@@ -607,13 +610,70 @@ blockquote::before {
         border: 2px solid #F8E71C; }
     .tickets-info .ticket-type__wrapper {
       border: 2px solid #F8E71C;
-      padding: 30px 0px; }
+      padding: 30px 0px;
+      background: white; }
     .tickets-info .ticket-type-name {
       margin: 0px; }
     .tickets-info .ticket-type-price {
       margin: 0px;
       font-size: 36px;
       font-family: "Roboto", "Helvetica", "san serif"; }
+  .tickets-info .tickets-explanation {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    border: 2px solid #eee; }
+    .tickets-info .tickets-explanation-header {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%;
+      margin: 0px;
+      background: white;
+      padding: 20px 30px;
+      margin-right: 20px; }
+      .tickets-info .tickets-explanation-header:last-child {
+        margin-right: 0; }
+    .tickets-info .tickets-explanation-details {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 74.41059%;
+      padding: 20px; }
+      .tickets-info .tickets-explanation-details:last-child {
+        margin-right: 0; }
+      .tickets-info .tickets-explanation-details p {
+        font-family: "Roboto", "Helvetica", "san serif";
+        margin-top: 0px; }
+    .tickets-info .tickets-explanation-detail-header {
+      font-family: "Helvetica", "san serif";
+      font-weight: 900; }
+  @media only screen and (max-width: 600px) {
+    .tickets-info .tickets-explanation {
+      margin-top: 30px;
+      display: block; }
+      .tickets-info .tickets-explanation-header {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        border: 2px solid #eee;
+        border-bottom: none; }
+        .tickets-info .tickets-explanation-header:last-child {
+          margin-right: 0; }
+      .tickets-info .tickets-explanation-details {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        border: 2px solid #eee;
+        border-top: none; }
+        .tickets-info .tickets-explanation-details:last-child {
+          margin-right: 0; } }
+  @media only screen and (max-width: 500px) {
+    .tickets-info .tickets-explanation-header {
+      font-size: 18px;
+      padding: 10px 20px; } }
 
 .wrapper {
   padding: 10px 10% 30px;
