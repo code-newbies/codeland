@@ -51,63 +51,52 @@ header {
     header {
       padding-top: 50px; } }
 
-nav {
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  background: #F8E71C;
-  z-index: 9999999999; }
-  nav .mobile-home {
-    display: none; }
-  nav.main-nav {
-    padding-bottom: 10px; }
-  nav .main-nav {
-    margin-left: auto;
-    margin-right: auto;
-    float: none; }
-    nav .main-nav img {
-      max-width: 200px; }
-    nav .main-nav ul {
-      text-align: center; }
-      nav .main-nav ul a {
-        text-decoration: none; }
-        nav .main-nav ul a::after {
-          content: "•";
-          padding: 0px 10px;
-          color: black; }
-        nav .main-nav ul a:last-child::after {
-          content: none; }
-        nav .main-nav ul a:hover {
-          color: black; }
-          nav .main-nav ul a:hover li {
-            background: white;
-            color: black; }
-      nav .main-nav ul li {
-        color: black;
-        display: inline-block;
-        text-transform: uppercase;
-        font-family: "Lato", "Helvetica", "san serif";
-        font-weight: 600;
-        padding: 5px 15px;
-        font-size: 14px; }
-  @media only screen and (max-width: 1350px) {
-    nav.wrapper {
+.love {
+  background: #F8E71C; }
+  .love.wrapper {
+    padding: 50px 0px; }
+  .love .grid-item, .love .grid-sizer {
+    width: 24%;
+    margin: 1%; }
+  .love::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .love h2 {
+    margin: 0px;
+    font-size: 48px; }
+  .love p {
+    font-family: "Roboto", "Helvetica", "san serif";
+    font-size: 18px;
+    font-weight: 300; }
+  .love-header {
+    margin: 0px;
+    font-size: 24px;
+    font-family: "Lato", "Helvetica", "san serif"; }
+  .love .grid-item {
+    background: white;
+    padding: 30px;
+    border: 5px solid yellow; }
+    .love .grid-item.grid-tweet {
+      border-color: #eee; }
+    .love .grid-item.callout {
+      border-width: 15px;
+      border-color: white;
+      background: yellow; }
+    .love .grid-item .blockquote {
       padding: 0px; }
-    nav.wrapper ul {
-      padding: 0px 5px; } }
-  @media only screen and (min-width: 649px) {
-    nav.main-nav .mobile-nav {
-      display: block; } }
-  @media only screen and (max-width: 650px) {
-    nav.main-nav ul li {
-      font-size: 12px;
-      padding: 5px 0px; }
-    nav.main-nav .mobile-home {
-      display: block; }
-      nav.main-nav .mobile-home li {
-        padding: 5px 10px; }
-    nav .mobile-nav {
-      display: none; } }
+      .love .grid-item .blockquote::before {
+        content: "\201D";
+        text-align: right;
+        bottom: -110px;
+        top: auto;
+        margin-right: 20px;
+        right: -20px; }
+      .love .grid-item .blockquote-body {
+        padding-left: 0px;
+        margin-top: 0px; }
+      .love .grid-item .blockquote-byline {
+        padding-left: 0px; }
 
 .mailchimp-signup {
   display: block;
@@ -212,7 +201,65 @@ nav {
         .mailchimp-signup #mc_embed_signup .button:last-child {
           margin-right: 0; } }
 
-blockquote::before {
+nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: #F8E71C;
+  z-index: 9999999999; }
+  nav .mobile-home {
+    display: none; }
+  nav.main-nav {
+    padding-bottom: 10px; }
+  nav .main-nav {
+    margin-left: auto;
+    margin-right: auto;
+    float: none; }
+    nav .main-nav img {
+      max-width: 200px; }
+    nav .main-nav ul {
+      text-align: center; }
+      nav .main-nav ul a {
+        text-decoration: none; }
+        nav .main-nav ul a::after {
+          content: "•";
+          padding: 0px 10px;
+          color: black; }
+        nav .main-nav ul a:last-child::after {
+          content: none; }
+        nav .main-nav ul a:hover {
+          color: black; }
+          nav .main-nav ul a:hover li {
+            background: white;
+            color: black; }
+      nav .main-nav ul li {
+        color: black;
+        display: inline-block;
+        text-transform: uppercase;
+        font-family: "Lato", "Helvetica", "san serif";
+        font-weight: 600;
+        padding: 5px 15px;
+        font-size: 14px; }
+  @media only screen and (max-width: 1350px) {
+    nav.wrapper {
+      padding: 0px; }
+    nav.wrapper ul {
+      padding: 0px 5px; } }
+  @media only screen and (min-width: 649px) {
+    nav.main-nav .mobile-nav {
+      display: block; } }
+  @media only screen and (max-width: 650px) {
+    nav.main-nav ul li {
+      font-size: 12px;
+      padding: 5px 0px; }
+    nav.main-nav .mobile-home {
+      display: block; }
+      nav.main-nav .mobile-home li {
+        padding: 5px 10px; }
+    nav .mobile-nav {
+      display: none; } }
+
+.blockquote::before {
   font-family: "Impact";
   content: "\201C";
   color: #F8E71C;
