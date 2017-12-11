@@ -53,10 +53,8 @@ header {
 
 .love {
   background: #F8E71C; }
-  .love.wrapper {
-    padding: 50px 0px; }
   .love .grid-item, .love .grid-sizer {
-    width: 24%;
+    width: 30%;
     margin: 1%; }
   .love::after {
     clear: both;

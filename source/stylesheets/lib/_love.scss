@@ -1,6 +1,5 @@
 .love {
-  &.wrapper { padding: 50px 0px; }
-  .grid-item, .grid-sizer { width: 24%; margin: 1% }
+  .grid-item, .grid-sizer { width: 30%; margin: 1% }
   @include clearfix;
   background: $yellow;
 
