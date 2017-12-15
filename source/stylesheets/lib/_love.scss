@@ -1,0 +1,91 @@
+.love {
+  .grid-item, .grid-sizer { width: 30%; margin: 1% }
+  @include clearfix;
+  background: $yellow;
+
+  h2 {
+    margin: 0px;
+    font-size: 48px;
+  }
+
+  p {
+    font-family: "Roboto", "Helvetica", "san serif";
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+
+  &-header {
+    margin: 0px;
+    font-size: 24px;
+    font-family: "Lato", "Helvetica", "san serif";
+  }
+
+  .grid-item {
+    background: white;
+    padding: 30px;
+    border: 5px solid yellow;
+
+    &.grid-tweet {
+      border-color: #eee;
+    }
+
+    &.callout {
+      border-width: 15px;
+      border-color: white;
+      background: yellow;
+    }
+
+    .blockquote {
+      padding: 0px;
+
+      &::before {
+        content: "\201D";
+        text-align: right;
+        bottom: -110px;
+        top: auto;
+        margin-right: 20px;
+        right: -20px;
+      }
+
+      &-body {
+        padding-left: 0px;
+        margin-top: 0px;
+      }
+
+      &-byline {
+        padding-left: 0px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1450px){
+    h2 { font-size: 3vw; }
+    .grid-item .blockquote-byline {
+      padding-right: 25px;
+    }
+  }
+  @media only screen and (max-width: 1150px){
+    .grid-item.grid-tweet {
+      padding: 10px;
+    }
+  }
+  @media only screen and (max-width: 1050px){
+    .grid-sizer, .grid-item { width: 48%; }
+    h2 { font-size: 48px; }
+  }
+  @media only screen and (max-width: 1050px){
+    h2 { font-size: 40px; }
+  }
+  @media only screen and (max-width: 750px){
+    .grid-sizer, .grid-item { width: 100%; }
+  }
+  @media only screen and (max-width: 500px){
+    .grid-item .blockquote-body {
+      padding-top: 0px;
+    }
+  }
+  @media only screen and (max-width: 400px){
+    h2 { font-size: 32px; }
+  }
+}

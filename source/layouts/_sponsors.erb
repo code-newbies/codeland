@@ -1,23 +1,12 @@
 <section id="sponsors" class="wrapper speakers">
   <article class="sponsor-description">
-    <h2>Past Sponsors</h2>
-    <p>A huge thank you to the following sponsors for making our first
-    conference possible.
-    <br>If you're interested in sponsoring Codeland, email us
-    hello@codenewbie.org.</p>
+    <h2>Sponsors</h2>
+    <p class="sponsor-description">A huge thank you to the following sponsors
+    for sponsoring our 2018 conference.
   </article>
   <div class="sponsor-list">
     <div class="flex-container">
-   <% data.sponsors.sponsors[0..4].each do |sponsor| %> 
-      <article class="sponsor-image">
-        <a href=<%= sponsor.link %> target="_blank">
-          <img src=<%= sponsor.image_url %>></img>
-        </a>
-      </article>
-    <% end %>
-    </div>
-    <div class="flex-container">
-   <% data.sponsors.sponsors[5..10].each do |sponsor| %> 
+   <% data.sponsors.sponsors[0..1].each do |sponsor| %> 
       <article class="sponsor-image">
         <a href=<%= sponsor.link %> target="_blank">
           <img src=<%= sponsor.image_url %>></img>
@@ -26,27 +15,8 @@
     <% end %>
     </div>
   </div>
-  <div class="sponsor-sub-list">
-    <div class="sponsor-sub">
-      <h3>Venue Sponsor</h3>
-      <article class="sponsor-image">
-        <a href="http://microsoft.com" target="_blank">
-          <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/microsoft-logo-transparent.png">
-        </a>
-      </article>
-    </div>
-    <div class="sponsor-sub">
-      <h3>Scholarship Supporter</h3>
-      <article class="sponsor-image">
-        <a href="http://scotlandjs.com/" target="_blank">
-          <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/scotland_js.png">
-        </a>
-      </article>
-      <article class="sponsor-image">
-        <a href="http://scotlandcss.com/" target="_blank">
-          <img src="https://s3.amazonaws.com/codenewbie-assets/codeland/scotland_css.png">
-        </a>
-      </article>
-    </div>
-  </div>
+  <p class="sponsor-description">
+    Interested in sponsoring Codeland?<br>Email us
+    hello@codenewbie.org.
+  </p>
 </section>

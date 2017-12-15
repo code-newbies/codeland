@@ -1,0 +1,76 @@
+.photo-panel {
+  @include clearfix;
+  background: white;
+  display: flex;
+
+  .group-photo, .reasons-to-come {
+    @include span-columns(6);
+  }
+
+  @media only screen and (max-width: 1300px){
+    .group-photo { @include span-columns(4); }
+    .reasons-to-come { @include span-columns(8); }
+  }
+
+  @media only screen and (max-width: 1000px){
+    .group-photo { @include span-columns(2); }
+    .reasons-to-come { @include span-columns(10); }
+  }
+
+  @media only screen and (max-width: 800px){
+    display: block;
+    .group-photo { @include span-columns(12); }
+    .reasons-to-come {
+      @include span-columns(12);
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+
+  .group-photo {
+    img { object-fit: cover; }
+  }
+
+  &-text {
+    padding: 50px;
+  }
+}
+
+.reasons-to-come {
+  background: white;
+  padding-bottom: 10px;
+
+  h5 {
+    margin: 0px;
+  }
+
+  ol {
+    counter-reset: li;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+
+    li {
+      position: relative;
+      margin: 0 0 6px 2em;
+      list-style: none;
+      font-size: 36px;
+
+      &:before {
+        content:counter(li);
+        counter-increment: li;
+        position: absolute;
+        top: 12px;
+        left: -2em;
+        padding: 10px 20px;
+        background: $yellow;
+      }
+
+      p {
+        font-weight: 300;
+        font-family: "Roboto", "Helvetica", "san serif";
+      }
+    }
+  }
+}
+

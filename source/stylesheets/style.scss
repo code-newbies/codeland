@@ -4,6 +4,7 @@ $green: #00ff00;
 $pink: #ff94de;
 $orange: #ffaa62;
 $main-orange: #ffc107;
+$yellow: #F8E71C;
 $light-orange: #fff1ca;
 $light-yellow: #ffffed;
 $light-green: #85ff85;
@@ -22,15 +23,23 @@ $community-color: $green;
 $city-life-color: $light-blue;
 
 @import "lib/_neat/neat";
-@import "lib/_nav";
+
+@import "lib/_header";
+@import "lib/_love";
 @import "lib/_mailchimp_signup";
+@import "lib/_nav";
+@import "lib/_quote";
+@import "lib/_photo-panel";
 @import "lib/_speaker";
 @import "lib/_schedule";
+@import "lib/_section";
+@import "lib/_sidebar";
+@import "lib/_tickets";
 
 
 .wrapper {
-  padding: 10px 10%;
-  margin-bottom: 15px;
+  padding: 10px 10% 30px;
+  margin-bottom: 0px;
   @include clearfix;
 }
 
@@ -49,15 +58,15 @@ p, li {
 }
 h2 {
   font-size: 36px;
-  font-weight: 500;
-  font-family: "Roboto", "san serif";
+  font-weight: 900;
+  font-family: "Lato", "Helvetica", "san serif";
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 h3 {
   font-size: 24px;
   margin-bottom: 0px;
-  font-family: "Roboto";
+  font-family: "Lato", "Helvetica", "san serif";
 }
 h4 {
   font-size: 24px;
@@ -97,47 +106,6 @@ h5 {
   }
 }
 
-header {
-  background: $main-orange;
-  padding: 5% 20px;
-  padding-top: 80px;
-  text-align: center;
-  .boxed, .box { text-align: center; }
-  .date-location {
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 0;
-    .highlight {
-      padding-top: 10px;
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-  }
-  .conference-description {
-    max-width: 680px;
-    margin: 10px auto;
-    text-transform: none;
-  }
-  .conference-header {
-    margin-top: 10px;
-    span {
-      background: yellow;
-      border: 2px solid black;
-      padding: 10px 40px;
-      display: inline-block;
-      font-size: 28px;
-    }
-  }
-  span.highlight {
-    padding: 5px 10px;
-    display: inline-block;
-    &.logo {
-      padding: 10px;
-      padding-bottom: 0px;
-      border-radius: 20%;
-    }
-  }
-}
 
 .apply-button, .donate-button {
   background: yellow;
@@ -169,11 +137,6 @@ article {
   &.conference-pitch {
     @include span-columns(8);
     @include shift(2);
-    text-align: center;
-  }
-  &.ticket-header {
-    @include span-columns(10);
-    @include shift(1);
     text-align: center;
   }
   &.ticket {
@@ -217,12 +180,12 @@ article {
 
 .ticket-info {
   background: $lightgray;
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 80px;
 }
 
 .tickets {
-  @include span-columns(8);
-  @include shift(2);
+  padding: 30px 0px;
   a {
     text-decoration: none;
     &:hover {
@@ -244,6 +207,11 @@ article {
   margin: 10px auto;
   text-align: center;
   h3 { text-align: center; }
+  font-family: "Roboto", "Helvetica", "san serif";
+  font-weight: 300;
+  font-size: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .cfp-description {
@@ -371,6 +339,8 @@ article {
 
 
 .sponsor-list, .sponsor-sub-list {
+  max-width: 1000px;
+  margin: 0 auto;
   @include clearfix;
   .flex-container {
     display: flex;
@@ -384,6 +354,7 @@ article {
       padding: 20px 2.5%;
       align-items: center;
       img { width: 100%; }
+      max-width: 400px;
     }
     &:first .sponsor-image {
       @include span-columns(3);
@@ -523,14 +494,6 @@ footer {
     }
   }
 }
-
-@media only screen and (max-width: 1000px){
-  .tickets {
-    @include shift(0);
-    @include span-columns(12);
-  }
-}
-
 
 @media only screen and (max-width: 500px){
   p { font-size: 12px; }

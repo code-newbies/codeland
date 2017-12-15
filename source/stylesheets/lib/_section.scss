@@ -1,0 +1,38 @@
+.section-header {
+  font-family: "Lato", "Helvetica", "san serif";
+  font-weight: 900;
+  text-transform: uppercase;
+
+  @media only screen and (max-width: 800px){
+    font-size: 16px;
+  }
+}
+
+.overview {
+  background: $lightgray;
+}
+
+.section-paragraph {
+  font-family: "Roboto", "Helvetica", "san serif";
+  font-size: 24px;
+  font-weight: 300;
+
+  @media only screen and (max-width: 800px){
+    font-size: 24px;
+  }
+}
+
+.left-panel {
+  @include span-columns(8);
+  @media only screen and (max-width: 800px){
+    @include span-columns(12);
+  }
+}
+
+.right-panel {
+  @include span-columns(4);
+
+  @media only screen and (max-width: 800px){
+    @include span-columns(12);
+  }
+}

@@ -3,8 +3,13 @@ nav {
   position: fixed;
   top: 0px;
   width: 100%;
-  background: black;
+  background: $yellow;
   z-index: 9999999999;
+
+  &.main-nav {
+    padding-bottom: 10px;
+  }
+
   .main-nav {
     margin-left: auto;
     margin-right: auto;
@@ -17,7 +22,7 @@ nav {
         &::after {
           content: "•";
           padding: 0px 10px;
-          color: white;
+          color: black;
         }
         &:last-child::after { content: none; }
         &:hover {
@@ -29,9 +34,11 @@ nav {
         }
       }
       li {
-        color: white;
+        color: black;
         display: inline-block;
         text-transform: uppercase;
+        font-family: "Lato", "Helvetica", "san serif";
+        font-weight: 600;
         padding: 5px 15px;
         font-size: 14px;
       }

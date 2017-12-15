@@ -1,0 +1,56 @@
+header {
+  background-image: url("../images/geometry3.png");
+  padding: 5% 20px;
+  padding-top: 130px;
+  text-align: center;
+  .boxed, .box { text-align: center; }
+  .date-location {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+    .highlight {
+      padding-top: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  .conference-description {
+    max-width: 680px;
+    margin: 10px auto;
+    text-transform: none;
+  }
+  .conference-header {
+    margin-top: 10px;
+    span {
+      background: yellow;
+      border: 2px solid black;
+      padding: 10px 40px;
+      display: inline-block;
+      font-size: 28px;
+    }
+  }
+  .subheader {
+    font-size: 38px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: white;
+
+    @media only screen and (max-width: 700px){
+      font-size: 24px;
+    }
+  }
+
+  span.highlight {
+    padding: 5px 10px;
+    display: inline-block;
+    &.logo {
+      padding: 0px;
+      padding-bottom: 0px;
+      border-radius: 20%;
+    }
+  }
+
+  @media only screen and (max-width: 650px){
+    padding-top: 50px;
+  }
+}
