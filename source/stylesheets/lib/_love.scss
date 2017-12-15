@@ -58,4 +58,34 @@
       }
     }
   }
+
+  @media only screen and (max-width: 1450px){
+    h2 { font-size: 3vw; }
+    .grid-item .blockquote-byline {
+      padding-right: 25px;
+    }
+  }
+  @media only screen and (max-width: 1150px){
+    .grid-item.grid-tweet {
+      padding: 10px;
+    }
+  }
+  @media only screen and (max-width: 1050px){
+    .grid-sizer, .grid-item { width: 48%; }
+    h2 { font-size: 48px; }
+  }
+  @media only screen and (max-width: 1050px){
+    h2 { font-size: 40px; }
+  }
+  @media only screen and (max-width: 750px){
+    .grid-sizer, .grid-item { width: 100%; }
+  }
+  @media only screen and (max-width: 500px){
+    .grid-item .blockquote-body {
+      padding-top: 0px;
+    }
+  }
+  @media only screen and (max-width: 400px){
+    h2 { font-size: 32px; }
+  }
 }
