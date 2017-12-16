@@ -430,30 +430,32 @@ nav {
     margin-top: 0px; }
 .speaker-page section {
   padding: 50px 10%; }
-.speaker-page .speaker-profile img {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 23.23176%; }
-  .speaker-page .speaker-profile img:last-child {
-    margin-right: 0; }
-.speaker-page .speaker-profile h5 {
-  margin-top: 0px;
-  margin-bottom: 0px; }
-.speaker-page .speaker-profile .speaker-profile-info {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 74.41059%; }
-  .speaker-page .speaker-profile .speaker-profile-info:last-child {
-    margin-right: 0; }
-  .speaker-page .speaker-profile .speaker-profile-info h2 {
+.speaker-page .speaker-profile {
+  padding-top: 50px; }
+  .speaker-page .speaker-profile img {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .speaker-page .speaker-profile img:last-child {
+      margin-right: 0; }
+  .speaker-page .speaker-profile h5 {
     margin-top: 0px;
-    text-transform: none; }
-  .speaker-page .speaker-profile .speaker-profile-info h4 {
-    margin-top: 0px; }
-.speaker-page .speaker-profile .speaker-bio-name {
-  font-weight: 600; }
+    margin-bottom: 0px; }
+  .speaker-page .speaker-profile .speaker-profile-info {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%; }
+    .speaker-page .speaker-profile .speaker-profile-info:last-child {
+      margin-right: 0; }
+    .speaker-page .speaker-profile .speaker-profile-info h2 {
+      margin-top: 0px;
+      text-transform: none; }
+    .speaker-page .speaker-profile .speaker-profile-info h4 {
+      margin-top: 0px; }
+  .speaker-page .speaker-profile .speaker-bio-name {
+    font-weight: 600; }
 @media only screen and (max-width: 500px) {
   .speaker-page .mobile {
     display: inline-block; }
@@ -625,12 +627,16 @@ nav {
     padding-bottom: 50px; }
   .tickets-info .ticket-header {
     text-align: center; }
-    .tickets-info .ticket-header p.description {
+    .tickets-info .ticket-header .description {
       font-family: "Roboto", "Helvetica", "san serif";
       font-weight: 300;
       font-size: 24px;
       max-width: 1000px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      padding-bottom: 20px; }
+    @media only screen and (max-width: 600px) {
+      .tickets-info .ticket-header p.description {
+        font-size: 18px; } }
   .tickets-info .tickets {
     max-width: 1000px;
     margin: 0 auto; }
@@ -1078,6 +1084,7 @@ article {
   display: block;
   margin-right: 2.35765%;
   width: 14.70196%;
+  background: #F8E71C;
   margin-bottom: 10px;
   position: relative; }
   .speaker:last-child {
@@ -1086,21 +1093,25 @@ article {
     margin-right: 0; }
   .speaker:nth-child(6n+1) {
     clear: left; }
+  .speaker:hover {
+    background: black; }
   .speaker img {
     width: 100%;
-    border: 5px white solid; }
+    border: 5px #F8E71C solid; }
   .speaker .speaker-title {
-    background: #ffedff;
-    padding: 5px 15px;
-    font-family: "Roboto";
+    padding: 5px 15px 0px;
+    font-family: "Lato", "Helvetica", "san serif";
+    font-weight: 900;
+    text-align: center;
     margin-top: 0px; }
   .speaker a:hover img {
-    border: 5px #f52eff solid; }
+    border: 5px black solid; }
   .speaker a {
     text-decoration: none; }
   .speaker a:hover {
-    color: black;
-    font-weight: 600; }
+    color: white; }
+    .speaker a:hover .speaker-title {
+      background: black; }
 
 .sponsor-list, .sponsor-sub-list {
   max-width: 1000px;
