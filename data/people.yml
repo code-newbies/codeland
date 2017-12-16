@@ -1,196 +1,83 @@
 default: &default_title
 
 speakers:
-- full_name: "Minerva Tantoco"
-  type: "fireside chat"
-  category: "city life"
-  day: "1"
-  order: "8"
-  talk_title: "The first CTO of NYC: A fireside chat"
-  talk_abstract: "We sit down for a fireside chat with the former CTO of NYC, a
-  technologist with a passion for making the city a thriving and accessible
-  technology industry. We'll unpack how the city's worked to bring tech and
-  tech education to New Yorkers across all five boroughs, how technology can
-  help empower citizens and help address urban problems, and what's in store for technology in the big
-  city."
-  job_title: "Chief Technology Officer"
-  company: "City Strategies, LLC"
-  twitter_handle: "@minervatweet"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/minerva_tantoco.jpg"
-  bio: "Minerva Tantoco is CTO, City Strategies, LLC: From tech start-ups to
-  large enterprises to government, Ms. Minerva Tantoco holds four US patents on
-  intelligent workflow, and is focused on applied innovation, creating tech
-  strategies to build great businesses. Ms. Tantoco is passionate about
-  humanizing tech and equal opportunity in the tech ecosystem. Minerva Tantoco
-  most recently served as New York City’s first-ever Chief Technology Officer
-  (CTO). Tantoco launched groundbreaking initiatives in smart city
-  policy and government tech, such as LinkNYC, CSforAll, Neighborhoods.NYC, the
-  first-ever IoT Guidelines for New York City, and NYC’s Smart+Equitable City
-  Strategy."
-- full_name: "Nikhil Paul"
-  type: "emcee"
-  talk_title: "Emcee"
-  job_title: "CTO"
-  company: "T3 Interactive"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/nikhil-paul.jpg"
-  twitter_handle: "@nikhiljpaul"
-  github_username: "nikhiljpaul"
-  bio: "Nikhil is the CTO of T3 Interactive, a public speaking coach startup by
-  day, and a Bollywood dance workshop leader by night. He's a startup guy
-  looking to solve real problems and build a community filled with laughter,
-  dance and real moments."
-  other_link: "http://www.nikhilpaul.com/"
-- full_name: "Carol Willing"
-  type: "panel"
-  category: "open source"
-  day: "2"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/carol_willing.jpg"
-  talk_title: &opensourcetitle "Open Source Panelist"
-  talk_abstract: &opensourceabstract "Join us for a deep conversation on getting involved in open
-  source, hearing how new coders can make meaningful contributions, and the role
-  open source projects can play in your career development."
-  job_title: "Research Software Engineer, Project Jupyter"
-  company: "Cal Poly San Luis Obispo"
-  twitter_handle: "@willingcarol"
-  github_username: "willingc"
-  bio: "Carol Willing is a Director of the Python Software Foundation, a core
-  developer for Project Jupyter, and a Research Software Engineer at Cal Poly
-  San Luis Obispo. She's also Geek-In-Residence at Fab Lab San Diego and
-  co-organizes PyLadies San Diego and San Diego PythonShe's also
-  Geek-In-Residence at Fab Lab San Diego and co-organizes PyLadies San Diego and
-  San Diego Python. Combining a love of nature, the arts, and math with a BSE in
-  Electrical Engineering from Duke and an MS in Management from MIT, she’s
-  enjoyed creating and teaching others for over 20 years."
-- full_name: "Ashley Jean"
-  type: "panel"
-  day: "2"
-  order: "5"
-  category: "code life balance"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/ashley_jean.jpeg"
-  talk_title: &codelifebalance "Code-Life Balance Panelist"
-  talk_abstract: &codelifebalanceabstract "Learning to code and balancing everything in your life can be
-  very difficult. In this panel, hear from developers at different parts of
-  their coding journey who are juggling kids, family, jobs, and a host of
-  responsibilities and are still making progress towards their coding goals."
-  job_title: "Software Engineer "
-  company: "mdlogix"
-  twitter_handle: "@AshhJean"
-  bio: "Ashley is a software engineer at mdlogix. Prior to teaching herself to
-  code, she graduated from Loyola University Maryland and worked in finance. In
-  her spare time, she enjoys training for foot races and organizing events in
-  Baltimore for women learning to program."
-- full_name: "Bobby Davis"
-  day: "2"
-  type: "panel"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/bobby-davis.jpg"
-  talk_title: "Bootcamp Battle"
-  talk_abstract: &bootcampbattle "Bootcamps have gotten a lot of praise and a
-  lot of criticism. Some say it's changed their lives. Others feel it's a total
-  scam. In this fast-paced panel moderated by Scott Hanselman, we'll unpack the
-  pros and cons of the bootcamp model and hear directly from the bootcamps
-  themselves. Get ready for an honest, informative battle among the bootcamps."
-  job_title: "Founder"
-  company: "Coder Foundry"
-  twitter_handle: "@ctbobbydavis"
-  bio: "Serial Entrepreneur involved in multiple start-ups. Proven leader in
-  software development and design. Particularly interested in new technologies
-  that create disruption in the marketplace."
-- full_name: "Celia La" 
-  day: "1"
-  order: "18"
-  type: "talk"
-  category: "education"
-  image_url: "http://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/CeliaLa.jpg" 
-  talk_title: "Scaling an education platform for millions of people worldwide"
-  talk_abstract: "Celia takes us behind the scenes of Khan Academy to show us
-  what it takes to build an education platform for millions of users, including
-  running A/B tests, refactoring backend code to account for international
-  growth, and refactoring frontend code to render the most important things
-  first."
+- full_name: "Aman Irshad"
+  talk_title: "Application of Data Science in Livestock Disease Diagnosis"
+  job_title: "MS Thesis Student"
+  company: " Lahore University of Management and Sciences"
+  twitter_handle: "@amanirshd"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/aman-irshad.jpg"
+  bio: "Aman is a 23 years old computer scientist who is immensely passionate about research in the field of Computer Vision, Data Science and Machine Learning and their application in the real world."
+- full_name: "Ben Halpern"
+  talk_title: "How to make your website so fast it goes viral in Japan"
+  job_title: "Founder and Webmaster"
+  company: "dev.to"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/ben-halpern.jpg"
+  twitter_handle: "@bendhalpern"
+  github_username: "benhalpern"
+  bio: "Ben is the founder of dev.to, the online community for software developers. He leads a team working to build an inclusive environment for software developers to learn and grow."
+- full_name: "Bianca Escalante"
+  talk_title: "The Evils of Open Source"
+  job_title: "Senior Manager, Social Impact"
+  company: "GitHub"
+  twitter_handle: "@BiancaCreating"
+  github_username: "bescalante"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/bianca-escalante.jpg"
+  bio: "Bianca is a Senior Manager on GitHub’s Social Impact team where she spends most of her time overseeing the company’s local engagement initiatives and advocating for accessibility, inclusion and diversity across multiple sectors of the company. Her intersectional lens paired with her experience in tech has broadened her expertise on how to create and foster diverse and inclusive environments both online and in the real world. Prior to joining GitHub in 2015, she spent 18 years working in the nonprofit sector, mostly with organizations that provided educational opportunities for Black and Latino youth in STEM-related fields."
+- full_name: "Bonnie Zhou"
+  talk_title: "What's in a Button? UI Engineering and Building Component
+  Libraries"
   job_title: "Software Engineer"
-  company: "Khan Academy"
-  twitter_handle: "@celiala"
-  github_username: "celiala"
-  bio: "Celia La is a software engineer at Khan Academy, board member for
-  Write/Speak/Code and BigApplePy, and organizer for NYC PyLadies and PyGotham.
-  In her free time, Celia enjoys cooking, biking, and spending time with her
-  husband, daughter and curmudgeonly cat."
-- full_name: "Michelle Morales"
-  type: "talk"
-  category: "health"
-  day: "1"
-  order: "10"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/Michelle.jpg"
-  talk_title: "Diagnosing Depression: Open source tools for mental health"
-  talk_abstract: "Mental health disorders affects millions of people in the
-  United States alone. Diagnosing mental health disorders is difficult and
-  important work, and technical tools can help that process. Michelle, a Ph.D
-  candidate studying open source technologies and mental health, will discuss
-  existing projects that help automatically assess depression and introduces the
-  coding tools she uses in her own research."
-  job_title: "Researcher"
-  company: "The Graduate Center, City University of New York"
-  twitter_handle: "@MichMorales"
-  github_username: "michellemorales"
-  bio: "Michelle is a Ph.D. Candidate in Computational Linguistics at the CUNY
-  Graduate Center. She is also a researcher and web developer at the Futures
-  Initiative. Her main research interests are Natural Language Processing for
-  mental health applications and open source technologies."
-- full_name: "Scott Hanselman"
-  type: "keynote"
-  talk_title: "JavaScript, The Cloud, And The Rise of the New Virtual Machine"
-  talk_abstract: "One day we woke up and things were different. Maybe it
-  happened overnight, maybe it took many years. Suddenly we are scripting
-  against thousands of Virtual Machines from the command line while creating
-  things today with JavaScript in the browser that were impossible yesterday.
-  LiveScript becomes JavaScript becomes ES6 and now we're compiling C++ to JS.
-  Join Scott Hanselman as he explores the relationship between the Cloud and the
-  Browser, many Languages and one Language, how it might all fit together and
-  what might come next."
-  day: "1"
-  order: "19"
-  job_title: "Principal Program Manager"
+  company: "Google"
+  twitter_handle: "@bonniezzzhou"
+  github_handle: "bonniezhou"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/bonnie-zhou.jpg"
+  bio: "Bonnie Zhou is a software engineer at Google building open-sourced web components for Material Design. She loves to talk about making education accessible, diversity in tech, and recently, thoughtful design. In her spare time, she is either leveling up in dance or spreading the magic of computer science."
+- full_name: "Caleb Thompson"
+  talk_title: "Don't Get Distracted"
+  job_title: "Engineer / Ruby Task Force Member"
+  company: "Heroku"
+  twitter_handle: "@calebthompson"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/caleb-thompson.jpeg"
+  bio: "Caleb is a dreamer, speaker, and computer whisperer. He organizes the Keep Ruby Weird conference, which of course you’ve heard of and are very impressed by. When he’s not painting miniatures or climbing cliffs to jump off into the water, he works for Heroku and codes in Ruby and Go. He walked barefoot from the wintry tundra of Alaska to the harsh deserts of Arizona. Okay, that’s not true, but he did live in those places. He currently hails from Austin, TX—the taco capital of the United States."
+- full_name: "Colleen Schnettler" 
+  talk_title: "How to learn to code when you have no time and no money"
+  job_title: "Freelance Ruby on Rails Developer"
+  company: "Bitmapped Designs LLC"
+  twitter_handle: "@leenyburger"
+  github_username: "leenyburger"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/colleen-schnettler.jpg" 
+  bio: "Colleen Schnettler is a former corporate systems engineer enthusiastically pursuing a new career as a software developer. She is a military spouse, stay at home mother of 3 young children, and a self taught programmer. She is active in the open source community and recently landed her first freelance client!"
+- full_name: "Dorothy Phoenix"
+  talk_title: "Is Your Debugger Bugging You?  How to Successfully Debug Your Programs"
+  job_title: "Business Owner, Game Developer, Computer Science Tutor"
+  company: "Cloudy Heaven Games"
+  twitter_handle: "@cloudyheavengms"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/dorothy-phoenix.jpg"
+  bio: "Dorothy is a game developer and the owner of Cloudy Heaven Games, a small game development startup. Prior to starting her company, she worked professionally as a software engineer and tester. She has experience teaching students, from teenagers to adults, how to program and make games."
+- full_name: "Eleanor Stribling"
+  talk_title: "A Bossy Sort of Voice: Using natural language processing to quantify sexism in Harry Potter"
+  job_title: "Principal PM Manager"
   company: "Microsoft"
-  twitter_handle: "@shanselman"
-  github_username: "shanselman"
-  bio: "Scott is a web developer who has been blogging at http://hanselman.com
-  for over 15 years. He works in Open Source for Microsoft out of his home office in Portland, Oregon. He also has a number of popular podcasts."
-  other_link: "http://hanselminutes.com/"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/scott-hanselman.jpg"
-- full_name: "Esra'a Al-Shafei"
-  type: "talk"
-  category: "community"
-  day: "1"
-  order: "15"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/esra.png"
-  talk_title: "The Fallacy of Exporting Tech Solutions to the Middle East"
-  talk_abstract: "Regional innovators are bucking the notion that Western
-  imported tech is the solution to the Middle East's problems. Music, creative
-  ways to bypass censorship, and grassroots literacy are the real paths to
-  change, and are being forged by innovators already in the region: they just
-  need partners brave enough to join them."
-  job_title: "Founder"
-  company: "Majal"
-  twitter_handle: "@ealshafei"
-  other_link: "https://majal.org"
-  bio: "Bahraini civil rights advocate Esra’a Al-Shafei is the founder and
-  director of Majal.org, an organization building platforms to amplify
-  underrepresented voices, such as CrowdVoice, an open-source tool that curates
-  and contextualizes social justice movements worldwide, and Mideast Tunes, the
-  largest platform for underground musicians in the Middle East and North
-  Africa."
-- full_name: "Quincy Larson"
-  type: "talk"
-  day: "2"
-  order: "2"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/quincy.png"
-  job_title: "Teacher"
-  company: "freeCodeCamp"
-  twitter_handle: "@ossia"
-  github_username: "quincylarson"
-  other_link: "http://medium.com/@quincylarson"
-  bio: "Quincy is a teacher at freeCodeCamp.com. Editor of Medium's largest technical
-  publication."
+  twitter_handle: "@eleanorstrib"
+  github_username: "eleanorstrib"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/eleanor-stribling.jpg"
+  bio: "Eleanor has been a software product manager in tiny startups, a mid-size public company, and a major tech company.  Her passion for data-driven decision making and inter-disciplinary study has resulted in a stint in a programming bootcamp, AI and deep learning study through Udacity, a BA in Political Science from the University of Toronto, and an MBA from MIT.  Born and raised in Toronto, she lives in San Francisco with her family."
+- full_name: "Jen Simmons"
+  talk_title: "It’s Never Been A Better Time to Learn Layout CSS"
+  job_title: "Designer and Developer Advocate"
+  company: "Mozilla"
+  twitter_handle: "@jensimmons"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/medium/jen-simmons.jpg?1512335715"
+  bio: "Jen is a Designer and Developer Advocate at Mozilla, where she advocates for web standards and researches the coming revolution in graphic design on the web. She’s spoken at events including SXSW, An Event Apart, Fluent, Generate, Future of Web Design, and Respond. Her talk, Modern Layouts: Getting Out of Our Ruts, was awarded Best Conference Presentation at CSS Dev Conf 2014."
+- full_name: "Jess Unrein"
+  talk_title: "Can a neural network learn jazz?"
+  job_title: "Software Engineer"
+  company: "Sprout Social"
+  twitter_handle: "@JLUnrein"
+  github_username: "thejessleigh"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/jess-unrein.jpg"
+  bio: "Jess is a Chicago based software engineer, writer, public speaker, and community organizer. She believes code is a tool that people can use to improve their job prospects, problem solving skills, and generally better their lives. She also believes that code can and should be used to build projects to bring you joy, even if they never turn into a breakaway side hustle."
   talk_title: "How to write technical blog posts that people will actually read"
   talk_abstract: "You know you should have a tech blog, but how do you get
   people to actually read it? Quincy, editor of Medium's largest technical
@@ -198,743 +85,45 @@ speakers:
   prospective employers and show off your knowledge, with strategies including
   establishing social proof, getting syndicated, and packaging your content for
   easy consumption."
-- full_name: "Courteney Ervin"
-  type: "talk"
-  category: "education"
-  day: "1"
-  order: "17"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/courteney_ervin.jpeg"
-  job_title: "Software Developer"
-  company: "The New York Public Library"
-  github_username: "courte"
-  twitter_handle: "@courteneyervin"
-  bio: "Courteney Ervin codes in the space where open source meets social good.
-  She’s a developer at the New York Public Library, where she supports
-  accessible literacy in NYC and beyond."
-  talk_title: "Creating An E-Library Card: Lessons in coding for one of the
-  largest library systems in the world"
-  talk_abstract: "Many people depend on the public library, and as one of the
-  largest library systems in the world, building for the New York Public Library
-  requires a lot of careful navigation of bureaucracy, a deep empathy of the
-  diverse users that rely on the library, and the technical chops to get the job
-  done. Courteney shares her journey of building an e-library card for the
-  library and the lessons she learned in the process."
-- full_name: "Eleanor Stribling"
-  type: "workshop"
-  day: "2"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/eleanor_stribling.jpg"
-  job_title: "VP, Product"
-  company: "Kevala"
-  twitter_handle: "eleanorstrib"
-  github_username: "eleanorstrib"
-  other_link: "http://eleanorstrib.com"
-  bio: "Eleanor is a product manager, developer and UX designer with 7+ years'
-  experience as a senior member of startup teams in the San Francisco Bay Area."
-  talk_title: "Your portfolio as a product: How to use product development
-  strategies to impress employers"
-  talk_abstract: "Eleanor shares three core product management principles that
-  will help you take your side projects and toy apps, and craft a portfolio to
-  wow technical interviewers and show off your skills."
-- full_name: "Kate Rabinowitz"
-  type: "talk"
-  category: "city life"
-  day: "1"
-  order: "6"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/kate.jpeg"
-  job_title: "Founder"
-  company: "DataLensDC"
-  twitter_handle: "@datalensdc"
-  github_username: "katerabinowitz"
-  other_url: "http://www.datalensdc.com/"
-  bio: "Kate Rabinowitz is the founder of DataLensDC, an organization dedicated
-  to understanding cities through data. She co-organizes Code for DC and Tech
-  Lady Hackathon. Kate is passionate about open data and civic tech, diversity
-  and inclusion, healthy skepticism, and board games."
-  talk_title: "Open Data + You = Better Cities"
-  talk_abstract: "Cities are releasing more and more data on everything from
-  transportation to business to city finances. This presents a huge opportunity
-  to better understand and improve our communities. We'll discuss what and where
-  open data is, the opportunities and challenges of working with open data, and
-  how you can code to make a difference."
-- full_name: "Bryan Liles"
-  type: "panel"
-  category: "open source"
-  day: "2"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/bryan_liles.JPG"
-  talk_title: *opensourcetitle
-  talk_abstract: *opensourceabstract
-  job_title: "Director, Principal Software Engineer"
-  company: "Capital One"
-  twitter_handle: "@bryanl"
-  github_username: "bryanl"
-  bio: "During the day, Bryan is a developer and leader of developers at Capital
-  One. While not working, he spends his time trying to leave the world in a
-  slightly better condition that it was before."
-- full_name: "Katrina Owen"
-  type: "talk"
-  day: "2"
-  order: "1"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/katrina-owen.jpg"
-  job_title: "Advocate—Open Source"
-  company: "GitHub"
-  twitter_handle: "@kytrinyx"
-  github_username: "kytrinyx"
-  other_link: "http://kytrinyx.com"
-  bio: "Katrina is an open source advocate at GitHub. She accidentally became a
-  developer while pursuing a degree in molecular biology. When programming, her
-  focus is on automation, workflow optimization, and refactoring. She works
-  primarily in Go and Ruby, contributes to several open source projects, and is
-  the creator of exercism.io, a platform for leveling up your programming
-  skills."
-  talk_title: "Incognito Mentorship"
-  talk_abstract: "It's no wonder that you feel stuck and overwhelmed in your
-  coding journey. There's just too much. Too much to learn, too much to know.
-  Too many unknowns, too many resources, too many options. This talk explores how to get the mentorship you need, and you may be
-  surprised to discover that this is not the same thing as the mentorship you
-  want."
-- full_name: "Phil Eaton"
-  type: "talk"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/phil_eaton.jpg" 
-  job_title: "Developer"
-  company: "Linode"
-  bio: "Phil is a Developer at Linode. There he enjoys organizing company-wide
-  hack nights, educational talks, and a book club. After work he enjoys reading
-  and studying Korean."
-  github_username: "eatonphil"
-  talk_title: "Shipping Containers"
-  talk_abstract: "In this workshop we will cover the fundamentals of running
-  applications inside docker containers as well as some reasons as to why you
-  might consider doing so."
-- full_name: "Rapi Castillo"
-  type: "talk"
-  category: "community"
-  day: "1"
-  order: "12"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/rapi-large.jpeg"
-  job_title: "Executive Director"
-  company: "Progressive Coders Network"
-  twitter_handle: "@pikittakbo"
-  github_username: "rapicastillo"
-  bio: "Executive Director of Progressive Coders Network, movement building are
-  my passion, focusing on creating platforms for people to become engaged,
-  empowered, and excited, about a cause, campaign, or product. Passionate about
-  knowing how to create a bottom-up movement that creates a new means of
-  distribution and organizing, and how technology affects it. Mark Granovetter,
-  Jon Kleinberg, and Malcom Gladwell are his heroes."
-  other_link: "http://www.progcode.co/"
-  talk_title: "The Bernie Map: Building tools for the Progressive Movement"
-  talk_abstract: "Rapi joined the Coders for Sanders movement and built an open
-  source map, a project that would later be used for other movements, including
-  the Womens March and the Indivisible Guide. Rapi takes us through his journey
-  of building that map, and using his skills to build other open source tools
-  and create a network of developers to power the progressive movement."
-- full_name: "Nell Shamrell-Harrington"
-  type: "talk"
-  day: "2"
-  order: "4"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/nell.jpeg"
-  job_title: "Sr. Software Engineer"
-  company: "Chef Software"
-  twitter_handle: "@nellshamrell"
-  github_username: "nellshamrell"
-  other_link: "http://www.nellshamrell.com/"
-  bio: "Nell Shamrell-Harrington is a theatre student turned Sr. Software
-  Engineer by way of Ruby, Ruby on Rails, Chef, regular expressions, and DevOps
-  technologies.  She has governed multiple open source projects, which have
-  taken the collaboration skills she learned in the theatre to new heights.  She
-  is also the scholarship chair of and a mentor with Operation Code - a
-  non-profit which teaches coding skills to active duty military personnel,
-  their dependents, and veterans transitioning into civilian life."
-  talk_title: "Open Source Governance 101: What it really takes to be an effective
-  maintainer and contributer of an open source project"
-  talk_abstract: "Running a successful open source project is just as much, if
-  not more, of a social task as a technical one. The combination of technical
-  and social skills required can seem very intimidating at first. The good new
-  is that all these skills can be learned. Learn how to tell when a project is
-  ready to be open sourced (hint: it’s more than throwing it on Github),
-  publicizing your project, reviewing pull requests, kindly saying “no” when a
-  pull request isn’t the right direction for a project, creating and managing
-  versioned releases, and more."
-- full_name: "Brian Douglas"
-  type: "panel"
-  day: "2"
-  category: "code life balance"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/brian-douglas.jpg"
-  talk_title: *codelifebalance
-  talk_abstract: *codelifebalanceabstract
-  job_title: "Developer & Advocate"
-  company: "Netlify"
-  twitter_handle: "@bdougieYO"
-  github_username: "bdougie"
-  bio: "Brian had a career in sales and marketing before turning to his latest
-  interest, coding. Brian is a developer & advocate at Netlify, where he was
-  first hired to convert their Angular app to React. In his spare time, he
-  mentors new programmers towards contributing in open source as well as
-  JavaScript and React tools."
-- full_name: "Opher Vishnia"
-  type: "talk"
-  category: "art gaming"
-  day: "1"
-  order: "4"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/opher.jpeg"
-  job_title: "Senior Creative Developer"
-  company: "Eko"
-  twitter_handle: "@opherv"
-  github_username: "opherv"
-  other_link: "http://opherv.com"
-  bio: "Opher is a multidisciplinary creator, invested in many fields like
-  computer science, art, music, design and game development. For the past three
-  years, he has worked at Eko as lead creative developer and the go-to authority
-  on client-side web technologies. His day-to-day involves working with both
-  creative teams (design, art, film) as well as development teams to push the
-  envelope of interactive video, a new and exciting creative medium."
-  talk_title: "Web sites are video games waiting to happen"
-  talk_abstract: "How can you make your site feel less like a static page and
-  more like a video game? Opher will show how to apply video game principles to
-  websites using Javascript/CSS libraries for particles, physics, multiplayer,
-  camera movement and interactive video. Using these tools, your users can stop
-  watching passively and start playing actively!"
-- full_name: "Stephanie Nemeth"
-  type: "talk"
-  category: "art gaming"
-  day: "1"
-  order: "1"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/stephanie.jpeg"
-  job_title: "Frontend Developer"
-  company: "SpronQ"
-  twitter_handle: "@stephaniecodes"
-  github_username: "traumverloren"
-  bio: "Stephanie is a self-taught developer living in Amsterdam. She enjoys
-  making interesting, but useless, things with code in her free time."
-  talk_title: "Creating art with a Raspberry Pi"
-  talk_abstract: "Inspired by a visit to an art museum, Stephanie created an
-  interactive LED art project using javascript, python, and hardware. She shares
-  her story of building with hardware for the first time and how she sharpened
-  her coding skills and built her confidence along the way."
-- full_name: 'Breset "Sterling" Walker'
-  type: "talk"
-  category: "community"
-  day: "1"
-  order: "14"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/sterling.jpg"
-  talk_title: "The Users Your Site Is Missing: Lessons on accessibility from my
-  first coding project"
-  talk_abstract: "Sterling's very first on-the-job tech project was fixing the
-  platform so that two blind students could actually use it. While accessibility
-  is the obvious framework for this project, the issues tackled in this coding
-  journey address the larger issue of making our platforms truly inclusive and
-  accessible to everyone, and the tools and process that can help us get there."
-  job_title: "Director of Engineering"
-  company: "2U"
-  twitter_handle: "@mrsnickers"
-  github_username: "mrsnickers"
-  bio: "Sterling Walker graduated with an advanced degree in medical sciences
-  right around the same time the brain factories stopped hiring.  She earned a
-  scholarship to the Flatiron School and transitioned her career to web
-  development.  She is now a Director of Engineering at 2U where she makes tools
-  for web-native educational interactions."
-- full_name: "Maurice Rogers"
-  type: "talk"
-  category: "education"
-  day: "1"
-  order: "16"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/maurice-rogers.jpeg"
-  job_title: "Software Consultant"
-  company: "BayTechnologies"
-  twitter_handle: "@mauricerogersjr"
-  github_username: "cruzer45"
-  other_link: "https://abacus.bz/"
-  bio: "Maurice is a Belize-based software consultant with experience working
-  with clients from all over the world."
-  talk_title: "Abacus: Shaping the future of education in Belize"
-  talk_abstract: "Maurice shares the story of how his simple side project
-  blossomed into one of the fastest growing school information systems in
-  Belize, impacting more than 15,000 students throughout the country."
-- full_name: "Eric Hollenberry"
-  type: "workshop"
-  day: "2"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/eric-hollenberry.jpg"
-  job_title: "Trainer"
-  github_username: "hollenberry"
-  talk_title: "Introduction to Git, GitHub, and the CLI && Git Into Ship Shape"
-  talk_abstract: "Introduction to Git, GitHub, and the CLI: Make sure your
-  laptop is charged up and ready to go for this comprehensive review of GitHub
-  as a collaboration platform. Though the workshop assumes no prior experience
-  with Git, GitHub trainer Eric Hollenberry is positive he can teach old dogs
-  new command line tricks. Walk away with industry best-practices, a great
-  conceptual overview of the GitHub Flow, and prepared to contribute to the Open
-  Source community.
-
-  Git Into Ship Shape: Don’t get caught in a development whirlpool without the
-  proper tools at your fingertips. In this intermediate offering, GitHub trainer
-  Eric Hollenberry utilizes visualization tools to a-shore you learn and utilize
-  the right commands, solidify your Git mental model, and give you the
-  confidence to sail through your next no good very bad gituation."
-  company: "GitHub"
-  bio: "Eric is a Trainer at GitHub, traveling the world to teach customers how
-  to best adopt and utilize all things Git. A teacher by trade, he's deeply
-  invested in education and open source software, with enthusiasm for both
-  non-technical users and software developers."
-- full_name: "Susan Tan"
-  type: "talk"
-  day: "2"
-  order: "7"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/susan.jpeg"
-  job_title: "Software Engineer"
-  company: "bepress"
-  twitter_handle: "@ArcTanSusan"
-  github_username: "ArcTanSusan"
-  bio: "Susan is a software engineer living in San Francisco. Turns tea into
-  code. Loves art museums, ballet, architecture, and all things beautiful."
-  talk_title: "Rants and ruminations from 💯 CS job interviews in Silicon Valley"
-  talk_abstract: "What is it like to interview at one tech company? Stressful
-  and tiring. Now imagine what it's like to interview at 100. A year ago, Susan
-  quit an uninspiring full-time remote software job and talked to 100 employers
-  in the Bay Area to find the best fit. Listen to her rants and ruminations
-  about that journey."
-- full_name: "Valerie Woolard Srinivasan"
-  type: "talk"
-  category: "community"
-  day: "1"
-  order: "12"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/valerie.jpg"
-  job_title: "Software Engineer"
-  company: "Panoply"
-  twitter_handle: "@valeriecodes"
-  github_username: "valeriecodes"
-  other_link: "http://www.valerie.codes/"
-  bio: "Valerie Woolard Srinivasan is a software engineer who loves musical
-  theater, podcasts, running, and technology. She lives in Washington, DC with
-  her husband and works at Panoply, where she builds technology for podcasters."
-  talk_title: "Good Fences Make Good Communities"
-  talk_abstract: "Web developers build online communities through their
-  products, and they have a responsibility to protect those communities.
-  Failures in security not only hurt your users, they erode trust in your
-  product and the community around it. You can't build a strong community
-  without strong security. This talk will walk through common security
-  vulnerabilities and ways to protect against them."
-- full_name: "Jessica Rudder"
-  type: "talk"
-  category: "art gaming"
-  day: "1"
-  order: "3"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/jessica_rudder.png"
-  job_title: "Developer"
-  company: "Flatiron School"
-  twitter_handle: "@jessrudder"
-  github_username: "jessrudder"
-  other_link: "https://youtube.come/compchomp"
-  bio: "Jessica Rudder is a recovering perfectionist that learns to code through
-  a combination of reading, asking colleagues and banging her head against a
-  wall. When she's not helping to build Flatiron School's Learn platform, she
-  can be found training for ultra marathons on the streets of NYC or creating
-  code-related videos on YouTube for CompChomp. She is an avid squirrel
-  photographer and loves the color green."
-  talk_title: "The Good Bad Bug: Learning to embrace failure from lessons in
-  game development"
-  talk_abstract: "The history of programming is filled with examples of bugs
-  that actually turned out to be features and limitations that pushed developers
-  to make an even more interesting product. We’ll journey through code that was
-  so ‘bad’ it was actually good. Then we’ll learn to tame our inner
-  perfectionists so our code will be even better than it is today."
-- full_name: "Johnny Ray Austin"
-  type: "panel"
-  day: "2"
-  category: "code life balance"
-  talk_title: *codelifebalance
-  talk_abstract: *codelifebalanceabstract
-  twitter_handle: "@recursivefunk"
-  github_username: "recursivefunk"
-  other_link: "https://recursivefunk.io/"
-  bio: "Johnny is an experienced engineering leader with an interest in
-  everything from user experience to distributed systems architecture. He is an
-  active member of the open source community - contributing to projects such as
-  Node.js. He also supports Black Girls Code as a technology advisor. Currently,
-  Johnny is a Technical Fellow at Capital One in Washington, DC."
-  job_title: "Technical Fellow"
-  company: "Capital One"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/johnny-ray-austin.jpg"
-- full_name: "Rebecca Poulson"
-  type: "workshop"
-  day: "2"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/rebecca-poulson.jpeg"
-  job_title: "Software Developer"
-  company: "Knight Lab at Northwestern University"
-  twitter_handle: "@RebeccaPoulson"
-  github_username: "rapoulson"
-  bio: "Rebecca Poulson is a developer at Knight Lab at Northwestern University
-  where she gets to build weird open source tools for journalists. She's
-  particularly excited about WebVR, getting writers involved with open source
-  and, tacos. Prior to joining Knight Lab, Rebecca was an engineer at
-  Kickstarter, playwright and bartender."
-  talk_title: "Getting Started With VR for Web Developers with A-Frame"
-  talk_abstract: "Learn how to leverage your web development skills to build
-  virtual environments with A-Frame. It's a flexible WebVR framework that's
-  perfect for people just getting started with HTML and Javascript, and also
-  offers exciting challenges for advanced users."
-- full_name: "Morgan Whaley"
-  type: "panel"
-  day: "2"
-  category: "code life balance"
-  talk_title: *codelifebalance
-  talk_abstract: *codelifebalanceabstract
-  job_title: "Senior Front End Engineer"
-  company: "Cognizant Quick Left"
-  twitter_handle: "@supwhaley"
-  github_username: "supwhaley"
-  other_link: "https://www.linkedin.com/in/morgandesignwerks"
-  bio: "Morgan has been developing applications for the web and mentoring new
-  developers for 6 years. Her exploits have taken her as far away as India
-  working with individuals, companies, and teams of all shapes and sizes. When
-  not at a computer she can be found making cocktails, cooking meals, running
-  trails, hiking mountains, and drinking coffee."
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/morgan_whaley.jpg"
-- full_name: "Allison McMillan"
-  type: "panel"
-  day: "2"
-  category: "code life balance"
-  talk_title: *codelifebalance
-  talk_abstract: *codelifebalanceabstract
-  job_title: "Software Developer"
-  company: "Collective Idea"
-  twitter_handle: "@allie_p"
-  github_username: "asheren"
-  other_link: "http://daydreamsinruby.com/"
-  bio: "Allison McMillan is a software developer at Collective Idea who got her
-  start at a DC RailsGirls event. She's been a startup founder, community
-  builder at the University of Michigan, and Managing Director of a national
-  non-profit. When she's not coding, you can find her encouraging her toddler's
-  climbing skills or pretending she has time to bake."
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/allison_mcmillan.jpg"
-- full_name: "Safia Abdalla"
-  type: "panel"
-  category: "open source"
-  day: "2"
-  talk_title: *opensourcetitle
-  talk_abstract: *opensourceabstract
-  job_title: "Open Source Developer"
-  twitter_handle: "@captainsafia"
-  github_username: "captainsafia"
-  bio: "Safia is an open source developer with a passion for open source, data
-  science for social good, great documentation, kind communities, and good
-  writing. When she is not writing software or organizing tech community events,
-  she can be found drinking tea or running."
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/safia_abdalla.jpg"
-- full_name: "Andreas Fast"
-  type: "panel"
-  day: "2"
-  category: "hiring"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/andreas.jpg"
-  talk_title: &hiringpanel "Hiring Panel: How do I get the job? Panelist"
-  talk_abstract: &hiringpanelabstract "The most intimidating and challenging
-  part of the codenewbie journey is that first job. Hear from our hiring panel
-  on what your future tech job is looking for, where they're looking, and how
-  you can present your projects and tutorials to show off your skills and
-  passion."
-  twitter_handle: "@ahfast"
-  github_username: "afast"
-  job_title: "Principal"
-  company: "Moove-it"
-  bio: "A developer since 2009, Andreas has worked on many projects and is
-  currently leading several teams. He's passionate about quality work and happy
-  teams that care about what they're working on."
-- full_name: "Daniel Shiffman"
-  type: "talk"
-  category: "art gaming"
-  day: "1"
-  order: "2"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/dan_shiffman.png"
-  job_title: "Associate Arts Professor"
-  company: "ITP (Tisch, NYU)"
-  twitter_handle: "@shiffman"
-  github_username: "shiffman"
-  other_link: "http://shiffman.net"
-  bio: "Daniel Shiffman is an Associate Arts Professor at ITP (Tisch School of
-  the Arts, NYU), a director of The Processing Foundation, and broadcasts weekly
-  tutorials on YouTube with The Coding Train."
-  talk_title: "Creative Coding: An art and code showcase"
-  talk_abstract: "Let's explore the beautiful, artisitic world of creative
-  coding. This art and code showcase will highlight incredible projects from NYU
-  ITP, the Processing Foundation, and more. Get ready to be inspired."
-- full_name: "Laura Gaetano"
-  type: "panel"
-  day: "2"
-  category: "open source"
-  talk_title: *opensourcetitle
-  talk_abstract: *opensourceabstract
-  job_title: "Manager"
-  company: "Travis Foundation"
-  twitter_handle: "@alicetragedy"
-  github_username: "alicetragedy"
-  bio: "Laura is the organiser of Rails Girls Summer of Code — a 3-month
-  scholarship program to support women in the Open Source community. With a
-  background in the visual arts and a non-traditional career path, she landed in
-  tech as a web developer somewhat by accident. Laura is passionate about making
-  things, coaching at programming workshops, Open Source software, feminism,
-  music and space (as in rockets)."
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/laura_gaetano.jpg"
-- full_name: "Eddie Washington"
-  type: "panel"
-  day: "2"
-  category: "hiring"
-  talk_title: *hiringpanel
-  talk_abstract: *hiringpanelabstract
-  job_title: "Recruiting Engineer"
-  company: "Genius"
-  twitter_handle: "@eddington05"
-  github_username: "eddiewash"
-  bio: "Eddie Washington is the Recruiting Lead at Genius. Before Genius, he led
-  the Careers Services team at General Assembly's NYC campus. He's especially
-  fond of milkshakes."
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/eddie_washington.jpg"
-- full_name: "Stephanie Slattery"
-  type: "workshop"
-  day: "2"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/stephanie_slattery.jpg"
-  job_title: "Front End Web Developer"
-  company: "Adage Technologies"
-  twitter_handle: "@sublimemarch"
-  github_username: "sublimemarch"
-  other_link: "http://stephanie.slattery.website"
-  bio: "Stephanie Slattery is a web developer who specializes in front end,
-  accessibility, and user interface design. She comes to the world of
-  programming from a psychology background, by way of Dev Bootcamp Chicago. In
-  her free time, she can be found running roleplaying games, creating glitch
-  art, or taking her cat on walks."
-  talk_title: "Web Accessibility and You: Let's Learn to Audit Websites"
-  talk_abstract: "What if you launched your awesome new website, but twenty
-  percent of your visitors couldn't use it? That's not hyperbole, roughly 1 in 5
-  Americans with a disability that impacts their ability to use the web. We as
-  developers owe it to our users to make sure that our sites are accessible for
-  users with disabilities, but where do we start? In this workshop, Stephanie
-  will explain how we measure and evaluate for accessibility and guide you
-  through the process of auditing a website."
-- full_name: "Greg Baugues"
-  type: "talk"
-  day: "1"
-  order: "11"
-  bio: "Greg serves on the Developer Community team at Twilio and lives in
-  Brooklyn with his wife, daughter, and dog. He occasionally sneaks out during
-  lunch to play chess in the park."
-  job_title: "Manager of Developer Community"
-  company: "Twilio"
-  twitter_handle: "greggyb"
-  other_link: "http://baugues.com/"
-  talk_title: "Developers and Depression"
-  talk_abstract: "Depression, anxiety, ADHD, and a host of other conditions run
-  rampant amongst the developer community, but their stigma too often causes
-  folks to suffer alone and keeps them from getting the help that they need. In
-  this talk I'll share lessons learned from my struggle with bipolar disorder,
-  and what to do if you suspect that you, a friend or a colleague might be
-  suffering from mental illness."
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/greg-baugues.jpg"
-- full_name: "James Lott"
-  type: "workshop"
-  day: "2"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/james-lott.jpeg"
-  bio: "James got his start in technology as a hobbyist while in school. After
-  graduating with his liberal arts based degree, he began working for a web
-  hosting company in Los Angeles. After three years of working in various roles
-  there, he moved to southern New Jersey to join Linode, where he has worked for
-  the last year."
-  github_username: "lottspot"
-  job_title: "Systems Engineer"
-  company: "Linode"
-  twitter_handle: "lottspot"
-  talk_title: "Shipping Containers"
-  talk_abstract: "In this workshop we will cover the fundamentals of running
-  applications inside docker containers as well as some reasons as to why you
-  might consider doing so."
-- full_name: "Jess Unrein"
-  type: "workshop"
-  day: "2"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/jess_unrein.JPG"
-  job_title: "Software Engineer"
-  company: "Sprout Social Engineer"
-  twitter_handle: "@JLUnrein"
-  github_username: "thejessleigh"
-  other_link: "http://jessunrein.com/"
-  bio: "Jess is a Chicago based software engineer, writer, public speaker, and
-  community organizer. She believes code is a tool that people can use to
-  improve their job prospects, problem solving skills, and generally better
-  their lives. Jess's passion is getting people from non-traditional backgrounds
-  into coding. Her personal 2017 goals are to read 52 novels and play 16 new
-  board games."
-  talk_title: "Write Your Resume Like a Fanfic"
-  talk_abstract: "Resume building can be difficult and distracting, especially
-  when looking for a job in a new industry. This workshop teaches new job
-  seekers how to narrativize their work and personal experiences through the lens of
-  fanfiction to create a standout resume. Attendees will learn common fanfic
-  lingo like Mary Sue and canon-compliant that will give them tools to craft
-  their story story as passionate, inspired career changers. They will also have
-  the opportunity to test out their new skills on workshop writing samples and
-  resumes."
-- full_name: "Eric Brelsford"
-  type: "talk"
-  category: "city life"
-  day: "1"
-  order: "7"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/eric_brelsford.jpg"
-  job_title: "Freelance Developer"
-  twitter_handle: "@ebrelsford"
-  github_username: "ebrelsford"
-  other_link: "http://596acres.org/"
-  talk_title: "Coding the City We Want to Live In: Open sourcing public vacant
-  land"
-  talk_abstract: "How can software assist people who are collaborating and
-  getting their hands dirty (literally!)? Let's look at a few projects that use
-  data, maps, and code to help passionate community members start outdoor
-  projects with vacant land and a little bit of support."
-- full_name: "Cassie Tarakajian"
-  type: "workshop"
-  day: "2"
-  job_title: "Founder, Software Developer, and Creative Technologist"
-  company: "Girlfriends"
-  twitter_handle: "@hellothisiscass"
-  github_username: "catarak"
-  other_link: "http://girlfriends.site"
-  talk_title: "Introduction to Creative Coding in p5.js for Web Developers"
-  talk_abstract: "Learn the basics of creative coding using p5.js, an
-  interactive audio and visual library for the browser. We'll cover commonly
-  used concepts in creative coding, such as using interaction, mapping data,
-  introducing randomness, and algorithmic generation. Basic familiarity with
-  JavaScript, HTML, and CSS is required."
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/cassie_tarakajian.JPG"
-- full_name: "La Vesha Parker"
-  type: "panel"
-  day: "2"
-  category: "hiring"
-  job_title: "Software Engineer"
-  company: "Etsy"
-  twitter_handle: "@feministcoder"
-  github_username: "laveshaparker"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/vesha_parker.jpg"
-  talk_title: *hiringpanel
-  talk_abstract: *hiringpanelabstract
-  bio: "La Vesha is a full-stack developer at Etsy who works on tools that help
-  sellers manage their shops more easily at Etsy. Before working at Etsy, she
-  graduated with a CS degree from Cornell University. She is part of the
-  Progressive Coders Network, and spends a lot of her free time working on a
-  hacknight for social betterment in NYC!"
-- full_name: "Lauren Ellsworth"
-  type: "talk"
-  category: "health"
-  day: "1"
-  order: "9"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/lauren_ellsworth.jpg"
-  job_title: "Senior Software Engineer"
-  company: "Flatiron Health"
-  twitter_handle: "@redyaffle"
-  github_username: "redyaffle"
-  bio: "Lauren Ellsworth is a Senior Software Engineer at Flatiron Health, a
-  company working to accelerate cancer research and improve cancer care. In her
-  years of development, Lauren has contributed to a half dozen analytics
-  platforms, software that aids in facial recognition of lions, and foster care
-  case management software, among others. Currently, Lauren is scaling
-  engineering onboarding at Flatiron Health, while developing agile and secure
-  services on the Developer Infrastructure team."
-  talk_title: "Infrastructure of Oncology Data Technology: Navigating the
-  Complex, Regulated World of Healthcare Research"
-  talk_abstract: "Building technology for oncology data requires scaling
-  quickly, but that's not nearly as essential as maintaining HIPAA compliance,
-  security and safety in our architecture. Health data carries a variety of
-  risks and the services available to HIPAA compliant companies are limited as a
-  consequence. This talk will cover how Flatiron Health navigates those risks
-  and uses these services to accelerate cancer research and improve cancer
-  care."
-- full_name: "Chris Algoo"
-  type: "talk"
-  category: "art gaming"
-  day: "1"
-  order: "5"
-  job_title: "Co-Founder"
-  company: "Brooklyn Gamery"
-  twitter_handle: "@ChrisAlgoo"
-  other_link: "http://breakupsquadgame.com/"
-  bio: "Chris Algoo is a game developer, event organizer, speaker, and educator
-  from Brooklyn. His events and games have a strong focus on diversity and
-  inclusion. He's currently working on Breakup Squad, a party game displayed
-  internationally in museums, festivals, and other venues."
-  talk_title: "Running Into Your Ex at a Party: Elements of a Successful Video
-  Game"
-  talk_abstract: "Breakup Squad is an award winning game that's been played in
-  festivals, parties, and museums around the world. Get an inside look at how it
-  was made, its code, and how you can make games too."
-  day: "1"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/chris-algoo.jpg"
-- full_name: "Nicholas Corvino"
-  type: "panel"
-  day: "2"
-  job_title: "Sr Engineering and Leadership Recruiter"
-  company: "Google"
-  bio: "Nick is currently a Sr Engineering and Leadership Recruiter with Google
-  here in NYC; and he formerly worked for the nation’s largest staffing agency,
-  TEKsystems. With proven experience working with industry leaders, Nick has
-  great insight into what companies are really looking for, from new grad to
-  industry leaders."
-  category: "hiring"
-  talk_title: *hiringpanel
-  talk_abstract: *hiringpanelabstract
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/nicholas-corvino.jpg"
-- full_name: "Maria Naggaga"
-  type: "panel"
-  day: "2"
-  category: "open source"
-  talk_title: "Open Source Panel Moderator"
-  talk_abstract: *opensourceabstract
-  job_title: "Program Manager"
-  company: "Microsoft"
-  twitter_handle: "@ladynaggaga"
-  github_username: "LadyNaggaga"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/maria-naggaga.png"
-  bio: "Maria Naggaga a developer and artist. She is a Program Manager on the
-  Visual Studio and .NET team where she explores ways to engage and teach new
-  developers about  .NET OSS."
-- full_name: "Iuliia Kotlenko"
-  type: "workshop"
-  day: "2"
-  job_title: "Instructor"
-  company: "Dev Bootcamp"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/iuliia-kotlenko.png"
-  bio: "Iuliia is a New York-based web developer specializing in Ruby on Rails.
-  She currently works at Dev Bootcamp as a Full Stack Instructor. She’s
-  passionate about algorithms and new technology and sharing knowledge."
-  twitter_handle: "iuliiakot"
-  github_username: "iuliiakot"
-  talk_title: "Preparing for a Technical Interview"
-  talk_abstract: "Technical interviews can be tough -  interviewers usually ask
-  a set of specific questions, expect you to know certain concepts, and like you
-  to communicate your knowledge in a specific way. Knowing what to expect in
-  advance and how to best prepare for a technical interview is the key for
-  landing your dream job. We’ll cover Big O notation, some data structures such
-  as array, stack, queue, and binary tree and algorithms for sorting and
-  searching. The main goal of this workshop is not only focusing on the
-  theoretical aspects of coding but also allowing participants to solve problems
-  together and show a step by step guide in how to approach problem solving."
-- full_name: "Cole Furfaro-Strode"
-  type: "workshop"
-  day: "2"
-  job_title: "Lead Software Engineer"
-  company: "SparkPost"
-  twitter_handle: "@colestrode"
-  github_username: "colestrode"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/cole-furfaro-strode.jpg"
-  bio: "Cole is a full-stack javascript developer and part-time bot wrangler at
-  SparkPost where he helps build their API, UI, and client libraries. SparkPost
-  helps Twitter, Pinterest, Zillow, and thousands of developers send billions of
-  emails a year. He also helped make a tiny person. She doesn't send any email
-  yet."
-  talk_title: "'Pizza' Bot Fun Time Spectacular: Let's Make a Slack Bot"
-  talk_abstract: "Join the SparkPost team for a fun few hours building a Slack
-  bot that will order you a delicious, hot pizza straight to your door. If you
-  can write some Javascript, you can build a pizza bot! During this workshop
-  you’ll learn how to build a Slack bot from scratch, translate an idea into
-  working code by breaking it down into smaller problems, and work with
-  real-world (sometimes messy) APIs and documentation."
-
-
-
-
-
-
-
+- full_name: "Katie Jergens"
+  talk_title: "Make Your Own Photoshop (Easy Java Coding Project To Alter
+  Photos)"
+  job_title: "Computer science faculty"
+  company: "The Dalton School"
+  twitter_handle: "@KatieJergens"
+  github_username: "kjergens"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/katie-jergens.jpg"
+  bio: "Software engineer turned product designer turned high school teacher.
+  Katie loves teaching beginning computer science with an eye on beautiful design and professional quality."
+- full_name: "Michael Lee"
+  talk_title: "An introvert’s journey and guide to getting a job in technology"
+  job_title: "Interaction Designer"
+  company: "CloudBees"
+  twitter_handle: "@michaelsoolee"
+  github_username: "michaellee"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/michael-lee.jpg"
+  bio: "Part-time work-from-home dad, eater of way too much pizza, life time newbie, giver of high fives, developer, designer and teacher."
+- full_name: "Sedinam Worlanyo"
+  talk_title: "Using Robotics as a Tool for Problem Solving in Ghana"
+  job_title: "Instructional Designer"
+  company: "TechChange"
+  twitter_handle: "@sedi_w"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/sedinam-worlanyo.jpg"
+  bio: "Sedinam currently works as an instructional designer at TechChange where she supports a variety of innovative elearning initiatives at the intersection of health and technology. Prior to TechChange she served as a Google Policy Fellow and explored the role of assistive technologies in addressing learning disabilities.  Sedinam graduated from Swarthmore College with a degree in Computer Science and Economic Development."
+- full_name: "Shannon Crabill"
+  talk_title: "What I learned from managing my first
+  open source project on Github"
+  job_title: "Senior Email Developer"
+  company: "T.Rowe Price"
+  twitter_handle: "@shannon_crabill"
+  github_username: "scrabill"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/shannon-crabill.jpg"
+  bio: "Shannon is an Email Developer at T. Rowe Price. Outside of coding and launching emails, she can be found leveling up her front-end development skills in the areas of Javascript, Wordpress and Git."
+- full_name: "Tori Pugh"
+  talk_title: "Creating My Own Gulp-based Email Workflow"
+  job_title: "Designer/Developer"
+  github_username: "vpugh"
+  twitter_handle: "teekatwo"
+  company: "VP-Designs"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/tori-pugh.jpg" 
+  bio: "Tori is a designer and developer. She is a self-taught coder who works hard to solve problem and bridge design and development thinking. She never stops learning and is always curious about new technologies."

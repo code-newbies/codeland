@@ -1078,6 +1078,7 @@ article {
   display: block;
   margin-right: 2.35765%;
   width: 14.70196%;
+  background: #F8E71C;
   margin-bottom: 10px;
   position: relative; }
   .speaker:last-child {
@@ -1086,21 +1087,25 @@ article {
     margin-right: 0; }
   .speaker:nth-child(6n+1) {
     clear: left; }
+  .speaker:hover {
+    background: black; }
   .speaker img {
     width: 100%;
-    border: 5px white solid; }
+    border: 5px #F8E71C solid; }
   .speaker .speaker-title {
-    background: #ffedff;
-    padding: 5px 15px;
-    font-family: "Roboto";
+    padding: 5px 15px 0px;
+    font-family: "Lato", "Helvetica", "san serif";
+    font-weight: 900;
+    text-align: center;
     margin-top: 0px; }
   .speaker a:hover img {
-    border: 5px #f52eff solid; }
+    border: 5px black solid; }
   .speaker a {
     text-decoration: none; }
   .speaker a:hover {
-    color: black;
-    font-weight: 600; }
+    color: white; }
+    .speaker a:hover .speaker-title {
+      background: black; }
 
 .sponsor-list, .sponsor-sub-list {
   max-width: 1000px;

@@ -317,23 +317,26 @@ article {
 .speaker {
   @include span-columns(2);
   @include omega(6n);
+  background: $yellow;
+  &:hover { background: black; }
   margin-bottom: 10px;
   position: relative;
   img {
     width: 100%;
-    border: 5px white solid;
+    border: 5px $yellow solid;
   }
   .speaker-title {
-    background: #ffedff;
-    padding: 5px 15px;
-    font-family: "Roboto";
+    padding: 5px 15px 0px;
+    font-family: "Lato", "Helvetica", "san serif";
+    font-weight: 900;
+    text-align: center;
     margin-top: 0px;
   }
-  a:hover img { border: 5px #f52eff solid; }
+  a:hover img { border: 5px black solid; }
   a { text-decoration: none; }
   a:hover {
-    color: black;
-    font-weight: 600;
+    color: white;
+    .speaker-title { background: black; }
   }
 }
 
