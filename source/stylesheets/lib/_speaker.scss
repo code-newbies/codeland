@@ -16,6 +16,7 @@
   section { padding: 50px 10%; }
 
   .speaker-profile {
+    padding-top: 50px;
     img { @include span-columns(3); }
     h5 { margin-top: 0px; margin-bottom: 0px; }
     .speaker-profile-info {

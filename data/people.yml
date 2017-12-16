@@ -4,10 +4,10 @@ speakers:
 - full_name: "Aman Irshad"
   talk_title: "Application of Data Science in Livestock Disease Diagnosis"
   job_title: "MS Thesis Student"
-  company: " Lahore University of Management and Sciences"
+  company: "Lahore University of Management and Sciences"
   twitter_handle: "@amanirshd"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/aman-irshad.jpg"
-  bio: "Aman is a 23 years old computer scientist who is immensely passionate about research in the field of Computer Vision, Data Science and Machine Learning and their application in the real world."
+  bio: "Aman is a 23 year old computer scientist who is immensely passionate about research in the field of Computer Vision, Data Science and Machine Learning and their application in the real world."
 - full_name: "Ben Halpern"
   talk_title: "How to make your website so fast it goes viral in Japan"
   job_title: "Founder and Webmaster"
@@ -78,13 +78,6 @@ speakers:
   github_username: "thejessleigh"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/jess-unrein.jpg"
   bio: "Jess is a Chicago based software engineer, writer, public speaker, and community organizer. She believes code is a tool that people can use to improve their job prospects, problem solving skills, and generally better their lives. She also believes that code can and should be used to build projects to bring you joy, even if they never turn into a breakaway side hustle."
-  talk_title: "How to write technical blog posts that people will actually read"
-  talk_abstract: "You know you should have a tech blog, but how do you get
-  people to actually read it? Quincy, editor of Medium's largest technical
-  publication, will discuss how to create technical blog posts that will impress
-  prospective employers and show off your knowledge, with strategies including
-  establishing social proof, getting syndicated, and packaging your content for
-  easy consumption."
 - full_name: "Katie Jergens"
   talk_title: "Make Your Own Photoshop (Easy Java Coding Project To Alter
   Photos)"
