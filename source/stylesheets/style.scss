@@ -318,7 +318,10 @@ article {
   @include span-columns(2);
   @include omega(6n);
   background: $yellow;
-  &:hover { background: black; }
+  &:hover {
+    background: black;
+    .speaker-title { color: white; }
+  }
   margin-bottom: 10px;
   position: relative;
   img {

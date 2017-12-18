@@ -1095,6 +1095,8 @@ article {
     clear: left; }
   .speaker:hover {
     background: black; }
+    .speaker:hover .speaker-title {
+      color: white; }
   .speaker img {
     width: 100%;
     border: 5px #F8E71C solid; }
