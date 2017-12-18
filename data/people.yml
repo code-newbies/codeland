@@ -63,6 +63,15 @@ speakers:
   github_username: "eleanorstrib"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/eleanor-stribling.jpg"
   bio: "Eleanor has been a software product manager in tiny startups, a mid-size public company, and a major tech company.  Her passion for data-driven decision making and inter-disciplinary study has resulted in a stint in a programming bootcamp, AI and deep learning study through Udacity, a BA in Political Science from the University of Toronto, and an MBA from MIT.  Born and raised in Toronto, she lives in San Francisco with her family."
+- full_name: "Henri Helvetica"
+  talk_title: "Optimize Prime: More Pixels Than Meets The Eye"
+  job_title: "Freelancer"
+  company: "Self-employed"
+  twitter_handle: "@HenriHelvetica"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/henri-helvetica.jpg"
+  bio: "A French speaking, Canadian born of Caribbean decent, Henri is a
+  freelance front end dev who has turned his interests to a passionate mix of
+  site performance engineering and pinches of user experience."
 - full_name: "Jen Simmons"
   talk_title: "It’s Never Been A Better Time to Learn Layout CSS"
   job_title: "Designer and Developer Advocate"
