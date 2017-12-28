@@ -416,6 +416,46 @@ nav {
         font-weight: 300;
         font-family: "Roboto", "Helvetica", "san serif"; }
 
+.scholarship p {
+  font-family: "Roboto", "Helvetica", "san serif";
+  font-weight: 300; }
+.scholarship .scholarship-options {
+  display: flex; }
+.scholarship .scholarship-application, .scholarship .scholarship-donate {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  padding: 30px 40px;
+  border: 5px solid #F8E71C; }
+  .scholarship .scholarship-application:last-child, .scholarship .scholarship-donate:last-child {
+    margin-right: 0; }
+  .scholarship .scholarship-application h3, .scholarship .scholarship-donate h3 {
+    margin: 0; }
+  .scholarship .scholarship-application .button, .scholarship .scholarship-donate .button {
+    background: #F8E71C; }
+    .scholarship .scholarship-application .button:hover, .scholarship .scholarship-donate .button:hover {
+      background: black; }
+      .scholarship .scholarship-application .button:hover a, .scholarship .scholarship-donate .button:hover a {
+        color: white; }
+      .scholarship .scholarship-application .button:hover a:hover, .scholarship .scholarship-donate .button:hover a:hover {
+        color: white; }
+.scholarship .scholarship-description {
+  margin-bottom: 30px; }
+@media only screen and (max-width: 800px) {
+  .scholarship .scholarship-application, .scholarship .scholarship-donate {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-bottom: 10px; }
+    .scholarship .scholarship-application:last-child, .scholarship .scholarship-donate:last-child {
+      margin-right: 0; }
+  .scholarship p {
+    font-size: 18px; }
+  .scholarship .scholarship-options {
+    display: block; } }
+
 .speaker-page nav {
   max-width: 1200px;
   margin-left: auto;
@@ -1196,30 +1236,6 @@ article {
     .sponsor-sub-list .sponsor-sub img {
       width: 100%; }
 
-.scholarship-options {
-  display: flex; }
-
-.scholarship-application, .scholarship-donate {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%;
-  padding: 30px 40px; }
-  .scholarship-application:last-child, .scholarship-donate:last-child {
-    margin-right: 0; }
-  .scholarship-application h3, .scholarship-donate h3 {
-    margin: 0; }
-
-.scholarship-application {
-  background: #ffedff; }
-  .scholarship-application .button {
-    background: #f52eff; }
-
-.scholarship-donate {
-  background: #fff4d6; }
-  .scholarship-donate .button {
-    background: #ffaa62; }
-
 footer {
   background: #f8f8f8; }
   footer.wrapper {
@@ -1438,19 +1454,7 @@ footer {
     width: 82.94039%;
     margin-left: 8.5298%; }
     article.conference-pitch:last-child {
-      margin-right: 0; }
-
-  .scholarship-application, .scholarship-donate {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%;
-    margin-bottom: 10px; }
-    .scholarship-application:last-child, .scholarship-donate:last-child {
-      margin-right: 0; }
-
-  .scholarship-options {
-    display: block; } }
+      margin-right: 0; } }
 @media only screen and (max-width: 600px) {
   header .conference-header span {
     font-size: 12px; }
