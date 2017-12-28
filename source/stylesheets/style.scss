@@ -30,6 +30,7 @@ $city-life-color: $light-blue;
 @import "lib/_nav";
 @import "lib/_quote";
 @import "lib/_photo-panel";
+@import "lib/_scholarship";
 @import "lib/_speaker";
 @import "lib/_schedule";
 @import "lib/_section";
@@ -391,23 +392,6 @@ article {
   }
 }
 
-.scholarship-options { display: flex; }
-
-.scholarship-application, .scholarship-donate {
-  @include span-columns(6);
-  h3 { margin: 0; }
-  padding: 30px 40px;
-}
-
-.scholarship-application {
-  background: #ffedff;
-  .button { background: #f52eff; }
-}
-.scholarship-donate {
-  background: #fff4d6;
-  .button { background: $orange; }
-}
-
 footer {
   &.wrapper {
     margin-bottom: 0px;
@@ -545,11 +529,6 @@ footer {
     @include shift(1);
     }
   }
-  .scholarship-application, .scholarship-donate {
-    @include span-columns(12);
-    margin-bottom: 10px;
-  }
-  .scholarship-options { display: block; }
 }
 
 @media only screen and (max-width: 600px){

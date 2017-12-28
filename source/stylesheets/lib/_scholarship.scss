@@ -1,0 +1,33 @@
+.scholarship {
+  p {
+    font-family: "Roboto", "Helvetica", "san serif";
+    font-weight: 300;
+  }
+  .scholarship-options { display: flex; }
+
+  .scholarship-application, .scholarship-donate {
+    @include span-columns(6);
+    h3 { margin: 0; }
+    padding: 30px 40px;
+    border: 5px solid $yellow;
+    .button {
+      background: $yellow;
+      &:hover {
+        background: black;
+        a { color: white; }
+        a:hover { color: white; }
+      }
+    }
+  }
+  .scholarship-description {
+    margin-bottom: 30px;
+  }
+  @media only screen and (max-width: 800px){
+    .scholarship-application, .scholarship-donate {
+      @include span-columns(12);
+      margin-bottom: 10px;
+    }
+    p { font-size: 18px; }
+    .scholarship-options { display: block; }
+  }
+}
