@@ -755,6 +755,9 @@ nav {
       font-weight: 300;
       margin: 0px;
       text-decoration: line-through; }
+      @media only screen and (max-width: 700px) {
+        .tickets-info .ticket-reg-price {
+          font-size: 12px; } }
     .tickets-info .ticket-type__wrapper {
       border: 2px solid #F8E71C;
       padding: 30px 0px;
