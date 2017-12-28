@@ -66,6 +66,12 @@
         border: 2px solid $yellow;
       }
     }
+    &-reg-price {
+      font-size: 18px;
+      font-weight: 300;
+      margin: 0px;
+      text-decoration: line-through;
+    }
     &-type {
       &__wrapper {
         border: 2px solid $yellow;

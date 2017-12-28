@@ -4,6 +4,7 @@ header {
   padding-top: 130px;
   text-align: center;
   .boxed, .box { text-align: center; }
+  .button-add-info { margin-top: 10px; }
   .date-location {
     font-size: 18px;
     font-weight: 500;
@@ -27,6 +28,35 @@ header {
       padding: 10px 40px;
       display: inline-block;
       font-size: 28px;
+    }
+  }
+  .get-tickets {
+    background: $yellow;
+    border-color: #e6d508;
+    margin-top: 30px;
+    padding: 15px 100px;
+    text-decoration: none;
+
+    &:hover {
+      background: black;
+      border-color: black;
+      color: white;
+      text-decoration: none;
+    }
+
+    p {
+      margin: 0px;
+      font-family: "Lato", "Helvetica", "san serif";
+      font-weight: 900;
+      font-size: 24px;
+    }
+
+    @media only screen and (max-width: 550px){
+      margin-top: 0px;
+      padding: 10px 60px;
+      p {
+        font-size: 18px;
+      }
     }
   }
   .subheader {
@@ -53,4 +83,5 @@ header {
   @media only screen and (max-width: 650px){
     padding-top: 50px;
   }
+
 }

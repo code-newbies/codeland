@@ -486,7 +486,6 @@ footer {
 }
 
 @media only screen and (max-width: 500px){
-  p { font-size: 12px; }
   h2 { font-size: 22px; }
   h3 { font-size: 18px; }
   padding-bottom: 0px;
@@ -518,7 +517,6 @@ footer {
     margin: 0 auto;
     width: 100%;
   }
-  header p { font-size: 12px; }
   h2 { font-size: 22px; }
   h2.conference-description { font-size: 18px; }
   footer .about-codenewbie { @include span-columns(12); }
@@ -532,7 +530,6 @@ footer {
 }
 
 @media only screen and (max-width: 600px){
-  header .conference-header span { font-size: 12px; }
   .sponsor-list .sponsor-image {
     @include span-columns(4);
   }

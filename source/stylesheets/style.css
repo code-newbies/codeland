@@ -12,6 +12,8 @@ header {
   text-align: center; }
   header .boxed, header .box {
     text-align: center; }
+  header .button-add-info {
+    margin-top: 10px; }
   header .date-location {
     font-size: 18px;
     font-weight: 500;
@@ -32,6 +34,28 @@ header {
       padding: 10px 40px;
       display: inline-block;
       font-size: 28px; }
+  header .get-tickets {
+    background: #F8E71C;
+    border-color: #e6d508;
+    margin-top: 30px;
+    padding: 15px 100px;
+    text-decoration: none; }
+    header .get-tickets:hover {
+      background: black;
+      border-color: black;
+      color: white;
+      text-decoration: none; }
+    header .get-tickets p {
+      margin: 0px;
+      font-family: "Lato", "Helvetica", "san serif";
+      font-weight: 900;
+      font-size: 24px; }
+    @media only screen and (max-width: 550px) {
+      header .get-tickets {
+        margin-top: 0px;
+        padding: 10px 60px; }
+        header .get-tickets p {
+          font-size: 18px; } }
   header .subheader {
     font-size: 38px;
     margin-bottom: 10px;
@@ -726,6 +750,11 @@ nav {
         padding: 10px 0px;
         background: #F8E71C;
         border: 2px solid #F8E71C; }
+    .tickets-info .ticket-reg-price {
+      font-size: 18px;
+      font-weight: 300;
+      margin: 0px;
+      text-decoration: line-through; }
     .tickets-info .ticket-type__wrapper {
       border: 2px solid #F8E71C;
       padding: 30px 0px;
@@ -1371,9 +1400,6 @@ footer {
     .program-item .program-item-summary:last-child {
       margin-right: 0; } }
 @media only screen and (max-width: 500px) {
-  p {
-    font-size: 12px; }
-
   h2 {
     font-size: 22px; }
 
@@ -1422,9 +1448,6 @@ footer {
     margin: 0 auto;
     width: 100%; }
 
-  header p {
-    font-size: 12px; }
-
   h2 {
     font-size: 22px; }
 
@@ -1456,9 +1479,6 @@ footer {
     article.conference-pitch:last-child {
       margin-right: 0; } }
 @media only screen and (max-width: 600px) {
-  header .conference-header span {
-    font-size: 12px; }
-
   .sponsor-list .sponsor-image {
     float: left;
     display: block;
