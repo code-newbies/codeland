@@ -1,0 +1,35 @@
+<section id="program" class="wrapper program">
+  <article class="program-description">
+    <h2>Program</h2>
+    <p class="program-description">
+      Our talks and workshops for 2018. More to be announced soon.
+    </p>
+    <br>
+  </article>
+  <article class="program-list">
+    <% data.people.speakers[0...9].each do |speaker| %>
+      <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
+        <article class="program-list_item">
+          <p class="program-list_item_title"><%= speaker.talk_title %></p>
+          <p class="program-list_item-meta">
+            <span class="program-list_item_speaker"><%= speaker.full_name %></span>
+            <span class="program-list_item_type"><%= speaker.talk_type %></span>
+          </p>
+        </article>
+      </a>
+    <% end %>
+  </article>
+  <article class="program-list">
+    <% data.people.speakers[10...19].each do |speaker| %>
+      <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
+        <article class="program-list_item">
+          <p class="program-list_item_title"><%= speaker.talk_title %></p>
+          <p class="program-list_item-meta">
+            <span class="program-list_item_speaker"><%= speaker.full_name %></span>
+            <span class="program-list_item_type"><%= speaker.talk_type %></span>
+          </p>
+        </article>
+      </a>
+    <% end %>
+  </article>
+</section>
