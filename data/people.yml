@@ -10,6 +10,7 @@ speakers:
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/aman-irshad.jpg"
   bio: "Aman is a 23 year old computer scientist who is immensely passionate about research in the field of Computer Vision, Data Science and Machine Learning and their application in the real world."
 - full_name: "Angela Andrews"
+  role: "co-presenter"
   talk_title: "Intro to Wordpress"
   talk_type: "workshop"
   job_title: "Systems Administrator"
@@ -57,6 +58,37 @@ speakers:
   twitter_handle: "@calebthompson"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/caleb-thompson.jpeg"
   bio: "Caleb is a dreamer, speaker, and computer whisperer. He organizes the Keep Ruby Weird conference, which of course you’ve heard of and are very impressed by. When he’s not painting miniatures or climbing cliffs to jump off into the water, he works for Heroku and codes in Ruby and Go. He walked barefoot from the wintry tundra of Alaska to the harsh deserts of Arizona. Okay, that’s not true, but he did live in those places. He currently hails from Austin, TX—the taco capital of the United States."
+- full_name: "Chris Harrold" 
+  talk_title: "Lights, Sensors, and RaspberryPis"
+  talk_type: "workshop"
+  job_title: "Technical Evangelism Leader"
+  company: "IBM"
+  twitter_handle: "@charrold303"
+  github_username: "ChrisHarrold"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/christopher-harrold.jpg" 
+  bio: "Chris Harrold is an IT maverick with 25 years of operational IT
+  experience and skills. Since 2010 he has focused his professional career
+  developing and implementing data analytics platforms with special interest in
+  IoT devices and solutions, open source analytics platforms, and emerging
+  analytics technologies. Currently Chris leads a team of evangelists at IBM
+  devoted to helping others learn how to build and create code and tools with
+  confidence."
+- full_name: "Chris Lorenzo" 
+  role: "co-presenter"
+  talk_title: "Web Components + Polymer"
+  talk_type: "workshop"
+  job_title: "Senior Principal Engineer"
+  company: "Comcast"
+  twitter_handle: "@chiefcll"
+  github_username: "chiefcll"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/chris-lorenzo.jpg" 
+  bio: "Chris has worked at Comcast (US largest TV / internet provider) for over
+  10 years -- currently as a Senior Principal Engineer. He enjoys
+  building/motivating teams and ramping up new projects using the latest
+  patterns and web primitives. Besides coding in Javascript, he loves spending
+  time with his wife and two children and helping out in the community. Chris is
+  also heavily involved with local colleges and schools to mentor the next
+  generation."
 - full_name: "Colleen Schnettler" 
   talk_title: "How To Learn To Code When You Have No Time And No Money"
   talk_type: "talk"
@@ -74,6 +106,15 @@ speakers:
   twitter_handle: "@cloudyheavengms"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/dorothy-phoenix.jpg"
   bio: "Dorothy is a game developer and the owner of Cloudy Heaven Games, a small game development startup. Prior to starting her company, she worked professionally as a software engineer and tester. She has experience teaching students, from teenagers to adults, how to program and make games."
+- full_name: "Ebonie Butler"
+  talk_title: "Intro to Wordpress"
+  talk_type: "workshop"
+  job_title: "WordPress Developer"
+  company: "Yikes Inc."
+  twitter_handle: "@metalandcoffee_"
+  github_username: "metalandcoffee"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/ebonie-butler.jpg"
+  bio: "Ebonie Butler has her BS degree in Information Technology from Drexel University and, in 2015, she became interested in WordPress as a platform to start blogging about metal music. In late 2016, she participated in the Interactive Mechanics fellowship program, focusing on creating a custom WordPress theme as her final project. At the conclusion of the fellowship, Ebonie started her first developer position with Yikes Inc as a WordPress developer."
 - full_name: "Eleanor Stribling"
   talk_title: "A Bossy Sort of Voice: Using natural language processing to quantify sexism in Harry Potter"
   talk_type: "talk"
@@ -110,6 +151,19 @@ speakers:
   github_username: "thejessleigh"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/jess-unrein.jpg"
   bio: "Jess is a Chicago based software engineer, writer, public speaker, and community organizer. She believes code is a tool that people can use to improve their job prospects, problem solving skills, and generally better their lives. She also believes that code can and should be used to build projects to bring you joy, even if they never turn into a breakaway side hustle."
+- full_name: "John Riviello"
+  talk_title: "Web Components + Polymer"
+  talk_type: "workshop"
+  job_title: "Distinguished Engineer"
+  company: "Comcast"
+  twitter_handle: "@JohnRiv"
+  github_username: "JohnRiv"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/john-riviello.jpg"
+  bio: "John Riviello created his first hypertext document on the Internet in
+  1996 and has been obsessed with building for the web ever since. He spends his
+  days as Distinguished Engineer and Lead Frontend Developer at Comcast, where
+  he works on the Xfinity customer websites and web applications. He is also the
+  author of the Lynda.com course 'CSS to Sass: Converting an Existing Site.'"
 - full_name: "Julie Menge"
   talk_title: "Resume Prep"
   talk_type: "workshop"
@@ -148,7 +202,7 @@ speakers:
   twitter_handle: "@waterproofheart"
   github_username: "M0nica"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/monica-powell.jpg"
-  bio: "Part-time work-from-home dad, eater of way too much pizza, life time newbie, giver of high fives, developer, designer and teacher."
+  bio: "Monica Powell is a long-time #CodeNewbie who currently leads e-mail marketing at Jopwell and periodically writes for FreeCodeCamp, Hacker Noon and Code Like A Girl. Previously, she co-founded the Athena Digital Design Agency, a student-run web development agency at Barnard College."
 - full_name: "Sedinam Worlanyo"
   talk_title: "Using Robotics as a Tool for Problem Solving in Ghana"
   talk_type: "talk"
