@@ -150,13 +150,15 @@ speakers:
 - full_name: "Henri Helvetica"
   talk_title: "Optimize Prime: More Pixels Than Meets The Eye"
   talk_type: "talk"
-  job_title: "Freelancer"
-  company: "Self-employed"
+  job_title: "Web Performance Advocate"
+  company: "Freelancer"
   twitter_handle: "@HenriHelvetica"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/henri-helvetica.jpg"
-  bio: "A French speaking, Canadian born of Caribbean decent, Henri is a
-  freelance front end dev who has turned his interests to a passionate mix of
-  site performance engineering and pinches of user experience."
+  bio: "A French speaking Canadian, born of proud Haitian heritage, Henri is a
+  freelance front end developer who has turned his interests to a mélange of
+  site performance engineering and pinches of user experience. When not parsing
+  the daily deluge of research docs or profiling sites in devtools, he's
+  planning the next performance meetup for web professionals."
 - full_name: "Jen Simmons"
   talk_title: "It’s Never Been A Better Time to Learn Layout CSS"
   talk_type: "talk"
