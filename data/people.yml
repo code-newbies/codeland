@@ -4,6 +4,17 @@ speakers:
 - full_name: "Aman Irshad"
   talk_title: "Application of Data Science in Livestock Disease Diagnosis"
   talk_type: "talk"
+  talk_abstract: "Livestock are an important part of sustainable human life, but
+  in parts of the world, caring for them and keeping them healthy is incredibly
+  difficult. How can technology help? Aman shares how her team has combined the
+  experience of vet experts with the discriminative power of algorithmic
+  approaches to correctly identify and diagnose livestock diseases in Pakistan.
+  She'll show us how to collect region specific data sets and convert implicit
+  medical diagnosis procedure into a useful set of features. She'll also discuss
+  the discriminative power of algorithmic approaches to correctly identify and
+  diagnose diseases, and look the efficiency of different algorithms. This
+  project is a powerful example of how technology can be used to help solve real
+  problems all over the world."
   job_title: "MS Thesis Student"
   company: "Lahore University of Management and Sciences"
   twitter_handle: "@amanirshd"
@@ -13,6 +24,12 @@ speakers:
   role: "co-presenter"
   talk_title: "Intro to Wordpress"
   talk_type: "workshop"
+  talk_abstract: "Have you been interested in creating your own WordPress
+  website but worried you won't find a theme that's perfect for you? Do you have
+  a WordPress website but you're settling for a mediocre theme design because
+  you couldn’t find the one that works for you? In this workshop, you'll learn
+  how WordPress themes work and create a child theme to finally tailor your
+  website to look exactly how you would like. Come join us!"
   job_title: "Systems Administrator"
   company: "The University of the Arts"
   twitter_handle: "@scooterphoenix"
@@ -25,6 +42,9 @@ speakers:
 - full_name: "Anil Dash"
   talk_title: "Code and Community"
   talk_type: "fireside chat"
+  talk_abstract: "We talk to Anil about how his team at Fog Creek optimizes for inclusion
+  when building products, and how Glitch's features and
+  functionality help nurture a kind and welcoming coding community."
   job_title: "CEO"
   company: "Fog Creek"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/anil-dash.jpg"
@@ -38,6 +58,13 @@ speakers:
 - full_name: "Ben Halpern"
   talk_title: "How To Make Your Website So Fast It Goes Viral In Japan"
   talk_type: "talk"
+  talk_abstract: "What if you could make a website so fast that hundreds of
+  thousands of people from the other side of the world couldn't stop talking
+  about? You can, with the help of web performance. Web performance is a
+  critical element of user experience and accessibility. Ben shares how his
+  website went viral in Japan, and breaks down the web performance tools and
+  strategies he used to make it happen. Regardless of your preferred programming
+  language or framework, you'll be able to apply his lessons to your next app."
   job_title: "Founder and Webmaster"
   company: "dev.to"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/ben-halpern.jpg"
@@ -45,8 +72,9 @@ speakers:
   github_username: "benhalpern"
   bio: "Ben is the founder of dev.to, the online community for software developers. He leads a team working to build an inclusive environment for software developers to learn and grow."
 - full_name: "Bianca Escalante"
-  talk_title: "The Evils of Open Source"
+  talk_title: "Open Source for ...Bad?"
   talk_type: "talk"
+  talk_abstract: "We spend a lot of time talking about Open Source for Good but what about Open Source for Bad? It's easy to believe that open source is naturally 'good' because it's 'free' and 'open', but this powerful tool can be used for ill-advised reasons too. As contributors, we have the ability to shape the role that open source plays in helping to move humankind forward. Let's discuss how to do that and what that looks like. With Artificial Intelligence and Machine Learning developing at a faster rate than many of us could have imagined, it's invaluable to examine how technology can be used for negative reasons."
   job_title: "Senior Manager, Social Impact"
   company: "GitHub"
   twitter_handle: "@BiancaCreating"
@@ -57,6 +85,12 @@ speakers:
   talk_title: "What's in a Button? UI Engineering and Building Component
   Libraries"
   talk_type: "talk"
+  talk_abstract: "Building user interfaces goes beyond the pixels you see on the
+  screen. There's plenty of engineering complexity in building UI that's easy to
+  use, easy to customize, and provides user delight. We'll start with very
+  simple components and extend them to use animations and multiple elements,
+  while discussing the technical challenges that we might run into along the
+  way."
   job_title: "Software Engineer"
   company: "Google"
   twitter_handle: "@bonniezzzhou"
@@ -66,6 +100,12 @@ speakers:
 - full_name: "Caleb Thompson"
   talk_title: "Don't Get Distracted"
   talk_type: "talk"
+  talk_abstract: "In 2011, with a team of interns at a Department of Defense contractor, Caleb created a Wi-Fi geolocation app to locate hotspots. It could find the location in 3D space of every hotspot near you in seconds. His team made formulas to model signal strength and probable distances. They used machine learning to optimize completion time and accuracy.
+
+He was so caught up in the details that it took months to see it would be used
+to kill people. What do we do when we discover that we're building something
+immoral or unethical? How can we think through the uses of our software to avoid
+this problem entirely?"
   job_title: "Engineer / Ruby Task Force Member"
   company: "Heroku"
   twitter_handle: "@calebthompson"
@@ -74,6 +114,10 @@ speakers:
 - full_name: "Carlos Filoteo"
   talk_title: "Building Bootstrap"
   talk_type: "workshop"
+  talk_abstract: "Learn to flex multiple developer muscles by architecting,
+  designing, and building your own style framework! Gone are the days when
+  grabbing someone else's style is suitable; take total control of your UIs and
+  build something awesome from the ground up!"
   job_title: "Front-end Developer"
   company: "Ancestry"
   twitter_handle: "@cfiloteo12"
@@ -84,6 +128,12 @@ speakers:
 - full_name: "Chris Harrold" 
   talk_title: "Lights, Sensors, and RaspberryPis"
   talk_type: "workshop"
+  talk_abstract: "If you've always wanted to try hardware but been a bit
+  intimidated, this is the perfect workshop for you. We'll use a simple set of
+  sensors, lights, and a RaspberryPi to make a sound sensor system. We'll wire
+  up the breadboards, connecting sensors and lights in proper sequence, and code
+  the actual 'application' that runs the sensor. It's the perfect hardware
+  starter project with a lot of learning and tons of fun."
   job_title: "Technical Evangelism Leader"
   company: "IBM"
   twitter_handle: "@charrold303"
@@ -100,6 +150,13 @@ speakers:
   role: "co-presenter"
   talk_title: "Web Components + Polymer"
   talk_type: "workshop"
+  talk_abstract: "With the updates to iOS and Android phones released last year,
+  Web Components are now supported natively. That means that libraries built on
+  top of Web Components, like Polymer, can be used to easily create fast
+  Progressive Web Apps (PWAs) without the overhead of a framework. In this
+  workshop, we'll begin with a brief introduction to Web Components and Polymer,
+  and then dive into hands-on experiences with the core aspects of Web
+  Components: the template tag, Custom Elements, and the Shadow DOM. "
   job_title: "Senior Principal Engineer"
   company: "Comcast"
   twitter_handle: "@chiefcll"
@@ -124,6 +181,14 @@ speakers:
 - full_name: "Dorothy Phoenix"
   talk_title: "Is Your Debugger Bugging You?  How to Successfully Debug Your Programs"
   talk_type: "talk"
+  talk_abstract: "What do you do when you get assigned a bug with no obvious
+  pattern that other developers haven't been able to figure out? You roll up
+  your sleeves and grab your debugging toolkit! Dorothy walks us through a
+  particularly stubborn bug she had to resolve, and breaks down how she got it
+  done -- from the steps that didn't work, to the tools and tips that helped her
+  figure it out. So the next time your compiler spits out a list of
+  show-stopping errors, you'll have guidelines for how to get the show back on
+  the road!"
   job_title: "Business Owner, Game Developer, Computer Science Tutor"
   company: "Cloudy Heaven Games"
   twitter_handle: "@cloudyheavengms"
@@ -132,6 +197,12 @@ speakers:
 - full_name: "Ebonie Butler"
   talk_title: "Intro to Wordpress"
   talk_type: "workshop"
+  talk_abstract: "Have you been interested in creating your own WordPress
+  website but worried you won't find a theme that's perfect for you? Do you have
+  a WordPress website but you're settling for a mediocre theme design because
+  you couldn’t find the one that works for you? In this workshop, you'll learn
+  how WordPress themes work and create a child theme to finally tailor your
+  website to look exactly how you would like. Come join us!"
   job_title: "WordPress Developer"
   company: "Yikes Inc."
   twitter_handle: "@metalandcoffee_"
@@ -141,6 +212,13 @@ speakers:
 - full_name: "Eleanor Stribling"
   talk_title: "A Bossy Sort of Voice: Using natural language processing to quantify sexism in Harry Potter"
   talk_type: "talk"
+  talk_abstract: "The Harry Potter series is an incredibly popular franchise
+  that shaped a generation, but it's also been critiqued for its sometimes
+  sexist portrayal of female characters. But how do you prove that this is true,
+  especially when it feels like such a subjective claim? That's where tech comes
+  in. Eleanor shares how to use natural language processing to analyze and
+  quantify biased language in the series, giving us a taste of the wide reach
+  and application of NPL."
   job_title: "Principal PM Manager"
   company: "Microsoft"
   twitter_handle: "@eleanorstrib"
@@ -162,6 +240,14 @@ speakers:
 - full_name: "Jen Simmons"
   talk_title: "It’s Never Been A Better Time to Learn Layout CSS"
   talk_type: "talk"
+  talk_abstract: "Figuring out how to build page layouts used to be the hardest part of CSS. In recent years, many developers didn’t even try — we outsource the pain to frameworks like Bootstrap instead. Designers have gotten stuck thinking every website should use the same 12 column grid. Developers are fixed on specific coding techniques as being the only correct ones. Well, everything just changed. 
+
+With CSS Grid and many other new specifications, CSS has matured into a powerful
+toolset for graphic design. And newbies are at an advantage. New designers have
+a fresh eye. New developers don’t have to unlearn bad habits. Hiring managers
+need people who have these skills. Everyone is just getting started. For a
+moment, the playing field is level. There’s literally never been a better time
+to learn how to create layouts on the web."
   job_title: "Designer and Developer Advocate"
   company: "Mozilla"
   twitter_handle: "@jensimmons"
@@ -179,6 +265,13 @@ speakers:
 - full_name: "John Riviello"
   talk_title: "Web Components + Polymer"
   talk_type: "workshop"
+  talk_abstract: "With the updates to iOS and Android phones released last year,
+  Web Components are now supported natively. That means that libraries built on
+  top of Web Components, like Polymer, can be used to easily create fast
+  Progressive Web Apps (PWAs) without the overhead of a framework. In this
+  workshop, we'll begin with a brief introduction to Web Components and Polymer,
+  and then dive into hands-on experiences with the core aspects of Web
+  Components: the template tag, Custom Elements, and the Shadow DOM. "
   job_title: "Distinguished Engineer"
   company: "Comcast"
   twitter_handle: "@JohnRiv"
@@ -192,6 +285,11 @@ speakers:
 - full_name: "Julie Menge"
   talk_title: "Resume Prep"
   talk_type: "workshop"
+  talk_abstract: "Gain a clear understanding of what is important to recruiters
+  and hiring managers when they review resumes. Learn the best order for
+  arranging components of your resume, what to leave off, what to highlight, and
+  how to best craft a resume for a tech job even if you are brand new to the
+  field."
   job_title: "Senior HR Generalist"
   company: "Treehouse"
   twitter_handle: "@newlinsghost"
@@ -203,9 +301,18 @@ speakers:
   talk_title: "Make Your Own Photoshop (Easy Java Coding Project To Alter
   Photos)"
   talk_type: "talk"
+  talk_abstract: "That awesome photo you just posted on Instagram? It's actually
+  made of a bunch of numbers. More accurately, it's a 2D array, and Katie can
+  prove it. She'll do a live demo showing how to manipulate photos by adding and
+  subtracting numbers from that array. With the help of a little Java, she'll
+  show you how to use code to have your very own, homemade Photoshop."
   job_title: "Computer science faculty"
   talk_title_2: "Learn to master the technical interview"
   talk_type_2: "workshop"
+  talk_abstract_2: "This workshop aims to take some of the anxiety out of
+  technical job interviews. You'll learn what recruiters are looking for and
+  ideas on how to prepare for an interview. Then practice techniques that will
+  show your best self and even have fun in an interview setting."
   company: "The Dalton School"
   twitter_handle: "@KatieJergens"
   github_username: "kjergens"
@@ -215,6 +322,11 @@ speakers:
 - full_name: "Michael Lee"
   talk_title: "An Introvert’s Journey And Guide To Getting A Job In Technology"
   talk_type: "talk"
+  talk_abstract: "There are tons of jobs in technology, but getting an
+  interview, determining culture fit, and getting an actual job offer is hard.
+  And being an introvert can make that process even harder. Michael shares his
+  mistakes and wins from his last job hunt to help make your next search a bit
+  easier, even if you're an introvert."
   job_title: "Interaction Designer"
   company: "CloudBees"
   twitter_handle: "@michaelsoolee"
@@ -223,16 +335,43 @@ speakers:
   bio: "Part-time work-from-home dad, eater of way too much pizza, life time newbie, giver of high fives, developer, designer and teacher."
 - full_name: "Monica Powell"
   talk_title: "Technical Blogging"
-  job_title: "Email Marketing Manager"
   talk_type: "workshop"
+  talk_abstract: "Come learn the basics of publishing and maintaining a blog to
+  host your technical writing. You will create a static blog and learn how to
+  host it for free on Github Pages. You can expect to walk away being confident
+  modifying and customizing your blog to better fit your needs"
+  job_title: "Email Marketing Manager"
   company: "Jopwell"
   twitter_handle: "@waterproofheart"
   github_username: "M0nica"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/monica-powell.jpg"
   bio: "Monica Powell is a long-time #CodeNewbie who currently leads e-mail marketing at Jopwell and periodically writes for FreeCodeCamp, Hacker Noon and Code Like A Girl. Previously, she co-founded the Athena Digital Design Agency, a student-run web development agency at Barnard College."
+- full_name: "Paul Lamere"
+  talk_title: "Using Big Data to improve the music listening experience"
+  talk_type: "talk"
+  talk_abstract: "You've got 30 million songs in my pocket. Now what? In this
+  data-driven and talk filled with demos, we explore how we can use all types of
+  music data to help us better understand music and improve the music listening
+  experience. "
+  job_title: "Director of Developer Platform"
+  company: "Spotify"
+  twitter_handle: "@plamere"
+  github_username: "plamere"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/paul-lamere.jpg"
+  bio: "Paul Lamere works at Spotify, where he spends all his time building machines to try to figure out what song you really want to listen to next.
+
+When not at work, Paul spends much of his spare time hacking on music apps
+including the popular hacks 'The Infinite Jukebox', and 'Girl Talk in a Box'.
+Paul is a four-time nominee and twice winner of the MTV O Music Award for Best
+Music Hack and is the first inductee into the Music Hacker's Hall of Fame."
 - full_name: "Sedinam Worlanyo"
   talk_title: "Using Robotics as a Tool for Problem Solving in Ghana"
   talk_type: "talk"
+  talk_abstract: "Sedinam uses robotics as an educational tool to provide
+  practical hands-on exposure to STEM and tangible problem solving skills to
+  women in the Central Region of Ghana. She shares stories and lessons learned,
+  and how she combines technology and education to create powerful, accessible
+  learning opportunities for others."
   job_title: "Instructional Designer"
   company: "TechChange"
   twitter_handle: "@sedi_w"
@@ -243,6 +382,14 @@ speakers:
   talk_title: "What I Learned From Managing My First
   open source project on Github"
   talk_type: "talk"
+  talk_abstract: "When Shannon took a chance and first posted her repo on GitHub
+  during Hacktoberfest, she wasn't expecting it to turn into a real open source
+  project. But that step lead to her creating and managing her first open source
+  project, complete with pull requests and contributors. Shannon shares the
+  mistakes she's made and lessons she's learned, and how she figure out how to
+  make her project more accessible to contributors of all levels. If you've
+  always been nervous about getting involved in open source, you'll walk away
+  inspired and ready to share their projects with the open source community."
   job_title: "Senior Email Developer"
   company: "T. Rowe Price"
   twitter_handle: "@shannon_crabill"
@@ -254,6 +401,12 @@ speakers:
 - full_name: "Tori Pugh"
   talk_title: "Creating My Own Gulp-based Email Workflow"
   talk_type: "talk"
+  talk_abstract: "What do you do when you need to send a ton of emails and you
+  don't have the right tools to get it done? You build your own. Tori shares how
+  she used put her problem solving skills to work by learning Node, Gulp and
+  Nunjucks to create her perfect email workflow. Even though Tori's an 'email
+  geek,' this isn't really a story about email. It's a story of hitting a wall,
+  and building a tool to break it down, even when you're a newbie."
   job_title: "Designer/Developer"
   github_username: "vpugh"
   twitter_handle: "teekatwo"
