@@ -22,6 +22,19 @@ speakers:
   she dabbles in HTML,CSS, JavaScript, Java, PHP, SQL, AWS and WordPress
   development.  In her spare time she's always learning new technologies, blogs,
   and teaches group fitness."
+- full_name: "Anil Dash"
+  talk_title: "Code and Community"
+  talk_type: "fireside chat"
+  job_title: "CEO"
+  company: "Fog Creek"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/anil-dash.jpg"
+  twitter_handle: "@anildash"
+  bio: "Anil Dash is an entrepreneur, activist and writer recognized as one of
+  the most prominent voices advocating for a more humane, inclusive and ethical
+  technology industry. He is the CEO of Fog Creek Software, the independent New
+  York City tech company that incubated landmark startups like Trello and Stack
+  Overflow, and created Glitch, the friendly new community that helps anyone
+  make the app of their dreams."
 - full_name: "Ben Halpern"
   talk_title: "How To Make Your Website So Fast It Goes Viral In Japan"
   talk_type: "talk"
