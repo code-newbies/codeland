@@ -4,6 +4,10 @@
     <div class="speaker-profile-info">
       <h2><%= speaker.talk_title %></h2>
       <p><%= speaker.talk_abstract %></p>
+      <% if speaker.full_name == "Katie Jergens" %>
+        <h2><%= speaker.talk_title_2 %></h2>
+        <p><%= speaker.talk_abstract_2 %></p>
+      <% end %>
       <br>
       <p><span class="speaker-bio-name"><%= speaker.full_name %></span> <%=
       speaker.job_title %>, <%= speaker.company %> <a href="http://twitter.com/<%=
