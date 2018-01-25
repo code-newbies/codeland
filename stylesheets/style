@@ -476,7 +476,8 @@ nav {
         padding: 5px 10px;
         font-size: 12px;
         font-weight: 700;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        vertical-align: middle; }
     @media only screen and (max-width: 500px) {
       .program-list {
         float: left;
