@@ -73,7 +73,7 @@ speakers:
   bio: "Caleb is a dreamer, speaker, and computer whisperer. He organizes the Keep Ruby Weird conference, which of course you’ve heard of and are very impressed by. When he’s not painting miniatures or climbing cliffs to jump off into the water, he works for Heroku and codes in Ruby and Go. He walked barefoot from the wintry tundra of Alaska to the harsh deserts of Arizona. Okay, that’s not true, but he did live in those places. He currently hails from Austin, TX—the taco capital of the United States."
 - full_name: "Carlos Filoteo"
   talk_title: "Building Bootstrap"
-  talk_type: "worksho"
+  talk_type: "workshop"
   job_title: "Front-end Developer"
   company: "Ancestry"
   twitter_handle: "@cfiloteo12"

@@ -2,10 +2,14 @@
   <article class="speaker-profile desktop">
     <img src="<%= speaker.image_url =%>">
     <div class="speaker-profile-info">
-      <h2><%= speaker.talk_title %></h2>
+      <h2><%= speaker.talk_title %>
+        <span class="program-list_item_type"><%= speaker.talk_type %></span>
+      </h2>
       <p><%= speaker.talk_abstract %></p>
       <% if speaker.full_name == "Katie Jergens" %>
-        <h2><%= speaker.talk_title_2 %></h2>
+        <h2><%= speaker.talk_title_2 %>
+          <span class="program-list_item_type"><%= speaker.talk_type_2 %></span>
+        </h2>
         <p><%= speaker.talk_abstract_2 %></p>
       <% end %>
       <br>
