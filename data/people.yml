@@ -172,6 +172,15 @@ this problem entirely?"
 - full_name: "Colleen Schnettler" 
   talk_title: "How To Learn To Code When You Have No Time And No Money"
   talk_type: "talk"
+  talk_abstract: "It seems like the \"code newbie to full time job in 3 months\"
+  stories are everywhere. But for Colleen, the reality of being a military
+  spouse and parent of three with very little time and money meant that learning
+  how to code was a slower and more challenging process than those three-month
+  success stories suggest. She shares how she went from code newbie to freelance
+  developer, and the three-step process she developed along the way. If you're
+  balancing full-time jobs, bills, and families, and you're learning to code
+  with limited resources, this is the story of patience and persistence that'll
+  encourage you on your own journey."
   job_title: "Freelance Ruby on Rails Developer"
   company: "Bitmapped Designs LLC"
   twitter_handle: "@leenyburger"
@@ -350,9 +359,9 @@ to learn how to create layouts on the web."
   talk_title: "Using Big Data to improve the music listening experience"
   talk_type: "talk"
   talk_abstract: "You've got 30 million songs in my pocket. Now what? In this
-  data-driven and talk filled with demos, we explore how we can use all types of
-  music data to help us better understand music and improve the music listening
-  experience. "
+  data-driven and demo-laden talk we explore how we can use all types of music
+  data to help us better understand music and improve the music listening
+  experience."
   job_title: "Director of Developer Platform"
   company: "Spotify"
   twitter_handle: "@plamere"
