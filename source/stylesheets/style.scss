@@ -36,6 +36,7 @@ $city-life-color: $light-blue;
 @import "lib/_schedule";
 @import "lib/_section";
 @import "lib/_sidebar";
+@import "lib/_sponsors";
 @import "lib/_tickets";
 
 
@@ -346,53 +347,6 @@ article {
 }
 
 
-.sponsor-list, .sponsor-sub-list {
-  max-width: 1000px;
-  margin: 0 auto;
-  @include clearfix;
-  .flex-container {
-    display: flex;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    -webkit-flex-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    .sponsor-image {
-      padding: 20px 2.5%;
-      align-items: center;
-      img { width: 100%; }
-      max-width: 400px;
-    }
-    &:first .sponsor-image {
-      @include span-columns(3);
-      @include omega(4n);
-    }
-    &:last .sponsor-image {
-      @include span-columns(5);
-      @include omega(2n);
-    }
-  }
-}
-
-.sponsor-sub-list {
-  @include span-columns(12);
-  @include shift(2); 
-  .sponsor-sub {
-    &:first-child { @include span-columns(3); }
-    &:last-child {
-      @include span-columns(5);
-      .sponsor-image { @include span-columns(6); }
-    }
-    padding: 0px 50px 30px;
-    text-align: center;
-    .sponsor-image {
-      padding-top: 30px;
-    }
-    img { width: 100%; }
-  }
-}
-
 footer {
   &.wrapper {
     margin-bottom: 0px;
@@ -461,15 +415,6 @@ footer {
 }
 
 @media only screen and (max-width: 900px){
-  .sponsor-sub-list {
-    @include shift(0);
-    .sponsor-sub {
-      padding: 0 20px 30px;
-      h3 { font-size: 16px; }
-    }
-    .sponsor-sub:first-child { @include span-columns(4); }
-    .sponsor-sub:last-child { @include span-columns(8); }
-  }
   .speaker {
     @include span-columns(4);
     &:nth-child(4n+1) { clear: none; }
@@ -502,9 +447,6 @@ footer {
     content: none;
     white-space: normal;
   }
-  .sponsor-list .flex-container {
-    .sponsor-image { padding: 10px 3px; }
-  }
 }
 
 @media only screen and (max-width: 800px){
@@ -531,9 +473,6 @@ footer {
 }
 
 @media only screen and (max-width: 600px){
-  .sponsor-list .sponsor-image {
-    @include span-columns(4);
-  }
   .full-program {
     .day-one, .day-two { @include span-columns(12); }
     .program-item { padding: 5px; }
