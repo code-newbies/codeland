@@ -1,4 +1,7 @@
 sponsors:
+- name: "GitHub"
+  link: "http://www.github.com"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/GitHub_Logo.png"
 - name: "SparkPost"
   link: "http://sparkpost.com/"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/SparkPost_Logo.jpg"
