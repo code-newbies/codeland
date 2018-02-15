@@ -913,6 +913,40 @@ nav {
       font-size: 18px;
       padding: 10px 20px; } }
 
+.hotel-venue__map, .hotel-venue__hotel {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .hotel-venue__map:last-child, .hotel-venue__hotel:last-child {
+    margin-right: 0; }
+  @media only screen and (max-width: 700px) {
+    .hotel-venue__map, .hotel-venue__hotel {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .hotel-venue__map:last-child, .hotel-venue__hotel:last-child {
+        margin-right: 0; } }
+.hotel-venue__hotel {
+  padding-left: 30px; }
+  .hotel-venue__hotel h2 {
+    margin-top: 0px; }
+  .hotel-venue__hotel a:hover {
+    color: black;
+    text-decoration: none; }
+    .hotel-venue__hotel a:hover li {
+      background: #F8E71C; }
+  .hotel-venue__hotel li {
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-top: 10px; }
+  @media only screen and (max-width: 700px) {
+    .hotel-venue__hotel {
+      padding-left: 0px; }
+      .hotel-venue__hotel h2 {
+        padding-top: 30px; } }
+
 .wrapper {
   padding: 10px 10% 30px;
   margin-bottom: 0px; }
