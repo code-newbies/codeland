@@ -1,0 +1,29 @@
+.hotel-venue {
+  &__map, &__hotel {
+    @include span-columns(6);
+
+    @media only screen and (max-width: 700px){
+      @include span-columns(12);
+    }
+  }
+  &__hotel {
+    h2 {
+      margin-top: 0px;
+    }
+    padding-left: 30px;
+    a:hover {
+      li { background: $yellow; }
+      color: black;
+      text-decoration: none;
+    }
+    li {
+      padding-left: 10px;
+      padding-bottom: 15px;
+      padding-top: 10px
+    }
+    @media only screen and (max-width: 700px){
+      h2 { padding-top: 30px; }
+      padding-left: 0px; 
+    }
+  }
+}
