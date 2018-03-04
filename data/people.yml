@@ -98,7 +98,7 @@ speakers:
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/bonnie-zhou.jpg"
   bio: "Bonnie Zhou is a software engineer at Google building open-sourced web components for Material Design. She loves to talk about making education accessible, diversity in tech, and recently, thoughtful design. In her spare time, she is either leveling up in dance or spreading the magic of computer science."
 - full_name: "Caleb Thompson"
-  talk_title: "Don't Get Distracted"
+  talk_title: "I built software to kill people"
   talk_type: "talk"
   talk_abstract: "In 2011, with a team of interns at a Department of Defense contractor, Caleb created a Wi-Fi geolocation app to locate hotspots. It could find the location in 3D space of every hotspot near you in seconds. His team made formulas to model signal strength and probable distances. They used machine learning to optimize completion time and accuracy.
 
@@ -262,15 +262,6 @@ to learn how to create layouts on the web."
   twitter_handle: "@jensimmons"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/medium/jen-simmons.jpg?1512335715"
   bio: "Jen is a Designer and Developer Advocate at Mozilla, where she advocates for web standards and researches the coming revolution in graphic design on the web. She’s spoken at events including SXSW, An Event Apart, Fluent, Generate, Future of Web Design, and Respond. Her talk, Modern Layouts: Getting Out of Our Ruts, was awarded Best Conference Presentation at CSS Dev Conf 2014."
-- full_name: "Jess Unrein"
-  talk_title: "Can A Neural Network Learn Jazz?"
-  talk_type: "talk"
-  job_title: "Software Engineer"
-  company: "Sprout Social"
-  twitter_handle: "@JLUnrein"
-  github_username: "thejessleigh"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/jess-unrein.jpg"
-  bio: "Jess is a Chicago based software engineer, writer, public speaker, and community organizer. She believes code is a tool that people can use to improve their job prospects, problem solving skills, and generally better their lives. She also believes that code can and should be used to build projects to bring you joy, even if they never turn into a breakaway side hustle."
 - full_name: "John Riviello"
   talk_title: "Web Components + Polymer"
   talk_type: "workshop"
@@ -398,7 +389,7 @@ Music Hack and is the first inductee into the Music Hacker's Hall of Fame."
   mistakes she's made and lessons she's learned, and how she figure out how to
   make her project more accessible to contributors of all levels. If you've
   always been nervous about getting involved in open source, you'll walk away
-  inspired and ready to share their projects with the open source community."
+  inspired and ready to share your projects with the open source community."
   job_title: "Senior Email Developer"
   company: "T. Rowe Price"
   twitter_handle: "@shannon_crabill"
