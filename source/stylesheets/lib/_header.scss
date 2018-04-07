@@ -59,6 +59,17 @@ header {
       }
     }
   }
+  .github-header {
+    max-width: 140px;
+    vertical-align: text-top;
+    @media only screen and (max-width: 700px){
+      max-width: 80px;
+    }
+  }
+  .codenewbie {
+    font-family: "Roboto", "Helvetica", "san serif";
+    font-weight: 900;
+  }
   .subheader {
     font-size: 38px;
     margin-bottom: 10px;

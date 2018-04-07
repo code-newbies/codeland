@@ -1,12 +1,13 @@
 <section id="sponsors" class="wrapper speakers">
   <article class="sponsor-description">
     <h2>Sponsors</h2>
-    <p class="sponsor-description">A huge thank you to the following sponsors
-    for sponsoring our 2018 conference.
+    <p class="sponsor-description">A huge thank you to our amazing sponsors for
+    helping bring Codeland to life!
   </article>
   <div class="sponsor-list">
       <div class="sponsor-list--row-1">
-        <% data.sponsors.sponsors[0..2].each do |sponsor| %> 
+        <% data.sponsors.sponsors[0..3].each do |sponsor| %> 
+        <% next if sponsor.type %>
           <article class="sponsor-image">
             <a href=<%= sponsor.link %> target="_blank">
               <img src=<%= sponsor.image_url %>></img>
@@ -15,12 +16,34 @@
         <% end %>
       </div>
       <div class="sponsor-list--row-2">
-        <% data.sponsors.sponsors[3..5].each do |sponsor| %> 
+        <% data.sponsors.sponsors[4..7].each do |sponsor| %> 
           <article class="sponsor-image">
             <a href=<%= sponsor.link %> target="_blank">
               <img src=<%= sponsor.image_url %>></img>
             </a>
           </article>
+        <% end %>
+      </div>
+      <div class="sponsor-list--row-3">
+        <% data.sponsors.sponsors[8..12].each do |sponsor| %> 
+          <article class="sponsor-image">
+            <a href=<%= sponsor.link %> target="_blank">
+              <img src=<%= sponsor.image_url %>></img>
+            </a>
+          </article>
+        <% end %>
+      </div>
+      <div class="sponsor-list--special">
+        <% data.sponsors.sponsors.select{|s| s.type }.each do |sponsor| %> 
+          <div class="sponsor-list--special--item">
+            <h3 class="sponsor-list--special--item--title"><%= sponsor.type
+            %> Sponsor</h3>
+            <article class="sponsor-image sponsor-list--special--item--image">
+              <a href=<%= sponsor.link %> target="_blank">
+                <img src=<%= sponsor.image_url %>></img>
+              </a>
+            </article>
+          </div>
         <% end %>
       </div>
   </div>

@@ -1,4 +1,7 @@
 .hotel-venue {
+  background: $lightgray;
+  &.wrapper { padding-top: 50px; }
+
   &__map, &__hotel {
     @include span-columns(6);
 

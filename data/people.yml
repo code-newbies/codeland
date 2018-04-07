@@ -55,6 +55,17 @@ speakers:
   York City tech company that incubated landmark startups like Trello and Stack
   Overflow, and created Glitch, the friendly new community that helps anyone
   make the app of their dreams."
+- full_name: "Aydrian Howard"
+  talk_title: "Mflix & Chill: A binge-worthy introduction to MongoDB"
+  talk_type: "workshop"
+  talk_abstract: "Come learn the basics of MongoDB. We’ll be using NodeJS and
+  MongoDB Atlas to iterably create Mflix, a streaming video application. You’ll
+  learn how to set up your first Atlas Cluster, populate it with data, and use
+  it in an application you can take home."
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/aydrian-howard.jpg"
+  job_title: "Developer Advocate"
+  company: "MongoDB"
+  twitter_handle: "@aydrianh"
 - full_name: "Ben Halpern"
   talk_title: "How To Make Your Website So Fast It Goes Viral In Japan"
   talk_type: "talk"
@@ -237,6 +248,11 @@ this problem entirely?"
 - full_name: "Henri Helvetica"
   talk_title: "Optimize Prime: More Pixels Than Meets The Eye"
   talk_type: "talk"
+  talk_abstract: "Time to first byte and navigation timing are a few of many metrics use in web performance. What is not a Gordian knot is the page weight.
+It's the red herring of poorly managed images resulting in unacceptable ux, along with the erosion of data plans.
+Optimize Prime is a talk about the old and new image formats available, impact
+on rendering and ux, tools to oversee their mismanagement, and need to address
+a worldly audience."
   job_title: "Web Performance Advocate"
   company: "Freelancer"
   twitter_handle: "@HenriHelvetica"
@@ -319,20 +335,6 @@ to learn how to create layouts on the web."
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/katie-jergens.jpg"
   bio: "Software engineer turned product designer turned high school teacher.
   Katie loves teaching beginning computer science with an eye on beautiful design and professional quality."
-- full_name: "Michael Lee"
-  talk_title: "An Introvert’s Journey And Guide To Getting A Job In Technology"
-  talk_type: "talk"
-  talk_abstract: "There are tons of jobs in technology, but getting an
-  interview, determining culture fit, and getting an actual job offer is hard.
-  And being an introvert can make that process even harder. Michael shares his
-  mistakes and wins from his last job hunt to help make your next search a bit
-  easier, even if you're an introvert."
-  job_title: "Interaction Designer"
-  company: "CloudBees"
-  twitter_handle: "@michaelsoolee"
-  github_username: "michaellee"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/michael-lee.jpg"
-  bio: "Part-time work-from-home dad, eater of way too much pizza, life time newbie, giver of high fives, developer, designer and teacher."
 - full_name: "Monica Powell"
   talk_title: "Technical Blogging"
   talk_type: "workshop"
@@ -349,7 +351,7 @@ to learn how to create layouts on the web."
 - full_name: "Paul Lamere"
   talk_title: "Using Big Data to improve the music listening experience"
   talk_type: "talk"
-  talk_abstract: "You've got 30 million songs in my pocket. Now what? In this
+  talk_abstract: "You've got 30 million songs in your pocket. Now what? In this
   data-driven and demo-laden talk we explore how we can use all types of music
   data to help us better understand music and improve the music listening
   experience."
