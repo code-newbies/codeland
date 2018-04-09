@@ -245,6 +245,26 @@ this problem entirely?"
   github_username: "eleanorstrib"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/eleanor-stribling.jpg"
   bio: "Eleanor has been a software product manager in tiny startups, a mid-size public company, and a major tech company.  Her passion for data-driven decision making and inter-disciplinary study has resulted in a stint in a programming bootcamp, AI and deep learning study through Udacity, a BA in Political Science from the University of Toronto, and an MBA from MIT.  Born and raised in Toronto, she lives in San Francisco with her family."
+- full_name: "Eric Hollenberry"
+  talk_title: "Intro to Git, GitHub, the CLI and more!"
+  talk_type: "workshop"
+  talk_abstract: "Make sure your laptop is charged up and ready to go for this
+  comprehensive review of GitHub as a collaboration platform. Though the
+  workshop assumes no prior experience with Git, you'll walk away with
+  internationally taught industry best-practices, a conceptual overview of the
+  GitHub Flow, and the preparation to contribute to the Open Source community.
+  If you have an intermediate understanding, the second half of the workshop
+  will be spent extending the first by using visualization tools, learning new
+  commands, solidifying your mental model, and gaining the confidence to sail
+  through your next no good very bad situation."
+  job_title: "Trainer"
+  company: "GitHub"
+  github_username: "hollenberry"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/eric-hollenberry.jpg"
+  bio: "Eric is a Trainer at GitHub, traveling the world to teach customers how
+  to best adopt and utilize all things Git. A teacher by trade, he's deeply
+  invested in education and open source software, with enthusiasm for both
+  non-technical users and software developers."
 - full_name: "Henri Helvetica"
   talk_title: "Optimize Prime: More Pixels Than Meets The Eye"
   talk_type: "talk"
