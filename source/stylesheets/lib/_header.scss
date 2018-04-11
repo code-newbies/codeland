@@ -30,35 +30,6 @@ header {
       font-size: 28px;
     }
   }
-  .get-tickets {
-    background: $yellow;
-    border-color: #e6d508;
-    margin-top: 30px;
-    padding: 15px 100px;
-    text-decoration: none;
-
-    &:hover {
-      background: black;
-      border-color: black;
-      color: white;
-      text-decoration: none;
-    }
-
-    p {
-      margin: 0px;
-      font-family: "Lato", "Helvetica", "san serif";
-      font-weight: 900;
-      font-size: 24px;
-    }
-
-    @media only screen and (max-width: 550px){
-      margin-top: 0px;
-      padding: 10px 60px;
-      p {
-        font-size: 18px;
-      }
-    }
-  }
   .github-header {
     max-width: 140px;
     vertical-align: text-top;
@@ -96,3 +67,32 @@ header {
   }
 
 }
+  .button.get-tickets, .button.apply {
+    background: $yellow;
+    border-color: #e6d508;
+    margin-top: 30px;
+    padding: 15px 100px;
+    text-decoration: none;
+
+    &:hover {
+      background: black;
+      border-color: black;
+      color: white;
+      text-decoration: none;
+    }
+
+    p {
+      margin: 0px;
+      font-family: "Lato", "Helvetica", "san serif";
+      font-weight: 900;
+      font-size: 24px;
+    }
+
+    @media only screen and (max-width: 550px){
+      margin-top: 0px;
+      padding: 10px 60px;
+      p {
+        font-size: 18px;
+      }
+    }
+  }

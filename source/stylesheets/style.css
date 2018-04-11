@@ -34,28 +34,6 @@ header {
       padding: 10px 40px;
       display: inline-block;
       font-size: 28px; }
-  header .get-tickets {
-    background: #F8E71C;
-    border-color: #e6d508;
-    margin-top: 30px;
-    padding: 15px 100px;
-    text-decoration: none; }
-    header .get-tickets:hover {
-      background: black;
-      border-color: black;
-      color: white;
-      text-decoration: none; }
-    header .get-tickets p {
-      margin: 0px;
-      font-family: "Lato", "Helvetica", "san serif";
-      font-weight: 900;
-      font-size: 24px; }
-    @media only screen and (max-width: 550px) {
-      header .get-tickets {
-        margin-top: 0px;
-        padding: 10px 60px; }
-        header .get-tickets p {
-          font-size: 18px; } }
   header .github-header {
     max-width: 140px;
     vertical-align: text-top; }
@@ -83,6 +61,29 @@ header {
   @media only screen and (max-width: 650px) {
     header {
       padding-top: 50px; } }
+
+.button.get-tickets, .button.apply {
+  background: #F8E71C;
+  border-color: #e6d508;
+  margin-top: 30px;
+  padding: 15px 100px;
+  text-decoration: none; }
+  .button.get-tickets:hover, .button.apply:hover {
+    background: black;
+    border-color: black;
+    color: white;
+    text-decoration: none; }
+  .button.get-tickets p, .button.apply p {
+    margin: 0px;
+    font-family: "Lato", "Helvetica", "san serif";
+    font-weight: 900;
+    font-size: 24px; }
+  @media only screen and (max-width: 550px) {
+    .button.get-tickets, .button.apply {
+      margin-top: 0px;
+      padding: 10px 60px; }
+      .button.get-tickets p, .button.apply p {
+        font-size: 18px; } }
 
 .love {
   background: #F8E71C; }
@@ -496,45 +497,55 @@ nav {
         .program-list:last-child {
           margin-right: 0; } }
 
-.scholarship p {
-  font-family: "Roboto", "Helvetica", "san serif";
-  font-weight: 300; }
-.scholarship .scholarship-options {
-  display: flex; }
-.scholarship .scholarship-application, .scholarship .scholarship-donate {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%;
-  padding: 30px 40px;
-  border: 5px solid #F8E71C; }
-  .scholarship .scholarship-application:last-child, .scholarship .scholarship-donate:last-child {
-    margin-right: 0; }
-  .scholarship .scholarship-application h3, .scholarship .scholarship-donate h3 {
-    margin: 0; }
-  .scholarship .scholarship-application .button, .scholarship .scholarship-donate .button {
-    background: #F8E71C; }
-    .scholarship .scholarship-application .button:hover, .scholarship .scholarship-donate .button:hover {
-      background: black; }
-      .scholarship .scholarship-application .button:hover a, .scholarship .scholarship-donate .button:hover a {
-        color: white; }
-      .scholarship .scholarship-application .button:hover a:hover, .scholarship .scholarship-donate .button:hover a:hover {
-        color: white; }
-.scholarship .scholarship-description {
-  margin-bottom: 30px; }
-@media only screen and (max-width: 800px) {
+.scholarship {
+  background: #f8f8f8; }
+  .scholarship p {
+    font-family: "Roboto", "Helvetica", "san serif";
+    font-weight: 300; }
+  .scholarship .scholarship-options {
+    display: flex; }
   .scholarship .scholarship-application, .scholarship .scholarship-donate {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 100%;
-    margin-bottom: 10px; }
+    width: 48.82117%;
+    padding: 30px 40px;
+    border: 5px solid #F8E71C; }
     .scholarship .scholarship-application:last-child, .scholarship .scholarship-donate:last-child {
       margin-right: 0; }
-  .scholarship p {
-    font-size: 18px; }
-  .scholarship .scholarship-options {
-    display: block; } }
+    .scholarship .scholarship-application h3, .scholarship .scholarship-donate h3 {
+      margin: 0; }
+    .scholarship .scholarship-application .button, .scholarship .scholarship-donate .button {
+      background: #F8E71C; }
+      .scholarship .scholarship-application .button:hover, .scholarship .scholarship-donate .button:hover {
+        background: black; }
+        .scholarship .scholarship-application .button:hover a, .scholarship .scholarship-donate .button:hover a {
+          color: white; }
+        .scholarship .scholarship-application .button:hover a:hover, .scholarship .scholarship-donate .button:hover a:hover {
+          color: white; }
+  .scholarship .scholarship-description {
+    margin-bottom: 30px; }
+  @media only screen and (max-width: 800px) {
+    .scholarship .scholarship-application, .scholarship .scholarship-donate {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-bottom: 10px; }
+      .scholarship .scholarship-application:last-child, .scholarship .scholarship-donate:last-child {
+        margin-right: 0; }
+    .scholarship p {
+      font-size: 18px; }
+    .scholarship .scholarship-options {
+      display: block; } }
+  .scholarship-presenter {
+    margin-top: 0px;
+    margin-bottom: 30px; }
+  .scholarship-presented-by {
+    vertical-align: sub; }
+  .scholarship-sponsor img {
+    width: 200px;
+    vertical-align: middle; }
 
 .speaker-page nav {
   max-width: 1200px;
