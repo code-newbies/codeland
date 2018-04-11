@@ -544,7 +544,7 @@ nav {
   .scholarship-presented-by {
     vertical-align: sub; }
   .scholarship-sponsor img {
-    width: 200px;
+    width: 300px;
     vertical-align: middle; }
 
 .speaker-page nav {
@@ -812,15 +812,16 @@ nav {
     .sponsor-list .sponsor-list--special--item {
       margin: 0 auto; }
     .sponsor-list .sponsor-list--special--item--title {
-      background: black;
-      color: white;
+      font-weight: 900;
       margin-top: 0px;
       margin-bottom: 10px;
       padding: 5px;
-      text-align: center; }
+      text-align: center;
+      text-decoration: underline; }
     .sponsor-list .sponsor-list--special--item--image.sponsor-image {
       padding: 0px 30px;
-      max-width: 450px; }
+      max-width: 600px;
+      margin: 30px auto; }
       @media only screen and (max-width: 500px) {
         .sponsor-list .sponsor-list--special--item--image.sponsor-image {
           padding: 15px 0px; } }
