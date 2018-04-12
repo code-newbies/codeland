@@ -136,6 +136,26 @@ speakers:
   github_handle: "bonniezhou"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/bonnie-zhou.jpg"
   bio: "Bonnie Zhou is a software engineer at Google building open-sourced web components for Material Design. She loves to talk about making education accessible, diversity in tech, and recently, thoughtful design. In her spare time, she is either leveling up in dance or spreading the magic of computer science."
+- full_name: "Brian Douglas"
+  role: "co-presenter"
+  talk_type: "workshop"
+  talk_title: "Intro to Git, GitHub, the CLI and more!"
+  talk_abstract: "Make sure your laptop is charged up and ready to go for this
+  comprehensive review of GitHub as a collaboration platform. Though the
+  workshop assumes no prior experience with Git, you'll walk away with
+  internationally taught industry best-practices, a conceptual overview of the
+  GitHub Flow, and the preparation to contribute to the Open Source community.
+  If you have an intermediate understanding, the second half of the workshop
+  will be spent extending the first by using visualization tools, learning new
+  commands, solidifying your mental model, and gaining the confidence to sail
+  through your next no good very bad situation."
+  job_title: "Developer Advocate"
+  bio: "Brian Douglas is a Developer Advocate at GitHub and the host of the
+  JAMstack Radio podcast. He focuses his day to day work on Developing
+  Engagement with GiHub Developer Program."
+  twitter_handle: "@bdougieYO"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/brian-douglas.jpg"
+  company: "GitHub"
 - full_name: "Caleb Thompson"
   talk_title: "I built software to kill people"
   talk_type: "talk"

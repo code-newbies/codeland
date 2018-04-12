@@ -56,6 +56,10 @@
             <span class="program-list_item_speaker"><%= speaker.full_name %>,
             Chris Lorenzo</span>
             <span class="program-list_item_type"><%= speaker.talk_type %></span>
+          <% elsif speaker.full_name == "Eric Hollenberry" %>
+            <span class="program-list_item_speaker"><%= speaker.full_name %>,
+            Brian Douglas</span>
+            <span class="program-list_item_type"><%= speaker.talk_type %></span>
           <% else %>
             <span class="program-list_item_speaker"><%= speaker.full_name %></span>
             <span class="program-list_item_type"><%= speaker.talk_type %></span>
