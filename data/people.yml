@@ -310,6 +310,17 @@ a worldly audience."
   site performance engineering and pinches of user experience. When not parsing
   the daily deluge of research docs or profiling sites in devtools, he's
   planning the next performance meetup for web professionals."
+- full_name: "Hiro Asari"
+  talk_title: "Intro to Travis CI"
+  talk_type: "workshop"
+  talk_abstract: "Travis CI is one of the most popular continuous integration
+  (CI) solutions available for GitHub repositories. In this workshop, you will
+  learn basic concepts of CI, how to set up Travis CI, and deploy build
+  artifacts (by using GitHub Releases)."
+  twitter: "@hiro_asari"
+  company: "Travis CI"
+  job_title: "Software Programmer"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/hiro-asari.jpeg"
 - full_name: "Jen Simmons"
   talk_title: "It’s Never Been A Better Time to Learn Layout CSS"
   talk_type: "talk"
