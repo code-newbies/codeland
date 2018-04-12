@@ -414,6 +414,28 @@ to learn how to create layouts on the web."
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/katie-jergens.jpg"
   bio: "Software engineer turned product designer turned high school teacher.
   Katie loves teaching beginning computer science with an eye on beautiful design and professional quality."
+- full_name: "Mariel Freyre"
+  talk_type: "workshop"
+  talk_title: "Move Fast and Break Nothing: An Intro to Object Oriented
+  Programming"
+  talk_abstract: "Software developers are simply engineers who work in abstract
+  spaces. We don’t build robots; rather, we build representations of robots. In
+  this workshop, attendees will have a chance to apply principles of object
+  oriented programming to the classic Mars Rover Kata. We will discover how
+  careful object oriented design increases velocity of coding and confidence in
+  the code we write. Additionally, we will work through some of the patterns
+  that make the implementation of the Mars Rover solution easy to understand.
+  Writing code is fun! Let’s create some object oriented code from procedural
+  skeletons in a way that makes writing code delightful and super fast."
+  job_title: "Software Engineer"
+  company: "Etsy"
+  twitter_handle: "@tiny_jupiter"
+  bio: "Mariel is a software engineer at Etsy, where she makes tools for sellers
+  to grow and understand their creative business. She is passionate about
+  designing extensible, resilient, easy to use code. When not coding, Mariel can
+  be found playing board games, reading many books at once, or exploring the
+  great outdoors."
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/mariel-freyre.png"
 - full_name: "Monica Powell"
   talk_title: "Technical Blogging with Jekyll"
   talk_type: "workshop"
