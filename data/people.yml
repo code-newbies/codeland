@@ -1,6 +1,29 @@
 default: &default_title
 
 speakers:
+- full_name: "Adda Birnir"
+  talk_title: "Code Your Way to $1K Even If You Don’t Know How to Code"
+  talk_type: "workshop"
+  talk_abstract: "If you’re considering a career in tech, you might feel
+  overwhelmed and not sure where to start. How do you get experience when you
+  have no experience? Should you freelance? How do you take the first step into
+  a totally new industry? What IS the first step? We’ll figure all of that
+  out—and then some—in this friendly, supportive workshop where we’ll start at
+  Square One. You’ll walk away with the wheels in motion to make a big career
+  change and to start making money right away. There’s no tech skills
+  required—come get motivated and inspired no matter your skill level!"
+  job_title: "Founder & CEO"
+  company: "Skillcrush"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/adda-birnir.jpg"
+  bio: "Adda is the founder and CEO of Skillcrush, the country’s largest online
+  education company focused on training women in tech skills to make career
+  changes. She's passionate about empowering women to create fuller and more
+  flexible lives, creating a more inclusive tech world, and making tech a tool
+  anyone can use. She has been named one of the \"20 Women to Watch in Media\" by
+  the Columbia Journalism Review, one of the \"30 Most Important Women in Tech\"
+  by Business Insider, and has been featured on the BBC, PBS, Fast Company, and
+  Mashable. "
+  twitter_handle: "@addabjork"
 - full_name: "Aman Irshad"
   talk_title: "Application of Data Science in Livestock Disease Diagnosis"
   talk_type: "talk"
