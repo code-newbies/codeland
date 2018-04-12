@@ -66,6 +66,11 @@ speakers:
   job_title: "Developer Advocate"
   company: "MongoDB"
   twitter_handle: "@aydrianh"
+  bio: "Aydrian is a Hoosier in the big city. He is a Developer Advocate at
+  MongoDB and spends a lot of time going to meet ups and interacting with the
+  New York developer community. He enjoys tinkering with technologies and
+  building sample apps using JavaScript and Node.js. He also enjoys traveling,
+  running, theatre, and his pug, Oliver."
 - full_name: "Ben Halpern"
   talk_title: "How To Make Your Website So Fast It Goes Viral In Japan"
   talk_type: "talk"
