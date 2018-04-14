@@ -609,7 +609,7 @@ nav {
   .speaker-page .mobile {
     display: none; }
   .speaker-page .desktop {
-    display: inline-block; } }
+    display: block; } }
 
 .schedule {
   background: #f8f8f8; }
@@ -624,29 +624,58 @@ nav {
       margin-right: 0; }
   .schedule .schedule-item {
     background: white;
-    padding: 5px 15px;
+    padding: 5px 15px 0px;
     margin: 10px 0px; }
+    .schedule .schedule-item__content__title, .schedule .schedule-item p {
+      font-family: "Lato", "Helvetica", "san serif"; }
+    .schedule .schedule-item p {
+      padding: 10px;
+      margin: 0px; }
+    .schedule .schedule-item a:hover p {
+      color: black;
+      background: #F8E71C; }
+      .schedule .schedule-item a:hover p:before {
+        color: white; }
+    .schedule .schedule-item__content {
+      position: relative; }
+      .schedule .schedule-item__content p {
+        padding-left: 30px; }
+        .schedule .schedule-item__content p:before {
+          content: "•";
+          color: #F8E71C;
+          left: -15px;
+          margin-left: 15px;
+          padding-left: 5px;
+          position: absolute; }
+      .schedule .schedule-item__content__title {
+        font-weight: 600;
+        margin-right: 5px; }
+      .schedule .schedule-item__content__speakers {
+        font-family: "Helvetica", "san serif";
+        font-weight: 100; }
+    .schedule .schedule-item__header {
+      font-weight: 900; }
+      .schedule .schedule-item__header__start-time {
+        padding-right: 10px; }
+        .schedule .schedule-item__header__start-time:after {
+          content: "•";
+          color: #F8E71C;
+          padding-left: 10px; }
+    .schedule .schedule-item--talks {
+      padding-bottom: 20px; }
+      .schedule .schedule-item--talks .schedule-item__header {
+        background: black;
+        color: white;
+        margin: -5px -15px 15px;
+        padding: 20px 25px; }
+    .schedule .schedule-item--break {
+      background: #F8E71C; }
+      .schedule .schedule-item--break .schedule-item__header__start-time:after {
+        color: white; }
     .schedule .schedule-item a {
       text-decoration: none; }
       .schedule .schedule-item a:hover .talk-category {
         color: black; }
-    .schedule .schedule-item.talks p.start-time {
-      color: #4caf50; }
-      .schedule .schedule-item.talks p.start-time span {
-        background: #85ff85;
-        color: darkgreen; }
-    .schedule .schedule-item p {
-      margin: 15px 10px; }
-      .schedule .schedule-item p.start-time {
-        color: #454545;
-        font-size: 14px;
-        text-transform: uppercase; }
-        .schedule .schedule-item p.start-time span {
-          background: #e2e2e2;
-          padding: 8px 15px 5px;
-          margin-left: -10px;
-          margin-right: 10px;
-          display: inline-block; }
     .schedule .schedule-item .speakers {
       font-weight: 100;
       font-size: 16px;
@@ -1023,7 +1052,8 @@ a {
   color: inherit; }
 
 a:hover {
-  color: #00ff00; }
+  background: #F8E71C;
+  color: black; }
 
 a span {
   font-family: "Roboto"; }

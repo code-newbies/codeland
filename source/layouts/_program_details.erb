@@ -8,7 +8,7 @@
   </article>
   <article class="program-list">
     <% data.people.speakers[0...15].each do |speaker| %>
-      <% next if speaker.role == "co-presenter" %>
+      <% next unless speaker.role.blank? %>
       <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
         <article class="program-list_item">
           <p class="program-list_item_title"><%= speaker.talk_title %></p>
@@ -32,7 +32,7 @@
   </article>
   <article class="program-list">
     <% data.people.speakers[16...29].each do |speaker| %>
-      <% next if speaker.role == "co-presenter" %>
+      <% next unless speaker.role.blank? %>
       <% if speaker.full_name == "Katie Jergens" %>
         <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
           <article class="program-list_item">

@@ -2,194 +2,202 @@
   <article class="schedule-description">
     <h2>Schedule</h2>
   </article>
+  <% day_one = data.people.speakers.select {|speaker| speaker.day == 1 &&
+  speaker.talk_title && speaker.order }.sort_by {|speaker| speaker[:order].to_i }%>
+  <% day_two = data.people.speakers.select {|speaker| speaker.day == 2 &&
+  speaker.talk_title && speaker.order }.sort_by {|speaker| speaker[:order].to_i }%>
+  <% workshops = data.people.speakers.select {|speaker| speaker.day == 1 &&
+  speaker.talk_title && speaker.talk_type == "workshop" } %>
   <div class="schedule-day">
-    <h3>Friday, April 21 (8AM - 5PM)</h3>
-    <% day_one = data.people.speakers.select {|speaker| speaker.day == "1" &&
-    speaker.talk_title && speaker.order }.sort_by {|speaker| speaker[:order].to_i }%>
-    <article class="schedule-item">
-      <p class="start-time"><span>8:00 AM</span>Registration & Breakfast</p>
+    <h3>Friday, May 4 (8:30AM - 5:30PM)</h3>
+    <article class="schedule-item schedule-item--break">
+      <p class="schedule-item__header">
+        <span class="schedule-item__header__start-time">8:30 AM</span>
+        <span class="schedule-item__header__title">Registration & Breakfast</span>
+      </p>
     </article>
-    <article class="schedule-item talks">
-      <p class="start-time"><span>8:45 AM</span>Talks</p>
-      <p>Welcome<span class="speakers">
-      <a href="/speakers/nikhil-paul">Nikhil Paul</a>, 
-      Saron Yitbarek</span>
-                </p>
+    <article class="schedule-item schedule-item--talks">
+      <p class="schedule-item__header">
+        <span class="schedule-item__header__start-time">9:30 AM</span>
+        <span class="schedule-item__header__title">Talks</span>
+      </p>
+      <p class="schedule-item__content">
+        <span class="schedule-item__content__title">Welcome</span>
+        <span class="schedule-item__content__speakers">
+          <a href="/speakers/nikhil-paul">Nikhil Paul</a>, <a
+          href="/speakers/saron-yitbarek">Saron Yitbarek</a>
+        </span>
+      </p>
       <% day_one[0..2].each do |speaker| %>
-        <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>><p class="schedule-item-title"><%= speaker.talk_title %><span
-        class="speakers"><%= speaker.full_name %></span>
-      <% if speaker.category %>
-        <span class="talk-category <%=speaker.category.gsub(" ", "-")%>"><%= speaker.category %></span>
+        <a class="schedule-item__content" href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
+          <p>
+            <span class="schedule-item__content__title"><%= speaker.talk_title %></span>
+            <span class="schedule-item__content__speakers"><%= speaker.full_name %></span>
+          <% if speaker.category %>
+            <span class="talk-category <%=speaker.category.gsub(" ", "-")%>"><%= speaker.category %></span>
+          <% end %>
+          </p>
+        </a>
       <% end %>
-        </p></a>
-      <% end %>
     </article>
-    <article class="schedule-item break">
-      <p class="start-time"><span>9:55 AM</span>Morning Break</p>
+    <article class="schedule-item schedule-item--break">
+      <p class="schedule-item__header">
+        <span class="schedule-item__header__start-time">10:45 AM</span>
+        <span class="schedule-item__header__title">Morning Break</span>
+      </p>
     </article>
-    <article class="schedule-item talks">
-      <p class="start-time"><span>10:15 AM</span>Talks</p>
-      <% day_one[3..7].each do |speaker| %>
-      <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>><p class="schedule-item-title"><%= speaker.talk_title %><span
-      class="speakers"><%= speaker.full_name %></span>
-      <% if speaker.category %>
-        <span class="talk-category <%=speaker.category.gsub(" ", "-")%>"><%= speaker.category %></span>
-      <% end %>
-      </p></a>
-    <% end %>
-    </article>
-    <article class="schedule-item break">
-      <p class="start-time"><span>11:45 AM</span>Lunch</p>
-    </article>
-    <article class="schedule-item talks">
-      <p class="start-time"><span>12:45 PM</span>Talks</p>
-      <% day_one[8..10].each do |speaker| %>
-      <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>><p class="schedule-item-title"><%= speaker.talk_title %><span
-      class="speakers"><%= speaker.full_name %></span>
-      <% if speaker.category %>
-        <span class="talk-category <%=speaker.category.gsub(" ", "-")%>"><%= speaker.category %></span>
-      <% end %>
-      </p></a>
-    <% end %>
-    </article>
-    <article class="schedule-item break">
-      <p class="start-time"><span>1:30 PM</span>Afternoon Break</p>
-    </article>
-    <article class="schedule-item talks">
-      <p class="start-time"><span>1:50 PM</span>Talks</p>
-      <% day_one[11..14].each do |speaker| %>
-      <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>><p class="schedule-item-title"><%= speaker.talk_title %><span
-      class="speakers"><%= speaker.full_name %></span>
-      <% if speaker.category %>
-        <span class="talk-category <%=speaker.category.gsub(" ", "-")%>"><%= speaker.category %></span>
-      <% end %>
-      </p></a>
-    <% end %>
-    </article>
-    <article class="schedule-item break">
-      <p class="start-time"><span>3:00 PM</span>Afternoon Break</p>
-    </article>
-    <article class="schedule-item talks">
-      <p class="start-time"><span>3:20 PM</span>Talks</p>
-      <% day_one[15..17].each do |speaker| %>
-      <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>><p class="schedule-item-title"><%= speaker.talk_title %><span
-      class="speakers"><%= speaker.full_name %></span>
-      <% if speaker.category %>
-        <span class="talk-category <%=speaker.category.gsub(" ", "-")%>"><%= speaker.category %></span>
-      <% end %>
-      </p></a>
-    <% end %>
-    </article>
-    <article class="schedule-item talks">
-      <p class="start-time"><span>4:05 PM</span>Keynote</p>
-      <% speaker = day_one[18] %>
-        <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>><p class="schedule-item-title"><%= speaker.talk_title %><span
-        class="speakers"><%= speaker.full_name %></span>
+    <article class="schedule-item schedule-item--talks">
+      <p class="schedule-item__header">
+        <span class="schedule-item__header__start-time">11:05 AM</span>
+        <span class="schedule-item__header__title">Talks</span>
+      </p>
+      <p class="schedule-item-title">Open Source Panel (panelists TBA)</p>
+      <% day_one[3..4].each do |speaker| %>
+      <a class="schedule-item__content" href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
+        <p>
+          <span class="schedule-item__content__title"><%= speaker.talk_title %></span>
+          <span class="schedule-item__content__speakers"><%= speaker.full_name %></span>
         <% if speaker.category %>
           <span class="talk-category <%=speaker.category.gsub(" ", "-")%>"><%= speaker.category %></span>
         <% end %>
-        </p></a>
+       </p>
+     </a>
+    <% end %>
     </article>
-    <article class="schedule-item break">
-      <p class="start-time"><span>5:00 PM</span></p>
-      <p>Closing<span class="speakers"><a href="/speakers/nikhil-paul">Nikhil
-      Paul</a></span></p>
+    <article class="schedule-item schedule-item--break">
+      <p class="schedule-item__header">
+        <span class="schedule-item__header__start-time">12:20 PM</span>
+        <span class="schedule-item__header__title">Lunch</span>
+      </p>
+    </article>
+    <article class="schedule-item schedule-item--talks">
+      <p class="schedule-item__header">
+        <span class="schedule-item__header__start-time">1:20 PM</span>
+        <span class="schedule-item__header__title">Workshops - Select one</span>
+      </p>
+      <% workshops.each do |speaker| %>
+      <a class="schedule-item__content" href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
+        <p>
+          <span class="schedule-item__content__title"><%= speaker.talk_title %>
+          <span class="schedule-item__content__speakers"><%= speaker.full_name %></span>
+        </p>
+      </a>
+      <% end %>
+    </article>
+    <article class="schedule-item schedule-item--talks">
+      <p class="schedule-item__header">
+        <span class="schedule-item__header__start-time">4:25 PM</span>
+        <span class="schedule-item__header__title">Talks</span>
+      </p>
+      <% speaker = day_one[5] %>
+        <a class="schedule-item__content" href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
+          <p>
+            <span class="schedule-item__content__title"><%= speaker.talk_title %></span>
+            <span class="schedule-item__content__speakers"><%= speaker.full_name %></span>
+            <% if speaker.category %>
+              <span class="talk-category <%=speaker.category.gsub(" ", "-")%>"><%= speaker.category %></span>
+            <% end %>
+          </p>
+        </a>
+        <p>Closing<span class="speakers">
+        <a href="/speakers/saron-yitbarek">Saron Yitbarek</a></span></p>
+    </article>
+    <article class="schedule-item schedule-item--break">
+      <p class="schedule-item__header">
+        <span class="schedule-item__header__start-time">7:00 PM</span>
+        <span class="schedule-item__header__title">GitHub Afterparty, presented
+        by Flatiron School (RSVP required)</span>
+      </p>
     </article>
   </div>
   <div class="schedule-day">
-    <h3>Saturday, April 22 (8AM - 5PM)</h3>
-    <% workshops = data.people.speakers.select {|speaker| speaker.day == "2" &&
-    speaker.talk_title && speaker.type == "workshop" } %>
-    <article class="schedule-item">
-      <p class="start-time"><span>8:00 AM</span>Registration & Breakfast</p>
+    <h3>Saturday, May 5 (8:30AM - 5:30PM)</h3>
+    <article class="schedule-item schedule-item--break">
+      <p class="schedule-item__header">
+        <span class="schedule-item__header__start-time">8:30 AM</span>
+        <span class="schedule-item__header__title">Registration & Breakfast</span>
+      </p>
     </article>
-    <article class="schedule-item talks">
-      <p class="start-time"><span>8:45 AM</span>Talks</p>
-      <p>Welcome<span class="speakers"><a href="/speakers/nikhil-paul">Nikhil
-      Paul</a></span></p>
-    </article>
-    <article class="schedule-item workshps">
-      <p class="start-time"><span>9:05 AM</span>Workshops - Select one</p>
-      <% workshops.each do |speaker| %>
-      <% next if speaker.talk_title == "Shipping Containers" %>
-      <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>><p class="schedule-item-title"><%= speaker.talk_title %><span
-      class="speakers"><%= speaker.full_name %></span>
-      </p></a>
+    <article class="schedule-item schedule-item--talks">
+      <p class="schedule-item__header">
+        <span class="schedule-item__header__start-time">9:30 AM</span>
+        <span class="schedule-item__header__title">Talks</span>
+      </p>
+      <p class="schedule-item__content">
+        <span class="schedule-item__content__title">Welcome Back</span>
+        <span class="schedule-item__content__speakers">
+          <a href="/speakers/nikhil-paul">Nikhil Paul</a>, <a
+          href="/speakers/saron-yitbarek">Saron Yitbarek</a>
+        </span>
+      </p>
+      <% day_two[0..3].each do |speaker| %>
+        <a class="schedule-item__content" href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
+          <p>
+            <span class="schedule-item__content__title"><%= speaker.talk_title %></span>
+            <span class="schedule-item__content__speakers"><%= speaker.full_name %></span>
+          <% if speaker.category %>
+            <span class="talk-category <%=speaker.category.gsub(" ", "-")%>"><%= speaker.category %></span>
+          <% end %>
+          </p>
+        </a>
       <% end %>
-      <% speaker = data.people.speakers.find {|s| s[:full_name] == "Phil Eaton" } %> 
-      <p class="schedule-item-title"><%= speaker.talk_title %>
-        <span class="speakers"><a href="/speakers/phil-eaton">Phil Eaton</a>,</span>
-      <span class="speakers"><a href="/speakers/james-lott">James Lott</a></span>
+    </article>
+    <article class="schedule-item schedule-item--break">
+      <p class="schedule-item__header">
+        <span class="schedule-item__header__start-time">11:05 AM</span>
+        <span class="schedule-item__header__title">Morning Break</span>
       </p>
     </article>
-    <article class="schedule-item break">
-      <p class="start-time"><span>12:20 PM</span>Lunch</p>
-    </article>
     <article class="schedule-item talks">
-      <p class="start-time"><span>1:20 PM</span>Talks & Panel</p>
-      <% speaker = data.people.speakers.find {|s| s[:day] == "2" && s[:order] ==
-      "1" } %>
-      <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>><p class="schedule-item-title"><%= speaker.talk_title %><span
-      class="speakers"><%= speaker.full_name %></span>
-      <% speaker = data.people.speakers.find {|s| s[:day] == "2" && s[:order] ==
-      "2" } %>
-      </p></a>
-      <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>><p class="schedule-item-title"><%= speaker.talk_title %><span
-      class="speakers"><%= speaker.full_name %></span>
-      </p></a>
-      <p class="schedule-item-title">Bootcamp Battle<span
-      class="speakers">Dev Bootcamp, Thinkful, <a
-      href="/speakers/bobby-davis">Coder Foundry</a></span>
+      <% day_two[4..6].each do |speaker| %>
+        <a class="schedule-item__content" href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
+          <p>
+            <span class="schedule-item__content__title"><%= speaker.talk_title %></span>
+            <span class="schedule-item__content__speakers"><%= speaker.full_name %></span>
+          <% if speaker.category %>
+            <span class="talk-category <%=speaker.category.gsub(" ", "-")%>"><%= speaker.category %></span>
+          <% end %>
+          </p>
+        </a>
+      <% end %>
+    </article>
+    <article class="schedule-item schedule-item--break">
+      <p class="schedule-item__header">
+        <span class="schedule-item__header__start-time">12:40 PM</span>
+        <span class="schedule-item__header__title">Lunch</span>
       </p>
     </article>
-    <article class="schedule-item break">
-      <p class="start-time"><span>2:30 pm</span>afternoon break</p>
+    <article class="schedule-item schedule-item--talks">
+      <p class="schedule-item__header">
+        <span class="schedule-item__header__start-time">1:40 AM</span>
+        <span class="schedule-item__header__title">Talks</span>
+      </p>
+      <% day_two[7..9].each do |speaker| %>
+        <a class="schedule-item__content" href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
+          <p>
+            <span class="schedule-item__content__title"><%= speaker.talk_title %></span>
+            <span class="schedule-item__content__speakers"><%= speaker.full_name %></span>
+          <% if speaker.category %>
+            <span class="talk-category <%=speaker.category.gsub(" ", "-")%>"><%= speaker.category %></span>
+          <% end %>
+          </p>
+        </a>
+      <% end %>
     </article>
-    <article class="schedule-item talks">
-      <p class="start-time"><span>2:50 PM</span>Open Source</p>
-      <% speaker = data.people.speakers.find {|s| s[:day] == "2" && s[:order] ==
-      "4" } %>
-      <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>><p class="schedule-item-title"><%= speaker.talk_title %><span
-      class="speakers"><%= speaker.full_name %></span>
-      </p></a>
-      <p class="schedule-item-title">Do I have to do open source?<span
-      class="speakers">
-      <a href="/speakers/safia-abdalla">Safia Abdalla</a>,
-      <a href="/speakers/bryan-liles">Bryan Liles</a>,
-      <a href="/speakers/laura-gaetano">Laura Gaetano</a>,
-      <a href="/speakers/carol-willing">Carol Willing</a>,
-      <a href="/speakers/maria-naggaga">Maria Naggaga</a>
-      </span></p>
+    <article class="schedule-item schedule-item--break">
+      <p class="schedule-item__header">
+        <span class="schedule-item__header__start-time">2:50 PM</span>
+        <span class="schedule-item__header__title">Exhibit Hall</span>
+      </p>
     </article>
-    <article class="schedule-item break">
-      <p class="start-time"><span>3:35 PM</span>Afternoon Break</p>
+    <article class="schedule-item schedule-item--talks">
+      <p class="schedule-item__header">
+        <span class="schedule-item__header__start-time">4:50 PM</span>
+        <span class="schedule-item__header__title">Talk</span>
+      </p>
+      <p>Closing<span class="speakers">
+      <a href="/speakers/saron-yitbarek">Saron Yitbarek</a></span></p>
     </article>
-    <article class="schedule-item talks">
-      <p class="start-time"><span>3:55 PM</span>Life & Career</p>
-      <p class="schedule-item-title">Code-Life Balance: Can we really have it all?<span
-      class="speakers">
-      <a href="/speakers/ashley-jean">Ashley Jean</a>,
-      <a href="/speakers/brian-douglas">Brian Douglas</a>,
-      <a href="/speakers/johnny-ray-austin">Johnny Ray Austin</a>,
-      <a href="/speakers/morgan-whaley">Morgan Whaley</a>,
-      <a href="/speakers/allison-mcmillan">Allison McMillan</a>
-      </span></p>
-      <% speaker = data.people.speakers.find {|s| s[:day] == "2" && s[:order] == "7" } %>
-      <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>><p class="schedule-item-title"><%= speaker.talk_title %><span
-      class="speakers"><%= speaker.full_name %></span>
-      </p></a>
-      <p class="schedule-item-title">Hiring Panel: How do I get the job?<span
-      class="speakers">
-      <a href="/speakers/andreas-fast">Andreas Fast</a>,
-      <a href="/speakers/eddie-washington">Eddie Washington</a>,
-      <a href="/speakers/la-vesha-parker">Vesha Parker</a>,
-      <a href="/speakers/nicholas-corvino">Nick Corvino</a>
-      </span></p>
-    </article>
-    <article class="schedule-item break">
-      <p class="start-time"><span>5:00 PM</span></p>
-      <p>Closing<span class="speakers"><a href="/speakers/nikhil-paul">Nikhil
-      Paul</a>, Saron Yitbarek</span></p>
     </article>
   </div>
 </section>

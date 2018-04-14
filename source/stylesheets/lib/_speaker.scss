@@ -44,6 +44,6 @@
   }
   @media only screen and (min-width: 501px) { 
     .mobile { display: none; }
-    .desktop { display: inline-block; }
+    .desktop { display: block; }
   }
 }

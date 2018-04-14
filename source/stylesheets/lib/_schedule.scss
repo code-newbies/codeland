@@ -6,34 +6,82 @@
   }
   .schedule-item {
     background: white;
-    padding: 5px 15px;
+    padding: 5px 15px 0px;
     margin: 10px 0px;
+
+    &__content__title, p { font-family: "Lato", "Helvetica", "san serif"; }
+
+    p {
+      padding: 10px;
+      margin: 0px;
+    }
+
+    a:hover p {
+      color: black;
+      background: $yellow;
+
+      &:before {
+        color: white;
+      }
+    }
+
+    &__content {
+      position: relative;
+      p {
+        padding-left: 30px;
+
+        &:before {
+          content: "•";
+          color: $yellow;
+          left: -15px;
+          margin-left: 15px;
+          padding-left: 5px;
+          position: absolute;
+        }
+      }
+
+      &__title {
+        font-weight: 600;
+        margin-right: 5px;
+
+      }
+      &__speakers {
+        font-family: "Helvetica", "san serif";
+        font-weight: 100;
+      }
+    }
+
+    &__header {
+      font-weight: 900;
+      &__start-time {
+        padding-right: 10px;
+        &:after {
+          content: "•";
+          color: $yellow;
+          padding-left: 10px;
+        }
+      }
+    }
+
+    &--talks {
+      padding-bottom: 20px;
+
+      .schedule-item__header {
+        background: black;
+        color: white;
+        margin: -5px -15px 15px;
+        padding: 20px 25px;
+      }
+    }
+
+    &--break {
+      background: $yellow;
+      .schedule-item__header__start-time:after { color: white; }
+    }
+
     a {
       text-decoration: none;
       &:hover .talk-category { color: black; }
-    }
-    &.talks p.start-time 
-    {
-      color: #4caf50;
-      span {
-        background: $light-green;
-        color: darkgreen;
-      }
-    }
-    p {
-      margin: 15px 10px;
-      &.start-time {
-        color: $charcoal;
-        font-size: 14px;
-        text-transform: uppercase;
-        span {
-          background: #e2e2e2;
-          padding: 8px 15px 5px;
-          margin-left: -10px;
-          margin-right: 10px;
-          display: inline-block;
-        }
-      }
     }
     .speakers {
       font-weight: 100;

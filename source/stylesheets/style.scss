@@ -54,7 +54,10 @@ body {
   border-bottom: 30px solid black;
 }
 a { color: inherit; }
-a:hover { color: $green; }
+a:hover {
+  background: $yellow;
+  color: black;
+}
 a span { font-family: "Roboto"; }
 p, li {
   font-size: 18px;
