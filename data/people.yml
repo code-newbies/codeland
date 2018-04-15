@@ -371,6 +371,8 @@ a worldly audience."
   company: "Travis CI"
   job_title: "Software Programmer"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speakers+2018/hiro-asari.jpeg"
+  bio: "Hiro Asari is a software developer at Travis CI, making services and
+  tools to make every developer's life easier. His Erdős number is finite."
 - full_name: "Jen Simmons"
   day: 2
   order: 8
