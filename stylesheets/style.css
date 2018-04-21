@@ -497,6 +497,48 @@ nav {
         .program-list:last-child {
           margin-right: 0; } }
 
+#program-extras {
+  background: black;
+  color: white; }
+
+.program-extras {
+  margin-bottom: 30px;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-flex-align: stretch;
+  -ms-flex-align: stretch;
+  -webkit-align-items: stretch; }
+  @media only screen and (max-width: 600px) {
+    .program-extras {
+      display: block; } }
+
+.program-extra {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  background: white;
+  color: black;
+  padding: 10px 30px; }
+  .program-extra:last-child {
+    margin-right: 0; }
+  .program-extra h3 {
+    display: inline-block;
+    font-weight: 900;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 15px solid #F8E71C; }
+  @media only screen and (max-width: 600px) {
+    .program-extra {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .program-extra:last-child {
+        margin-right: 0; } }
+
 .scholarship {
   background: #f8f8f8; }
   .scholarship p {

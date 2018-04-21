@@ -76,13 +76,40 @@
         <span class="schedule-item__header__title">Workshops - Select one</span>
       </p>
       <% workshops.each do |speaker| %>
+      <% next unless speaker.role.blank? %>
       <a class="schedule-item__content" href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
         <p>
-          <span class="schedule-item__content__title"><%= speaker.talk_title %>
-          <span class="schedule-item__content__speakers"><%= speaker.full_name %></span>
+          <span class="schedule-item__content__title"><%= speaker.talk_title
+          %></span>
+          <% if speaker.full_name == "Ebonie Butler" %>
+            <span class="schedule-item__content__speakers"><%= speaker.full_name %>,
+            Angela Andrews</span>
+          <% elsif speaker.full_name == "Aydrian Howard" %>
+            <span class="schedule-item__content__speakers"><%= speaker.full_name %>,
+            Michael Lynn</span>
+          <% elsif speaker.full_name == "Hiro Asari" %>
+            <span class="schedule-item__content__speakers"><%= speaker.full_name %>,
+            Renée Hendricksen</span>
+          <% elsif speaker.full_name == "John Riviello" %>
+            <span class="schedule-item__content__speakers"><%= speaker.full_name %>,
+            Chris Lorenzo</span>
+          <% elsif speaker.full_name == "Eric Hollenberry" %>
+            <span class="schedule-item__content__speakers"><%= speaker.full_name %>,
+            Brian Douglas</span>
+          <% else %>
+            <span class="schedule-item__content__speakers"><%= speaker.full_name %></span>
+          <% end %>
         </p>
       </a>
       <% end %>
+      <p class="schedule-item__content">
+        <span class="schedule-item__content__title">
+          Community Coding
+        </span>
+        <span class="schedule-item__content__speakers">
+          Conde Nast Technology
+        </span>
+      </p>
     </article>
     <article class="schedule-item schedule-item--talks">
       <p class="schedule-item__header">
@@ -169,7 +196,7 @@
     </article>
     <article class="schedule-item schedule-item--talks">
       <p class="schedule-item__header">
-        <span class="schedule-item__header__start-time">1:40 AM</span>
+        <span class="schedule-item__header__start-time">1:40 PM</span>
         <span class="schedule-item__header__title">Talks</span>
       </p>
       <% day_two[7..9].each do |speaker| %>

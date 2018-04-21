@@ -475,6 +475,20 @@ to learn how to create layouts on the web."
   be found playing board games, reading many books at once, or exploring the
   great outdoors."
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/mariel-freyre.png"
+- full_name: "Michael Lynn"
+  role: "co-presenter"
+  bio: "Michael has over 15 years of experience in engineering, development, and
+  leadership. He's currently working to educate, empower, and enable developers
+  around the world to help them understand and leverage MongoDB."
+  company: "MongoDB"
+  job_title: "Global Director, Developer Advocacy"
+  talk_title: "Mflix & Chill: A binge-worthy introduction to MongoDB"
+  talk_type: "workshop"
+  talk_abstract: "Come learn the basics of MongoDB. We’ll be using NodeJS and
+  MongoDB Atlas to iterably create Mflix, a streaming video application. You’ll
+  learn how to set up your first Atlas Cluster, populate it with data, and use
+  it in an application you can take home."
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/michael-lynn.jpg"
 - full_name: "Monica Powell"
   day: 1
   talk_title: "Technical Blogging with Jekyll"
@@ -519,6 +533,21 @@ When not at work, Paul spends much of his spare time hacking on music apps
 including the popular hacks 'The Infinite Jukebox', and 'Girl Talk in a Box'.
 Paul is a four-time nominee and twice winner of the MTV O Music Award for Best
 Music Hack and is the first inductee into the Music Hacker's Hall of Fame."
+- full_name: "Renée Hendricksen"
+  talk_type: "workshop"
+  role: "co-presenter"
+  talk_title: "Intro to Travis CI"
+  talk_abstract: "Travis CI is one of the most popular continuous integration
+  (CI) solutions available for GitHub repositories. In this workshop, you will
+  learn basic concepts of CI, how to set up Travis CI, and deploy build
+  artifacts (by using GitHub Releases)."
+  bio: "Renée has been coding since she was a kid. She's taught computer science
+  and Ruby on Rails at the university level and for professional organizations,
+  and currently works at Travis CI."
+  job_title: "Builder"
+  company: "Travis CI"
+  twitter_handle: "@gigglegirl4e"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/+renee-hendricksen.JPG"
 - full_name: "Saron Yitbarek"
   role: "producer"
   talk_title: "Closing"
