@@ -5,12 +5,12 @@ $(document).ready(function(){
       scrollTop: $(href).offset().top - 70 
     }, 'slow');
   });
-  $(".get-tickets").on("click", function(e){
-    var href = $(this).attr("href").replace("/", "");
-    $("body").animate({
-      scrollTop: $(href).offset().top - 70 
-    }, 'slow');
-  });
+  // $(".get-tickets").on("click", function(e){
+  //   var href = $(this).attr("href").replace("/", "");
+  //   $("body").animate({
+  //     scrollTop: $(href).offset().top - 70 
+  //   }, 'slow');
+  // });
   $(".mobile-home").on("click", function(e){
     $(".mobile-nav").slideToggle();
   });
