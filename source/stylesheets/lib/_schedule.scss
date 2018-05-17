@@ -90,9 +90,11 @@
       font-family: "Helvetica";
     }
   }
+
   @media only screen and (max-width: 900px){
     .schedule-day { @include span-columns(12); }
   }
+
   @media only screen and (max-width: 500px){
     .schedule-item {
       p, p.start-time, .speakers { font-size: 12px; }

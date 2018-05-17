@@ -24,6 +24,7 @@ $city-life-color: $light-blue;
 
 @import "lib/_neat/neat";
 
+@import "lib/_buttons";
 @import "lib/_header";
 @import "lib/_love";
 @import "lib/_mailchimp_signup";
@@ -32,6 +33,7 @@ $city-life-color: $light-blue;
 @import "lib/_photo-panel";
 @import "lib/_program_details";
 @import "lib/_program_extras";
+@import "lib/_recap";
 @import "lib/_scholarship";
 @import "lib/_speaker";
 @import "lib/_schedule";
@@ -111,28 +113,6 @@ h5 {
       &.community { background: $community-color; }
       &.art-gaming { background: $art-gaming-color; }
     }
-  }
-}
-
-
-.apply-button, .donate-button {
-  background: yellow;
-  &:hover { background: yellow; }
-}
-
-.button, .get-tickets {
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 22px;
-  background: white;
-  border: 2px solid black;
-  padding: 5px 20px;
-  font-weight: 500;
-  font-family: "Roboto", san-serif;
-  a { text-decoration: none; }
-  &:hover {
-    background: yellow;
-    a { color: black; font-weight: 900; }
   }
 }
 

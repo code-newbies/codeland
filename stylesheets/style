@@ -5,6 +5,38 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+.apply-button, .donate-button {
+  background: yellow; }
+  .apply-button:hover, .donate-button:hover {
+    background: yellow; }
+
+.button, .get-tickets {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 22px;
+  background: white;
+  border: 2px solid black;
+  padding: 5px 20px;
+  font-weight: 500;
+  font-family: "Roboto", san-serif; }
+  .button a, .get-tickets a {
+    text-decoration: none; }
+  .button:hover, .get-tickets:hover {
+    background: yellow; }
+    .button:hover a, .get-tickets:hover a {
+      color: black;
+      font-weight: 900; }
+
+.recap-link {
+  color: white;
+  background: black;
+  font-size: 14px;
+  margin-right: 20px;
+  margin-top: 20px;
+  text-decoration: none; }
+  .recap-link:hover {
+    font-weight: 900; }
+
 header {
   background-image: url("../images/geometry3.png");
   padding: 5% 20px;
@@ -538,6 +570,46 @@ nav {
       width: 100%; }
       .program-extra:last-child {
         margin-right: 0; } }
+
+#recap {
+  background: #F8E71C; }
+
+.recap-items {
+  display: flex;
+  align-items: stretch; }
+  @media only screen and (max-width: 800px) {
+    .recap-items {
+      display: block; } }
+
+.recap-item {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  background: white;
+  padding: 20px 30px;
+  position: relative; }
+  .recap-item:last-child {
+    margin-right: 0; }
+  @media only screen and (max-width: 800px) {
+    .recap-item {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-bottom: 20px; }
+      .recap-item:last-child {
+        margin-right: 0; } }
+  .recap-item-cta {
+    position: absolute;
+    bottom: 20px; }
+  .recap-item-title {
+    font-weight: 900;
+    margin: 0px;
+    margin-bottom: 10px;
+    text-align: left; }
+  .recap-item p {
+    margin-bottom: 50px; }
 
 .scholarship {
   background: #f8f8f8; }
@@ -1153,28 +1225,6 @@ h5 {
       background: #00ff00; }
     .topics .boxed .box-shadow.art-gaming {
       background: #fc2eff; }
-
-.apply-button, .donate-button {
-  background: yellow; }
-  .apply-button:hover, .donate-button:hover {
-    background: yellow; }
-
-.button, .get-tickets {
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 22px;
-  background: white;
-  border: 2px solid black;
-  padding: 5px 20px;
-  font-weight: 500;
-  font-family: "Roboto", san-serif; }
-  .button a, .get-tickets a {
-    text-decoration: none; }
-  .button:hover, .get-tickets:hover {
-    background: yellow; }
-    .button:hover a, .get-tickets:hover a {
-      color: black;
-      font-weight: 900; }
 
 article {
   max-width: 1200px;
