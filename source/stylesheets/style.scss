@@ -1,3 +1,11 @@
+$neon: #0de846;
+$dark-neon: #05ba34;
+
+$main: $neon;
+$main-text: $dark-neon;
+
+$main-font: "Open Sans";
+
 $blue: #4d94ff;
 $yellow: #fffd2e;
 $green: #00ff00;
@@ -57,10 +65,6 @@ body {
   border-bottom: 30px solid black;
 }
 a { color: inherit; }
-a:hover {
-  background: $yellow;
-  color: black;
-}
 a span { font-family: "Roboto"; }
 p, li {
   font-size: 18px;

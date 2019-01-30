@@ -3,7 +3,6 @@ nav {
   position: fixed;
   top: 0px;
   width: 100%;
-  background: $yellow;
   z-index: 9999999999;
 
   &.main-nav {
@@ -22,14 +21,14 @@ nav {
         &::after {
           content: "•";
           padding: 0px 10px;
-          color: black;
+          color: $main;
         }
         &:last-child::after { content: none; }
         &:hover {
           color: black;
           li {
-            background: white;
             color: black;
+            border-bottom: 2px solid $main;
           }
         }
       }

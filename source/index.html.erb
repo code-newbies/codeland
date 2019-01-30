@@ -1,37 +1,25 @@
 <%= partial "layouts/nav" %>
-<%= partial "layouts/header" %>
-<%= partial "layouts/recap" %>
-<%= partial "layouts/overview" %>
-<%= partial "layouts/testimonial" %>
+<header>
+  <h1 class="new-font">Codeland</h1>
+  <h2 class="subhead">Summer 2019</h2>
+</header>
+<style>
+  .new-font {
+    font-family: "Ribeye Marrow";
+    font-size: 48px;
+    color: $main;
+    background: $main;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .subhead {
+    font-family: "Lato";
+    font-size: 24px;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+</style>
+
 <%= partial "layouts/love" %>
-<%= partial "layouts/speakers" %>
-<%= partial "layouts/program_details" %>
-<%= partial "layouts/program_extras" %>
-<%= partial "layouts/schedule" %>
-<%= partial "layouts/scholarship_os" %>
-<%= partial "layouts/sponsors" %>
-<section id="hotel-venue" class="hotel-venue wrapper">
-  <div class="hotel-venue__map">
-    <iframe id="venue" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2429657327957!2d-73.99183758459368!3d40.75668057932708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25856e81cdc7d%3a0xcb6b70d1bb597301!2smicrosoft+technology+center!5e0!3m2!1sen!2sus!4v1477978726480"
-      width="100%" height="300" frameborder="0" style="border:0"
-      allowfullscreen></iframe>
-  </div>
-  <div class="hotel-venue__hotel">
-    <h2>Where to stay</h2>
-    <p>
-      If you're in town for the conference and need a place to stay, checkout
-      the following hotels. 
-      <ul>
-        <a target="_blank"
-        href="http://doubletree3.hilton.com/en/hotels/new-york/doubletree-by-hilton-hotel-new-york-times-square-west-NYCSWDT/index.html"><li>DoubleTree
-        by Hilton New York Times Square West</li></a>
-        <a target="_blank"
-        href="https://www.ihg.com/candlewood/hotels/us/en/new-york/nyccw/hoteldetail#map-dir"><li>Candelwood Suites Times Square</li></a>
-        <a target="_blank"
-        href="http://doubletree3.hilton.com/en/hotels/new-york/doubletree-by-hilton-hotel-new-york-times-square-west-NYCSWDT/index.html"><li>Holiday Inn Express Times Square</li></a>
-      </ul>
-    </p>
-  </div>
-</section>
 <%= partial "layouts/footer" %>
 <%= partial "layouts/mailchimp_signup" %>

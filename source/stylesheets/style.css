@@ -38,7 +38,6 @@ html {
     font-weight: 900; }
 
 header {
-  background-image: url("../images/geometry3.png");
   padding: 5% 20px;
   padding-top: 130px;
   text-align: center; }
@@ -198,9 +197,9 @@ header {
   .mailchimp-signup #mc_embed_signup {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 65.88078%;
-    margin-left: 17.05961%;
+    margin-right: 2.3576520234%;
+    width: 65.8807826589%;
+    margin-left: 17.0596086706%;
     padding: 20px 40px 30px;
     text-align: center; }
     .mailchimp-signup #mc_embed_signup:last-child {
@@ -215,8 +214,8 @@ header {
     .mailchimp-signup #mc_embed_signup input.email {
       float: left;
       display: block;
-      margin-right: 2.35765%;
-      width: 65.88078%;
+      margin-right: 2.3576520234%;
+      width: 65.8807826589%;
       height: 50px;
       border: 2px solid black;
       font-size: 16px; }
@@ -231,8 +230,8 @@ header {
     .mailchimp-signup #mc_embed_signup .button {
       float: left;
       display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%;
+      margin-right: 2.3576520234%;
+      width: 31.7615653177%;
       box-shadow: none;
       height: 50px;
       border-radius: 0;
@@ -255,9 +254,9 @@ header {
     .mailchimp-signup #mc_embed_signup {
       float: left;
       display: block;
-      margin-right: 2.35765%;
-      width: 82.94039%;
-      margin-left: 8.5298%;
+      margin-right: 2.3576520234%;
+      width: 82.9403913294%;
+      margin-left: 8.5298043353%;
       padding: 2px 4px 3px; }
       .mailchimp-signup #mc_embed_signup:last-child {
         margin-right: 0; } }
@@ -265,7 +264,7 @@ header {
     .mailchimp-signup #mc_embed_signup {
       float: left;
       display: block;
-      margin-right: 2.35765%;
+      margin-right: 2.3576520234%;
       width: 100%;
       margin-left: 0%;
       padding: 2px 4px 3px; }
@@ -274,7 +273,7 @@ header {
       .mailchimp-signup #mc_embed_signup input.email {
         float: left;
         display: block;
-        margin-right: 2.35765%;
+        margin-right: 2.3576520234%;
         width: 100%;
         text-align: center;
         margin-bottom: 10px; }
@@ -283,7 +282,7 @@ header {
       .mailchimp-signup #mc_embed_signup .button {
         float: left;
         display: block;
-        margin-right: 2.35765%;
+        margin-right: 2.3576520234%;
         width: 100%;
         padding: 5px 10px;
         margin-bottom: 20px; }
@@ -294,7 +293,6 @@ nav {
   position: fixed;
   top: 0px;
   width: 100%;
-  background: #F8E71C;
   z-index: 9999999999; }
   nav .mobile-home {
     display: none; }
@@ -313,14 +311,14 @@ nav {
         nav .main-nav ul a::after {
           content: "•";
           padding: 0px 10px;
-          color: black; }
+          color: #0de846; }
         nav .main-nav ul a:last-child::after {
           content: none; }
         nav .main-nav ul a:hover {
           color: black; }
           nav .main-nav ul a:hover li {
-            background: white;
-            color: black; }
+            color: black;
+            border-bottom: 2px solid #0de846; }
       nav .main-nav ul li {
         color: black;
         display: inline-block;
@@ -397,38 +395,38 @@ nav {
   .photo-panel .group-photo, .photo-panel .reasons-to-come {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%; }
+    margin-right: 2.3576520234%;
+    width: 48.8211739883%; }
     .photo-panel .group-photo:last-child, .photo-panel .reasons-to-come:last-child {
       margin-right: 0; }
   @media only screen and (max-width: 1300px) {
     .photo-panel .group-photo {
       float: left;
       display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
+      margin-right: 2.3576520234%;
+      width: 31.7615653177%; }
       .photo-panel .group-photo:last-child {
         margin-right: 0; }
     .photo-panel .reasons-to-come {
       float: left;
       display: block;
-      margin-right: 2.35765%;
-      width: 65.88078%; }
+      margin-right: 2.3576520234%;
+      width: 65.8807826589%; }
       .photo-panel .reasons-to-come:last-child {
         margin-right: 0; } }
   @media only screen and (max-width: 1000px) {
     .photo-panel .group-photo {
       float: left;
       display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
+      margin-right: 2.3576520234%;
+      width: 14.7019566472%; }
       .photo-panel .group-photo:last-child {
         margin-right: 0; }
     .photo-panel .reasons-to-come {
       float: left;
       display: block;
-      margin-right: 2.35765%;
-      width: 82.94039%; }
+      margin-right: 2.3576520234%;
+      width: 82.9403913294%; }
       .photo-panel .reasons-to-come:last-child {
         margin-right: 0; } }
   @media only screen and (max-width: 800px) {
@@ -437,14 +435,14 @@ nav {
       .photo-panel .group-photo {
         float: left;
         display: block;
-        margin-right: 2.35765%;
+        margin-right: 2.3576520234%;
         width: 100%; }
         .photo-panel .group-photo:last-child {
           margin-right: 0; }
       .photo-panel .reasons-to-come {
         float: left;
         display: block;
-        margin-right: 2.35765%;
+        margin-right: 2.3576520234%;
         width: 100%;
         padding-top: 20px;
         padding-bottom: 20px; }
@@ -487,8 +485,8 @@ nav {
   .program-list {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%; }
+    margin-right: 2.3576520234%;
+    width: 48.8211739883%; }
     .program-list:last-child {
       margin-right: 0; }
     .program-list a {
@@ -524,7 +522,7 @@ nav {
       .program-list {
         float: left;
         display: block;
-        margin-right: 2.35765%;
+        margin-right: 2.3576520234%;
         width: 100%; }
         .program-list:last-child {
           margin-right: 0; } }
@@ -549,8 +547,8 @@ nav {
 .program-extra {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%;
+  margin-right: 2.3576520234%;
+  width: 48.8211739883%;
   background: white;
   color: black;
   padding: 10px 30px; }
@@ -566,7 +564,7 @@ nav {
     .program-extra {
       float: left;
       display: block;
-      margin-right: 2.35765%;
+      margin-right: 2.3576520234%;
       width: 100%; }
       .program-extra:last-child {
         margin-right: 0; } }
@@ -584,8 +582,8 @@ nav {
 .recap-item {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%;
+  margin-right: 2.3576520234%;
+  width: 31.7615653177%;
   background: white;
   padding: 20px 30px;
   position: relative; }
@@ -595,7 +593,7 @@ nav {
     .recap-item {
       float: left;
       display: block;
-      margin-right: 2.35765%;
+      margin-right: 2.3576520234%;
       width: 100%;
       margin-bottom: 20px; }
       .recap-item:last-child {
@@ -621,8 +619,8 @@ nav {
   .scholarship .scholarship-application, .scholarship .scholarship-donate {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%;
+    margin-right: 2.3576520234%;
+    width: 48.8211739883%;
     padding: 30px 40px;
     border: 5px solid #F8E71C; }
     .scholarship .scholarship-application:last-child, .scholarship .scholarship-donate:last-child {
@@ -643,7 +641,7 @@ nav {
     .scholarship .scholarship-application, .scholarship .scholarship-donate {
       float: left;
       display: block;
-      margin-right: 2.35765%;
+      margin-right: 2.3576520234%;
       width: 100%;
       margin-bottom: 10px; }
       .scholarship .scholarship-application:last-child, .scholarship .scholarship-donate:last-child {
@@ -680,8 +678,8 @@ nav {
   .speaker-page .speaker-profile img {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%; }
+    margin-right: 2.3576520234%;
+    width: 23.2317609825%; }
     .speaker-page .speaker-profile img:last-child {
       margin-right: 0; }
   .speaker-page .speaker-profile h5 {
@@ -690,8 +688,8 @@ nav {
   .speaker-page .speaker-profile .speaker-profile-info {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 74.41059%; }
+    margin-right: 2.3576520234%;
+    width: 74.4105869942%; }
     .speaker-page .speaker-profile .speaker-profile-info:last-child {
       margin-right: 0; }
     .speaker-page .speaker-profile .speaker-profile-info h2 {
@@ -715,7 +713,7 @@ nav {
   .speaker-page .speaker-profile div.speaker-profile-info {
     float: left;
     display: block;
-    margin-right: 2.35765%;
+    margin-right: 2.3576520234%;
     width: 100%; }
     .speaker-page .speaker-profile div.speaker-profile-info:last-child {
       margin-right: 0; } }
@@ -732,8 +730,8 @@ nav {
   .schedule .schedule-day {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%; }
+    margin-right: 2.3576520234%;
+    width: 48.8211739883%; }
     .schedule .schedule-day:last-child {
       margin-right: 0; }
   .schedule .schedule-item {
@@ -799,7 +797,7 @@ nav {
     .schedule .schedule-day {
       float: left;
       display: block;
-      margin-right: 2.35765%;
+      margin-right: 2.3576520234%;
       width: 100%; }
       .schedule .schedule-day:last-child {
         margin-right: 0; } }
@@ -832,15 +830,15 @@ nav {
 .left-panel {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 65.88078%; }
+  margin-right: 2.3576520234%;
+  width: 65.8807826589%; }
   .left-panel:last-child {
     margin-right: 0; }
   @media only screen and (max-width: 800px) {
     .left-panel {
       float: left;
       display: block;
-      margin-right: 2.35765%;
+      margin-right: 2.3576520234%;
       width: 100%; }
       .left-panel:last-child {
         margin-right: 0; } }
@@ -848,15 +846,15 @@ nav {
 .right-panel {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%; }
+  margin-right: 2.3576520234%;
+  width: 31.7615653177%; }
   .right-panel:last-child {
     margin-right: 0; }
   @media only screen and (max-width: 800px) {
     .right-panel {
       float: left;
       display: block;
-      margin-right: 2.35765%;
+      margin-right: 2.3576520234%;
       width: 100%; }
       .right-panel:last-child {
         margin-right: 0; } }
@@ -898,7 +896,7 @@ nav {
   margin: 0 auto;
   float: left;
   display: block;
-  margin-right: 2.35765%;
+  margin-right: 2.3576520234%;
   width: 100%; }
   .sponsor-list::after {
     clear: both;
@@ -1017,8 +1015,8 @@ nav {
   .tickets-info .ticket {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%;
+    margin-right: 2.3576520234%;
+    width: 31.7615653177%;
     padding: 0px 10px;
     text-align: center; }
     .tickets-info .ticket:last-child {
@@ -1061,8 +1059,8 @@ nav {
     .tickets-info .tickets-explanation-header {
       float: left;
       display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%;
+      margin-right: 2.3576520234%;
+      width: 23.2317609825%;
       margin: 0px;
       background: white;
       padding: 20px 30px;
@@ -1072,8 +1070,8 @@ nav {
     .tickets-info .tickets-explanation-details {
       float: left;
       display: block;
-      margin-right: 2.35765%;
-      width: 74.41059%;
+      margin-right: 2.3576520234%;
+      width: 74.4105869942%;
       padding: 20px; }
       .tickets-info .tickets-explanation-details:last-child {
         margin-right: 0; }
@@ -1090,7 +1088,7 @@ nav {
       .tickets-info .tickets-explanation-header {
         float: left;
         display: block;
-        margin-right: 2.35765%;
+        margin-right: 2.3576520234%;
         width: 100%;
         border: 2px solid #eee;
         border-bottom: none; }
@@ -1099,7 +1097,7 @@ nav {
       .tickets-info .tickets-explanation-details {
         float: left;
         display: block;
-        margin-right: 2.35765%;
+        margin-right: 2.3576520234%;
         width: 100%;
         border: 2px solid #eee;
         border-top: none; }
@@ -1117,15 +1115,15 @@ nav {
   .hotel-venue__map, .hotel-venue__hotel {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%; }
+    margin-right: 2.3576520234%;
+    width: 48.8211739883%; }
     .hotel-venue__map:last-child, .hotel-venue__hotel:last-child {
       margin-right: 0; }
     @media only screen and (max-width: 700px) {
       .hotel-venue__map, .hotel-venue__hotel {
         float: left;
         display: block;
-        margin-right: 2.35765%;
+        margin-right: 2.3576520234%;
         width: 100%; }
         .hotel-venue__map:last-child, .hotel-venue__hotel:last-child {
           margin-right: 0; } }
@@ -1164,10 +1162,6 @@ body {
 
 a {
   color: inherit; }
-
-a:hover {
-  background: #F8E71C;
-  color: black; }
 
 a span {
   font-family: "Roboto"; }
@@ -1239,24 +1233,24 @@ article {
   article.program {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%; }
+    margin-right: 2.3576520234%;
+    width: 48.8211739883%; }
     article.program:last-child {
       margin-right: 0; }
   article.conference-pitch {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 65.88078%;
-    margin-left: 17.05961%;
+    margin-right: 2.3576520234%;
+    width: 65.8807826589%;
+    margin-left: 17.0596086706%;
     text-align: center; }
     article.conference-pitch:last-child {
       margin-right: 0; }
   article.ticket {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%;
+    margin-right: 2.3576520234%;
+    width: 31.7615653177%;
     padding-bottom: 20px;
     text-align: center; }
     article.ticket:last-child {
@@ -1279,17 +1273,17 @@ article {
     text-align: center;
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 82.94039%;
-    margin-left: 8.5298%; }
+    margin-right: 2.3576520234%;
+    width: 82.9403913294%;
+    margin-left: 8.5298043353%; }
     article.buy-tickets:last-child {
       margin-right: 0; }
   article.ticket-explainer {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 82.94039%;
-    margin-left: 8.5298%;
+    margin-right: 2.3576520234%;
+    width: 82.9403913294%;
+    margin-left: 8.5298043353%;
     text-align: center; }
     article.ticket-explainer:last-child {
       margin-right: 0; }
@@ -1396,8 +1390,8 @@ article {
   .program-item .talk-meta {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 14.70196%; }
+    margin-right: 2.3576520234%;
+    width: 14.7019566472%; }
     .program-item .talk-meta:last-child {
       margin-right: 0; }
     .program-item .talk-meta img {
@@ -1414,8 +1408,8 @@ article {
     display: inline-block;
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 82.94039%;
+    margin-right: 2.3576520234%;
+    width: 82.9403913294%;
     padding-right: 10px; }
     .program-item .program-item-summary:last-child {
       margin-right: 0; }
@@ -1424,14 +1418,14 @@ article {
     .program-item .program-item-summary .talk-header {
       float: left;
       display: block;
-      margin-right: 2.35765%;
+      margin-right: 2.3576520234%;
       width: 100%; }
       .program-item .program-item-summary .talk-header:last-child {
         margin-right: 0; }
   .program-item .program-item-summary.panel {
     float: left;
     display: block;
-    margin-right: 2.35765%;
+    margin-right: 2.3576520234%;
     width: 100%; }
     .program-item .program-item-summary.panel:last-child {
       margin-right: 0; }
@@ -1456,8 +1450,8 @@ article {
 .speaker {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 14.70196%;
+  margin-right: 2.3576520234%;
+  width: 14.7019566472%;
   background: #F8E71C;
   margin-bottom: 10px;
   position: relative; }
@@ -1498,15 +1492,15 @@ footer {
   footer .about-codenewbie {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 65.88078%; }
+    margin-right: 2.3576520234%;
+    width: 65.8807826589%; }
     footer .about-codenewbie:last-child {
       margin-right: 0; }
   footer .sponsorship {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%; }
+    margin-right: 2.3576520234%;
+    width: 31.7615653177%; }
     footer .sponsorship:last-child {
       margin-right: 0; }
 
@@ -1565,8 +1559,8 @@ footer {
   .speaker {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%; }
+    margin-right: 2.3576520234%;
+    width: 23.2317609825%; }
     .speaker:last-child {
       margin-right: 0; }
     .speaker:nth-child(6n+1) {
@@ -1579,8 +1573,8 @@ footer {
   .speaker {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%; }
+    margin-right: 2.3576520234%;
+    width: 31.7615653177%; }
     .speaker:last-child {
       margin-right: 0; }
     .speaker:nth-child(4n+1) {
@@ -1597,7 +1591,7 @@ footer {
   .program-item .program-item-summary {
     float: left;
     display: block;
-    margin-right: 2.35765%;
+    margin-right: 2.3576520234%;
     width: 100%;
     padding: 10px; }
     .program-item .program-item-summary:last-child {
@@ -1617,7 +1611,7 @@ footer {
   article.ticket, article.ticket-explainer {
     float: left;
     display: block;
-    margin-right: 2.35765%;
+    margin-right: 2.3576520234%;
     width: 100%;
     margin-left: 0%; }
     article.ticket:last-child, article.ticket-explainer:last-child {
@@ -1639,7 +1633,7 @@ footer {
   article.program {
     float: left;
     display: block;
-    margin-right: 2.35765%;
+    margin-right: 2.3576520234%;
     width: 100%; }
     article.program:last-child {
       margin-right: 0; }
@@ -1657,7 +1651,7 @@ footer {
   footer .about-codenewbie {
     float: left;
     display: block;
-    margin-right: 2.35765%;
+    margin-right: 2.3576520234%;
     width: 100%; }
     footer .about-codenewbie:last-child {
       margin-right: 0; }
@@ -1665,7 +1659,7 @@ footer {
   footer .sponsorship {
     float: left;
     display: block;
-    margin-right: 2.35765%;
+    margin-right: 2.3576520234%;
     width: 100%; }
     footer .sponsorship:last-child {
       margin-right: 0; }
@@ -1673,16 +1667,16 @@ footer {
   article.conference-pitch {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 82.94039%;
-    margin-left: 8.5298%; }
+    margin-right: 2.3576520234%;
+    width: 82.9403913294%;
+    margin-left: 8.5298043353%; }
     article.conference-pitch:last-child {
       margin-right: 0; } }
 @media only screen and (max-width: 600px) {
   .full-program .day-one, .full-program .day-two {
     float: left;
     display: block;
-    margin-right: 2.35765%;
+    margin-right: 2.3576520234%;
     width: 100%; }
     .full-program .day-one:last-child, .full-program .day-two:last-child {
       margin-right: 0; }
