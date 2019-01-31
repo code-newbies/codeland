@@ -1,8 +1,10 @@
 $neon: #0de846;
 $dark-neon: #05ba34;
+$light-neon: #16fa51;
 
 $main: $neon;
-$main-text: $dark-neon;
+$main-dark: $dark-neon;
+$main-light: $light-neon;
 
 $main-font: "Open Sans";
 
@@ -33,6 +35,7 @@ $city-life-color: $light-blue;
 @import "lib/_neat/neat";
 
 @import "lib/_buttons";
+@import "lib/_footer";
 @import "lib/_header";
 @import "lib/_love";
 @import "lib/_mailchimp_signup";
@@ -62,7 +65,7 @@ body {
   margin: 0px;
   margin-top: -30px;
   padding-top: 80px;
-  border-bottom: 30px solid black;
+  border-bottom: 30px solid $main;
 }
 a { color: inherit; }
 a span { font-family: "Roboto"; }
@@ -70,6 +73,21 @@ p, li {
   font-size: 18px;
   font-family: "Helvetica";
 }
+
+.logo {
+  font-family: "Ribeye Marrow";
+  font-size: 48px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.logo--subheading {
+  font-family: "Lato";
+  font-size: 24px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
 h2 {
   font-size: 36px;
   font-weight: 900;
@@ -335,18 +353,6 @@ article {
   }
 }
 
-
-footer {
-  &.wrapper {
-    margin-bottom: 0px;
-    padding-top: 40px;
-    padding-bottom: 60px;
-  }
-  background: $lightgray;
-  .about-codenewbie { @include span-columns(8); }
-  .sponsorship { @include span-columns(4); }
-}
-
 .boxed {
   margin-top: 10px;
   text-align: left;
@@ -451,8 +457,6 @@ footer {
   }
   h2 { font-size: 22px; }
   h2.conference-description { font-size: 18px; }
-  footer .about-codenewbie { @include span-columns(12); }
-  footer .sponsorship { @include span-columns(12); }
   article {
     &.conference-pitch {
     @include span-columns(10);

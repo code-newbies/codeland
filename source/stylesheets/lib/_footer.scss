@@ -1,0 +1,48 @@
+footer {
+  background: $lightgray;
+
+  .footer--content {
+    font-family: "Open Sans";
+  }
+
+  .footer--header {
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .footer--links {
+    text-align: center;
+  }
+
+  .footer--link {
+    border-right: 1px solid $gray;
+    font-family: "Lato", "san serif";
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 30px;
+    text-decoration: none;
+
+    &:last-child {
+      border-right: none;
+    }
+
+    &:hover {
+      color: $main-dark;
+    }
+  }
+
+  &.wrapper {
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .about-codenewbie { @include span-columns(8); }
+  .sponsorship { @include span-columns(4); }
+}
+
+@media only screen and (max-width: 800px){
+  footer .about-codenewbie { @include span-columns(12); }
+  footer .sponsorship { @include span-columns(12); }
+}

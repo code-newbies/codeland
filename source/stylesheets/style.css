@@ -37,7 +37,68 @@ html {
   .recap-link:hover {
     font-weight: 900; }
 
+footer {
+  background: #f8f8f8; }
+  footer .footer--content {
+    font-family: "Open Sans"; }
+  footer .footer--header {
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-transform: uppercase; }
+  footer .footer--links {
+    text-align: center; }
+  footer .footer--link {
+    border-right: 1px solid #c9c9c9;
+    font-family: "Lato", "san serif";
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 30px;
+    text-decoration: none; }
+    footer .footer--link:last-child {
+      border-right: none; }
+    footer .footer--link:hover {
+      color: #05ba34; }
+  footer.wrapper {
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 60px; }
+  footer .about-codenewbie {
+    float: left;
+    display: block;
+    margin-right: 2.3576520234%;
+    width: 65.8807826589%; }
+    footer .about-codenewbie:last-child {
+      margin-right: 0; }
+  footer .sponsorship {
+    float: left;
+    display: block;
+    margin-right: 2.3576520234%;
+    width: 31.7615653177%; }
+    footer .sponsorship:last-child {
+      margin-right: 0; }
+
+@media only screen and (max-width: 800px) {
+  footer .about-codenewbie {
+    float: left;
+    display: block;
+    margin-right: 2.3576520234%;
+    width: 100%; }
+    footer .about-codenewbie:last-child {
+      margin-right: 0; }
+
+  footer .sponsorship {
+    float: left;
+    display: block;
+    margin-right: 2.3576520234%;
+    width: 100%; }
+    footer .sponsorship:last-child {
+      margin-right: 0; } }
 header {
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1000px;
   padding: 5% 20px;
   padding-top: 130px;
   text-align: center; }
@@ -188,7 +249,8 @@ header {
 
 .mailchimp-signup {
   display: block;
-  background: black;
+  background: white;
+  border-top: #c9c9c9;
   padding-top: 30px; }
   .mailchimp-signup::after {
     clear: both;
@@ -218,14 +280,17 @@ header {
       width: 65.8807826589%;
       height: 50px;
       border: 2px solid black;
-      font-size: 16px; }
+      font-size: 16px;
+      padding: 0px 20px; }
       .mailchimp-signup #mc_embed_signup input.email:last-child {
         margin-right: 0; }
+      .mailchimp-signup #mc_embed_signup input.email::placeholder {
+        color: black; }
     .mailchimp-signup #mc_embed_signup label {
       display: block;
       font-size: 20px;
       color: white;
-      font-family: "Roboto";
+      font-family: "Lato", "san serif";
       padding: 60px 10px 10px; }
     .mailchimp-signup #mc_embed_signup .button {
       float: left;
@@ -235,11 +300,10 @@ header {
       box-shadow: none;
       height: 50px;
       border-radius: 0;
-      background: #00ff00;
-      border: 2px solid black;
+      background: #0de846;
       color: black;
       text-transform: uppercase;
-      font-family: "Roboto";
+      font-family: "Lato";
       font-size: 18px;
       font-weight: 900;
       padding: 0px 30px;
@@ -249,7 +313,7 @@ header {
       .mailchimp-signup #mc_embed_signup .button:last-child {
         margin-right: 0; }
     .mailchimp-signup #mc_embed_signup .button:hover {
-      background: #F8E71C; }
+      background: #16fa51; }
   @media only screen and (min-width: 750px) and (max-width: 900px) {
     .mailchimp-signup #mc_embed_signup {
       float: left;
@@ -290,6 +354,7 @@ header {
           margin-right: 0; } }
 
 nav {
+  background: white;
   position: fixed;
   top: 0px;
   width: 100%;
@@ -1158,7 +1223,7 @@ body {
   margin: 0px;
   margin-top: -30px;
   padding-top: 80px;
-  border-bottom: 30px solid black; }
+  border-bottom: 30px solid #0de846; }
 
 a {
   color: inherit; }
@@ -1169,6 +1234,18 @@ a span {
 p, li {
   font-size: 18px;
   font-family: "Helvetica"; }
+
+.logo {
+  font-family: "Ribeye Marrow";
+  font-size: 48px;
+  padding-bottom: 0px;
+  margin-bottom: 0px; }
+
+.logo--subheading {
+  font-family: "Lato";
+  font-size: 24px;
+  padding-top: 0px;
+  margin-top: 0px; }
 
 h2 {
   font-size: 36px;
@@ -1483,27 +1560,6 @@ article {
     .speaker a:hover .speaker-title {
       background: black; }
 
-footer {
-  background: #f8f8f8; }
-  footer.wrapper {
-    margin-bottom: 0px;
-    padding-top: 40px;
-    padding-bottom: 60px; }
-  footer .about-codenewbie {
-    float: left;
-    display: block;
-    margin-right: 2.3576520234%;
-    width: 65.8807826589%; }
-    footer .about-codenewbie:last-child {
-      margin-right: 0; }
-  footer .sponsorship {
-    float: left;
-    display: block;
-    margin-right: 2.3576520234%;
-    width: 31.7615653177%; }
-    footer .sponsorship:last-child {
-      margin-right: 0; }
-
 .boxed {
   margin-top: 10px;
   text-align: left;
@@ -1647,22 +1703,6 @@ footer {
 
   h2.conference-description {
     font-size: 18px; }
-
-  footer .about-codenewbie {
-    float: left;
-    display: block;
-    margin-right: 2.3576520234%;
-    width: 100%; }
-    footer .about-codenewbie:last-child {
-      margin-right: 0; }
-
-  footer .sponsorship {
-    float: left;
-    display: block;
-    margin-right: 2.3576520234%;
-    width: 100%; }
-    footer .sponsorship:last-child {
-      margin-right: 0; }
 
   article.conference-pitch {
     float: left;
