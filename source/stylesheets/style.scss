@@ -1,10 +1,12 @@
 $neon: #0de846;
 $dark-neon: #05ba34;
 $light-neon: #16fa51;
+$lighter-neon: #65fc8c;
 
 $main: $neon;
 $main-dark: $dark-neon;
 $main-light: $light-neon;
+$main-highlight: $lighter-neon;
 
 $hot-pink: #ff01ff;
 
@@ -37,6 +39,7 @@ $city-life-color: $light-blue;
 
 @import "lib/_buttons";
 @import "lib/_callout";
+@import "lib/_cta";
 @import "lib/_footer";
 @import "lib/_header";
 @import "lib/_love";

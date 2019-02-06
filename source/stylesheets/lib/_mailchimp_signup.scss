@@ -38,7 +38,7 @@
       box-shadow: none;
       height: 50px;
       border-radius: 5px;
-      background: $main;
+      background: $main-light;
       color: black;
       text-transform: uppercase;
       font-family: "Lato";
@@ -50,7 +50,7 @@
       -webkit-appearance: none;
     }
     .button:hover {
-      background: $main-light;
+      background: $main-highlight;
     }
   }
   @media only screen and (min-width: 750px) and (max-width: 900px) {

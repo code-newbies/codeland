@@ -6,8 +6,17 @@
   a { text-decoration: none; }
 }
 
+.callout--list {
+  padding-left: 20px;
+}
+
+.callout--list--item {
+  margin-bottom: 5px;
+}
+
 .callout--title {
   font-family: "Open Sans";
+  margin: 0px;
 }
 
 .callout--small-print {
@@ -16,9 +25,19 @@
 
 .ticket-information {
   display: grid;
+
   grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  padding: 100px 0px;
+
 
   .callout {
-    margin: auto;
+    justify-self: left;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .callout--aside {
+    justify-self: right;
   }
 }

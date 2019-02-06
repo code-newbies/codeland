@@ -44,17 +44,42 @@ html {
   .callout a {
     text-decoration: none; }
 
+.callout--list {
+  padding-left: 20px; }
+
+.callout--list--item {
+  margin-bottom: 5px; }
+
 .callout--title {
-  font-family: "Open Sans"; }
+  font-family: "Open Sans";
+  margin: 0px; }
 
 .callout--small-print {
   font-size: 16px; }
 
 .ticket-information {
   display: grid;
-  grid-template-columns: 1fr 1fr; }
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  padding: 100px 0px; }
   .ticket-information .callout {
-    margin: auto; }
+    justify-self: left;
+    margin: 0px;
+    padding: 0px; }
+  .ticket-information .callout--aside {
+    justify-self: right; }
+
+.cta {
+  text-decoration: none; }
+  .cta--get-ticket {
+    background: #16fa51;
+    display: inline-block;
+    font-family: "Lato", "Helvetica", "san serif";
+    font-weight: 900;
+    padding: 10px 20px;
+    text-transform: uppercase; }
+    .cta--get-ticket:hover {
+      background: #65fc8c; }
 
 footer {
   background: #f8f8f8; }
@@ -350,7 +375,7 @@ header {
       box-shadow: none;
       height: 50px;
       border-radius: 5px;
-      background: #0de846;
+      background: #16fa51;
       color: black;
       text-transform: uppercase;
       font-family: "Lato";
@@ -363,7 +388,7 @@ header {
       .mailchimp-signup #mc_embed_signup .button:last-child {
         margin-right: 0; }
     .mailchimp-signup #mc_embed_signup .button:hover {
-      background: #16fa51; }
+      background: #65fc8c; }
   @media only screen and (min-width: 750px) and (max-width: 900px) {
     .mailchimp-signup #mc_embed_signup {
       float: left;
@@ -1156,7 +1181,8 @@ nav {
 .early-bird--price {
   font-size: 42px;
   font-weight: 400;
-  margin-top: 0px; }
+  margin-top: 0px;
+  margin-bottom: 20px; }
 
 .early-bird--reg-price {
   color: gray;
@@ -1167,7 +1193,7 @@ nav {
 .ticket-info {
   background: white;
   border: 5px solid black;
-  padding: 20px; }
+  padding: 40px 20px; }
 
 .tickets-info {
   background: #f8f8f8; }
