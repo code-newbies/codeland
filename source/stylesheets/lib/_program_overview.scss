@@ -44,16 +44,31 @@
 
 .group-photo img {
   max-width: 800px;
+
+  @media only screen and (max-width: 800px){
+    max-width: unset;
+    width: 100%;
+  }
 }
 
 .program-overview--grid {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr minmax(500px, 1fr);
   grid-gap: 30px;
+
+  @media only screen and (max-width: 800px){
+    display: block;
+  }
 }
 
 .program-overview--body {
   padding-right: 150px;
+
+  @media only screen and (max-width: 800px){
+    padding: 50px 80px;
+  }
+  @media only screen and (max-width: 500px){
+  }
 }
 
 .talking-points--item {

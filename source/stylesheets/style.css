@@ -62,10 +62,20 @@ html {
   grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
   padding: 100px 0px; }
+  @media only screen and (max-width: 800px) {
+    .ticket-information {
+      padding: 30px; } }
+  @media only screen and (max-width: 500px) {
+    .ticket-information {
+      display: block; } }
   .ticket-information .callout {
     justify-self: left;
     margin: 0px;
     padding: 0px; }
+    @media only screen and (max-width: 500px) {
+      .ticket-information .callout {
+        margin: 0 auto;
+        text-align: center; } }
   .ticket-information .callout--aside {
     justify-self: right; }
 
@@ -351,8 +361,8 @@ header {
       margin-right: 2.3576520234%;
       width: 65.8807826589%;
       height: 50px;
-      border: 3px solid black;
-      border-radius: 5px;
+      border: 5px solid black;
+      border-radius: 0px;
       font-size: 16px;
       padding: 0px 20px; }
       .mailchimp-signup #mc_embed_signup input.email:last-child {
@@ -374,7 +384,7 @@ header {
       width: 31.7615653177%;
       box-shadow: none;
       height: 50px;
-      border-radius: 5px;
+      border-radius: 0px;
       background: #16fa51;
       color: black;
       text-transform: uppercase;
@@ -389,7 +399,7 @@ header {
         margin-right: 0; }
     .mailchimp-signup #mc_embed_signup .button:hover {
       background: #65fc8c; }
-  @media only screen and (min-width: 750px) and (max-width: 900px) {
+  @media only screen and (min-width: 750px) and (max-width: 1200px) {
     .mailchimp-signup #mc_embed_signup {
       float: left;
       display: block;
@@ -532,62 +542,9 @@ nav {
     clear: both;
     content: "";
     display: block; }
-  .photo-panel .group-photo, .photo-panel .reasons-to-come {
-    float: left;
-    display: block;
-    margin-right: 2.3576520234%;
-    width: 48.8211739883%; }
-    .photo-panel .group-photo:last-child, .photo-panel .reasons-to-come:last-child {
-      margin-right: 0; }
-  @media only screen and (max-width: 1300px) {
-    .photo-panel .group-photo {
-      float: left;
-      display: block;
-      margin-right: 2.3576520234%;
-      width: 31.7615653177%; }
-      .photo-panel .group-photo:last-child {
-        margin-right: 0; }
-    .photo-panel .reasons-to-come {
-      float: left;
-      display: block;
-      margin-right: 2.3576520234%;
-      width: 65.8807826589%; }
-      .photo-panel .reasons-to-come:last-child {
-        margin-right: 0; } }
-  @media only screen and (max-width: 1000px) {
-    .photo-panel .group-photo {
-      float: left;
-      display: block;
-      margin-right: 2.3576520234%;
-      width: 14.7019566472%; }
-      .photo-panel .group-photo:last-child {
-        margin-right: 0; }
-    .photo-panel .reasons-to-come {
-      float: left;
-      display: block;
-      margin-right: 2.3576520234%;
-      width: 82.9403913294%; }
-      .photo-panel .reasons-to-come:last-child {
-        margin-right: 0; } }
-  @media only screen and (max-width: 800px) {
-    .photo-panel {
-      display: block; }
-      .photo-panel .group-photo {
-        float: left;
-        display: block;
-        margin-right: 2.3576520234%;
-        width: 100%; }
-        .photo-panel .group-photo:last-child {
-          margin-right: 0; }
-      .photo-panel .reasons-to-come {
-        float: left;
-        display: block;
-        margin-right: 2.3576520234%;
-        width: 100%;
-        padding-top: 20px;
-        padding-bottom: 20px; }
-        .photo-panel .reasons-to-come:last-child {
-          margin-right: 0; } }
+  .photo-panel .group-photo {
+    justify-self: right;
+    overflow-x: hidden; }
   .photo-panel .group-photo img {
     object-fit: cover; }
   .photo-panel-text {
@@ -705,14 +662,24 @@ nav {
 
 .group-photo img {
   max-width: 800px; }
+  @media only screen and (max-width: 800px) {
+    .group-photo img {
+      max-width: unset;
+      width: 100%; } }
 
 .program-overview--grid {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr minmax(500px, 1fr);
   grid-gap: 30px; }
+  @media only screen and (max-width: 800px) {
+    .program-overview--grid {
+      display: block; } }
 
 .program-overview--body {
   padding-right: 150px; }
+  @media only screen and (max-width: 800px) {
+    .program-overview--body {
+      padding: 50px 80px; } }
 
 .talking-points--item {
   margin-bottom: 30px;
@@ -1832,8 +1799,7 @@ article {
       margin-right: 0; }
 
   img {
-    margin: 0 auto;
-    width: 100%; }
+    margin: 0 auto; }
 
   h2 {
     font-size: 22px; }

@@ -3,28 +3,9 @@
   background: white;
   display: flex;
 
-  .group-photo, .reasons-to-come {
-    @include span-columns(6);
-  }
-
-  @media only screen and (max-width: 1300px){
-    .group-photo { @include span-columns(4); }
-    .reasons-to-come { @include span-columns(8); }
-  }
-
-  @media only screen and (max-width: 1000px){
-    .group-photo { @include span-columns(2); }
-    .reasons-to-come { @include span-columns(10); }
-  }
-
-  @media only screen and (max-width: 800px){
-    display: block;
-    .group-photo { @include span-columns(12); }
-    .reasons-to-come {
-      @include span-columns(12);
-      padding-top: 20px;
-      padding-bottom: 20px;
-    }
+  .group-photo {
+    justify-self: right;
+    overflow-x: hidden;
   }
 
   .group-photo {

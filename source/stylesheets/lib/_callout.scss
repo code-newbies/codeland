@@ -4,6 +4,7 @@
   padding: 100px 0px;
 
   a { text-decoration: none; }
+
 }
 
 .callout--list {
@@ -30,11 +31,23 @@
   grid-gap: 30px;
   padding: 100px 0px;
 
+  @media only screen and (max-width: 800px){
+    padding: 30px;
+  }
+
+  @media only screen and (max-width: 500px){
+    display: block;
+  }
 
   .callout {
     justify-self: left;
     margin: 0px;
     padding: 0px;
+
+    @media only screen and (max-width: 500px){
+      margin: 0 auto;
+      text-align: center;
+    }
   }
 
   .callout--aside {
