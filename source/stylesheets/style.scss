@@ -6,15 +6,16 @@ $main: $neon;
 $main-dark: $dark-neon;
 $main-light: $light-neon;
 
+$hot-pink: #ff01ff;
+
 $main-font: "Open Sans";
 
 $blue: #4d94ff;
-$yellow: #fffd2e;
+$yellow: #fdff00;
 $green: #00ff00;
 $pink: #ff94de;
 $orange: #ffaa62;
 $main-orange: #ffc107;
-$yellow: #F8E71C;
 $light-orange: #fff1ca;
 $light-yellow: #ffffed;
 $light-green: #85ff85;
@@ -35,6 +36,7 @@ $city-life-color: $light-blue;
 @import "lib/_neat/neat";
 
 @import "lib/_buttons";
+@import "lib/_callout";
 @import "lib/_footer";
 @import "lib/_header";
 @import "lib/_love";
@@ -43,6 +45,7 @@ $city-life-color: $light-blue;
 @import "lib/_quote";
 @import "lib/_photo-panel";
 @import "lib/_program_details";
+@import "lib/_program_overview";
 @import "lib/_program_extras";
 @import "lib/_recap";
 @import "lib/_scholarship";
@@ -68,24 +71,10 @@ body {
   border-bottom: 30px solid $main;
 }
 a { color: inherit; }
-a span { font-family: "Roboto"; }
+a span { font-family: "Lato", "san serif"; }
 p, li {
   font-size: 18px;
-  font-family: "Helvetica";
-}
-
-.logo {
-  font-family: "Ribeye Marrow";
-  font-size: 48px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-}
-
-.logo--subheading {
-  font-family: "Lato";
-  font-size: 24px;
-  padding-top: 0px;
-  margin-top: 0px;
+  font-family: "Open Sans";
 }
 
 h2 {
@@ -103,11 +92,11 @@ h3 {
 h4 {
   font-size: 24px;
   font-weight: 300;
-  font-family: "Roboto";
+  font-family: "Lato";
   margin-bottom: 0px;
 }
 h5 {
-  font-family: "Roboto";
+  font-family: "Lato", "san serif";
   font-size: 18px;
   text-transform: uppercase;
   display: inline-block;
@@ -143,11 +132,6 @@ article {
   p { margin-top: 5px ; }
   &.program {
     @include span-columns(6);
-  }
-  &.conference-pitch {
-    @include span-columns(8);
-    @include shift(2);
-    text-align: center;
   }
   &.ticket {
     @include span-columns(4);
@@ -186,12 +170,6 @@ article {
       font-weight: bold;
     }
   }
-}
-
-.ticket-info {
-  background: $lightgray;
-  padding-top: 60px;
-  padding-bottom: 80px;
 }
 
 .tickets {

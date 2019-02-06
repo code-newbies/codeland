@@ -1,3 +1,22 @@
+.early-bird--price {
+  font-size: 42px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.early-bird--reg-price {
+  color: gray;
+  font-size: 16px;
+  text-decoration: line-through;
+  text-transform: initial;
+}
+
+.ticket-info {
+  background: white;
+  border: 5px solid black;
+  padding: 20px;
+}
+
 .tickets-info {
   background: $lightgray;
   &.wrapper { 

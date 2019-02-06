@@ -1,44 +1,80 @@
+.conference-logo {
+  font-family: "Ribeye Marrow";
+  font-size: 48px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.conference-header--item::after {
+  content: "●"; 
+  font-size: 16px;
+  padding: 7px;
+}
+
+.conference-header--item:last-child::after {
+  content: none;
+}
+
+.header-grid {
+  display: grid;
+  align-items: top;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.left {
+  border-right: 3px solid $main-light;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.right {
+  text-align: left;
+}
+
+.conference-subheader {
+  text-transform: none;
+
+  &.codenewbie-header {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+    img { height: 22px; }
+  }
+
+  &.github-header {
+    font-size: 16px;
+    margin-top: 0px;
+
+    img { height: 14px; }
+  }
+}
+
 header {
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position-x: center;
   height: 1000px;
   padding: 5% 20px;
   padding-top: 130px;
   text-align: center;
   .boxed, .box { text-align: center; }
   .button-add-info { margin-top: 10px; }
-  .date-location {
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 0;
-    .highlight {
-      padding-top: 10px;
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-  }
+
   .conference-description {
     max-width: 680px;
     margin: 10px auto;
     text-transform: none;
   }
   .conference-header {
-    margin-top: 10px;
-    span {
-      background: yellow;
-      border: 2px solid black;
-      padding: 10px 40px;
-      display: inline-block;
-      font-size: 28px;
-    }
-  }
-  .github-header {
-    max-width: 140px;
-    vertical-align: text-top;
-    @media only screen and (max-width: 700px){
-      max-width: 80px;
-    }
+    font-family: "Lato";
+    font-size: 24px;
+    padding-top: 0px;
+    margin-top: 0px;
   }
   .codenewbie {
     font-family: "Roboto", "Helvetica", "san serif";

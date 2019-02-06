@@ -37,6 +37,25 @@ html {
   .recap-link:hover {
     font-weight: 900; }
 
+.callout {
+  margin: 0 auto;
+  max-width: 200px;
+  padding: 100px 0px; }
+  .callout a {
+    text-decoration: none; }
+
+.callout--title {
+  font-family: "Open Sans"; }
+
+.callout--small-print {
+  font-size: 16px; }
+
+.ticket-information {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+  .ticket-information .callout {
+    margin: auto; }
+
 footer {
   background: #f8f8f8; }
   footer .footer--content {
@@ -94,10 +113,55 @@ footer {
     width: 100%; }
     footer .sponsorship:last-child {
       margin-right: 0; } }
+.conference-logo {
+  font-family: "Ribeye Marrow";
+  font-size: 48px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px; }
+
+.conference-header--item::after {
+  content: "●";
+  font-size: 16px;
+  padding: 7px; }
+
+.conference-header--item:last-child::after {
+  content: none; }
+
+.header-grid {
+  display: grid;
+  align-items: top;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px; }
+
+.left {
+  border-right: 3px solid #16fa51;
+  padding-right: 20px;
+  text-align: right; }
+
+.right {
+  text-align: left; }
+
+.conference-subheader {
+  text-transform: none; }
+  .conference-subheader.codenewbie-header {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 10px; }
+    .conference-subheader.codenewbie-header img {
+      height: 22px; }
+  .conference-subheader.github-header {
+    font-size: 16px;
+    margin-top: 0px; }
+    .conference-subheader.github-header img {
+      height: 14px; }
+
 header {
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position-x: center;
   height: 1000px;
   padding: 5% 20px;
   padding-top: 130px;
@@ -106,32 +170,15 @@ header {
     text-align: center; }
   header .button-add-info {
     margin-top: 10px; }
-  header .date-location {
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 0; }
-    header .date-location .highlight {
-      padding-top: 10px;
-      padding-left: 15px;
-      padding-right: 15px; }
   header .conference-description {
     max-width: 680px;
     margin: 10px auto;
     text-transform: none; }
   header .conference-header {
-    margin-top: 10px; }
-    header .conference-header span {
-      background: yellow;
-      border: 2px solid black;
-      padding: 10px 40px;
-      display: inline-block;
-      font-size: 28px; }
-  header .github-header {
-    max-width: 140px;
-    vertical-align: text-top; }
-    @media only screen and (max-width: 700px) {
-      header .github-header {
-        max-width: 80px; } }
+    font-family: "Lato";
+    font-size: 24px;
+    padding-top: 0px;
+    margin-top: 0px; }
   header .codenewbie {
     font-family: "Roboto", "Helvetica", "san serif";
     font-weight: 900; }
@@ -155,7 +202,7 @@ header {
       padding-top: 50px; } }
 
 .button.get-tickets, .button.apply {
-  background: #F8E71C;
+  background: #fdff00;
   border-color: #e6d508;
   margin-top: 30px;
   padding: 15px 100px;
@@ -178,7 +225,7 @@ header {
         font-size: 18px; } }
 
 .love {
-  background: #F8E71C; }
+  background: #fdff00; }
   .love .grid-item, .love .grid-sizer {
     width: 30%;
     margin: 1%; }
@@ -251,7 +298,7 @@ header {
   display: block;
   background: white;
   border-top: #c9c9c9;
-  padding-top: 30px; }
+  padding-bottom: 50px; }
   .mailchimp-signup::after {
     clear: both;
     content: "";
@@ -279,7 +326,8 @@ header {
       margin-right: 2.3576520234%;
       width: 65.8807826589%;
       height: 50px;
-      border: 2px solid black;
+      border: 3px solid black;
+      border-radius: 5px;
       font-size: 16px;
       padding: 0px 20px; }
       .mailchimp-signup #mc_embed_signup input.email:last-child {
@@ -287,11 +335,13 @@ header {
       .mailchimp-signup #mc_embed_signup input.email::placeholder {
         color: black; }
     .mailchimp-signup #mc_embed_signup label {
+      color: black;
       display: block;
+      font-family: "Open Sans", "san serif";
       font-size: 20px;
-      color: white;
-      font-family: "Lato", "san serif";
-      padding: 60px 10px 10px; }
+      font-weight: 400;
+      margin-top: 10px;
+      padding: 20px 10px 30px; }
     .mailchimp-signup #mc_embed_signup .button {
       float: left;
       display: block;
@@ -299,7 +349,7 @@ header {
       width: 31.7615653177%;
       box-shadow: none;
       height: 50px;
-      border-radius: 0;
+      border-radius: 5px;
       background: #0de846;
       color: black;
       text-transform: uppercase;
@@ -414,7 +464,7 @@ nav {
 .blockquote::before {
   font-family: "Impact";
   content: "\201C";
-  color: #F8E71C;
+  color: #fdff00;
   font-size: 10em;
   position: absolute;
   left: 30px;
@@ -540,57 +590,128 @@ nav {
         top: 12px;
         left: -2em;
         padding: 10px 20px;
-        background: #F8E71C; }
+        background: #fdff00; }
       .reasons-to-come ol li p {
         font-weight: 300;
         font-family: "Roboto", "Helvetica", "san serif"; }
 
-.program {
-  background: #F8E71C; }
-  .program-list {
-    float: left;
+.program-list {
+  float: left;
+  display: block;
+  margin-right: 2.3576520234%;
+  width: 48.8211739883%; }
+  .program-list:last-child {
+    margin-right: 0; }
+  .program-list a {
+    text-decoration: none; }
+  .program-list a:hover p {
+    color: black; }
+  .program-list a:hover article {
+    border: 5px solid black; }
+  .program-list p {
+    margin-bottom: 0px; }
+  .program-list_item {
+    background: white;
+    border: 5px solid yellow;
+    padding: 15px 25px 20px;
+    margin-bottom: 10px; }
+    .program-list_item_speaker {
+      margin-right: 10px; }
+    .program-list_item_title {
+      font-family: "Lato", "Helvetica", "san serif";
+      font-weight: 600;
+      font-size: 24px; }
+      @media only screen and (max-width: 500px) {
+        .program-list_item_title {
+          font-size: 18px; } }
+    .program-list_item_type {
+      background: #eee;
+      padding: 5px 10px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      vertical-align: middle; }
+  @media only screen and (max-width: 500px) {
+    .program-list {
+      float: left;
+      display: block;
+      margin-right: 2.3576520234%;
+      width: 100%; }
+      .program-list:last-child {
+        margin-right: 0; } }
+
+.program-overview {
+  padding-bottom: 40px;
+  padding-top: 80px;
+  text-align: center; }
+
+.program-overview--body {
+  padding: 30px 50px; }
+
+.conference-pitch {
+  font-family: "Open Sans", "san serif";
+  margin: 0 auto;
+  max-width: 400px; }
+
+.conference-pitch--callouts {
+  display: none;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 80px;
+  margin: 0 auto;
+  max-width: 800px; }
+
+.conference-pitch--callouts--item {
+  border: 5px solid #16fa51;
+  padding: 10px 30px;
+  position: relative; }
+  .conference-pitch--callouts--item:first-child {
+    border-color: yellow; }
+  .conference-pitch--callouts--item:last-child {
+    border-color: hotpink; }
+  .conference-pitch--callouts--item:before {
+    content: "";
+    border: 5px solid black;
     display: block;
-    margin-right: 2.3576520234%;
-    width: 48.8211739883%; }
-    .program-list:last-child {
-      margin-right: 0; }
-    .program-list a {
-      text-decoration: none; }
-    .program-list a:hover p {
-      color: black; }
-    .program-list a:hover article {
-      border: 5px solid black; }
-    .program-list p {
-      margin-bottom: 0px; }
-    .program-list_item {
-      background: white;
-      border: 5px solid yellow;
-      padding: 15px 25px 20px;
-      margin-bottom: 10px; }
-      .program-list_item_speaker {
-        margin-right: 10px; }
-      .program-list_item_title {
-        font-family: "Lato", "Helvetica", "san serif";
-        font-weight: 600;
-        font-size: 24px; }
-        @media only screen and (max-width: 500px) {
-          .program-list_item_title {
-            font-size: 18px; } }
-      .program-list_item_type {
-        background: #eee;
-        padding: 5px 10px;
-        font-size: 12px;
-        font-weight: 700;
-        text-transform: uppercase;
-        vertical-align: middle; }
-    @media only screen and (max-width: 500px) {
-      .program-list {
-        float: left;
-        display: block;
-        margin-right: 2.3576520234%;
-        width: 100%; }
-        .program-list:last-child {
-          margin-right: 0; } }
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: absolute; }
+
+.group-photo img {
+  max-width: 800px; }
+
+.program-overview--grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 30px; }
+
+.program-overview--body {
+  padding-right: 150px; }
+
+.talking-points--item {
+  margin-bottom: 30px;
+  position: relative; }
+  .talking-points--item:first-child .talking-points--title:before {
+    background: #16fa51; }
+  .talking-points--item:last-child .talking-points--title:before {
+    background: #ff01ff; }
+
+.talking-points--title {
+  display: inline-block; }
+  .talking-points--title:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: -30px;
+    background: #fdff00;
+    border-radius: 50%;
+    top: 30px;
+    border: 3px solid black; }
+
+.talking-points--body {
+  margin-top: 5px; }
 
 #program-extras {
   background: black;
@@ -624,7 +745,7 @@ nav {
     font-weight: 900;
     margin-bottom: 15px;
     padding-bottom: 15px;
-    border-bottom: 15px solid #F8E71C; }
+    border-bottom: 15px solid #fdff00; }
   @media only screen and (max-width: 600px) {
     .program-extra {
       float: left;
@@ -635,7 +756,7 @@ nav {
         margin-right: 0; } }
 
 #recap {
-  background: #F8E71C; }
+  background: #fdff00; }
 
 .recap-items {
   display: flex;
@@ -687,13 +808,13 @@ nav {
     margin-right: 2.3576520234%;
     width: 48.8211739883%;
     padding: 30px 40px;
-    border: 5px solid #F8E71C; }
+    border: 5px solid #fdff00; }
     .scholarship .scholarship-application:last-child, .scholarship .scholarship-donate:last-child {
       margin-right: 0; }
     .scholarship .scholarship-application h3, .scholarship .scholarship-donate h3 {
       margin: 0; }
     .scholarship .scholarship-application .button, .scholarship .scholarship-donate .button {
-      background: #F8E71C; }
+      background: #fdff00; }
       .scholarship .scholarship-application .button:hover, .scholarship .scholarship-donate .button:hover {
         background: black; }
         .scholarship .scholarship-application .button:hover a, .scholarship .scholarship-donate .button:hover a {
@@ -810,7 +931,7 @@ nav {
       margin: 0px; }
     .schedule .schedule-item a:hover p {
       color: black;
-      background: #F8E71C; }
+      background: #fdff00; }
       .schedule .schedule-item a:hover p:before {
         color: white; }
     .schedule .schedule-item__content {
@@ -819,7 +940,7 @@ nav {
         padding-left: 30px; }
         .schedule .schedule-item__content p:before {
           content: "•";
-          color: #F8E71C;
+          color: #fdff00;
           left: -15px;
           margin-left: 15px;
           padding-left: 5px;
@@ -836,7 +957,7 @@ nav {
         padding-right: 10px; }
         .schedule .schedule-item__header__start-time:after {
           content: "•";
-          color: #F8E71C;
+          color: #fdff00;
           padding-left: 10px; }
     .schedule .schedule-item--talks {
       padding-bottom: 20px; }
@@ -846,7 +967,7 @@ nav {
         margin: -5px -15px 15px;
         padding: 20px 25px; }
     .schedule .schedule-item--break {
-      background: #F8E71C; }
+      background: #fdff00; }
       .schedule .schedule-item--break .schedule-item__header__start-time:after {
         color: white; }
     .schedule .schedule-item a {
@@ -926,10 +1047,10 @@ nav {
 
 .sidebar {
   background: white;
-  border: 5px solid #F8E71C;
+  border: 5px solid #fdff00;
   margin-top: 30px; }
   .sidebar h4 {
-    background: #F8E71C;
+    background: #fdff00;
     padding: 10px 30px;
     margin-top: 0px; }
   .sidebar .location-name, .sidebar .location-street, .sidebar .location-city-state {
@@ -1032,6 +1153,22 @@ nav {
         .sponsor-list .sponsor-list--special--item--image.sponsor-image {
           padding: 15px 0px; } }
 
+.early-bird--price {
+  font-size: 42px;
+  font-weight: 400;
+  margin-top: 0px; }
+
+.early-bird--reg-price {
+  color: gray;
+  font-size: 16px;
+  text-decoration: line-through;
+  text-transform: initial; }
+
+.ticket-info {
+  background: white;
+  border: 5px solid black;
+  padding: 20px; }
+
 .tickets-info {
   background: #f8f8f8; }
   .tickets-info.wrapper {
@@ -1087,7 +1224,7 @@ nav {
     .tickets-info .ticket:last-child {
       margin-right: 0; }
     .tickets-info .ticket:hover .ticket-type__wrapper {
-      background: #F8E71C; }
+      background: #fdff00; }
     .tickets-info .ticket:hover .ticket-time__wrapper {
       background: black;
       border: 2px solid black;
@@ -1096,8 +1233,8 @@ nav {
       margin: 0px; }
       .tickets-info .ticket-time__wrapper {
         padding: 10px 0px;
-        background: #F8E71C;
-        border: 2px solid #F8E71C; }
+        background: #fdff00;
+        border: 2px solid #fdff00; }
     .tickets-info .ticket-reg-price {
       font-size: 18px;
       font-weight: 300;
@@ -1107,7 +1244,7 @@ nav {
         .tickets-info .ticket-reg-price {
           font-size: 12px; } }
     .tickets-info .ticket-type__wrapper {
-      border: 2px solid #F8E71C;
+      border: 2px solid #fdff00;
       padding: 30px 0px;
       background: white; }
     .tickets-info .ticket-type-name {
@@ -1200,7 +1337,7 @@ nav {
       color: black;
       text-decoration: none; }
       .hotel-venue__hotel a:hover li {
-        background: #F8E71C; }
+        background: #fdff00; }
     .hotel-venue__hotel li {
       padding-left: 10px;
       padding-bottom: 15px;
@@ -1229,23 +1366,11 @@ a {
   color: inherit; }
 
 a span {
-  font-family: "Roboto"; }
+  font-family: "Lato", "san serif"; }
 
 p, li {
   font-size: 18px;
-  font-family: "Helvetica"; }
-
-.logo {
-  font-family: "Ribeye Marrow";
-  font-size: 48px;
-  padding-bottom: 0px;
-  margin-bottom: 0px; }
-
-.logo--subheading {
-  font-family: "Lato";
-  font-size: 24px;
-  padding-top: 0px;
-  margin-top: 0px; }
+  font-family: "Open Sans"; }
 
 h2 {
   font-size: 36px;
@@ -1262,11 +1387,11 @@ h3 {
 h4 {
   font-size: 24px;
   font-weight: 300;
-  font-family: "Roboto";
+  font-family: "Lato";
   margin-bottom: 0px; }
 
 h5 {
-  font-family: "Roboto";
+  font-family: "Lato", "san serif";
   font-size: 18px;
   text-transform: uppercase;
   display: inline-block;
@@ -1313,15 +1438,6 @@ article {
     margin-right: 2.3576520234%;
     width: 48.8211739883%; }
     article.program:last-child {
-      margin-right: 0; }
-  article.conference-pitch {
-    float: left;
-    display: block;
-    margin-right: 2.3576520234%;
-    width: 65.8807826589%;
-    margin-left: 17.0596086706%;
-    text-align: center; }
-    article.conference-pitch:last-child {
       margin-right: 0; }
   article.ticket {
     float: left;
@@ -1374,11 +1490,6 @@ article {
       margin-top: 30px;
       margin-bottom: 10px;
       font-weight: bold; }
-
-.ticket-info {
-  background: #f8f8f8;
-  padding-top: 60px;
-  padding-bottom: 80px; }
 
 .tickets {
   padding: 30px 0px; }
@@ -1448,11 +1559,11 @@ article {
   .full-program .day-one .program-item, .full-program .day-two .program-item {
     border: 2px solid white; }
   .full-program .program-list .day-title {
-    background: #F8E71C; }
+    background: #fdff00; }
   .full-program .program-list a:hover article {
     color: black; }
   .full-program .program-list .program-item:hover {
-    border: 2px solid #F8E71C; }
+    border: 2px solid #fdff00; }
   .full-program .day-title {
     text-transform: uppercase;
     text-align: center;
@@ -1529,7 +1640,7 @@ article {
   display: block;
   margin-right: 2.3576520234%;
   width: 14.7019566472%;
-  background: #F8E71C;
+  background: #fdff00;
   margin-bottom: 10px;
   position: relative; }
   .speaker:last-child {
@@ -1544,7 +1655,7 @@ article {
       color: white; }
   .speaker img {
     width: 100%;
-    border: 5px #F8E71C solid; }
+    border: 5px #fdff00 solid; }
   .speaker .speaker-title {
     padding: 5px 15px 0px;
     font-family: "Lato", "Helvetica", "san serif";

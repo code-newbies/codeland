@@ -1,0 +1,24 @@
+.callout {
+  margin: 0 auto;
+  max-width: 200px;
+  padding: 100px 0px;
+
+  a { text-decoration: none; }
+}
+
+.callout--title {
+  font-family: "Open Sans";
+}
+
+.callout--small-print {
+  font-size: 16px;
+}
+
+.ticket-information {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  .callout {
+    margin: auto;
+  }
+}

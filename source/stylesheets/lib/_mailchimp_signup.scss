@@ -2,7 +2,7 @@
   @include row();
   background: white;
   border-top: $gray;
-  padding-top: 30px;
+  padding-bottom: 50px;
   #mc_embed_signup {
     @include span-columns(8);
     @include shift(2);
@@ -17,24 +17,27 @@
     input.email {
       @include span-columns(8);
       height: 50px;
-      border: 2px solid black;
+      border: 3px solid black;
+      border-radius: 5px;
       font-size: 16px;
       padding: 0px 20px;
 
       &::placeholder { color: black; }
     }
     label {
+      color: black;
       display: block;
+      font-family: "Open Sans", "san serif";
       font-size: 20px;
-      color: white;
-      font-family: "Lato", "san serif";
-      padding: 60px 10px 10px;
+      font-weight: 400;
+      margin-top: 10px;
+      padding: 20px 10px 30px;
     }
     .button {
       @include span-columns(4);
       box-shadow: none;
       height: 50px;
-      border-radius: 0;
+      border-radius: 5px;
       background: $main;
       color: black;
       text-transform: uppercase;
