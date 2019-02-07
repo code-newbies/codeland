@@ -164,6 +164,31 @@ html {
   .ticket-information .callout--aside {
     justify-self: right; }
 
+.coc--content {
+  margin: 0 auto;
+  max-width: 1000px; }
+  .coc--content.wrapper {
+    padding-top: 60px; }
+
+.coc--link {
+  border-bottom: 5px solid #16fa51;
+  display: inline-block;
+  font-family: "Open Sans", "Helvetica", "san serif";
+  font-size: 18px;
+  font-weight: 900; }
+  .coc--link a {
+    text-decoration: none; }
+  .coc--link:before {
+    content: "← "; }
+  .coc--link:hover {
+    border-color: black; }
+
+.coc--title {
+  font-family: "Open Sans", "Helvetica", "san serif";
+  font-weight: 900;
+  font-size: 22px;
+  text-align: center; }
+
 .cta {
   text-decoration: none; }
   .cta--get-ticket {
