@@ -5,6 +5,88 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+.additional-info {
+  border-top: 5px solid black;
+  padding: 0px 30px; }
+  .additional-info img {
+    max-width: 150px;
+    vertical-align: sub; }
+
+.additional-info--header {
+  font-family: "Open Sans", "Helvetica", "san serif";
+  font-size: 22px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  text-transform: uppercase; }
+
+.additional-info--item {
+  margin-bottom: 50px; }
+
+.additional-info--left {
+  padding: 50px 0px; }
+  @media only screen and (max-width: 600px) {
+    .additional-info--left {
+      padding-bottom: 0px; } }
+
+.additional-info--grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+  margin: 0 auto;
+  max-width: 1000px; }
+  @media only screen and (max-width: 600px) {
+    .additional-info--grid {
+      display: block; } }
+
+.additional-info--links {
+  border-left: 5px solid black;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding-left: 50px; }
+  @media only screen and (max-width: 600px) {
+    .additional-info--links {
+      border-left: none;
+      padding-left: 0px; } }
+
+.contact-info {
+  align-self: end;
+  padding-bottom: 50px; }
+
+.contact-info--body {
+  font-size: 16px;
+  margin-top: 0px; }
+
+.contact-info--header {
+  font-family: "Open Sans", "Helvetica", "san serif";
+  font-size: 18px;
+  font-weight: 900;
+  margin-bottom: 5px; }
+
+.company-links {
+  padding-top: 50px; }
+  @media only screen and (max-width: 600px) {
+    .company-links {
+      padding-top: 0px; } }
+
+.company-links--item {
+  border: none;
+  display: block;
+  font-family: "Open Sans", "Helvetica", "san serif";
+  font-weight: 600;
+  padding-left: 20px;
+  padding: 0px;
+  margin-bottom: 10px;
+  text-decoration: none; }
+  .company-links--item:last-child {
+    border-right: none; }
+    .company-links--item:last-child:after {
+      content: none; }
+  .company-links--item:hover {
+    color: #05ba34; }
+  @media only screen and (max-width: 650px) {
+    .company-links--item:after {
+      content: none; } }
+
 .apply-button, .donate-button {
   background: yellow; }
   .apply-button:hover, .donate-button:hover {
@@ -43,6 +125,9 @@ html {
   padding: 100px 0px; }
   .callout a {
     text-decoration: none; }
+  @media only screen and (max-width: 500px) {
+    .callout {
+      padding: 50px 0px; } }
 
 .callout--list {
   padding-left: 20px; }
@@ -92,27 +177,10 @@ html {
       background: #65fc8c; }
 
 footer {
-  background: #f8f8f8; }
+  border-top: 5px solid black;
+  padding-top: 20px; }
   footer .footer--content {
     font-family: "Open Sans"; }
-  footer .footer--header {
-    font-size: 18px;
-    font-weight: 900;
-    margin-bottom: 20px;
-    text-transform: uppercase; }
-  footer .footer--links {
-    text-align: center; }
-  footer .footer--link {
-    border-right: 1px solid #c9c9c9;
-    font-family: "Lato", "san serif";
-    font-weight: 600;
-    padding-left: 20px;
-    padding-right: 30px;
-    text-decoration: none; }
-    footer .footer--link:last-child {
-      border-right: none; }
-    footer .footer--link:hover {
-      color: #05ba34; }
   footer.wrapper {
     margin-bottom: 0px;
     padding-top: 40px;
@@ -169,14 +237,25 @@ footer {
   align-items: top;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 20px; }
+  @media only screen and (max-width: 500px) {
+    .header-grid {
+      display: block; } }
 
 .left {
   border-right: 3px solid #16fa51;
   padding-right: 20px;
   text-align: right; }
+  @media only screen and (max-width: 500px) {
+    .left {
+      border-right: none;
+      text-align: center; } }
 
 .right {
   text-align: left; }
+  @media only screen and (max-width: 500px) {
+    .right {
+      border-right: none;
+      text-align: center; } }
 
 .conference-subheader {
   text-transform: none; }
@@ -186,6 +265,9 @@ footer {
     margin-bottom: 10px; }
     .conference-subheader.codenewbie-header img {
       height: 22px; }
+    @media only screen and (max-width: 500px) {
+      .conference-subheader.codenewbie-header {
+        margin-bottom: 5px; } }
   .conference-subheader.github-header {
     font-size: 16px;
     margin-top: 0px; }
@@ -331,8 +413,8 @@ header {
 
 .mailchimp-signup {
   display: block;
-  background: white;
-  border-top: #c9c9c9;
+  background: #16fa51;
+  border-top: 5px solid black;
   padding-bottom: 50px; }
   .mailchimp-signup::after {
     clear: both;
@@ -385,7 +467,7 @@ header {
       box-shadow: none;
       height: 50px;
       border-radius: 0px;
-      background: #16fa51;
+      background: white;
       color: black;
       text-transform: uppercase;
       font-family: "Lato";
@@ -398,7 +480,8 @@ header {
       .mailchimp-signup #mc_embed_signup .button:last-child {
         margin-right: 0; }
     .mailchimp-signup #mc_embed_signup .button:hover {
-      background: #65fc8c; }
+      background: black;
+      color: white; }
   @media only screen and (min-width: 750px) and (max-width: 1200px) {
     .mailchimp-signup #mc_embed_signup {
       float: left;
@@ -1353,7 +1436,7 @@ body {
   margin: 0px;
   margin-top: -30px;
   padding-top: 80px;
-  border-bottom: 30px solid #0de846; }
+  border-bottom: 30px solid black; }
 
 a {
   color: inherit; }

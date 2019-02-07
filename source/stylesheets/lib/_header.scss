@@ -22,16 +22,30 @@
   align-items: top;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 20px;
+
+  @media only screen and (max-width: 500px){
+    display: block;
+  }
 }
 
 .left {
   border-right: 3px solid $main-light;
   padding-right: 20px;
   text-align: right;
+
+  @media only screen and (max-width: 500px){
+    border-right: none;
+    text-align: center;
+  }
 }
 
 .right {
   text-align: left;
+
+  @media only screen and (max-width: 500px){
+    border-right: none;
+    text-align: center;
+  }
 }
 
 .conference-subheader {
@@ -43,6 +57,10 @@
     margin-bottom: 10px;
 
     img { height: 22px; }
+
+    @media only screen and (max-width: 500px){
+      margin-bottom: 5px;
+    }
   }
 
   &.github-header {
@@ -89,6 +107,7 @@ header {
     @media only screen and (max-width: 700px){
       font-size: 24px;
     }
+
   }
 
   span.highlight {

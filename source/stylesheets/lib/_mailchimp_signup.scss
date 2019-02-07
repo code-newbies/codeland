@@ -1,7 +1,7 @@
 .mailchimp-signup {
   @include row();
-  background: white;
-  border-top: $gray;
+  background: $main-light;
+  border-top: 5px solid black;
   padding-bottom: 50px;
   #mc_embed_signup {
     @include span-columns(8);
@@ -38,7 +38,7 @@
       box-shadow: none;
       height: 50px;
       border-radius: 0px;
-      background: $main-light;
+      background: white;
       color: black;
       text-transform: uppercase;
       font-family: "Lato";
@@ -50,7 +50,8 @@
       -webkit-appearance: none;
     }
     .button:hover {
-      background: $main-highlight;
+      background: black;
+      color: white;
     }
   }
   @media only screen and (min-width: 750px) and (max-width: 1200px) {

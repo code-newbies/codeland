@@ -37,6 +37,7 @@ $city-life-color: $light-blue;
 
 @import "lib/_neat/neat";
 
+@import "lib/_additional_info";
 @import "lib/_buttons";
 @import "lib/_callout";
 @import "lib/_cta";
@@ -71,7 +72,7 @@ body {
   margin: 0px;
   margin-top: -30px;
   padding-top: 80px;
-  border-bottom: 30px solid $main;
+  border-bottom: 30px solid black;
 }
 a { color: inherit; }
 a span { font-family: "Lato", "san serif"; }

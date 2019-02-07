@@ -5,6 +5,9 @@
 
   a { text-decoration: none; }
 
+  @media only screen and (max-width: 500px){
+    padding: 50px 0px;
+  }
 }
 
 .callout--list {
