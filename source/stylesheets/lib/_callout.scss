@@ -3,7 +3,9 @@
   max-width: 200px;
   padding: 100px 0px;
 
-  a { text-decoration: none; }
+  a {
+    text-decoration: none;
+  }
 
   @media only screen and (max-width: 500px){
     padding: 50px 0px;

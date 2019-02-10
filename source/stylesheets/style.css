@@ -241,6 +241,12 @@ footer {
     width: 100%; }
     footer .sponsorship:last-child {
       margin-right: 0; } }
+.full-panel--lava {
+  background: url("../images/lava.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center; }
+
 .conference-logo {
   font-family: "Ribeye Marrow";
   font-size: 48px;
@@ -781,7 +787,8 @@ nav {
   grid-gap: 30px; }
   @media only screen and (max-width: 800px) {
     .program-overview--grid {
-      display: block; } }
+      grid-template-columns: unset;
+      grid-gap: unset; } }
 
 .program-overview--body {
   padding-right: 150px; }
@@ -1269,6 +1276,8 @@ nav {
   background: white;
   border: 5px solid black;
   padding: 40px 20px; }
+  .ticket-info:hover {
+    border-color: #0de846; }
 
 .tickets-info {
   background: #f8f8f8; }
@@ -1464,7 +1473,9 @@ body {
   border-bottom: 30px solid black; }
 
 a {
-  color: inherit; }
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #16fa51; }
 
 a span {
   font-family: "Lato", "san serif"; }

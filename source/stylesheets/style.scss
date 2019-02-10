@@ -43,6 +43,7 @@ $city-life-color: $light-blue;
 @import "lib/_coc";
 @import "lib/_cta";
 @import "lib/_footer";
+@import "lib/_full_panel";
 @import "lib/_header";
 @import "lib/_love";
 @import "lib/_mailchimp_signup";
@@ -75,7 +76,12 @@ body {
   padding-top: 80px;
   border-bottom: 30px solid black;
 }
-a { color: inherit; }
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: $main-light;
+}
+
 a span { font-family: "Lato", "san serif"; }
 p, li {
   font-size: 18px;

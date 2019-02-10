@@ -16,6 +16,10 @@
   background: white;
   border: 5px solid black;
   padding: 40px 20px;
+
+  &:hover {
+    border-color: $main;
+  }
 }
 
 .tickets-info {
