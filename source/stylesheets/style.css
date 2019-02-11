@@ -242,7 +242,7 @@ footer {
     footer .sponsorship:last-child {
       margin-right: 0; } }
 .full-panel--lava {
-  background: url("../images/lava.png");
+  background: url("https://s3.amazonaws.com/codenewbie-assets/codeland/lava-3.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center; }
@@ -1457,6 +1457,10 @@ nav {
         padding-left: 0px; }
         .hotel-venue__hotel h2 {
           padding-top: 30px; } }
+
+video {
+  display: block;
+  width: 100%; }
 
 .wrapper {
   padding: 10px 10% 30px;
