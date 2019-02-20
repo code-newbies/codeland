@@ -73,9 +73,10 @@
 }
 
 .talking-points--item {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   position: relative;
   &:first-child .talking-points--title:before { background: $main-light; }
+  &:nth-child(3) .talking-points--title:before { background: $orange; }
   &:last-child .talking-points--title:before { background: $hot-pink; }
 }
 

@@ -1,3 +1,8 @@
+.cfp {
+  background: $lightgray;
+  border-top: 5px solid black;
+}
+
 .cfp h3 {
   margin-top: 0px;
 }
@@ -5,10 +10,20 @@
 .cfp--title {
   display: inline;
   padding-right: 10px;
+
+  @media only screen and (max-width: 800px){
+    font-size: 28px;
+    display: block;
+  }
 }
 
 .cfp--header {
   padding-bottom: 30px;
+  padding-top: 60px;
+
+  @media only screen and (max-width: 800px){
+    padding-top: 30px;
+  }
 }
 
 .cfp--description {
@@ -25,14 +40,21 @@
   grid-template-columns: 1fr 2fr;
   grid-gap: 50px;
   padding-bottom: 50px;
+
+  @media only screen and (max-width: 600px){
+    display: block;
+  }
 }
 
 .cfp--instructions {
+  background: white;
   border: 5px solid $main;
   padding: 30px;
+  margin-bottom: 50px;
 }
 
 .instructions--items {
+  margin-bottom: 0px;
   padding-left: 20px;
 }
 
@@ -75,6 +97,11 @@ nav ul li:before {content: none;}
 
 .instructions--item {
   padding-bottom: 20px;
+  font-weight: 100;
+
+  &:last-child {
+    padding-bottom: 0px;
+  }
 }
 
 .instruction--highlight {
@@ -88,6 +115,10 @@ nav ul li:before {content: none;}
 .cfp--options {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+
+  @media only screen and (max-width: 800px){
+    display: block;
+  }
 }
 
 .cfp--topics {
@@ -100,6 +131,7 @@ nav ul li:before {content: none;}
 }
 
 .options--item {
+  background: white;
   border: 5px solid black;
   display: grid;
   grid-template-rows: 6fr 1fr;
@@ -111,8 +143,23 @@ nav ul li:before {content: none;}
   &:nth-child(2) {
     border-right: none;
   }
+
+  @media only screen and (max-width: 800px){
+    &:first-child {
+      border-bottom: none;
+      border-right: 5px solid black;
+    }
+
+    &:nth-child(2) {
+      border-bottom: none;
+      border-right: 5px solid black;
+    }
+  }
 }
 
 .options--title {
+  border-bottom: 10px solid $main;
+  display: inline-block;
   margin-bottom: 20px;
+  padding-bottom: 5px;
 }

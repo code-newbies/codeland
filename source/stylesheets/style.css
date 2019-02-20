@@ -140,7 +140,11 @@ html {
   margin: 0px; }
 
 .callout--small-print {
-  font-size: 16px; }
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-top: 5px; }
+  .callout--small-print:last-child {
+    padding-bottom: 30px; }
 
 .ticket-information {
   display: grid;
@@ -164,15 +168,27 @@ html {
   .ticket-information .callout--aside {
     justify-self: right; }
 
+.cfp {
+  background: #f8f8f8;
+  border-top: 5px solid black; }
+
 .cfp h3 {
   margin-top: 0px; }
 
 .cfp--title {
   display: inline;
   padding-right: 10px; }
+  @media only screen and (max-width: 800px) {
+    .cfp--title {
+      font-size: 28px;
+      display: block; } }
 
 .cfp--header {
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  padding-top: 60px; }
+  @media only screen and (max-width: 800px) {
+    .cfp--header {
+      padding-top: 30px; } }
 
 .cfp--description {
   display: inline; }
@@ -186,12 +202,18 @@ html {
   grid-template-columns: 1fr 2fr;
   grid-gap: 50px;
   padding-bottom: 50px; }
+  @media only screen and (max-width: 600px) {
+    .cfp--details {
+      display: block; } }
 
 .cfp--instructions {
+  background: white;
   border: 5px solid #0de846;
-  padding: 30px; }
+  padding: 30px;
+  margin-bottom: 50px; }
 
 .instructions--items {
+  margin-bottom: 0px;
   padding-left: 20px; }
 
 .question {
@@ -225,7 +247,10 @@ nav ul li:before {
   padding-left: 20px; }
 
 .instructions--item {
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  font-weight: 100; }
+  .instructions--item:last-child {
+    padding-bottom: 0px; }
 
 .instruction--highlight {
   font-weight: 900; }
@@ -236,6 +261,9 @@ nav ul li:before {
 .cfp--options {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; }
+  @media only screen and (max-width: 800px) {
+    .cfp--options {
+      display: block; } }
 
 .cfp--topics {
   padding-left: 25px; }
@@ -245,6 +273,7 @@ nav ul li:before {
   margin-bottom: 25px; }
 
 .options--item {
+  background: white;
   border: 5px solid black;
   display: grid;
   grid-template-rows: 6fr 1fr;
@@ -253,9 +282,19 @@ nav ul li:before {
     border-right: none; }
   .options--item:nth-child(2) {
     border-right: none; }
+  @media only screen and (max-width: 800px) {
+    .options--item:first-child {
+      border-bottom: none;
+      border-right: 5px solid black; }
+    .options--item:nth-child(2) {
+      border-bottom: none;
+      border-right: 5px solid black; } }
 
 .options--title {
-  margin-bottom: 20px; }
+  border-bottom: 10px solid #0de846;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-bottom: 5px; }
 
 .coc--content {
   margin: 0 auto;
@@ -890,10 +929,12 @@ nav {
       padding: 50px 80px; } }
 
 .talking-points--item {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   position: relative; }
   .talking-points--item:first-child .talking-points--title:before {
     background: #16fa51; }
+  .talking-points--item:nth-child(3) .talking-points--title:before {
+    background: #ffaa62; }
   .talking-points--item:last-child .talking-points--title:before {
     background: #ff01ff; }
 
@@ -1354,10 +1395,10 @@ nav {
           padding: 15px 0px; } }
 
 .early-bird--price {
-  font-size: 42px;
+  font-size: 48px;
   font-weight: 400;
   margin-top: 0px;
-  margin-bottom: 20px; }
+  margin-bottom: 0px; }
 
 .early-bird--reg-price {
   color: gray;
