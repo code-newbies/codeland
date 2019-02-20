@@ -40,6 +40,7 @@ $city-life-color: $light-blue;
 @import "lib/_additional_info";
 @import "lib/_buttons";
 @import "lib/_callout";
+@import "lib/_cfp";
 @import "lib/_coc";
 @import "lib/_cta";
 @import "lib/_footer";
@@ -203,27 +204,12 @@ article {
 }
 
 [class*="-description"] {
-  max-width: 700px;
   margin: 10px auto;
-  text-align: center;
   h3 { text-align: center; }
-  font-family: "Roboto", "Helvetica", "san serif";
-  font-weight: 300;
-  font-size: 24px;
-  max-width: 1000px;
+  font-family: "Open Sans", "Helvetica", "san serif";
+  font-weight: 500;
+  font-size: 18px;
   margin: 0 auto;
-}
-
-.cfp-description {
-  max-width: 700px;
-  margin: 10px auto;
-  text-align: center;
-  h3 { text-align: center; }
-}
-
-.cfp-closed {
-  background: $light-orange;
-  padding-bottom: 50px;
 }
 
 .talk-type, .talk-category {

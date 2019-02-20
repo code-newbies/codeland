@@ -164,6 +164,99 @@ html {
   .ticket-information .callout--aside {
     justify-self: right; }
 
+.cfp h3 {
+  margin-top: 0px; }
+
+.cfp--title {
+  display: inline;
+  padding-right: 10px; }
+
+.cfp--header {
+  padding-bottom: 30px; }
+
+.cfp--description {
+  display: inline; }
+
+.cfp--header, .cfp--details, .cfp--options {
+  margin: 0 auto;
+  max-width: 1000px; }
+
+.cfp--details {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 50px;
+  padding-bottom: 50px; }
+
+.cfp--instructions {
+  border: 5px solid #0de846;
+  padding: 30px; }
+
+.instructions--items {
+  padding-left: 20px; }
+
+.question {
+  font-weight: 900; }
+
+.answer {
+  font-weight: 100; }
+
+ul li {
+  padding-bottom: 25px;
+  padding-left: 20px;
+  list-style: none; }
+  ul li:before {
+    background: #0de846;
+    border: 3px solid black;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    height: 12px;
+    margin-left: -27px;
+    margin-right: 10px;
+    padding-right: 5px;
+    width: 12px; }
+  ul li:last-child {
+    padding-bottom: 0px; }
+
+nav ul li:before {
+  content: none; }
+
+.faqs--items {
+  padding-left: 20px; }
+
+.instructions--item {
+  padding-bottom: 20px; }
+
+.instruction--highlight {
+  font-weight: 900; }
+
+.cfp--cta {
+  align-self: center; }
+
+.cfp--options {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; }
+
+.cfp--topics {
+  padding-left: 25px; }
+
+.cfp .options--description {
+  font-size: 16px;
+  margin-bottom: 25px; }
+
+.options--item {
+  border: 5px solid black;
+  display: grid;
+  grid-template-rows: 6fr 1fr;
+  padding: 30px; }
+  .options--item:first-child {
+    border-right: none; }
+  .options--item:nth-child(2) {
+    border-right: none; }
+
+.options--title {
+  margin-bottom: 20px; }
+
 .coc--content {
   margin: 0 auto;
   max-width: 1000px; }
@@ -1622,27 +1715,13 @@ article {
     text-transform: uppercase; }
 
 [class*="-description"] {
-  max-width: 700px;
   margin: 10px auto;
-  text-align: center;
-  font-family: "Roboto", "Helvetica", "san serif";
-  font-weight: 300;
-  font-size: 24px;
-  max-width: 1000px;
+  font-family: "Open Sans", "Helvetica", "san serif";
+  font-weight: 500;
+  font-size: 18px;
   margin: 0 auto; }
   [class*="-description"] h3 {
     text-align: center; }
-
-.cfp-description {
-  max-width: 700px;
-  margin: 10px auto;
-  text-align: center; }
-  .cfp-description h3 {
-    text-align: center; }
-
-.cfp-closed {
-  background: #fff1ca;
-  padding-bottom: 50px; }
 
 .talk-type, .talk-category {
   text-transform: uppercase;
