@@ -1,3 +1,7 @@
+.speaker-description {
+  text-align: center;
+}
+
 .speaker-page {
   nav {
     max-width: 1200px;
@@ -15,6 +19,11 @@
 
   section { padding: 50px 10%; }
 
+  .btn--back-to-speakers a {
+    font-family: "Open Sans", "Helvetica", "san serif";
+    font-size: 18px;
+  }
+
   .speaker-profile {
     padding-top: 50px;
     img { @include span-columns(3); }
@@ -27,7 +36,14 @@
       }
       h4 { margin-top: 0px; }
     }
-    .speaker-bio-name { font-weight: 600; }
+    .speaker-bio-name {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 0px; 
+    }
+    .speaker-byline {
+      font-weight: 900;
+    }
   }
 
   @media only screen and (max-width: 500px) { 

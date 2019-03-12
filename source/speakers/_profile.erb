@@ -2,10 +2,14 @@
   <article class="speaker-profile desktop">
     <img src="<%= speaker.image_url =%>">
     <div class="speaker-profile-info">
-      <h2><%= speaker.talk_title %>
-        <span class="program-list_item_type"><%= speaker.talk_type %></span>
-      </h2>
-      <p><%= speaker.talk_abstract %></p>
+      <% unless speaker.talk_title.blank? %>
+        <h2><%= speaker.talk_title %>
+          <span class="program-list_item_type"><%= speaker.talk_type %></span>
+        </h2>
+      <% end %>
+      <% unless speaker.talk_abstract.blank? %>
+        <p><%= speaker.talk_abstract %></p>
+      <% end %>
       <% if speaker.full_name == "Katie Jergens" %>
         <h2><%= speaker.talk_title_2 %>
           <span class="program-list_item_type"><%= speaker.talk_type_2 %></span>
@@ -13,12 +17,13 @@
         <p><%= speaker.talk_abstract_2 %></p>
       <% end %>
       <br>
-      <p><span class="speaker-bio-name"><%= speaker.full_name %></span> <%=
+      <p class="speaker-bio-name"><%= speaker.full_name %></p>
+      <p class="speaker-byline"><%=
       speaker.job_title %>, <%= speaker.company %> <a href="http://twitter.com/<%=
       speaker.twitter_handle %>" class="social-media-link" target="_blank"><%=
       speaker.twitter_handle %></a></p>
       <p><%= speaker.bio %></p>
-      <h4><a href="/#speakers">&#8592 Back to speakers</a></h4>
+      <h4 class="btn__back-to-speakers"><a href="/#speakers">&#8592 Back to speakers</a></h4>
     </div>
   </article>
   <article class="speaker-profile mobile">
