@@ -44,6 +44,10 @@
     .speaker-byline {
       font-weight: 900;
     }
+
+    &.mobile .speaker-byline {
+      font-size: 14px;
+    }
   }
 
   @media only screen and (max-width: 500px) { 

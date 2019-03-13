@@ -1136,6 +1136,8 @@ nav {
     margin-bottom: 0px; }
   .speaker-page .speaker-profile .speaker-byline {
     font-weight: 900; }
+  .speaker-page .speaker-profile.mobile .speaker-byline {
+    font-size: 14px; }
 @media only screen and (max-width: 500px) {
   .speaker-page .mobile {
     display: inline-block; }
@@ -1188,6 +1190,9 @@ nav {
   .speaker img {
     width: 100%;
     border: 25px black solid; }
+    @media only screen and (max-width: 700px) {
+      .speaker img {
+        border: 10px black solid; } }
   .speaker .speaker-title {
     padding: 5px 15px 0px;
     font-family: "Open Sans", "Helvetica", "san serif";
@@ -1195,6 +1200,9 @@ nav {
     font-weight: 900;
     text-align: center;
     margin-top: 0px; }
+    @media only screen and (max-width: 700px) {
+      .speaker .speaker-title {
+        font-size: 16px; } }
   .speaker a:hover {
     background: #0de846; }
     .speaker a:hover img {
