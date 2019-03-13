@@ -7,7 +7,7 @@ speakers:
   job_title: "iOS Engineer"
   company: "Slack"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/kaya-thomas.JPG"
-  bio: "Kaya is the creator of We Read Too, a book directory mobile app showcasing books with main characters of color written by authors of colors. She is currently an iOS developer at Slack as well as a writer and public speaker."
+  bio: "Kaya is the creator of We Read Too, a book directory mobile app showcasing books with main characters of color written by authors of color She is currently an iOS developer at Slack as well as a writer and public speaker."
   twitter_handle: "@kthomas901"
 - full_name: "Katrina Owen"
   day: 2
@@ -23,7 +23,11 @@ speakers:
   job_title: "Emcee/Crowd Fun Expert"
   company: "We R Human"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/nikhil-paul.jpg"
-  bio: "Nikhil Paul is an event emcee and a workshop facilitator who founded We R Human to help create fun and engaging experiences for conferences & training events. After leading events at companies like Walmart and AIG for over a decade, his vision is to help create the most fun-filled productive professional events using interactive activities, stories and dances. Learn more at www.werhuman.co."
+  bio: "Nikhil Paul is an event emcee and a workshop facilitator who founded We
+  R Human to help create fun and engaging experiences for conferences & training
+  events. After leading events at companies like Walmart and AIG for over a
+  decade, his vision is to help create the most fun-filled productive
+  professional events using interactive activities, stories, and dances. Learn more at www.werhuman.co."
 - full_name: "Pedro Cruz"
   day: 1
   talk_type: "talk"
@@ -32,6 +36,6 @@ speakers:
   twitter_handle: "@pedrocruzio"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/pedro-cruz.png"
   bio: "Pedro Cruz is a creative technologist, educator, and drone pilot. He is
-  a self-taught developer with a passion for VR/AR, robots, and pixel perfect
+  a self-taught developer with a passion for VR/AR, robots, and pixel-perfect
   UIs. In his spare time, he enjoys flying drones, creating augmented reality
   art, and playing tug-of-war with his black lab puppy."
