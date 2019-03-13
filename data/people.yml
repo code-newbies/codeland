@@ -7,7 +7,8 @@ speakers:
   job_title: "iOS Engineer"
   company: "Slack"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/kaya-thomas.JPG"
-  bio: "Kaya is the creator of We Read Too, a book directory mobile app showcasing books with main characters of color written by authors of color She is currently an iOS developer at Slack as well as a writer and public speaker."
+  bio: "Kaya is the creator of We Read Too, a book directory mobile app
+  showcasing books with main characters of color written by authors of color. She is currently an iOS developer at Slack as well as a writer and public speaker."
   twitter_handle: "@kthomas901"
 - full_name: "Katrina Owen"
   day: 2
