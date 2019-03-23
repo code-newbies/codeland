@@ -176,7 +176,7 @@ html {
   margin-top: 0px; }
 
 .cfp--title {
-  display: inline;
+  margin-top: 0px;
   padding-right: 10px; }
   @media only screen and (max-width: 800px) {
     .cfp--title {
@@ -185,7 +185,8 @@ html {
 
 .cfp--header {
   padding-bottom: 30px;
-  padding-top: 60px; }
+  padding-top: 60px;
+  text-align: center; }
   @media only screen and (max-width: 800px) {
     .cfp--header {
       padding-top: 30px; } }
