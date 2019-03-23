@@ -8,7 +8,7 @@
 }
 
 .cfp--title {
-  display: inline;
+  margin-top: 0px;
   padding-right: 10px;
 
   @media only screen and (max-width: 800px){
@@ -20,6 +20,7 @@
 .cfp--header {
   padding-bottom: 30px;
   padding-top: 60px;
+  text-align: center;
 
   @media only screen and (max-width: 800px){
     padding-top: 30px;
