@@ -297,6 +297,24 @@ nav ul li:before {
   margin-bottom: 20px;
   padding-bottom: 5px; }
 
+#kids {
+  background: url("https://s3.amazonaws.com/codenewbie-assets/codeland/pink+flower-8.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 100px auto;
+  max-width: 1000px;
+  padding-left: 200px;
+  padding-right: 80px;
+  padding-bottom: 50px; }
+  @media only screen and (max-width: 600px) {
+    #kids {
+      background-position: 30px 0px;
+      background-size: 50px;
+      margin: 50px auto;
+      padding-left: 30px;
+      padding-top: 70px; } }
+
 .coc--content {
   margin: 0 auto;
   max-width: 1000px; }
@@ -378,7 +396,8 @@ footer {
   background: url("https://s3.amazonaws.com/codenewbie-assets/codeland/lava-3.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: center; }
+  background-position-x: center;
+  border-bottom: 5px black solid; }
 
 .conference-logo {
   font-family: "Ribeye Marrow";
