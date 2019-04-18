@@ -1,32 +1,21 @@
-.hotel-venue {
-  background: $lightgray;
-  &.wrapper { padding-top: 50px; }
+#venue-hotels {
 
-  &__map, &__hotel {
-    @include span-columns(6);
+  .venue, .hotel {
+    border: 5px solid black;
+    padding: 30px;
 
-    @media only screen and (max-width: 700px){
-      @include span-columns(12);
-    }
+    h2 { margin-top: 10px;}
   }
-  &__hotel {
-    h2 {
-      margin-top: 0px;
-    }
-    padding-left: 30px;
-    a:hover {
-      li { background: $yellow; }
-      color: black;
-      text-decoration: none;
-    }
-    li {
-      padding-left: 10px;
-      padding-bottom: 15px;
-      padding-top: 10px
-    }
-    @media only screen and (max-width: 700px){
-      h2 { padding-top: 30px; }
-      padding-left: 0px; 
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin: 100px auto;
+    max-width: 1000px;
+    
+    @media only screen and (min-width: 1050px) { 
+      padding: 0px;
     }
   }
 }

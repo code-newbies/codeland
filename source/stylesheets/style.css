@@ -400,6 +400,9 @@ footer {
   background-position-x: center;
   border-bottom: 5px black solid; }
 
+.full-panel--top {
+  border-top: 5px black solid; }
+
 .conference-logo {
   font-family: "Ribeye Marrow";
   font-size: 48px;
@@ -1636,43 +1639,20 @@ nav {
       font-size: 18px;
       padding: 10px 20px; } }
 
-.hotel-venue {
-  background: #f8f8f8; }
-  .hotel-venue.wrapper {
-    padding-top: 50px; }
-  .hotel-venue__map, .hotel-venue__hotel {
-    float: left;
-    display: block;
-    margin-right: 2.3576520234%;
-    width: 48.8211739883%; }
-    .hotel-venue__map:last-child, .hotel-venue__hotel:last-child {
-      margin-right: 0; }
-    @media only screen and (max-width: 700px) {
-      .hotel-venue__map, .hotel-venue__hotel {
-        float: left;
-        display: block;
-        margin-right: 2.3576520234%;
-        width: 100%; }
-        .hotel-venue__map:last-child, .hotel-venue__hotel:last-child {
-          margin-right: 0; } }
-  .hotel-venue__hotel {
-    padding-left: 30px; }
-    .hotel-venue__hotel h2 {
-      margin-top: 0px; }
-    .hotel-venue__hotel a:hover {
-      color: black;
-      text-decoration: none; }
-      .hotel-venue__hotel a:hover li {
-        background: #fdff00; }
-    .hotel-venue__hotel li {
-      padding-left: 10px;
-      padding-bottom: 15px;
-      padding-top: 10px; }
-    @media only screen and (max-width: 700px) {
-      .hotel-venue__hotel {
-        padding-left: 0px; }
-        .hotel-venue__hotel h2 {
-          padding-top: 30px; } }
+#venue-hotels .venue, #venue-hotels .hotel {
+  border: 5px solid black;
+  padding: 30px; }
+  #venue-hotels .venue h2, #venue-hotels .hotel h2 {
+    margin-top: 10px; }
+#venue-hotels .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin: 100px auto;
+  max-width: 1000px; }
+  @media only screen and (min-width: 1050px) {
+    #venue-hotels .wrapper {
+      padding: 0px; } }
 
 video {
   display: block;
