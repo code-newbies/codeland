@@ -847,50 +847,44 @@ nav {
         font-weight: 300;
         font-family: "Roboto", "Helvetica", "san serif"; }
 
-.program-list {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%; }
-  .program-list:last-child {
-    margin-right: 0; }
-  .program-list a {
-    text-decoration: none; }
-  .program-list a:hover p {
-    color: black; }
-  .program-list a:hover article {
-    border: 5px solid black; }
-  .program-list p {
-    margin-bottom: 0px; }
-  .program-list_item {
-    background: white;
-    border: 5px solid yellow;
-    padding: 15px 25px 20px;
-    margin-bottom: 10px; }
-    .program-list_item_speaker {
-      margin-right: 10px; }
-    .program-list_item_title {
-      font-family: "Lato", "Helvetica", "san serif";
-      font-weight: 600;
-      font-size: 24px; }
-      @media only screen and (max-width: 500px) {
-        .program-list_item_title {
-          font-size: 18px; } }
-    .program-list_item_type {
-      background: #eee;
-      padding: 5px 10px;
-      font-size: 12px;
-      font-weight: 700;
-      text-transform: uppercase;
-      vertical-align: middle; }
-  @media only screen and (max-width: 500px) {
-    .program-list {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%; }
-      .program-list:last-child {
-        margin-right: 0; } }
+.program-list a {
+  text-decoration: none; }
+.program-list a:hover p {
+  color: black; }
+.program-list p {
+  margin-bottom: 0px; }
+.program-list_item {
+  background: white;
+  border: 5px solid yellow;
+  padding: 15px 25px 20px;
+  margin-bottom: 10px; }
+  .program-list_item_speaker {
+    margin-right: 10px; }
+  .program-list_item_title {
+    font-family: "Lato", "Helvetica", "san serif";
+    font-weight: 900;
+    font-size: 24px; }
+    @media only screen and (max-width: 500px) {
+      .program-list_item_title {
+        font-size: 18px; } }
+  .program-list_item_type {
+    background: #eee;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    vertical-align: middle; }
+@media only screen and (max-width: 500px) {
+  .program-list {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .program-list:last-child {
+      margin-right: 0; } }
+
+.program-description {
+  text-align: center; }
 
 .program-overview {
   padding-bottom: 40px;
@@ -1867,7 +1861,7 @@ article {
   .full-program .program-list a:hover article {
     color: black; }
   .full-program .program-list .program-item:hover {
-    border: 2px solid #fdff00; }
+    border: 2px solid #0de846; }
   .full-program .day-title {
     text-transform: uppercase;
     text-align: center;
@@ -1930,7 +1924,7 @@ article {
   .program-item .program-item-title {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-weight: 500; }
+    font-weight: 900; }
   .program-item .program-item-abstract {
     margin-bottom: 0px; }
 
