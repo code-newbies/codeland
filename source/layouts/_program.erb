@@ -1,109 +1,23 @@
-<section id="full-program" class="wrapper full-program">
+<section id="program" class="wrapper full-program">
   <article class="program-description">
-    <h2>Past Talks</h2>
+    <h2>Program</h2>
     <p>
-      Technical talks from last year's Codeland.
+      Talks and workshops at this year's Codeland.
     </p>
   </article>
   <div class="program-list day-one">
-    <p class="day-title">Day One (8AM - 5PM)</p>
     <div class="grid">
     <% data.people.speakers.each do |speaker| %>
-      <% next unless speaker.day == "1" && speaker.talk_title %>
+      <% next if speaker.talk_title == nil %>
       <div class="grid-sizer"></div>
       <div class="program-item grid-item">
         <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
           <article>
-            <div class="talk-meta">
-              <img src="<%= speaker.image_url %>">
-            </div>
             <div class="program-item-summary">
               <p class="program-item-author"><%= speaker.full_name %>
               </p>
               <h3 class="program-item-title"><%= speaker.talk_title %></h3>
-              <p><span class="talk-type"><%= speaker.type %></span>
-              <% if speaker.category %>
-                <span class="talk-category <%=speaker.category.gsub(" ", "-")%>"><%= speaker.category %></span>
-              <% end %>
-              </p>
-            </div>
-          </article>
-      </a>
-      </div>
-    <% end %>
-    </div>
-  </div>
-  <div class="program-list day-two">
-    <p class="day-title">Day Two (8AM - 5PM)</p>
-    <div class="grid">
-      <div class="grid-sizer"></div>
-      <div class="program-item grid-item">
-        <article>
-          <div class="program-item-summary panel">
-            <h3 class="program-item-title">Open Source Panel: Do I have to do open
-            source?</h3>
-            <div class="panelists">
-              <% data.people.speakers.each do |speaker| %>
-                <% next unless speaker.category == "open source" %>
-              <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
-                <img src=<%= speaker.image_url %>>
-              </a>
-              <% end %>
-            </div>
-            <p><span class="talk-type">panel</span></p>
-          </div>
-        </article>
-      </div>
-      <div class="grid-sizer"></div>
-      <div class="program-item grid-item">
-        <article>
-          <div class="program-item-summary panel">
-            <h3 class="program-item-title">Code-Life Balance Panel: Can we
-            really have it all?</h3>
-            <div class="panelists">
-              <% data.people.speakers.each do |speaker| %>
-                <% next unless speaker.category == "code life balance" %>
-              <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
-                <img src=<%= speaker.image_url %>>
-              </a>
-              <% end %>
-            </div>
-            <p><span class="talk-type">panel</span></p>
-          </div>
-        </article>
-      </div>
-      <div class="grid-sizer"></div>
-      <div class="program-item grid-item">
-        <article>
-          <div class="program-item-summary panel">
-            <h3 class="program-item-title">Hiring Panel: How do I get the job?</h3>
-            <div class="panelists">
-              <% data.people.speakers.each do |speaker| %>
-                <% next unless speaker.category == "hiring" %>
-              <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
-                <img src=<%= speaker.image_url %>>
-              </a>
-              <% end %>
-            </div>
-            <p><span class="talk-type">panel</span></p>
-          </div>
-        </article>
-      </div>
-    <% data.people.speakers.each do |speaker| %>
-      <% next unless speaker.day == "2" && speaker.talk_title && speaker.type !=
-      "panel"%>
-      <div class="grid-sizer"></div>
-      <div class="program-item grid-item">
-        <a href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
-          <article>
-            <div class="talk-meta">
-              <img src="<%= speaker.image_url %>">
-            </div>
-            <div class="program-item-summary">
-              <p class="program-item-author"><%= speaker.full_name %>
-              </p>
-              <h3 class="program-item-title"><%= speaker.talk_title %></h3>
-              <p><span class="talk-type"><%= speaker.type %></span>
+              <p><span class="talk-type"><%= speaker.talk_type %></span>
               <% if speaker.category %>
                 <span class="talk-category <%=speaker.category.gsub(" ", "-")%>"><%= speaker.category %></span>
               <% end %>

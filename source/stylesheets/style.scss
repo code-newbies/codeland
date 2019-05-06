@@ -242,7 +242,7 @@ article {
     a:hover article {
       color: black;
     }
-    .program-item:hover { border: 2px solid $yellow; }
+    .program-item:hover { border: 2px solid $neon; }
   }
   .day-title {
     text-transform: uppercase; 
@@ -290,7 +290,7 @@ article {
    .program-item-title {
      margin-top: 0px;
      margin-bottom: 0px;
-     font-weight: 500;
+     font-weight: 900;
    }
 
    .program-item-abstract {

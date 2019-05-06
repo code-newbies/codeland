@@ -1,11 +1,9 @@
 .program {
   
   &-list {
-    @include span-columns(6);
     a { text-decoration: none; }
     a:hover {
       p { color: black; }
-      article { border: 5px solid black; }
     }
 
     p { margin-bottom: 0px; }
@@ -22,7 +20,7 @@
 
       &_title {
         font-family: "Lato", "Helvetica", "san serif";
-        font-weight: 600;
+        font-weight: 900;
         font-size: 24px;
         @media only screen and (max-width: 500px){
           font-size: 18px;
