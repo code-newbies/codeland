@@ -1653,6 +1653,12 @@ nav {
   @media only screen and (min-width: 1050px) {
     #venue-hotels .wrapper {
       padding: 0px; } }
+  @media only screen and (max-width: 500px) {
+    #venue-hotels .wrapper {
+      display: block;
+      margin: 0px auto; }
+      #venue-hotels .wrapper .venue {
+        margin-bottom: 30px; } }
 
 video {
   display: block;
