@@ -4,24 +4,34 @@
     font-family: "Roboto", "Helvetica", "san serif";
     font-weight: 300;
   }
-  .scholarship-options { display: flex; }
+  .scholarship-options {
+    display: flex;
+
+    &--grid {
+      display: grid;
+      grid-template-rows: 2fr 1fr;
+    }
+
+  }
+
+  .scholarship-options__footer--bottom-align {
+    align-self: end;
+  }
 
   .scholarship-application, .scholarship-donate {
     @include span-columns(6);
     h3 { margin: 0; }
+    border: 5px solid $neon;
     padding: 30px 40px;
-    border: 5px solid $yellow;
-    .button {
-      background: $yellow;
-      &:hover {
-        background: black;
-        a { color: white; }
-        a:hover { color: white; }
-      }
-    }
+    text-decoration: none;
   }
   .scholarship-description {
     margin-bottom: 30px;
+    max-width: 700px;
+    .scholarship-options__heading {
+      font-size: 22px;
+    }
+    text-align: center;
   }
   @media only screen and (max-width: 800px){
     .scholarship-application, .scholarship-donate {
@@ -30,6 +40,15 @@
     }
     p { font-size: 18px; }
     .scholarship-options { display: block; }
+  }
+
+  @media only screen and (max-width: 500px){
+    .scholarship-options__heading {
+      font-size: 22px;
+    }
+    .scholarship-options--grid {
+      display: unset;
+    }
   }
 
   &-presenter {
