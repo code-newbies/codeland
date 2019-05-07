@@ -87,11 +87,6 @@ html {
     .company-links--item:after {
       content: none; } }
 
-.apply-button, .donate-button {
-  background: yellow; }
-  .apply-button:hover, .donate-button:hover {
-    background: yellow; }
-
 .button, .get-tickets {
   display: inline-block;
   text-transform: uppercase;
@@ -108,6 +103,19 @@ html {
     .button:hover a, .get-tickets:hover a {
       color: black;
       font-weight: 900; }
+
+.button__donate, .button__apply {
+  margin-top: 30px; }
+
+.button--small {
+  background: #16fa51;
+  border: none;
+  font-size: 16px;
+  font-family: "Lato", "Helvetica", "san serif";
+  font-weight: 900;
+  text-decoration: none; }
+  .button--small:hover {
+    background: #0de846; }
 
 .recap-link {
   color: white;
@@ -1061,27 +1069,29 @@ nav {
     font-weight: 300; }
   .scholarship .scholarship-options {
     display: flex; }
+    .scholarship .scholarship-options--grid {
+      display: grid;
+      grid-template-rows: 2fr 1fr; }
+  .scholarship .scholarship-options__footer--bottom-align {
+    align-self: end; }
   .scholarship .scholarship-application, .scholarship .scholarship-donate {
     float: left;
     display: block;
     margin-right: 2.3576520234%;
     width: 48.8211739883%;
+    border: 5px solid #0de846;
     padding: 30px 40px;
-    border: 5px solid #fdff00; }
+    text-decoration: none; }
     .scholarship .scholarship-application:last-child, .scholarship .scholarship-donate:last-child {
       margin-right: 0; }
     .scholarship .scholarship-application h3, .scholarship .scholarship-donate h3 {
       margin: 0; }
-    .scholarship .scholarship-application .button, .scholarship .scholarship-donate .button {
-      background: #fdff00; }
-      .scholarship .scholarship-application .button:hover, .scholarship .scholarship-donate .button:hover {
-        background: black; }
-        .scholarship .scholarship-application .button:hover a, .scholarship .scholarship-donate .button:hover a {
-          color: white; }
-        .scholarship .scholarship-application .button:hover a:hover, .scholarship .scholarship-donate .button:hover a:hover {
-          color: white; }
   .scholarship .scholarship-description {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    max-width: 700px;
+    text-align: center; }
+    .scholarship .scholarship-description .scholarship-options__heading {
+      font-size: 22px; }
   @media only screen and (max-width: 800px) {
     .scholarship .scholarship-application, .scholarship .scholarship-donate {
       float: left;
@@ -1095,6 +1105,11 @@ nav {
       font-size: 18px; }
     .scholarship .scholarship-options {
       display: block; } }
+  @media only screen and (max-width: 500px) {
+    .scholarship .scholarship-options__heading {
+      font-size: 22px; }
+    .scholarship .scholarship-options--grid {
+      display: unset; } }
   .scholarship-presenter {
     margin-top: 0px;
     margin-bottom: 30px; }
