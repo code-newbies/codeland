@@ -181,6 +181,14 @@ speakers:
   twitter_handle: "@raymondcamden"
   talk_title: "Real Person's Guide to Vue.js"
   talk_abstract: "This workshop will introduce developers to the Vue.js framework. I'll cover basic syntax and usage examples. As a group, we'll work together on multiple real-world demos so you can see how Vue would be used in production."
+- full_name: "Scott Hanselman"
+  day: 1
+  talk_type: "talk"
+  talk_title: "Closing Keynote"
+  job_title: "Partner Program Manager at Microsoft"
+  company: "Microsoft"
+  twitter_handle: "shanselman"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/scott-hanselman.jpg"
 - full_name: "Yechiel Kalmenson"
   day: 1
   talk_type: "workshop"
