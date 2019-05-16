@@ -85,10 +85,9 @@ speakers:
   day: 1
   talk_type: "talk"
   job_title: "iOS Engineer"
-  company: "Slack"
+  company: "Calm"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/kaya-thomas.JPG"
-  bio: "Kaya is the creator of We Read Too, a book directory mobile app
-  showcasing books with main characters of color written by authors of color. She is currently an iOS developer at Slack as well as a writer and public speaker."
+  bio: "Kaya is the creator of We Read Too, a book directory mobile app showcasing books with main characters of color written by authors of colors. She is currently an iOS developer at Calm as well as a writer and public speaker."
   twitter_handle: "@kthomas901"
   talk_title: "How I Created 'We Read Too', A Mobile Directory of Diverse Books"
   talk_abstract: "In August 2014, I launched an app called We Read Too into the Apple App Store. We Read Too is a mobile app directory of children's and young adult books written by authors of color with main characters of color. I was motivated to create the app because of my own experience with feeling misrepresented in the books I read growing up. In this talk I will go over my inspiration for creating We Read Too, the process of going from an idea to a real mobile app and the app's impact since launching. By the end of the talk, you will have a deeper understanding of how to identify a problem, think through a possible tech solution, executive on launching a MVP to iterate on and how to maintain it after launch."
@@ -107,10 +106,10 @@ speakers:
   job_title: "Computer Science Master's Student"
   company: "Pace University"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/luisa-morales.jpg"
-  bio: "Luisa Morales is a computer science master’s student at Pace University in NYC and a former Engineering Fellow at The Mayor’s Office for Economic Opportunity (NYCO). She’s a Lead at Women Who Code NYC and regularly mentors female junior developers as a way of contributing to the growth of women in tech."
+  bio: "Luisa Morales is a computer science master’s student at Pace University in NYC and an Engineering Fellow at The Mayor’s Office for Economic Opportunity (NYCO). She’s a Lead at Women Who Code NYC and regularly mentors female junior developers as a way of contributing to the growth of women in tech."
   twitter_handle: "@luisamariethm"
   talk_title: "Building with Accessibility in Mind"
-  talk_abstract: "Come demystify web accessibility with me and get into the knitty-gritty of what it is, how you can test for accessibility on your own, and common best practices. We'll build an accessible website in the process that you can boast about on GitHub. You'll also gain practical experience you can utilize to make your current, and future, projects more accessible."
+  talk_abstract: "Come demystify web accessibility with me and get into the nitty-gritty of what it is, how you can test for accessibility on your own, and common best practices. We'll build an accessible website in the process that you can boast about on GitHub. You'll also gain practical experience you can utilize to make your current, and future, projects more accessible."
 - full_name: "Luna Malbroux"
   day: 1
   talk_tupe: "talk"
@@ -184,11 +183,12 @@ speakers:
 - full_name: "Scott Hanselman"
   day: 1
   talk_type: "talk"
-  talk_title: "Closing Keynote"
-  job_title: "Partner Program Manager at Microsoft"
+  talk_title: "Solving Diabetes with an Open Source Artificial Pancreas"
+  job_title: "Partner Program Manager"
   company: "Microsoft"
   twitter_handle: "shanselman"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/scott-hanselman.jpg"
+  bio: "Scott is a developer who has been blogging at https://hanselman.com for over 15 years. He works in Open Source on cross-platform .NET and the Azure Cloud for Microsoft out of his home office in Portland, Oregon. Scott has had three podcasts, most recently http://hanselminutes.com with nearly 700 episodes of fresh tech from fresh faces. He's written a number of books and spoken in-person to nearly a million developers worldwide."
 - full_name: "Yechiel Kalmenson"
   day: 1
   talk_type: "workshop"
