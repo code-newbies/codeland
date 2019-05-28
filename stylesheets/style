@@ -1245,21 +1245,28 @@ nav {
   .speaker a {
     text-decoration: none; }
 
+.schedule-description {
+  text-align: center; }
+
+.track-title {
+  background: black;
+  color: white;
+  padding: 20px 0px; }
+
+.tracks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto 50px; }
+
 .schedule {
   background: #f8f8f8; }
   .schedule h3 {
     text-align: center; }
-  .schedule .schedule-day {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%; }
-    .schedule .schedule-day:last-child {
-      margin-right: 0; }
   .schedule .schedule-item {
     background: white;
-    padding: 5px 15px 0px;
-    margin: 10px 0px; }
+    padding: 5px 15px 0px; }
     .schedule .schedule-item__content__title, .schedule .schedule-item p {
       font-family: "Lato", "Helvetica", "san serif"; }
     .schedule .schedule-item p {
@@ -1267,16 +1274,16 @@ nav {
       margin: 0px; }
     .schedule .schedule-item a:hover p {
       color: black;
-      background: #fdff00; }
+      background: #9bffb5; }
       .schedule .schedule-item a:hover p:before {
-        color: white; }
+        color: black; }
     .schedule .schedule-item__content {
       position: relative; }
       .schedule .schedule-item__content p {
         padding-left: 30px; }
         .schedule .schedule-item__content p:before {
           content: "•";
-          color: #fdff00;
+          color: #0de846;
           left: -15px;
           margin-left: 15px;
           padding-left: 5px;
@@ -1293,17 +1300,17 @@ nav {
         padding-right: 10px; }
         .schedule .schedule-item__header__start-time:after {
           content: "•";
-          color: #fdff00;
+          color: white;
           padding-left: 10px; }
     .schedule .schedule-item--talks {
       padding-bottom: 20px; }
       .schedule .schedule-item--talks .schedule-item__header {
-        background: black;
-        color: white;
+        background: #16fa51;
+        color: black;
         margin: -5px -15px 15px;
         padding: 20px 25px; }
     .schedule .schedule-item--break {
-      background: #fdff00; }
+      background: #9bffb5; }
       .schedule .schedule-item--break .schedule-item__header__start-time:after {
         color: white; }
     .schedule .schedule-item a {
@@ -1315,14 +1322,6 @@ nav {
       font-size: 16px;
       padding-left: 10px;
       font-family: "Helvetica"; }
-  @media only screen and (max-width: 900px) {
-    .schedule .schedule-day {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%; }
-      .schedule .schedule-day:last-child {
-        margin-right: 0; } }
   @media only screen and (max-width: 500px) {
     .schedule .schedule-item p, .schedule .schedule-item p.start-time, .schedule .schedule-item .speakers {
       font-size: 12px; }
