@@ -2,6 +2,7 @@ default: &default_title
 
 speakers:
 - full_name: "Ali Spittel"
+  order: 8
   day: 1
   talk_type: "talk"
   job_title: "Software Engineer"
@@ -12,6 +13,7 @@ speakers:
   talk_title: "Yes, You Should Write That Blog Post"
   talk_abstract: "Writing your first — or your hundredth — blog post is a challenge. What if nobody reads your post? Or someone leaves a rude comment? Or you get a technical detail wrong? And, how do you feel confident enough to press the publish button? Ali has navigated all these situations in the past year and a half that she’s been writing. She’ll tell her story and why she still writes and publishes technical blog posts." 
 - full_name: "Beth Haubert"
+  order: 5
   day: 1
   talk_type: "talk"
   job_title: "Software Engineer"
@@ -22,6 +24,7 @@ speakers:
   talk_title: "Cats, The Musical! Algorithmic Song Meow-ification"
   talk_abstract: "How are you supposed to sing along with your favorite TV theme song every week if it doesn't have lyrics? At my house, we 'meow' along (loudly). We also code, so I built 'Meowifier' to convert any song into a cat's meows. Join me in this exploration of melody analysis APIs and gratuitous cat gifs. I built an application that takes a song's audio and outputs a new audio file with that song's melody **sung by cats**. It's a technical feat. It's hilarious. It's beautiful. It's a new way to waste time on the internet."
 - full_name: "Bhavani Ravi"
+  order: 5
   day: 1
   talk_type: "workshop"
   job_title: "Software Engineer"
@@ -32,6 +35,7 @@ speakers:
   talk_title: "Chatbots 101"
   talk_abstract: "Chatbots can be an exciting technology to start with. You can build a basic Chatbot with just 10 lines of code. Conversational interfaces are considered to be the future of UI. Voice bots and text-based chatbots are increasingly becoming popular. In this workshop, you will build a chatbot using some of the most popular AI engines, Dialogflow/Rasa. You'll also learn about natural language processing."
 - full_name: "BJ Burns"
+  order: 6
   day: 1
   talk_type: "talk"
   job_title: "Owner/Co-Host "
@@ -42,6 +46,8 @@ speakers:
   talk_title: "Med to Dev: My Journey Through Depression"
   talk_abstract: "TRIGGER WARNING: I will be sharing my experience with anxiety, depression, and suicidality. I'll explain how getting into development saved my life. Then we will discuss ways to encourage yourself and others who are on the road to becoming a software developer. Come prepared to hear a motivating story and how to motivate and encourage those who may be struggling in ways we can't see."
 - full_name: "Jen Simmons"
+  order: 1
+  order_2: 1
   day: 1
   talk_type: "workshop"
   job_title: "Designer and Developer Advocate"
@@ -52,6 +58,7 @@ speakers:
   talk_title: "Understanding Layout"
   talk_abstract: "The web finally has a true system for layout baked into CSS — with the combination of Grid, Flexbox, Multicolumn, Flow, Writing Modes, Alignment, Sizing, and more. But what does this mean? How can we understand the whole system, not just the bits and pieces of code syntax. How can designers invent a new layout for each project, not just draw 12-column wireframes based on limitations from a decade ago. There are hundreds of ways to learn `display: flex;`, but very few that truly explain what’s happening. We have the chance to get deeply creative, if we could only Understand Layout. There will be very little code in this workshop — it’s perfect for both designers and developers, newbies and those with experience. Come learn an overall understanding of how web page layout works now that everything has changed."
 - full_name: "Jonathan Powell"
+  order: 2
   day: 1
   talk_type: "workshop"
   job_title: "Software Engineer"
@@ -62,6 +69,7 @@ speakers:
   talk_title: "The Node Not Taken: Graphs, Graphing Algorithms and Technical Interviews"
   talk_abstract: "Graph algorithms are common technical interview questions. In this workshop we’ll break down how to represent graphs, and how to solve problems with graph algorithms like depth-first search, breadth-first search, and dijkstra’s algorithm."
 - full_name: "Katarina Hoeger"
+  order: 8
   day: 1
   talk_type: "workshop"
   job_title: "Steam Instructor"
@@ -72,8 +80,8 @@ speakers:
   talk_title: "Making Musical Code"
   talk_abstract: "Have you ever used code to generate a melody? By the end of this workshop, each participant will map input text to musical notes and then generate a melody using Python. Good-to-haves include headphones, a will to use Python libraries, arrays, and more, and a will to explore basic musical concepts."
 - full_name: "Katrina Owen"
-  day: 2
-  order: 7
+  order: 4
+  day: 1
   job_title: "Senior Ecosystem Engineer"
   company: "GitHub"
   twitter_handle: "@kytrinyx"
@@ -82,6 +90,7 @@ speakers:
   talk_title: "How to fail without being a loser"
   talk_abstract: "We fail a lot. Even the shiny, bright, successful people do, though you’d never know from looking at their Instagram feeds. Failure is almost invariable painful, but it’s not always bad. Yeah, no, f’real, a lot of the time failure is plain awful, and a complete disaster. There’s no denying that. But not always. Sometimes it’s just a necessary evil. Sometimes it can even be done artfully. Let’s talk about how to fail a bit less, fail less painfully, and fail more strategically."
 - full_name: "Kaya Thomas"
+  order: 3
   day: 1
   talk_type: "talk"
   job_title: "iOS Engineer"
@@ -92,6 +101,7 @@ speakers:
   talk_title: "How I Created 'We Read Too', A Mobile Directory of Diverse Books"
   talk_abstract: "In August 2014, I launched an app called We Read Too into the Apple App Store. We Read Too is a mobile app directory of children's and young adult books written by authors of color with main characters of color. I was motivated to create the app because of my own experience with feeling misrepresented in the books I read growing up. In this talk I will go over my inspiration for creating We Read Too, the process of going from an idea to a real mobile app and the app's impact since launching. By the end of the talk, you will have a deeper understanding of how to identify a problem, think through a possible tech solution, executive on launching a MVP to iterate on and how to maintain it after launch."
 - full_name: "Kristen Webster"
+  order: 11
   day: 1
   talk_type: "talk"
   job_title: "Software Development Engineer II"
@@ -100,7 +110,18 @@ speakers:
   bio: "Kristen is a Software Engineer with a rich background in computer science, psychology, and writing."
   talk_abstract: "Art provides a surprising, creative avenue to explore algorithms. In this talk, we’ll explore the ways in which algorithms enable us to create compelling art - and, in the process, we’ll gain new insights into some well-known algorithms."
   talk_title: "Art Meets Algorithms"
+- full_name: "Jo-Wayne Josephs"
+  order: 12
+  day: 1
+  job_title: "Developer"
+  talk_type: "talk"
+  bio: "Jo is a junior, self-taught developer with an academic background in the liberal arts."
+  twitter_handle: "@jojosephs1992"
+  talk_title: "An Immigrant's Journey Into Tech"
+  talk_abstract: "Jo will talk about her journey into tech with the background of being an immigrant from the Caribbean and how she has overcome the unique obstacles that the American immigration system presents, and explores solutions to getting more immigrants into tech."
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/jo-wayne-josephs.png"
 - full_name: "Luisa Morales"
+  order: 4
   day: 1
   talk_type: "workshop"
   job_title: "Computer Science Master's Student"
@@ -112,7 +133,8 @@ speakers:
   talk_abstract: "Come demystify web accessibility with me and get into the nitty-gritty of what it is, how you can test for accessibility on your own, and common best practices. We'll build an accessible website in the process that you can boast about on GitHub. You'll also gain practical experience you can utilize to make your current, and future, projects more accessible."
 - full_name: "Luna Malbroux"
   day: 1
-  talk_tupe: "talk"
+  order: 1
+  talk_type: "talk"
   company: "EquiTable"
   job_title: "Chief Equity Officer"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/luna-malbroux.jpg"
@@ -120,6 +142,7 @@ speakers:
   talk_title: "Laughter is the Most Serious Weapon"
   talk_abstract: "How can we use creativity, humor, and tech to solve the world's most serious issues? EquiTable creator Luna Malbroux has a few ideas. In this talk, we'll explore how meeting problems with humor can lead to real results."
 - full_name: "Michael Winslow"
+  order: 10
   day: 1
   talk_type: "talk"
   job_title: "Director, Core Applications"
@@ -140,6 +163,7 @@ speakers:
   decade, his vision is to help create the most fun-filled productive
   professional events using interactive activities, stories, and dances. Learn more at www.werhuman.co."
 - full_name: "Norah Klintberg Sakal"
+  order: 7
   day: 1
   talk_type: "talk"
   job_title: "Founder/Data Scientist"
@@ -151,6 +175,7 @@ speakers:
   talk_title: "Guide to your own artificial intelligence application in 3 easy steps"
   talk_abstract: "How difficult is it to build yourself an intelligent application? When you hear “artificial intelligence”, you might think of complex solutions like self-driving cars, autonomous drones, and robots or smart assistants like Alexa or Siri - but it doesn’t have to be that complex. You can build a powerful image classification model within a topic that inspires and interests you - in 3 easy steps - and you don't need thousands of images to achieve state of the art results."
 - full_name: "Omayeli Arenyeka"
+  order: 9
   day: 1
   talk_type: "talk"
   job_title: "Software Engineer"
@@ -161,8 +186,10 @@ speakers:
   talk_title: "Building a Gendered Dictionary"
   talk_abstract: "When Yeli first made the claim that 'language is sexist' she had no data to back it up. There was no dataset of gendered words to point to and say 'there see!' So, with no knowledge of data gathering or analysis she decided to make one herself. Her talk is about data -- where to get it and how to create it if it doesn’t exist. Using The Gendered Project (a library of gendered words) as a case study, she’ll take the audience through the process of creating a dataset using popular libraries for data analysis and processing in Python — NLTK (Natural Language Toolkit), Panda, Gensim and techniques like regular expressions."
 - full_name: "Pedro Cruz"
+  order: 2
   day: 1
   talk_type: "talk"
+  talk_title: "DroneAid"
   job_title: "Founder and Developer"
   company: "DroneAid"
   twitter_handle: "@pedrocruzio"
@@ -172,6 +199,7 @@ speakers:
   UIs. In his spare time, he enjoys flying drones, creating augmented reality
   art, and playing tug-of-war with his black lab puppy."
 - full_name: "Raymond Camden"
+  order: 3
   day: 1
   talk_type: "workshop"
   job_title: "Developer Experience, Cat Demo Maker"
@@ -181,6 +209,7 @@ speakers:
   talk_title: "Real Person's Guide to Vue.js"
   talk_abstract: "This workshop will introduce developers to the Vue.js framework. I'll cover basic syntax and usage examples. As a group, we'll work together on multiple real-world demos so you can see how Vue would be used in production."
 - full_name: "Scott Hanselman"
+  order: 13
   day: 1
   talk_type: "talk"
   talk_title: "Solving Diabetes with an Open Source Artificial Pancreas"
@@ -190,6 +219,7 @@ speakers:
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/scott-hanselman.jpg"
   bio: "Scott is a developer who has been blogging at https://hanselman.com for over 15 years. He works in Open Source on cross-platform .NET and the Azure Cloud for Microsoft out of his home office in Portland, Oregon. Scott has had three podcasts, most recently http://hanselminutes.com with nearly 700 episodes of fresh tech from fresh faces. He's written a number of books and spoken in-person to nearly a million developers worldwide."
 - full_name: "Yechiel Kalmenson"
+  order: 6
   day: 1
   talk_type: "workshop"
   job_title: "Software Engineer"

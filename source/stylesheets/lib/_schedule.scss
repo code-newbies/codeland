@@ -1,13 +1,27 @@
+.schedule-description {
+  text-align: center;
+}
+
+.track-title {
+  background: black;
+  color: white;
+  padding: 20px 0px;
+}
+
+.tracks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto 50px;
+}
+
 .schedule {
   background: $lightgray;
   h3 { text-align: center; }
-  .schedule-day {
-    @include span-columns(6);
-  }
   .schedule-item {
     background: white;
     padding: 5px 15px 0px;
-    margin: 10px 0px;
 
     &__content__title, p { font-family: "Lato", "Helvetica", "san serif"; }
 
@@ -18,10 +32,10 @@
 
     a:hover p {
       color: black;
-      background: $yellow;
+      background: $mint;
 
       &:before {
-        color: white;
+        color: black;
       }
     }
 
@@ -32,7 +46,7 @@
 
         &:before {
           content: "•";
-          color: $yellow;
+          color: $neon;
           left: -15px;
           margin-left: 15px;
           padding-left: 5px;
@@ -57,7 +71,7 @@
         padding-right: 10px;
         &:after {
           content: "•";
-          color: $yellow;
+          color: white;
           padding-left: 10px;
         }
       }
@@ -67,15 +81,15 @@
       padding-bottom: 20px;
 
       .schedule-item__header {
-        background: black;
-        color: white;
+        background: $light-neon;
+        color: black;
         margin: -5px -15px 15px;
         padding: 20px 25px;
       }
     }
 
     &--break {
-      background: $yellow;
+      background: $mint;
       .schedule-item__header__start-time:after { color: white; }
     }
 
@@ -89,10 +103,6 @@
       padding-left: 10px;
       font-family: "Helvetica";
     }
-  }
-
-  @media only screen and (max-width: 900px){
-    .schedule-day { @include span-columns(12); }
   }
 
   @media only screen and (max-width: 500px){
