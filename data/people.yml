@@ -24,7 +24,7 @@ speakers:
   talk_title: "Cats, The Musical! Algorithmic Song Meow-ification"
   talk_abstract: "How are you supposed to sing along with your favorite TV theme song every week if it doesn't have lyrics? At my house, we 'meow' along (loudly). We also code, so I built 'Meowifier' to convert any song into a cat's meows. Join me in this exploration of melody analysis APIs and gratuitous cat gifs. I built an application that takes a song's audio and outputs a new audio file with that song's melody **sung by cats**. It's a technical feat. It's hilarious. It's beautiful. It's a new way to waste time on the internet."
 - full_name: "Bhavani Ravi"
-  order: 5
+  order: 1
   day: 1
   talk_type: "workshop"
   job_title: "Software Engineer"
@@ -46,7 +46,7 @@ speakers:
   talk_title: "Med to Dev: My Journey Through Depression"
   talk_abstract: "TRIGGER WARNING: I will be sharing my experience with anxiety, depression, and suicidality. I'll explain how getting into development saved my life. Then we will discuss ways to encourage yourself and others who are on the road to becoming a software developer. Come prepared to hear a motivating story and how to motivate and encourage those who may be struggling in ways we can't see."
 - full_name: "Jen Simmons"
-  order: 1
+  order: 4
   order_2: 1
   day: 1
   talk_type: "workshop"
@@ -58,7 +58,7 @@ speakers:
   talk_title: "Understanding Layout"
   talk_abstract: "The web finally has a true system for layout baked into CSS — with the combination of Grid, Flexbox, Multicolumn, Flow, Writing Modes, Alignment, Sizing, and more. But what does this mean? How can we understand the whole system, not just the bits and pieces of code syntax. How can designers invent a new layout for each project, not just draw 12-column wireframes based on limitations from a decade ago. There are hundreds of ways to learn `display: flex;`, but very few that truly explain what’s happening. We have the chance to get deeply creative, if we could only Understand Layout. There will be very little code in this workshop — it’s perfect for both designers and developers, newbies and those with experience. Come learn an overall understanding of how web page layout works now that everything has changed."
 - full_name: "Jonathan Powell"
-  order: 2
+  order: 5
   day: 1
   talk_type: "workshop"
   job_title: "Software Engineer"
@@ -69,7 +69,7 @@ speakers:
   talk_title: "The Node Not Taken: Graphs, Graphing Algorithms and Technical Interviews"
   talk_abstract: "Graph algorithms are common technical interview questions. In this workshop we’ll break down how to represent graphs, and how to solve problems with graph algorithms like depth-first search, breadth-first search, and dijkstra’s algorithm."
 - full_name: "Katarina Hoeger"
-  order: 8
+  order: 3
   day: 1
   talk_type: "workshop"
   job_title: "Steam Instructor"
@@ -122,7 +122,7 @@ speakers:
   talk_abstract: "Jo will talk about her journey into tech with the background of being an immigrant from the Caribbean and how she has overcome the unique obstacles that the American immigration system presents, and explores solutions to getting more immigrants into tech."
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/jo-wayne-josephs.png"
 - full_name: "Luisa Morales"
-  order: 4
+  order: 7
   day: 1
   talk_type: "workshop"
   job_title: "Computer Science Master's Student"
@@ -200,7 +200,7 @@ speakers:
   UIs. In his spare time, he enjoys flying drones, creating augmented reality
   art, and playing tug-of-war with his black lab puppy."
 - full_name: "Raymond Camden"
-  order: 3
+  order: 6
   day: 1
   talk_type: "workshop"
   job_title: "Developer Experience Engineer, Cat Demo Maker"
@@ -220,7 +220,7 @@ speakers:
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/scott-hanselman.jpg"
   bio: "Scott is a developer who has been blogging at https://hanselman.com for over 15 years. He works in Open Source on cross-platform .NET and the Azure Cloud for Microsoft out of his home office in Portland, Oregon. Scott has had three podcasts, most recently http://hanselminutes.com with nearly 700 episodes of fresh tech from fresh faces. He's written a number of books and spoken in-person to nearly a million developers worldwide."
 - full_name: "Yechiel Kalmenson"
-  order: 6
+  order: 2
   day: 1
   talk_type: "workshop"
   job_title: "Software Engineer"
