@@ -2,7 +2,6 @@
   background: $lightgray;
   p {
     font-family: "Roboto", "Helvetica", "san serif";
-    font-weight: 300;
   }
   .scholarship-options {
     display: flex;
@@ -26,6 +25,7 @@
     text-decoration: none;
   }
   .scholarship-description {
+    font-weight: 300;
     margin-bottom: 30px;
     max-width: 700px;
     .scholarship-options__heading {
@@ -38,7 +38,6 @@
       @include span-columns(12);
       margin-bottom: 10px;
     }
-    p { font-size: 18px; }
     .scholarship-options { display: block; }
   }
 

@@ -10,7 +10,8 @@
   <% day_two = data.people.speakers.select {|speaker| speaker.day == 2 &&
   speaker.talk_title && speaker.order }.sort_by {|speaker| speaker[:order].to_i }%>
   <% workshops_A = data.people.speakers.select {|speaker| speaker.day == 1 &&
-  speaker.talk_title && speaker.talk_type == "workshop" } %>
+  speaker.talk_title && speaker.talk_type == "workshop" }.sort_by{|speaker|
+  speaker[:order].to_i} %>
   <% workshops_B = data.people.speakers.select {|speaker| speaker.day == 2 &&
   speaker.talk_title && speaker.talk_type == "workshop" } %>
   <div class="track-main">
@@ -97,7 +98,7 @@
       <h3 class="track-title">Track B</h3>
       <article class="schedule-item schedule-item--talks">
         <p class="schedule-item__header">
-          <span class="schedule-item__header__start-time">9:55 AM</span>
+          <span class="schedule-item__header__start-time">10:25 AM</span>
           <span class="schedule-item__header__title">Workshops</span>
         </p>
         <% workshops_A[4..7].each do |speaker| %>
@@ -109,7 +110,7 @@
             </p>
           </a>
         <% end %>
-        <% speaker = workshops_A[1] %>
+        <% speaker = workshops_A[0] %>
           <a class="schedule-item__content" href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
             <p>
               <span class="schedule-item__content__title"><%= speaker.talk_title
@@ -129,7 +130,7 @@
           <span class="schedule-item__header__start-time">1:55 PM</span>
           <span class="schedule-item__header__title">Talks</span>
         </p>
-        <% day_one[6..10].each do |speaker| %>
+        <% day_one[7..11].each do |speaker| %>
           <a class="schedule-item__content" href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
             <p>
               <span class="schedule-item__content__title"><%= speaker.talk_title %></span>

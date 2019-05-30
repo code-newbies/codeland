@@ -82,6 +82,7 @@ speakers:
 - full_name: "Katrina Owen"
   order: 4
   day: 1
+  talk_type: "talk"
   job_title: "Senior Ecosystem Engineer"
   company: "GitHub"
   twitter_handle: "@kytrinyx"
@@ -202,7 +203,7 @@ speakers:
   order: 3
   day: 1
   talk_type: "workshop"
-  job_title: "Developer Experience, Cat Demo Maker"
+  job_title: "Developer Experience Engineer, Cat Demo Maker"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/raymond-camden.jpg"
   bio: "Raymond is a Developer Experience. His passion is front end development, some back end with Node, serverless, and enterprise cat demos."
   twitter_handle: "@raymondcamden"

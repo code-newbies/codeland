@@ -19,7 +19,7 @@
       <br>
       <p class="speaker-bio-name"><%= speaker.full_name %></p>
       <p class="speaker-byline"><%=
-      speaker.job_title %>, <%= speaker.company %><% unless speaker.twitter_handle.blank? %>, <% end %><a href="http://twitter.com/<%=
+      speaker.job_title %><%= "," if !speaker.company.blank? %> <%= speaker.company %><% unless speaker.twitter_handle.blank? %>, <% end %><a href="http://twitter.com/<%=
       speaker.twitter_handle %>" class="social-media-link" target="_blank"><%=
       speaker.twitter_handle %></a></p>
       <p><%= speaker.bio %></p>
