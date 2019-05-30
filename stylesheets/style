@@ -813,6 +813,29 @@ nav {
       .blockquote-byline {
         padding-left: 0px; } }
 
+.pay-it-forward--button {
+  margin-bottom: 30px; }
+
+.pay-it-forward-callout {
+  background: white; }
+
+.pay-it-forward-callout {
+  border: 5px solid black;
+  margin: 0 auto;
+  max-width: 200px;
+  padding: 30px; }
+
+.pay-it-forward-callout--body {
+  font-size: 36px;
+  font-weight: 500;
+  margin: 0px; }
+  @media only screen and (max-width: 500px) {
+    .pay-it-forward-callout--body {
+      font-size: 32px; } }
+
+.pay-it-forward_link {
+  text-decoration: none; }
+
 .photo-panel {
   background: white;
   display: flex; }
@@ -1065,8 +1088,7 @@ nav {
 .scholarship {
   background: #f8f8f8; }
   .scholarship p {
-    font-family: "Roboto", "Helvetica", "san serif";
-    font-weight: 300; }
+    font-family: "Roboto", "Helvetica", "san serif"; }
   .scholarship .scholarship-options {
     display: flex; }
     .scholarship .scholarship-options--grid {
@@ -1087,6 +1109,7 @@ nav {
     .scholarship .scholarship-application h3, .scholarship .scholarship-donate h3 {
       margin: 0; }
   .scholarship .scholarship-description {
+    font-weight: 300;
     margin-bottom: 30px;
     max-width: 700px;
     text-align: center; }
@@ -1101,8 +1124,6 @@ nav {
       margin-bottom: 10px; }
       .scholarship .scholarship-application:last-child, .scholarship .scholarship-donate:last-child {
         margin-right: 0; }
-    .scholarship p {
-      font-size: 18px; }
     .scholarship .scholarship-options {
       display: block; } }
   @media only screen and (max-width: 500px) {
