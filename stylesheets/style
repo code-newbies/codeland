@@ -1527,6 +1527,15 @@ nav {
   .ticket-info:hover {
     border-color: #0de846; }
 
+.ticket-announcement {
+  background: black;
+  border-bottom: none;
+  color: white;
+  padding: 5px; }
+  .ticket-announcement--body {
+    font-size: 14px;
+    margin: 0px; }
+
 .tickets-info {
   background: #f8f8f8; }
   .tickets-info.wrapper {
