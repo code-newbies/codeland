@@ -21,6 +21,18 @@
   }
 }
 
+.ticket-announcement {
+  background: black;
+  border-bottom: none;
+  color: white;
+  padding: 5px;
+
+  &--body {
+    font-size: 14px;
+    margin: 0px;
+  }
+}
+
 .tickets-info {
   background: $lightgray;
   &.wrapper { 
