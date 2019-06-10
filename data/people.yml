@@ -78,7 +78,7 @@ speakers:
   bio: "Katarina is currently a STEAM instructor and musician. As a musician or sound artist, she integrates mathematics and coding into some of the sound experiences she create."
   twitter_handle: "@kfhoeger"
   talk_title: "Making Musical Code"
-  talk_abstract: "Have you ever used code to generate a melody? By the end of this workshop, each participant will map input text to musical notes and then generate a melody using Python. Good-to-haves include headphones, a will to use Python libraries, arrays, and more, and a will to explore basic musical concepts."
+  talk_abstract: "Have you ever used code to generate a melody? By the end of this workshop, each participant will map input text to musical notes and then generate a melody using Python. Good-to-haves include headphones, a will to use Python libraries, lists, and more, and a will to explore basic musical concepts."
 - full_name: "Katrina Owen"
   order: 4
   day: 1
@@ -205,7 +205,7 @@ speakers:
   talk_type: "workshop"
   job_title: "Developer Experience Engineer, Cat Demo Maker"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/raymond-camden.jpg"
-  bio: "Raymond is a Developer Experience. His passion is front end development, some back end with Node, serverless, and enterprise cat demos."
+  bio: "Raymond is a Developer Experience engineer. His passion is front end development, some back end with Node, serverless, and enterprise cat demos."
   twitter_handle: "@raymondcamden"
   talk_title: "Real Person's Guide to Vue.js"
   talk_abstract: "This workshop will introduce developers to the Vue.js framework. I'll cover basic syntax and usage examples. As a group, we'll work together on multiple real-world demos so you can see how Vue would be used in production."
