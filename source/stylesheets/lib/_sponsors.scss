@@ -1,9 +1,30 @@
+#sponsors {
+  border-top: 5px solid black;
+}
+
+.sponsor-description {
+  text-align: center;
+}
+
+.patron-sponsor {
+  margin: 0 auto;
+  text-align: center;
+  .sponsor-image img {
+    width: 250px;
+  }
+}
+
+.sponsor-list--row-1 {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
 .sponsor-list {
   margin: 0 auto;
-  @include clearfix;
-  @include span-columns(12);
+  max-width: 800px;
+  padding-top: 50px;
 
-  .sponsor-list--row-1, .sponsor-list--row-2, .sponsor-list--row-3,
+  .patron-sponsor, .sponsor-list--row-1, .sponsor-list--row-2, .sponsor-list--row-3,
   .sponsor-list--special {
     @include clearfix;
     display: flex;
@@ -15,14 +36,10 @@
     -webkit-align-items: center;
 
     .sponsor-image {
-      padding: 30px 2.5%;
+      padding: 30px 5%;
       align-items: center;
       img { width: 100%; }
       max-width: 350px;
-
-      &:first-child {
-        padding: 0px;
-      }
     }
 
     @media only screen and (max-width: 500px){
