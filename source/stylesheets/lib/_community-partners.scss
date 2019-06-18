@@ -1,0 +1,20 @@
+.community-partners--list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 50px;
+  align-items: center;
+
+  img { width: 100%; }
+
+  @media only screen and (max-width: 1000px) { 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  @media only screen and (max-width: 600px) { 
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.community-partners--header {
+  margin-bottom: 50px;
+}

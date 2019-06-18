@@ -1,0 +1,20 @@
+<section id="community-partners" class="wrapper speakers">
+  <div class="community-partners--header">
+    <h2 class="community-partners--heading">
+      Community Parnters
+    </h2>
+    <p class="community-partners--description">
+      Thank you to our community partners for doing great work in the coding
+      community! Check out some of favorite organizations.
+    </p>
+  </div>
+  <div class="community-partners--list">
+    <% data.partners.partners.each do |partner| %>
+      <div class="community-partner--item">
+        <a href="<%= partner.link %>" target="_blank">
+          <%= image_tag partner.img %>
+        </a>
+      </div>
+    <% end %>
+  </div>
+</section>
