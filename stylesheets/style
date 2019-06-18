@@ -349,6 +349,23 @@ nav ul li:before {
   font-size: 22px;
   text-align: center; }
 
+.community-partners--list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 50px;
+  align-items: center; }
+  .community-partners--list img {
+    width: 100%; }
+  @media only screen and (max-width: 1000px) {
+    .community-partners--list {
+      grid-template-columns: 1fr 1fr 1fr 1fr; } }
+  @media only screen and (max-width: 600px) {
+    .community-partners--list {
+      grid-template-columns: 1fr 1fr 1fr; } }
+
+.community-partners--header {
+  margin-bottom: 50px; }
+
 .cta {
   text-decoration: none; }
   .cta--get-ticket {
