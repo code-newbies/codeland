@@ -29,4 +29,7 @@ partners:
 - name: "Vets Who Code"
   link: "https://vetswhocode.io/"
   img: "https://codenewbie-assets.s3.amazonaws.com/community-partners/vets-who-code.png"
+- name: "Write Speak Code"
+  link: "http://www.writespeakcode.com/"
+  img: "https://codenewbie-assets.s3.amazonaws.com/community-partners/write-speak-code-logo.png"
 
