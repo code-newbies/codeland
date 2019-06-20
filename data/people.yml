@@ -23,17 +23,6 @@ speakers:
   twitter_handle: "@haubertdashery"
   talk_title: "Cats, The Musical! Algorithmic Song Meow-ification"
   talk_abstract: "How are you supposed to sing along with your favorite TV theme song every week if it doesn't have lyrics? At my house, we 'meow' along (loudly). We also code, so I built 'Meowifier' to convert any song into a cat's meows. Join me in this exploration of melody analysis APIs and gratuitous cat gifs. I built an application that takes a song's audio and outputs a new audio file with that song's melody **sung by cats**. It's a technical feat. It's hilarious. It's beautiful. It's a new way to waste time on the internet."
-- full_name: "Bhavani Ravi"
-  order: 1
-  day: 1
-  talk_type: "workshop"
-  job_title: "Software Engineer"
-  company: "Organescape"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/bhavani-ravi.jpg"
-  bio: "Bhavani is a software engineer building kissflow, a digital workspace. She's also a Co-founder of Build2Learn, a local community that learns tech by building software and is also a lead for Womentechmakers Chennai."
-  twitter_handle: "@geeky_bhavani"
-  talk_title: "Chatbots 101"
-  talk_abstract: "Chatbots can be an exciting technology to start with. You can build a basic Chatbot with just 10 lines of code. Conversational interfaces are considered to be the future of UI. Voice bots and text-based chatbots are increasingly becoming popular. In this workshop, you will build a chatbot using some of the most popular AI engines, Dialogflow/Rasa. You'll also learn about natural language processing."
 - full_name: "BJ Burns"
   order: 6
   day: 1
