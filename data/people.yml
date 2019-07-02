@@ -13,7 +13,7 @@ speakers:
   talk_title: "Yes, You Should Write That Blog Post"
   talk_abstract: "Writing your first — or your hundredth — blog post is a challenge. What if nobody reads your post? Or someone leaves a rude comment? Or you get a technical detail wrong? And, how do you feel confident enough to press the publish button? Ali has navigated all these situations in the past year and a half that she’s been writing. She’ll tell her story and why she still writes and publishes technical blog posts." 
 - full_name: "Avi Flombaum"
-  order: 11
+  order: 10
   day: 1
   talk_type: "workshop"
   job_title: "Co-founder & Chief Innovation Officer"
@@ -46,7 +46,7 @@ speakers:
   talk_title: "Med to Dev: My Journey Through Depression"
   talk_abstract: "TRIGGER WARNING: I will be sharing my experience with anxiety, depression, and suicidality. I'll explain how getting into development saved my life. Then we will discuss ways to encourage yourself and others who are on the road to becoming a software developer. Come prepared to hear a motivating story and how to motivate and encourage those who may be struggling in ways we can't see."
 - full_name: "Eric Hollenberry"
-  order: 9
+  order: 8
   day: 1
   talk_type: "workshop"
   job_title: "Implementation Engineer"
@@ -57,7 +57,7 @@ speakers:
   talk_title: "Intro to Git, GitHub, the CLI and more!"
   talk_abstract: "Make sure your laptop is charged up and ready to go for this comprehensive review of GitHub as a collaboration platform. Though the workshop assumes no prior experience with Git, you’ll walk away with internationally taught industry best-practices, a conceptual overview of the GitHub Flow, and the preparation to contribute to the Open Source community. If you have an intermediate understanding, the second half of the workshop will be spent extending the first by using visualization tools, learning new commands, solidifying your mental model, and gaining the confidence to sail through your next no good very bad situation."
 - full_name: "Fangfang Lee"
-  order: 13
+  order: 11
   day: 1
   talk_type: "workshop"
   job_title: "Lead Data Science Instructor"
@@ -78,7 +78,7 @@ speakers:
   talk_title: "Gifs, the Cloud, & IoT!"
   talk_abstract: "Get started in the cloud with Azure IoT Hub! During this workshop, participants will work together to create a website that communicates with the IoT Hub and sends a gif to the screen on an MXChip IoT Device! After completing the workshop, each participant will receive an MXChip to bring home and continue working on IoT projects independently!"
 - full_name: "Jen Simmons"
-  order: 4
+  order: 1
   order_2: 1
   day: 1
   talk_type: "workshop"
@@ -90,7 +90,7 @@ speakers:
   talk_title: "Understanding Layout"
   talk_abstract: "The web finally has a true system for layout baked into CSS — with the combination of Grid, Flexbox, Multicolumn, Flow, Writing Modes, Alignment, Sizing, and more. But what does this mean? How can we understand the whole system, not just the bits and pieces of code syntax. How can designers invent a new layout for each project, not just draw 12-column wireframes based on limitations from a decade ago. There are hundreds of ways to learn `display: flex;`, but very few that truly explain what’s happening. We have the chance to get deeply creative, if we could only Understand Layout. There will be very little code in this workshop — it’s perfect for both designers and developers, newbies and those with experience. Come learn an overall understanding of how web page layout works now that everything has changed."
 - full_name: "Jonathan Powell"
-  order: 5
+  order: 2
   day: 1
   talk_type: "workshop"
   job_title: "Software Engineer"
@@ -101,7 +101,7 @@ speakers:
   talk_title: "The Node Not Taken: Graphs, Graphing Algorithms and Technical Interviews"
   talk_abstract: "Graph algorithms are common technical interview questions. In this workshop we’ll break down how to represent graphs, and how to solve problems with graph algorithms like depth-first search, breadth-first search, and dijkstra’s algorithm."
 - full_name: "Katarina Hoeger"
-  order: 3
+  order: 7
   day: 1
   talk_type: "workshop"
   job_title: "Steam Instructor"
@@ -154,7 +154,7 @@ speakers:
   talk_abstract: "Jo will talk about her journey into tech with the background of being an immigrant from the Caribbean and how she has overcome the unique obstacles that the American immigration system presents, and explores solutions to getting more immigrants into tech."
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/jo-wayne-josephs.png"
 - full_name: "Luisa Morales"
-  order: 7
+  order: 4
   day: 1
   talk_type: "workshop"
   job_title: "Computer Science Master's Student"
@@ -232,7 +232,7 @@ speakers:
   UIs. In his spare time, he enjoys flying drones, creating augmented reality
   art, and playing tug-of-war with his black lab puppy."
 - full_name: "Raymond Camden"
-  order: 6
+  order: 3
   day: 1
   talk_type: "workshop"
   job_title: "Developer Experience Engineer, Cat Demo Maker"
@@ -252,7 +252,7 @@ speakers:
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/scott-hanselman.jpg"
   bio: "Scott is a developer who has been blogging at https://hanselman.com for over 15 years. He works in Open Source on cross-platform .NET and the Azure Cloud for Microsoft out of his home office in Portland, Oregon. Scott has had three podcasts, most recently http://hanselminutes.com with nearly 700 episodes of fresh tech from fresh faces. He's written a number of books and spoken in-person to nearly a million developers worldwide."
 - full_name: "Sep DiMeglio"
-  order: as
+  order: 12
   day: 1
   talk_type: "workshop"
   job_title: "Developer Audience Manager"
@@ -263,7 +263,7 @@ speakers:
   talk_title: "Gifs, the Cloud, & IoT!"
   talk_abstract: "Get started in the cloud with Azure IoT Hub! During this workshop, participants will work together to create a website that communicates with the IoT Hub and sends a gif to the screen on an MXChip IoT Device! After completing the workshop, each participant will receive an MXChip to bring home and continue working on IoT projects independently!"
 - full_name: "Yechiel Kalmenson"
-  order: 2
+  order: 6
   day: 1
   talk_type: "workshop"
   job_title: "Software Engineer"
