@@ -12,6 +12,17 @@ speakers:
   twitter_handle: "@aspittel"
   talk_title: "Yes, You Should Write That Blog Post"
   talk_abstract: "Writing your first — or your hundredth — blog post is a challenge. What if nobody reads your post? Or someone leaves a rude comment? Or you get a technical detail wrong? And, how do you feel confident enough to press the publish button? Ali has navigated all these situations in the past year and a half that she’s been writing. She’ll tell her story and why she still writes and publishes technical blog posts." 
+- full_name: "Avi Flombaum"
+  order: 11
+  day: 1
+  talk_type: "workshop"
+  job_title: "Co-founder & Chief Innovation Officer"
+  company: "Flatiron School"
+  image_url: "https://codenewbie-assets.s3.amazonaws.com/codeland/speakers+2019/avi-flombaum.jpg"
+  bio: "As the Chief Innovation Officer and Founder of Flatiron School, a WeWork Company, Avi Flombaum has changed thousands of lives by teaching people – with little to no experience – to learn code and launch careers in tech developers. A self-taught programmer and CTO-by-20, Avi is passionate about helping people learn to love code."
+  twitter_handle: "@aviflombaum"
+  talk_title: "Make it Rain Emojis: Intro to Front-End"
+  talk_abstract: "Join Flatiron School Co-founder, Avi Flombaum, for 2.5 hours of coding specifically designed for beginners! In this session, you'll build mini apps with three fundamental coding languages: HTML, CSS, and JavaScript. No previous coding knowledge is needed. Please come with a laptop ready to play with new languages, get creative, and have fun with peers!"
 - full_name: "Beth Haubert"
   order: 5
   day: 1
@@ -34,6 +45,38 @@ speakers:
   twitter_handle: "@bowtiebeej"
   talk_title: "Med to Dev: My Journey Through Depression"
   talk_abstract: "TRIGGER WARNING: I will be sharing my experience with anxiety, depression, and suicidality. I'll explain how getting into development saved my life. Then we will discuss ways to encourage yourself and others who are on the road to becoming a software developer. Come prepared to hear a motivating story and how to motivate and encourage those who may be struggling in ways we can't see."
+- full_name: "Eric Hollenberry"
+  order: 9
+  day: 1
+  talk_type: "workshop"
+  job_title: "Implementation Engineer"
+  company: "GitHub"
+  image_url: "https://codenewbie-assets.s3.amazonaws.com/codeland/speakers+2019/eric-hollenberry.png"
+  bio: "Eric is an Implementation Engineer at GitHub, traveling the world to teach customers how to best adopt and utilize all things Git. A teacher by trade, he's deeply invested in education, open source software, and enthusiastic about non-technical users and software developers alike."
+  twitter_handle: "@hollenberry"
+  talk_title: "Intro to Git, GitHub, the CLI and more!"
+  talk_abstract: "Make sure your laptop is charged up and ready to go for this comprehensive review of GitHub as a collaboration platform. Though the workshop assumes no prior experience with Git, you’ll walk away with internationally taught industry best-practices, a conceptual overview of the GitHub Flow, and the preparation to contribute to the Open Source community. If you have an intermediate understanding, the second half of the workshop will be spent extending the first by using visualization tools, learning new commands, solidifying your mental model, and gaining the confidence to sail through your next no good very bad situation."
+- full_name: "Fangfang Lee"
+  order: 13
+  day: 1
+  talk_type: "workshop"
+  job_title: "Lead Data Science Instructor"
+  company: "Flatiron School"
+  image_url: "https://codenewbie-assets.s3.amazonaws.com/codeland/speakers+2019/fangfang-lee.jpeg"
+  bio: "Upon graduating with a master's in Statistics, Fangfang worked as a data scientist for the Biocomplexity Institute at Virginia Tech where she manages projects contracted by the local as well as the federal government. She then traveled to Stockholm, Sweden to work as a data scientist at a startup briefly before returning to New York and fell in love with teaching and sharing her passion in data science."
+  talk_title: "Build a Recommendation Engine from scratch"
+  talk_abstract: "We will use existing data to build a hotel recommendation based on the description of existing hotel. This will cover the intuition of recommendation engines, some math behind calculating similarity and distance metrics, and compare our model with existing websites such as tripadvisors to show the power of knowing data science/machine learning."
+- full_name: "Jasmine Greenaway"
+  order: 12
+  day: 1
+  talk_type: "workshop"
+  job_title: "Cloud Advocate"
+  company: "Microsoft"
+  image_url: "https://codenewbie-assets.s3.amazonaws.com/codeland/speakers+2019/jasmine-greenaway.jpg"
+  bio: "Jasmine uses Azure to illustrate the awesome things developers can do with the cloud. Since 2009, her experience has led her to different development environments and industries. She also teaches the basics of web development as an adjunct professor at a local college. Outside of work, she volunteers as a co-organizer at BrooklynJS, a monthly meetup held in the Cobble Hill area of Brooklyn, NYC."
+  twitter_handle: "@paladique"
+  talk_title: "Gifs, the Cloud, & IoT!"
+  talk_abstract: "Get started in the cloud with Azure IoT Hub! During this workshop, participants will work together to create a website that communicates with the IoT Hub and sends a gif to the screen on an MXChip IoT Device! After completing the workshop, each participant will receive an MXChip to bring home and continue working on IoT projects independently!"
 - full_name: "Jen Simmons"
   order: 4
   order_2: 1
@@ -208,6 +251,17 @@ speakers:
   twitter_handle: "shanselman"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/scott-hanselman.jpg"
   bio: "Scott is a developer who has been blogging at https://hanselman.com for over 15 years. He works in Open Source on cross-platform .NET and the Azure Cloud for Microsoft out of his home office in Portland, Oregon. Scott has had three podcasts, most recently http://hanselminutes.com with nearly 700 episodes of fresh tech from fresh faces. He's written a number of books and spoken in-person to nearly a million developers worldwide."
+- full_name: "Sep DiMeglio"
+  order: as
+  day: 1
+  talk_type: "workshop"
+  job_title: "Developer Audience Manager"
+  company: "Microsoft"
+  twitter_handle: "@asksep"
+  image_url: "https://codenewbie-assets.s3.amazonaws.com/codeland/speakers+2019/sep-dimeglio.jpg"
+  bio: "Developer Audience Manager"
+  talk_title: "Gifs, the Cloud, & IoT!"
+  talk_abstract: "Get started in the cloud with Azure IoT Hub! During this workshop, participants will work together to create a website that communicates with the IoT Hub and sends a gif to the screen on an MXChip IoT Device! After completing the workshop, each participant will receive an MXChip to bring home and continue working on IoT projects independently!"
 - full_name: "Yechiel Kalmenson"
   order: 2
   day: 1
