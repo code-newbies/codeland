@@ -83,7 +83,15 @@
           <span class="schedule-item__header__start-time">12:55 PM</span>
           <span class="schedule-item__header__title">Workshops - Select one</span>
         </p>
-        <% workshops_A[0..3].each do |speaker| %>
+        <% speaker = workshops_A[0] %>
+          <a class="schedule-item__content" href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
+            <p>
+              <span class="schedule-item__content__title"><%= speaker.talk_title
+              %></span>
+              <span class="schedule-item__content__speakers"><%= speaker.full_name %></span>
+            </p>
+          </a>
+        <% workshops_A[4..5].each do |speaker| %>
           <a class="schedule-item__content" href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
             <p>
               <span class="schedule-item__content__title"><%= speaker.talk_title
@@ -94,7 +102,7 @@
         <% end %>
         <% workshops_A[6..14].each do |speaker| %>
           <% next if speaker.full_name == "Jasmine Greenaway" %>
-          <% next if speaker.full_name == "Avi Flombaum" %>
+          <% next if speaker.full_name == "Fangfang Lee" %>
           <a class="schedule-item__content" href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
             <p>
               <span class="schedule-item__content__title"><%= speaker.talk_title
@@ -118,15 +126,7 @@
           <span class="schedule-item__header__start-time">10:25 AM</span>
           <span class="schedule-item__header__title">Workshops</span>
         </p>
-        <% speaker = workshops_A[0] %>
-          <a class="schedule-item__content" href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
-            <p>
-              <span class="schedule-item__content__title"><%= speaker.talk_title
-              %></span>
-              <span class="schedule-item__content__speakers"><%= speaker.full_name %></span>
-            </p>
-          </a>
-        <% workshops_A[4..5].each do |speaker| %>
+        <% workshops_A[0..3].each do |speaker| %>
           <a class="schedule-item__content" href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
             <p>
               <span class="schedule-item__content__title"><%= speaker.talk_title
@@ -137,7 +137,7 @@
         <% end %>
         <% workshops_A[6..14].each do |speaker| %>
           <% next if speaker.full_name == "Jasmine Greenaway" %>
-          <% next if speaker.full_name == "Fangfang Lee" %>
+          <% next if speaker.full_name == "Avi Flombaum" %>
           <a class="schedule-item__content" href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
             <p>
               <span class="schedule-item__content__title"><%= speaker.talk_title
