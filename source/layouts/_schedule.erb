@@ -102,7 +102,7 @@
         <% end %>
         <% workshops_A[6..14].each do |speaker| %>
           <% next if speaker.full_name == "Jasmine Greenaway" %>
-          <% next if speaker.full_name == "Fangfang Lee" %>
+          <% next if speaker.full_name == "Avi Flombaum" %>
           <a class="schedule-item__content" href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
             <p>
               <span class="schedule-item__content__title"><%= speaker.talk_title
@@ -137,7 +137,7 @@
         <% end %>
         <% workshops_A[6..14].each do |speaker| %>
           <% next if speaker.full_name == "Jasmine Greenaway" %>
-          <% next if speaker.full_name == "Avi Flombaum" %>
+          <% next if speaker.full_name == "Fangfang Lee" %>
           <a class="schedule-item__content" href=<%= "/speakers/#{speaker.full_name.gsub(" ", "-").downcase}"%>>
             <p>
               <span class="schedule-item__content__title"><%= speaker.talk_title

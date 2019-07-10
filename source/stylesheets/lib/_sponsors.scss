@@ -16,12 +16,11 @@
 
 .sponsor-list--row-1 {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 800px;
 }
 
 .sponsor-list {
   margin: 0 auto;
-  max-width: 800px;
   padding-top: 50px;
 
   .patron-sponsor, .sponsor-list--row-1, .sponsor-list--row-2, .sponsor-list--row-3,
@@ -36,13 +35,13 @@
     -webkit-align-items: center;
 
     .sponsor-image {
-      padding: 30px 5%;
+      padding: 30px;
       align-items: center;
       img { width: 100%; }
       max-width: 350px;
     }
 
-    @media only screen and (max-width: 500px){
+    @media only screen and (max-width: 700px){
       display: block;
       .sponsor-image {
         width: 150px;

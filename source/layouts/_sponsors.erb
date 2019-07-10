@@ -14,7 +14,7 @@
       </article>
     </div>
     <div class="sponsor-list--row-1">
-      <% data.sponsors.sponsors[1..2].each do |sponsor| %> 
+      <% data.sponsors.sponsors[1..3].each do |sponsor| %> 
         <article class="sponsor-image">
           <a href=<%= sponsor.link %> target="_blank">
             <img src=<%= sponsor.image_url %>></img>
@@ -22,8 +22,17 @@
         </article>
       <% end %>
     </div>
-    <div class="sponsor-list--row-2">
-      <% data.sponsors.sponsors[3..8].each do |sponsor| %> 
+    <div class="sponsor-list--row-1">
+      <% data.sponsors.sponsors[4..6].each do |sponsor| %> 
+        <article class="sponsor-image">
+          <a href=<%= sponsor.link %> target="_blank">
+            <img src=<%= sponsor.image_url %>></img>
+          </a>
+        </article>
+      <% end %>
+    </div>
+    <div class="sponsor-list--row-1">
+      <% data.sponsors.sponsors[7..10].each do |sponsor| %> 
         <article class="sponsor-image">
           <a href=<%= sponsor.link %> target="_blank">
             <img src=<%= sponsor.image_url %>></img>
