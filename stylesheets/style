@@ -351,7 +351,7 @@ nav ul li:before {
 
 .community-partners--list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 50px;
   align-items: center; }
   .community-partners--list img {
@@ -1465,11 +1465,10 @@ nav {
 
 .sponsor-list--row-1 {
   margin: 0 auto;
-  max-width: 600px; }
+  max-width: 800px; }
 
 .sponsor-list {
   margin: 0 auto;
-  max-width: 800px;
   padding-top: 50px; }
   .sponsor-list .patron-sponsor, .sponsor-list .sponsor-list--row-1, .sponsor-list .sponsor-list--row-2, .sponsor-list .sponsor-list--row-3,
   .sponsor-list .sponsor-list--special {
@@ -1487,13 +1486,13 @@ nav {
       display: block; }
     .sponsor-list .patron-sponsor .sponsor-image, .sponsor-list .sponsor-list--row-1 .sponsor-image, .sponsor-list .sponsor-list--row-2 .sponsor-image, .sponsor-list .sponsor-list--row-3 .sponsor-image,
     .sponsor-list .sponsor-list--special .sponsor-image {
-      padding: 30px 5%;
+      padding: 30px;
       align-items: center;
       max-width: 350px; }
       .sponsor-list .patron-sponsor .sponsor-image img, .sponsor-list .sponsor-list--row-1 .sponsor-image img, .sponsor-list .sponsor-list--row-2 .sponsor-image img, .sponsor-list .sponsor-list--row-3 .sponsor-image img,
       .sponsor-list .sponsor-list--special .sponsor-image img {
         width: 100%; }
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 700px) {
       .sponsor-list .patron-sponsor, .sponsor-list .sponsor-list--row-1, .sponsor-list .sponsor-list--row-2, .sponsor-list .sponsor-list--row-3,
       .sponsor-list .sponsor-list--special {
         display: block; }
