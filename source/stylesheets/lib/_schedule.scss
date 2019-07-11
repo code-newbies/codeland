@@ -3,8 +3,8 @@
 }
 
 .track-title {
-  background: black;
-  color: white;
+  background: $neon;
+  color: black;
   padding: 20px 0px;
 }
 
@@ -81,15 +81,16 @@
       padding-bottom: 20px;
 
       .schedule-item__header {
-        background: $light-neon;
-        color: black;
+        background: black;
+        color: white;
         margin: -5px -15px 15px;
         padding: 20px 25px;
       }
     }
 
     &--break {
-      background: $mint;
+      background: white;
+      border: 5px solid black;
       .schedule-item__header__start-time:after { color: white; }
     }
 
