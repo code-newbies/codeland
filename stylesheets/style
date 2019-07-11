@@ -1287,8 +1287,8 @@ nav {
   text-align: center; }
 
 .track-title {
-  background: black;
-  color: white;
+  background: #0de846;
+  color: black;
   padding: 20px 0px; }
 
 .tracks {
@@ -1343,12 +1343,13 @@ nav {
     .schedule .schedule-item--talks {
       padding-bottom: 20px; }
       .schedule .schedule-item--talks .schedule-item__header {
-        background: #16fa51;
-        color: black;
+        background: black;
+        color: white;
         margin: -5px -15px 15px;
         padding: 20px 25px; }
     .schedule .schedule-item--break {
-      background: #9bffb5; }
+      background: white;
+      border: 5px solid black; }
       .schedule .schedule-item--break .schedule-item__header__start-time:after {
         color: white; }
     .schedule .schedule-item a {
