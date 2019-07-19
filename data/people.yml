@@ -24,7 +24,7 @@ speakers:
   talk_title: "Make it Rain Emojis: Intro to Front-End"
   talk_abstract: "Join Flatiron School Co-founder, Avi Flombaum, for 2.5 hours of coding specifically designed for beginners! In this session, you'll build mini apps with three fundamental coding languages: HTML, CSS, and JavaScript. No previous coding knowledge is needed. Please come with a laptop ready to play with new languages, get creative, and have fun with peers!"
 - full_name: "Beth Haubert"
-  order: 5
+  order: 7
   day: 1
   talk_type: "talk"
   job_title: "Software Engineer"
@@ -125,7 +125,7 @@ speakers:
   order: 4
   day: 1
   talk_type: "talk"
-  job_title: "Senior Ecosystem Engineer"
+  job_title: "Senior Software Engineer"
   company: "GitHub"
   twitter_handle: "@kytrinyx"
   image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/katrina-owen.jpg"
@@ -217,7 +217,7 @@ speakers:
   decade, his vision is to help create the most fun-filled productive
   professional events using interactive activities, stories, and dances. Learn more at www.werhuman.co."
 - full_name: "Norah Klintberg Sakal"
-  order: 7
+  order: 5
   day: 1
   talk_type: "talk"
   job_title: "Founder/Data Scientist"
