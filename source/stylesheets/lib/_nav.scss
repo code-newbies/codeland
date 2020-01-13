@@ -1,65 +1,30 @@
-nav {
-  .mobile-home { display: none; }
-  background: white;
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  z-index: 9999999999;
+.site-nav {
+  display: flex;
+}
 
-  &.main-nav {
-    padding-bottom: 10px;
-  }
+.nav-link--container {
+  @include span-columns(12);
+  display: flex;
+  justify-content: center;
+}
 
-  .main-nav {
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
-    img { max-width: 200px; }
-    ul {
-      text-align: center;
-      a {
-        text-decoration: none;
-        &::after {
-          content: "•";
-          padding: 0px 10px;
-          color: $main;
-        }
-        &:last-child::after { content: none; }
-        &:hover {
-          color: black;
-          li {
-            color: black;
-            border-bottom: 2px solid $main;
-          }
-        }
-      }
-      li {
-        color: black;
-        display: inline-block;
-        text-transform: uppercase;
-        font-family: "Lato", "Helvetica", "san serif";
-        font-weight: 600;
-        padding: 5px 15px;
-        font-size: 14px;
-      }
+.nav-link--section {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.nav-link--item {
+  display: inline-block;
+  margin-right: 0.75em;
+
+  a {
+    color: $base-color;
+    font-weight: 800;
+    text-decoration: none;
+
+    &:hover {
+      color: $accent-color;
+      text-decoration: underline;
     }
-  }
-  @media only screen and (max-width: 1350px){
-    &.wrapper { padding: 0px; }
-    &.wrapper ul { padding: 0px 5px; }
-  }
-  @media only screen and (min-width: 649px){
-    &.main-nav .mobile-nav { display: block; }
-  }
-  @media only screen and (max-width: 650px){
-    &.main-nav ul li {
-      font-size: 12px;
-      padding: 5px 0px;
-    }
-    &.main-nav .mobile-home {
-      display: block;
-      li { padding: 5px 10px; }
-    }
-    .mobile-nav { display: none; }
   }
 }

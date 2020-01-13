@@ -1,21 +1,66 @@
-footer {
-  border-top: 5px solid black;
-  padding-top: 20px;
-
-  .footer--content {
-    font-family: "Open Sans";
-  }
-
-  &.wrapper {
-    margin-bottom: 0px;
-    padding-top: 40px;
-    padding-bottom: 60px;
-  }
-  .about-codenewbie { @include span-columns(8); }
-  .sponsorship { @include span-columns(4); }
+#footer {
+  position: relative;
 }
 
-@media only screen and (max-width: 800px){
-  footer .about-codenewbie { @include span-columns(12); }
-  footer .sponsorship { @include span-columns(12); }
+.section-card.footer {
+  margin-bottom: -2em;
+
+  &:before {
+    background: #F9F9F9;
+    transform: rotate(5deg);
+    left: -100px;
+  }
+}
+
+.footer-header {
+  grid-column-start: 4;
+  text-align: center;
+
+  .footer-title--image img {
+    height: auto;
+    max-width: 520px;
+  }
+
+  .footer-title--description {
+    font-weight: 400;
+
+    a {
+      font-weight: 800;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.footer-body--information {
+  column-gap: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-body--about {
+  grid-column-start: initial;
+  grid-column-end: span 2;
+
+  .image-title {
+    img {
+      height: auto;
+      width: 160px;
+    }
+  }
+}
+
+.footer-body--contact {
+  grid-column-end: 4;
+
+  ul {
+    list-style-type: none;
+    margin-left: 0;
+    li {
+      margin-bottom: 0.25em;
+    }
+  }
 }

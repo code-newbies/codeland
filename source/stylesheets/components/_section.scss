@@ -1,0 +1,62 @@
+$gutter-top: 9em;
+$gutter-bottom: 9em;
+$container-width: 75vw;
+
+@mixin grid() {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+  grid-template-rows: auto;
+  grid-gap: 2em;
+}
+
+.section-card {
+  margin-top: $gutter-top / 2;
+  margin-bottom: $gutter-bottom / 2;
+
+  &:before {
+    height: -webkit-fill-available;
+    width: 125%;
+    position: absolute;
+    content: "";
+  }
+}
+
+.section-container {
+  @include grid();
+  position: relative;
+  padding-top: $gutter-top;
+  padding-bottom: $gutter-bottom;
+  overflow-x: hidden;
+  width: $container-width;
+  margin: 0 auto;
+}
+
+.section-card.speakers,
+.section-card.coming-soon,
+.section-card.sponsors,
+.section-card._community-partners {
+  .section-container {
+    padding-top: $gutter-top / 2;
+    padding-bottom: $gutter-bottom / 2.5;
+  }
+}
+
+.section-container--header {
+  grid-column-start: initial;
+  grid-column-end: span 4;
+}
+
+.section-container--body {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: span 8;
+}
+
+.section-container--article {
+  grid-column-start: initial;
+  grid-column-end: span 5;
+}
+
+.section-container--block {
+  margin-bottom: 1em;
+}

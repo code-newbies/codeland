@@ -1,20 +1,22 @@
-<section id="community-partners" class="wrapper speakers">
-  <div class="community-partners--header">
-    <h2 class="community-partners--heading">
-      Community Parnters
-    </h2>
-    <p class="community-partners--description">
-      Thank you to our community partners for doing great work in the coding
-      community! Check out some of favorite organizations.
-    </p>
-  </div>
-  <div class="community-partners--list">
-    <% data.partners.partners.each do |partner| %>
-      <div class="community-partner--item">
-        <a href="<%= partner.link %>" target="_blank">
-          <%= image_tag partner.img %>
-        </a>
-      </div>
-    <% end %>
-  </div>
+<section id="community-partners" class="section-card community-partners">
+  <section class="section-container">
+    <header class="section-container--header">
+      <h1 class="section-container--title">
+        Community Partners
+      </h1>
+      <p>
+        Thank you to our community partners for doing great work in the coding community! Check out some of favorite organizations.
+      </p>
+    </header>
+
+    <div class="section-container--body media-grid-container">
+      <% data.partners.partners.each do |partner| %>
+        <figure class="media-grid-item">
+          <a href="<%= partner.link %>" target="_blank">
+            <%= image_tag partner.img %>
+          </a>
+        </figure>
+      <% end %>
+    </div>
+  </section>
 </section>

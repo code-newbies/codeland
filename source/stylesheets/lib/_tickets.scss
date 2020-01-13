@@ -1,182 +1,57 @@
-.early-bird--price {
-  font-size: 48px;
-  font-weight: 400;
-  margin-top: 0px;
-  margin-bottom: 0px;
+#tickets {
+  position: relative;
 }
 
-.early-bird--reg-price {
-  color: gray;
-  font-size: 16px;
-  text-transform: initial;
-}
-
-.ticket-info {
-  background: white;
-  border: 5px solid black;
-  padding: 40px 20px;
-
-  &:hover {
-    border-color: $main;
+.section-card.tickets {
+  &:before {
+    background: #E3EFEB;
+    transform: rotate(5deg);
+    left: -100px;
   }
 }
 
-.ticket-announcement {
-  background: black;
-  border-bottom: none;
-  color: white;
-  padding: 5px;
+.ticket-options--header {
+  border-bottom: 1px solid $base-color;
+  padding-bottom: 1.5em;
 
-  &--body {
-    font-size: 14px;
-    margin: 0px;
+  em {
+    font-style: normal;
+    color: green;
   }
 }
 
-.tickets-info {
-  background: $lightgray;
-  &.wrapper { 
-    padding-top: 30px;
-    padding-bottom: 50px;
+.ticket-options ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.ticket-options ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid $base-color;
+  margin-bottom: 0;
+}
+
+.ticket-options--type,
+.ticket-options--price {
+  margin-right: 3em;
+}
+
+.ticket-options--type {
+  width: 640px;
+}
+
+.ticket-options--price {
+  text-align: center;
+
+  h3 {
+    color: green;
   }
 
-  .ticket-header {
-    text-align: center;
-    .description {
-      font-family: "Roboto", "Helvetica", "san serif";
-      font-weight: 300;
-      font-size: 24px;
-      max-width: 1000px;
-      margin: 0 auto;
-      padding-bottom: 20px;
-    }
-    @media only screen and (max-width: 600px){
-      p.description { font-size: 18px; }
-    }
-  }
-
-  .tickets {
-    max-width: 1000px;
-    margin: 0 auto;
-    @include clearfix;
-
-    @media only screen and (max-width: 700px){
-      .ticket-type-price { font-size: 32px; }
-      .ticket-type-name { font-size: 22px; }
-    }
-    @media only screen and (max-width: 600px){
-      padding: 0px;
-      .ticket-time { font-size: 12px; }
-      .ticket-type-price { font-size: 22px; }
-      .ticket-type-name { font-size: 18px; }
-      .ticket-type__wrapper { padding: 20px 0px; }
-    }
-    @media only screen and (max-width: 600px){
-      .ticket-type-name { font-size: 14px; }
-      .ticket { padding: 0px 3px; }
-    }
-  }
-
-  .ticket {
-    @include span-columns(4);
-    padding: 0px 10px;
-    text-align: center;
-
-    &:hover {
-      .ticket-type__wrapper {
-        background: $yellow;
-      }
-      .ticket-time__wrapper {
-        background: black;
-        border: 2px solid black;
-        color: white;
-      }
-    }
-
-    &-time {
-      margin: 0px;
-      &__wrapper {
-        padding: 10px 0px;
-        background: $yellow;
-        border: 2px solid $yellow;
-      }
-    }
-    &-reg-price {
-      font-size: 18px;
-      font-weight: 300;
-      margin: 0px;
-      text-decoration: line-through;
-
-      @media only screen and (max-width: 700px){
-        font-size: 12px;
-      }
-    }
-    &-type {
-      &__wrapper {
-        border: 2px solid $yellow;
-        padding: 30px 0px;
-        background: white;
-      }
-
-      &-name {
-        margin: 0px;
-      }
-      &-price {
-        margin: 0px;
-        font-size: 36px;
-        font-family: "Roboto", "Helvetica", "san serif";
-      }
-    }
-  }
-
-  .tickets-explanation {
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    border: 2px solid #eee;
-
-    &-header {
-      @include span-columns(3);
-      margin: 0px;
-      background: white;
-      padding: 20px 30px;
-      margin-right: 20px;
-    }
-    &-details {
-      @include span-columns(9);
-      padding: 20px;
-      p {
-        font-family: "Roboto", "Helvetica", "san serif";
-        margin-top: 0px;
-      }
-    }
-    &-detail-header {
-      font-family: "Helvetica", "san serif";
-      font-weight: 900;
-    }
-  }
-
-  @media only screen and (max-width: 600px){
-    .tickets-explanation {
-      margin-top: 30px;
-      display: block;
-      &-header {
-        @include span-columns(12);
-        border: 2px solid #eee;
-        border-bottom: none;
-      }
-      &-details {
-        @include span-columns(12);
-        border: 2px solid #eee;
-        border-top: none;
-      }
-    }
-  }
-
-  @media only screen and (max-width: 500px){
-    .tickets-explanation-header {
-      font-size: 18px;
-      padding: 10px 20px;
-    }
+  .strikethrough {
+    text-decoration: line-through;
   }
 }

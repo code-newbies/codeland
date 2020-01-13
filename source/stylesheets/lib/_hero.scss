@@ -1,0 +1,50 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-section--container {
+  text-align: center;
+  width: 720px;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.hero-section--image {
+  img {
+    max-width: 600px;
+    height: auto;
+  }
+}
+
+.hero-section--description {
+  font-weight: 400;
+
+  a {
+    font-weight: 800;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.hero-section--cta {
+  margin-top: 2em;
+}
+
+.hero-section--button {
+  margin-bottom: 0.25em;
+}
+
+.hero-section--subline {
+  color: $supporting-color;
+  display: block;
+  font-size: $base-font-size;
+
+  strong {
+    color: $base-color;
+    font-weight: 800;
+  }
+}

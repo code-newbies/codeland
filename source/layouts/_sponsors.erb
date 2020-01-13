@@ -1,44 +1,21 @@
-<section id="sponsors" class="wrapper speakers">
-  <article class="sponsor-description">
-    <h2>Sponsors</h2>
-    <p class="sponsor-description">A huge thank you to our amazing sponsors for
-    helping bring Codeland to life!
-  </article>
-  <div class="sponsor-list">
-    <div class="patron-sponsor">
-      <% sponsor = data.sponsors.sponsors[0] %>
-      <article class="sponsor-image">
-        <a href=<%= sponsor.link %> target="_blank">
-          <img src=<%= sponsor.image_url %>></img>
-        </a>
-      </article>
-    </div>
-    <div class="sponsor-list--row-1">
-      <% data.sponsors.sponsors[1..3].each do |sponsor| %> 
-        <article class="sponsor-image">
+<section id="sponsors" class="section-card sponsors">
+  <section class="section-container">
+    <header class="section-container--header">
+      <h1 class="section-container--title">
+        Sponsors
+      </h1>
+      <p>
+        A huge thank you to our amazing sponsors for helping bring Codeland to life!
+      </p>
+    </header>
+    <div class="section-container--body media-grid-container">
+      <% data.sponsors.sponsors[0..11].each do |sponsor| %>
+        <figure class="media-grid-item">
           <a href=<%= sponsor.link %> target="_blank">
             <img src=<%= sponsor.image_url %>></img>
           </a>
-        </article>
+        </figure>
       <% end %>
     </div>
-    <div class="sponsor-list--row-1">
-      <% data.sponsors.sponsors[4..6].each do |sponsor| %> 
-        <article class="sponsor-image">
-          <a href=<%= sponsor.link %> target="_blank">
-            <img src=<%= sponsor.image_url %>></img>
-          </a>
-        </article>
-      <% end %>
-    </div>
-    <div class="sponsor-list--row-1">
-      <% data.sponsors.sponsors[7..11].each do |sponsor| %> 
-        <article class="sponsor-image">
-          <a href=<%= sponsor.link %> target="_blank">
-            <img src=<%= sponsor.image_url %>></img>
-          </a>
-        </article>
-      <% end %>
-    </div>
-  </div>
+  </section>
 </section>

@@ -1,0 +1,29 @@
+// Typography
+$type-sans-serif: "Chivo", sans-serif;
+$type-serif: Georgia, serif;
+$base-font-family: $type-sans-serif;
+
+// Sizing
+$base-font-size: 1rem;
+$base-font-size-mobile: 1rem;
+$base-line-height: 1.38;
+$base-leading: $base-line-height;
+$scale: 1.414;
+
+// Color
+$color-black: #151515;
+$color-purple: #3A46B4;
+$color-purple-lite: #1F30CB;
+$color-gray: #636363;
+
+$base-color: $color-black;
+$accent-color: $color-purple;
+$accent-color-lite: $color-purple-lite;
+$supporting-color: $color-gray;
+
+// Mapping Variables
+$link-color: $accent-color;
+$link-hover-color: $accent-color-lite;
+
+// Animation
+$transition: all 0.2s ease-in-out;

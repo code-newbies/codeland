@@ -1,0 +1,11 @@
+#more-info {
+  position: relative;
+}
+
+.section-card.more-info {
+  &:before {
+    background: #EFC60C;
+    transform: rotate(-5deg);
+    left: -100px;
+  }
+}

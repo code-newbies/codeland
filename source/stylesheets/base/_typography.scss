@@ -1,0 +1,84 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  color: $base-color;
+  font-family: $base-font-family;
+  font-size: $base_font-size-mobile;
+  text-rendering: optimizeLegibility;
+
+  body {
+    font-family: $base-font-family;
+    font-size: 16pt;
+    line-height: $base-leading;
+    margin: 0;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+em,
+strong {
+  line-height: $base-leading;
+}
+
+
+h1, h2, h3 {
+  font-weight: 800;
+}
+
+h1 {
+  font-size: $base-font-size * 3;
+}
+
+h2 {
+  font-size: $base-font-size * 2;
+}
+
+h3 {
+  font-size: $base-font-size * 1.65;
+}
+
+h4 {
+  font-size: $base-font-size * 1.5;
+}
+
+h5 {
+  font-size: $base-font-size * 1.25;
+}
+
+h5 {
+  font-size: $base-font-size;
+  text-transform: uppercase;
+}
+
+p {
+  margin-bottom: 0.65em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 1em;
+
+  li {
+    margin-bottom: 0.5em;
+  }
+}
+
+a {
+  color: $accent-color;
+  font-weight: 600;
+  transition: $transition;
+
+  &:hover {
+    color: $accent-color-lite;
+  }
+}
