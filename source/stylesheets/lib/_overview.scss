@@ -13,13 +13,22 @@
 }
 
 .section-container.overview {
-  @include grid();
-  position: relative;
+  @include container-phone();
+
+  @include media-tablet-landscape() {
+    @include grid();
+    @include container-tablet-landscape();
+    position: relative;
+  }
 }
 
 .overview--header {
-  grid-column-start: initial;
-  grid-column-end: span 5;
+  margin-bottom: 1em;
+
+  @include media-tablet-landscape() {
+    grid-column-start: initial;
+    grid-column-end: span 5;
+  }
 }
 
 .overview--details {
@@ -38,7 +47,8 @@
 }
 
 .overview--title {
-  font-size: $base-font-size * 3;
+  @extend .headline-display;
+
   font-weight: 400;
 
   strong {

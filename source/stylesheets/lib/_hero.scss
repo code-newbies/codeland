@@ -4,16 +4,26 @@
 }
 
 .hero-section--container {
-  text-align: center;
-  width: 720px;
-  padding-top: 5em;
-  padding-bottom: 5em;
+  @include container-phone;
+  padding-top: $gutter / 4;
+  padding-bottom: $gutter / 4;
+
+  @include media-tablet-landscape() {
+    width: 720px;
+    text-align: center;
+    padding-top: $gutter;
+    padding-bottom: $gutter;
+  }
 }
 
 .hero-section--image {
   img {
-    max-width: 600px;
     height: auto;
+    width: 100%;
+
+    @include media-tablet-landscape() {
+      width: 600px;
+    }
   }
 }
 
@@ -36,12 +46,21 @@
 
 .hero-section--button {
   margin-bottom: 0.25em;
+  display: block;
+  width: 100%;
+
+  @include media-tablet-landscape() {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .hero-section--subline {
   color: $supporting-color;
   display: block;
   font-size: $base-font-size;
+  text-align: center;
 
   strong {
     color: $base-color;

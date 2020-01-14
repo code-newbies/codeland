@@ -2,10 +2,13 @@
 
 @import "base/_base";
 @import "base/_variables";
-@import "base/_typography";
 @import "base/_media-queries";
+@import "base/_typography";
 
+@import "components/container";
 @import "components/button";
+@import "components/grid";
+@import "components/media-grid";
 @import "components/section";
 
 @import "lib/_nav";
@@ -17,6 +20,5 @@
 @import "lib/_community-partners";
 @import "lib/_mailchimp_signup";
 @import "lib/_scholarship";
-@import "lib/_sponsors";
 @import "lib/_video";
 @import "lib/_footer";

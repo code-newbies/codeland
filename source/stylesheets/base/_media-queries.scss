@@ -6,31 +6,31 @@ $media_desktop: 1280px;
 $media_desktop_large: 1600px;
 
 // Definition
-@mixin media_phone {
+@mixin media-phone {
   @media(max-width: #{$media_phone}) {
     @content;
   }
 }
 
-@mixin media_tablet_portrait {
+@mixin media-tablet-portrait {
   @media(min-width: #{$media_tablet_portrait}) {
     @content;
   }
 }
 
-@mixin media_tablet_landscape {
+@mixin media-tablet-landscape {
   @media(min-width: #{$media_tablet_landscape}) {
     @content;
   }
 }
 
-@mixin media_desktop {
+@mixin media-desktop {
   @media(min-width: #{$media_desktop}) {
     @content;
   }
 }
 
-@mixin media_desktop_large {
+@mixin media-desktop-large {
   @media(min-width: #{$media_desktop_large}) {
     @content;
   }

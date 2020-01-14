@@ -12,7 +12,13 @@
 
 .ticket-options--header {
   border-bottom: 1px solid $base-color;
-  padding-bottom: 1.5em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+
+  @include media-tablet-landscape() {
+    padding-top: 0;
+    padding-bottom: 1.5em;
+  }
 
   em {
     font-style: normal;
@@ -26,25 +32,49 @@
 }
 
 .ticket-options ul li {
-  display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
   border-bottom: 1px solid $base-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin-bottom: 0;
+  padding-bottom: 1em;
+  padding-top: 1em;
+
+  @include media-tablet-landscape() {
+    flex-direction: row;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
 }
 
-.ticket-options--type,
-.ticket-options--price {
-  margin-right: 3em;
+.ticket-options--information {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 0.5em;
+
+  @include media-tablet-landscape() {
+    flex-direction: row;
+    margin-right: 3em;
+    margin-bottom: 0;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .ticket-options--type {
-  width: 640px;
+  grid-column-end: span 2;
+  width: 100%;
+
+  @include media-tablet-landscape() {
+    width: 640px;
+  }
 }
 
 .ticket-options--price {
+  align-self: center;
   text-align: center;
 
   h3 {
@@ -53,5 +83,15 @@
 
   .strikethrough {
     text-decoration: line-through;
+  }
+}
+
+.ticket-options--action {
+  display: block;
+  width: 100%;
+
+  @include media-tablet-landscape() {
+    display: inherit;
+    width: inherit;
   }
 }

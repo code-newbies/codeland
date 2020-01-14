@@ -1,24 +1,34 @@
 #footer {
   position: relative;
+  overflow: hidden;
 }
 
 .section-card.footer {
-  margin-bottom: -2em;
+  margin-bottom: -4em;
 
   &:before {
     background: #F9F9F9;
     transform: rotate(5deg);
     left: -100px;
+    bottom: -4em;
   }
 }
 
 .footer-header {
-  grid-column-start: 4;
+  margin-bottom: 1em;
   text-align: center;
+
+  @include media-tablet-landscape() {
+    grid-column-start: 4;
+  }
 
   .footer-title--image img {
     height: auto;
-    max-width: 520px;
+    width: 100%;
+
+    @include media-tablet-landscape() {
+      width: 520px;
+    }
   }
 
   .footer-title--description {
@@ -36,14 +46,23 @@
 }
 
 .footer-body--information {
-  column-gap: 2em;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: block;
+
+  @include media-tablet-landscape() {
+    column-gap: 2em;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
 
 .footer-body--about {
-  grid-column-start: initial;
-  grid-column-end: span 2;
+  display: block;
+  width: 100%;
+
+  @include media-tablet-landscape() {
+    grid-column-start: initial;
+    grid-column-end: span 3;
+  }
 
   .image-title {
     img {
@@ -54,7 +73,8 @@
 }
 
 .footer-body--contact {
-  grid-column-end: 4;
+  grid-column-start: 5;
+  grid-column-end: span 6;
 
   ul {
     list-style-type: none;
