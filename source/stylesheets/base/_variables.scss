@@ -4,8 +4,8 @@ $type-serif: Georgia, serif;
 $base-font-family: $type-sans-serif;
 
 // Sizing
-$base-font-size: 1rem;
-$base-font-size-mobile: 1rem;
+$base-font-size: 1.25rem;
+$base-font-size-mobile: 1.25rem;
 $base-line-height: 1.38;
 $base-leading: $base-line-height;
 $scale: 1.414;
@@ -14,11 +14,13 @@ $scale: 1.414;
 $color-black: #151515;
 $color-purple: #3A46B4;
 $color-purple-lite: #1F30CB;
+$color-purple-pale: #CED3FF;
 $color-gray: #636363;
 
 $base-color: $color-black;
 $accent-color: $color-purple;
 $accent-color-lite: $color-purple-lite;
+$accent-color-pale: $color-purple-pale;
 $supporting-color: $color-gray;
 
 // Mapping Variables

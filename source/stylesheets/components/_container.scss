@@ -1,4 +1,4 @@
-$container-width: 75vw;
+$container-width: 76vw;
 
 @mixin container-phone {
   width: 100%;
@@ -6,6 +6,7 @@ $container-width: 75vw;
   padding-right: 1em;
 }
 
-@mixin container-tablet-landscape {
-  width: $container-width;
+@mixin container-tablet-landscape($width: $container-width) {
+  width: $width;
+  margin: 0 auto;
 }

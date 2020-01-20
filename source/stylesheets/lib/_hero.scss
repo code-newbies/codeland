@@ -1,17 +1,18 @@
 .hero-section {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .hero-section--container {
   @include container-phone;
-  padding-top: $gutter / 4;
+  padding-top: $gutter;
   padding-bottom: $gutter / 4;
 
   @include media-tablet-landscape() {
     width: 720px;
     text-align: center;
-    padding-top: $gutter;
+    padding-top: $gutter * 1.5;
     padding-bottom: $gutter;
   }
 }
@@ -42,6 +43,7 @@
 
 .hero-section--cta {
   margin-top: 2em;
+  margin-bottom: $gutter-bottom;
 }
 
 .hero-section--button {

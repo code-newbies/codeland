@@ -1,0 +1,81 @@
+.sticker-pack {
+  .sticker {
+    height: auto;
+    position: absolute;
+    transition: $transition;
+    width: 120px;
+    z-index: 1000;
+
+    @include media-tablet-landscape() {
+      width: 240px;
+    }
+  }
+
+}
+
+.sticker.scrolled {
+  filter: saturate(0%);
+  transition-duration: 0.7s;
+}
+
+.sticker.fixed {
+  position: fixed;
+}
+
+.rockety {
+  transform: rotate(-45deg);
+  bottom: 200px;
+  left: -32px;
+
+  &.scrolled {
+    transform: rotate(-45deg) translate(-120px, -20px) scale(0.8);
+  }
+
+  &.fixed {
+    bottom: 200px;
+    left: -32px;
+  }
+}
+
+.contributor {
+  transform: rotate(25deg) scale(0.8);
+  right: -64px;
+  bottom: -120px;
+
+  &.scrolled {
+    right: 0;
+    transform: rotate(25deg) translate(120px, -20px) scale(0.6);
+  }
+}
+
+.brace-yourself {
+  transform: rotate(-25deg);
+  left: 45%;
+  bottom: -200px;
+
+  &.scrolled {
+    right: 0;
+    transform: rotate(-25deg) translate(460px, 400px) scale(0.8);
+  }
+}
+
+.bee {
+  transform: rotate(88deg);
+  left: 240px;
+  bottom: -40px;
+
+  &.scrolled {
+    transform: rotate(88deg) translate(120px, 400px) scale(0.8);
+  }
+}
+
+.she-coded {
+  transform: rotate(20deg);
+  right: 200px;
+  bottom: 24px;
+
+  &.scrolled {
+    right: 0;
+    transform: rotate(20deg) translate(120px, -100px) scale(0.8);
+  }
+}

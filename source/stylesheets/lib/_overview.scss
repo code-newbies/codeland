@@ -14,11 +14,19 @@
 
 .section-container.overview {
   @include container-phone();
+  transition: $transition;
 
   @include media-tablet-landscape() {
     @include grid();
     @include container-tablet-landscape();
     position: relative;
+  }
+
+  &.scrolled {
+    @include media-tablet-landscape() {
+      transition-duration: 0.7s;
+      margin-top: -$gutter - 2em;
+    }
   }
 }
 
@@ -28,6 +36,7 @@
   @include media-tablet-landscape() {
     grid-column-start: initial;
     grid-column-end: span 5;
+    margin-bottom: 4em;
   }
 }
 
@@ -47,7 +56,6 @@
 }
 
 .overview--title {
-  @extend .headline-display;
 
   font-weight: 400;
 
@@ -59,10 +67,6 @@
 .overview--subtitle {
   font-weight: 400;
   color: rgba(255,255,255,0.5);
-}
-
-.overview-detail--title {
-  font-size: $base-font-size * 1.5;
 }
 
 .overview-detail--subtitle {

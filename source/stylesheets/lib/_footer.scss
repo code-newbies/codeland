@@ -20,6 +20,7 @@
 
   @include media-tablet-landscape() {
     grid-column-start: 4;
+    margin-bottom: 4em;
   }
 
   .footer-title--image img {
@@ -65,9 +66,18 @@
   }
 
   .image-title {
-    img {
-      height: auto;
-      width: 160px;
+    &.landscape {
+      img {
+        max-height: auto;
+        max-width: 320px;
+      }
+    }
+
+    &.square {
+      img {
+        max-height: 100px;
+        max-width: 100px;
+      }
     }
   }
 }
