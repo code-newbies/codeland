@@ -96,3 +96,16 @@
     }
   }
 }
+.footer-body--links {
+  grid-column-start: 0;
+  grid-column-end: span 6;
+
+  ul {
+    list-style-type: none;
+    margin-left: 0;
+    li {
+      margin-bottom: 0.25em;
+    }
+  }
+
+}
