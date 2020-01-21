@@ -1,0 +1,26 @@
+@mixin media-grid() {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 4em;
+  column-gap: 2em;
+  grid-auto-flow: dense;
+}
+
+.media-grid-container {
+  @include media-grid();
+  width: $container-width;
+  margin: 0 auto;
+}
+
+.media-grid-item {
+  align-items: center;
+  display: flex;
+  grid-column-end: span 1;
+  grid-column-start: initial;
+
+  img {
+    height: auto;
+    width: 100%;
+  }
+}

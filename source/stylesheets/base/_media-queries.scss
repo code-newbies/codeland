@@ -1,0 +1,37 @@
+// Variables
+$media_phone: 360px;
+$media_tablet_portrait: 768px;
+$media_tablet_landscape: 1024px;
+$media_desktop: 1280px;
+$media_desktop_large: 1600px;
+
+// Definition
+@mixin media-phone {
+  @media(max-width: #{$media_phone}) {
+    @content;
+  }
+}
+
+@mixin media-tablet-portrait {
+  @media(min-width: #{$media_tablet_portrait}) {
+    @content;
+  }
+}
+
+@mixin media-tablet-landscape {
+  @media(min-width: #{$media_tablet_landscape}) {
+    @content;
+  }
+}
+
+@mixin media-desktop {
+  @media(min-width: #{$media_desktop}) {
+    @content;
+  }
+}
+
+@mixin media-desktop-large {
+  @media(min-width: #{$media_desktop_large}) {
+    @content;
+  }
+}

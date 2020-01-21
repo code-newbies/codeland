@@ -1,0 +1,5 @@
+@mixin grid() {
+  display: grid;
+  grid-template-columns: repeat(6, 2fr);
+  grid-template-rows: auto;
+}
