@@ -24,7 +24,7 @@
 
 .rockety {
   transform: rotate(-45deg);
-  bottom: 200px;
+  bottom: calc(50px + 6vw);
   left: -32px;
 
   &.scrolled {
@@ -32,7 +32,7 @@
   }
 
   &.fixed {
-    bottom: 200px;
+    bottom: 130px;
     left: -32px;
   }
 }
@@ -51,7 +51,7 @@
 .brace-yourself {
   transform: rotate(-25deg);
   left: 45%;
-  bottom: -200px;
+  bottom: calc(-50px + -6vw);
 
   &.scrolled {
     right: 0;
@@ -61,7 +61,7 @@
 
 .bee {
   transform: rotate(88deg);
-  left: 240px;
+  left: 16vw;
   bottom: -40px;
 
   &.scrolled {
@@ -71,7 +71,7 @@
 
 .she-coded {
   transform: rotate(20deg);
-  right: 200px;
+  right: 16vw;
   bottom: 24px;
 
   &.scrolled {
