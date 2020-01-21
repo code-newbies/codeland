@@ -1,0 +1,17 @@
+#mc_embed_signup label {
+  font-size: $base-font-size !important;
+}
+
+#mc_embed_signup input.email {
+  font-size: $base-font-size !important;
+  padding: 12px !important;
+  height: auto !important;
+} 
+
+#mc_embed_signup .button {
+  font-size: $base-font-size !important;
+  background-color: $accent-color !important;
+  color: white;
+  height: auto !important;
+  padding: 0.5em 1.15em !important;
+}
