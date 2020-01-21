@@ -6,6 +6,9 @@
   color: white;
 
   &:before {
+    height: 100%;
+    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    height: fill-available;
     background: #323DA3;
     transform: rotate(-5deg);
     left: -60px;

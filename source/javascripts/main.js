@@ -19,40 +19,39 @@ $(document).ready(function(){
     } else if (scrollTop < 100) {
       $(".nav-link--container").removeClass("scrolled");
       $(".nav-link--menu").removeClass("scrolled");
-      console.log("top");
     }
   });
 
   // Animate Stickers on Scroll
-  var heroPosition = $(".hero-section--image").position();
-  var heroSubtitlePosition = $(".hero-section--subtitle").position();
+  // var heroPosition = $(".hero-section--image").position();
+  // var heroSubtitlePosition = $(".hero-section--subtitle").position();
 
-  $(window).scroll(function() {
-    scrollTop = $(window).scrollTop();
+  // $(window).scroll(function() {
+  //   scrollTop = $(window).scrollTop();
 
     // Shift stickers to end position
-    if (scrollTop >= (heroPosition.top)) {
-      $(".sticker").addClass("scrolled");
-      $(".section-container.overview").addClass("scrolled");
-    } else if (scrollTop < (heroPosition.top)) {
-      $(".sticker").removeClass("scrolled");
-      $(".section-container.overview").removeClass("scrolled");
-    }
+    // if (scrollTop >= (heroPosition.top)) {
+    //   $(".sticker").addClass("scrolled");
+    //   $(".section-container.overview").addClass("scrolled");
+    // } else if (scrollTop < (heroPosition.top)) {
+    //   $(".sticker").removeClass("scrolled");
+    //   $(".section-container.overview").removeClass("scrolled");
+    // }
 
-    $(".sticker").each(function(index){
-      console.log( index + ": " + $( this ).offset().top);
-    })
+    // $(".sticker").each(function(index){
+    //   console.log( index + ": " + $( this ).offset().top);
+    // })
 
     // Pin images to edge of viewport
-    if (scrollTop >= (heroSubtitlePosition.top)) {
-      $(".sticker").addClass("fixed");
+    // if (scrollTop >= (heroSubtitlePosition.top)) {
+    //   $(".sticker").addClass("fixed");
 
-      // $(".sticker").css({
-      //   top: offset.top
-      // });
+    //   // $(".sticker").css({
+    //   //   top: offset.top
+    //   // });
 
-    } else if (scrollTop < (heroSubtitlePosition.top)) {
-      $(".sticker").removeClass("fixed");
-    }
-  });
+    // } else if (scrollTop < (heroSubtitlePosition.top)) {
+    //   $(".sticker").removeClass("fixed");
+    // }
+  // });
 });

@@ -20,11 +20,8 @@
 .hero-section--image {
   img {
     height: auto;
-    width: 100%;
-
-    @include media-tablet-landscape() {
-      width: 600px;
-    }
+    width: 96%;
+    max-width: 600px;
   }
 }
 

@@ -97,7 +97,7 @@
   }
 
   @include media-tablet-landscape() {
-    padding: 0;
+    padding: 0 15px;
     width: auto;
 
     &:hover {
