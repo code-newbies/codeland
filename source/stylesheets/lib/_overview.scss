@@ -41,6 +41,18 @@
   }
 }
 
+.overview--video {
+  grid-row-start: 2;
+  grid-row-end: 5;
+  grid-column-end: span 3;
+  video {
+    border-radius: 8px;
+    @include media-tablet-landscape() {
+      width: 94%;
+    }
+  }
+}
+
 .overview--details {
   grid-row-start: 3;
   grid-column-start: 4;
