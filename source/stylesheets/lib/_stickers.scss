@@ -3,11 +3,11 @@
     height: auto;
     position: absolute;
     transition: $transition;
-    width: 120px;
+    width: 95px;
     z-index: 1000;
 
     @include media-tablet-landscape() {
-      width: 240px;
+      width: 210px;
     }
   }
 
@@ -41,7 +41,7 @@
 
 .contributor {
   transform: rotate(25deg) scale(0.8);
-  right: -64px;
+  right: -34px;
   bottom: -120px;
 
   &.scrolled {
@@ -54,7 +54,7 @@
 
 .brace-yourself {
   transform: rotate(-25deg);
-  left: 45%;
+  left: 40%;
   bottom: calc(-50px + -6vw);
 
   &.scrolled {
@@ -67,7 +67,7 @@
 
 .bee {
   transform: rotate(88deg);
-  left: 16vw;
+  left: calc(17vw - 45px);
   bottom: -40px;
 
   &.scrolled {
@@ -79,7 +79,7 @@
 
 .she-coded {
   transform: rotate(20deg);
-  right: 16vw;
+  right: calc(17vw - 45px);
   bottom: 24px;
 
   &.scrolled {

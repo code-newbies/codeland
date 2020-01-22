@@ -46,9 +46,11 @@
   grid-row-end: 5;
   grid-column-end: span 3;
   video {
-    border-radius: 8px;
+    border-radius: 5px;
+    margin: 20px auto;
     @include media-tablet-landscape() {
       width: 94%;
+      margin: 0px 0px;
     }
   }
 }
