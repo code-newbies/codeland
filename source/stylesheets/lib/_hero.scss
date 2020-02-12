@@ -53,6 +53,17 @@
     margin-left: auto;
     margin-right: auto;
   }
+  a {
+    color: white;
+    padding: 1.5vw 3.5vw;
+    text-decoration: none;
+    font-size: calc(1.65vw + 0.88em);
+    
+    @include media-desktop-large() {
+      font-size: 2.2em;
+      padding: 25px 35px;
+    }
+  }
 }
 
 .hero-section--subline {

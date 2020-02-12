@@ -11,10 +11,14 @@ button,
   font-weight: 800;
   padding: 0.75em 1.15em;
   transition: $transition;
+  text-decoration: none;
 }
 
 button:focus,
-button:hover {
+button:hover,
+.button:focus,
+.button:hover {
   background-color: $accent-color-lite;
+  color: white;
   cursor: pointer;
 }

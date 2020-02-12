@@ -1,0 +1,14 @@
+<h2 id="codeland">CodeLand!</h2>
+
+<p>This is a <a href="https://middlemanapp.com/">Middleman</a> staticly-generated site. It is Ruby based with <code>erb</code> syntax and conventions familiar to Ruby on Rails developers.</p>
+
+<h3 id="getting-started">Getting Started</h3>
+
+<p><code>ruby
+    gem install middleman
+    middleman init
+    middleman server
+    middleman build
+</code></p>
+
+<p>For more info, visit the <a href="https://middlemanapp.com/basics/install/">Middleman docs</a></p>
