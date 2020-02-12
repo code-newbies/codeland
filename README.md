@@ -10,6 +10,7 @@ cd codeland
 ```
 
 ```ruby
+# Install the Middleman Ruby gem (You may need to install Ruby other environment prerequisites)
 gem install middleman
     
 # Initialize middleman, just needs to be run once.
