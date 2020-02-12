@@ -12,3 +12,9 @@
 </code></p>
 
 <p>For more info, visit the <a href="https://middlemanapp.com/basics/install/">Middleman docs</a></p>
+
+<h3 id="where-to-find-stuff">Where to find stuff</h3>
+
+<p>All files to modify are located in the <code>source</code> directory. These are the basis for the generated files which live in the project root.</p>
+
+<p>Within the source directory are various pages, partials, and assets which are compiled to their static production versions.</p>

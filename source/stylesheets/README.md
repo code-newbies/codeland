@@ -12,3 +12,9 @@ This is a [Middleman](https://middlemanapp.com/) staticly-generated site. It is 
 ```
 
 For more info, visit the [Middleman docs](https://middlemanapp.com/basics/install/)
+
+### Where to find stuff
+
+All files to modify are located in the `source` directory. These are the basis for the generated files which live in the project root.
+
+Within the source directory are various pages, partials, and assets which are compiled to their static production versions.
