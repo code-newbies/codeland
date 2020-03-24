@@ -8,6 +8,7 @@
   @include container-phone;
   padding-top: $gutter;
   padding-bottom: $gutter / 4;
+  text-align: center;
 
   @include media-tablet-landscape() {
     width: 720px;
