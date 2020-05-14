@@ -1,0 +1,44 @@
+#distributed-program {
+  position: relative;
+  color: #ffffff;
+}
+
+.section-card.distributed-program {
+  &:before {
+    background: #323DA3;
+    transform: rotate(-5deg);
+    right: -100px;
+  }
+}
+
+.section-container.speaker-overviews {
+  margin: 0;
+  padding: 0;
+}
+
+.speaker-item {
+  align-items: center;
+  padding: 5% 10% 5% 10%;
+  display:flex;
+  flex-wrap:flex;
+  justify-content: space-around
+}
+
+.speaker-item--profile { 
+  display: grid;
+  grid-template-columns: 20% 75%;
+  
+
+  img {
+    max-width: 150px;
+    max-height: auto;
+    border: #323DA3 solid 3px;
+    border-radius: 50%;
+    grid-column-start: 1;
+    justify-self: center;
+  }
+}
+
+.speaker-item--bio {
+  width: 100%;
+}

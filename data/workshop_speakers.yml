@@ -1,0 +1,33 @@
+- full_name: "Ali Spittel"
+  order: 8
+  day: 1
+  talk_type: "talk"
+  job_title: "Software Engineer"
+  company: "DEV"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/ali-spittel.jpg"
+  bio: "Ali is a software engineer at DEV. Before that, she was a lead instructor at General Assembly. She loves Python, JavaScript, and talking about code."
+  twitter_handle: "@aspittel"
+  talk_title: "Yes, You Should Write That Blog Post"
+  talk_abstract: "Writing your first — or your hundredth — blog post is a challenge. What if nobody reads your post? Or someone leaves a rude comment? Or you get a technical detail wrong? And, how do you feel confident enough to press the publish button? Ali has navigated all these situations in the past year and a half that she’s been writing. She’ll tell her story and why she still writes and publishes technical blog posts." 
+- full_name: "Avi Flombaum"
+  order: 11
+  day: 1
+  talk_type: "workshop"
+  job_title: "Co-founder & Chief Innovation Officer"
+  company: "Flatiron School"
+  image_url: "https://codenewbie-assets.s3.amazonaws.com/codeland/speakers+2019/avi-flombaum.jpg"
+  bio: "As the Chief Innovation Officer and Founder of Flatiron School, a WeWork Company, Avi Flombaum has changed thousands of lives by teaching people – with little to no experience – to learn code and launch careers in tech developers. A self-taught programmer and CTO-by-20, Avi is passionate about helping people learn to love code."
+  twitter_handle: "@aviflombaum"
+  talk_title: "Make it Rain Emojis: Intro to Front-End"
+  talk_abstract: "Join Flatiron School Co-founder, Avi Flombaum, for 2.5 hours of coding specifically designed for beginners! In this session, you'll build mini apps with three fundamental coding languages: HTML, CSS, and JavaScript. No previous coding knowledge is needed. Please come with a laptop ready to play with new languages, get creative, and have fun with peers!"
+- full_name: "Beth Haubert"
+  order: 7
+  day: 1
+  talk_type: "talk"
+  job_title: "Software Engineer"
+  company: "thoughtbot"
+  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/beth-haubert.jpeg"
+  bio: "Beth is a software engineer at thoughtbot who loves Ruby, little-known APIs, handcrafting SQL queries, and as many monitors on her desk as possible. She’s also a former airborne cryptologic linguist for the US Air Force, fluent in Mandarin."
+  twitter_handle: "@haubertdashery"
+  talk_title: "Cats, The Musical! Algorithmic Song Meow-ification"
+  talk_abstract: "How are you supposed to sing along with your favorite TV theme song every week if it doesn't have lyrics? At my house, we 'meow' along (loudly). We also code, so I built 'Meowifier' to convert any song into a cat's meows. Join me in this exploration of melody analysis APIs and gratuitous cat gifs. I built an application that takes a song's audio and outputs a new audio file with that song's melody **sung by cats**. It's a technical feat. It's hilarious. It's beautiful. It's a new way to waste time on the internet."
