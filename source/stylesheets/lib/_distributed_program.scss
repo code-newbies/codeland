@@ -6,39 +6,38 @@
 .section-card.distributed-program {
   &:before {
     background: #323DA3;
-    transform: rotate(-5deg);
+    transform: rotate(-2deg);
     right: -100px;
+    top: -20px;
   }
 }
 
 .section-container.speaker-overviews {
   margin: 0;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .speaker-item {
+  padding:1em;
+  display: grid;
+  grid-template-columns: 175px auto;
+  grid-auto-rows: 200px;
   align-items: center;
-  padding: 5% 10% 5% 10%;
-  display:flex;
-  flex-wrap:flex;
-  justify-content: space-around
 }
 
 .speaker-item--profile { 
-  display: grid;
-  grid-template-columns: 20% 75%;
-  
-
   img {
     max-width: 150px;
     max-height: auto;
-    border: #323DA3 solid 3px;
+    border: #ffffff solid 2px;
     border-radius: 50%;
-    grid-column-start: 1;
-    justify-self: center;
+    margin: 10px;
   }
 }
 
-.speaker-item--bio {
-  width: 100%;
+.flare {
+  color: #000000;
+  padding: 0 4px;
 }
