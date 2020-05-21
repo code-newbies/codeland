@@ -1,267 +1,314 @@
 default: &default_title
-
 speakers:
-- full_name: "BJ Burns"
-  order: 6
+
+- full_name: "Sangeetha KP"
+  order: 
   day: 1
   talk_type: "talk"
-  job_title: "Owner/Co-Host "
-  company: "Complete Developer Podcast"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/bj-burns.jpg"
-  bio: "BJ Burns is a Full Stack .Net Developer, Certified SCRUM Developer, Certified SCRUM Master, Meetup Organizer, and 1/2 of the Complete Developer Podcast. BJ first became interested in computers with his first experience in fourth grade using DOS prompt to play Oregon Trail in the computer lab at my elementary school. He began programming in high school when he took a class on QBasic. For him coding was a hobby, something he did for fun until a few years ago when he left medicine and decided to pursue a career as a developer."
-  twitter_handle: "@bowtiebeej"
-  talk_title: "Med to Dev: My Journey Through Depression"
-  talk_abstract: "TRIGGER WARNING: I will be sharing my experience with anxiety, depression, and suicidality. I'll explain how getting into development saved my life. Then we will discuss ways to encourage yourself and others who are on the road to becoming a software developer. Come prepared to hear a motivating story and how to motivate and encourage those who may be struggling in ways we can't see."
-- full_name: "Eric Hollenberry"
-  order: 8
+  job_title: "Software Development Engineer"
+  company: "Amazon"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/a42qv1dznutnee1cxvg0.jpg"
+  bio: "Sangeetha is a software developer at Amazon focused on building features for the mobile shopping app. Previously she worked on building features on Echo devices and the Alexa companion app. When she is not programming, she can be found tinkering with photography, scouting around Seattle meetups or lurking on Twitter."
+  dev_username: "humblefool_2"
+  twitter_handle: "sangee_kp"
+  talk_title: "Machine Learning On The Edge"
+  talk_abstract:
+
+- full_name: "Nick Palenchar"
+  order:
   day: 1
-  talk_type: "workshop"
-  job_title: "Implementation Engineer"
-  company: "GitHub"
-  image_url: "https://codenewbie-assets.s3.amazonaws.com/codeland/speakers+2019/eric-hollenberry.png"
-  bio: "Eric is an Implementation Engineer at GitHub, traveling the world to teach customers how to best adopt and utilize all things Git. A teacher by trade, he's deeply invested in education, open source software, and enthusiastic about non-technical users and software developers alike."
-  twitter_handle: "@hollenberry"
-  talk_title: "Intro to Git, GitHub, the CLI and more!"
-  talk_abstract: "Make sure your laptop is charged up and ready to go for this comprehensive review of GitHub as a collaboration platform. Though the workshop assumes no prior experience with Git, you’ll walk away with internationally taught industry best-practices, a conceptual overview of the GitHub Flow, and the preparation to contribute to the Open Source community. If you have an intermediate understanding, the second half of the workshop will be spent extending the first by using visualization tools, learning new commands, solidifying your mental model, and gaining the confidence to sail through your next no good very bad situation."
-- full_name: "Fangfang Lee"
-  order: 10
-  day: 1
-  talk_type: "workshop"
-  job_title: "Lead Data Science Instructor"
-  company: "Flatiron School"
-  image_url: "https://codenewbie-assets.s3.amazonaws.com/codeland/speakers+2019/fangfang-lee.jpeg"
-  bio: "Upon graduating with a master's in Statistics, Fangfang worked as a data scientist for the Biocomplexity Institute at Virginia Tech where she manages projects contracted by the local as well as the federal government. She then traveled to Stockholm, Sweden to work as a data scientist at a startup briefly before returning to New York and fell in love with teaching and sharing her passion in data science."
-  talk_title: "Build a Recommendation Engine from scratch"
-  talk_abstract: "We will use existing data to build a hotel recommendation based on the description of existing hotel. This will cover the intuition of recommendation engines, some math behind calculating similarity and distance metrics, and compare our model with existing websites such as tripadvisors to show the power of knowing data science/machine learning."
-- full_name: "James Goldman"
-  order: 14
-  day: 1
-  talk_type: "workshop"
-  job_title: "CTO"
-  company: "Paintzen"
-  bio: "James is a founder and CTO of Paintzen. He grew the company from an idea into a business that was acquired by the largest paint manufacturer in the world, PPG.  Paintzen is James's second startup, but his first successful one. Prior to working in startups, James got a degree in Computer Science and another in Fine Art from Cornell University. James enjoys helping others start businesses and learn how to make them successful. He also enjoys working on computer vision projects and video games in his spare time."
-  image_url: "https://codenewbie-assets.s3.amazonaws.com/codeland/speakers+2019/james-goldman.jpg"
-  talk_title: "Going from Idea to Business"
-  talk_abstract: "Learn what it takes to take an idea and turn it into a business. We will go over some of the key steps you need to take before, during and after you come up with a great idea. We will review the common pitfalls that stop people on their journey to entrepreneurship and how to overcome them. Come with or without an idea in mind, we will be selecting a few ideas from attendees and work through the process of validating their ideas and turning them into businesses."
-- full_name: "Jasmine Greenaway"
-  order: 12
-  day: 1
-  talk_type: "workshop"
-  job_title: "Cloud Advocate"
-  company: "Microsoft"
-  image_url: "https://codenewbie-assets.s3.amazonaws.com/codeland/speakers+2019/jasmine-greenaway.jpg"
-  bio: "Jasmine uses Azure to illustrate the awesome things developers can do with the cloud. Since 2009, her experience has led her to different development environments and industries. She also teaches the basics of web development as an adjunct professor at a local college. Outside of work, she volunteers as a co-organizer at BrooklynJS, a monthly meetup held in the Cobble Hill area of Brooklyn, NYC."
-  twitter_handle: "@paladique"
-  talk_title: "Gifs, the Cloud, & IoT!"
-  talk_abstract: "Get started in the cloud with Azure IoT Hub! During this workshop, participants will work together to create a website that communicates with the IoT Hub and sends a gif to the screen on an MXChip IoT Device! After completing the workshop, each participant will receive an MXChip to bring home and continue working on IoT projects independently!"
-- full_name: "Jen Simmons"
-  order: 1
-  order_2: 1
-  day: 1
-  talk_type: "workshop"
-  job_title: "Designer and Developer Advocate"
-  company: "Mozilla"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/jen-simmons.jpg"
-  bio: "With thirty years experience designing for audiences and twenty years making websites, Jen Simmons loves to connect the technical with the creative. She’s currently best known for Layout Land video series on YouTube, and her conference presentations at An Event Apart, SxSW, Smashing Conf and more. At Mozilla, she represents the needs of web designers and developers to the folks building Firefox and the Firefox Developer Tools. She’s also a member of the CSS Working Group, where new CSS is born."
-  twitter_handle: "@jensimmons"
-  talk_title: "Understanding Layout"
-  talk_abstract: "The web finally has a true system for layout baked into CSS — with the combination of Grid, Flexbox, Multicolumn, Flow, Writing Modes, Alignment, Sizing, and more. But what does this mean? How can we understand the whole system, not just the bits and pieces of code syntax. How can designers invent a new layout for each project, not just draw 12-column wireframes based on limitations from a decade ago. There are hundreds of ways to learn `display: flex;`, but very few that truly explain what’s happening. We have the chance to get deeply creative, if we could only Understand Layout. There will be very little code in this workshop — it’s perfect for both designers and developers, newbies and those with experience. Come learn an overall understanding of how web page layout works now that everything has changed."
-- full_name: "Jonathan Powell"
-  order: 2
-  day: 1
-  talk_type: "workshop"
+  talk_type: "talk"
   job_title: "Software Engineer"
-  company: "BlackRock"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/jonathan-powell.jpg"
-  bio: "Jonathan is currently a junior software engineer at BlackRock and graduated from Brown University with a computer science degree in 2018. When he was a student, he spent most of his time promoting D&I in tech and supporting underrepresented students in the Comp. Sci. department. Today, he's focusing on becoming a better engineer by studying design patterns, clean code, and how to write maintainable software."
-  twitter_handle: "@itsjjpowell"
-  talk_title: "The Node Not Taken: Graphs, Graphing Algorithms and Technical Interviews"
-  talk_abstract: "Graph algorithms are common technical interview questions. In this workshop we’ll break down how to represent graphs, and how to solve problems with graph algorithms like depth-first search, breadth-first search, and dijkstra’s algorithm."
-- full_name: "Katarina Hoeger"
-  order: 7
-  day: 1
-  talk_type: "workshop"
-  job_title: "Steam Instructor"
-  company: "The Digital Arts Experience"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/katarina-hoeger.jpg"
-  bio: "Katarina is currently a STEAM instructor and musician. As a musician or sound artist, she integrates mathematics and coding into some of the sound experiences she create."
-  twitter_handle: "@kfhoeger"
-  talk_title: "Making Musical Code"
-  talk_abstract: "Have you ever used code to generate a melody? By the end of this workshop, each participant will map input text to musical notes and then generate a melody using Python. Good-to-haves include headphones, a will to use Python libraries, lists, and more, and a will to explore basic musical concepts."
-- full_name: "Katrina Owen"
-  order: 4
+  company: "untapt"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/upuy6l2dk446mstsgvuc.jpeg"
+  bio: "Nick is a former Actor/Director turned coder who has been working as a software engineer for 4 years. With particular interest in DevOps tools and Automation, he has worked at large corporations and small startups alike, maintains open source projects, and teaches coding in his spare time."
+  dev_username: "nickpalenchar"
+  twitter_handle: "palencharizard"
+  talk_title: "The Whale, the Container, and the Ocean - A Docker Tale"
+  talk_abstract:
+
+- full_name: "Alex Morton"
+  order: 
   day: 1
   talk_type: "talk"
+  job_title: "Front-End Web Developer"
+  company: ""
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/ofreopzze7kx25zc1vzz.jpg"
+  bio: "I'm Alex - a California native lost in France who fell in love with coding as a hobby while working in customer support. At the end of last year, I left said customer support job to pursue programming on a full-time basis. When I’m not coding, I love reading as much as possible and hanging out with my dachshund, Nelson."
+  dev_username: "alexlsalt"
+  twitter_handle: "alexlsaltt"
+  talk_title: "Being Utterly Fearless in Your Pursuit of Learning to Code"
+  talk_abstract: 
+
+- full_name: "Alex Qin"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Founder & CEO"
+  company: "Code Cooperative"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/l4l64hmq7c9y9xej4x3u.jpeg"
+  bio: "Alex Qin is out here tryna get free. She cares about helping people fulfill the radical visions they have for themselves and the world while working towards more just and equitable futures. She has experience writing code, leading engineering teams, building communities, teaching, and advocating for underrepresented peoples in tech. She spends her time working on the Code Cooperative, a nonprofit that aims to interrupt the generational cycle of incarceration by providing pathways into high paying tech careers for formerly incarcerated people."
+  dev_username: ""
+  twitter_handle: "alexqin"
+  talk_title: "Hi My Name is Alex and I'm a Workaholic"
+  talk_abstract:
+  
+- full_name: "Josh Puetz"
+  order:
+  day: 1
+  talk_type: "talk"
+  job_title: "Principal Software Engineer"
+  company: "DEV"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/33ysgd4j6wb9one4zzxc.jpeg"
+  bio: "Josh Puetz is an engineer with over 20 years of experience making mistakes and telling stories about them. A veteran of several startups, he’s currently a principal software engineer at DEV where he creates software to support sustainable Internet communities. He lives in picturesque Door County, Wisconsin with his husband and daughter, where he enjoys coffee, CrossFit, and writing about himself in the third person."
+  dev_username: "joshpuetz"
+  twitter_handle: "joshpuetz"
+  talk_title: "Salary Negotiation for People That Hate To Negotiate"
+  talk_abstract: ""
+
+- full_name:  "Aisha Blake"
+  order:
+  day: 1
+  talk_type: "talk"
+  job_title: "Staff Software Engineer"
+  company: "Gatsby"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/g3dy258573lwl4ag2l95.jpg"
+  bio: "Aisha Blake is a Staff Software Engineer at Gatsby currently building <title of conf>, a musical tech conference. She also supports the community by co-organizing self.conference and Detroit Speakers in Tech. A theatre kid turned tech community leader, she approaches speaking and teaching as a way to give others the tools to shine as brightly as they can. In her spare time, she sings karaoke and pets dogs."
+  dev_username: "aishablake"
+  twitter_handle: "AishaBlake"
+  talk_title: "Gatsby 101: Build a Personal Website"
+  talk_abstract: ""
+
+- full_name: "Amit Nambiar"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: ""
+  company: ""
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/9ovo1b3vaxcq83vihfmt.png"
+  bio: "Amit is an architect turned computational designer who uses programming to help architects and engineers do their thing faster and better. He loves all things 3D, teaching programming, and in his free time enjoys kicking around a soccer ball. "
+  dev_username: ""
+  twitter_handle: ""
+  talk_title: "Seeing Sound - Understanding the physics of music using visualizations"
+  talk_abstract: ""
+
+- full_name: "Denise Yu"
+  order: 
+  day: 2
+  talk_type: "workshop"
   job_title: "Senior Software Engineer"
   company: "GitHub"
-  twitter_handle: "@kytrinyx"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/katrina-owen.jpg"
-  bio: "Katrina is an engineer at GitHub. She accidentally became a developer while pursuing a degree in molecular biology. When programming, her focus is on automation, workflow optimization, and refactoring. She works primarily in Go and Ruby, contributes to several open source projects, and is the creator of exercism.io, a platform for code practice and programming mentorship."
-  talk_title: "How to fail without being a loser"
-  talk_abstract: "We fail a lot. Even the shiny, bright, successful people do, though you’d never know from looking at their Instagram feeds. Failure is almost invariable painful, but it’s not always bad. Yeah, no, f’real, a lot of the time failure is plain awful, and a complete disaster. There’s no denying that. But not always. Sometimes it’s just a necessary evil. Sometimes it can even be done artfully. Let’s talk about how to fail a bit less, fail less painfully, and fail more strategically."
-- full_name: "Kaya Thomas"
-  order: 3
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/blgkp9nz0306366wwgt7.jpg"
+  bio: "Denise is a Senior Software Engineer at GitHub, currently working on a team called Community & Safety which uses a combination of policy, design, and engineering to make the platform the safest place possible for healthy, engaged communities to grow. She career-switched in 2014–after completing a Masters in Social Policy–into software engineering, after attending a bootcamp in London, UK, and hasn't looked back. She speaks frequently at international conferences about software design, distributed computing, site reliability engineering, and lots more topics, but her strongest passion is making the tech industry more accessible to other people with non-linear backgrounds. In her spare time, she runs events and creates art that uses doodles to explain technical concepts: deniseyu.io/art."
+  dev_username: ""
+  twitter_handle: "deniseyu21"
+  talk_title: "Telling Stories with Doodles"
+  talk_abstract: ""
+
+- full_name: "Vaidehi Joshi"
+  order: 
   day: 1
   talk_type: "talk"
-  job_title: "iOS Engineer"
-  company: "Calm"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/kaya-thomas.JPG"
-  bio: "Kaya is the creator of We Read Too, a book directory mobile app showcasing books with main characters of color written by authors of colors. She is currently an iOS developer at Calm as well as a writer and public speaker."
-  twitter_handle: "@kthomas901"
-  talk_title: "How I Created 'We Read Too', A Mobile Directory of Diverse Books"
-  talk_abstract: "In August 2014, I launched an app called We Read Too into the Apple App Store. We Read Too is a mobile app directory of children's and young adult books written by authors of color with main characters of color. I was motivated to create the app because of my own experience with feeling misrepresented in the books I read growing up. In this talk I will go over my inspiration for creating We Read Too, the process of going from an idea to a real mobile app and the app's impact since launching. By the end of the talk, you will have a deeper understanding of how to identify a problem, think through a possible tech solution, executive on launching a MVP to iterate on and how to maintain it after launch."
-- full_name: "Kristen Webster"
-  order: 11
-  day: 1
-  talk_type: "talk"
-  job_title: "Software Development Engineer II"
-  company: "Smartsheet"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/kristen-webster.png"
-  bio: "Kristen is a Software Engineer with a rich background in computer science, psychology, and writing."
-  talk_abstract: "Art provides a surprising, creative avenue to explore algorithms. In this talk, we’ll explore the ways in which algorithms enable us to create compelling art - and, in the process, we’ll gain new insights into some well-known algorithms."
-  talk_title: "Art Meets Algorithms"
-- full_name: "Jo-Wayne Josephs"
-  order: 12
-  day: 1
-  job_title: "Developer"
-  talk_type: "talk"
-  bio: "Jo is a junior, self-taught developer with an academic background in the liberal arts."
-  twitter_handle: "@jojosephs1992"
-  talk_title: "An Immigrant's Journey Into Tech"
-  talk_abstract: "Jo will talk about her journey into tech with the background of being an immigrant from the Caribbean and how she has overcome the unique obstacles that the American immigration system presents, and explores solutions to getting more immigrants into tech."
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/Speaker+images/jo-wayne-josephs.png"
-- full_name: "Luisa Morales"
-  order: 4
-  day: 1
-  talk_type: "workshop"
-  job_title: "Computer Science Master's Student"
-  company: "Pace University"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/luisa-morales.jpg"
-  bio: "Luisa Morales is a computer science master’s student at Pace University in NYC and an Engineering Fellow at The Mayor’s Office for Economic Opportunity (NYCO). She’s a Lead at Women Who Code NYC and regularly mentors female junior developers as a way of contributing to the growth of women in tech."
-  twitter_handle: "@luisamariethm"
-  talk_title: "Building with Accessibility in Mind"
-  talk_abstract: "Come demystify web accessibility with me and get into the nitty-gritty of what it is, how you can test for accessibility on your own, and common best practices. We'll build an accessible website in the process that you can boast about on GitHub. You'll also gain practical experience you can utilize to make your current, and future, projects more accessible."
-- full_name: "Luna Malbroux"
-  day: 1
-  order: 1
-  talk_type: "talk"
-  company: "EquiTable"
-  job_title: "Chief Equity Officer"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/luna-malbroux.jpg"
-  bio: "Luna Malbroux is a writer, comic, and creator of EquiTable, an app that solves the wage gap, one meal at a time.  Her work has been featured in Glamour, Huffington Post, and The Atlantic to name a few, and she was recently named one of the YBCA 100, a list of the most notable cultural influencers from around the world."
-  talk_title: "Laughter is the Most Serious Weapon"
-  talk_abstract: "How can we use creativity, humor, and tech to solve the world's most serious issues? EquiTable creator Luna Malbroux has a few ideas. In this talk, we'll explore how meeting problems with humor can lead to real results."
-- full_name: "Michael Winslow"
-  order: 10
-  day: 1
-  talk_type: "talk"
-  job_title: "Director, Core Applications"
-  company: "Comcast"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/michael-winslow.jpg"
-  bio: "Michael Winslow picked up his love for programming when he was 10 years old writing GW-Basic code on his Tandy-1000. With his passion for designing simple solutions to complex problems, Michael has played key roles at companies like Aramark, Ortho-McNeil, Oracle and Xfinity Mobile. He is currently a DevOps advocate, Agile enthusiast, and dedicated people-leader for the Core Applications group at Comcast."
-  talk_title: "Coding the Crossfade"
-  talk_abstract: "When Michael Winslow first decided to place 2 Windows Media Player controls onto a Visual Basic form in the early 2000s, he had no idea that it would lead to a fifteen year adventure as a DJ in Philly! But just like any other DJ, Winslow had to prove himself. All of the fancy tech he created would mean nothing if he could not keep the party moving during song transitions! The key to that: Coding the Crossfade!"
-- full_name: "Nicholas Bourdakos"
-  order: 9
-  day: 1
-  talk_type: "workshop"
-  job_title: "Developer Advocate"
-  company: "IBM"
-  image_url: "https://codenewbie-assets.s3.amazonaws.com/codeland/speakers+2019/nicholas-bourdakos.png"
-  twitter_handle: "@bourdakos1"
-  talk_title: "Real-Time Object Detection with TensorFlow.js"
-  talk_abstract: "In this workshop, you’ll build an app that lets you use your own custom-trained models to detect objects. You’ll create an IBM Cloud Object Storage instance to store your labeled data, then after your data is ready, you’ll learn how to start a Watson Machine Learning instance to train your own custom model on top-of-the-line GPUs. After your model has completed training, you can simply plug the model into your application."
-  bio: "Nick is a developer advocate at IBM Watson in NYC. His expertise is in machine learning, mainly deep learning applied to Computer Vision problems. He started out as an Android developer, but also does Swift, Python and JavaScript / React development."
-- full_name: "Nikhil Paul"
-  day: 1
-  talk_type: "talk"
-  job_title: "Emcee/Crowd Fun Expert"
-  company: "We R Human"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/nikhil-paul.jpg"
-  bio: "Nikhil Paul is an event emcee and a workshop facilitator who founded We
-  R Human to help create fun and engaging experiences for conferences & training
-  events. After leading events at companies like Walmart and AIG for over a
-  decade, his vision is to help create the most fun-filled productive
-  professional events using interactive activities, stories, and dances. Learn more at www.werhuman.co."
-- full_name: "Norah Klintberg Sakal"
-  order: 5
-  day: 1
-  talk_type: "talk"
-  job_title: "Founder/Data Scientist"
-  company: "NuclAI"
-  github: "norahsakal"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/norah-klintberg-sakal.jpg"
-  bio: "Norah is a self-taught data scientist and entrepreneur from Sweden living in San Francisco. She's currently bootstrapping a startup where she's applying artificial intelligence to help cancer researchers understand how their novel drugs are affecting their cancer and stem cells. Her passion and mission are to accelerate the development of new technologies that will help researchers and doctors to cure, prevent and manage diseases."
-  twitter_handle: "@norahsakal"
-  talk_title: "Guide to your own artificial intelligence application in 3 easy steps"
-  talk_abstract: "How difficult is it to build yourself an intelligent application? When you hear “artificial intelligence”, you might think of complex solutions like self-driving cars, autonomous drones, and robots or smart assistants like Alexa or Siri - but it doesn’t have to be that complex. You can build a powerful image classification model within a topic that inspires and interests you - in 3 easy steps - and you don't need thousands of images to achieve state of the art results."
-- full_name: "Omayeli Arenyeka"
-  order: 9
+  job_title: "Senior Engineer"
+  company: "DEV"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/pldpncvrtw53cd9arvrc.jpeg"
+  bio: "Vaidehi is a senior engineer at DEV, where she builds community and helps improve the software careers of millions. She enjoys building and breaking code, but loves creating empathetic engineering teams a whole lot more. She is the creator of basecs and baseds, two writing series exploring the fundamentals of computer science and distributed systems. She also co-hosts the Base.cs Podcast, and is a producer of the BaseCS and Byte Sized video series."
+  dev_username: "vaidehijoshi"
+  twitter_handle: "vaidehijoshi"
+  talk_title: "The Cost of Data"
+  talk_abstract: ""
+
+- full_name: "Ali Spittel"
+  order: 
   day: 1
   talk_type: "talk"
   job_title: "Software Engineer"
-  company: "LinkedIn"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/omayeli-arenyeka.jpg"
-  bio: "Omayeli is an artist and technologist from Nigeria currently based in San Francisco. She is currently working at LinkedIn as a Software Engineer. Her work outside of work aims to use writing, data, code and satire as tools to foster disillusionment with our current realities."
-  twitter_handle: "@Yellzheard"
-  talk_title: "Building a Gendered Dictionary"
-  talk_abstract: "When Yeli first made the claim that 'language is sexist' she had no data to back it up. There was no dataset of gendered words to point to and say 'there see!' So, with no knowledge of data gathering or analysis she decided to make one herself. Her talk is about data -- where to get it and how to create it if it doesn’t exist. Using The Gendered Project (a library of gendered words) as a case study, she’ll take the audience through the process of creating a dataset using popular libraries for data analysis and processing in Python — NLTK (Natural Language Toolkit), Panda, Gensim and techniques like regular expressions."
-- full_name: "Pedro Cruz"
-  order: 2
-  day: 1
-  talk_type: "talk"
-  talk_title: "Fighting Hurricanes with Code"
-  talk_abstract: "On September 20th, 2017, a category 5 hurricane hit Puerto Rico, leaving the island without electricity for months and imposing on FEMA, the Government, and NGOs the insurmountable challenge of planning relief efforts to help 3 million people. For the Global Call for Code Hackathon, Pedro Cruz created DroneAid, an application for first responders that uses drones and artificial intelligence to search for people in need of help after a natural disaster. In his talk, he will share his journey on developing open-source technologies to tackle natural disasters and his tips on how to activate 100,000s to solve worldwide problems."
-  job_title: "Founder and Developer"
-  company: "DroneAid"
-  twitter_handle: "@pedrocruzio"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/pedro-cruz.png"
-  bio: "Pedro Cruz is a creative technologist, educator, and drone pilot. He is
-  a self-taught developer with a passion for VR/AR, robots, and pixel-perfect
-  UIs. In his spare time, he enjoys flying drones, creating augmented reality
-  art, and playing tug-of-war with his black lab puppy."
-- full_name: "Raymond Camden"
-  order: 3
-  day: 1
-  talk_type: "workshop"
-  job_title: "Developer Experience Engineer, Cat Demo Maker"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/raymond-camden.jpg"
-  bio: "Raymond is a Developer Experience engineer. His passion is front end development, some back end with Node, serverless, and enterprise cat demos."
-  twitter_handle: "@raymondcamden"
-  talk_title: "Real Person's Guide to Vue.js"
-  talk_abstract: "This workshop will introduce developers to the Vue.js framework. I'll cover basic syntax and usage examples. As a group, we'll work together on multiple real-world demos so you can see how Vue would be used in production."
-- full_name: "Scott Hanselman"
-  order: 13
-  day: 1
-  talk_type: "talk"
-  talk_title: "Solving Diabetes with an Open Source Artificial Pancreas"
-  talk_abstract: "Scott has been a Type 1 diabetic for nearly 25 years. When he first became diabetic he did what every engineer would do...he wrote an app to solve his problem. Fast forward to 2019 and Scott lives 24 hours a day connected to an open source artificial pancreas. After years of waiting, the diabetes community online creating solutions. Now the future of diabetes care is more promising than ever and open source (and open data standards) are making it possible.
+  company: "General Assembly"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/ryniyjgwn1td9yjivf33.jpg"
+  bio: "Ali teaches people to code. She loves Python, JavaScript, and talking about code. She is most interested in the intersection of programming, art, and education. She's a distinguished faculty member at General Assembly, where she teaches people how to code. Ali also blogs about code and her life surrounding it, and her writing has gotten over a million readers in the past year."
+  dev_username: "aspittel"
+  twitter_handle: "ASpittel"
+  talk_title: ""
+  talk_abstract: ""
 
-Scott will go through the history of diabetes online, the components (both hardware and software) needed for an artificial pancreas, and discuss the architectural design of two popular systems (LoopKit and OpenAPS). We’ll also learn how social networking can influence national health policy. Plus, you'll see Scott *not die* live on stage as he's been \"looping\" for over a year!"
+- full_name: "Penelope Phippen"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Software Engineer"
+  company: "Stripe"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/wtt1ayw0uv7t0cptx2r4.png"
+  bio: "Penelope Phippen's career has taken her many places including engineering, management, and technical leadership. She's seen things you wouldn't believe – like datacenters on fire off the shoulder of Orion. She works mostly in Ruby, although dabbles in Rust, Python, and maybe sometimes Javascript."
+  dev_username: "penelope_zone"
+  twitter_handle: "penelope_zone"
+  talk_title: "Changing your name is a hard unsolved problem in computer science"
+  talk_abstract: ""
+
+- full_name: "Belecia Bullock"
+  order: 
+  day: 2
+  talk_type: "workshop"
+  job_title: "Founder & Technical Interview Coach"
+  company: "TechUp Coaching"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/j6dgkgd6dlzap3xuibrk.jpg"
+  bio: "I am a technical interview coach and CS graduate student who loves to create through code and support women in their tech careers! After completing 40+ technical interviews during my undergraduate career and working with women at my college doing the same, I started TechUp Coaching to help more women confidently approach their technical interviews. Outside of coaching, I am also a graduate student whose research combines HCI, CS education and CS ethics to improve fairness and equity within technology!"
+  dev_username: ""
+  twitter_handle: ""
+  talk_title: "#YourTechStory: How to Showcase Your Story and Skills During Technical Interviews"
+  talk_abstract: ""
+
+- full_name: "Eyal Yavor"
+  order: 
+  day: 2
+  talk_type: "workshop"
+  job_title: "Engineering Lead"
+  company: "Doodle AG"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/o1y758b1mce6qgj0l1kx.jpg"
+  bio: "Eyal Yavor is a developer with 10+ years of experience in coding, hiring, and managing developers. Eyal served in the Israeli Intelligence Unit, worked in IdmLogic (Acquired by CA Technologies), co-founded Meekan (Acquired by Doodle), and led engineers at Doodle Tel Aviv. His main passion is for connecting systems and making it easier for others to maintain them."
+  dev_username: "yulkes"
+  twitter_handle: "yulkes"
+  talk_title: "Nailing the home assignment - Level up when you don't have the XP"
+  talk_abstract: ""
+
+- full_name: "Charity Majors"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Cofounder & CTO"
+  company: "Honeycomb.io"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/b8l37kev5u1cu85hsatz.png"
+  bio: "Charity is the Cofounder and CTO at honeycomb.io, building observability tooling for the next generation of software developers (try our new free tier!), formerly of Facebook, Parse, Linden Lab. She’s the Co-author of Databases Reliability Engineering and loves free software, free speech and free single malts."
+  dev_username: "mipsytipsy"
+  twitter_handle: "mipsytipsy"
+  talk_title: "Hello from the Future"
+  talk_abstract: ""
+
+- full_name: "Scott Hanselman"
+  order: 
+  day: 1
+  talk_type: "talk"
   job_title: "Partner Program Manager"
   company: "Microsoft"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/3e4c44xdd32cmv7o6lmy.jpg"
+  bio: "Scott is a developer who has been blogging for 18+ years at hanselman.com. He works in open source on cross-platform .NET and the Azure Cloud for Microsoft out of his home office in Portland. His most recent podcast, hanselminutes.com has over 725 episodes of fresh tech from fresh faces. He's written a number of books and spoken in-person to nearly a million developers worldwide. Scott loves code, open source, the open web, STEM, Beyoncé, and podcasting with inclusive tech talk!"
+  dev_username: "shanselman"
   twitter_handle: "shanselman"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/scott-hanselman.jpg"
-  bio: "Scott is a developer who has been blogging at https://hanselman.com for over 15 years. He works in Open Source on cross-platform .NET and the Azure Cloud for Microsoft out of his home office in Portland, Oregon. Scott has had three podcasts, most recently http://hanselminutes.com with nearly 700 episodes of fresh tech from fresh faces. He's written a number of books and spoken in-person to nearly a million developers worldwide."
-- full_name: "Sep DiMeglio"
-  order: 12
+  talk_title: ""
+  talk_abstract: ""
+
+- full_name: "Kamya Shethia"
+  order: 
   day: 1
-  bio: "Sep is tasked with engaging new-to-career developers across the USA, providing them with any and all material to help ignite their next career moves. One of his most recent projects is a new podcast centered around tips & tricks for developers just starting out in the field called First5 (aka.ms/first5podcast). Sep comes from a technical background focused on web and IoT, and spends his free time designing, talking, and running UX workshops around NYC!"
-  talk_type: "workshop"
-  job_title: "Developer Audience Manager"
-  company: "Microsoft"
-  twitter_handle: "@asksep"
-  image_url: "https://codenewbie-assets.s3.amazonaws.com/codeland/speakers+2019/sep-dimeglio.jpg"
-  talk_title: "Gifs, the Cloud, & IoT!"
-  talk_abstract: "Get started in the cloud with Azure IoT Hub! During this workshop, participants will work together to create a website that communicates with the IoT Hub and sends a gif to the screen on an MXChip IoT Device! After completing the workshop, each participant will receive an MXChip to bring home and continue working on IoT projects independently!"
-- full_name: "Yechiel Kalmenson"
-  order: 6
-  day: 1
-  talk_type: "workshop"
+  talk_type: "talk"
   job_title: "Software Engineer"
-  company: "Pivotal"
-  image_url: "https://s3.amazonaws.com/codenewbie-assets/codeland/speakers+2019/yechiel-kalmenson.jpg"
-  bio: "Yechiel Kalmenson (aka Rabbi On Rails) was born and raised in Brooklyn. He got his rabbinical training in Israel and spent a few years teaching both children and adults. After a brief stint in Tech Support, he found his next calling and went on to study software development. He currently works at Pivotal Software in New York, using tech to support his passions for teaching, coding, and flying."
-  twitter_handle: "@yechielk"
-  talk_title: "Writing Your First Browser Extension"
-  talk_abstract: "Have you ever wondered how browser extensions do the things they do? Do you want to improve your internet browsing experience? Are you looking for a fun, easy(ish) project to add to your portfolio? If you answered yes to any of those questions, join us for this fun workshop! You will walk away with an actual working browser extension you can deploy, plus all the knowledge necessary to build your own."
+  company: "Etsy"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/m9v03iuwc9191lth08b7.jpg"
+  bio: "Hello! I'm a New York based Software Engineer working at Etsy. I love learning new things, and have had the chance to work on both front and back-end. Most recently, I made the transition to data engineering!"
+  dev_username: "shethiakamya"
+  twitter_handle: "ShethiaKamya"
+  talk_title: "SQL for the Potterhead"
+  talk_abstract: ""
+
+- full_name: "Safia Abdalla"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Software Engineer"
+  company: "Microsoft"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/mezcn58355xaq9fpcatk.jpg"
+  bio: "I'm an open source maintainer on the nteract project, a writer, and a software engineer at Microsoft working open source web technologies. I'm passionate about bringing people together to build great things and using storytelling to share knowledge."
+  dev_username: "captainsafia"
+  twitter_handle: "captainsafia"
+  talk_title: "You and Me Learn All About HTTP"
+  talk_abstract: ""
+
+- full_name: "Bhavani Ravi"
+  order: 
+  day: 2
+  talk_type: "workshop"
+  job_title: "Research Engineer"
+  company: "Saama Technologies"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/gnkpctohmsdgtqd56l0s.jpg"
+  bio: "Bhavani is a Research Engineer working on back-end systems at Saama Technologies and an open source contributor with Pandas and Rasa. She reads, writes, and teaches all things technology. In addition, Bhavani leads Women TechMakers Chennai – a diverse community that encourages women in tech to share ideas, knowledge and passion of the role women in technology plays through the means of talks and collaborative workshops."
+  dev_username: "bhavaniravi"
+  twitter_handle: "geeky_bhavani"
+  talk_title: "Build2Learn Chatbots"
+  talk_abstract: ""
+
+- full_name: "Joe Karlsson"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Developer Advocate"
+  company: "MongoDB"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/3cb7iq70jqkdf8l8y0kc.jpg"
+  bio: "Joe Karlsson is a software engineer turned Developer Advocate at MongoDB. He comes from the frozen tundra of Minneapolis, Minnesota (and yes, it does get really cold here, and no, not everyone here has the accent from the movie, Fargo). As a Node and JavaScript engineer, Joe has been writing, teaching, and talking about code his entire career. Sharing what he knows and continuing to learn about programming is truly what he loves doing most."
+  dev_username: "JoeKarlsson"
+  twitter_handle: "JoeKarlsson1"
+  talk_title: "An Introduction to IoT (Internet of Toilets 🚽)"
+  talk_abstract: ""
+
+- full_name: "Nikhil Paul"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Founder & Team Coach"
+  company: "We R Human"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/xoxp31jteypodoh31zi6.jpg"
+  bio: "Nikhil is a culture & team coach who founded We R Human to create engaging training programs & community experiences around topics of networking, team dynamics & organizational culture. With a decade of experience in building teams and problem-solving employee engagement issues at companies like Walmart, SalesForce and Venmo, his mission is to help build a happy high performing work culture from the ground up."
+  dev_username: ""
+  twitter_handle: ""
+  talk_title:
+  talk_abstract: ""
+
+- full_name: "Erika Heidi"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Senior Technical Writer"
+  company: "DigitalOcean"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/nomzzrukrtjv8tng0jbj.jpg"
+  bio: "Erika is a DevOps Software Engineer turned writer, passionate about community, open source, and building things. She works as senior technical writer at DigitalOcean."
+  dev_username: "erikaheidi"
+  twitter_handle: "erikaheidi"
+  talk_title: "The Art of Programming"
+  talk_abstract: ""
+
+- full_name: "Gargi Sharma"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Software Engineer"
+  company: "Tarides"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/42iae81duad6gxkmlb3l.jpg"
+  bio: "Gargi is a software engineer who contributes to OCaml open source at Tarides. Gargi has worked at Bloomberg, Uber and eBay and attended the Recurse Center."
+  dev_username: ""
+  twitter_handle: ""
+  talk_title: "Printing floating point numbers is surprisingly hard!"
+  talk_abstract: ""
+
+- full_name: "Mai Irie"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Director of Engineering"
+  company: "DoSomething.org"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/sstpqjdm3puw2cwwishy.png"
+  bio: "Mai is the Director of Engineering at DoSomething.org, a youth-led movement with 1M+ members who utilize the unique digital platform to join volunteer, social change, and civic action campaigns that make an offline impact. Mai is a mid-career switcher, originally working in graphic design. As her career progressed, she understood the creativity she craved was not in graphics but in software development :) Her work experience includes roles at universities, web agencies, and her current position at the non-profit."
+  dev_username: "mirie"
+  twitter_handle: ""
+  talk_title: "Balancing technical debt while changing society for the better"
+  talk_abstract: ""
+
+- full_name: "Wesley Faulkner"
+  order: 
+  day: 2
+  talk_type: "workshop"
+  job_title: "Board Member"
+  company: "The Experience Firm"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/sfl4as9d0jr66lq78vcx.jpeg"
+  bio: "Wesley Faulkner is a founding member of the government transparency group Open Austin and ran for Austin City Council in 2016. His professional experience includes work as a social media and community manager for the software company Atlassian, and various roles for AMD, Dell, and IBM. Wesley serves as a board member for South by Southwest Interactive (SXSWi) and specializes on DevRel."
+  dev_username: ""
+  twitter_handle: "wesley83"
+  talk_title: "How to get through the awkwardness of networking"
+  talk_abstract: ""

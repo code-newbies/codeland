@@ -16,28 +16,43 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  @media only screen and (max-width: 500px) {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
+  }
 }
 
 .speaker-item {
-  padding:1em;
+  padding:1%;
   display: grid;
-  grid-template-columns: 175px auto;
-  grid-auto-rows: 200px;
+  grid-template-columns: 20% auto;
   align-items: center;
+  margin: 3%;
 }
 
 .speaker-item--profile { 
   img {
-    max-width: 150px;
+    max-width: 85%;
     max-height: auto;
     border: #ffffff solid 2px;
     border-radius: 50%;
-    margin: 10px;
+    margin: 1%;
   }
 }
 
 .flare {
   color: #000000;
   padding: 0 4px;
+  border-radius: 5px;
+  font-size: .8em;
+}
+
+.talk_title {
+  font-size: 100%;
+  font-weight: 600;
+  margin-bottom: 3%;
+}
+
+.speaker-title {
+  font-size: 100%;
 }

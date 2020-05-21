@@ -6,18 +6,20 @@
         <div class="section-container speaker-overviews">
         <% data.people.speakers.each do |speaker| %>
             <div class="speaker-item">
-            <div class="speaker-item--profile">
-                <img src="<%= speaker.image_url %>">
-            </div>
-            <div class="speaker-item--bio">
-                <% if speaker.talk_type == "talk" %>
-                <span class="flare" style="background-color: #E3EFEB">talk</span>
-                <% else %>
-                <span class="flare" style="background-color: #DFD4FC">workshop</span>
-                <% end %>
-                <h2><%= speaker.full_name %></h2>
-                <h4><%= speaker.job_title %> at <%= speaker.company %></h4>
-            </div>
+                <div class="speaker-item--profile">
+                    <img src="<%= speaker.image_url %>">
+                </div>
+                <div class="speaker-item--info">
+                    <div class="talk_title">
+                        "<%= speaker.talk_title %>"
+                        <% if speaker.talk_type == "talk" %>
+                            <span class="flare" style="background-color: #E3EFEB">talk</span>
+                        <% else %>
+                            <span class="flare" style="background-color: #DFD4FC">workshop</span>
+                        <% end %>
+                    </div>
+                    <div class="speaker_title"><strong><%= speaker.full_name %></strong>, <%= speaker.job_title %> at <%= speaker.company %> </div>
+                </div>
             </div>
         <% end %>
         </div>
