@@ -73,7 +73,7 @@ speakers:
   job_title: "Staff Software Engineer"
   company: "Gatsby"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/g3dy258573lwl4ag2l95.jpg"
-  bio: "Aisha Blake is a Staff Software Engineer at Gatsby currently building <title of conf>, a musical tech conference. She also supports the community by co-organizing self.conference and Detroit Speakers in Tech. A theatre kid turned tech community leader, she approaches speaking and teaching as a way to give others the tools to shine as brightly as they can. In her spare time, she sings karaoke and pets dogs."
+  bio: "Aisha Blake is a Staff Software Engineer at Gatsby currently building &#12296title of conf&#12297, a musical tech conference. She also supports the community by co-organizing self.conference and Detroit Speakers in Tech. A theatre kid turned tech community leader, she approaches speaking and teaching as a way to give others the tools to shine as brightly as they can. In her spare time, she sings karaoke and pets dogs."
   dev_username: "aishablake"
   twitter_handle: "AishaBlake"
   talk_title: "Gatsby 101: Build a Personal Website"
@@ -83,10 +83,10 @@ speakers:
   order: 
   day: 1
   talk_type: "talk"
-  job_title: ""
-  company: ""
+  job_title: "dfdf"
+  company: "dfdfd"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/9ovo1b3vaxcq83vihfmt.png"
-  bio: "Amit is an architect turned computational designer who uses programming to help architects and engineers do their thing faster and better. He loves all things 3D, teaching programming, and in his free time enjoys kicking around a soccer ball. "
+  bio: "Amit is an architect turned computational designer who uses  programming to help architects and engineers do their thing faster and better. He loves all things 3D, teaching programming, and in his free time enjoys kicking around a soccer ball."
   dev_username: ""
   twitter_handle: ""
   talk_title: "Seeing Sound - Understanding the physics of music using visualizations"
@@ -128,7 +128,7 @@ speakers:
   bio: "Ali teaches people to code. She loves Python, JavaScript, and talking about code. She is most interested in the intersection of programming, art, and education. She's a distinguished faculty member at General Assembly, where she teaches people how to code. Ali also blogs about code and her life surrounding it, and her writing has gotten over a million readers in the past year."
   dev_username: "aspittel"
   twitter_handle: "ASpittel"
-  talk_title: ""
+  talk_title: "dfdf"
   talk_abstract: ""
 
 - full_name: "Penelope Phippen"
