@@ -7,7 +7,7 @@ speakers:
   talk_type: "talk"
   job_title: "Software Development Engineer"
   company: "Amazon"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/a42qv1dznutnee1cxvg0.jpg"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/9zknbrtmimbdtb7db71t.jpeg"
   bio: "Sangeetha is a software developer at Amazon focused on building features for the mobile shopping app. Previously she worked on building features on Echo devices and the Alexa companion app. When she is not programming, she can be found tinkering with photography, scouting around Seattle meetups or lurking on Twitter."
   dev_username: "humblefool_2"
   twitter_handle: "sangee_kp"
@@ -56,7 +56,7 @@ speakers:
 - full_name:  "Aisha Blake"
   order:
   day: 1
-  talk_type: "talk"
+  talk_type: "workshop"
   job_title: "Staff Software Engineer"
   company: "Gatsby"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/g3dy258573lwl4ag2l95.jpg"
