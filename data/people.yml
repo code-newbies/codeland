@@ -14,19 +14,6 @@ speakers:
   talk_title: "Machine Learning On The Edge"
   talk_abstract:
 
-- full_name: "Alex Morton"
-  order: 
-  day: 1
-  talk_type: "talk"
-  job_title: "Front-End Web Developer"
-  company: 
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/ofreopzze7kx25zc1vzz.jpg"
-  bio: "I'm Alex - a California native lost in France who fell in love with coding as a hobby while working in customer support. At the end of last year, I left said customer support job to pursue programming on a full-time basis. When I’m not coding, I love reading as much as possible and hanging out with my dachshund, Nelson."
-  dev_username: "alexlsalt"
-  twitter_handle: "alexlsaltt"
-  talk_title: "Being Utterly Fearless in Your Pursuit of Learning to Code"
-  talk_abstract: 
-
 - full_name: "Mai Irie"
   order: 
   day: 1
@@ -79,32 +66,6 @@ speakers:
   talk_title: "Gatsby 101: Build a Personal Website"
   talk_abstract: ""
 
-- full_name: "Amit Nambiar"
-  order: 
-  day: 1
-  talk_type: "talk"
-  job_title: "Computational Designer"
-  company: 
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/9ovo1b3vaxcq83vihfmt.png"
-  bio: "Amit is an architect turned computational designer who uses  programming to help architects and engineers do their thing faster and better. He loves all things 3D, teaching programming, and in his free time enjoys kicking around a soccer ball."
-  dev_username: ""
-  twitter_handle: ""
-  talk_title: "Seeing Sound - Understanding the physics of music using visualizations"
-  talk_abstract: ""
-
-- full_name: "Denise Yu"
-  order: 
-  day: 2
-  talk_type: "workshop"
-  job_title: "Senior Software Engineer"
-  company: "GitHub"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/blgkp9nz0306366wwgt7.jpg"
-  bio: "Denise is a Senior Software Engineer at GitHub, currently working on a team called Community & Safety which uses a combination of policy, design, and engineering to make the platform the safest place possible for healthy, engaged communities to grow. She career-switched in 2014–after completing a Masters in Social Policy–into software engineering, after attending a bootcamp in London, UK, and hasn't looked back. She speaks frequently at international conferences about software design, distributed computing, site reliability engineering, and lots more topics, but her strongest passion is making the tech industry more accessible to other people with non-linear backgrounds. In her spare time, she runs events and creates art that uses doodles to explain technical concepts: deniseyu.io/art."
-  dev_username: ""
-  twitter_handle: "deniseyu21"
-  talk_title: "Telling Stories with Doodles"
-  talk_abstract: ""
-
 - full_name: "Vaidehi Joshi"
   order: 
   day: 1
@@ -116,6 +77,32 @@ speakers:
   dev_username: "vaidehijoshi"
   twitter_handle: "vaidehijoshi"
   talk_title: "The Cost of Data"
+  talk_abstract: ""
+
+- full_name: "Erika Heidi"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Senior Technical Writer"
+  company: "DigitalOcean"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/nomzzrukrtjv8tng0jbj.jpg"
+  bio: "Erika is a DevOps Software Engineer turned writer, passionate about community, open source, and building things. She works as senior technical writer at DigitalOcean."
+  dev_username: "erikaheidi"
+  twitter_handle: "erikaheidi"
+  talk_title: "The Art of Programming"
+  talk_abstract: ""
+
+- full_name: "Amit Nambiar"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Computational Designer"
+  company: 
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/9ovo1b3vaxcq83vihfmt.png"
+  bio: "Amit is an architect turned computational designer who uses  programming to help architects and engineers do their thing faster and better. He loves all things 3D, teaching programming, and in his free time enjoys kicking around a soccer ball."
+  dev_username: ""
+  twitter_handle: ""
+  talk_title: "Seeing Sound - Understanding the physics of music using visualizations"
   talk_abstract: ""
 
 - full_name: "Belecia Bullock"
@@ -144,6 +131,19 @@ speakers:
   talk_title: "Nailing the home assignment - Level up when you don't have the XP"
   talk_abstract: ""
 
+- full_name: "Vanessa Mack"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Software Engineer"
+  company: "DoSomething.org"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/krgbi2gvueeqicqcya8p.jpeg"
+  bio: "I’m a Junior Software Engineer At DoSomething.org currently living in Brooklyn, NY. I have a bachelor's degree in International Relations & Political Science and graduated from Pursuit in 2018 – a software engineering bootcamp formerly known as Coalition for Queens (C4Q). My career experience includes roles in mission-driven organizations including various finance positions in projects involving program management, data analytics, and software engineering. I’m currently helping engineer the most user-friendly digital platform for youth involved in social good."
+  dev_username: ""
+  twitter_handle: "Grace_Fulfilled"
+  talk_title: "Making Apps More Accessible "
+  talk_abstract: ""
+
 - full_name: "Charity Majors"
   order: 
   day: 1
@@ -170,18 +170,18 @@ speakers:
   talk_title: "You and Me Learn All About HTTP"
   talk_abstract: ""
 
-- full_name: "Erika Heidi"
+- full_name: "Alex Morton"
   order: 
   day: 1
   talk_type: "talk"
-  job_title: "Senior Technical Writer"
-  company: "DigitalOcean"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/nomzzrukrtjv8tng0jbj.jpg"
-  bio: "Erika is a DevOps Software Engineer turned writer, passionate about community, open source, and building things. She works as senior technical writer at DigitalOcean."
-  dev_username: "erikaheidi"
-  twitter_handle: "erikaheidi"
-  talk_title: "The Art of Programming"
-  talk_abstract: ""
+  job_title: "Front-End Web Developer"
+  company: 
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/ofreopzze7kx25zc1vzz.jpg"
+  bio: "I'm Alex - a California native lost in France who fell in love with coding as a hobby while working in customer support. At the end of last year, I left said customer support job to pursue programming on a full-time basis. When I’m not coding, I love reading as much as possible and hanging out with my dachshund, Nelson."
+  dev_username: "alexlsalt"
+  twitter_handle: "alexlsaltt"
+  talk_title: "Being Utterly Fearless in Your Pursuit of Learning to Code"
+  talk_abstract: 
 
 - full_name: "Wesley Faulkner"
   order: 
@@ -196,19 +196,6 @@ speakers:
   talk_title: "How to get through the awkwardness of networking"
   talk_abstract: ""
 
-- full_name: "Vanessa Mack"
-  order: 
-  day: 1
-  talk_type: "talk"
-  job_title: "Software Engineer"
-  company: "DoSomething.org"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/krgbi2gvueeqicqcya8p.jpeg"
-  bio: "I’m a Junior Software Engineer At DoSomething.org currently living in Brooklyn, NY. I have a bachelor's degree in International Relations & Political Science and graduated from Pursuit in 2018 – a software engineering bootcamp formerly known as Coalition for Queens (C4Q). My career experience includes roles in mission-driven organizations including various finance positions in projects involving program management, data analytics, and software engineering. I’m currently helping engineer the most user-friendly digital platform for youth involved in social good."
-  dev_username: ""
-  twitter_handle: "Grace_Fulfilled"
-  talk_title: "Making Apps More Accessible "
-  talk_abstract: ""
-
 - full_name: "Miranda Limonczenko"
   order: 
   day: 1
@@ -221,3 +208,17 @@ speakers:
   twitter_handle: "Grace_Fulfilled"
   talk_title: "Accessibility Matters: How to Build Apps for EVERYONE"
   talk_abstract: ""
+
+- full_name: "Denise Yu"
+  order: 
+  day: 2
+  talk_type: "workshop"
+  job_title: "Senior Software Engineer"
+  company: "GitHub"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/blgkp9nz0306366wwgt7.jpg"
+  bio: "Denise is a Senior Software Engineer at GitHub, currently working on a team called Community & Safety which uses a combination of policy, design, and engineering to make the platform the safest place possible for healthy, engaged communities to grow. She career-switched in 2014–after completing a Masters in Social Policy–into software engineering, after attending a bootcamp in London, UK, and hasn't looked back. She speaks frequently at international conferences about software design, distributed computing, site reliability engineering, and lots more topics, but her strongest passion is making the tech industry more accessible to other people with non-linear backgrounds. In her spare time, she runs events and creates art that uses doodles to explain technical concepts: deniseyu.io/art."
+  dev_username: ""
+  twitter_handle: "deniseyu21"
+  talk_title: "Telling Stories with Doodles"
+  talk_abstract: ""
+  
