@@ -17,13 +17,6 @@
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  &.modal {
-    display: block;
-    max-width: 80%;
-    background-color: #ffffff;
-    z-index: 50000;
-    margin: 0 auto;
-  }
   @media only screen and (max-width: 500px) {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) 
   }
@@ -73,6 +66,7 @@
   z-index: 100;
   background-color: #323DA3;
   display:none;
+  opacity: .8;
 }
 
 .speaker-item--details {

@@ -55,19 +55,21 @@ $(document).ready(function(){
     // }
   // });
 
-  $(".speaker-item").click(function(e) {
-    $(this).addClass("speaker-item--details")
-    $(".speaker-item").hide();
-    $(this).next().show()
-    $(".mask").show();
-    $(".section-container.speaker-overviews").addClass("modal")
-  })
+  // $(".speaker-item").click(function(e) {
+  //   $(this).addClass("speaker-item--details")
+  //   $(".speaker-item").hide();
+  //   $(this).next().show()
+  //   $(".mask").show();
+  // })
 
-  $(".close").click(function(e) {
-    $(".mask").hide();
-    $(this).closest(".section-container.speaker-overviews").removeClass("modal");
-    $(".speaker-item--details").hide();
-    $(".speaker-item.speaker-item--details").removeClass("speaker-item--details");
-    $(".speaker-item").show();
-  })
+  // function closeModal() {
+  //   $(".mask").hide();
+  //   $(".speaker-item--details").hide();
+  //   $(".speaker-item.speaker-item--details").removeClass("speaker-item--details");
+  //   $(".speaker-item").show();
+  // }
+
+  // $(".mask").click(function(e) {
+  //   closeModal();
+  // })
 });
