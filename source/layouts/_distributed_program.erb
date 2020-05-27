@@ -1,0 +1,33 @@
+<section id="distributed-program" class="section-card distributed-program">
+  <div class="mask"></div>
+  <section class="section-container">
+    <header>
+      <h1>Who's Speaking at CodeLand?</h1>
+    </header>
+    <div class="section-container speaker-overviews">
+    <% data.people.speakers.each do |speaker| %>
+      <div class="speaker-item">
+        <div class="speaker-item--profile">
+          <img src="<%= speaker.image_url %>">
+        </div>
+        <div class="speaker-item--info">
+          <div class="talk-title">
+            "<%= speaker.talk_title %>"
+            <% if speaker.talk_type == "talk" %>
+              <span class="flare" style="background-color: #E3EFEB">talk</span>
+            <% else %>
+              <span class="flare" style="background-color: #DFD4FC">workshop</span>
+            <% end %>
+          </div>
+          <div class="speaker-title"><strong><%= speaker.full_name %></strong>, <%= speaker.job_title %> <% if speaker.company %> at <%= speaker.company %> <% end %></div>
+        </div>
+      </div>
+      <div class="speaker-item--details">
+        <img src="<%= speaker.image_url %>">
+        <div class="speaker-title"><strong><%= speaker.full_name %></strong>, <%= speaker.job_title %> at <%= speaker.company %></div>
+        <%= speaker.bio %>
+      </div>
+    <% end %>
+    </div>
+  </section>
+</section>

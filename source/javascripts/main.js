@@ -54,4 +54,22 @@ $(document).ready(function(){
     //   $(".sticker").removeClass("fixed");
     // }
   // });
+
+  // $(".speaker-item").click(function(e) {
+  //   $(this).addClass("speaker-item--details")
+  //   $(".speaker-item").hide();
+  //   $(this).next().show()
+  //   $(".mask").show();
+  // })
+
+  // function closeModal() {
+  //   $(".mask").hide();
+  //   $(".speaker-item--details").hide();
+  //   $(".speaker-item.speaker-item--details").removeClass("speaker-item--details");
+  //   $(".speaker-item").show();
+  // }
+
+  // $(".mask").click(function(e) {
+  //   closeModal();
+  // })
 });
