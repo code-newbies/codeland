@@ -14,25 +14,12 @@ speakers:
   talk_title: "Machine Learning On The Edge"
   talk_abstract:
 
-- full_name: "Nick Palenchar"
-  order:
-  day: 1
-  talk_type: "talk"
-  job_title: "Software Engineer"
-  company: "untapt"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/upuy6l2dk446mstsgvuc.jpeg"
-  bio: "Nick is a former Actor/Director turned coder who has been working as a software engineer for 4 years. With particular interest in DevOps tools and Automation, he has worked at large corporations and small startups alike, maintains open source projects, and teaches coding in his spare time."
-  dev_username: "nickpalenchar"
-  twitter_handle: "palencharizard"
-  talk_title: "The Whale, the Container, and the Ocean - A Docker Tale"
-  talk_abstract:
-
 - full_name: "Alex Morton"
   order: 
   day: 1
   talk_type: "talk"
   job_title: "Front-End Web Developer"
-  company: ""
+  company: 
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/ofreopzze7kx25zc1vzz.jpg"
   bio: "I'm Alex - a California native lost in France who fell in love with coding as a hobby while working in customer support. At the end of last year, I left said customer support job to pursue programming on a full-time basis. When I’m not coding, I love reading as much as possible and hanging out with my dachshund, Nelson."
   dev_username: "alexlsalt"
@@ -83,8 +70,8 @@ speakers:
   order: 
   day: 1
   talk_type: "talk"
-  job_title: "dfdf"
-  company: "dfdfd"
+  job_title: "Computational Designer"
+  company: 
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/9ovo1b3vaxcq83vihfmt.png"
   bio: "Amit is an architect turned computational designer who uses  programming to help architects and engineers do their thing faster and better. He loves all things 3D, teaching programming, and in his free time enjoys kicking around a soccer ball."
   dev_username: ""
@@ -118,32 +105,6 @@ speakers:
   talk_title: "The Cost of Data"
   talk_abstract: ""
 
-- full_name: "Ali Spittel"
-  order: 
-  day: 1
-  talk_type: "talk"
-  job_title: "Software Engineer"
-  company: "General Assembly"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/ryniyjgwn1td9yjivf33.jpg"
-  bio: "Ali teaches people to code. She loves Python, JavaScript, and talking about code. She is most interested in the intersection of programming, art, and education. She's a distinguished faculty member at General Assembly, where she teaches people how to code. Ali also blogs about code and her life surrounding it, and her writing has gotten over a million readers in the past year."
-  dev_username: "aspittel"
-  twitter_handle: "ASpittel"
-  talk_title: "dfdf"
-  talk_abstract: ""
-
-- full_name: "Penelope Phippen"
-  order: 
-  day: 1
-  talk_type: "talk"
-  job_title: "Software Engineer"
-  company: "Stripe"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/wtt1ayw0uv7t0cptx2r4.png"
-  bio: "Penelope Phippen's career has taken her many places including engineering, management, and technical leadership. She's seen things you wouldn't believe – like datacenters on fire off the shoulder of Orion. She works mostly in Ruby, although dabbles in Rust, Python, and maybe sometimes Javascript."
-  dev_username: "penelope_zone"
-  twitter_handle: "penelope_zone"
-  talk_title: "Changing your name is a hard unsolved problem in computer science"
-  talk_abstract: ""
-
 - full_name: "Belecia Bullock"
   order: 
   day: 2
@@ -174,39 +135,13 @@ speakers:
   order: 
   day: 1
   talk_type: "talk"
-  job_title: "Cofounder & CTO"
+  job_title: "Co-founder & CTO"
   company: "Honeycomb.io"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/b8l37kev5u1cu85hsatz.png"
   bio: "Charity is the Cofounder and CTO at honeycomb.io, building observability tooling for the next generation of software developers (try our new free tier!), formerly of Facebook, Parse, Linden Lab. She’s the Co-author of Databases Reliability Engineering and loves free software, free speech and free single malts."
   dev_username: "mipsytipsy"
   twitter_handle: "mipsytipsy"
   talk_title: "Hello from the Future"
-  talk_abstract: ""
-
-- full_name: "Scott Hanselman"
-  order: 
-  day: 1
-  talk_type: "talk"
-  job_title: "Partner Program Manager"
-  company: "Microsoft"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/3e4c44xdd32cmv7o6lmy.jpg"
-  bio: "Scott is a developer who has been blogging for 18+ years at hanselman.com. He works in open source on cross-platform .NET and the Azure Cloud for Microsoft out of his home office in Portland. His most recent podcast, hanselminutes.com has over 725 episodes of fresh tech from fresh faces. He's written a number of books and spoken in-person to nearly a million developers worldwide. Scott loves code, open source, the open web, STEM, Beyoncé, and podcasting with inclusive tech talk!"
-  dev_username: "shanselman"
-  twitter_handle: "shanselman"
-  talk_title: ""
-  talk_abstract: ""
-
-- full_name: "Kamya Shethia"
-  order: 
-  day: 1
-  talk_type: "talk"
-  job_title: "Software Engineer"
-  company: "Etsy"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/m9v03iuwc9191lth08b7.jpg"
-  bio: "Hello! I'm a New York based Software Engineer working at Etsy. I love learning new things, and have had the chance to work on both front and back-end. Most recently, I made the transition to data engineering!"
-  dev_username: "shethiakamya"
-  twitter_handle: "ShethiaKamya"
-  talk_title: "SQL for the Potterhead"
   talk_abstract: ""
 
 - full_name: "Safia Abdalla"
@@ -222,45 +157,6 @@ speakers:
   talk_title: "You and Me Learn All About HTTP"
   talk_abstract: ""
 
-- full_name: "Bhavani Ravi"
-  order: 
-  day: 2
-  talk_type: "workshop"
-  job_title: "Research Engineer"
-  company: "Saama Technologies"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/gnkpctohmsdgtqd56l0s.jpg"
-  bio: "Bhavani is a Research Engineer working on back-end systems at Saama Technologies and an open source contributor with Pandas and Rasa. She reads, writes, and teaches all things technology. In addition, Bhavani leads Women TechMakers Chennai – a diverse community that encourages women in tech to share ideas, knowledge and passion of the role women in technology plays through the means of talks and collaborative workshops."
-  dev_username: "bhavaniravi"
-  twitter_handle: "geeky_bhavani"
-  talk_title: "Build2Learn Chatbots"
-  talk_abstract: ""
-
-- full_name: "Joe Karlsson"
-  order: 
-  day: 1
-  talk_type: "talk"
-  job_title: "Developer Advocate"
-  company: "MongoDB"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/3cb7iq70jqkdf8l8y0kc.jpg"
-  bio: "Joe Karlsson is a software engineer turned Developer Advocate at MongoDB. He comes from the frozen tundra of Minneapolis, Minnesota (and yes, it does get really cold here, and no, not everyone here has the accent from the movie, Fargo). As a Node and JavaScript engineer, Joe has been writing, teaching, and talking about code his entire career. Sharing what he knows and continuing to learn about programming is truly what he loves doing most."
-  dev_username: "JoeKarlsson"
-  twitter_handle: "JoeKarlsson1"
-  talk_title: "An Introduction to IoT (Internet of Toilets 🚽)"
-  talk_abstract: ""
-
-- full_name: "Nikhil Paul"
-  order: 
-  day: 1
-  talk_type: "talk"
-  job_title: "Founder & Team Coach"
-  company: "We R Human"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/xoxp31jteypodoh31zi6.jpg"
-  bio: "Nikhil is a culture & team coach who founded We R Human to create engaging training programs & community experiences around topics of networking, team dynamics & organizational culture. With a decade of experience in building teams and problem-solving employee engagement issues at companies like Walmart, SalesForce and Venmo, his mission is to help build a happy high performing work culture from the ground up."
-  dev_username: ""
-  twitter_handle: ""
-  talk_title:
-  talk_abstract: ""
-
 - full_name: "Erika Heidi"
   order: 
   day: 1
@@ -272,19 +168,6 @@ speakers:
   dev_username: "erikaheidi"
   twitter_handle: "erikaheidi"
   talk_title: "The Art of Programming"
-  talk_abstract: ""
-
-- full_name: "Gargi Sharma"
-  order: 
-  day: 1
-  talk_type: "talk"
-  job_title: "Software Engineer"
-  company: "Tarides"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/42iae81duad6gxkmlb3l.jpg"
-  bio: "Gargi is a software engineer who contributes to OCaml open source at Tarides. Gargi has worked at Bloomberg, Uber and eBay and attended the Recurse Center."
-  dev_username: ""
-  twitter_handle: ""
-  talk_title: "Printing floating point numbers is surprisingly hard!"
   talk_abstract: ""
 
 - full_name: "Mai Irie"
@@ -311,4 +194,30 @@ speakers:
   dev_username: ""
   twitter_handle: "wesley83"
   talk_title: "How to get through the awkwardness of networking"
+  talk_abstract: ""
+
+- full_name: "Vanessa Mack"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Software Engineer"
+  company: "DoSomething.org"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/krgbi2gvueeqicqcya8p.jpeg"
+  bio: "I’m a Junior Software Engineer At DoSomething.org currently living in Brooklyn, NY. I have a bachelor's degree in International Relations & Political Science and graduated from Pursuit in 2018 – a software engineering bootcamp formerly known as Coalition for Queens (C4Q). My career experience includes roles in mission-driven organizations including various finance positions in projects involving program management, data analytics, and software engineering. I’m currently helping engineer the most user-friendly digital platform for youth involved in social good."
+  dev_username: ""
+  twitter_handle: "Grace_Fulfilled"
+  talk_title: "Making Apps More Accessible "
+  talk_abstract: ""
+
+- full_name: "Miranda Limonczenko"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Product Lead & Technical Documentation Developer"
+  company: "VMWare"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/u6iscbdch4gj0q0ptp7b.jpeg"
+  bio: ""
+  dev_username: ""
+  twitter_handle: "Grace_Fulfilled"
+  talk_title: "Accessibility Matters: How to Build Apps for EVERYONE"
   talk_abstract: ""

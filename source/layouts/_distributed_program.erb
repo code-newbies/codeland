@@ -19,7 +19,7 @@
               <span class="flare" style="background-color: #DFD4FC">workshop</span>
             <% end %>
           </div>
-          <div class="speaker-title"><strong><%= speaker.full_name %></strong>, <%= speaker.job_title %> at <%= speaker.company %></div>
+          <div class="speaker-title"><strong><%= speaker.full_name %></strong>, <%= speaker.job_title %> <% if speaker.company %> at <%= speaker.company %> <% end %></div>
         </div>
       </div>
       <div class="speaker-item--details">
