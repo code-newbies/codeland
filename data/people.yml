@@ -27,6 +27,19 @@ speakers:
   talk_title: "Being Utterly Fearless in Your Pursuit of Learning to Code"
   talk_abstract: 
 
+- full_name: "Mai Irie"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Director of Engineering"
+  company: "DoSomething.org"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/sstpqjdm3puw2cwwishy.png"
+  bio: "Mai is the Director of Engineering at DoSomething.org, a youth-led movement with 1M+ members who utilize the unique digital platform to join volunteer, social change, and civic action campaigns that make an offline impact. Mai is a mid-career switcher, originally working in graphic design. As her career progressed, she understood the creativity she craved was not in graphics but in software development :) Her work experience includes roles at universities, web agencies, and her current position at the non-profit."
+  dev_username: "mirie"
+  twitter_handle: ""
+  talk_title: "Balancing technical debt while changing society for the better"
+  talk_abstract: ""
+
 - full_name: "Alex Qin"
   order: 
   day: 1
@@ -168,19 +181,6 @@ speakers:
   dev_username: "erikaheidi"
   twitter_handle: "erikaheidi"
   talk_title: "The Art of Programming"
-  talk_abstract: ""
-
-- full_name: "Mai Irie"
-  order: 
-  day: 1
-  talk_type: "talk"
-  job_title: "Director of Engineering"
-  company: "DoSomething.org"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/sstpqjdm3puw2cwwishy.png"
-  bio: "Mai is the Director of Engineering at DoSomething.org, a youth-led movement with 1M+ members who utilize the unique digital platform to join volunteer, social change, and civic action campaigns that make an offline impact. Mai is a mid-career switcher, originally working in graphic design. As her career progressed, she understood the creativity she craved was not in graphics but in software development :) Her work experience includes roles at universities, web agencies, and her current position at the non-profit."
-  dev_username: "mirie"
-  twitter_handle: ""
-  talk_title: "Balancing technical debt while changing society for the better"
   talk_abstract: ""
 
 - full_name: "Wesley Faulkner"
