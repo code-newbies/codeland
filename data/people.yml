@@ -1,6 +1,18 @@
 default: &default_title
 speakers:
 
+- full_name: "Scott Hanselman"
+  order:
+  day: 1
+  talk_type: "keynote"
+  job_title: "Partner Program Manager"
+  company: "Microsoft"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/9c5eyd8yf0gdcctgjiqe.jpg"
+  bio: "Scott loves Code, Open Source, the Open Web, STEM, Beyoncé, and podcasting at Hanselminutes.com! It's inclusive tech talk!"
+  dev_username: "shanselman"
+  twitter_handle: "shanselman"
+  talk_title: "The Art of Computers"
+  
 - full_name: "Nočnica Fee"
   order:
   day: 2
@@ -11,7 +23,7 @@ speakers:
   bio: "Nočnica is a developer advocate with New Relic. In her free time she's an amateur hardware hacker, circuit bender, and terrible carpenter. Nica for short ;)"
   dev_username: ""
   twitter_handle: ""
-  talk_title: "Your first hardware hack: making a toy think"
+  talk_title: "Your First Hardware Hack: Making a Toy Think"
   talk_abstract:
 
 - full_name: "Vaidehi Joshi"
@@ -37,7 +49,7 @@ speakers:
   bio: "Josh Puetz is an engineer with over 20 years of experience making mistakes and telling stories about them. A veteran of several startups, he’s currently a principal software engineer at DEV where he creates software to support sustainable Internet communities. He lives in picturesque Door County, Wisconsin with his husband and daughter, where he enjoys coffee, CrossFit, and writing about himself in the third person."
   dev_username: "joshpuetz"
   twitter_handle: "joshpuetz"
-  talk_title: "Salary Negotiation for People That Hate To Negotiate"
+  talk_title: "Salary Negotiation for People That Hate to Negotiate"
   talk_abstract:
 
 - full_name: "Sangeetha KP"
@@ -50,7 +62,7 @@ speakers:
   bio: "Sangeetha is a software developer at Amazon focused on building features for the mobile shopping app. Previously she worked on building features on Echo devices and the Alexa companion app. When she is not programming, she can be found tinkering with photography, scouting around Seattle meetups or lurking on Twitter."
   dev_username: "humblefool_2"
   twitter_handle: "sangee_kp"
-  talk_title: "Machine Learning On The Edge"
+  talk_title: "Machine Learning on the Edge"
   talk_abstract:
 
 - full_name:  "Aisha Blake"
@@ -76,7 +88,7 @@ speakers:
   bio: "Joe Karlsson is a software engineer turned Developer Advocate at MongoDB. He comes from the frozen tundra of Minneapolis, Minnesota (and yes, it does get really cold here, and no, not everyone here has the accent from the movie, Fargo). Joe has been primarily a Node and JavaScript engineer. He has been writing, teaching, and talking about code his entire career. Sharing what he knows and continuing to learn about programming is truly the thing he loves doing the most."
   dev_username: "@JoeKarlsson"
   twitter_handle: "@JoeKarlsson1"
-  talk_title: "An Introduction To IoT (Internet of Toilets 🚽)"
+  talk_title: "An Introduction to IoT (Internet of Toilets 🚽)"
   talk_abstract:
 
 - full_name: "Amit Nambiar"
@@ -89,7 +101,7 @@ speakers:
   bio: "Amit is an architect turned computational designer who uses  programming to help architects and engineers do their thing faster and better. He loves all things 3D, teaching programming, and in his free time enjoys kicking around a soccer ball."
   dev_username: ""
   twitter_handle: ""
-  talk_title: "Seeing Sound - Understanding the physics of music using visualizations"
+  talk_title: "Seeing Sound - Understanding the Physics of music using visualizations"
   talk_abstract:
 
 - full_name: "Beleicia Bullock"
@@ -115,7 +127,7 @@ speakers:
   bio: "Eyal Yavor is a developer with 10+ years of experience in coding, hiring, and managing developers. Eyal served in the Israeli Intelligence Unit, worked in IdmLogic (Acquired by CA Technologies), co-founded Meekan (Acquired by Doodle), and led engineers at Doodle Tel Aviv. His main passion is for connecting systems and making it easier for others to maintain them."
   dev_username: "yulkes"
   twitter_handle: "yulkes"
-  talk_title: "Nailing the home assignment - Level up when you don't have the XP"
+  talk_title: "Nailing the Home Assignment - Level Up When You Don't Have the XP"
   talk_abstract:
 
 - full_name: "Vanessa Mack"
@@ -154,7 +166,7 @@ speakers:
   bio: "Wesley Faulkner is a founding member of the government transparency group Open Austin and ran for Austin City Council in 2016. His professional experience includes work as a social media and community manager for the software company Atlassian, and various roles for AMD, Dell, and IBM. Wesley serves as a board member for South by Southwest Interactive (SXSWi) and specializes on DevRel."
   dev_username: ""
   twitter_handle: "wesley83"
-  talk_title: "How to get through the awkwardness of networking"
+  talk_title: "How to Get Through the Awkwardness of Networking"
   talk_abstract:
 
 - full_name: "Miranda Limonczenko"
@@ -324,7 +336,7 @@ speakers:
   bio: "Gargi is a software engineer who contributes to OCaml open source at Tarides. Previously Gargi has worked at Bloomberg, Uber and eBay. Gargi also attended the Recurse Center."
   dev_username: ""
   twitter_handle: ""
-  talk_title: "Printing floating point numbers is surprisingly hard!!"
+  talk_title: "Printing Floating Point Numbers is Surprisingly Hard!!"
   talk_abstract:
 
 - full_name: "Alex Qin"
@@ -363,7 +375,7 @@ speakers:
   bio: "Developer Advocate for Snyk and Software Engineer with over 10 years of hands-on experience in creating and maintaining software. He is passionate about Java, (Pure) Functional Programming and Cybersecurity. Brian is an Oracle Groundbreaker Ambassador, Utrecht JUG Co-lead, Virtual JUG organizer and Co-lead at MyDevSecOps. He is a regular international speaker on mostly Java-related conferences like JavaOne, Oracle Code One, Devoxx BE, Devoxx UK, Jfokus, JavaZone and many more. Besides all that Brian is a military reserve for the Royal Netherlands Air Force and a Taekwondo Master / Teacher."
   dev_username: "brianverm"
   twitter_handle: "@brianverm"
-  talk_title: "Live exploiting your open source dependencies"
+  talk_title: "Live Exploiting Your Open Source Dependencies"
   talk_abstract:
 
 - full_name: "Navdeep Singh"
@@ -402,7 +414,7 @@ speakers:
   bio: "Mai is the Director of Engineering at DoSomething.org, a youth-led movement with 1M+ members who utilize the unique digital platform to join volunteer, social change, and civic action campaigns that make an offline impact. Mai is a mid-career switcher, originally working in graphic design. As her career progressed, she understood the creativity she craved was not in graphics but in software development :) Her work experience includes roles at universities, web agencies, and her current position at the non-profit."
   dev_username: "mirie"
   twitter_handle: ""
-  talk_title: "Balancing technical debt while changing society for the better"
+  talk_title: "Balancing Technical Debt While Changing Society for the Better"
   talk_abstract:
 
 - full_name: "Erick Ruiz de Chavez"
@@ -443,3 +455,15 @@ speakers:
   twitter_handle: "captainsafia"
   talk_title: "You and Me Learn All About HTTP"
   talk_abstract:
+
+- full_name: "Saron Yitbarek"
+  order:
+  day: 1
+  talk_type: "keynote"
+  job_title: "Founder"
+  company: "CodeNewbie"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/0n9iqmvk7p5w0i84uys1.jpg"
+  bio:
+  dev_username: "saronyitbarek"
+  twitter_handle: "saronyitbarek"
+  talk_title: "Opening Keynote"
