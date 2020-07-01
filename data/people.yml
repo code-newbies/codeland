@@ -13,6 +13,19 @@ speakers:
   twitter_handle: "shanselman"
   talk_title: "The Art of Computers"
 
+- full_name: "Paula de la Hoz"
+  order:
+  day: 1
+  talk_type: "talk"
+  job_title: "Redteam"
+  company: "Telefonica"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/iivr3e399ncqrqke6nkb.jpg"
+  bio: "24 years old, working as a Redteam in Telefonica, based in Madrid. Conding since I was 15, my favorite languages are Python, Bash and C. I love hardware hacking and electronics, and I love building electronics for security, I also enjoy teaching and mentoring."
+  dev_username: "terceranexus6"
+  twitter_handle: "terceranexus6"
+  talk_title: "Freedom of Security"
+  talk_abstract:
+
 - full_name: "Nočnica Fee"
   order:
   day: 2
@@ -196,32 +209,6 @@ speakers:
   talk_abstract:
 
 
-- full_name: "Paula de la Hoz"
-  order:
-  day: 1
-  talk_type: "talk"
-  job_title: "Redteam"
-  company: "Telefonica"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/iivr3e399ncqrqke6nkb.jpg"
-  bio: "24 years old, working as a Redteam in Telefonica, based in Madrid. Conding since I was 15, my favorite languages are Python, Bash and C. I love hardware hacking and electronics, and I love building electronics for security, I also enjoy teaching and mentoring."
-  dev_username: "terceranexus6"
-  twitter_handle: "terceranexus6"
-  talk_title: "Freedom of Security"
-  talk_abstract:
-
-- full_name: "Bhavani Ravi"
-  order:
-  day: 2
-  talk_type: "workshop"
-  job_title: "Research Engineer"
-  company: "Saama Technologies"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/kit6zr3hol7f4si2yvvr.jpg"
-  bio: "Research Engineer backend systems at Saama Technologies. Read, writes, teaches technology."
-  dev_username: "@bhavaniravi"
-  twitter_handle: "@geeky_bhavani"
-  talk_title: "Build2Learn Chatbots"
-  talk_abstract:
-
 - full_name: "Laura Foley"
   order:
   day: 1
@@ -274,17 +261,17 @@ speakers:
   talk_title: "The Art of Programming"
   talk_abstract:
 
-- full_name: "Ellen Chisa"
+- full_name: "Bhavani Ravi"
   order:
   day: 2
-  talk_type: "workshop" 
-  job_title: "CEO/Co-Founder"
-  company: "Dark"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/kbm86melpcf9yqe8vs3f.jpg"
-  bio: "Ellen Chisa is the CEO/Co-Founder of Dark, a programming language. Previously she worked in consumer product management at Lola, Kickstarter, and Microsoft and enjoys writing code to build personal tools. She holds a B.S. in Electrical & Computer engineering from Franklin W. Olin College of Engineering."
-  dev_username:
-  twitter_handle:
-  talk_title: "Shipping Your First Slack App (In a Brand New Language!)"
+  talk_type: "workshop"
+  job_title: "Research Engineer"
+  company: "Saama Technologies"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/kit6zr3hol7f4si2yvvr.jpg"
+  bio: "Research Engineer backend systems at Saama Technologies. Read, writes, teaches technology."
+  dev_username: "bhavaniravi"
+  twitter_handle: "@geeky_bhavani"
+  talk_title: "Build2Learn Chatbots"
   talk_abstract:
 
 - full_name: "Kevin Zurawel"
@@ -442,4 +429,28 @@ speakers:
   twitter_handle: "saronyitbarek"
   talk_title: "Opening Keynote"
 
+- full_name: "Kamya Shethia"
+  order: 
+  day: 2
+  talk_type: "workshop"
+  job_title: Software Engineer
+  company: Etsy
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/779hj80gkeehz8ts6m7n.jpg"
+  bio: "Hello. I'm a New York based Software Engineer and I work at Etsy. I love learning new things, and have had the chance to work on the front end, back end and recently made the transition to data engineering!"
+  dev_username: "shethiakamya"
+  twitter_handle: "@shethiakamya"
+  talk_title: "SQL for the Potterhead"
+  talk_abstract: ""
 
+- full_name: "Jory Burson"
+  order: 
+  day: 2
+  talk_type: "workshop"
+  job_title: "Open Source Consultant"
+  company: "Working Directory"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/fh14dvxycbrbxbwj8mca.png"
+  bio: "Jory Burson is a consultant and educator working to improve human interoperability in open source communities and open standards organizations such as Ecma International, OpenJS Foundation, OASIS Open, and W3C. Previously COO of open tech powerhouse Bocoup, she continues serving developer communities by providing operational resources, coaching and support. One of her favorite career highlights was helping launch the Johnny-Five Inventor's Kit, an open source nodebots package with SparkFun. "
+  dev_username: ""
+  twitter_handle: ""
+  talk_title: "Reading the Repo: Understanding Communication Patterns to Improve Collaboration"
+  talk_abstract: ""
