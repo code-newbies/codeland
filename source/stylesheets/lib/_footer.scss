@@ -25,11 +25,8 @@
 
   .footer-title--image img {
     height: auto;
-    width: 100%;
-
-    @include media-tablet-landscape() {
-      width: 520px;
-    }
+    width: 96%;
+    max-width: 610px;
   }
 
   .footer-title--description {

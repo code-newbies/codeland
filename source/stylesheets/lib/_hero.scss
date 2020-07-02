@@ -13,7 +13,7 @@
   @include media-tablet-landscape() {
     width: 720px;
     text-align: center;
-    padding-top: $gutter * 1.5;
+    padding-top: $gutter * 1;
     padding-bottom: $gutter;
   }
 }
