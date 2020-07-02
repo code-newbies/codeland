@@ -2,14 +2,14 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   grid-template-rows: auto;
-  grid-gap: 4em;
+  grid-row-gap: 4em;
   column-gap: 2em;
   grid-auto-flow: dense;
 }
 
 .media-grid-container {
   @include media-grid();
-  width: $container-width;
+  width: 100%;
   margin: 0 auto;
 }
 
