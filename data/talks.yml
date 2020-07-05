@@ -1,0 +1,221 @@
+default: &default_title
+speakers:
+
+- full_name: "Scott Hanselman"
+  order:
+  day: 1
+  talk_type: "keynote"
+  job_title: "Partner Program Manager"
+  company: "Microsoft"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/9c5eyd8yf0gdcctgjiqe.jpg"
+  bio: "Scott Hanselman is a developer who has been blogging for 18+ years at hanselman.com. He works in open source on cross-platform .NET and the Azure Cloud for Microsoft out of his home office in Portland. His most recent podcast, hanselminutes.com has over 725 episodes of fresh tech from fresh faces. He's written a number of books and spoken in-person to nearly a million developers worldwide. Scott loves code, open source, the open web, STEM, Beyoncé, and podcasting with inclusive tech talk!"
+  dev_username: "shanselman"
+  twitter_handle: "shanselman"
+  talk_title: "The Art of Computers"
+
+- full_name: "Vaidehi Joshi"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Senior Engineer"
+  company: "DEV"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/1k2njdw8d089rkdw1me9.jpeg"  
+  bio: "Vaidehi Joshi is a senior engineer at DEV, where she builds community and helps improve the software careers of millions. She enjoys building and breaking code, but loves creating empathetic engineering teams a whole lot more. She is the creator of basecs and baseds, two writing series exploring the fundamentals of computer science and distributed systems. She also co-hosts the Base.cs Podcast, and is a producer of the BaseCS and Byte Sized video series."
+  dev_username: "vaidehijoshi"
+  twitter_handle: "vaidehijoshi"
+  talk_title: "The Cost of Data"
+  talk_abstract:
+
+- full_name: "Sangeetha KP"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Software Development Engineer"
+  company: "Amazon"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/nop6j7fme780e9h9qs01.png"
+  bio: "Sangeetha KP is a software developer at Amazon focused on building features for the mobile shopping app. Previously she worked on building features on Echo devices and the Alexa companion app. When she is not programming, she can be found tinkering with photography, scouting around Seattle meetups or lurking on Twitter."
+  dev_username: "humblefool_2"
+  twitter_handle: "sangee_kp"
+  talk_title: "Machine Learning on the Edge"
+  talk_abstract:
+
+- full_name: "Paula de la Hoz"
+  order:
+  day: 1
+  talk_type: "talk"
+  job_title: "Redteam"
+  company: "Telefonica"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/iivr3e399ncqrqke6nkb.jpg"
+  bio: "Paula de la Hoz is 24 years old, working in Redteam at Telefonica, based in Madrid. Coding since age 15, her favorite languages are Python, C, and Bash. She loves hardware hacking, building electronics for security, and enjoys teaching and mentoring in her spare time."
+  dev_username: "terceranexus6"
+  twitter_handle: "terceranexus6"
+  talk_title: "Freedom of Security"
+  talk_abstract:
+
+- full_name: "Joe Karlsson"
+  order:
+  day: 1
+  talk_type: "talk"
+  job_title:
+  company: "MongoDB"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/iey0yfqq57x0hlh8k26t.jpg"
+  bio: "Joe Karlsson is a software engineer turned Developer Advocate at MongoDB. He comes from the frozen tundra of Minneapolis, Minnesota (and yes, it does get really cold here, and no, not everyone here has the accent from the movie, Fargo). Joe has been primarily a Node and JavaScript engineer. He has been writing, teaching, and talking about code his entire career. Sharing what he knows and continuing to learn about programming is truly the thing he loves doing the most."
+  dev_username: "@JoeKarlsson"
+  twitter_handle: "@JoeKarlsson1"
+  talk_title: "An Introduction to IoT (Internet of Toilets 🚽)"
+  talk_abstract:
+
+- full_name: "Josh Puetz"
+  order:
+  day: 1
+  talk_type: "talk"
+  job_title: "Principal Software Engineer"
+  company: "DEV"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/xwbssjywj9gbxsbu74ar.jpeg"
+  bio: "Josh Puetz is an engineer with over 20 years of experience making mistakes and telling stories about them. A veteran of several startups, he’s currently a principal software engineer at DEV where he creates software to support sustainable Internet communities. He lives in picturesque Door County, Wisconsin with his husband and daughter, where he enjoys coffee, CrossFit, and writing about himself in the third person."
+  dev_username: "joshpuetz"
+  twitter_handle: "joshpuetz"
+  talk_title: "Salary Negotiation for People That Hate to Negotiate"
+  talk_abstract:
+
+- full_name: "Amit Nambiar"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Computational Designer"
+  company: 
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/5slrt733k0vr17auowqn.png"
+  bio: "Amit Nambiar is an architect turned computational designer who uses  programming to help architects and engineers do their thing faster and better. He loves all things 3D, teaching programming, and in his free time enjoys kicking around a soccer ball."
+  dev_username: ""
+  twitter_handle: ""
+  talk_title: "Seeing Sound - Understanding the Physics of music using visualizations"
+  talk_abstract:
+
+- full_name: "Alex Morton"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Front-End Web Developer"
+  company: 
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/q6k3hrpxz6e5s85u9ndz.jpg"
+  bio: "Alex Morton is a California native lost in France who fell in love with coding as a hobby while working in customer support. At the end of last year, Alex left said customer support job to pursue programming on a full-time basis. When she's not coding, she loves reading as much as possible and hanging out with her dachshund, Nelson."
+  dev_username: "alexlsalt"
+  twitter_handle: "alexlsaltt"
+  talk_title: "Being Utterly Fearless in Your Pursuit of Learning to Code"
+  talk_abstract:
+
+- full_name: "Miranda Limonczenko"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Product Lead & Technical Documentation Developer"
+  company: "VMWare"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/xnsr06nu5rogskfofvo9.jpeg"
+  bio: "Miranda Limonczenko is a Senior Technical Writer at VMware, a front-end developer, and a user experience advocate. Miranda chronicles her coding journey at BooksonCode.com."
+  dev_username: ""
+  twitter_handle: "Grace_Fulfilled"
+  talk_title: "Accessibility Matters: How to Build Apps for EVERYONE"
+  talk_abstract:
+
+- full_name: "Nick Palenchar"
+  order:
+  day: 1
+  talk_type: "talk"
+  job_title: "Software Engineer"
+  company: "untapt"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/dnqd71k6bjer2ygmgo3e.jpeg"
+  bio: "Nick Palenchar is a former Actor/Director turned coder who has been working as a software engineer for 4 years. With particular interest in DevOps tools and Automation, he has worked in large corporations and small startups alike, and maintains open source projects and teaches coding in his spare time."
+  dev_username: "nickpalenchar"
+  twitter_handle: "palencharizard"
+  talk_title: "The Whale, the Container, and the Ocean - A Docker Tale"
+  talk_abstract:
+
+- full_name: "Rukia Sheikh-Mohamed"
+  order:
+  day: 1
+  talk_type: "talk"
+  job_title: "Software Engineer"
+  company: "Soona"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/yjcafvdxdmthekd8vnys.jpg"
+  bio: "Rukia Sheikh-Mohamed is a software engineer based in the Twin Cities, MN who is passionate about all things tech. During her day job she works as full-stack dev at Soona. She enjoys talking about tech at local and national events/conferences, creating cool stuff on the side, and writing tech articles to share useful information and tips. During her free time Rukia enjoys spending time with her baby boy, traveling the world, and creating fun DIYs."
+  dev_username: "@rukiaasm"
+  twitter_handle: "@rukiaasm"
+  talk_title: "Working Smarter: 5 Steps to Crafting the Right Questions When You're Stuck"
+  talk_abstract:
+
+- full_name: "Erika Heidi"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Senior Technical Writer"
+  company: "DigitalOcean"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/l9gvd4uqs5alodwh7pho.jpg"
+  bio: "Erika Heidi is a DevOps Software Engineer turned writer, passionate about community, open source, and building things. She works as senior technical writer at DigitalOcean."
+  dev_username: "erikaheidi"
+  twitter_handle: "erikaheidi"
+  talk_title: "The Art of Programming"
+  talk_abstract:
+
+- full_name: "Gargi Sharma"
+  order:
+  day: 1
+  talk_type: "talk"
+  job_title: "Software Engineer"
+  company: "Tarides"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/pp5e8z4zfq0ezop5z11r.jpg"
+  bio: "Gargi Sharma is a software engineer who contributes to OCaml open source at Tarides. Previously Gargi has worked at Bloomberg, Uber and eBay. Gargi also attended the Recurse Center."
+  dev_username: ""
+  twitter_handle: ""
+  talk_title: "Printing Floating Point Numbers is Surprisingly Hard!!"
+  talk_abstract:
+
+- full_name: "Brian Vermeer"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Developer Advocate"
+  company: "Snyk"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/hprj7ail8dkgl6b4ymr0.jpeg"
+  bio: "Brian Vermeer is a Developer Advocate for Snyk and Software Engineer with over 10 years of hands-on experience in creating and maintaining software. He is passionate about Java, (Pure) Functional Programming and Cybersecurity. Brian is an Oracle Groundbreaker Ambassador, Utrecht JUG Co-lead, Virtual JUG organizer and Co-lead at MyDevSecOps. He is a regular international speaker on mostly Java-related conferences like JavaOne, Oracle Code One, Devoxx BE, Devoxx UK, Jfokus, JavaZone and many more. Besides all that Brian is a military reserve for the Royal Netherlands Air Force and a Taekwondo Master / Teacher."
+  dev_username: "brianverm"
+  twitter_handle: "@brianverm"
+  talk_title: "Live Exploiting Your Open Source Dependencies"
+  talk_abstract:
+
+- full_name: "Mai Irie"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Director of Engineering"
+  company: "DoSomething.org"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/7t5dq95w4jwnh1cwlr49.png"
+  bio: "Mai Irie is the Director of Engineering at DoSomething.org, a youth-led movement with 1M+ members who utilize the unique digital platform to join volunteer, social change, and civic action campaigns that make an offline impact. Mai is a mid-career switcher, originally working in graphic design. As her career progressed, she understood the creativity she craved was not in graphics but in software development :) Her work experience includes roles at universities, web agencies, and her current position at the non-profit."
+  dev_username: "mirie"
+  twitter_handle: ""
+  talk_title: "Balancing Technical Debt While Changing Society for the Better"
+  talk_abstract:
+
+- full_name: "Safia Abdalla"
+  order: 
+  day: 1
+  talk_type: "talk"
+  job_title: "Software Engineer"
+  company: "Microsoft"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/fak8k4o3mvbwd3ypzcva.jpg"
+  bio: "Safia Abdalla is an open source maintainer on the nteract project, a writer, and a software engineer at Microsoft working open source web technologies. She's passionate about bringing people together to build great things and using storytelling to share knowledge."
+  dev_username: "captainsafia"
+  twitter_handle: "captainsafia"
+  talk_title: "You and Me Learn All About HTTP"
+  talk_abstract:
+
+- full_name: "Saron Yitbarek"
+  order:
+  day: 1
+  talk_type: "keynote"
+  job_title: "Founder"
+  company: "CodeNewbie"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/0n9iqmvk7p5w0i84uys1.jpg"
+  bio: "Saron Yitbarek is an entrepreneur and founder of CodeNewbie, now owned by DEV. She's also a developer, speaker, and podcaster."
+  dev_username: "saronyitbarek"
+  twitter_handle: "saronyitbarek"
+  talk_title: "Opening Keynote"

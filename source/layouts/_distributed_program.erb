@@ -5,7 +5,8 @@
       <h1>Who's Speaking at CodeLand?</h1>
     </header>
     <div class="section-container speaker-overviews">
-    <% data.people.speakers.each do |speaker| %>
+    <h2>Talks - Thursday, July 23</h2>
+    <% data.talks.speakers.each do |speaker| %>
       <div class="speaker-item">
         <div class="speaker-item--profile">
           <img src="<%= speaker.image_url %>">
@@ -15,22 +16,32 @@
             "<%= speaker.talk_title %>"
             <% if speaker.talk_type == "talk" %>
               <span class="flare" style="background-color: #E3EFEB">talk</span>
-            <% elsif speaker.talk_type == "keynote" %>
+            <% else speaker.talk_type == "keynote" %>
               <span class="flare" style="background-color: #FEE6AB">keynote</span>
-            <% else %>
-              <span class="flare" style="background-color: #DFD4FC">workshop</span>
             <% end %>
           </div>
-          <div class="speaker-title"><strong><%= speaker.full_name %></strong>, <%= speaker.job_title %> <% if speaker.company %> at <%= speaker.company %> <% end %></div>
+          <div class="speaker-bio"><%= speaker.bio %></div>
         </div>
       </div>
-      <div class="speaker-item--details">
-        <img src="<%= speaker.image_url %>">
-        <div class="speaker-title"><strong><%= speaker.full_name %></strong>, <%= speaker.job_title %> at <%= speaker.company %></div>
-        <%= speaker.bio %>
+    <% end %>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <h2>Workshops - Friday, July 24</h2>
+    <% data.workshops.speakers.each do |speaker| %>
+      <div class="speaker-item">
+        <div class="speaker-item--profile">
+          <img src="<%= speaker.image_url %>">
+        </div>
+        <div class="speaker-item--info">
+          <div class="talk-title">
+            "<%= speaker.talk_title %>"
+              <span class="flare" style="background-color: #DFD4FC">workshop</span>
+          </div>
+          <div class="speaker-bio"><%= speaker.bio %></div>
+        </div>
       </div>
     <% end %>
-    </div>
-    <h3 style="text-align: center; margin-top: 2%;">...more speakers coming soon!</h3>
   </section>
 </section>
