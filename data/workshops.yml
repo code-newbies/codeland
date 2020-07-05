@@ -1,0 +1,223 @@
+default: &default_title
+speakers:
+
+- full_name: "Jory Burson"
+  order: 
+  day: 2
+  talk_type: "workshop"
+  job_title: "Open Source Consultant"
+  company: "Working Directory"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/fh14dvxycbrbxbwj8mca.png"
+  bio: "Jory Burson is a consultant and educator working to improve human interoperability in open source communities and open standards organizations such as Ecma International, OpenJS Foundation, OASIS Open, and W3C. Previously COO of open tech powerhouse Bocoup, she continues serving developer communities by providing operational resources, coaching and support. One of her favorite career highlights was helping launch the Johnny-Five Inventor's Kit, an open source nodebots package with SparkFun. "
+  dev_username: ""
+  twitter_handle: ""
+  talk_title: "Reading the Repo: Understanding Communication Patterns to Improve Collaboration"
+  talk_abstract: ""
+
+- full_name: "Kamya Shethia"
+  order: 
+  day: 2
+  talk_type: "workshop"
+  job_title: Software Engineer
+  company: Etsy
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/779hj80gkeehz8ts6m7n.jpg"
+  bio: "Kanya Shethia is a New York based Software Engineer and works at Etsy. She loves learning new things, and has had the chance to work on the frontend, backend, and recently made the transition to data engineering!"
+  dev_username: "shethiakamya"
+  twitter_handle: "@shethiakamya"
+  talk_title: "SQL for the Potterhead"
+  talk_abstract: ""
+
+- full_name: "Emily Giurleo"
+  order:
+  day: 2
+  talk_type: "workshop"
+  job_title: "Software Engineer"
+  company: "MongoDB"
+  image_url: https://dev-to-uploads.s3.amazonaws.com/i/3zvzi2ritlu7eflnnqrx.jpg
+  bio: "Emily Giurleo works as a Software Engineer at MongoDB, where she helps maintain the MongoDB Ruby Driver and Mongoid Object-Document Mapper for Ruby on Rails. She previously spent two years as a Rails developer at Codecademy. In her spare time, she enjoys building tech for good causes, reading fantasy novels, and petting cats."
+  dev_username:
+  twitter_handle:
+  talk_title: "Your First Open Source Contribution"
+  talk_abstract:
+
+- full_name: "Erick Ruiz de Chavez"
+  order:
+  day: 2
+  talk_type: "workshop"
+  job_title: "Senior Web Engineer"
+  company: "Bloomberg L.P."
+  image_url: https://dev-to-uploads.s3.amazonaws.com/i/71q7lidxayl4236xuudc.jpg
+  bio: "Erick Ruiz de Chavez is a Senior Web Engineer with 14+ years of experience in web and application development. Skilled in dissecting an issue to find creative solutions. Extensive background in programming, building numerous applications from the ground up. Focused on designing tools that will enhance the user experience and work toward a company’s vision."
+  dev_username:
+  twitter_handle:
+  talk_title: "Let's Git Together!"
+  talk_abstract:
+
+- full_name: "Eyal Yavor"
+  order: 
+  day: 2
+  talk_type: "workshop"
+  job_title: "Engineering Lead"
+  company: "Doodle AG"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/1ewf8cpp1xqa3ys8btfi.jpg"
+  bio: "Eyal Yavor is a developer with 10+ years of experience in coding, hiring, and managing developers. Eyal served in the Israeli Intelligence Unit, worked in IdmLogic (Acquired by CA Technologies), co-founded Meekan (Acquired by Doodle), and led engineers at Doodle Tel Aviv. His main passion is for connecting systems and making it easier for others to maintain them."
+  dev_username: "yulkes"
+  twitter_handle: "yulkes"
+  talk_title: "Nailing the Home Assignment - Level Up When You Don't Have the XP"
+  talk_abstract:
+
+- full_name: "Navdeep Singh"
+  order:
+  day: 2
+  talk_type: "workshop"
+  job_title: "Full Stack Web Developer"
+  company: "Falcon Agency"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/b8vgpg8l4y0o43p2qyha.jpg"
+  bio: "Navdeep Singh is a multidisciplinary web developer with over 12 years of experience in Full Stack Development and is a self-taught front end developer. He is passionate about modern technologies, performance, accessibility and writing things down.  Currently, he is working remotely as a Front End developer for a Singapore based Digital Agency. Running or cycling is an integral part of his daily life."
+  dev_username:
+  twitter_handle:
+  talk_title: "Intro to Web Accessibility"
+  talk_abstract:
+
+- full_name: "Alvaro Montoro"
+  order:
+  day: 2
+  talk_type: "workshop"
+  job_title: "UI Dev Team Lead"
+  company: "Visa"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/7h6msx3mkouzfdmrfjkj.png"
+  bio: "Alvaro Montoro was born in Spain, where he grew up, studied, and worked as a Back-End Developer while completing a CS degree. He had the opportunity to visit the United States and work at start-ups and Fortune 100 companies, where he discovered a passion for web technologies. Then Alvaro started moving away from the back-end, and focusing mainly on the front-end, and is now a UI dev team lead at Visa in Austin, TX."
+  dev_username:
+  twitter_handle:
+  talk_title: "Rocking the Gamepad API"
+  talk_abstract:
+
+- full_name: "Denise Yu"
+  order: 
+  day: 2
+  talk_type: "workshop"
+  job_title: "Senior Software Engineer"
+  company: "GitHub"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/2l0mt7asph3at88w01rs.jpg"
+  bio: "Denise Yu is a Senior Software Engineer at GitHub, currently working on a team called Community & Safety which uses a combination of policy, design, and engineering to make the platform the safest place possible for healthy, engaged communities to grow. She career-switched in 2014–after completing a Masters in Social Policy–into software engineering, after attending a bootcamp in London, UK, and hasn't looked back. She speaks frequently at international conferences about software design, distributed computing, site reliability engineering, and lots more topics, but her strongest passion is making the tech industry more accessible to other people with non-linear backgrounds. In her spare time, she runs events and creates art that uses doodles to explain technical concepts: deniseyu.io/art."
+  dev_username: ""
+  twitter_handle: "deniseyu21"
+  talk_title: "Telling Stories with Doodles"
+  talk_abstract:
+
+- full_name: "Nočnica Fee"
+  order:
+  day: 2
+  talk_type: "workshop"
+  job_title: "Developer Advocate"
+  company: "New Relic"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/4gql10fgoanjxrvsgvyi.jpeg"
+  bio: "Nočnica Fee is a developer advocate with New Relic. In her free time she's an amateur hardware hacker, circuit bender, and terrible carpenter. Nica for short ;)"
+  dev_username: ""
+  twitter_handle: ""
+  talk_title: "Your First Hardware Hack: Making a Toy Think"
+  talk_abstract:
+
+- full_name: "Wesley Faulkner"
+  order: 
+  day: 2
+  talk_type: "workshop"
+  job_title: "Board Member"
+  company: "The Experience Firm"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/dpzxwi3mnbmfnqeyv68s.jpeg"
+  bio: "Wesley Faulkner is a founding member of the government transparency group Open Austin and ran for Austin City Council in 2016. His professional experience includes work as a social media and community manager for the software company Atlassian, and various roles for AMD, Dell, and IBM. Wesley serves as a board member for South by Southwest Interactive (SXSWi) and specializes on DevRel."
+  dev_username: ""
+  twitter_handle: "wesley83"
+  talk_title: "How to Get Through the Awkwardness of Networking"
+  talk_abstract:
+
+- full_name: "Beleicia Bullock"
+  order: 
+  day: 2
+  talk_type: "workshop"
+  job_title: "Founder & Technical Interview Coach"
+  company: "TechUp Coaching"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/nxtdtvlpabe2y4200t58.jpg"
+  bio: "Beleicia Bullock is a technical interview coach and CS graduate student who loves to create through code and support women in their tech careers! After completing 40+ technical interviews during her undergraduate career and working with women at her college doing the same, Beleicia started TechUp Coaching to help more women confidently approach their technical interviews. Outside of coaching, she is also a graduate student whose research combines HCI, CS education and CS ethics to improve fairness and equity within technology!"
+  dev_username: ""
+  twitter_handle: ""
+  talk_title: "#YourTechStory: How to Showcase Your Story and Skills During Technical Interviews"
+  talk_abstract:
+
+- full_name:  "Aisha Blake"
+  order:
+  day: 1
+  talk_type: "workshop"
+  job_title: "Staff Software Engineer"
+  company: "Gatsby"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/fgqlrp42uouevwsj7vyv.jpg"
+  bio: "Aisha Blake is a Staff Software Engineer at Gatsby currently building &#12296title of conf&#12297, a musical tech conference. She also supports the community by co-organizing self.conference and Detroit Speakers in Tech. A theatre kid turned tech community leader, she approaches speaking and teaching as a way to give others the tools to shine as brightly as they can. In her spare time, she sings karaoke and pets dogs."
+  dev_username: "aishablake"
+  twitter_handle: "AishaBlake"
+  talk_title: "Gatsby 101: Build a Personal Website"
+  talk_abstract:
+
+- full_name: "Laura Foley"
+  order:
+  day: 1
+  talk_type: "workshop"
+  job_title: "Public Speaker"
+  company: "Laura M. Foley Design"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/x42wkd4c9ulce228eiov.jpg"
+  bio: "Laura Foley helps people to develop informative, entertaining presentations that any audience can understand. Laura combines her skills as a visual designer, writer, and marketer with a knack of quickly getting to the point to help her clients to communicate more clearly through their presentations. She lives in Central Massachusetts with her husband and two sons and is an active Scout leader who enjoys hiking and camping."
+  dev_username: ""
+  twitter_handle: "@LMFDesign"
+  talk_title: "Presentation Skills for Brainiacs"
+  talk_abstract:
+
+- full_name: "Bhavani Ravi"
+  order:
+  day: 2
+  talk_type: "workshop"
+  job_title: "Research Engineer"
+  company: "Saama Technologies"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/kit6zr3hol7f4si2yvvr.jpg"
+  bio: "Bhavani Ravi is a Research Engineer working on back-end systems at Saama Technologies and an open source contributor with Pandas and Rasa. She reads, writes, and teaches all things technology. In addition, Bhavani leads Women TechMakers Chennai – a diverse community that encourages women in tech to share ideas, knowledge and passion of the role women in technology plays through the means of talks and collaborative workshops."
+  dev_username: "bhavaniravi"
+  twitter_handle: "@geeky_bhavani"
+  talk_title: "Build2Learn Chatbots"
+  talk_abstract:
+
+- full_name: "Colin Dean"
+  order:
+  day: 2
+  talk_type: "workshop"
+  job_title: "Software engineer and community builder"
+  company: "Code & Supply Co."
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/ev4nppfml9pf3vsqt3tg.jpg"
+  bio: "Colin Dean is a personal finance enthusiast who has been using plain text account tools for the better part of a decade. He pays the bills as software engineer for a major retailer but also runs Pittsburgh's Code & Supply software community, its non-profit Scholarship Fund, and is president of non-profit Meta Mesh Wireless Communities. He believe that if we challenge ourselves and encourage each other, we will all achieve."
+  dev_username:
+  twitter_handle:
+  talk_title: "Command-line Finances using the Plain Text Accounting Ecosystem"
+  talk_abstract:
+
+- full_name: "Kevin Zurawel"
+  order:
+  day: 2
+  talk_type: "workshop"
+  job_title: "Engineering Manager"
+  company: "Braintree"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/dh8fl2qw4hb9jer5ale7.jpg"
+  bio: "Kevin Zurawel has been an NES fan since he first played &quotSuper Mario Bros.&quot in 1989. He learned to program out of a love of video games, and ended up with a career as a front-end developer turned engineering manager. He has previously spoken on computing history and game development topics at conferences like Abstractions, Node.js Interactive, ForwardJS, and Strange Loop."
+  dev_username:
+  twitter_handle:
+  talk_title: "Making NES Games in Assembly"
+  talk_abstract:
+
+- full_name: "Lisi Linhart"
+  order: 
+  day: 2
+  talk_type: "workshop"
+  job_title: "Frontend Engineer"
+  company:
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/qpldek293w9ky6k3zin8.jpg"
+  bio: "Lisi Linhart is a Frontend Engineer with a passion for web animation and UX. She has a Master of Science degree in media informatics and a solid understanding of software engineering. Currently she is teaching web development at an university in a media informatics degree. "
+  dev_username:
+  twitter_handle:
+  talk_title: "Practical Web Animation"
+  talk_abstract:

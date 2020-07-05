@@ -13,7 +13,7 @@ page '/*.txt', layout: false
 # page "/path/to/file.html", layout: :otherlayout
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
-data.people.speakers.each do |speaker|
+data.talks.speakers.each do |speaker|
   slug = speaker.full_name.gsub(" ", "-").downcase
   proxy "/speakers/#{slug}/index.html", "/speakers/template.html", locals: {
     speaker: speaker }, ignore: true
