@@ -4,11 +4,11 @@ speakers:
 - full_name: "Scott Hanselman"
   order:
   day: 1
-  talk_type: "talk"
+  talk_type: "keynote"
   job_title: "Partner Program Manager"
   company: "Microsoft"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/9c5eyd8yf0gdcctgjiqe.jpg"
-  bio: "Scott loves Code, Open Source, the Open Web, STEM, Beyoncé, and podcasting at Hanselminutes.com! It's inclusive tech talk!"
+  bio: "Scott Hanselman is a developer who has been blogging for 18+ years at hanselman.com. He works in open source on cross-platform .NET and the Azure Cloud for Microsoft out of his home office in Portland. His most recent podcast, hanselminutes.com has over 725 episodes of fresh tech from fresh faces. He's written a number of books and spoken in-person to nearly a million developers worldwide. Scott loves code, open source, the open web, STEM, Beyoncé, and podcasting with inclusive tech talk!"
   dev_username: "shanselman"
   twitter_handle: "shanselman"
   talk_title: "The Art of Computers"
@@ -20,7 +20,7 @@ speakers:
   job_title: "Redteam"
   company: "Telefonica"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/iivr3e399ncqrqke6nkb.jpg"
-  bio: "24 years old, working as a Redteam in Telefonica, based in Madrid. Conding since I was 15, my favorite languages are Python, Bash and C. I love hardware hacking and electronics, and I love building electronics for security, I also enjoy teaching and mentoring."
+  bio: "Paula de la Hoz is 24 years old, working in Redteam at Telefonica, based in Madrid. Coding since age 15, her favorite languages are Python, C, and Bash. She loves hardware hacking, building electronics for security, and enjoys teaching and mentoring in her spare time."
   dev_username: "terceranexus6"
   twitter_handle: "terceranexus6"
   talk_title: "Freedom of Security"
@@ -33,7 +33,7 @@ speakers:
   job_title: "Developer Advocate"
   company: "New Relic"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/4gql10fgoanjxrvsgvyi.jpeg"
-  bio: "Nočnica is a developer advocate with New Relic. In her free time she's an amateur hardware hacker, circuit bender, and terrible carpenter. Nica for short ;)"
+  bio: "Nočnica Fee is a developer advocate with New Relic. In her free time she's an amateur hardware hacker, circuit bender, and terrible carpenter. Nica for short ;)"
   dev_username: ""
   twitter_handle: ""
   talk_title: "Your First Hardware Hack: Making a Toy Think"
@@ -46,7 +46,7 @@ speakers:
   job_title: "Senior Engineer"
   company: "DEV"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/1k2njdw8d089rkdw1me9.jpeg"  
-  bio: "Vaidehi is a senior engineer at DEV, where she builds community and helps improve the software careers of millions. She enjoys building and breaking code, but loves creating empathetic engineering teams a whole lot more. She is the creator of basecs and baseds, two writing series exploring the fundamentals of computer science and distributed systems. She also co-hosts the Base.cs Podcast, and is a producer of the BaseCS and Byte Sized video series."
+  bio: "Vaidehi Joshi is a senior engineer at DEV, where she builds community and helps improve the software careers of millions. She enjoys building and breaking code, but loves creating empathetic engineering teams a whole lot more. She is the creator of basecs and baseds, two writing series exploring the fundamentals of computer science and distributed systems. She also co-hosts the Base.cs Podcast, and is a producer of the BaseCS and Byte Sized video series."
   dev_username: "vaidehijoshi"
   twitter_handle: "vaidehijoshi"
   talk_title: "The Cost of Data"
@@ -72,7 +72,7 @@ speakers:
   job_title: "Software Development Engineer"
   company: "Amazon"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/nop6j7fme780e9h9qs01.png"
-  bio: "Sangeetha is a software developer at Amazon focused on building features for the mobile shopping app. Previously she worked on building features on Echo devices and the Alexa companion app. When she is not programming, she can be found tinkering with photography, scouting around Seattle meetups or lurking on Twitter."
+  bio: "Sangeetha KP is a software developer at Amazon focused on building features for the mobile shopping app. Previously she worked on building features on Echo devices and the Alexa companion app. When she is not programming, she can be found tinkering with photography, scouting around Seattle meetups or lurking on Twitter."
   dev_username: "humblefool_2"
   twitter_handle: "sangee_kp"
   talk_title: "Machine Learning on the Edge"
@@ -111,7 +111,7 @@ speakers:
   job_title: "Computational Designer"
   company: 
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/5slrt733k0vr17auowqn.png"
-  bio: "Amit is an architect turned computational designer who uses  programming to help architects and engineers do their thing faster and better. He loves all things 3D, teaching programming, and in his free time enjoys kicking around a soccer ball."
+  bio: "Amit Nambiar is an architect turned computational designer who uses  programming to help architects and engineers do their thing faster and better. He loves all things 3D, teaching programming, and in his free time enjoys kicking around a soccer ball."
   dev_username: ""
   twitter_handle: ""
   talk_title: "Seeing Sound - Understanding the Physics of music using visualizations"
@@ -124,7 +124,7 @@ speakers:
   job_title: "Founder & Technical Interview Coach"
   company: "TechUp Coaching"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/nxtdtvlpabe2y4200t58.jpg"
-  bio: "I am a technical interview coach and CS graduate student who loves to create through code and support women in their tech careers! After completing 40+ technical interviews during my undergraduate career and working with women at my college doing the same, I started TechUp Coaching to help more women confidently approach their technical interviews. Outside of coaching, I am also a graduate student whose research combines HCI, CS education and CS ethics to improve fairness and equity within technology!"
+  bio: "Beleicia Bullock is a technical interview coach and CS graduate student who loves to create through code and support women in their tech careers! After completing 40+ technical interviews during her undergraduate career and working with women at her college doing the same, Beleicia started TechUp Coaching to help more women confidently approach their technical interviews. Outside of coaching, she is also a graduate student whose research combines HCI, CS education and CS ethics to improve fairness and equity within technology!"
   dev_username: ""
   twitter_handle: ""
   talk_title: "#YourTechStory: How to Showcase Your Story and Skills During Technical Interviews"
@@ -150,7 +150,7 @@ speakers:
   job_title: "Front-End Web Developer"
   company: 
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/q6k3hrpxz6e5s85u9ndz.jpg"
-  bio: "I'm Alex - a California native lost in France who fell in love with coding as a hobby while working in customer support. At the end of last year, I left said customer support job to pursue programming on a full-time basis. When I’m not coding, I love reading as much as possible and hanging out with my dachshund, Nelson."
+  bio: "Alex Morton is a California native lost in France who fell in love with coding as a hobby while working in customer support. At the end of last year, Alex left said customer support job to pursue programming on a full-time basis. When she's not coding, she loves reading as much as possible and hanging out with her dachshund, Nelson."
   dev_username: "alexlsalt"
   twitter_handle: "alexlsaltt"
   talk_title: "Being Utterly Fearless in Your Pursuit of Learning to Code"
@@ -176,7 +176,7 @@ speakers:
   job_title: "Product Lead & Technical Documentation Developer"
   company: "VMWare"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/xnsr06nu5rogskfofvo9.jpeg"
-  bio: ""
+  bio: "Miranda Limonczenko is a Senior Technical Writer at VMware, a front-end developer, and a user experience advocate. Miranda chronicles her coding journey at BooksonCode.com."
   dev_username: ""
   twitter_handle: "Grace_Fulfilled"
   talk_title: "Accessibility Matters: How to Build Apps for EVERYONE"
@@ -189,7 +189,7 @@ speakers:
   job_title: "Senior Software Engineer"
   company: "GitHub"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/2l0mt7asph3at88w01rs.jpg"
-  bio: "Denise is a Senior Software Engineer at GitHub, currently working on a team called Community & Safety which uses a combination of policy, design, and engineering to make the platform the safest place possible for healthy, engaged communities to grow. She career-switched in 2014–after completing a Masters in Social Policy–into software engineering, after attending a bootcamp in London, UK, and hasn't looked back. She speaks frequently at international conferences about software design, distributed computing, site reliability engineering, and lots more topics, but her strongest passion is making the tech industry more accessible to other people with non-linear backgrounds. In her spare time, she runs events and creates art that uses doodles to explain technical concepts: deniseyu.io/art."
+  bio: "Denise Yu is a Senior Software Engineer at GitHub, currently working on a team called Community & Safety which uses a combination of policy, design, and engineering to make the platform the safest place possible for healthy, engaged communities to grow. She career-switched in 2014–after completing a Masters in Social Policy–into software engineering, after attending a bootcamp in London, UK, and hasn't looked back. She speaks frequently at international conferences about software design, distributed computing, site reliability engineering, and lots more topics, but her strongest passion is making the tech industry more accessible to other people with non-linear backgrounds. In her spare time, she runs events and creates art that uses doodles to explain technical concepts: deniseyu.io/art."
   dev_username: ""
   twitter_handle: "deniseyu21"
   talk_title: "Telling Stories with Doodles"
@@ -202,7 +202,7 @@ speakers:
   job_title: "Software Engineer"
   company: "untapt"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/dnqd71k6bjer2ygmgo3e.jpeg"
-  bio: "Nick is a former Actor/Director turned coder who has been working as a software engineer for 4 years. With particular interest in DevOps tools and Automation, he has worked in large corporations and small startups alike, and maintains open source projects and teaches coding in his spare time."
+  bio: "Nick Palenchar is a former Actor/Director turned coder who has been working as a software engineer for 4 years. With particular interest in DevOps tools and Automation, he has worked in large corporations and small startups alike, and maintains open source projects and teaches coding in his spare time."
   dev_username: "nickpalenchar"
   twitter_handle: "palencharizard"
   talk_title: "The Whale, the Container, and the Ocean - A Docker Tale"
@@ -222,19 +222,6 @@ speakers:
   talk_title: "Presentation Skills for Brainiacs"
   talk_abstract:
 
-- full_name: "Charity Majors"
-  order: 
-  day: 1
-  talk_type: "talk"
-  job_title: "Co-founder & CTO"
-  company: "Honeycomb.io"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/238yzdicsrwc6960x0m4.png"
-  bio: "Charity is the Cofounder and CTO at honeycomb.io, building observability tooling for the next generation of software developers (try our new free tier!), formerly of Facebook, Parse, Linden Lab. She’s the Co-author of Databases Reliability Engineering and loves free software, free speech and free single malts."
-  dev_username: "mipsytipsy"
-  twitter_handle: "mipsytipsy"
-  talk_title: "Hello from the Future"
-  talk_abstract:
-
 - full_name: "Rukia Sheikh-Mohamed"
   order:
   day: 1
@@ -242,7 +229,7 @@ speakers:
   job_title: "Software Engineer"
   company: "Soona"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/yjcafvdxdmthekd8vnys.jpg"
-  bio: "I am a software engineer based in the Twin Cities, MN who is passionate about all things tech. During my day job I work as full-stack dev at Soona. I enjoy talking about tech at local and national events/conferences, creating cool stuff on the side, and writing tech articles to share useful information and tips. During my free time I enjoy spending time with my baby boy, traveling the world, and creating fun DIYs."
+  bio: "Rukia Sheikh-Mohamed is a software engineer based in the Twin Cities, MN who is passionate about all things tech. During her day job she works as full-stack dev at Soona. She enjoys talking about tech at local and national events/conferences, creating cool stuff on the side, and writing tech articles to share useful information and tips. During her free time Rukia enjoys spending time with her baby boy, traveling the world, and creating fun DIYs."
   dev_username: "@rukiaasm"
   twitter_handle: "@rukiaasm"
   talk_title: "Working Smarter: 5 Steps to Crafting the Right Questions When You're Stuck"
@@ -255,7 +242,7 @@ speakers:
   job_title: "Senior Technical Writer"
   company: "DigitalOcean"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/l9gvd4uqs5alodwh7pho.jpg"
-  bio: "Erika is a DevOps Software Engineer turned writer, passionate about community, open source, and building things. She works as senior technical writer at DigitalOcean."
+  bio: "Erika Heidi is a DevOps Software Engineer turned writer, passionate about community, open source, and building things. She works as senior technical writer at DigitalOcean."
   dev_username: "erikaheidi"
   twitter_handle: "erikaheidi"
   talk_title: "The Art of Programming"
@@ -268,7 +255,7 @@ speakers:
   job_title: "Research Engineer"
   company: "Saama Technologies"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/kit6zr3hol7f4si2yvvr.jpg"
-  bio: "Research Engineer backend systems at Saama Technologies. Read, writes, teaches technology."
+  bio: "Bhavani Ravi is a Research Engineer working on back-end systems at Saama Technologies and an open source contributor with Pandas and Rasa. She reads, writes, and teaches all things technology. In addition, Bhavani leads Women TechMakers Chennai – a diverse community that encourages women in tech to share ideas, knowledge and passion of the role women in technology plays through the means of talks and collaborative workshops."
   dev_username: "bhavaniravi"
   twitter_handle: "@geeky_bhavani"
   talk_title: "Build2Learn Chatbots"
@@ -281,7 +268,7 @@ speakers:
   job_title: "Engineering Manager"
   company: "Braintree"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/dh8fl2qw4hb9jer5ale7.jpg"
-  bio: "Kevin has been an NES fan since he first played &quotSuper Mario Bros.&quot in 1989. He learned to program out of a love of video games, and ended up with a career as a front-end developer turned engineering manager. He has previously spoken on computing history and game development topics at conferences like Abstractions, Node.js Interactive, ForwardJS, and Strange Loop."
+  bio: "Kevin Zurawel has been an NES fan since he first played &quotSuper Mario Bros.&quot in 1989. He learned to program out of a love of video games, and ended up with a career as a front-end developer turned engineering manager. He has previously spoken on computing history and game development topics at conferences like Abstractions, Node.js Interactive, ForwardJS, and Strange Loop."
   dev_username:
   twitter_handle:
   talk_title: "Making NES Games in Assembly"
@@ -307,7 +294,7 @@ speakers:
   job_title: "Software Engineer"
   company: "Tarides"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/pp5e8z4zfq0ezop5z11r.jpg"
-  bio: "Gargi is a software engineer who contributes to OCaml open source at Tarides. Previously Gargi has worked at Bloomberg, Uber and eBay. Gargi also attended the Recurse Center."
+  bio: "Gargi Sharma is a software engineer who contributes to OCaml open source at Tarides. Previously Gargi has worked at Bloomberg, Uber and eBay. Gargi also attended the Recurse Center."
   dev_username: ""
   twitter_handle: ""
   talk_title: "Printing Floating Point Numbers is Surprisingly Hard!!"
@@ -333,7 +320,7 @@ speakers:
   job_title: "Developer Advocate"
   company: "Snyk"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/hprj7ail8dkgl6b4ymr0.jpeg"
-  bio: "Developer Advocate for Snyk and Software Engineer with over 10 years of hands-on experience in creating and maintaining software. He is passionate about Java, (Pure) Functional Programming and Cybersecurity. Brian is an Oracle Groundbreaker Ambassador, Utrecht JUG Co-lead, Virtual JUG organizer and Co-lead at MyDevSecOps. He is a regular international speaker on mostly Java-related conferences like JavaOne, Oracle Code One, Devoxx BE, Devoxx UK, Jfokus, JavaZone and many more. Besides all that Brian is a military reserve for the Royal Netherlands Air Force and a Taekwondo Master / Teacher."
+  bio: "Brian Vermeer is a Developer Advocate for Snyk and Software Engineer with over 10 years of hands-on experience in creating and maintaining software. He is passionate about Java, (Pure) Functional Programming and Cybersecurity. Brian is an Oracle Groundbreaker Ambassador, Utrecht JUG Co-lead, Virtual JUG organizer and Co-lead at MyDevSecOps. He is a regular international speaker on mostly Java-related conferences like JavaOne, Oracle Code One, Devoxx BE, Devoxx UK, Jfokus, JavaZone and many more. Besides all that Brian is a military reserve for the Royal Netherlands Air Force and a Taekwondo Master / Teacher."
   dev_username: "brianverm"
   twitter_handle: "@brianverm"
   talk_title: "Live Exploiting Your Open Source Dependencies"
@@ -346,7 +333,7 @@ speakers:
   job_title: "Full Stack Web Developer"
   company: "Falcon Agency"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/b8vgpg8l4y0o43p2qyha.jpg"
-  bio: "I am a multidisciplinary web developer having over a 12 years of experience in Full Stack Development and self taught front end developer. I am passionate about modern technologies, performance, accessibility and writing things down.  Currently I am working as a Front end developer remotely for a Singapore based Digital Agency. My primary duties are coding small to large scale websites, emails (email marketing), providing best fit technical solution in collaboration with account executives. My technical skills include JavaScript, Reactjs, Express, Nodejs, PHP, Mysql, MongoDB, Wordpress, Laravel, REST API, GraphQL, Gatsby, Nextjs, Server Handling AWS, Gulp, Webpack, Composer. In my daily chores, body workout, running or cycling is integral part."
+  bio: "Navdeep Singh is a multidisciplinary web developer with over 12 years of experience in Full Stack Development and is a self-taught front end developer. He is passionate about modern technologies, performance, accessibility and writing things down.  Currently, he is working remotely as a Front End developer for a Singapore based Digital Agency. Running or cycling is an integral part of his daily life."
   dev_username:
   twitter_handle:
   talk_title: "Intro to Web Accessibility"
@@ -359,7 +346,7 @@ speakers:
   job_title: "UI Dev Team Lead"
   company: "Visa"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/7h6msx3mkouzfdmrfjkj.png"
-  bio: "Alvaro was born in Spain, where he grew up, studied, and worked as a Back-End Developer while completing a CS degree. He had the opportunity to visit the United States and work at start-ups and Fortune 100 companies, where he discovered a passion for web technologies. Then Alvaro started moving away from the back-end, and focusing mainly on the front-end, and is now a UI dev team lead at Visa in Austin, TX."
+  bio: "Alvaro Montoro was born in Spain, where he grew up, studied, and worked as a Back-End Developer while completing a CS degree. He had the opportunity to visit the United States and work at start-ups and Fortune 100 companies, where he discovered a passion for web technologies. Then Alvaro started moving away from the back-end, and focusing mainly on the front-end, and is now a UI dev team lead at Visa in Austin, TX."
   dev_username:
   twitter_handle:
   talk_title: "Rocking the Gamepad API"
@@ -372,7 +359,7 @@ speakers:
   job_title: "Director of Engineering"
   company: "DoSomething.org"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/7t5dq95w4jwnh1cwlr49.png"
-  bio: "Mai is the Director of Engineering at DoSomething.org, a youth-led movement with 1M+ members who utilize the unique digital platform to join volunteer, social change, and civic action campaigns that make an offline impact. Mai is a mid-career switcher, originally working in graphic design. As her career progressed, she understood the creativity she craved was not in graphics but in software development :) Her work experience includes roles at universities, web agencies, and her current position at the non-profit."
+  bio: "Mai Irie is the Director of Engineering at DoSomething.org, a youth-led movement with 1M+ members who utilize the unique digital platform to join volunteer, social change, and civic action campaigns that make an offline impact. Mai is a mid-career switcher, originally working in graphic design. As her career progressed, she understood the creativity she craved was not in graphics but in software development :) Her work experience includes roles at universities, web agencies, and her current position at the non-profit."
   dev_username: "mirie"
   twitter_handle: ""
   talk_title: "Balancing Technical Debt While Changing Society for the Better"
@@ -385,7 +372,7 @@ speakers:
   job_title: "Senior Web Engineer"
   company: "Bloomberg L.P."
   image_url: https://dev-to-uploads.s3.amazonaws.com/i/71q7lidxayl4236xuudc.jpg
-  bio: "Senior web engineer with 14+ years of experience in web and application development. Skilled in dissecting an issue to find creative solutions. Extensive background in programming, building numerous applications from the ground up. Focused on designing tools that will enhance the user experience and work toward a company’s vision."
+  bio: "Erick Ruiz de Chavez is a Senior Web Engineer with 14+ years of experience in web and application development. Skilled in dissecting an issue to find creative solutions. Extensive background in programming, building numerous applications from the ground up. Focused on designing tools that will enhance the user experience and work toward a company’s vision."
   dev_username:
   twitter_handle:
   talk_title: "Let's Git Together!"
@@ -411,7 +398,7 @@ speakers:
   job_title: "Software Engineer"
   company: "Microsoft"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/fak8k4o3mvbwd3ypzcva.jpg"
-  bio: "I'm an open source maintainer on the nteract project, a writer, and a software engineer at Microsoft working open source web technologies. I'm passionate about bringing people together to build great things and using storytelling to share knowledge."
+  bio: "Safia Abdalla is an open source maintainer on the nteract project, a writer, and a software engineer at Microsoft working open source web technologies. She's passionate about bringing people together to build great things and using storytelling to share knowledge."
   dev_username: "captainsafia"
   twitter_handle: "captainsafia"
   talk_title: "You and Me Learn All About HTTP"
@@ -424,7 +411,7 @@ speakers:
   job_title: "Founder"
   company: "CodeNewbie"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/0n9iqmvk7p5w0i84uys1.jpg"
-  bio:
+  bio: "Saron Yitbarek is an entrepreneur and founder of CodeNewbie, now owned by DEV. She's also a developer, speaker, and podcaster."
   dev_username: "saronyitbarek"
   twitter_handle: "saronyitbarek"
   talk_title: "Opening Keynote"
@@ -436,7 +423,7 @@ speakers:
   job_title: Software Engineer
   company: Etsy
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/779hj80gkeehz8ts6m7n.jpg"
-  bio: "Hello. I'm a New York based Software Engineer and I work at Etsy. I love learning new things, and have had the chance to work on the front end, back end and recently made the transition to data engineering!"
+  bio: "Kanya Shethia is a New York based Software Engineer and works at Etsy. She loves learning new things, and has had the chance to work on the frontend, backend, and recently made the transition to data engineering!"
   dev_username: "shethiakamya"
   twitter_handle: "@shethiakamya"
   talk_title: "SQL for the Potterhead"
