@@ -5,40 +5,8 @@
 }
 
 .section-card.distributed-program {
-  &:before {
     background: #323DA3;
-    transform: rotate(-3deg);
-    right: -100px;
-    top: -50px;
-  }
-}
-
-.section-container.speaker-overviews {
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  @media only screen and (max-width: 500px) {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) 
-  }
-}
-
-.speaker-item {
-  padding:1%;
-  display: grid;
-  grid-template-columns: 20% auto;
-  align-items: center;
-  margin: 3%;
-}
-
-.speaker-item--profile { 
-  img {
-    max-width: 85%;
-    max-height: auto;
-    border: #ffffff solid 2px;
-    border-radius: 50%;
-    margin: 1%;
-  }
+    top: -100px;
 }
 
 .flare {
@@ -48,62 +16,50 @@
   font-size: .8em;
 }
 
-.talk-title {
-  font-size: 100%;
-  font-weight: 600;
-  margin-bottom: 3%;
+.section-card.distributed-program img {
+  max-width: 100%;
+  max-height: auto;
+  border: #ffffff solid 2px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  @media screen and (max-width: 1200px) {
+    max-width: 50%;
+  }
 }
 
-.speaker-title {
-  font-size: 100%;
-}
-
-.mask {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: fixed;
-  z-index: 100;
-  background-color: #323DA3;
-  display:none;
-  opacity: .8;
-}
-
-.speaker-item--details {
-  padding:5%;
+.speaker-item {
+  display: grid;
+  grid-template-columns: 20% auto;
   align-items: center;
-  color: #323DA3;
-  margin: 10% auto;
-  z-index: 200;
-  max-width: 75%;
-  border: 1px #000000 solid;
-  background-color: #ffffff;
-  display: none;
-}
-
-.speaker-item--details {
-  img {
-    max-width: 25%;
-    border-radius: 50%;
-    border: 2px #323DA3 solid;
-    display: block;
-    margin: 4% auto;
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    text-align: justify;
   }
 }
 
-.speaker-item--details {
-  .speaker-title {
-  text-align: center;
-  margin: 2% 0;
+.speaker-item--info {
+  padding: 5%;
+}
+
+.talk-title {
+  font-size: 1.5em;
+  font-weight: 900;
+  margin-bottom: 1%;
+  @media screen and (max-width: 375px) {
+    font-size: 1em;
   }
 }
 
-.close {
-  position: absolute;
-  top: 16%;
-  left: 83%;
-  color: #323DA3;
-  border: 1px #323DA3 solid;
-  z-index: 10000;
+.speaker-bio {
+  font-size: 1.3em;
+  @media screen and (max-width: 375px) {
+    font-size: .75em;
+  }
+}
+
+.section-container.speaker-overviews {
+  margin: 0 auto;
+  padding: 8%;
 }

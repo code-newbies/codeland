@@ -13,19 +13,6 @@ speakers:
   twitter_handle: "shanselman"
   talk_title: "The Art of Computers"
 
-- full_name: "Paula de la Hoz"
-  order:
-  day: 1
-  talk_type: "talk"
-  job_title: "Redteam"
-  company: "Telefonica"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/iivr3e399ncqrqke6nkb.jpg"
-  bio: "Paula de la Hoz is 24 years old, working in Redteam at Telefonica, based in Madrid. Coding since age 15, her favorite languages are Python, C, and Bash. She loves hardware hacking, building electronics for security, and enjoys teaching and mentoring in her spare time."
-  dev_username: "terceranexus6"
-  twitter_handle: "terceranexus6"
-  talk_title: "Freedom of Security"
-  talk_abstract:
-
 - full_name: "Nočnica Fee"
   order:
   day: 2
@@ -37,6 +24,19 @@ speakers:
   dev_username: ""
   twitter_handle: ""
   talk_title: "Your First Hardware Hack: Making a Toy Think"
+  talk_abstract:
+
+- full_name: "Beleicia Bullock"
+  order: 
+  day: 2
+  talk_type: "workshop"
+  job_title: "Founder & Technical Interview Coach"
+  company: "TechUp Coaching"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/nxtdtvlpabe2y4200t58.jpg"
+  bio: "Beleicia Bullock is a technical interview coach and CS graduate student who loves to create through code and support women in their tech careers! After completing 40+ technical interviews during her undergraduate career and working with women at her college doing the same, Beleicia started TechUp Coaching to help more women confidently approach their technical interviews. Outside of coaching, she is also a graduate student whose research combines HCI, CS education and CS ethics to improve fairness and equity within technology!"
+  dev_username: ""
+  twitter_handle: ""
+  talk_title: "#YourTechStory: How to Showcase Your Story and Skills During Technical Interviews"
   talk_abstract:
 
 - full_name: "Vaidehi Joshi"
@@ -91,6 +91,19 @@ speakers:
   talk_title: "Gatsby 101: Build a Personal Website"
   talk_abstract:
 
+- full_name: "Paula de la Hoz"
+  order:
+  day: 1
+  talk_type: "talk"
+  job_title: "Redteam"
+  company: "Telefonica"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/iivr3e399ncqrqke6nkb.jpg"
+  bio: "Paula de la Hoz is 24 years old, working in Redteam at Telefonica, based in Madrid. Coding since age 15, her favorite languages are Python, C, and Bash. She loves hardware hacking, building electronics for security, and enjoys teaching and mentoring in her spare time."
+  dev_username: "terceranexus6"
+  twitter_handle: "terceranexus6"
+  talk_title: "Freedom of Security"
+  talk_abstract:
+
 - full_name: "Joe Karlsson"
   order:
   day: 1
@@ -115,19 +128,6 @@ speakers:
   dev_username: ""
   twitter_handle: ""
   talk_title: "Seeing Sound - Understanding the Physics of music using visualizations"
-  talk_abstract:
-
-- full_name: "Beleicia Bullock"
-  order: 
-  day: 2
-  talk_type: "workshop"
-  job_title: "Founder & Technical Interview Coach"
-  company: "TechUp Coaching"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/nxtdtvlpabe2y4200t58.jpg"
-  bio: "Beleicia Bullock is a technical interview coach and CS graduate student who loves to create through code and support women in their tech careers! After completing 40+ technical interviews during her undergraduate career and working with women at her college doing the same, Beleicia started TechUp Coaching to help more women confidently approach their technical interviews. Outside of coaching, she is also a graduate student whose research combines HCI, CS education and CS ethics to improve fairness and equity within technology!"
-  dev_username: ""
-  twitter_handle: ""
-  talk_title: "#YourTechStory: How to Showcase Your Story and Skills During Technical Interviews"
   talk_abstract:
 
 - full_name: "Eyal Yavor"
@@ -287,19 +287,6 @@ speakers:
   talk_title: "Practical Web Animation"
   talk_abstract:
 
-- full_name: "Gargi Sharma"
-  order:
-  day: 1
-  talk_type: "talk"
-  job_title: "Software Engineer"
-  company: "Tarides"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/pp5e8z4zfq0ezop5z11r.jpg"
-  bio: "Gargi Sharma is a software engineer who contributes to OCaml open source at Tarides. Previously Gargi has worked at Bloomberg, Uber and eBay. Gargi also attended the Recurse Center."
-  dev_username: ""
-  twitter_handle: ""
-  talk_title: "Printing Floating Point Numbers is Surprisingly Hard!!"
-  talk_abstract:
-
 - full_name: "Colin Dean"
   order:
   day: 2
@@ -311,6 +298,19 @@ speakers:
   dev_username:
   twitter_handle:
   talk_title: "Command-line Finances using the Plain Text Accounting Ecosystem"
+  talk_abstract:
+
+- full_name: "Gargi Sharma"
+  order:
+  day: 1
+  talk_type: "talk"
+  job_title: "Software Engineer"
+  company: "Tarides"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/pp5e8z4zfq0ezop5z11r.jpg"
+  bio: "Gargi Sharma is a software engineer who contributes to OCaml open source at Tarides. Previously Gargi has worked at Bloomberg, Uber and eBay. Gargi also attended the Recurse Center."
+  dev_username: ""
+  twitter_handle: ""
+  talk_title: "Printing Floating Point Numbers is Surprisingly Hard!!"
   talk_abstract:
 
 - full_name: "Brian Vermeer"
@@ -404,18 +404,6 @@ speakers:
   talk_title: "You and Me Learn All About HTTP"
   talk_abstract:
 
-- full_name: "Saron Yitbarek"
-  order:
-  day: 1
-  talk_type: "keynote"
-  job_title: "Founder"
-  company: "CodeNewbie"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/0n9iqmvk7p5w0i84uys1.jpg"
-  bio: "Saron Yitbarek is an entrepreneur and founder of CodeNewbie, now owned by DEV. She's also a developer, speaker, and podcaster."
-  dev_username: "saronyitbarek"
-  twitter_handle: "saronyitbarek"
-  talk_title: "Opening Keynote"
-
 - full_name: "Kamya Shethia"
   order: 
   day: 2
@@ -441,3 +429,15 @@ speakers:
   twitter_handle: ""
   talk_title: "Reading the Repo: Understanding Communication Patterns to Improve Collaboration"
   talk_abstract: ""
+
+- full_name: "Saron Yitbarek"
+  order:
+  day: 1
+  talk_type: "keynote"
+  job_title: "Founder"
+  company: "CodeNewbie"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/0n9iqmvk7p5w0i84uys1.jpg"
+  bio: "Saron Yitbarek is an entrepreneur and founder of CodeNewbie, now owned by DEV. She's also a developer, speaker, and podcaster."
+  dev_username: "saronyitbarek"
+  twitter_handle: "saronyitbarek"
+  talk_title: "Opening Keynote"

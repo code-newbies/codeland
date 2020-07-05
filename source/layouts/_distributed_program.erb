@@ -21,16 +21,10 @@
               <span class="flare" style="background-color: #DFD4FC">workshop</span>
             <% end %>
           </div>
-          <div class="speaker-title"><strong><%= speaker.full_name %></strong>, <%= speaker.job_title %> <% if speaker.company %> at <%= speaker.company %> <% end %></div>
+          <div class="speaker-bio"><%= speaker.bio %></div>
         </div>
-      </div>
-      <div class="speaker-item--details">
-        <img src="<%= speaker.image_url %>">
-        <div class="speaker-title"><strong><%= speaker.full_name %></strong>, <%= speaker.job_title %> at <%= speaker.company %></div>
-        <%= speaker.bio %>
       </div>
     <% end %>
     </div>
-    <h3 style="text-align: center; margin-top: 2%;">...more speakers coming soon!</h3>
   </section>
 </section>
