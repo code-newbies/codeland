@@ -219,3 +219,16 @@ speakers:
   dev_username: "saronyitbarek"
   twitter_handle: "saronyitbarek"
   talk_title: "Opening Keynote"
+
+- full_name: "Naomi Meyer"
+  order:
+  day: 1
+  talk_type: "talk"
+  job_title: "Software Development Engineer"
+  company: "Adobe"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/nadlybpq2w8ywozl0a3g.png"
+  bio: "Naomi is a Software Development Engineer at Adobe on the Globalization, Core Services team where she works on the internationalization and localization of Creative Cloud products. Before coding full time, Naomi worked as a teacher across Asia and West Africa. She enjoys weekends outside - hiking, camping, and riding bikes."
+  dev_username:
+  twitter_handle:
+  talk_title: "Emoji Encoding, Unicode,  and Internationalization (I18N)"
+  talk_abstract:
