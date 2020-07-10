@@ -39,6 +39,18 @@ speakers:
   talk_title: "Machine Learning on the Edge"
   talk_abstract:
 
+- full_name: "Ben Halpern"
+  order:
+  day: 2
+  talk_type: "talk"
+  job_title: "Co-Founder"
+  company: "Forem"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/1/f451a206-11c8-4e3d-8936-143d0a7e65bb.png"
+  bio: "Ben is a co-founder of Forem, the open source social network platform designed for empowering community. He is from Halifax, Nova Scotia and has a focus primarily in web development."
+  dev_username: "ben"
+  twitter_handle: "bendhalpern"
+  talk_title: "What Makes Forem Special"
+
 - full_name: "Paula de la Hoz"
   order:
   day: 1
