@@ -12,7 +12,8 @@ speakers:
   dev_username: ""
   twitter_handle: ""
   talk_title: "Reading the Repo: Understanding Communication Patterns to Improve Collaboration"
-  talk_abstract: ""
+  talk_abstract: "This workshop will cover tried-and-true communication patterns and techniques to help you connect more deeply and empathetically. We'll work on identifying our own communication patterns, learn to identify communication patterns in others, and practice adaptations as needed in order to have better conversational outcomes. Come prepared to talk, listen, and connect!"
+  requirements:
 
 - full_name: "Kamya Shethia"
   order: 
@@ -38,7 +39,7 @@ speakers:
   dev_username:
   twitter_handle:
   talk_title: "Your First Open Source Contribution"
-  talk_abstract:
+  talk_abstract: "While most developers use open source libraries in their day-to-day work, many don’t feel comfortable contributing to open source projects. The goal of this workshop is to change that mindset. In this workshop, attendees will learn the best practices around participating in open source communities and ultimately write their first open source code."
 
 - full_name: "Ben Halpern"
   order:
@@ -51,6 +52,7 @@ speakers:
   dev_username: "ben"
   twitter_handle: "bendhalpern"
   talk_title: "Your First Forem Pull Request"
+  talk_abstract: "Walking through the process of contributing to the forem open source project (the underlying platform that powers DEV). This workshop will be beginner-friendly but also valuable for developers of all levels who are curious to learn more about the process of getting involved with the project."
 
 - full_name: "Erick Ruiz de Chavez"
   order:
@@ -63,7 +65,8 @@ speakers:
   dev_username:
   twitter_handle:
   talk_title: "Let's Git Together!"
-  talk_abstract:
+  talk_abstract: |
+    Does “styles_copy_of_final_version_the_good_one_2.css” sounds familiar? Do you need a better way to save, track, and probably event restore your progress? Did you just join a team and have no idea what the difference is between commit, push, and fetch? Do you want to know what the heck reabase means and why it is so loved/hated? If you answered yes to any of these questions, you are in the right place!
 
 - full_name: "Eyal Yavor"
   order: 
@@ -76,7 +79,20 @@ speakers:
   dev_username: "yulkes"
   twitter_handle: "yulkes"
   talk_title: "Nailing the Home Assignment - Level Up When You Don't Have the XP"
-  talk_abstract:
+  talk_abstract: |
+    Home assignments are here to stay as they offer less biased views and are more focused on the quality of your work.
+    
+    Unfortunately, if you’re a Junior Developer, the quality of work is usually what stands out. Your projects won’t look like a professional reviewer is used to: They may be messy, half-working, or lacking documentation and instructions.
+
+    Workshop participants will learn an organized system for working on a small project while presenting best-practices. That means passing more interview steps, more options to choose from, and more bargaining power for your next job.
+  requirements: |
+    Bring your own laptop and development environment. There will be some coding involved, make sure you’re all set-up, because we wouldn’t want to lose any time over it.
+
+    This workshop is backend oriented, but language agnostic - You can use Python, NodeJS, Java - Whatever you’re comfortable with. This is not the time to experiment with new languages. The code won’t be the issue here.
+    
+    How proficient should you be? If you can write and understand what’s going on in a small web-server tutorial (i.e. Flask for Python, builtin HTTP for Node, Spring Bootstrap for Java).
+    
+    Install Docker and make sure it’s running.
 
 - full_name: "Navdeep Singh"
   order:
@@ -89,7 +105,8 @@ speakers:
   dev_username:
   twitter_handle:
   talk_title: "Intro to Web Accessibility"
-  talk_abstract:
+  talk_abstract: |
+    This workshop will cover the techniques to make your app accessible from day one. You'll walk away understanding accessibility guidelines, tools, and testing. 
 
 - full_name: "Alvaro Montoro"
   order:
@@ -102,7 +119,12 @@ speakers:
   dev_username:
   twitter_handle:
   talk_title: "Rocking the Gamepad API"
-  talk_abstract:
+  talk_abstract: |
+    The web standard includes many APIs for an increasing range of tasks: controlling bluetooth, managing files, handling the clipboard… Some of them are more “serious,” and some of them are more “fun.” The Gamepad API falls in this last category. 
+
+    It opens a world of possibilities for gaming by providing a different way to play games on the browser and by giving control to the users and creators. And its potential goes beyond gaming: adapted controllers could be used by people with disabilities, widening the possibilities and improving their access not only to games but to the Internet in general.
+
+    In this workshop we will introduce the Gamepad API, explore how it works, and use it to build a game with HTML and JavaScript that can be played on the browser with a connected game controller.
 
 - full_name: "Denise Yu"
   order: 
@@ -111,11 +133,13 @@ speakers:
   job_title: "Senior Software Engineer"
   company: "GitHub"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/2l0mt7asph3at88w01rs.jpg"
-  bio: "Denise Yu is a Senior Software Engineer at GitHub, currently working on a team called Community & Safety which uses a combination of policy, design, and engineering to make the platform the safest place possible for healthy, engaged communities to grow. She career-switched in 2014–after completing a Masters in Social Policy–into software engineering, after attending a bootcamp in London, UK, and hasn't looked back. She speaks frequently at international conferences about software design, distributed computing, site reliability engineering, and lots more topics, but her strongest passion is making the tech industry more accessible to other people with non-linear backgrounds. In her spare time, she runs events and creates art that uses doodles to explain technical concepts: deniseyu.io/art."
+  bio: "Denise Yu is a Senior Software Engineer at GitHub, currently working on a team called Community & Safety which uses a combination of policy, design, and engineering to make the platform the safest place possible for healthy, engaged communities to grow. She career-switched in 2014–after completing a Masters in Social Policy–into software engineering, after attending a bootcamp in London, UK, and hasn't looked back. She speaks frequently at international conferences about software design, distributed computing, site reliability engineering, and lots more topics, but her strongest passion is making the tech industry more accessible to other people with non-linear backgrounds. In her spare time, she runs events and creates art that uses doodles to explain technical concepts: https://deniseyu.io/art."
   dev_username: ""
   twitter_handle: "deniseyu21"
   talk_title: "Telling Stories with Doodles"
-  talk_abstract:
+  talk_abstract: |
+    Visualizing technical concepts is a fantastic skill for technologists of all experience levels to learn. Research indicates that visualization helps with information retention, and it's also a great way to share knowledge with others, in a fun, accessible, conversation-starting way. In this workshop, open to all (no previous drawing experience required!) Denise will take you through the basics of tech-doodling. We'll load a few handy devices into our toolbox for depicting characters and emotions, learn how to create visual metaphors, and start telling stories about our craft. 
+  requirements: "All you need is plain pen and paper. (You can also follow along on a tablet or iPad, but I won't be stopping to debug app- or device-specific problems.)"
 
 - full_name: "Nočnica Fee"
   order:
@@ -128,7 +152,8 @@ speakers:
   dev_username: ""
   twitter_handle: ""
   talk_title: "Your First Hardware Hack: Making a Toy Think"
-  talk_abstract:
+  talk_abstract: "If you’ve always wanted to make a first arduino project this is the workshop for you. Nočnica will show you how to run your first arduino program, and how to connect it to a simple toy to make it “smart”."
+  requirements: "No soldering or equipment required, we’ll Use a virtual arruino from TinkerCAD!"
 
 - full_name: "Wesley Faulkner"
   order: 
@@ -141,7 +166,8 @@ speakers:
   dev_username: ""
   twitter_handle: "wesley83"
   talk_title: "How to Get Through the Awkwardness of Networking"
-  talk_abstract:
+  talk_abstract: |
+    Have you ever gone to an event and find yourself suddenly in a sea of people with not a familiar face in sight? In this workshop, you'll gain some tools and habits to make those situations less awkward. You'll learn how to read a room, start a conversation, and be more interesting. There won't be any quick fixes or gimmicks to becoming a better networker, just practical steps that will take minutes to learn, but a lifetime to master.
 
 - full_name: "Beleicia Bullock"
   order: 
@@ -150,11 +176,14 @@ speakers:
   job_title: "Founder & Technical Interview Coach"
   company: "TechUp Coaching"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/nxtdtvlpabe2y4200t58.jpg"
-  bio: "Beleicia Bullock is a technical interview coach and CS graduate student who loves to create through code and support women in their tech careers! After completing 40+ technical interviews during her undergraduate career and working with women at her college doing the same, Beleicia started TechUp Coaching to help more women confidently approach their technical interviews. Outside of coaching, she is also a graduate student whose research combines HCI, CS education and CS ethics to improve fairness and equity within technology!"
+  bio: Beleicia Bullock is a technical interview coach and CS graduate student who loves to create through code and support women in their tech careers! After completing 40+ technical interviews during her undergraduate career and working with women at her college doing the same, Beleicia started TechUp Coaching to help more women confidently approach their technical interviews. Outside of coaching, she is also a graduate student whose research combines HCI, CS education and CS ethics to improve fairness and equity within technology!"
   dev_username: ""
   twitter_handle: ""
   talk_title: "#YourTechStory: How to Showcase Your Story and Skills During Technical Interviews"
-  talk_abstract:
+  talk_abstract: |
+    The most common myth about technical interviews is that they only focus on your coding ability! In reality, technical interviews are about showing how your story and professional experiences will add value to a potential company, team and/or role. Translation: you need to highlight both your technical and soft skills to stand out from the pack!
+    
+    In this workshop, you will craft your story by 1) identifying the key skills recruiters are looking for at each stage of the interview process, 2) creating a memorable 30-second elevator pitch, 3) developing examples that show (and not just tell) the value you can add beyond your resume and 4) learning a framework that highlights your thought process during coding questions! Get ready to define and share #YourTechStory.
 
 - full_name:  "Aisha Blake"
   order:
@@ -167,7 +196,20 @@ speakers:
   dev_username: "aishablake"
   twitter_handle: "AishaBlake"
   talk_title: "Gatsby 101: Build a Personal Website"
-  talk_abstract:
+  talk_abstract: "In this workshop, we’ll cover the basics of how to build fast, accessible sites with Gatsby. You’ll learn the ins and outs of creating Gatsby sites, from selecting a starter or theme, using GraphQL to generate data, deploying your site, and more!!"
+  talk_details: |
+    You’ll learn:
+      
+    - How to set up a basic Gatsby site
+    - When to use a plugin vs starter vs theme
+    - How to use GraphQL to generate a data layer available to your site’s components
+    - How to import components in Markdown with MDX
+    - How CSS and nested layouts work in Gatsby
+    - How to deploy your site
+  requirements: |
+    Some knowledge of HTML, CSS and JavaScript syntax as well as some experience with Git will be helpful. Please complete Part 0 of the official Gatsby tutorial to get your development environment ready to go ahead of time!
+
+    What hardware/software do you need? Bring a Mac or Windows computer with a text editor, Node, and Git installed. We’ll provide a repository you can use to practice and follow along. Otherwise, you can start something from scratch.
 
 - full_name: "Laura Foley"
   order:
@@ -180,7 +222,12 @@ speakers:
   dev_username: ""
   twitter_handle: "@LMFDesign"
   talk_title: "Presentation Skills for Brainiacs"
-  talk_abstract:
+  talk_abstract: |
+    Do you struggle to successfully communicate complex ideas during your presentations? Explaining yourself and your work in a way that’s clear, compelling, and relatable can be tough, especially when you present remotely!
+
+    When you’re speaking to clients, upper management, elected officials, the general public, etc., it’s a problem if they can’t understand what you’re saying and don’t know how they’re supposed to respond. How do you simplify your presentations without talking down to your audience? How do you get people to take the actions you want? And how can you present effectively during a virtual meeting?
+
+    Presentation Skills for Brainiacs gives you the tools you need to develop understandable presentations that inspire your audiences to take action!
 
 - full_name: "Bhavani Ravi"
   order:
@@ -193,9 +240,10 @@ speakers:
   dev_username: "bhavaniravi"
   twitter_handle: "@geeky_bhavani"
   talk_title: "Build2Learn Chatbots"
-  talk_abstract:
+  talk_abstract: |
+    "hello world" programs are not so exciting anymore, are they? Who doesn't love to build something tangible and cool? Did you know with a little Python knowledge, you can build a chatbot in less than 10 lines of code? In this workshop, we will understand what chatbots are and build a number of bots using the chatbot engine Rasa.
 
-- full_name: "Colin Dean"
+- full_name: Colin Dean
   order:
   day: 2
   talk_type: "workshop"
@@ -206,7 +254,19 @@ speakers:
   dev_username:
   twitter_handle:
   talk_title: "Command-line Finances using the Plain Text Accounting Ecosystem"
-  talk_abstract:
+  talk_abstract: "Far too often, developers mismanage their personal finances and squander the assets at their disposal. This workshop introduces personal finance accounting in general and moves into teaching how to use the open source plain text accounting ecosystem to manage one's money. You'll walk away with a fun, creative way to effectively collect transaction data iteratively and analyze it using freely available tools combined with some of your own code."
+  requirements: |
+    This workshop is geared toward folks with the following skills:
+
+    1. Comfortability with basic algebra
+    2. Comfortability using a computer with a suitable keyboard or another input method for typing
+    3. Comfortability using a text editor program, such as Atom, Visual Studio Code, vim, or Emacs
+    4. Comfortability installing and using command line software on the operating system of their choice
+
+    and the following things available to them:
+    
+    1. A computer running a UNIX-like operating system or having standard UNIX tools available to it. That explicitly includes **Apple macOS** or virtually any modern **Linux** distribution, such as **Ubuntu Linux**. **Microsoft Windows** can be used when using UNIX tools via **Windows Subsystem for Linux**. For more information, see @tbl:os-pkgman.
+    2. Internet access, to install tools required to follow the workshop activities. The tools will be described in the workshop document provided ahead of time but you can follow along as the list of dependencies shapes up on [GitHub](https://github.com/colindean/talks/blob/master/intro_to_plaintextaccounting/workshop/0100_dependencies.md).
 
 - full_name: "Kevin Zurawel"
   order:
@@ -219,7 +279,12 @@ speakers:
   dev_username:
   twitter_handle:
   talk_title: "Making NES Games in Assembly"
-  talk_abstract:
+  talk_abstract: |
+    When Nintendo released the Nintendo Entertainment System (NES) in the US in 1985, it quickly dominated the home video game market. Production of the NES ended in 1995, but it continues to be a popular platform, with several successful Kickstarter campaigns to fund the development of new NES games. Games for the NES are programmed in assembly, an extremely low-level programming language that gives the developer full control over the underlying hardware, but requires knowledge of how that hardware works. This means that learning assembly gives you insight into how computers in general interpret and execute programs, which can be applied to programming challenges in any other language.
+    
+    In this workshop we will explore assembly development for the NES in a modern context, using emulators to run the games that we will develop. By the end of the workshop, you'll be able to draw graphics to the screen and handle input from the controller, and you'll have plenty of resources to continue learning on your own.
+
+  requirements: "The software that we will be using is all cost-free and cross-platform, please have the following three programs installed -  cc65, Nintaco, and NES Screen Tool."
 
 - full_name: "Lisi Linhart"
   order: 
@@ -232,7 +297,7 @@ speakers:
   dev_username:
   twitter_handle:
   talk_title: "Practical Web Animation"
-  talk_abstract:
+  talk_abstract: "Web Animation can greatly enhance your application to make it more fun and engaging. In this workshop you'll learn about some simple ways to include animations like the Web Animation Api and SVG animation with GSAP. It will also provide you with some insights into adding something positive to the user experience, while also learning how to keep your animations performant in the browser."
 
 - full_name: "Ryan Latta"
   order:
@@ -245,3 +310,4 @@ speakers:
   dev_username: 
   twitter_handle: 
   talk_title: "Get An Interview in Sixty Seconds"
+  talk_abstract: "Many hiring managers know within 90 seconds of seeing a resume if they'll consider them for an interview. They may never see your great portfolio, brilliant projects on Github, or glowing LinkedIn endorsements if they don't like what they see in 90 seconds. I'm going to teach you how to build a resume that gets them to call you for an interview almost every time. I've taught this to developers looking for their first jobs and developers well into their career."

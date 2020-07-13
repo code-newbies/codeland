@@ -28,3 +28,7 @@ sponsors:
   type: "inclusion"
   link: "https://azure.microsoft.com/en-us/"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/ofjnmx2cawp4bzn7h7d4.png"
+- name: "Gitcoin"
+  type: "mentor"
+  link: "https://gitcoin.co"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/oeynvt8r8gz88pieqznr.png"

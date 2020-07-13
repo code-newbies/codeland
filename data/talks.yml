@@ -1,6 +1,18 @@
 default: &default_title
 speakers:
 
+- full_name: "Saron Yitbarek"
+  order:
+  day: 1
+  talk_type: "keynote"
+  job_title: "Founder"
+  company: "CodeNewbie"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/0n9iqmvk7p5w0i84uys1.jpg"
+  bio: "Saron Yitbarek is an entrepreneur and founder of CodeNewbie, now owned by DEV. She's also a developer, speaker, and podcaster."
+  dev_username: "saronyitbarek"
+  twitter_handle: "saronyitbarek"
+  talk_title: "What I Learned From 6 Years Of Building CodeNewbie"
+  
 - full_name: "Scott Hanselman"
   order:
   day: 1
@@ -38,6 +50,12 @@ speakers:
   twitter_handle: "sangee_kp"
   talk_title: "Machine Learning on the Edge"
   talk_abstract:
+
+- full_name: "Chloe Condon"
+  talk_type: "talk"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/09889rhigwv5jrmp6j5o.jpg"
+  bio: "Chloe Condon is a Cloud Advocate at Microsoft. Before attending Hackbright Academy and making the career switch into tech, she spent her nights and weekends on-stage as a musical theatre actress. She is passionate about bringing folks with non-traditional and creative backgrounds into technical spaces, and loves to find ways to teach and demo technical examples in quirky and humorous ways."
+  talk_title: "Using Cognitive Services and Mario Kart to Create Astrology"
 
 - full_name: "Ben Halpern"
   order:
@@ -218,19 +236,7 @@ speakers:
   day: 1
   bio: "Lucky is a Software Engineer in the R&D division of BBD Software and a game development lecturer at the Digitals Arts division of Wits University in Johannesburg. He has experience in building and maintaining enterprise banking software with varying tech-stacks; all the way from VB6 and .Net to web and cloud technologies. Lucky is interested in IoT and passionate about making technology accessible through the web."
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/tde2c3a0dsifd0q98jw1.png"
-  talk_title: "To Kill a working drone... Flying drones with Twitter, Bananas and WebAPIs"
-
-- full_name: "Saron Yitbarek"
-  order:
-  day: 1
-  talk_type: "keynote"
-  job_title: "Founder"
-  company: "CodeNewbie"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/0n9iqmvk7p5w0i84uys1.jpg"
-  bio: "Saron Yitbarek is an entrepreneur and founder of CodeNewbie, now owned by DEV. She's also a developer, speaker, and podcaster."
-  dev_username: "saronyitbarek"
-  twitter_handle: "saronyitbarek"
-  talk_title: "Opening Keynote"
+  talk_title: "To Kill a Working Drone... Flying Drones with Twitter, Bananas and WebAPIs"
 
 - full_name: "Naomi Meyer"
   order:
