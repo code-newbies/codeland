@@ -52,8 +52,13 @@
   }
 }
 
+.talk-title a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .speaker-bio {
-  font-size: 1.3em;
+  font-size: 1em;
   @media screen and (max-width: 375px) {
     font-size: .75em;
   }
@@ -62,4 +67,14 @@
 .section-container.speaker-overviews {
   margin: 0 auto;
   padding: 8%;
+}
+
+.speaker-learn-more {
+  text-align: left;
+}
+.speaker-learn-more a {
+  color: #DFD4FC;
+  &:hover {
+    color: #ffffff;
+  }
 }

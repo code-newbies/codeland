@@ -36,10 +36,14 @@
         </div>
         <div class="speaker-item--info">
           <div class="talk-title">
-            "<%= speaker.talk_title %>"
+            "<a href="/workshops/<%= speaker.full_name.gsub(" ", "-").downcase %>"><%= speaker.talk_title %></a>"
               <span class="flare" style="background-color: #DFD4FC">workshop</span>
           </div>
-          <div class="speaker-bio"><%= speaker.bio %></div>
+          <div>Hosted by: <%= speaker.full_name %></div>
+          <br>
+          <div class="speaker-bio"><%= markdown speaker.talk_abstract %></div>
+          <br>
+          <div class="speaker-learn-more"><a href="/workshops/<%= speaker.full_name.gsub(" ", "-").downcase %>">Learn more about this workshop.</a></div>
         </div>
       </div>
     <% end %>

@@ -25,8 +25,11 @@
   }
 
   .speaker-profile {
-    padding-top: 50px;
-    img { @include span-columns(3); }
+    padding-top: 80px;
+    img {
+      border-radius: 50%;
+      border: solid 5px #323DA3;
+      @include span-columns(3); }
     h5 { margin-top: 0px; margin-bottom: 0px; }
     .speaker-profile-info {
       @include span-columns(9);
@@ -37,7 +40,7 @@
       h4 { margin-top: 0px; }
     }
     .speaker-bio-name {
-      font-size: 28px;
+      font-size: 30px;
       font-weight: 600;
       margin-bottom: 0px; 
     }
