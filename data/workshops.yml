@@ -113,6 +113,13 @@ speakers:
   talk_title: "Intro to Web Accessibility"
   talk_abstract: |
     This workshop will cover the techniques to make your app accessible from day one. You'll walk away understanding accessibility guidelines, tools, and testing. 
+  talk_details: |
+    In this workshop you will learn:
+    
+    - How to build accessible apps and websites that are not just for specially abled persons on day one
+    - Why accessible websites improve web performance and user experience too
+    - How to understand accessibility guidelines and incorporate accessibility-forward features into your code.
+    … and more!
 
 - full_name: "Alvaro Montoro"
   order:
@@ -159,7 +166,7 @@ speakers:
   twitter_handle: ""
   talk_title: "Your First Hardware Hack: Making a Toy Think"
   talk_abstract: "If you’ve always wanted to make a first arduino project this is the workshop for you. Nočnica will show you how to run your first arduino program, and how to connect it to a simple toy to make it “smart”."
-  requirements: "No soldering or equipment required, we’ll Use a virtual arruino from TinkerCAD!"
+  requirements: "No soldering or equipment required, but please set up a personal TinkerCAD account at [https://tinkercad.com/join](https://tinkercad.com/join)!"
 
 - full_name: "Wesley Faulkner"
   order: 
