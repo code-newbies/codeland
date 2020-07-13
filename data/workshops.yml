@@ -42,6 +42,7 @@ speakers:
   talk_abstract: "While most developers use open source libraries in their day-to-day work, many don’t feel comfortable contributing to open source projects. The goal of this workshop is to change that mindset. In this workshop, attendees will learn the best practices around participating in open source communities and ultimately write their first open source code."
   requirements: |
     For this workshop, please come prepared with:
+      
     - A GitHub account
     - The latest stable node.js version installed on your machine
     - Git installed on your machine
