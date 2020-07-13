@@ -152,7 +152,7 @@ speakers:
   bio: "Rukia Sheikh-Mohamed is a software engineer based in the Twin Cities, MN who is passionate about all things tech. During her day job she works as full-stack dev at Soona. She enjoys talking about tech at local and national events/conferences, creating cool stuff on the side, and writing tech articles to share useful information and tips. During her free time Rukia enjoys spending time with her baby boy, traveling the world, and creating fun DIYs."
   dev_username: "@rukiaasm"
   twitter_handle: "@rukiaasm"
-  talk_title: "Working Smarter: 5 Steps to Crafting the Right Questions When You're Stuck"
+  talk_title: "Working Smarter: 5 Steps To Getting Unstuck"
   talk_abstract:
 
 - full_name: "Erika Heidi"
@@ -194,19 +194,6 @@ speakers:
   talk_title: "Live Exploiting Your Open Source Dependencies"
   talk_abstract:
 
-- full_name: "Mai Irie"
-  order: 
-  day: 1
-  talk_type: "talk"
-  job_title: "Director of Engineering"
-  company: "DoSomething.org"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/7t5dq95w4jwnh1cwlr49.png"
-  bio: "Mai Irie is the Director of Engineering at DoSomething.org, a youth-led movement with 1M+ members who utilize the unique digital platform to join volunteer, social change, and civic action campaigns that make an offline impact. Mai is a mid-career switcher, originally working in graphic design. As her career progressed, she understood the creativity she craved was not in graphics but in software development :) Her work experience includes roles at universities, web agencies, and her current position at the non-profit."
-  dev_username: "mirie"
-  twitter_handle: ""
-  talk_title: "Balancing Technical Debt While Changing Society for the Better"
-  talk_abstract:
-
 - full_name: "Safia Abdalla"
   order: 
   day: 1
@@ -219,6 +206,19 @@ speakers:
   twitter_handle: "captainsafia"
   talk_title: "You and Me Learn All About HTTP"
   talk_abstract:
+
+- full_name: "Lucky Nkosi"
+  talk_type: "talk"
+  job_title:
+  talk_abstract:
+  dev_username:
+  twitter_handle:
+  company: 
+  order:
+  day: 1
+  bio: "Lucky is a Software Engineer in the R&D division of BBD Software and a game development lecturer at the Digitals Arts division of Wits University in Johannesburg. He has experience in building and maintaining enterprise banking software with varying tech-stacks; all the way from VB6 and .Net to web and cloud technologies. Lucky is interested in IoT and passionate about making technology accessible through the web."
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/tde2c3a0dsifd0q98jw1.png"
+  talk_title: "To Kill a working drone... Flying drones with Twitter, Bananas and WebAPIs"
 
 - full_name: "Saron Yitbarek"
   order:
@@ -238,7 +238,7 @@ speakers:
   talk_type: "talk"
   job_title: "Software Development Engineer"
   company: "Adobe"
-  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/nadlybpq2w8ywozl0a3g.png"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/b18xmi92oh8vikkez1kb.png"
   bio: "Naomi is a Software Development Engineer at Adobe on the Globalization, Core Services team where she works on the internationalization and localization of Creative Cloud products. Before coding full time, Naomi worked as a teacher across Asia and West Africa. She enjoys weekends outside - hiking, camping, and riding bikes."
   dev_username:
   twitter_handle:
