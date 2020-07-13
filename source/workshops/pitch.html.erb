@@ -1,0 +1,18 @@
+<section class="wrapper">
+  <article class="speaker-profile">
+    <img src="<%= speaker.image_url =%>">
+    <div class="speaker-profile-info">
+      <h2><%= speaker.talk_title %></h2>
+      <br>
+      <p><%= markdown speaker.talk_abstract %></p>
+      <% if !speaker.talk_details.blank? %><p><%= markdown speaker.talk_details %></p><% end %>
+      <% if !speaker.requirements.blank? %><h4>Requirements</h4><p><%= markdown speaker.requirements %></p><% end %>
+      <br>
+      <h3>About <%= speaker.full_name %></h3>
+      <p><%= speaker.bio %></p>
+      <br>
+      <h4 class="btn__back-to-speakers"><a href="/#distributed-program">&#8592 Back to speakers</a></h4>
+    </div>
+  </article>
+  <br>
+</section>

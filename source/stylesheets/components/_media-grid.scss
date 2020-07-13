@@ -1,6 +1,6 @@
 @mixin media-grid() {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-template-rows: auto;
   grid-row-gap: 4em;
   column-gap: 2em;
@@ -19,6 +19,7 @@
   display: flex;
   grid-column-end: span 1;
   grid-column-start: initial;
+  margin: 0 auto;
 
   img {
     height: auto;

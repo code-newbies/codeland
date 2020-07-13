@@ -12,10 +12,9 @@ page '/*.txt', layout: false
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 
-# Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
-data.talks.speakers.each do |speaker|
+data.workshops.speakers.each do |speaker|
   slug = speaker.full_name.gsub(" ", "-").downcase
-  proxy "/speakers/#{slug}/index.html", "/speakers/template.html", locals: {
+  proxy "/workshops/#{slug}/index.html", "/workshops/template.html", locals: {
     speaker: speaker }, ignore: true
 end
 
@@ -31,11 +30,13 @@ end
 ###
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def markdown(text)
+    return unless text
+
+    Tilt['markdown'].new(context: @app) { text }.render
+  end
+end
 
 # Build-specific configuration
 configure :build do
