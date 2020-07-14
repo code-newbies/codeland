@@ -125,6 +125,7 @@ speakers:
   dev_username:
   twitter_handle:
   talk_title: "Rocking the Gamepad API"
+  requirements: "There is no software to download, but it would be ideal to have a game controller that connects to a computer."
   talk_abstract: |
     The web standard includes many APIs for an increasing range of tasks: controlling bluetooth, managing files, handling the clipboard… Some of them are more “serious,” and some of them are more “fun.” The Gamepad API falls in this last category. 
 
