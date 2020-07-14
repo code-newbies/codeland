@@ -36,3 +36,7 @@ sponsors:
   type: "mentor"
   link: "http://ergosesh.com/"
   image_url: "https://dev-to-uploads.s3.amazonaws.com/i/59lnw5fu71iwkv2cf7p6.png"
+- name: "LaunchDarkly"
+  type: "mentor"
+  link: "https://launchdarkly.com/"
+  image_url: "https://dev-to-uploads.s3.amazonaws.com/i/zqpct0bwlo8he00bugmq.png"
