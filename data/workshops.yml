@@ -26,7 +26,16 @@ speakers:
   dev_username: "shethiakamya"
   twitter_handle: "@shethiakamya"
   talk_title: "SQL for the Potterhead"
-  talk_abstract: ""
+  talk_abstract: |
+    Being able to query data with SQL is very powerful — apart from querying and analyzing data, there is lots of work that goes into making queries performant, and scaling database systems. That’s why it’s important to have a good grasp on the SQL basics when you get started.
+
+    At the end of this workshop, you will walk away knowing how to:
+
+    - Query data using simple SELECT and WHERE clauses 
+    - Perform table JOINs 
+    - Be able to think about performance, by using the EXPLAIN clause. 
+    - Read and understand SQL documentation 
+    - Understand window functions, specifically the `ROW_NUMBER OVER PARTITION` method
 
 - full_name: "Emily Giurleo"
   order:
