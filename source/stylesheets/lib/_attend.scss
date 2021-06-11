@@ -1,9 +1,9 @@
-#tickets {
+#attend {
   position: relative;
   background: #E3EFEB;
 }
 
-.section-card.tickets {
+.section-card.attend {
   &:before {
     height: 120%;
     background: #E3EFEB;
@@ -13,28 +13,52 @@
   }
 }
 
-.ticket-options--header {
-  border-bottom: 1px solid $base-color;
-  padding-bottom: 1em;
-  padding-top: 1em;
+/*.registration--information {
+  padding: 15px;
+  border-radius: 3px;
+  border: 1px solid #323DA3;
+  margin-top: -15px;
+}*/
+
+.attend--information {
+  display: block;
 
   @include media-tablet-landscape() {
-    padding-top: 0;
-    padding-bottom: 1.5em;
-  }
-
-  em {
-    font-style: normal;
-    color: green;
+    column-gap: 2em;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 
-.ticket-options ul {
+.attend--about {
+  display: block;
+  width: 100%;
+
+  @include media-tablet-landscape() {
+    grid-column-start: initial;
+    grid-column-end: span 3;
+  }
+}
+
+.attend--registration {
+  grid-column-start: 5;
+  grid-column-end: span 6;
+
+  ul {
+    list-style-type: none;
+    margin-left: 0;
+    li {
+      margin-bottom: 0.25em;
+    }
+  }
+}
+
+.important-dates ul {
   list-style-type: none;
   margin-left: 0;
 }
 
-.ticket-options ul li {
+.important-dates ul li {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -52,7 +76,7 @@
   }
 }
 
-.ticket-options--information {
+.important-dates--information {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-bottom: 0.5em;
@@ -63,27 +87,12 @@
   }
 }
 
-.ticket-options--type {
+.important-dates--date {
   grid-column-end: span 2;
   width: 100%;
 }
 
-.ticket-options--price {
-  align-self: center;
-  text-align: center;
-  min-width: max-content;
-  justify-self: flex-end;
-
-  h3 {
-    color: green;
-  }
-
-  .strikethrough {
-    text-decoration: line-through;
-  }
-}
-
-.ticket-options--action {
+.important-dates--event {
   display: block;
   width: 100%;
 

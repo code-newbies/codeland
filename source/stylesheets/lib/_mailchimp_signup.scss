@@ -2,10 +2,37 @@
   font-size: $base-font-size !important;
 }
 
-#mc_embed_signup input.email {
+.mc-field-label {
+  margin-top: 10px;
+}
+
+.mc-field-input {
+  width: 75%;
+}
+
+.sponsors-contact-information label {
+  display: block;	
+}
+
+.mc-field-group ul {
+	list-style-type: none;
+  margin-left: 0;
+
+  li {
+    margin-bottom: 1em;
+  }
+}
+
+.mc-field-group ul li label {
+  margin-left: 10px;
+}
+
+#mc_embed_signup input {
   font-size: $base-font-size !important;
-  padding: 12px !important;
+  padding: 5px !important;
   height: auto !important;
+  background: #f7f7f7;
+  border-radius: 3px;
 } 
 
 #mc_embed_signup .button {
@@ -14,4 +41,17 @@
   color: white;
   height: auto !important;
   padding: 0.5em 1.15em !important;
+  margin-top: 20px;
+}
+
+.response {
+  background-color: #E3EFEB;
+  margin: 15px 0;
+  padding: 15px;
+}
+
+#mc_embed_signup div.mce_inline_error {
+  color: #6B0505 !important;
+  background-color: white !important;
+  padding-left: 0 !important;
 }
