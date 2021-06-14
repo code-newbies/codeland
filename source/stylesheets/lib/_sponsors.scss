@@ -3,30 +3,31 @@
 }
 
 .section-card.sponsors {
-    background: white;
-    top: -75px;
+  background: white;
+  top: -75px;
 
-    &:before {
-      height: 120%;
-      transform: rotate(2.5deg);
-      left: -60px;
-      top: -80px;
-    }
+  &:before {
+    height: 120%;
+    transform: rotate(2.5deg);
+    left: -60px;
+    top: -80px;
+  }
 }
 
 .sponsors-mailchimp-form {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin: 1.5em 0;
 
   @include media-tablet-landscape() {
+    margin: 1.5em 0;
+    grid-template-columns: repeat(2, 1fr);
     grid-column-end: span 2;
     margin-bottom: 0;
   }
 }
 
-.sponsors-contact-information {
+.sponsors-contact-information,
+.sponsors-options {
   grid-column-end: span 1;
   width: 100%;
+  margin-bottom: 1em;
 }
-
