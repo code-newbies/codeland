@@ -19,6 +19,6 @@ jobs:
         run: bundle install
       - name: Deploy to GitHub Pages
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config --local user.email "$(git log --format='%ae' HEAD^!)"
+          git config --local user.name "$(git log --format='%an' HEAD^!)"
           bundle exec rake publish
