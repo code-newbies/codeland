@@ -21,4 +21,8 @@ jobs:
         run: |
           git config --local user.email "$(git log --format='%ae' HEAD^!)"
           git config --local user.name "$(git log --format='%an' HEAD^!)"
+          echo git config user.email
+          echo git config user.name
           bundle exec rake publish
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
