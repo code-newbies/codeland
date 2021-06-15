@@ -21,10 +21,12 @@ GEM
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x64-mingw32)
     execjs (2.7.0)
     fast_blank (1.0.0)
     fastimage (2.1.7)
     ffi (1.11.3)
+    ffi (1.11.3-x64-mingw32)
     haml (5.1.2)
       temple (>= 0.8.0)
       tilt
@@ -94,6 +96,8 @@ GEM
       ffi (~> 1.0)
     sassc (2.2.1)
       ffi (~> 1.9)
+    sassc (2.2.1-x64-mingw32)
+      ffi (~> 1.9)
     servolux (0.13.0)
     sprockets (4.0.0)
       concurrent-ruby (~> 1.0)
@@ -109,6 +113,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   middleman (>= 4.0.0)
@@ -118,4 +123,4 @@ DEPENDENCIES
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   2.1.4
+   2.2.19
