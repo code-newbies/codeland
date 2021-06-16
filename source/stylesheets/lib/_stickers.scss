@@ -1,4 +1,8 @@
 .sticker-pack {
+  margin-top: 30%;
+  @include media-tablet-landscape() {
+    margin: 0;
+  }
   .sticker {
     height: auto;
     position: absolute;
@@ -8,6 +12,7 @@
 
     @include media-tablet-landscape() {
       width: 210px;
+      margin: 0;
     }
   }
 

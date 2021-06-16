@@ -41,7 +41,7 @@
   }
 }
 
-.overview--video {
+.overview--video, .overview--image {
   grid-row-start: 3;
   grid-row-end: 5;
   grid-column-end: span 3;
@@ -53,6 +53,12 @@
       margin: 0px 0px;
     }
   }
+}
+
+.overview--image img {
+  max-width: 90%;
+  border-radius: 2px;
+  margin: 20px 0;
 }
 
 .overview--details {
