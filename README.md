@@ -10,17 +10,11 @@ cd codeland
 ```
 
 ```ruby
-# Install the Middleman Ruby gem (You may need to install Ruby other environment prerequisites)
-gem install middleman
-    
-# Initialize middleman, just needs to be run once.
-middleman init
-    
-# Start middleman server.
-middleman server
-    
-# Compile source files to build files (Optional for contribution purposes)
-middleman build
+# Install the dependencies
+bundle install
+
+# Start the server locally (development mode)
+bundle exec middleman server
 ```
 
 For more info, visit the [Middleman docs](https://middlemanapp.com/basics/install/)
@@ -30,6 +24,12 @@ For more info, visit the [Middleman docs](https://middlemanapp.com/basics/instal
 All files to modify are located in the `source` directory. These are the basis for the generated files which live in the project root.
 
 Within the source directory are various pages, partials, and assets which are compiled to their static production versions.
+
+### Deploy to GitHub Pages
+
+We use the gem [middleman-gh-pages](https://github.com/edgecase/middleman-gh-pages) to deploy to GitHub pages. This gem builds and pushes the site to the branch `gh-pages` which will automatically update the live site: [https://codelandconf.com](https://codelandconf.com).
+
+A [GitHub Action](https://github.com/code-newbies/codeland/blob/master/.github/workflows/deploy.yml) will take care of deploying on each commit to `master`. If you ever want to manually deploy use `bundle exec rake publish`. More details can be found in the [docs](https://github.com/edgecase/middleman-gh-pages#usage).
 
 ## License
 This repo uses the MIT license.
