@@ -27,7 +27,7 @@ Within the source directory are various pages, partials, and assets which are co
 
 ### Deploy to GitHub Pages
 
-We now use the gem [middleman-gh-pages](https://github.com/edgecase/middleman-gh-pages) to deploy to GitHub pages. This gem builds and pushes the site to the branch `gh-pages` which will automatically update the live site: [https://codelandconf.com](https://codelandconf.com).
+We use the gem [middleman-gh-pages](https://github.com/edgecase/middleman-gh-pages) to deploy to GitHub pages. This gem builds and pushes the site to the branch `gh-pages` which will automatically update the live site: [https://codelandconf.com](https://codelandconf.com).
 
 A [GitHub Action](https://github.com/code-newbies/codeland/blob/master/.github/workflows/deploy.yml) will take care of deploying on each commit to `master`. If you ever want to manually deploy use `bundle exec rake publish`. More details can be found in the [docs](https://github.com/edgecase/middleman-gh-pages#usage).
 

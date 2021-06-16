@@ -2,15 +2,13 @@ name: Deploy
 
 on:
   push:
-    branches: [ main, fdoxyz/gh-pages-deploy-automation ]
+    branches: [ main, master ]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
