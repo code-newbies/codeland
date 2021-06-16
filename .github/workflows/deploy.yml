@@ -21,7 +21,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          export REMOTE_NAME="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/code-newbies/codeland.git"
+          git remote set-url origin "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/code-newbies/codeland.git"
           git config --global user.email "$(git log --format='%ae' HEAD^!)"
           git config --global user.name "$(git log --format='%an' HEAD^!)"
           bundle exec rake publish
