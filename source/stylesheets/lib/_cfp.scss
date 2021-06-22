@@ -5,8 +5,8 @@
 }
 
 .section-card.cfp {
-    background: #323DA3;
-    top: -75px;
+  background: #323DA3;
+  top: -75px;
 
     &:before {
 		height: 120%;
@@ -17,3 +17,6 @@
     }
 }
 
+#cfp a {
+  color: #ffffff;
+}
