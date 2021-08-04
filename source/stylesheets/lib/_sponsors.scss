@@ -5,12 +5,14 @@
 .section-card.sponsors {
   background: white;
   top: -75px;
+  position: relative;
 
   &:before {
     height: 120%;
     transform: rotate(2.5deg);
     left: -60px;
     top: -80px;
+    background-color: white;
   }
 }
 
