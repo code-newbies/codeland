@@ -7,7 +7,10 @@
   top: -75px;
 
   &:before {
-    display: none;
+    height: 120%;
+    transform: rotate(2.5deg);
+    left: -60px;
+    top: -80px;
   }
 }
 
