@@ -75,6 +75,14 @@
       font-size: $base-font-size * 1.25;
     }
   }
+
+  p {
+    margin-bottom: $base-leading * 1em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .section-container--body {
