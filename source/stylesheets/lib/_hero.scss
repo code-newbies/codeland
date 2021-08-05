@@ -27,7 +27,13 @@
 }
 
 .hero-section--description {
+  font-size: $base-font-size * 1.2;
   font-weight: 400;
+  margin-bottom: 1.5em;
+
+  @include media-tablet-landscape() {
+    font-size: $base-font-size * 1.35;
+  }
 
   a {
     font-weight: 800;
@@ -36,6 +42,16 @@
     &:hover {
       text-decoration: underline;
     }
+  }
+}
+
+.hero-section--subtitle {
+  font-size: $base-font-size * 1.35;
+  font-weight: 800;
+  margin: 0;
+
+  @include media-tablet-landscape() {
+    font-size: $base-font-size * 1.65;
   }
 }
 
