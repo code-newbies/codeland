@@ -59,6 +59,9 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <%= yield %>
+    <%= partial "layouts/nav" %>
+    <main>
+      <%= yield %>
+    </main>
   </body>
 </html>
