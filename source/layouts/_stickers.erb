@@ -1,7 +1,22 @@
+
 <article class="sticker-pack">
-  <%= image_tag "rockety.png", :class => "sticker rockety" %>
-  <%= image_tag "brace-yourself.png", :class => "sticker brace-yourself" %>
-  <%= image_tag "contributor.png", :class => "sticker contributor" %>
-  <%= image_tag "bee.png", :class => "sticker bee" %>
-  <%= image_tag "she-coded_2021.png", :class => "sticker she-coded" %>
+  <% data.stickers.stickers.each do |f| %>
+  <img
+    src="<%= image_path f.path, resize: "95x95" %>"
+    width="<%= f.originalWidth %>"
+    height="<%= f.originalHeight %>"
+    alt=""
+    class="sticker <%= f.className %>"
+    sizes=" (min-width: 1024px) 210px,  95px"
+    srcset="
+    <%= image_path f.path, resize: "95x95" %> 95w,
+    <%= image_path f.path, resize: "190x190" %> 190w,
+    <%= image_path f.path, resize: "210x210" %> 210w,
+    <%= image_path f.path, resize: "285x285" %> 285w,
+    <%= image_path f.path, resize: "420x420" %> 420w,
+    <%= image_path f.path, resize: "630x630" %> 630w
+    "
+  >
+  <% end %>
+
 </article>
