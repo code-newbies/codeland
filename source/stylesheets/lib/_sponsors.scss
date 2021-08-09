@@ -1,7 +1,3 @@
-.section-container--body h2 {
-  padding-bottom: 2%;
-}
-
 .section-card.sponsors {
   background: white;
   top: -75px;
@@ -13,6 +9,14 @@
     left: -60px;
     top: -80px;
     background-color: white;
+  }
+
+  legend {
+    padding-bottom: 2%;
+  }
+
+  fieldset {
+    border: 0;
   }
 }
 

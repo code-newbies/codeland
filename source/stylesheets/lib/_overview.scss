@@ -7,7 +7,7 @@
 
   &:before {
     height: 120%;
-    background: #323DA3;
+    background: #323da3;
     transform: rotate(-5deg);
     left: -60px;
   }
@@ -41,7 +41,8 @@
   }
 }
 
-.overview--video, .overview--image {
+.overview--video,
+.overview--image {
   grid-row-start: 3;
   grid-row-end: 5;
   grid-column-end: span 3;
@@ -77,7 +78,6 @@
 }
 
 .overview--title {
-
   font-weight: 400;
 
   strong {
@@ -87,7 +87,15 @@
 
 .overview--subtitle {
   font-weight: 400;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.overview-detail--title {
+  margin-bottom: 1em;
+}
+
+.overview-detail--footer {
+  margin-top: 2em;
 }
 
 .overview-detail--subtitle {

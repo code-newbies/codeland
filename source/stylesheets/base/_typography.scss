@@ -39,7 +39,8 @@ h1 {
   @extend .headline-display;
 }
 
-h2 {
+h2,
+.text-h2 {
   font-size: $base-font-size * 1.35;
   font-weight: 800;
 
@@ -48,7 +49,8 @@ h2 {
   }
 }
 
-h3 {
+h3,
+.text-h3 {
   font-size: $base-font-size * 1.2;
   font-weight: 800;
 
@@ -57,20 +59,25 @@ h3 {
   }
 }
 
-h4 {
+h4,
+.text-h4 {
   font-size: $base-font-size * 1.15;
+  font-weight: 700;
 
   @include media-tablet-landscape() {
     font-size: $base-font-size * 1.2;
   }
 }
 
-h5 {
+h5,
+.text-h5 {
   font-size: $base-font-size * 1;
 }
 
-h5 {
+h5,
+.text-h5 {
   font-size: $base-font-size;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
