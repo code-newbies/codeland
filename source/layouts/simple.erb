@@ -1,0 +1,11 @@
+<% wrap_layout :layout do %>
+  <%= partial "layouts/nav" %>
+  <main>
+    <%= yield %>
+  </main>
+  <footer class="simple-footer">
+    <a href="/">
+      Return to conference
+    </a>
+  </footer>
+<% end %>
