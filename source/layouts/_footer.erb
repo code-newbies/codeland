@@ -8,47 +8,47 @@
         Produced by <a href="https://dev.to" target="_blank">DEV</a> and <a href="https://codenewbie.org/" target="_blank">CodeNewbie</a>.
       </div>
     </div>
-    <section class="section-container--body">
+    <div class="section-container--body">
       <div class="footer-body--information">
-        <article class="footer-body--about">
-          <section class="section-container--block">
-            <h2 class="text-h3">
+        <div class="footer-body--about">
+          <section class="section-container--block" aria-labelledby="footerSponsorshipHeader">
+            <h2 class="text-h3" id="footerSponsorshipHeader">
               Sponsorship
             </h2>
             <p>
               Fill out our interest form above to receive a copy of the CodeLand sponsorship brochure — or email us at <a href="mailto:sponsors@forem.com" target="_blank">sponsors@forem.com</a> for more info.
             </p>
           </section>
-          <section class="section-container--block">
-            <h2 class="text-h3">
+          <section class="section-container--block" aria-labelledby="footerCreditsHeader">
+            <h2 class="text-h3" id="footerCreditsHeader">
               Produced by
             </h2>
-            <article class="section-container--block">
-              <figure class="image-title landscape">
-                <img src="https://s3.amazonaws.com/codenewbie-assets/codenewbie+logo.png" alt="About CodeNewbie">
-              </figure>
+            <div class="section-container--block">
+              <h3 class="image-title landscape">
+                <img src="https://s3.amazonaws.com/codenewbie-assets/codenewbie+logo.png" alt="CodeNewbie">
+              </h3>
               <p>
                 <a href="https://www.codenewbie.org/" target="_blank">CodeNewbie</a>
                 is the most supportive community of programmers and people learning
                 to code. We produce content to support people on their coding
                 journey.
               </p>
-            </article>
-            <article class="section-container--block">
-              <figure class="image-title square">
-                <img src="<%= image_path " DEV-tilted.png" %>" alt="About CodeNewbie">
-              </figure>
+            </div>
+            <div class="section-container--block">
+              <h3 class="image-title square">
+                <img src="<%= image_path " DEV-tilted.png" %>" alt="DEV">
+              </h3>
               <p>
                 <a href="https://www.dev.to/" target="_blank">DEV</a> is a
                 community of software developers getting together to help one
                 another out. The software industry relies on collaboration and
                 networked learning. We provide a place for that to happen.
               </p>
-            </article>
+            </div>
           </section>
-        </article>
-        <article class="footer-body--contact">
-          <h2 class="text-h3">
+        </div>
+        <nav class="footer-body--contact" aria-labelledby="footerContactLinks">
+          <h2 class="text-h3" id="footerContactLinks">
             Contact
           </h2>
           <ul>
@@ -59,8 +59,8 @@
               Email: <a href="mailto:hello@forem.com" target="_blank">hello@forem.com</a>
             </li>
           </ul>
-        </article>
-        <article class="footer-body--links">
+        </nav>
+        <nav class="footer-body--links" aria-label="Legal Information">
           <ul>
             <li>
               <a href="/privacy">Privacy Policy</a>
@@ -69,7 +69,7 @@
               <a href="/terms">Terms of Service</a>
             </li>
           </ul>
-        </article>
+        </nav>
       </div>
     </section>
   </div>
