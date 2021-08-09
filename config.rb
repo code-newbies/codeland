@@ -23,6 +23,7 @@ end
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
+  activate :images
 end
 
 ###
@@ -47,4 +48,12 @@ configure :build do
 end
 
 activate :asset_hash
-activate :images
+
+configure :build do
+  activate :images do |images|
+
+    # Optimize images (default: false)
+    images.optimize = true
+
+  end
+end
