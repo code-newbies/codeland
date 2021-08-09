@@ -47,3 +47,4 @@ configure :build do
 end
 
 activate :asset_hash
+activate :images
