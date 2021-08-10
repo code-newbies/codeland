@@ -7,7 +7,7 @@
   margin-bottom: -4em;
 
   &:before {
-    background: #F9F9F9;
+    background: #f9f9f9;
     transform: rotate(2.5deg);
     left: -100px;
     bottom: -4em;
@@ -74,8 +74,8 @@
 
     &.square {
       img {
-        max-height: 80px;
-        max-width: 80px;
+        height: 80px;
+        width: 80px;
       }
     }
   }
@@ -104,5 +104,4 @@
       margin-bottom: 0.25em;
     }
   }
-
 }
