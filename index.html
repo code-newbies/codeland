@@ -41,7 +41,7 @@
     <title>CodeLand Conference 2021</title>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Chivo:400,700,900&display=swap" rel="stylesheet">
-    <link href="/stylesheets/style-bf5cde11.css" rel="stylesheet" />
+    <link href="/stylesheets/style-0f953280.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="/javascripts/main-eb8cd14d.js"></script>
    <script>
@@ -59,7 +59,7 @@
   </head>
 
   <body class="index">
-    <nav class="site-nav">
+      <nav class="site-nav">
   <div class="nav-link--container">
     <div class="nav-mobile-menu--actions">
       <a href="#" class="nav-link--logo">CodeLand</a>
@@ -90,29 +90,31 @@
     </ul>
   </div>
 </nav>
-<section class="hero-section">
+  <main>
+    <section class="hero-section" aria-label="Introduction to CodeLand 2021">
   <div class="hero-section--container">
-    <h1 class="hero-section--image">
+    <h1 class="hero-section--image" id="heroHeader">
       <img src="/images/codeland-2021-logo-e875edbd.png" alt="CodeLand 2021" />
     </h1>
     <p class="hero-section--description">
-      The most welcoming conference for early-career coders and their champions. Produced by <a href="https://www.codenewbie.org/" target="_blank">CodeNewbie</a> and <a href="http://dev.to">DEV,</a> two software communities built on <a href="https://www.forem.com/">Forem.</a>
+      The most welcoming conference for early-career coders and their champions. Produced by <a href="https://www.codenewbie.org/" target="_blank">CodeNewbie</a> and <a href="https://dev.to">DEV</a>, two software communities built on <a href="https://www.forem.com/">Forem.</a>
     </p>
     <p class="hero-section--subtitle">
       Taking place virtually from <br>September 23-24, 2021.
     </p>
-    <article class="sticker-pack">
+    <div class="sticker-pack" aria-hidden="true">
   <img src="/images/rockety-f58f1011.png" class="sticker rockety" alt="" />
   <img src="/images/brace-yourself-d7f97fcc.png" class="sticker brace-yourself" alt="" />
   <img src="/images/contributor-18651242.png" class="sticker contributor" alt="" />
   <img src="/images/bee-bbdfd828.png" class="sticker bee" alt="" />
   <img src="/images/she-coded_2021-16061c92.png" class="sticker she-coded" alt="" />
-</article>
+</div>
 
   </div>
 </section>
+
 <section id="overview" class="section-card overview" aria-label="CodeLand 2021 Overview">
-  <section class="section-container overview">
+  <div class="section-container overview">
     <header class="overview--header">
       <h2 class="overview--title headline-display">
         <strong>CodeLand</strong> is the community-first conference designed to level up programmers and people learning to code – from home!
@@ -142,12 +144,12 @@
           </p>
 
     </div>
-  </section>
+  </div>
 </section>
-<section id="attend" class="section-card attend">
-  <section class="section-container">
+<section id="attend" class="section-card attend" aria-labelledby="attendHeader">
+  <div class="section-container">
     <header class="section-container--header">
-      <h2 class="headline-display section-container--title">
+      <h2 class="headline-display section-container--title" id="attendHeader">
         Attend
       </h2>
       <p>
@@ -159,29 +161,29 @@
     </header>
     <div class="section-container--body">
       <div class="attend--information">
-        <article class="attend--about">
-          <section class="section-container--block">
-            <h3 class="section-container--title">
+        <section class="attend--about" aria-labelledby="registrationHeader">
+          <div class="section-container--block">
+            <h3 class="section-container--title" id="registrationHeader">
               Registration
             </h3>
             <p>
-              Registration has not yet opened for CodeLand 2021. Stay tuned to <a href="http://dev.to">DEV,</a> <a href="http://community.codenewbie.org">CodeNewbie Community,</a> and this site for updates.
+              Registration has not yet opened for CodeLand 2021. Stay tuned to <a href="https://dev.to">DEV</a>, <a href="http://community.codenewbie.org">CodeNewbie Community</a>, and this site for updates.
             </p>
-          </section>
-        </article>
-        <article class="attend--registration">
-          <section class="section-container--block registration--information">
-            <h3>
+          </div>
+        </section>
+        <section class="attend--registration" aria-labelledby="costHeader">
+          <div class="section-container--block registration--information">
+            <h3 id="costHeader">
               Cost
             </h3>
             <p>
               Free access to all keynotes, talks, and panels.
             </p>
-          </section>
-        </article>
+          </div>
+        </section>
       </div>
-      <div class="section-container--body important-dates">
-        <h3>
+      <section class="section-container--body important-dates" aria-labelledby="datesHeader">
+        <h3 id="datesHeader">
           Important Dates
         </h3>
         <ul>
@@ -214,15 +216,15 @@
             </div>
           </li>
         </ul>
-      </div>
+      </section>
     </div>
-  </section>
+  </div>
 </section>
-<section id="cfp" class="section-card cfp">
+<section id="cfp" class="section-card cfp" aria-labelledby="cfpHeader">
   <div class="mask"></div>
-  <section class="section-container">
-    <header class="section-container--header">
-      <h2 class="headline-display section-container--title">
+  <div class="section-container">
+    <div class="section-container--header">
+      <h2 class="headline-display section-container--title" id="cfpHeader">
         Submit a talk
       </h2>
       <p class="section-container--description">
@@ -231,13 +233,13 @@
       <p>
         Our Call for Proposals (CFP) has now closed. We're now hard at work reviewing proposals to craft a fantastic CodeLand 2021 program! If you submitted a proposal, we'll be getting back to you by <strong>August 17.</strong>
       </p>
-    </header>
-  </section>
+    </div>
+  </div>
 </section>
-<section id="sponsors" class="section-card sponsors">
-  <section class="section-container">
+<section id="sponsors" class="section-card sponsors" aria-labelledby="sponsorHeader">
+  <div class="section-container">
     <header class="section-container--header">
-      <h2 class="headline-display section-container--title">
+      <h2 class="headline-display section-container--title" id="sponsorHeader">
         Sponsorship
       </h1>
       <p class="section-container--description">
@@ -297,7 +299,7 @@
               <div class="response" id="mce-error-response" style="display:none"></div>
               <div class="response" id="mce-success-response" style="display:none"></div>
             </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0a92a565e5b5037722c845fdb_7736126f21" tabindex="-1" value=""></div>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0a92a565e5b5037722c845fdb_7736126f21" tabindex="-1" value="" aria-label="If you are human, leave this field blank"></div>
             <div class="clear"><input type="submit" value="Contact Us" name="contact us" id="mc-embedded-subscribe" class="button"></div>
           </fieldset>
         </form>
@@ -318,59 +320,61 @@
       </script>
       <!--End mc_embed_signup-->
     </div>
-  </section>
+  </div>
 </section>
-<footer id="footer" class="section-card footer">
-  <section class="section-container">
+
+  </main>
+  <footer id="footer" class="section-card footer">
+  <div class="section-container">
     <div class="footer-header">
       <div class="footer-title--image">
         <img src="/images/codeland-2021-logo-e875edbd.png" alt="CodeLand 2021" />
       </div>
       <div class="footer-title--description text-h3">
-        Produced by <a href="https://dev.to" target="_blank">DEV</a> and <a href="https://codenewbie.org/" target="_blank">CodeNewbie</a>.
+        Produced by <a href="https://dev.to" target="_blank">DEV</a> and <a href="https://www.codenewbie.org/" target="_blank">CodeNewbie</a>.
       </div>
     </div>
-    <section class="section-container--body">
+    <div class="section-container--body">
       <div class="footer-body--information">
-        <article class="footer-body--about">
-          <section class="section-container--block">
-            <h2 class="text-h3">
+        <div class="footer-body--about">
+          <section class="section-container--block" aria-label="Sponsorship More Info">
+            <h2 class="text-h3" id="footerSponsorshipHeader">
               Sponsorship
             </h2>
             <p>
               Fill out our interest form above to receive a copy of the CodeLand sponsorship brochure — or email us at <a href="mailto:sponsors@forem.com" target="_blank">sponsors@forem.com</a> for more info.
             </p>
           </section>
-          <section class="section-container--block">
-            <h2 class="text-h3">
+          <section class="section-container--block" aria-labelledby="footerCreditsHeader">
+            <h2 class="text-h3" id="footerCreditsHeader">
               Produced by
             </h2>
-            <article class="section-container--block">
-              <figure class="image-title landscape">
-                <img src="https://s3.amazonaws.com/codenewbie-assets/codenewbie+logo.png" alt="About CodeNewbie">
-              </figure>
+            <div class="section-container--block">
+              <h3 class="image-title landscape">
+                <img src="https://s3.amazonaws.com/codenewbie-assets/codenewbie+logo.png" alt="CodeNewbie">
+              </h3>
               <p>
                 <a href="https://www.codenewbie.org/" target="_blank">CodeNewbie</a>
                 is the most supportive community of programmers and people learning
                 to code. We produce content to support people on their coding
                 journey.
               </p>
-            </article>
-            <article class="section-container--block">
-              <figure class="image-title square">
-                <img src="/images/DEV-tilted-af83ec95.png" alt="About CodeNewbie">
-              </figure>
+            </div>
+            <div class="section-container--block">
+              <h3 class="image-title square">
+                <img src="/images/DEV-tilted-af83ec95.png" alt="DEV">
+              </h3>
               <p>
-                <a href="https://www.dev.to/" target="_blank">DEV</a> is a
+                <a href="https://dev.to" target="_blank">DEV</a> is a
                 community of software developers getting together to help one
                 another out. The software industry relies on collaboration and
                 networked learning. We provide a place for that to happen.
               </p>
-            </article>
+            </div>
           </section>
-        </article>
-        <article class="footer-body--contact">
-          <h2 class="text-h3">
+        </div>
+        <nav class="footer-body--contact" aria-labelledby="footerContactLinks">
+          <h2 class="text-h3" id="footerContactLinks">
             Contact
           </h2>
           <ul>
@@ -381,8 +385,8 @@
               Email: <a href="mailto:hello@forem.com" target="_blank">hello@forem.com</a>
             </li>
           </ul>
-        </article>
-        <article class="footer-body--links">
+        </nav>
+        <nav class="footer-body--links" aria-label="Legal Information">
           <ul>
             <li>
               <a href="/privacy">Privacy Policy</a>
@@ -391,10 +395,10 @@
               <a href="/terms">Terms of Service</a>
             </li>
           </ul>
-        </article>
+        </nav>
       </div>
     </section>
-  </section>
+  </div>
 </footer>
 
   </body>
