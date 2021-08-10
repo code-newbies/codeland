@@ -66,8 +66,9 @@
     padding: 5px 0px 10px;
     &.landscape {
       img {
-        max-height: auto;
-        max-width: 320px;
+        height: auto;
+        width: 320px;
+        max-width: 100%;
       }
     }
 
