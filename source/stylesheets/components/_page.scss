@@ -7,3 +7,13 @@
     padding-top: $gutter-top;
   }
 }
+
+.simple-footer {
+  @include container-phone();
+  margin-bottom: 1em;
+
+  @include media-tablet-landscape() {
+    @include container-tablet-landscape(48vw);
+    margin-bottom: 2em;
+  }
+}

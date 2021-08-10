@@ -1,5 +1,5 @@
 
-<article class="sticker-pack">
+<div class="sticker-pack" aria-hidden="true">
   <% data.stickers.stickers.each do |f| %>
   <img
     src="<%= image_path f.path, resize: "95x95" %>"
@@ -19,4 +19,4 @@
   >
   <% end %>
 
-</article>
+</div>
