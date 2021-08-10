@@ -1,7 +1,21 @@
 <section class="hero-section">
   <div class="hero-section--container">
     <h1 class="hero-section--image">
-      <%= image_tag "codeland-2021-logo.png", :alt=>"CodeLand 2021" %>
+      <img
+        src="<%= image_path "codeland-2021-logo.png", resize: "320x320" %>"
+        width="2167"
+        height="993"
+        alt="CodeLand 2021"
+        sizes="(min-width: 675px) 610px,  calc((100vw - 2em) * .96)"
+        srcset="
+        <%= image_path "codeland-2021-logo.png", resize: "320x320" %> 320w,
+        <%= image_path "codeland-2021-logo.png", resize: "610x610" %> 610w,
+        <%= image_path "codeland-2021-logo.png", resize: "640x640" %> 640w,
+        <%= image_path "codeland-2021-logo.png", resize: "960x960" %> 960w,
+        <%= image_path "codeland-2021-logo.png", resize: "1220x1220" %> 1220w,
+        <%= image_path "codeland-2021-logo.png", resize: "1830x1830" %> 1830w
+        "
+      >
     </h1>
     <p class="hero-section--description">
       The most welcoming conference for early-career coders and their champions. Produced by <a href="https://www.codenewbie.org/" target="_blank">CodeNewbie</a> and <a href="http://dev.to">DEV,</a> two software communities built on <a href="https://www.forem.com/">Forem.</a>
