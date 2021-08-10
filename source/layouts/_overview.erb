@@ -14,15 +14,11 @@
         width="5001"
         height="2113"
         alt="A screenshot of a virtual panel from CodeLand: Distributed, featuring Rukia Sheikh-Mohamed, Chloe Condon, and Amit Nambiar, moderated by emcee Saron Yitbarek."
-        sizes=" (min-width: 1024px) calc(76vw * 0.45),  calc(90vw - 40px)"
+        sizes=" (min-width: 1024px) calc((76vw - 2em) * 0.45),  calc((90vw - 2em) * .9)"
         srcset="
-        <%= image_path "codeland-2020-screencap-0.png", resize: "200" %> 200w,
-        <%= image_path "codeland-2020-screencap-0.png", resize: "400" %> 400w,
-        <%= image_path "codeland-2020-screencap-0.png", resize: "800" %> 800w,
-        <%= image_path "codeland-2020-screencap-0.png", resize: "1200" %> 1200w,
-        <%= image_path "codeland-2020-screencap-0.png", resize: "1600" %> 1600w,
-        <%= image_path "codeland-2020-screencap-0.png", resize: "2400" %> 2400w,
-        <%= image_path "codeland-2020-screencap-0.png", resize: "3200" %> 3200w
+        <% for i in 1..8 do %>
+          <%= image_path "codeland-2020-screencap-0.png", resize: 302 * i %> <%= 302 * i %>w<%= "," if i != 8 %>
+        <% end %>
         "
       >
     </div>
