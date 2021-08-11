@@ -2,7 +2,21 @@
   <div class="section-container">
     <div class="footer-header">
       <div class="footer-title--image">
-        <%= image_tag "codeland-2021-logo.png", :alt=>"CodeLand 2021" %>
+        <img
+          src="<%= image_path "codeland-2021-logo.png", resize: "322" %>"
+          width="2167"
+          height="993"
+          alt="CodeLand 2021"
+          sizes="(min-width: 675px) 610px,  calc((100vw - 40px) * .96)"
+          srcset="
+          <%= image_path "codeland-2021-logo.png", resize: "322" %> 322w,
+          <%= image_path "codeland-2021-logo.png", resize: "610" %> 610w,
+          <%= image_path "codeland-2021-logo.png", resize: "644" %> 644w,
+          <%= image_path "codeland-2021-logo.png", resize: "966" %> 966w,
+          <%= image_path "codeland-2021-logo.png", resize: "1220" %> 1220w,
+          <%= image_path "codeland-2021-logo.png", resize: "1830" %> 1830w
+          "
+        >
       </div>
       <div class="footer-title--description text-h3">
         Produced by <a href="https://dev.to" target="_blank">DEV</a> and <a href="https://www.codenewbie.org/" target="_blank">CodeNewbie</a>.
@@ -25,7 +39,18 @@
             </h2>
             <div class="section-container--block">
               <h3 class="image-title landscape">
-                <img src="https://s3.amazonaws.com/codenewbie-assets/codenewbie+logo.png" alt="CodeNewbie">
+                <img
+                  src="<%= image_path "codenewbie_logo.png", resize: "320" %>"
+                  width="1252"
+                  height="183"
+                  alt="CodeNewbie"
+                  sizes="(min-width: 260px) 320px,  calc((100vw - 2em)"
+                  srcset="
+                  <%= image_path "codenewbie_logo.png", resize: "320" %> 320w,
+                  <%= image_path "codenewbie_logo.png", resize: "640" %> 640w,
+                  <%= image_path "codenewbie_logo.png", resize: "960" %> 960w,
+                  "
+                >
               </h3>
               <p>
                 <a href="https://www.codenewbie.org/" target="_blank">CodeNewbie</a>
@@ -36,7 +61,18 @@
             </div>
             <div class="section-container--block">
               <h3 class="image-title square">
-                <img src="<%= image_path " DEV-tilted.png" %>" alt="DEV">
+                <img
+                  src="<%= image_path "DEV-tilted.png", resize: "80" %>"
+                  width="80"
+                  height="80"
+                  alt="DEV"
+                  sizes="80px"
+                  srcset="
+                  <%= image_path "DEV-tilted.png", resize: "80" %> 80w,
+                  <%= image_path "DEV-tilted.png", resize: "160" %> 160w,
+                  <%= image_path "DEV-tilted.png", resize: "240" %> 240w,
+                  "
+                >
               </h3>
               <p>
                 <a href="https://dev.to" target="_blank">DEV</a> is a

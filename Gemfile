@@ -13,3 +13,11 @@ gem 'middleman', '~> 4.3', '>= 4.3.11'
 gem 'middleman-livereload'
 gem 'middleman-sprockets', '~> 4.1', '>= 4.1.1'
 gem 'middleman-gh-pages', '~> 0.4.1'
+gem 'middleman-images'
+
+# For resizing images:
+gem 'mini_magick'
+
+# For optimizing images:
+gem 'image_optim'
+gem 'image_optim_pack'
