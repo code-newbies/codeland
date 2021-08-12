@@ -7,6 +7,14 @@
 .section-card.distributed-program {
     background: #323DA3;
     top: -100px;
+
+    &:before {
+      height: 120%;
+      background: #323DA3;
+      transform: rotate(-2.5deg);
+      left: 100px;
+      top: -50px;
+    }
 }
 
 .flare {
@@ -28,7 +36,7 @@
   }
 }
 
-.speaker-item {
+.keynote-item {
   display: grid;
   grid-template-columns: 20% auto;
   align-items: center;
@@ -55,6 +63,10 @@
 .talk-title a {
   color: #ffffff;
   text-decoration: none;
+}
+
+.full-name {
+  margin-bottom: 3%;
 }
 
 .speaker-bio {
