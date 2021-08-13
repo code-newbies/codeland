@@ -9,49 +9,69 @@
 
       <div class="keynote-item">
         <div class="speaker-item--profile">
-          <img src="https://dev-to-uploads.s3.amazonaws.com/i/0n9iqmvk7p5w0i84uys1.jpg">
+          <img
+            src="<%= image_path "Gift-Egwuenu.jpg" %>"
+            alt="Gift Egwuenu">
         </div>
         <div class="speaker-item--info">
           <h4 class="text-h3 talk-title">
-            "What I Learned From 6 Years Of Building CodeNewbie"
-            <!-- <span class="flare" style="background-color: #FEE6AB">keynote</span> -->
+            "One Rule to Rule Them All: Learning in Public"
           </h3>
           <h5 class="text-h4 full-name">
-            Saron Yitbarek
+            Gift Egwuenu
           </h5>
-          <p class="speaker-bio">Saron Yitbarek is an entrepreneur and founder of CodeNewbie, now owned by DEV. She's also a developer, speaker, and podcaster.</p>
+          <p class="speaker-bio">Gift Egwuenu is a frontend consultant at Passionate People and a content creator based in Haarlem Netherlands, She loves engaging with and advocating for open and inclusive developer communities and loves sharing her knowledge and experience by creating tech content for developers.</p>
         </div>
       </div>
 
       <div class="keynote-item">
         <div class="speaker-item--profile">
-          <img src="https://dev-to-uploads.s3.amazonaws.com/i/0n9iqmvk7p5w0i84uys1.jpg">
+          <img
+            src="<%= image_path "Helen-Sandi.jpg" %>"
+            alt="Helen Sandi">
         </div>
         <div class="speaker-item--info">
           <h4 class="text-h3 talk-title">
-            "What I Learned From 6 Years Of Building CodeNewbie"
-            <!-- <span class="flare" style="background-color: #FEE6AB">keynote</span> -->
+            "Musical Lessons for Engineering Teams: Developing a Culture of Feedback Cycles"
           </h3>
           <h5 class="text-h4 full-name">
-            Saron Yitbarek
+            Helen Sandi
           </h5>
-          <p class="speaker-bio">Saron Yitbarek is an entrepreneur and founder of CodeNewbie, now owned by DEV. She's also a developer, speaker, and podcaster.</p>
+          <p class="speaker-bio"> Helen Sandi is the Director of Open Source Initiatives at 10up and a Lead Developer for the WordPress open source software project, now powering more than 40% of the web. From her start as a PHP/MySQL applications developer to focusing on "the front-end of the back-end" from both the development and UX perspectives, she has a knack for figuring out what people need to get things done on their websites, including most recently on the relaunch of WhiteHouse.gov for the Biden-Harris Administration.</p>
         </div>
       </div>
 
       <div class="keynote-item">
         <div class="speaker-item--profile">
-          <img src="https://dev-to-uploads.s3.amazonaws.com/i/0n9iqmvk7p5w0i84uys1.jpg">
+          <img
+            src="<%= image_path "Anna-Lytical.jpg" %>"
+            alt="Anna Lytical">
         </div>
         <div class="speaker-item--info">
           <h4 class="text-h3 talk-title">
-            "What I Learned From 6 Years Of Building CodeNewbie"
-            <!-- <span class="flare" style="background-color: #FEE6AB">keynote</span> -->
+            "Coding's a Drag"
           </h3>
           <h5 class="text-h4 full-name">
-            Saron Yitbarek
+            Anna Lytical
           </h5>
-          <p class="speaker-bio">Saron Yitbarek is an entrepreneur and founder of CodeNewbie, now owned by DEV. She's also a developer, speaker, and podcaster.</p>
+          <p class="speaker-bio">Anna Lytical is a "sickeningly entertaining" coding drag queen who creates fun and educational coding content to engage a young LGBTQ+ audience on TikTok, Twitter, YouTube, and beyond. When not inspiring the next generation of developers with their tutorials and videos, Anna Lytical works at Google as a Developer Experience Engineer.</p>
+        </div>
+      </div>
+
+      <div class="keynote-item">
+        <div class="speaker-item--profile">
+          <img
+            src="<%= image_path "Ben-Halpern.jpg" %>"
+            alt="Ben Halpern">
+        </div>
+        <div class="speaker-item--info">
+          <h4 class="text-h3 talk-title">
+            "Taking Back the Internet — Community, Connection, & Code"
+          </h3>
+          <h5 class="text-h4 full-name">
+             Ben Halpern
+          </h5>
+          <p class="speaker-bio">Ben Halpern is a full stack developer, and the co-founder of and Chief Creative Officer of Forem: the open source community software powering dev.to, CodeNewbie Community, and many others. Every day, Ben goes to work and gets to help make the Internet a more inclusive and constructive place – he can't imagine doing anything else.</p>
         </div>
       </div>
 
@@ -63,12 +83,11 @@
             <div class="speaker-item">
               <div class="speaker-item--info">
                 <h4 class="text-h3 talk-title">
-                  <%= talk.title %>
-                  <!-- <span class="flare" style="background-color: #E3EFEB">talk</span> -->
+                  "<%= talk.title %>"
                 </h4>
                 <% talk[:speakers].each do |speaker| %>
                   <h5 class="text-h4 full-name">
-                    <%= speaker.full_name %>
+                    <%= speaker.name %>
                   </h5>
                   <p class="speaker-bio"><%= speaker.bio %></p>
                 <% end %>
