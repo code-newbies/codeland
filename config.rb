@@ -68,13 +68,13 @@ configure :build do
     def imgixUrl(path,*params)
 
 
-      case ENV.CONTEXT
+      case ENV["CONTEXT"]
       when 'production'
-        return imgixClient.path(ENV.URL + '/images/' + path).to_url(params)
+        return imgixClient.path(ENV["URL"] + '/images/' + path).to_url(params)
       when 'branch-deploy'
-        return imgixClient.path(ENV.DEPLOY_PRIME_URL + '/images/' + path).to_url(params)
+        return imgixClient.path(ENV["DEPLOY_PRIME_URL"] + '/images/' + path).to_url(params)
       when 'deploy-preview'
-        return imgixClient.path(ENV.DEPLOY_PRIME_URL + '/images/' + path).to_url(params)
+        return imgixClient.path(ENV["DEPLOY_PRIME_URL"] + '/images/' + path).to_url(params)
       else
         return  path
       end
