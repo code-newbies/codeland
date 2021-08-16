@@ -4,15 +4,24 @@
     <header>
       <h2 class="headline-display">Who's Speaking at CodeLand?</h2>
     </header>
-    <section class="section-container speaker-overviews" aria-label="Keynote speakers at CodeLand 2021">
+    <section class="speaker-overviews" aria-label="Keynote speakers at CodeLand 2021">
       <h3 class="text-h2" id="keynotes-header">Keynote Speakers</h2>
 
       <% data.keynotes2021.keynotes.each do |keynote| %>
       <div class="keynote-item">
         <div class="speaker-item--profile">
           <img
-            src="<%= image_path keynote.image %>"
-            alt="<%= keynote.name %> profile photo">
+            src="<%= image_path keynote.image.path, resize: "365" %>"
+            alt="<%= keynote.name %> profile photo"
+            width="<%= keynote.image.width %>"
+            height="<%= keynote.image.height %>"
+            sizes="(min-width: 1200px) calc((76vw - 2em) * .84 * .2 * .8),  calc((76vw - 2em) * .84 * .5)"
+            srcset="
+            <%= image_path keynote.image.path, resize: "365" %> 365w,
+            <%= image_path keynote.image.path, resize: "730" %> 730w,
+            <%= image_path keynote.image.path, resize: "1095" %> 1095w
+            "
+          >
         </div>
         <div class="speaker-item--info">
 

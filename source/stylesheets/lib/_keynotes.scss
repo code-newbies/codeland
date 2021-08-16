@@ -18,14 +18,14 @@
 }
 
 .section-card.keynotes img {
-  max-width: 80%;
-  max-height: auto;
+  width: 80%;
+  height: auto;
   border: #ffffff solid 2px;
   border-radius: 50%;
   display: block;
   margin: 0 auto;
   @media screen and (max-width: 1200px) {
-    max-width: 50%;
+    width: 50%;
   }
 }
 
@@ -68,7 +68,7 @@
   }
 }
 
-.section-container.speaker-overviews {
+.speaker-overviews {
   margin: 0 auto;
   padding: 8%;
 }
