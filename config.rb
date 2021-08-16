@@ -51,7 +51,7 @@ end
 # activate :images
 
 
-client = Imgix::Client.new(domain: 'codeland.imgix.net', secure_url_token: 'wcUGdXtR3qh2y82a', auto: 'format')
+imgixClient = Imgix::Client.new(domain: 'codeland.imgix.net', secure_url_token: 'wcUGdXtR3qh2y82a', auto: 'format')
 
 configure :development do
   helpers do
