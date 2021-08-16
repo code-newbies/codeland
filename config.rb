@@ -67,6 +67,10 @@ configure :build do
   helpers do
     def imgixUrl(path,params={})
 
+      defaultParams = {auto: 'compress,format'}
+
+      params.merge!(defaultParams)
+
       imgixClient = Imgix::Client.new(domain: 'codeland.imgix.net', secure_url_token: 'wcUGdXtR3qh2y82a', auto: 'format')
 
       case ENV["CONTEXT"]
