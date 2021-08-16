@@ -1,18 +1,15 @@
-#distributed-program {
+#keynotes {
   position: relative;
   color: #ffffff;
   background: #323DA3;
 }
 
-.section-card.distributed-program {
+.section-card.keynotes {
     background: #323DA3;
-    top: -100px;
-
     &:before {
-      height: 105%;
+      height: 120%;
       background: #323DA3;
       transform: rotate(-2.5deg);
-      left: 100px;
       top: -50px;
     }
 }
@@ -24,7 +21,7 @@
   font-size: .8em;
 }
 
-.section-card.distributed-program img {
+.section-card.keynotes img {
   max-width: 80%;
   max-height: auto;
   border: #ffffff solid 2px;
@@ -43,7 +40,6 @@
   @media screen and (max-width: 1200px) {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    text-align: justify;
   }
 }
 
