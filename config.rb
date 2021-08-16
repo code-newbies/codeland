@@ -81,7 +81,12 @@ configure :build do
       when 'deploy-preview'
         return imgixClient.path(ENV["DEPLOY_PRIME_URL"] + '/images/' + path).to_url(params)
       else
-        return  path
+        if ENV["GITHUB_ACTION"]
+          return imgixClient.path('https://codelandconf.com/images/' + path).to_url(params)
+        else
+          return  path
+        end
+
       end
     end
 
