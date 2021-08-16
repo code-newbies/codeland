@@ -46,6 +46,45 @@ configure :build do
   activate :minify_javascript
 end
 
-activate :asset_hash
+# activate :asset_hash
 
-activate :images
+# activate :images
+
+
+
+
+configure :development do
+  helpers do
+
+    def imgixUrl(path,params={})
+
+      return '/images/' + path
+    end
+  end
+end
+
+configure :build do
+  helpers do
+    def imgixUrl(path,params={})
+
+      defaultParams = {auto: 'compress,format'}
+
+      params.merge!(defaultParams)
+
+      imgixClient = Imgix::Client.new(domain: 'codeland.imgix.net', secure_url_token: 'wcUGdXtR3qh2y82a', auto: 'format')
+
+      case ENV["CONTEXT"]
+      when 'production'
+        return imgixClient.path(ENV["URL"] + '/images/' + path).to_url(params)
+      when 'branch-deploy'
+        return imgixClient.path(ENV["DEPLOY_PRIME_URL"] + '/images/' + path).to_url(params)
+      when 'deploy-preview'
+        return imgixClient.path(ENV["DEPLOY_PRIME_URL"] + '/images/' + path).to_url(params)
+      else
+        return  path
+      end
+    end
+
+
+  end
+end

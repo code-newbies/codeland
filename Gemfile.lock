@@ -48,6 +48,7 @@ GEM
       fspath (>= 2.1, < 4)
       image_optim (~> 0.19)
     image_size (2.1.1)
+    imgix (4.0.3)
     in_threads (1.5.4)
     kramdown (2.3.1)
       rexml
@@ -140,6 +141,7 @@ PLATFORMS
 DEPENDENCIES
   image_optim
   image_optim_pack
+  imgix
   middleman (~> 4.3, >= 4.3.11)
   middleman-gh-pages (~> 0.4.1)
   middleman-images
