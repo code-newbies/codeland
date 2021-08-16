@@ -2,7 +2,7 @@ keynotes:
   - name: Gift Egwuenu
     image:
       path: 'Gift-Egwuenu.jpg'
-      widht: 313
+      width: 313
       height: 350
     title: 'One Rule to Rule Them All: Learning in Public'
     bio: |
@@ -10,7 +10,7 @@ keynotes:
   - name: Helen Hou-Sandí
     image:
       path: 'Helen-Hou-Sandi.jpg'
-      widht: 850
+      width: 850
       height: 850
     title: 'Musical Lessons for Engineering Teams: Developing a Culture of Feedback Cycles'
     bio: |
@@ -18,7 +18,7 @@ keynotes:
   - name: Anna Lytical
     image:
       path: 'Anna-Lytical.jpg'
-      widht: 786
+      width: 786
       height: 788
     title: "Coding's a Drag"
     bio: |
@@ -26,7 +26,7 @@ keynotes:
   - name: Ben Halpern
     image:
       path: 'Ben-Halpern.jpg'
-      widht: 1444
+      width: 1444
       height: 1450
     title: 'Everything We Forgot to Tell You About Forem'
     bio: |
