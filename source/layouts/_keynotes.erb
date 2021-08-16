@@ -11,15 +11,15 @@
       <div class="keynote-item">
         <div class="speaker-item--profile">
           <img
-            src="<%= imgixUrl(keynote.image.path, {w: 365}) %>"
+            src="<%= imgixUrl(keynote.image.path, {w: 365, h: 365, crop: 'faces,center', fit: 'crop'}) %>"
             alt="<%= keynote.name %> profile photo"
             width="<%= keynote.image.width %>"
-            height="<%= keynote.image.height %>"
+            height="<%= keynote.image.width %>"
             sizes="(min-width: 1200px) calc((76vw - 2em) * .84 * .2 * .8),  calc((76vw - 2em) * .84 * .5)"
             srcset="
-            <%= imgixUrl(keynote.image.path, {w: 365}) %> 365w,
-            <%= imgixUrl(keynote.image.path, {w: 730}) %> 730w,
-            <%= imgixUrl(keynote.image.path, {w: 1095}) %> 1095w
+            <%= imgixUrl(keynote.image.path, {w: 365, h: 365, crop: 'faces,center', fit: 'crop'}) %> 365w,
+            <%= imgixUrl(keynote.image.path, {w: 730, h: 730, crop: 'faces,center', fit: 'crop'}) %> 730w,
+            <%= imgixUrl(keynote.image.path, {w: 1095, h: 1095, crop: 'faces,center', fit: 'crop'}) %> 1095w
             "
           >
         </div>
