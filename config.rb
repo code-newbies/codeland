@@ -56,7 +56,7 @@ end
 configure :development do
   helpers do
 
-    def imgixUrl(path,*params)
+    def imgixUrl(path,params={})
 
       return '/images/' + path
     end
@@ -65,7 +65,7 @@ end
 
 configure :build do
   helpers do
-    def imgixUrl(path,*params)
+    def imgixUrl(path,params={})
 
       imgixClient = Imgix::Client.new(domain: 'codeland.imgix.net', secure_url_token: 'wcUGdXtR3qh2y82a', auto: 'format')
 
