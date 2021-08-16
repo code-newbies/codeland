@@ -1,7 +1,7 @@
 <section id="talks" class="section-card talks" aria-label="Talks at CodeLand 2021">
   <div class="section-container">
       <% data.talks2021.sort { |a, b| [a[:track], a[:title]] <=> [b[:track], b[:title]] }.group_by { |t| t[:track] }.each do |track, talks| %>
-        <div class="track-item">
+        <div class="track-item" id="<%= track.gsub(' ', '_').camelize.gsub(/\p{^Alnum}/, '') %>">
           <h3 class="text-h2">Theme: <%= track %></h3>
 
           <% talks.each do |talk| %>
