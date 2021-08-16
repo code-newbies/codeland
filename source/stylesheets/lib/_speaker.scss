@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.speaker-item {
+  padding: 5% 0;
+}
+
 .speaker-page {
   nav {
     max-width: 1200px;
@@ -10,17 +14,21 @@
     float: none;
     padding: 20px;
     background: white;
-    img { max-width: 200px; }
+    img {
+      max-width: 200px;
+    }
     .boxed {
       float: right;
       margin-top: 0px;
     }
   }
 
-  section { padding: 50px 10%; }
+  section {
+    padding: 50px 10%;
+  }
 
   .btn--back-to-speakers a {
-    font-family: "Open Sans", "Helvetica", "san serif";
+    font-family: 'Open Sans', 'Helvetica', 'san serif';
     font-size: 18px;
   }
 
@@ -28,21 +36,27 @@
     padding-top: 80px;
     img {
       border-radius: 50%;
-      border: solid 5px #323DA3;
-      @include span-columns(3); }
-    h5 { margin-top: 0px; margin-bottom: 0px; }
+      border: solid 5px #323da3;
+      @include span-columns(3);
+    }
+    h5 {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
     .speaker-profile-info {
       @include span-columns(9);
       h2 {
         margin-top: 0px;
         text-transform: none;
       }
-      h4 { margin-top: 0px; }
+      h4 {
+        margin-top: 0px;
+      }
     }
     .speaker-bio-name {
       font-size: 30px;
       font-weight: 600;
-      margin-bottom: 0px; 
+      margin-bottom: 0px;
     }
     .speaker-byline {
       font-weight: 900;
@@ -53,20 +67,34 @@
     }
   }
 
-  @media only screen and (max-width: 500px) { 
-    .mobile { display: inline-block; }
-    .desktop { display: none; }
-    nav {
-      img { max-width: 50%; }
-      div.button.get-tickets.box { font-size: 12px; }
+  @media only screen and (max-width: 500px) {
+    .mobile {
+      display: inline-block;
     }
-    section { padding: 10px 10%; }
+    .desktop {
+      display: none;
+    }
+    nav {
+      img {
+        max-width: 50%;
+      }
+      div.button.get-tickets.box {
+        font-size: 12px;
+      }
+    }
+    section {
+      padding: 10px 10%;
+    }
     .speaker-profile div.speaker-profile-info {
       @include span-columns(12);
     }
   }
-  @media only screen and (min-width: 501px) { 
-    .mobile { display: none; }
-    .desktop { display: block; }
+  @media only screen and (min-width: 501px) {
+    .mobile {
+      display: none;
+    }
+    .desktop {
+      display: block;
+    }
   }
 }
