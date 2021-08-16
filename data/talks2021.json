@@ -11,7 +11,7 @@
     "speakers": [
       {
         "name": "Bea",
-        "bio": "Bea is a Frontend Engineer, who transitioned into technology with the help of coding communities. She is passionate about helping others and aspires to mentor others in the future"
+        "bio": "Bea is a frontend engineer, who transitioned into technology with the help of coding communities. She is passionate about helping others and aspires to mentor others in the future"
       }
     ]
   },
@@ -27,7 +27,7 @@
     "speakers": [
       {
         "name": "Julia Seidman",
-        "bio": "Julia is a believer in the careen, rather than the career.  After studying anthropology and writing a senior thesis on the ethics of museum collections of human skeletal remains, she took the job she could get, which was fundraising for a hospital.  From there, she became a financial analyst and employee educator for 401k plans.  Then, after getting a Master's in Ed, she taught high school English and ESL for most of a decade.  Now, she is a technical content marketing consultant and developer."
+        "bio": "Julia is a believer in the careen, rather than the career. After studying anthropology and writing a senior thesis on the ethics of museum collections of human skeletal remains, she took the job she could get: fundraising for a hospital. From there, she became a financial analyst and employee educator for 401k plans. Then, after getting her Master's in education, she taught high school English and ESL for most of a decade. Now, she is a technical content marketing consultant and developer."
       }
     ]
   },
@@ -42,119 +42,119 @@
     "slides_url": null,
     "speakers": [
       {
-        "name": "JosefineS",
+        "name": "Josefine S",
         "bio": "30-year-old frontend engineer based in Hamburg, Germany. Ready to take over the world by storm on good days, wondering when she will be exposed as the imposter she is on bad ones. "
       }
     ]
   },
   {
-    "title": "It's the markup that matters",
+    "title": "It's the Markup That Matters",
     "abstract": "Learn how the markup we write impacts not just the Document Object Model (DOM), but, indirectly, also the Accessibility Object Model (AOM), and how this impacts end users.",
     "format": "Talk",
     "track": "Technical Deep Dives",
     "tags": [],
     "id": 6,
-    "video_url": null,
-    "slides_url": null,
+    "video_url": "",
+    "slides_url": "",
     "speakers": [
       {
-        "name": "Hidde",
+        "name": "Hidde de Vries",
         "bio": "Hidde is a web developer and accessibility specialist who believes in the power of markup. As a freelancer, he helps governments, organisations and companies with fast, scalable and accessible front-end solutions for their end users."
       }
     ]
   },
   {
-    "title": "Developing beyond code",
+    "title": "Developing Beyond Code",
     "abstract": "Design is an important aspect of every product development process. Sometimes designers are left out of the development process after the design is handed to the engineering team and often end up lamenting about the designs not being implemented as intended. They understand the “why” and “who” of the product development and should be included in the process till delivery.  In this talk, I would discuss why design is important and should be adopted in product development, Ways designers can help improve products, Pitch Ideas to stakeholders, and also save the company money. ",
     "format": "Talk",
     "track": "Technical Deep Dives",
     "tags": [],
     "id": 7,
-    "video_url": null,
-    "slides_url": null,
+    "video_url": "",
+    "slides_url": "",
     "speakers": [
       {
-        "name": "Brownie ",
-        "bio": "Hello! I'm a user experience designer with over one year of experience and a passionate design advocate, open-source designer, writer, and speaker. My interest surrounds accessibility and Inclusion. I love to build user-centered products and design digital solutions."
+        "name": "Victory Brown",
+        "bio": "Victory Brown is a user experience designer with knowledge in user research, user interviews, storytelling, prototyping, wire-framing, and more. With a background in education, she has successfully transitioned into technology as a User Experience Designer,  open source advocate, and a member of the sustain UX working group. She loves talking about design, accessibility, and diversity."
       }
     ]
   },
   {
-    "title": "This box will change your life",
+    "title": "This Box Will Change Your Life",
     "abstract": "Is the struggle of battling with margins, paddings and layout in front end development all too familiar? Understanding the CSS box model will change your life. By exploring this powerful and fundamental concept through a series of code examples and real-world examples, you'll feel empowered to tackle your next project with confidence. CSS doesn't have to be scary. This box will change your life.",
     "format": "Talk",
     "track": "Technical Deep Dives",
     "tags": [],
     "id": 8,
-    "video_url": null,
-    "slides_url": null,
+    "video_url": "",
+    "slides_url": "",
     "speakers": [
       {
-        "name": "@whitep4nth3r",
-        "bio": "whitep4nth3r helps developers build stuff, learn things and love what they do. She's a teacher, musician, and an expert in web technologies, with a fierce mission to promote accessibility and inclusivity in technology on planet earth."
+        "name": "Salma Alam-Naylor",
+        "bio": "Salma — also known as whitep4nth3r — helps developers build stuff, learn things and love what they do. She's a teacher, musician, and an expert in web technologies, with a fierce mission to promote accessibility and inclusivity in technology on planet earth."
       }
     ]
   },
   {
-    "title": "The beauty of being stuck",
+    "title": "The Beauty of Being Stuck",
     "abstract": "Being stuck is an uncomfortable feeling when developing. Over time, I've realized there's something beautiful about being stuck. It signifies the precipice of knowledge. Ultimately, I want to give early in career developers tools and support to get unstuck. Here's what I'd love to talk about:\r\n\r\n- Everyone gets stuck from early devs to senior and beyond.\r\n- Why getting stuck is beneficial. I'd like to do a little deep dive into the psychology of learning.\r\n- What should you do when you get stuck. And how do you move on. I'd love to talk about this with a remote mindset.",
     "format": "Talk",
     "track": "Path to Programmer",
     "tags": [],
     "id": 9,
-    "video_url": null,
-    "slides_url": null,
+    "video_url": "",
+    "slides_url": "",
     "speakers": [
       {
         "name": "Jonathan Yeong",
-        "bio": "Jonathan Yeong is a senior developer at Shopify. While he's a Rubyist at heart, he loves learning new languages. And enjoys the feeling of not knowing anything. He's passionate bout the process of learning and creating the human connections in technology.\r\n"
+        "bio": "Jonathan Yeong is a Senior Developer at Shopify and a Rubyist at heart. In his spare time, Jonathan produces videos about all things programming and writes on dev.to and CodeNewbie Community about topics that matter to early-career developers."
       }
     ]
   },
   {
-    "title": "When deeds speak, words mean nothing",
+    "title": "“When Deeds Speak, Words Mean Nothing”",
     "abstract": "\"If you don't have a seat at the table, you're probably on the menu\" The lack of diversity in tech persists and needs to be tackled from a different perspective. I'm reminded again of the following; \"If they don't offer you a seat at the table, bring a folding chair.\" I want the talk to inspire underrepresented groups to not shy away from considering a career in tech. A talk that takes a historical and a global look at the achievements and contributions women and POC have and are making in tech.\r\nHow individuals with limited resources are helping to solve problems for their local communities.",
     "format": "Talk",
     "track": "Code for Good",
     "tags": [],
     "id": 10,
-    "video_url": null,
-    "slides_url": null,
+    "video_url": "",
+    "slides_url": "",
     "speakers": [
       {
-        "name": "Charlene",
-        "bio": "On Twitter, I'm known as The Accidental Coder. Never in a million years did I think I would be pursuing this career, but now I'm on a mission."
+        "name": "Charlene Kuye",
+        "bio": "Charlene considers herself an \"accidental coder\" — never in a million years did she think she'd be working in tech. But, working towards becoming an instructor for Harvard's famous CS50 course was the catalyst for change she needed to enter the field. In 2020, she founded DCODED ACADEMY, an online hub dedicated to teaching and building a diverse community of UX/UI developers and designers who code."
       }
     ]
   },
   {
-    "title": "How to find a mentor",
+    "title": "How to Find a Mentor",
     "abstract": "Your first few years as a software developer can be very challenging. There is so much to learn about coding and building a career in the technology industry. Doing it by yourself can be overwhelming. This is where mentors come in.\r\n\r\nMost people have to find a mentor themselves. Most people, however, don't know how to find a mentor. What should you do? Where should you start?\r\n\r\nWe will cover the following concepts:\r\n- What is mentorship?\r\n- What to do before searching for a mentor\r\n- Where to find mentors?\r\n- How to ask someone to be your mentor\r\n- How to work with a mentor once you have found one",
     "format": "Talk",
     "track": "Early-Career Confidence",
     "tags": [],
     "id": 11,
-    "video_url": null,
-    "slides_url": null,
+    "video_url": "",
+    "slides_url": "",
     "speakers": [
       {
         "name": "Tanaka Mutakwa",
-        "bio": "I'm a technology leader who is driven to help software engineers have fulfilling careers. VP of Engineering at Names \u0026 Faces."
+        "bio": "Tanaka is a technology leader who is driven to help software engineers have fulfilling careers. He works as the VP of Engineering at Names \u0026 Faces."
       }
     ]
   },
   {
-    "title": "You're not an Imposter, You're a Life-Long Learner",
+    "title": "You’re Not an Imposter, You’re a Life-Long Learner",
     "abstract": "We talk about imposter Syndrome a lot in tech, but not as much in schools; students don't seem to often have imposter syndrome. That's because it comes from the expectations you hold for yourself. Students _know_ they're students and thus expect to be learning. We are always learning, but imposter syndrome seeks to tell us that we should already know better even when it's impossible to do so. This session will give you a toolbox to replace that thinking with a desire for opportunity rather than the pre-conception that allows a confidence killer to take root. ",
     "format": "Talk",
     "track": "Early-Career Confidence",
     "tags": [],
     "id": 12,
-    "video_url": null,
-    "slides_url": null,
+    "video_url": "",
+    "slides_url": "",
     "speakers": [
       {
-        "name": "metz.pj@gmail.com",
+        "name": "Pj Metz",
         "bio": "Pj is a former educator who now works as an Education Evangelist at GitLab. After teaching for 11 years, Pj made the transition into tech in May of 2021 after teaching himself to code during the summer and fall of the pandemic. He is a passionate public speaker and has spoken at a Microsoft conference as well as hosted several meetups and other events representing GitLab. You can catch him on Twitch building a website about poetry or building his next pop-star-based Twitter bot. "
       }
     ]
@@ -176,46 +176,46 @@
     ]
   },
   {
-    "title": "How to Provide Value from Day 1 of Your Dev Career",
+    "title": "How to Provide Value from Day One of Your Dev Career",
     "abstract": "As a developer, you might think that the only way you can contribute to your team is through the lines of code that you produce. But in actuality, the job of a developer is significantly more sociotechnical than purely technical. And as you progress in your career, the less tangible ways to provide value become more important. Learn how you can do that from your very first day 🗓️\r\n\r\nSituations we will cover:\r\n- Documentation 📝\r\n- Team Culture and Alignment ✔️\r\n- Product Quality 💯\r\n- Onboarding Experience 💻\r\n- Peer Development 🤝",
     "format": "Talk",
     "track": "Early-Career Confidence",
     "tags": [],
     "id": 14,
-    "video_url": null,
-    "slides_url": null,
+    "video_url": "",
+    "slides_url": "",
     "speakers": [
       {
         "name": "Thuy Doan",
-        "bio": "Thuy Doan is a Canadian developer working at Prodigy Education. Before that she was a business school graduate and a social media marketer, who once ran a blog and wrote the odd commercial. She loves MMOs but retired in 2011 because she could not stop opening gacha boxes 🐉👗 Her favourite game is Contra III 👾and her favourite thing is candid conversations 💜"
+        "bio": "Thuy Doan is a Canadian developer working at Prodigy Education. Before that, she was a business school graduate and a social media marketer, who once ran a blog and wrote the odd commercial here and there. She loves MMOs but retired in 2011 because she could not stop opening Gacha boxes. Her favorite game is Contra III and her favorite thing is a candid conversation."
       }
     ]
   },
   {
-    "title": "From Contributor to a Maintainer/manager in Open Source",
+    "title": "From Contributor to Maintainer/Manager in Open Source",
     "abstract": "As contributors begin their journey into Open source, they gain new skills and experience that increase their capacity and impact on their careers. Most contributors even consider handling maintainer/management roles within the community they find themselves in. While contributors and managers are seen as problem solvers in a community, they both solve problems in different ways. In this session, we'll look at the difference between an individual contributor’s role and a manager's role in a community. We'll also discuss ways to transition and fit into a managerial role as a contributor.",
     "format": "Talk",
     "track": "Open Source Strong",
     "tags": [],
     "id": 15,
-    "video_url": null,
-    "slides_url": null,
+    "video_url": "",
+    "slides_url": "",
     "speakers": [
       {
         "name": "Anita Ihuman",
-        "bio": "A Software Developer, an Author and a Speaker who enjoys sharing information through Public Speaking and Technical Writing. I love learning, teaching, and engaging with the Open Source communities."
+        "bio": "Anita is a software developer, an author, and a speaker who enjoys teaching, sharing information through technical writing, learning, and engaging with open source communities."
       }
     ]
   },
   {
-    "title": "Docs are Everyone's Business",
+    "title": "Docs Are Everyone's Business",
     "abstract": "2020 was the year we began showing our product docs the care they needed and made them inner sourced, because docs are everyone's business. \r\nOur goal was to make it easy for our teams and customers to use and love our cloud product internally, with the help of documentation. So, what did we learn, and how did we do it?\r\nIn this talk, Alex will take you through the then and now journey of how internal engineering product docs evolved and how the community and customers contribute to the changes and how you can do it too!",
     "format": "Talk",
     "track": "Open Source Strong",
     "tags": [],
     "id": 16,
-    "video_url": null,
-    "slides_url": null,
+    "video_url": "",
+    "slides_url": "",
     "speakers": [
       {
         "name": "Alex Radu",
@@ -224,34 +224,34 @@
     ]
   },
   {
-    "title": "Babystepping your way to become an Open Source Contributor",
+    "title": "Babystepping Your Way to Becoming an Open Source Contributor",
     "abstract": "People look for the perfect opportunity to start contributing to open source: an ideal match of languages and interests, something they are deeply knowledgeable about, their own idea. Frequently this won't be the case, but it's perfectly ok to contribute even if you're not the most respected expert in that field. Submit a pull request, make mistakes and... be ok with it!\r\nCome learn how to slowly, but surely, start contributing: finding out things you care about and want to help grow, getting the confidence to submit an issue or a PR, stepping up to say \"let me help you handle that, officially\"!",
     "format": "Talk",
     "track": "Open Source Strong",
     "tags": [],
     "id": 17,
-    "video_url": null,
-    "slides_url": null,
+    "video_url": "",
+    "slides_url": "",
     "speakers": [
       {
-        "name": "Tulio Leao",
-        "bio": "Tulio always wanted to be involved in Open Source, and all of a sudden he was a contributor, then the maintainer of a project, later three projects and a few organizations and who knows how many by the time this gets published."
+        "name": "Tulio Paschoalin Leao",
+        "bio": "Tulio always wanted to be involved in open source, and all of a sudden he was a contributor, then the maintainer of a project, three projects, and a few organizations — who knows how many by the time this gets published!"
       }
     ]
   },
   {
-    "title": "How I went from Tech Support to Developer",
+    "title": "How I Went From Tech Support to Developer",
     "abstract": "My first job was for Nintendo of America, telling people how to connect their consoles up to a television. My talk covers how I started there and became a full-time developer, without a computer science degree, or an ivy-league pedigree, or a coding bootcamp.\r\n\r\nThe main talking points:\r\n\r\n* discrimination in tech is real\r\n* my story\r\n* how I self-taught\r\n \u003e focus on one topic\r\n \u003e the truth about bootcamps\r\n* Getting that first role\r\n* knowing when to move on - how to change jobs\r\n* burnout! on the dev team\r\n* the current tech scene and the skills (I think!) that are the most valuable",
     "format": "Talk",
     "track": "Path to Programmer",
     "tags": [],
     "id": 5,
-    "video_url": null,
-    "slides_url": null,
+    "video_url": "",
+    "slides_url": "",
     "speakers": [
       {
         "name": "Nočnica Fee",
-        "bio": "Nočnica Fee is a dev advocate  specializing in cloud applications, serverless, and containerization. She writes regularly for The New Stack and has been published in Information Age and Forbes. She blogs on dev.to, streams on twitch at twitch.tv/serverlessmom, and spends her weekends caring for her dozens of houseplants."
+        "bio": "Nočnica Fee is a developer advocate, specializing in cloud applications, serverless computing, and containerization. She writes regularly for The New Stack and has been published in Information Age and Forbes. She blogs on dev.to, streams on Twitch at twitch.tv/serverlessmom, and spends her weekends caring for her dozens of houseplants."
       }
     ]
   }
