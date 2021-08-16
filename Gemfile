@@ -21,3 +21,5 @@ gem 'mini_magick'
 # For optimizing images:
 gem 'image_optim'
 gem 'image_optim_pack'
+
+gem 'imgix'

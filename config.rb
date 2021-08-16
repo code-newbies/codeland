@@ -48,4 +48,38 @@ end
 
 activate :asset_hash
 
-activate :images
+# activate :images
+
+
+client = Imgix::Client.new(domain: 'codeland.imgix.net', secure_url_token: 'wcUGdXtR3qh2y82a')
+
+configure :development do
+  helpers do
+
+    def imgixUrl(path,params)
+
+      return '/images/' + path
+    end
+  end
+end
+
+configure :build do
+  helpers do
+    def imgixUrl(path,params)
+
+
+      case ENV.CONTEXT
+      when 'production'
+        return imgixClient.path(ENV.URL + '/images/' + path).to_url(params)
+      when 'branch-deploy'
+        return imgixClient.path(ENV.DEPLOY_PRIME_URL + '/images/' + path).to_url(params)
+      when 'deploy-preview'
+        return imgixClient.path(ENV.DEPLOY_PRIME_URL + '/images/' + path).to_url(params)
+      else
+        return '/images/' + path
+      end
+    end
+
+
+  end
+end
