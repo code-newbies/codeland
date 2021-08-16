@@ -2,23 +2,23 @@ keynotes:
   - name: Gift Egwuenu
     image:
       path: 'Gift-Egwuenu.jpg'
-      widht: 313
+      width: 313
       height: 350
     title: 'One Rule to Rule Them All: Learning in Public'
     bio: |
       <p>Gift Egwuenu is a frontend consultant at Passionate People and a content creator based in Haarlem Netherlands, She loves engaging with and advocating for open and inclusive developer communities and loves sharing her knowledge and experience by creating tech content for developers.</p>
-  - name: Helen Sandi
+  - name: Helen Hou-Sandí
     image:
-      path: 'Helen-Sandi.jpg'
-      widht: 850
+      path: 'Helen-Hou-Sandi.jpg'
+      width: 850
       height: 850
     title: 'Musical Lessons for Engineering Teams: Developing a Culture of Feedback Cycles'
     bio: |
-      <p>Helen Sandi is the Director of Open Source Initiatives at 10up and a Lead Developer for the WordPress open source software project, now powering more than 40% of the web. From her start as a PHP/MySQL applications developer to focusing on "the front-end of the back-end" from both the development and UX perspectives, she has a knack for figuring out what people need to get things done on their websites, including most recently on the relaunch of WhiteHouse.gov for the Biden-Harris Administration.</p>
+      <p>Helen-Hou-Sandí is the Director of Open Source Initiatives at 10up and a Lead Developer for the WordPress open source software project, now powering more than 40% of the web. From her start as a PHP/MySQL applications developer to focusing on "the front-end of the back-end" from both the development and UX perspectives, she has a knack for figuring out what people need to get things done on their websites, including most recently on the relaunch of WhiteHouse.gov for the Biden-Harris Administration.</p>
   - name: Anna Lytical
     image:
       path: 'Anna-Lytical.jpg'
-      widht: 786
+      width: 786
       height: 788
     title: "Coding's a Drag"
     bio: |
@@ -26,7 +26,7 @@ keynotes:
   - name: Ben Halpern
     image:
       path: 'Ben-Halpern.jpg'
-      widht: 1444
+      width: 1444
       height: 1450
     title: 'Everything We Forgot to Tell You About Forem'
     bio: |

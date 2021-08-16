@@ -7,7 +7,7 @@
     <section class="speaker-overviews" aria-label="Keynote speakers at CodeLand 2021">
       <h3 class="text-h2" id="keynotes-header">Keynote Speakers</h2>
 
-      <% data.keynotes2021.keynotes.each do |keynote| %>
+      <% data.keynotes2021.keynotes.sort { |a, b| [a[:name]] <=> [b[:name]] }.each do |keynote| %>
       <div class="keynote-item">
         <div class="speaker-item--profile">
           <img
