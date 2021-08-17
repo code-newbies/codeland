@@ -46,7 +46,7 @@ configure :build do
   activate :minify_javascript
 end
 
-# activate :asset_hash
+activate :asset_hash
 
 # activate :images
 
