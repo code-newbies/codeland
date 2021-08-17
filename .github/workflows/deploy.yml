@@ -12,7 +12,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          bundler-cache: false
+          bundler-cache: true
       - name: Install dependencies
         run: bundle install
       - name: Deploy to GitHub Pages
