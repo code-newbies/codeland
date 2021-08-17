@@ -1,3 +1,15 @@
+<%
+  title = 'CodeLand Conference 2021'
+  description = 'The most welcoming conference for early-career coders and their champions.'
+
+  if current_page.data.title
+    title = current_page.data.title + ' - ' + title
+  end
+
+  if current_page.data.description
+    description = current_page.data.description
+  end
+%>
 <!doctype html>
 <html lang="en">
   <head>
@@ -8,18 +20,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="codenewbie, conference, programmer, coding,
     code newbie, dev conference, dev.to">
-    <meta name="description" content="The most welcoming conference for early-career coders and their champions.">
+    <meta name="description" content="<%= description %>">
 
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://codelandconf.com/" />
-    <meta property="og:title" content="CodeLand Conference 2021" />
+    <meta property="og:title" content="<%= title %>" />
     <meta property="og:image" content="https://codelandconf.com<%= image_path "social-image.png" %>">
-    <meta property="og:description" content="The most welcoming conference for early-career coders and their champions." />
+    <meta property="og:description" content="<%= description %>" />
     <meta property="og:site_name" content="CodeLand" />
 
     <meta name="twitter:site" content="@CodeNewbies">
-    <meta name="twitter:title" content="CodeLand Conference 2021">
-    <meta name="twitter:description" content="The most welcoming conference for early-career coders and their champions.">
+    <meta name="twitter:title" content="<%= title %>">
+    <meta name="twitter:description" content="<%= description %>">
     <meta name="twitter:image:src" content="https://codelandconf.com<%= image_path "social-image.png" %>">
     <meta name="twitter:card" content="summary_large_image">
 
@@ -38,7 +50,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="<%= image_path "favicon-16x16.png" %>">
     <meta name="theme-color" content="#ffffff">
 
-    <title>CodeLand Conference 2021</title>
+    <title><%= title %></title>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Chivo:400,700,900&display=swap" rel="stylesheet">
     <%= stylesheet_link_tag :style %>
