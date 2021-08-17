@@ -53,7 +53,7 @@ configure :development do
 
     def imgixUrl(path,params={})
 
-      return '/images/' + path
+      return image_path(path)
     end
   end
 end
@@ -66,20 +66,24 @@ configure :build do
 
       params.merge!(defaultParams)
 
-      imgixClient = Imgix::Client.new(domain: 'codeland.imgix.net', secure_url_token: 'wcUGdXtR3qh2y82a', auto: 'format')
+      if !ENV["IMGIX_DOMAIN"] || !ENV["IMGIX_TOKEN"]
+        return image_path(path)
+      end
+
+      imgixClient = Imgix::Client.new(domain: ENV["IMGIX_DOMAIN"], secure_url_token: ENV["IMGIX_TOKEN"])
 
       case ENV["CONTEXT"]
       when 'production'
-        return imgixClient.path(ENV["URL"] + '/images/' + path).to_url(params)
+        return imgixClient.path(ENV["URL"] + image_path(path)).to_url(params)
       when 'branch-deploy'
-        return imgixClient.path(ENV["DEPLOY_PRIME_URL"] + '/images/' + path).to_url(params)
+        return imgixClient.path(ENV["DEPLOY_PRIME_URL"] + image_path(path)).to_url(params)
       when 'deploy-preview'
-        return imgixClient.path(ENV["DEPLOY_PRIME_URL"] + '/images/' + path).to_url(params)
+        return imgixClient.path(ENV["DEPLOY_PRIME_URL"] + image_path(path)).to_url(params)
       else
         if ENV["GITHUB_ACTION"]
-          return imgixClient.path('https://codelandconf.com/images/' + path).to_url(params)
+          return imgixClient.path('https://codelandconf.com' + image_path(path)).to_url(params)
         else
-          return  path
+          return image_path(path)
         end
       end
     end
