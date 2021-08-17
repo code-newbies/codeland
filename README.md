@@ -1,3 +1,5 @@
+[![Deploy](https://github.com/code-newbies/codeland/actions/workflows/deploy.yml/badge.svg)](https://github.com/code-newbies/codeland/actions/workflows/deploy.yml)
+
 ## CodeLand!
 
 This is a [Middleman](https://middlemanapp.com/) staticly-generated site. It is Ruby based with `erb` syntax and conventions familiar to Ruby on Rails developers.
