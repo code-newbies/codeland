@@ -1,8 +1,12 @@
+.workshops--headline {
+	padding-bottom: 5%;
+}
+
 .workshop-item {
 	padding-bottom: 10%;
 	@include media-tablet-landscape() {
     	@include grid();
-    	grid-column-gap: 3%;
+    	grid-column-gap: 2%;
     }
 }
 
