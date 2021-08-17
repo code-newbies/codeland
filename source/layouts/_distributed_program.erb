@@ -1,0 +1,51 @@
+<section id="distributed-program" class="section-card distributed-program">
+  <div class="mask"></div>
+  <div class="section-container">
+    <header>
+      <h1>Who's Speaking at CodeLand?</h1>
+    </header>
+    <div class="section-container speaker-overviews">
+    <h2 id="talks">Talks - Thursday, July 23</h2>
+    <% data.talks.speakers.each do |speaker| %>
+      <div class="speaker-item">
+        <div class="speaker-item--profile">
+          <img src="<%= speaker.image_url %>">
+        </div>
+        <div class="speaker-item--info">
+          <div class="talk-title">
+            "<%= speaker.talk_title %>"
+            <% if speaker.talk_type == "talk" %>
+              <span class="flare" style="background-color: #E3EFEB">talk</span>
+            <% else speaker.talk_type == "keynote" %>
+              <span class="flare" style="background-color: #FEE6AB">keynote</span>
+            <% end %>
+          </div>
+          <div class="speaker-bio"><%= speaker.bio %></div>
+        </div>
+      </div>
+    <% end %>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <h2 id="workshops">Workshops - Friday, July 24</h2>
+    <% data.workshops.speakers.each do |speaker| %>
+      <div class="speaker-item">
+        <div class="speaker-item--profile">
+          <img src="<%= speaker.image_url %>">
+        </div>
+        <div class="speaker-item--info">
+          <div class="talk-title">
+            "<a href="/workshops/<%= speaker.full_name.gsub(" ", "-").downcase %>"><%= speaker.talk_title %></a>"
+              <span class="flare" style="background-color: #DFD4FC">workshop</span>
+          </div>
+          <div>Hosted by: <%= speaker.full_name %></div>
+          <br>
+          <div class="speaker-bio"><%= markdown speaker.talk_abstract %></div>
+          <br>
+          <div class="speaker-learn-more"><a href="/workshops/<%= speaker.full_name.gsub(" ", "-").downcase %>">Learn more about this workshop.</a></div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</section>
