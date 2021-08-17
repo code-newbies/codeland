@@ -17,6 +17,9 @@ bundle install
 
 # Start the server locally (development mode)
 bundle exec middleman server
+
+# Build the site
+bundle exec middleman build
 ```
 
 For more info, visit the [Middleman docs](https://middlemanapp.com/basics/install/)
