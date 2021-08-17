@@ -48,4 +48,37 @@ end
 
 activate :asset_hash
 
-activate :images
+helpers do
+  def imgixUrl(path,params={})
+
+    defaultParams = {auto: 'compress,format'}
+
+    params.merge!(defaultParams)
+
+    if !ENV["IMGIX_DOMAIN"] || !ENV["IMGIX_TOKEN"]
+      return image_path(path)
+    end
+
+    imgixClient = Imgix::Client.new(domain: ENV["IMGIX_DOMAIN"], secure_url_token: ENV["IMGIX_TOKEN"])
+
+    # CONTEXT is a read-only env variable provided by netlify. If we're on netlify, we can figure out our
+    #   domain via the following env variables.
+    #   See more at https://docs.netlify.com/configure-builds/environment-variables/#read-only-variables
+
+    case ENV["CONTEXT"]
+      when 'production'
+        return imgixClient.path(ENV["URL"] + image_path(path)).to_url(params)
+      when 'branch-deploy'
+        return imgixClient.path(ENV["DEPLOY_PRIME_URL"] + image_path(path)).to_url(params)
+      when 'deploy-preview'
+        return imgixClient.path(ENV["DEPLOY_PRIME_URL"] + image_path(path)).to_url(params)
+      else
+        # If we're NOT on netlify, either use IMGIX_SOURCE_DOMAIN or just return the image path
+        if ENV["IMGIX_SOURCE_DOMAIN"]
+          return imgixClient.path(ENV["IMGIX_SOURCE_DOMAIN"] + image_path(path)).to_url(params)
+        else
+          return image_path(path)
+        end
+    end
+  end
+end

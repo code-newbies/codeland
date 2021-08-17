@@ -1,0 +1,30 @@
+<section id="talks" class="section-card talks" aria-label="Talks at CodeLand 2021">
+  <div class="section-container">
+      <% data.talks2021.sort { |a, b| [a[:track], a[:speakers][0][:name]] <=> [b[:track], b[:speakers][0][:name]] }.group_by { |t| t[:track] }.each do |track, talks| %>
+        <div class="track-item">
+          <h3 class="text-h2">Theme: <span class="flare" id="<%= track.gsub(' ', '_').camelize.gsub(/\p{^Alnum}/, '') %>"><%= track %></span></h3>
+
+          <% talks.each do |talk| %>
+            <div class="speaker-item">
+              <div class="speaker-item--info">
+                <h4 class="text-h3 talk-title">
+                  "<%= talk.title %>"
+                </h4>
+                <% talk[:speakers].each do |speaker| %>
+                  <h5 class="text-h4 full-name">
+                    <%= speaker.name %>
+                  </h5>
+                  <p class="speaker-bio"><%= speaker.bio %></p>
+                <% end %>
+              </div>
+            </div>
+          <% end %>
+
+          <div class="return-top">
+            <a href="#program">Return to top of program</a>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,41 @@
+#talks {
+  position: relative;
+  background: #E3EFEB;
+}
+
+.section-card.talks {
+  &:before {
+	height: 100%;
+	background: #E3EFEB;
+	transform: rotate(2deg);
+	left: -200px;
+	top: -50px;
+  }
+}	
+
+.return-top {
+	padding-bottom: 5%;
+}
+
+.flare {
+  padding: 0 4px;
+  border-radius: 2px;
+}
+
+.flare-pink, #CodeForGood, #TechnicalDeepDives {
+	background-color: #FF8DCF;
+}
+
+.flare-blue, #EarlyCareerConfidence {
+	background-color: #B3BFF4;
+}
+
+
+.flare-green, #OpenSourceStrong {
+	background-color: #48DBA4;
+}
+
+
+.flare-yellow, #PathToProgrammer {
+	background-color: #FFD702;
+}

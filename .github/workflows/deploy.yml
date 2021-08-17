@@ -18,6 +18,9 @@ jobs:
       - name: Deploy to GitHub Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          IMGIX_SOURCE_DOMAIN: 'https://codelandconf.com'
+          IMGIX_DOMAIN: ${{ secrets.IMGIX_DOMAIN }}
+          IMGIX_TOKEN: ${{ secrets.IMGIX_TOKEN }}
         run: |
           git remote set-url origin "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/code-newbies/codeland.git"
           git config --global user.email "$(git log --format='%ae' HEAD^!)"
