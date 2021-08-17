@@ -19,6 +19,3 @@
 
 vendor/
 /cache
-
-# Hosted tools cache
-/opt
