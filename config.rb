@@ -48,11 +48,6 @@ end
 
 activate :asset_hash
 
-# activate :images
-
-
-
-
 configure :development do
   helpers do
 
@@ -86,10 +81,7 @@ configure :build do
         else
           return  path
         end
-
       end
     end
-
-
   end
 end
