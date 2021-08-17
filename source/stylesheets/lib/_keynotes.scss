@@ -10,13 +10,6 @@
   }
 }
 
-.flare {
-  color: #000000;
-  padding: 0 4px;
-  border-radius: 5px;
-  font-size: 0.8em;
-}
-
 .section-card.keynotes img {
   width: 80%;
   height: auto;
@@ -26,6 +19,7 @@
   margin: 0 auto;
   @media screen and (max-width: 1200px) {
     width: 50%;
+    margin-bottom: 5%;
   }
 }
 
@@ -59,7 +53,7 @@
   text-decoration: none;
 }
 
-.full-name {
+.full-name, .keynote-item--name {
   margin-bottom: 3%;
 }
 
@@ -84,3 +78,5 @@
     color: #ffffff;
   }
 }
+
+
