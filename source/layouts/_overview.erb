@@ -10,14 +10,14 @@
     </header>
     <div class="overview--image">
       <img
-        src="<%= image_path "codeland-2020-screencap-0.png", resize: "200" %>"
+        src="<%= imgixUrl("codeland-2020-screencap-0.png", {w: "200"}) %>"
         width="5001"
         height="2113"
         alt="A screenshot of a virtual panel from CodeLand: Distributed, featuring Rukia Sheikh-Mohamed, Chloe Condon, and Amit Nambiar, moderated by emcee Saron Yitbarek."
         sizes=" (min-width: 1024px) calc((76vw - 2em) * 0.45),  calc((90vw - 2em) * .9)"
         srcset="
         <% for i in 1..8 do %>
-          <%= image_path "codeland-2020-screencap-0.png", resize: 302 * i %> <%= 302 * i %>w<%= "," if i != 8 %>
+          <%= imgixUrl("codeland-2020-screencap-0.png", {w: 302 * i}) %> <%= 302 * i %>w<%= "," if i != 8 %>
         <% end %>
         "
       >

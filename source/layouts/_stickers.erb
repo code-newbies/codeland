@@ -2,19 +2,19 @@
 <div class="sticker-pack" aria-hidden="true">
   <% data.stickers.stickers.each do |f| %>
   <img
-    src="<%= image_path f.path, resize: "95" %>"
+    src="<%= imgixUrl(f.path, {w: 95}) %>"
     width="<%= f.originalWidth %>"
     height="<%= f.originalHeight %>"
     alt=""
     class="sticker <%= f.className %>"
     sizes=" (min-width: 1024px) 210px,  95px"
     srcset="
-    <%= image_path f.path, resize: "95" %> 95w,
-    <%= image_path f.path, resize: "190" %> 190w,
-    <%= image_path f.path, resize: "210" %> 210w,
-    <%= image_path f.path, resize: "285" %> 285w,
-    <%= image_path f.path, resize: "420" %> 420w,
-    <%= image_path f.path, resize: "630" %> 630w
+    <%= imgixUrl(f.path, {w: 95}) %> 95w,
+    <%= imgixUrl(f.path, {w: 190}) %> 190w,
+    <%= imgixUrl(f.path, {w: 210}) %> 210w,
+    <%= imgixUrl(f.path, {w: 285}) %> 285w,
+    <%= imgixUrl(f.path, {w: 420}) %> 420w,
+    <%= imgixUrl(f.path, {w: 630}) %> 630w
     "
   >
   <% end %>
