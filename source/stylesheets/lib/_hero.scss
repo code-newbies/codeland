@@ -61,9 +61,10 @@
 }
 
 .hero-section--button {
-  margin-bottom: 0.25em;
+  margin: 3.5em 0 6em;
   display: block;
   width: 100%;
+  border-radius: 8px;
 
   @include media-tablet-landscape() {
     width: auto;
