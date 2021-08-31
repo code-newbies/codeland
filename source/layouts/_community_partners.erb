@@ -12,7 +12,7 @@
     <div class="section-container--body media-grid-container">
       <% data.partners.partners.each do |partner| %>
         <figure class="media-grid-item">
-          <a href="<%= partner.link %>" target="_blank">
+          <a href="<%= partner.link %>" target="_blank" rel="noopener">
             <%= image_tag partner.img %>
           </a>
         </figure>
