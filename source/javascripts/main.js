@@ -3,7 +3,7 @@ $(document).ready(function(){
     $(".nav-link--menu").toggleClass("active");
   });
 
-  $(".nav-link--item").on("click", function(e) {
+  $(".nav-link--item > a").on("click", function(e) {
     $(".nav-link--menu").removeClass("active");
   });
 
