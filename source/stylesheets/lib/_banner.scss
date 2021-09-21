@@ -11,3 +11,10 @@
   width: 100%;
   padding: 2%;
 }
+
+.site-banner--header {
+  font-size: 1.5rem;
+  @include media-tablet-landscape() {
+  	font-size: 3rem;
+  }
+}

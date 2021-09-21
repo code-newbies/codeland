@@ -1,10 +1,10 @@
-<div id="keynotes" class="section-card keynotes">
+<section id="keynotes" class="section-card keynotes" aria-label="Keynotes at CodeLand 2021">
   <div class="mask"></div>
   <div class="section-container">
     <header>
       <h2 class="headline-display">Who's Speaking at CodeLand?</h2>
     </header>
-    <section class="speaker-overviews" aria-label="Keynote speakers at CodeLand 2021">
+    <div class="speaker-overviews" aria-label="Keynote speakers at CodeLand 2021">
       <h3 class="text-h2" id="keynotes-header">Keynote Speakers</h2>
 
       <% data.keynotes2021.keynotes.sort { |a, b| [a[:name]] <=> [b[:name]] }.each do |keynote| %>
@@ -38,6 +38,6 @@
 
       </div>
       <% end %>
-    </section>
+    </div>
   </div>
-</div>
+</section>
