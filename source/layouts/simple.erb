@@ -1,5 +1,8 @@
 <% wrap_layout :layout do %>
-  <%= partial "layouts/nav" %>
+  <div class="site-header--container">
+    <%= partial "layouts/banner" %>
+    <%= partial "layouts/nav" %>
+  </div>
   <main>
     <%= yield %>
   </main>

@@ -4,7 +4,7 @@
 
   @include media-tablet-landscape() {
     @include container-tablet-landscape(48vw);
-    padding-top: $gutter-top;
+    padding-top: $gutter-top * 1.75;
   }
 }
 

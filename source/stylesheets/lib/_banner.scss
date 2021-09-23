@@ -1,0 +1,20 @@
+.site-header--container {
+  position: fixed;
+  width: 100%;
+  z-index: 2000;
+}
+
+.site-banner {
+  background-color: #ffd702;
+  border-radius: 3px;
+  text-align: center;
+  width: 100%;
+  padding: 2%;
+}
+
+.site-banner--header {
+  font-size: 1.5rem;
+  @include media-tablet-landscape() {
+  	font-size: 3rem;
+  }
+}
