@@ -65,6 +65,9 @@
   display: block;
   width: 100%;
   border-radius: 8px;
+  position: relative;
+  z-index: 1001;
+  outline: 4px solid white;
 
   @include media-tablet-landscape() {
     width: auto;
