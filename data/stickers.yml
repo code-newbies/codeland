@@ -1,21 +1,25 @@
 stickers:
-  - path: 'rockety.png'
+  - path: 'stickers/rockety.png'
     originalWidth: 400
     originalHeight: 400
     className: 'rockety'
-  - path: 'brace-yourself.png'
+  - path: 'stickers/brace-yourself.png'
     originalWidth: 400
     originalHeight: 400
     className: 'brace-yourself'
-  - path: 'contributor.png'
+  - path: 'stickers/contributor.png'
     originalWidth: 890
     originalHeight: 890
     className: 'contributor'
-  - path: 'bee.png'
+  - path: 'stickers/bee.png'
     originalWidth: 200
     originalHeight: 195
     className: 'bee'
-  - path: 'she-coded_2021.png'
+  - path: 'stickers/she-coded_2021.png'
     originalWidth: 2802
     originalHeight: 2709
+    className: 'she-coded'
+  - path: 'stickers/codenewbie.png'
+    originalWidth: 5234
+    originalHeight: 5294
     className: 'she-coded'
