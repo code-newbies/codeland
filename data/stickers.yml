@@ -22,4 +22,4 @@ stickers:
   - path: 'stickers/codenewbie.png'
     originalWidth: 5234
     originalHeight: 5294
-    className: 'she-coded'
+    className: 'codenewbie'
