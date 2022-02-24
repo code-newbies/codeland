@@ -8,6 +8,16 @@
   }
 }
 
+.page-container--logo {
+  text-align: center;
+
+  img {
+    height: auto;
+    width: 96%;
+    max-width: 610px;
+  }
+}
+
 .simple-footer {
   @include container-phone();
   margin-bottom: 1em;
