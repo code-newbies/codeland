@@ -1,21 +1,7 @@
 <section class="hero-section" aria-label="Introduction to CodeLand 2021">
   <div class="hero-section--container">
     <h1 class="hero-section--image" id="heroHeader">
-      <img
-        src="<%= imgixUrl("codeland-2022-logo.png", {w: 322}) %>"
-        width="2168"
-        height="994"
-        alt="CodeLand 2022"
-        sizes="(min-width: 675px) 610px,  calc((100vw - 40px) * .96)"
-        srcset="
-        <%= imgixUrl("codeland-2022-logo.png", {w: 322}) %> 322w,
-        <%= imgixUrl("codeland-2022-logo.png", {w: 610}) %> 610w,
-        <%= imgixUrl("codeland-2022-logo.png", {w: 644}) %> 644w,
-        <%= imgixUrl("codeland-2022-logo.png", {w: 966}) %> 966w,
-        <%= imgixUrl("codeland-2022-logo.png", {w: 1220}) %> 1220w,
-        <%= imgixUrl("codeland-2022-logo.png", {w: 1830}) %> 1830w
-        "
-      >
+      <%= partial "layouts/logo" %>
     </h1>
     <p class="hero-section--description">
       The most welcoming conference for early-career coders and their champions. Produced by <a href="https://community.codenewbie.org/" target="_blank" rel="noopener">CodeNewbie</a> and <a href="https://dev.to">DEV</a>, two software communities built on <a href="https://www.forem.com/">Forem</a>.
