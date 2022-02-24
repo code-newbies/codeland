@@ -100,8 +100,8 @@
   bottom: 46px;
 
   @include media-tablet-landscape() {
-    right: 45px;
-    left: auto;
+    left: 85vw;
+    width: 180px !important;
     bottom: 250px;
   }
 }

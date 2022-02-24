@@ -9,6 +9,48 @@
     <p class="hero-section--subtitle">
       Taking place virtually on <br>June 16 &amp; 17, 2022.
     </p>
+    <div class="hero-section--screenshots" aria-hidden="true">
+      <img
+        src="<%= imgixUrl("screenshots/screenshot-1.png", {w: "200"}) %>"
+        class="screenshot-1"
+        width="2868"
+        height="1610"
+        alt=""
+        sizes=" (min-width: 1024px) calc((76vw - 2em) * 0.45),  calc((90vw - 2em) * .9)"
+        srcset="
+        <% for i in 1..8 do %>
+          <%= imgixUrl("screenshots/screenshot-1.png", {w: 302 * i}) %> <%= 302 * i %>w<%= "," if i != 8 %>
+        <% end %>
+        "
+      >
+      <img
+        src="<%= imgixUrl("screenshots/screenshot-2.png", {w: "200"}) %>"
+        class="screenshot-2"
+        width="2870"
+        height="1610"
+        alt=""
+        sizes=" (min-width: 1024px) calc((76vw - 2em) * 0.45),  calc((90vw - 2em) * .9)"
+        srcset="
+        <% for i in 1..8 do %>
+          <%= imgixUrl("screenshots/screenshot-2.png", {w: 302 * i}) %> <%= 302 * i %>w<%= "," if i != 8 %>
+        <% end %>
+        "
+      >
+      <img
+        src="<%= imgixUrl("screenshots/screenshot-3.png", {w: "200"}) %>"
+        class="screenshot-3"
+        width="2868"
+        height="1602"
+        alt=""
+        sizes=" (min-width: 1024px) calc((76vw - 2em) * 0.45),  calc((90vw - 2em) * .9)"
+        srcset="
+        <% for i in 1..8 do %>
+          <%= imgixUrl("screenshots/screenshot-3.png", {w: 302 * i}) %> <%= 302 * i %>w<%= "," if i != 8 %>
+        <% end %>
+        "
+      >
+
+    </div>
     <%= partial "layouts/hero_submit_talk" %>
     <%= partial "layouts/stickers" %>
   </div>
