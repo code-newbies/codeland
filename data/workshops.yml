@@ -1,4 +1,3 @@
-default: &default_title
 speakers:
 
 - full_name: "Jory Burson"
