@@ -52,16 +52,23 @@
   margin: 0;
   transition: $transition;
 
+  &.active {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 1px #00000017;
+  }
+
   @include media-tablet-landscape() {
     display: flex;
     justify-content: space-between;
     padding: 1.5em 1em;
     width: 100%;
     max-width: $media_desktop;
-  }
 
-  &.active {
-    display: flex;
+    &.active {
+      flex-direction: row;
+      box-shadow: none;
+    }
   }
 
   &.scrolled {
