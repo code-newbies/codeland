@@ -1,15 +1,5 @@
 <section class="hero-section" aria-label="Introduction to CodeLand 2022">
-  <div class="hero-section--container">
-    <h1 class="hero-section--image" id="heroHeader">
-      <%= partial "layouts/logo" %>
-    </h1>
-    <p class="hero-section--description">
-      The most welcoming conference for early-career coders and their champions. Produced by <a href="https://community.codenewbie.org/" target="_blank" rel="noopener">CodeNewbie</a> and <a href="https://dev.to">DEV</a>, two software communities built on <a href="https://www.forem.com/">Forem</a>.
-    </p>
-    <p class="hero-section--subtitle">
-      Taking place virtually on <br>June 16 &amp; 17, 2022.
-    </p>
-    <div class="hero-section--screenshots" aria-hidden="true">
+  <div class="hero-section--screenshots" aria-hidden="true">
       <img
         src="<%= imgixUrl("screenshots/screenshot-1.png", {w: "200"}) %>"
         class="screenshot-1"
@@ -51,6 +41,16 @@
       >
 
     </div>
+  <div class="hero-section--container">
+    <h1 class="hero-section--image" id="heroHeader">
+      <%= partial "layouts/logo" %>
+    </h1>
+    <p class="hero-section--description">
+      The most welcoming conference for early-career coders and their champions. Produced by <a href="https://community.codenewbie.org/" target="_blank" rel="noopener">CodeNewbie</a> and <a href="https://dev.to">DEV</a>, two software communities built on <a href="https://www.forem.com/">Forem</a>.
+    </p>
+    <p class="hero-section--subtitle">
+      Taking place virtually on <br>June 16 &amp; 17, 2022.
+    </p>
     <%= partial "layouts/hero_submit_talk" %>
     <%= partial "layouts/stickers" %>
   </div>

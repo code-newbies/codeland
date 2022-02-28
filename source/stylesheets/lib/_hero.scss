@@ -2,18 +2,19 @@
   display: flex;
   justify-content: center;
   position: relative;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-section--container {
   @include container-phone;
-  padding-top: $gutter + 5;
+  padding-top: 3em;
   padding-bottom: $gutter / 4;
   text-align: center;
 
   @include media-tablet-landscape() {
     width: 720px;
     text-align: center;
-    padding-top: $gutter * 2;
     padding-bottom: $gutter;
   }
 }
@@ -106,63 +107,30 @@
   display: grid;
   gap: 0.5em;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 3.5em 0 0;
+  margin: 6.5em 10vw 0;
+  max-width: $media_desktop;
 
   img {
     max-width: 100%;
     height: auto;
     border-radius: 4px;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
-      0 1px 2px -1px rgba(0, 0, 0, 0.1);
+    transform: perspective(100vw) rotateY(35deg) rotateX(13deg) scale(1.5)
+      translateX(0.2em);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: #fff;
   }
 
   @include media-tablet-landscape() {
-    margin: 0;
-
-    img {
-      position: absolute;
-      outline: 2px solid white;
-    }
-
-    .screenshot-1 {
-      top: 20em;
-      width: 16vw;
-      left: 1vw;
-      z-index: 2;
-    }
-
-    .screenshot-2 {
-      top: 17em;
-      width: 14vw;
-      left: 6vw;
-      z-index: 1;
-    }
-
-    .screenshot-3 {
-      top: 20em;
-      width: 16vw;
-      right: 1vw;
-      z-index: 2;
-    }
+    margin-top: 7.5em;
   }
 
   @include media-desktop() {
-    .screenshot-1 {
-      top: 18em;
-      width: 18vw;
-      left: 2vw;
-    }
+    margin: 6.5em 2em 0;
 
-    .screenshot-2 {
-      top: 14em;
-      width: 17vw;
-      left: 8vw;
-    }
-
-    .screenshot-3 {
-      top: 18em;
-      width: 18vw;
-      right: 2vw;
+    img {
+      transform: perspective(800px) rotateY(25deg) rotateX(10deg) scale(1.15)
+        translateX(1em);
     }
   }
 }
