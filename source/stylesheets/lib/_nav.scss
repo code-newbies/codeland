@@ -52,13 +52,23 @@
   margin: 0;
   transition: $transition;
 
-  @include media-tablet-landscape() {
-    display: inherit;
-    padding: 1.5em 1em;
+  &.active {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 1px #00000017;
   }
 
-  &.active {
-    display: block;
+  @include media-tablet-landscape() {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 1em;
+    width: 100%;
+    max-width: $media_desktop;
+
+    &.active {
+      flex-direction: row;
+      box-shadow: none;
+    }
   }
 
   &.scrolled {
@@ -74,12 +84,7 @@
   width: 100%;
 
   @include media-tablet-landscape() {
-    margin-right: 0.75em;
-    width: max-content;
-
-    &:last-child {
-      margin-right: 0;
-    }
+    width: auto;
   }
 }
 
@@ -97,7 +102,7 @@
   }
 
   @include media-tablet-landscape() {
-    padding: 0 15px;
+    padding: 0;
     width: auto;
 
     &:hover {

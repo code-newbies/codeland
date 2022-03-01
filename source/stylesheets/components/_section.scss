@@ -1,6 +1,7 @@
 .section-card {
   margin-top: $gutter-top / 4;
   margin-bottom: $gutter-bottom / 4;
+  position: relative;
 
   @include media-tablet-landscape() {
     margin-top: $gutter-top / 2;
@@ -8,12 +9,12 @@
   }
 
   &:before {
-    height: -moz-available;          /* WebKit-based browsers will ignore this. */
-    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    height: -moz-available; /* WebKit-based browsers will ignore this. */
+    height: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
     height: fill-available;
     width: 150%;
     position: absolute;
-    content: "";
+    content: '';
   }
 }
 

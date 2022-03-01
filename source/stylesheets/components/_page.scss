@@ -1,10 +1,20 @@
 .page-container {
   @include container-phone();
-  padding-top: $gutter-top;
+  padding-top: 4em;
 
   @include media-tablet-landscape() {
     @include container-tablet-landscape(48vw);
-    padding-top: $gutter-top * 1.75;
+    padding-top: 6em;
+  }
+}
+
+.page-container--logo {
+  text-align: center;
+
+  img {
+    height: auto;
+    width: 96%;
+    max-width: 610px;
   }
 }
 

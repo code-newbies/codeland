@@ -15,7 +15,6 @@
       margin: 0;
     }
   }
-
 }
 
 .sticker.scrolled {
@@ -27,14 +26,14 @@
   position: fixed;
 }
 
-.rockety {
+.sticker-rockety {
   transform: rotate(-45deg);
   bottom: calc(50px + 6vw);
   left: -32px;
 
   &.scrolled {
     @media (prefers-reduced-motion: no-preference) {
-     transform: rotate(-45deg) translate(-120px, -20px) scale(0.8);
+      transform: rotate(-45deg) translate(-120px, -20px) scale(0.8);
     }
   }
 
@@ -44,7 +43,7 @@
   }
 }
 
-.contributor {
+.sticker-contributor {
   transform: rotate(25deg) scale(0.8);
   right: -34px;
   bottom: -120px;
@@ -57,7 +56,7 @@
   }
 }
 
-.brace-yourself {
+.sticker-brace-yourself {
   transform: rotate(-25deg);
   left: 40%;
   bottom: calc(-50px + -6vw);
@@ -70,7 +69,7 @@
   }
 }
 
-.bee {
+.sticker-bee {
   transform: rotate(88deg);
   left: calc(17vw - 45px);
   bottom: -40px;
@@ -82,7 +81,7 @@
   }
 }
 
-.she-coded {
+.sticker-she-coded {
   transform: rotate(10deg);
   right: calc(17vw - 45px);
   bottom: 24px;
@@ -92,5 +91,17 @@
       right: 0;
       transform: rotate(20deg) translate(120px, -100px) scale(0.8);
     }
+  }
+}
+
+.sticker-codenewbie {
+  transform: rotate(-10deg);
+  left: 29vw;
+  bottom: 46px;
+
+  @include media-tablet-landscape() {
+    left: 85vw;
+    width: 180px !important;
+    bottom: 250px;
   }
 }
