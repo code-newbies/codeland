@@ -49,6 +49,27 @@ end
 activate :asset_hash
 
 helpers do
+  def primaryDomain
+    # CONTEXT is a read-only env variable provided by netlify. If we're on netlify, we can figure out our
+    #   domain via the following env variables.
+    #   See more at https://docs.netlify.com/configure-builds/environment-variables/#read-only-variables
+    case ENV["CONTEXT"]
+      when 'production'
+        return ENV["URL"]
+      when 'branch-deploy'
+        return ENV["DEPLOY_PRIME_URL"]
+      when 'deploy-preview'
+        return ENV["DEPLOY_PRIME_URL"]
+      else
+        # If we're NOT on netlify, either use DOMAIN or just return empty string
+        if ENV["DOMAIN"]
+          return ENV["DOMAIN"]
+        else
+          return ''
+        end
+    end
+  end
+
   def imgixUrl(path,params={})
 
     defaultParams = {auto: 'compress,format'}
@@ -61,24 +82,14 @@ helpers do
 
     imgixClient = Imgix::Client.new(domain: ENV["IMGIX_DOMAIN"], secure_url_token: ENV["IMGIX_TOKEN"])
 
-    # CONTEXT is a read-only env variable provided by netlify. If we're on netlify, we can figure out our
-    #   domain via the following env variables.
-    #   See more at https://docs.netlify.com/configure-builds/environment-variables/#read-only-variables
+    domain = primaryDomain()
 
-    case ENV["CONTEXT"]
-      when 'production'
-        return imgixClient.path(ENV["URL"] + image_path(path)).to_url(params)
-      when 'branch-deploy'
-        return imgixClient.path(ENV["DEPLOY_PRIME_URL"] + image_path(path)).to_url(params)
-      when 'deploy-preview'
-        return imgixClient.path(ENV["DEPLOY_PRIME_URL"] + image_path(path)).to_url(params)
-      else
-        # If we're NOT on netlify, either use IMGIX_SOURCE_DOMAIN or just return the image path
-        if ENV["IMGIX_SOURCE_DOMAIN"]
-          return imgixClient.path(ENV["IMGIX_SOURCE_DOMAIN"] + image_path(path)).to_url(params)
-        else
-          return image_path(path)
-        end
+    if domain
+      return imgixClient.path(domain + image_path(path)).to_url(params)
+    elsif ENV["IMGIX_SOURCE_DOMAIN"]
+      return imgixClient.path(ENV["IMGIX_SOURCE_DOMAIN"] + image_path(path)).to_url(params)
+    else
+      return image_path(path)
     end
   end
 end

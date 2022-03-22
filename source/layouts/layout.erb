@@ -9,6 +9,8 @@
   if current_page.data.description
     description = current_page.data.description
   end
+
+
 %>
 <!doctype html>
 <html lang="en">
@@ -23,16 +25,16 @@
     <meta name="description" content="<%= description %>">
 
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://codelandconf.com/" />
+    <meta property="og:url" content="<%= primaryDomain() %>" />
     <meta property="og:title" content="<%= title %>" />
-    <meta property="og:image" content="https://codelandconf.com<%= image_path "social-image.png" %>">
+    <meta property="og:image" content="<%= primaryDomain() %><%= image_path "social-image.png" %>">
     <meta property="og:description" content="<%= description %>" />
     <meta property="og:site_name" content="CodeLand" />
 
     <meta name="twitter:site" content="@CodeLandConf">
     <meta name="twitter:title" content="<%= title %>">
     <meta name="twitter:description" content="<%= description %>">
-    <meta name="twitter:image:src" content="https://codelandconf.com<%= image_path "social-image.png" %>">
+    <meta name="twitter:image:src" content="<%= primaryDomain() %><%= image_path "social-image.png" %>">
     <meta name="twitter:card" content="summary_large_image">
 
     <link rel="apple-touch-icon" sizes="57x57" href="<%= image_path "apple-icon-57x57.png" %>" >
