@@ -127,3 +127,9 @@ em {
   font-style: normal;
   font-weight: 800;
 }
+
+em.normal-em {
+  color: inherit;
+  font-weight: inherit;
+  font-style: italic;
+}
