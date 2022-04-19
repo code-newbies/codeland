@@ -22,3 +22,13 @@ button:hover,
   color: white;
   cursor: pointer;
 }
+
+.button-alt {
+  background: $color-purple-pale;
+  color: rgba(0, 0, 0, 0.8);
+
+  &:hover {
+    background: #fff;
+    color: rgba(0, 0, 0, 1);
+  }
+}

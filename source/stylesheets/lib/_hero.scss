@@ -107,7 +107,7 @@
   display: grid;
   gap: 0.5em;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 6.5em 10vw 0;
+  margin: 3.5em 10vw 0;
   max-width: $media_desktop;
 
   img {
@@ -121,12 +121,8 @@
     background: #fff;
   }
 
-  @include media-tablet-landscape() {
-    margin-top: 7.5em;
-  }
-
   @include media-desktop() {
-    margin: 6.5em 2em 0;
+    margin: 3.5em 2em 0;
 
     img {
       transform: perspective(800px) rotateY(25deg) rotateX(10deg) scale(1.15)

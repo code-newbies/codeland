@@ -2,11 +2,38 @@
   <div class="mask"></div>
   <div class="section-container">
     <header>
-      <h2 class="headline-display">Who's Speaking at CodeLand?</h2>
+      <h2 class="headline-display">Keynote Speaker Announcement!</h2>
     </header>
     <div class="speaker-overviews" aria-label="Keynote speakers at CodeLand 2021">
-      <h3 class="text-h2" id="keynotes-header">Keynote Speakers</h2>
+      <h3 class="text-h2" id="keynotes-header">We've announced our first CodeLand keynote speaker:</h2>
+      <div class="keynote-item">
+        <div class="speaker-item--profile">
+          <img
+            src="<%= imgixUrl('speakers/angie-jones.jpg', {w: 365, h: 365, crop: 'faces,center', fit: 'crop'}) %>"
+            alt="Angie Jones's profile photo"
+            width="3744"
+            height="3641"
+            sizes="(min-width: 1200px) calc((76vw - 2em) * .84 * .2 * .8),  calc((76vw - 2em) * .84 * .5)"
+            srcset="
+            <%= imgixUrl('speakers/angie-jones.jpg', {w: 365, h: 365, crop: 'faces,center', fit: 'crop'}) %> 365w,
+            <%= imgixUrl('speakers/angie-jones.jpg', {w: 730, h: 730, crop: 'faces,center', fit: 'crop'}) %> 730w,
+            <%= imgixUrl('speakers/angie-jones.jpg', {w: 1095, h: 1095, crop: 'faces,center', fit: 'crop'}) %> 1095w
+            "
+          >
+        </div>
+        <div class="speaker-item--info">
 
+          <h4 class="text-h3 keynote-item--title">
+            Angie Jones
+          </h4>
+          <div class="keynote-item--cta">
+            <a href="https://community.codenewbie.org/codenewbie/announcing-codeland-2022s-first-keynote-speaker-angie-jones-1gn8" class="button button-alt">Learn more here</a>
+          </div>
+        </div>
+
+      </div>
+<%
+=begin %>
       <% data.keynotes2021.keynotes.sort { |a, b| [a[:name]] <=> [b[:name]] }.each do |keynote| %>
       <div class="keynote-item">
         <div class="speaker-item--profile">
@@ -38,6 +65,8 @@
 
       </div>
       <% end %>
+<%
+=end %>
     </div>
   </div>
 </section>
