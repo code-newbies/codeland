@@ -35,6 +35,10 @@
   }
 }
 
+.keynote-item--cta {
+  margin-top: 1em;
+}
+
 .speaker-item--info {
   padding: 0 5%;
 }
@@ -53,7 +57,8 @@
   text-decoration: none;
 }
 
-.full-name, .keynote-item--name {
+.full-name,
+.keynote-item--name {
   margin-bottom: 3%;
 }
 
@@ -78,5 +83,3 @@
     color: #ffffff;
   }
 }
-
-
