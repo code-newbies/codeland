@@ -1,6 +1,9 @@
 <section id="talks" class="section-card talks" aria-label="Talks at CodeLand 2022">
   <div class="section-container">
-      <% data.talks2021.sort { |a, b| [a[:track], a[:speakers][0][:name]] <=> [b[:track], b[:speakers][0][:name]] }.group_by { |t| t[:track] }.each do |track, talks| %>
+    <header>
+      <h2 class="headline-display">Talks</h2>
+    </header>
+      <% data.talks2022.sort { |a, b| [a[:track], a[:speakers][0][:name]] <=> [b[:track], b[:speakers][0][:name]] }.group_by { |t| t[:track] }.each do |track, talks| %>
         <div class="track-item">
           <h3 class="text-h2">Theme: <span class="flare" id="<%= track.gsub(' ', '_').camelize.gsub(/\p{^Alnum}/, '') %>"><%= track %></span></h3>
 
@@ -25,6 +28,12 @@
           </div>
         </div>
       <% end %>
+
+      <div class="talks-cta">
+        <%= partial "layouts/register_cta" %>
+      </div>
+
     </div>
+
   </div>
 </section>

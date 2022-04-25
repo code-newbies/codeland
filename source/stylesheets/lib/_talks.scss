@@ -18,7 +18,17 @@
 }
 
 .return-top {
-  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+
+.talks-cta {
+  text-align: center;
+  font-size: 1.25em;
+  margin-top: ($gutter-bottom / 2)/1.25;
+
+  @include media-tablet-landscape() {
+    margin-top: $gutter-bottom / 1.25;
+  }
 }
 
 .flare {
@@ -27,22 +37,21 @@
 }
 
 .flare-pink,
-#CodeForGood,
-#TechnicalDeepDives {
+#BeyondTheBinary {
   background-color: #ff8dcf;
 }
 
 .flare-blue,
-#EarlyCareerConfidence {
+#HealthyCoding {
   background-color: #b3bff4;
 }
 
 .flare-green,
-#OpenSourceStrong {
+#OpenToolbox {
   background-color: #48dba4;
 }
 
 .flare-yellow,
-#PathToProgrammer {
+#TechEthics {
   background-color: #ffd702;
 }

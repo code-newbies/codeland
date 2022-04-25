@@ -1,0 +1,242 @@
+[
+  {
+    "title": "Accessibility in Design",
+    "abstract": "",
+    "format": "Talk",
+    "track": "Beyond the Binary",
+    "tags": [],
+    "id": 1,
+    "video_url": "",
+    "slides_url": "",
+    "speakers": [
+      {
+        "name": "Bethany Jepchumba",
+        "bio": ""
+      }
+    ]
+  },
+  {
+    "title": "Inclusive Web Development",
+    "abstract": "",
+    "format": "Talk",
+    "track": "Beyond the Binary",
+    "tags": [],
+    "id": 2,
+    "video_url": "",
+    "slides_url": "",
+    "speakers": [
+      {
+        "name": "Clifford Ouma",
+        "bio": ""
+      }
+    ]
+  },
+  {
+    "title": "Tech and more - above all biases",
+    "abstract": "",
+    "format": "Talk",
+    "track": "Beyond the Binary",
+    "tags": [],
+    "id": 2,
+    "video_url": "",
+    "slides_url": "",
+    "speakers": [
+      {
+        "name": "Haimantika Mitra",
+        "bio": ""
+      }
+    ]
+  },
+  {
+    "title": "An introduction to the dark art of accessi...",
+    "abstract": "",
+    "format": "Talk",
+    "track": "Beyond the Binary",
+    "tags": [],
+    "id": 2,
+    "video_url": "",
+    "slides_url": "",
+    "speakers": [
+      {
+        "name": "Laurel Younis",
+        "bio": ""
+      }
+    ]
+  },
+  {
+    "title": "Women and tech: Why representation matters",
+    "abstract": "",
+    "format": "Talk",
+    "track": "Beyond the Binary",
+    "tags": [],
+    "id": 2,
+    "video_url": "",
+    "slides_url": "",
+    "speakers": [
+      {
+        "name": "Pachi",
+        "bio": ""
+      }
+    ]
+  },
+  {
+    "title": "Teaching through Code Review",
+    "abstract": "",
+    "format": "Talk",
+    "track": "Healthy Coding",
+    "tags": [],
+    "id": 2,
+    "video_url": "",
+    "slides_url": "",
+    "speakers": [
+      {
+        "name": "Derek Binkley 🇺🇦",
+        "bio": ""
+      }
+    ]
+  },
+  {
+    "title": "Celibrate you're misteaks",
+    "abstract": "",
+    "format": "Talk",
+    "track": "Healthy Coding",
+    "tags": [],
+    "id": 2,
+    "video_url": "",
+    "slides_url": "",
+    "speakers": [
+      {
+        "name": "Joe Glombek",
+        "bio": ""
+      }
+    ]
+  },
+  {
+    "title": "Adjacency and Finding Your Purpose",
+    "abstract": "",
+    "format": "Talk",
+    "track": "Healthy Coding",
+    "tags": [],
+    "id": 2,
+    "video_url": "",
+    "slides_url": "",
+    "speakers": [
+      {
+        "name": "Miss Tracy H.",
+        "bio": ""
+      }
+    ]
+  },
+  {
+    "title": "It’s okay not to be okay",
+    "abstract": "",
+    "format": "Talk",
+    "track": "Healthy Coding",
+    "tags": [],
+    "id": 2,
+    "video_url": "",
+    "slides_url": "",
+    "speakers": [
+      {
+        "name": "Raymond Chung",
+        "bio": ""
+      }
+    ]
+  },
+  {
+    "title": "I think therefore I code",
+    "abstract": "",
+    "format": "Talk",
+    "track": "Healthy Coding",
+    "tags": [],
+    "id": 2,
+    "video_url": "",
+    "slides_url": "",
+    "speakers": [
+      {
+        "name": "Silvia España Gil",
+        "bio": ""
+      }
+    ]
+  },
+  {
+    "title": "Fruitmoji: 🤰 Tracking my pregnancy with Py...",
+    "abstract": "",
+    "format": "Talk",
+    "track": "Open Toolbox",
+    "tags": [],
+    "id": 2,
+    "video_url": "",
+    "slides_url": "",
+    "speakers": [
+      {
+        "name": "Hannah Hazi",
+        "bio": ""
+      }
+    ]
+  },
+  {
+    "title": "Design Systems for Developers",
+    "abstract": "",
+    "format": "Talk",
+    "track": "Open Toolbox",
+    "tags": [],
+    "id": 2,
+    "video_url": "",
+    "slides_url": "",
+    "speakers": [
+      {
+        "name": "Kathryn Grayson Nanz",
+        "bio": ""
+      }
+    ]
+  },
+  {
+    "title": "There's More to Open Source than Code",
+    "abstract": "",
+    "format": "Talk",
+    "track": "Open Toolbox",
+    "tags": [],
+    "id": 2,
+    "video_url": "",
+    "slides_url": "",
+    "speakers": [
+      {
+        "name": "Ramón Huidobro",
+        "bio": ""
+      }
+    ]
+  },
+  {
+    "title": "Tech Ethics Start with the Individual.",
+    "abstract": "",
+    "format": "Talk",
+    "track": "Tech & Ethics",
+    "tags": [],
+    "id": 2,
+    "video_url": "",
+    "slides_url": "",
+    "speakers": [
+      {
+        "name": "Erin Mikail Staples",
+        "bio": ""
+      }
+    ]
+  },
+  {
+    "title": "The Legal side of Open Source",
+    "abstract": "",
+    "format": "Talk",
+    "track": "Tech & Ethics",
+    "tags": [],
+    "id": 2,
+    "video_url": "",
+    "slides_url": "",
+    "speakers": [
+      {
+        "name": "Shubhendra Singh Chauhan",
+        "bio": ""
+      }
+    ]
+  }
+]
