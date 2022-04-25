@@ -116,7 +116,7 @@
 
 .nav-link--item-highlighted a {
   display: inline-block;
-  background: #3a46b4;
+  background: $accent-color;
   color: #fff;
 
   &:hover,
@@ -129,5 +129,12 @@
     padding: 5px 12px;
     border-radius: 4px;
     font-weight: 700;
+
+    &:hover,
+    &:focus {
+      background: $accent-color;
+      color: #fff;
+      text-decoration: underline;
+    }
   }
 }
