@@ -18,9 +18,9 @@ keynotes:
     bio:
   - name: Keynote to be announced.
     image:
-      path: 'speakers/speaker-tba.png'
-      width: 704
-      height: 708
+      path: 'speakers/speaker-tba-2.png'
+      width: 708
+      height: 704
     title:
     learnMode:
     bio:
