@@ -1,20 +1,24 @@
+.section-card.program .section-container {
+  padding-bottom: 0;
+}
+
 #talks {
   position: relative;
-  background: #E3EFEB;
+  background: #e3efeb;
 }
 
 .section-card.talks {
   &:before {
-	height: 100%;
-	background: #E3EFEB;
-	transform: rotate(2deg);
-	left: -200px;
-	top: -50px;
+    height: 100%;
+    background: #e3efeb;
+    transform: rotate(2deg);
+    left: -200px;
+    top: -50px;
   }
-}	
+}
 
 .return-top {
-	padding-bottom: 5%;
+  padding-bottom: 5%;
 }
 
 .flare {
@@ -22,20 +26,23 @@
   border-radius: 2px;
 }
 
-.flare-pink, #CodeForGood, #TechnicalDeepDives {
-	background-color: #FF8DCF;
+.flare-pink,
+#CodeForGood,
+#TechnicalDeepDives {
+  background-color: #ff8dcf;
 }
 
-.flare-blue, #EarlyCareerConfidence {
-	background-color: #B3BFF4;
+.flare-blue,
+#EarlyCareerConfidence {
+  background-color: #b3bff4;
 }
 
-
-.flare-green, #OpenSourceStrong {
-	background-color: #48DBA4;
+.flare-green,
+#OpenSourceStrong {
+  background-color: #48dba4;
 }
 
-
-.flare-yellow, #PathToProgrammer {
-	background-color: #FFD702;
+.flare-yellow,
+#PathToProgrammer {
+  background-color: #ffd702;
 }
