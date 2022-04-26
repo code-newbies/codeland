@@ -61,6 +61,7 @@
   @include media-tablet-landscape() {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     padding: 1.5em 1em;
     width: 100%;
     max-width: $media_desktop;
@@ -108,6 +109,31 @@
     &:hover {
       background: transparent;
       color: $accent-color;
+      text-decoration: underline;
+    }
+  }
+}
+
+.nav-link--item-highlighted a {
+  display: inline-block;
+  background: $accent-color;
+  color: #fff;
+
+  &:hover,
+  &:focus {
+    background: $accent-color-pale;
+    color: $base-color;
+  }
+
+  @include media-tablet-landscape() {
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-weight: 700;
+
+    &:hover,
+    &:focus {
+      background: $accent-color;
+      color: #fff;
       text-decoration: underline;
     }
   }

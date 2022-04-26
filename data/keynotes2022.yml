@@ -1,0 +1,26 @@
+keynotes:
+  - name: Angie Jones
+    image:
+      path: 'speakers/angie-jones.jpg'
+      width: 3744
+      height: 3641
+    title:
+    learnMode: https://community.codenewbie.org/codenewbie/announcing-codeland-2022s-first-keynote-speaker-angie-jones-1gn8
+    bio: |
+      <p>Angie Jones is the Global V.P. of Developer Relations at Block, an IBM Master Inventor as well as an award-winning teacher and a supportive figure for early-career software developers.</p>
+  - name: Keynote to be announced.
+    image:
+      path: 'speakers/speaker-tba.png'
+      width: 704
+      height: 708
+    title:
+    learnMode:
+    bio:
+  - name: Keynote to be announced.
+    image:
+      path: 'speakers/speaker-tba-2.png'
+      width: 708
+      height: 704
+    title:
+    learnMode:
+    bio:
