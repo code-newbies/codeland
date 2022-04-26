@@ -1,20 +1,34 @@
+.section-card.program .section-container {
+  padding-bottom: 0;
+}
+
 #talks {
   position: relative;
-  background: #E3EFEB;
+  background: #e3efeb;
 }
 
 .section-card.talks {
   &:before {
-	height: 100%;
-	background: #E3EFEB;
-	transform: rotate(2deg);
-	left: -200px;
-	top: -50px;
+    height: 100%;
+    background: #e3efeb;
+    transform: rotate(2deg);
+    left: -200px;
+    top: -50px;
   }
-}	
+}
 
 .return-top {
-	padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+
+.talks-cta {
+  text-align: center;
+  font-size: 1.25em;
+  margin-top: ($gutter-bottom / 2)/1.25;
+
+  @include media-tablet-landscape() {
+    margin-top: $gutter-bottom / 1.25;
+  }
 }
 
 .flare {
@@ -22,20 +36,22 @@
   border-radius: 2px;
 }
 
-.flare-pink, #CodeForGood, #TechnicalDeepDives {
-	background-color: #FF8DCF;
+.flare-pink,
+#BeyondTheBinary {
+  background-color: #ff8dcf;
 }
 
-.flare-blue, #EarlyCareerConfidence {
-	background-color: #B3BFF4;
+.flare-blue,
+#HealthyCoding {
+  background-color: #b3bff4;
 }
 
-
-.flare-green, #OpenSourceStrong {
-	background-color: #48DBA4;
+.flare-green,
+#OpenToolbox {
+  background-color: #48dba4;
 }
 
-
-.flare-yellow, #PathToProgrammer {
-	background-color: #FFD702;
+.flare-yellow,
+#TechEthics {
+  background-color: #ffd702;
 }
