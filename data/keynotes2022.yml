@@ -5,22 +5,23 @@ keynotes:
       width: 3744
       height: 3641
     title:
-    learnMode: https://community.codenewbie.org/codenewbie/announcing-codeland-2022s-first-keynote-speaker-angie-jones-1gn8
+    learnMore: https://community.codenewbie.org/codenewbie/announcing-codeland-2022s-first-keynote-speaker-angie-jones-1gn8
     bio: |
       <p>Angie Jones is the Global V.P. of Developer Relations at Block, an IBM Master Inventor as well as an award-winning teacher and a supportive figure for early-career software developers.</p>
+  - name: Kelsey Hightower
+    image:
+      path: 'speakers/kelsey-hightower.png'
+      width: 1582
+      height: 1332
+    title:
+    learnMore: https://community.codenewbie.org/codenewbie/kelsey-hightower-to-speak-at-codeland-2022-m74
+    bio: |
+      <p>Kelsey Hightower is a Principal Software Engineer at Google Cloud and a respected voice in cloud computing and open source.</p>
   - name: Keynote to be announced.
     image:
       path: 'speakers/speaker-tba.png'
       width: 704
       height: 708
     title:
-    learnMode:
-    bio:
-  - name: Keynote to be announced.
-    image:
-      path: 'speakers/speaker-tba-2.png'
-      width: 708
-      height: 704
-    title:
-    learnMode:
+    learnMore:
     bio:
