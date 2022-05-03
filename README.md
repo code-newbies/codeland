@@ -1,4 +1,4 @@
-[![Deploy](https://github.com/code-newbies/codeland/actions/workflows/deploy.yml/badge.svg)](https://github.com/code-newbies/codeland/actions/workflows/deploy.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/47c57550-c167-493b-9868-c669155b163c/deploy-status)](https://app.netlify.com/sites/codelandconf/deploys)
 
 ## CodeLand!
 
@@ -41,11 +41,9 @@ This site uses [imgix](imgix.com) for image optimization/transformations. There 
 >
 ```
 
-### Deploy to GitHub Pages
+### Deploy to Netlify
 
-We use the gem [middleman-gh-pages](https://github.com/edgecase/middleman-gh-pages) to deploy to GitHub pages. This gem builds and pushes the site to the branch `gh-pages` which will automatically update the live site: [https://codelandconf.com](https://codelandconf.com).
-
-A [GitHub Action](https://github.com/code-newbies/codeland/blob/master/.github/workflows/deploy.yml) will take care of deploying on each commit to `master`. If you ever want to manually deploy use `bundle exec rake publish`. More details can be found in the [docs](https://github.com/edgecase/middleman-gh-pages#usage).
+This site is hosted on Netlify. Any changes pushed to `main` will get deployed automatically. Any Pull Requests created will automatically receive a [Deploy Preview](https://docs.netlify.com/site-deploys/deploy-previews/) - check the PR comments for the details.
 
 ## License
 
