@@ -1,0 +1,12 @@
+[
+  {
+    "name": "GitHub",
+    "link": "https://github.com/about/careers",
+    "blurb": "GitHub is the developer company. We make it easier for you to be a developer: to work together, to solve challenging problems, and to create the world’s most important technologies. We foster a collaborative community where you can come together to create the future of software and make a difference in the world.\n\nThe GitHub platform is where you can create, share, and ship the best code possible. Whether you are a student, hobbyist, consultant, enterprise professional, partner or executive, GitHub allows you to build software in the way that works best for you.",
+    "logo": {
+      "width": 1000,
+      "height": 410,
+      "path": "sponsors/2022/github.png"
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Codiga",
+    "link": "https://www.codiga.io",
+    "blurb": "Create, find and share Code Snippets within your IDE.",
+    "logo": {
+      "width": 802,
+      "height": 727,
+      "path": "sponsors/2022/codiga.png"
+    }
+  },
+  {
+    "name": "Ionic",
+    "link": "https://ionic.io/?utm_source=partner&utm_medium=referral&utm_campaign=codeland2022",
+    "blurb": "Use Ionic to develop and continuously integrate and deliver mobile applications on any platform. Build apps with Ionic’s open source JS UI and native libraries or use whichever mobile technology you love — then deploy native builds, publish to the app stores, ship live updates, automate integration processes, and more. \n\nThe DEV and CodeNewbie communities are amazing, inclusive spaces for new and experienced developers alike to share knowledge, resources, ask questions, and learn from others. We're honored to be here with you, and excited to sponsor CodeLand 2022. We hope you enjoy the conference!",
+    "logo": {
+      "width": 698,
+      "height": 240,
+      "path": "sponsors/2022/ionic.svg"
+    }
+  },
+  {
+    "name": "Storyblok",
+    "link": "https://www.storyblok.com/",
+    "blurb": "Storyblok is the first headless CMS that offers a unique combination of visual editing tools and highly customizable content blocks for marketers on top of a modern headless architecture that gives developers the flexibility to build fast and reliable digital platforms.",
+    "logo": {
+      "width": 482,
+      "height": 103,
+      "path": "sponsors/2022/storyblok.png"
+    }
+  },
+  {
+    "name": "Common Room",
+    "link": "https://www.commonroom.io",
+    "blurb": "Common Room is the intelligent community growth platform that makes it easy for organizations and their DevRel teams to get closer to their communities. We unify community engagement, product usage, and customer data into a single place, and use intelligence to surface actionable insights.\n\nWith Common Room, DevRel teams quickly understand what’s happening in their communities — across GitHub, StackOverflow, Meetup, Slack, Discord, Reddit, Twitter, Dev.to and more — so they can monitor community health, find product champions, source and amplify content, and build internal advocacy all with the goal of shaping and shipping better products and experiences for their communities.",
+    "logo": {
+      "width": 288,
+      "height": 80,
+      "path": "sponsors/2022/common-room.svg"
+    }
+  },
+  {
+    "name": "She Code Africa",
+    "link": "https://shecodeafrica.org",
+    "blurb": "She Code Africa (SCA) is a non-profit organization focused on celebrating and empowering young girls and women in tech across Africa. Our vision is to have an Africa where women are equally represented across all career roles in Technology. Our community of over 12,000 women in tech across Africa is a safe space that embodies technical growth, networking, mentorship, and visibility amongst all level career roles in Technology.\n\nOur vision is to have an Africa where women are equally represented in all career-tech roles.\n\nRead more about us at shecodeafrica.org",
+    "logo": {
+      "width": 1005,
+      "height": 1544,
+      "path": "sponsors/2022/she-code-africa.png"
+    }
+  },
+  {
+    "name": "Sema Software",
+    "link": "https://www.semasoftware.com/?utm_campaign=codeland&utm_source=codeland&utm_medium=affiliate",
+    "blurb": "Sema is a software company obsessed with code quality and helping developers grow their skills and advance their careers. We have a free code review assistant / developer portfolio tool now available for GitHub.",
+    "logo": {
+      "width": 286,
+      "height": 96,
+      "path": "sponsors/2022/sema.svg"
+    }
+  }
+]

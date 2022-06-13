@@ -1,0 +1,52 @@
+<header class="section-container--header">
+  <h2 class="headline-display section-container--title" id="sponsorHeader">
+    CodeLand 2022 Sponsors
+  </h2>
+</header>
+
+<div class="section-container--body section-container--sponsors">
+  <div class="codeland-sponsors__platinum">
+    <% data.sponsors_2022_patrons.each do |sponsor| %>
+    <a
+      href="<%= sponsor.link %>"
+      class="codeland-sponsors__logo-wrapper"
+      target="_blank"
+      rel="noreferrer nofollow"
+      ><img
+        src="<%= imgixUrl(sponsor.logo.path, {w: 95}) %>"
+        decoding="async"
+        width="<%= sponsor.logo.width %>"
+        height="<%= sponsor.logo.height %>"
+        class="codeland-sponsors__logo"
+      />
+      <div class="codeland-sponsors__logo-content">
+        <div class="codeland-sponsors__logo-title"><%= sponsor.name %></div>
+        <div class="codeland-sponsors__logo-blurb"><%= sponsor.blurb %></div>
+        <div class="codeland-sponsors__logo-action">Visit Sponsor ➝</div>
+      </div>
+    </a>
+    <% end %>
+  </div>
+  <div class="codeland-sponsors__mentor">
+    <% data.sponsors_2022_mentors.each do |sponsor| %>
+    <a
+      href="<%= sponsor.link %>"
+      class="codeland-sponsors__logo-wrapper"
+      target="_blank"
+      rel="noreferrer nofollow"
+      ><img
+        src="<%= imgixUrl(sponsor.logo.path, {w: 95}) %>"
+        width="<%= sponsor.logo.width %>"
+        height="<%= sponsor.logo.height %>"
+        decoding="async"
+        class="codeland-sponsors__logo"
+      />
+      <div class="codeland-sponsors__logo-content">
+        <div class="codeland-sponsors__logo-title"><%= sponsor.name %></div>
+        <div class="codeland-sponsors__logo-blurb"><%= sponsor.blurb %></div>
+        <div class="codeland-sponsors__logo-action">Visit Sponsor ➝</div>
+      </div>
+    </a>
+    <% end %>
+  </div>
+</div>
