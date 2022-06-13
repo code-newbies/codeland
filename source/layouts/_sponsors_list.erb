@@ -18,6 +18,14 @@
         width="<%= sponsor.logo.width %>"
         height="<%= sponsor.logo.height %>"
         class="codeland-sponsors__logo"
+        sizes="(min-width: 1024px) calc(76vw - 2em - 4rem),  calc(100vw - 2em - 4rem)"
+        srcset="
+        <%= imgixUrl(sponsor.logo.path, {w: 250 }) %> 250w,
+        <%= imgixUrl(sponsor.logo.path, {w: 500 }) %> 500w,
+        <%= imgixUrl(sponsor.logo.path, {w: 750 }) %> 750w,
+        <%= imgixUrl(sponsor.logo.path, {w: 1000 }) %> 1000w,
+        <%= imgixUrl(sponsor.logo.path, {w: 2000 }) %> 2000w
+        "
       />
       <div class="codeland-sponsors__logo-content">
         <div class="codeland-sponsors__logo-title"><%= sponsor.name %></div>
@@ -40,6 +48,14 @@
         height="<%= sponsor.logo.height %>"
         decoding="async"
         class="codeland-sponsors__logo"
+        sizes="(min-width: 1024px) calc(76vw - 2em - 4rem),  calc(100vw - 2em - 4rem)"
+        srcset="
+        <%= imgixUrl(sponsor.logo.path, {w: 250 }) %> 250w,
+        <%= imgixUrl(sponsor.logo.path, {w: 500 }) %> 500w,
+        <%= imgixUrl(sponsor.logo.path, {w: 750 }) %> 750w,
+        <%= imgixUrl(sponsor.logo.path, {w: 1000 }) %> 1000w,
+        <%= imgixUrl(sponsor.logo.path, {w: 2000 }) %> 2000w
+        "
       />
       <div class="codeland-sponsors__logo-content">
         <div class="codeland-sponsors__logo-title"><%= sponsor.name %></div>
