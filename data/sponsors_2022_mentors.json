@@ -50,6 +50,16 @@
     }
   },
   {
+    "name": "DuploCloud",
+    "link": "https://duplocloud.com",
+    "blurb": "DuploCloud offers a DevSecOps software platform for teams that don’t have dedicated DevOps and augments those that do. The platform automates the provisioning of your application to the cloud (AWS, GCP, Azure), integrating cloud ops, SecOps, and security/compliance with 24x7 monitoring and support.",
+    "logo": {
+      "width": 1002,
+      "height": 742,
+      "path": "sponsors/2022/duplocloud.png"
+    }
+  },
+  {
     "name": "Sema Software",
     "link": "https://www.semasoftware.com/?utm_campaign=codeland&utm_source=codeland&utm_medium=affiliate",
     "blurb": "Sema is a software company obsessed with code quality and helping developers grow their skills and advance their careers. We have a free code review assistant / developer portfolio tool now available for GitHub.",

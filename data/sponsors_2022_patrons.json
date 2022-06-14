@@ -8,5 +8,15 @@
       "height": 410,
       "path": "sponsors/2022/github.png"
     }
+  },
+  {
+    "name": "Microsoft Azure",
+    "link": "https://developer.microsoft.com/en-us/advocates/",
+    "blurb": "Our team's charter is to help every technologist on the planet succeed, be they students or those working in enterprises or startups. We engage in outreach to developers and others in the software ecosystem, all designed to further technical education and proficiency with the Microsoft Cloud + AI platform.",
+    "logo": {
+      "width": 1182,
+      "height": 368,
+      "path": "sponsors/2022/ms-azure.png"
+    }
   }
 ]
