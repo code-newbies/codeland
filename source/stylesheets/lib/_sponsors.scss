@@ -1,59 +1,153 @@
-.section-card.sponsors {
-  background: white;
-  position: relative;
-
-  &:before {
-    height: 100%;
-    transform: rotate(2.5deg);
-    left: -60px;
-    top: -30px;
-    background-color: white;
-  }
-
-  legend {
-    padding-bottom: 2%;
-  }
-
-  fieldset {
-    border: 0;
-  }
-  a.sponsors-link {
-    display: inline-block;
-    max-width: 350px;
-  }
-  a.sponsors-link-big {
-    max-width: 500px;
-    img {
-      max-width: 450px;
-    }
-  }
-  img {
-    display: inline-block;
-    max-width: 320px;
-    margin: 50px 0;
-    margin-right: 60px;
-    vertical-align: middle;
-  }
+.section-container--sponsors {
+  --su-1: 0.25rem;
+  --su-2: 0.5rem;
+  --su-3: 0.75rem;
+  --su-4: 1rem;
+  --su-5: 1.25rem;
+  --su-6: 1.5rem;
+  --su-7: 2rem;
+  --su-8: 3rem;
+  --su-9: 4rem;
+  --su-10: 8rem;
+  --radius: 0.375rem;
+  --base: #090909;
+  --base-inverted: #fff;
+  --base-100: var(--base);
+  --base-90: #242424;
+  --base-80: #3d3d3d;
+  --base-70: #575757;
+  --base-60: #717171;
+  --base-50: #8a8a8a;
+  --base-40: #a3a3a3;
+  --base-30: #bdbdbd;
+  --base-20: #d6d6d7;
+  --base-10: #efefef;
+  --accent-brand: #3a46b4;
+  --transition-func: cubic-bezier(0.17, 0.67, 0.5, 0.71);
+  --transition-time: 100ms;
+  --transition-props: var(--transition-func) var(--transition-time);
 }
 
-.sponsors-mailchimp-form {
+.codeland-sponsors__platinum,
+.codeland-sponsors__mentor {
   display: grid;
+  grid-row-gap: var(--su-4);
+  grid-column-gap: var(--su-4);
+}
 
-  @include media-tablet-landscape() {
-    margin: 1.5em 0;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-end: span 2;
-    margin-bottom: 0;
+.codeland-sponsors__platinum {
+  grid-template-columns: 1fr;
+  margin-bottom: var(--su-4);
+}
+
+.codeland-sponsors__logo {
+  height: auto;
+  object-fit: contain;
+  width: 100%;
+}
+
+.codeland-sponsors__logo-wrapper {
+  background: var(--base-inverted);
+  border: 2px solid var(--base-10);
+  box-sizing: border-box;
+  display: flex;
+  padding: var(--su-7);
+  position: relative;
+  overflow: hidden;
+  height: 240px;
+  width: 100%;
+  border-radius: var(--radius);
+}
+
+@media screen and (min-width: 640px) {
+  .codeland-sponsors__platinum .codeland-sponsors__logo-wrapper {
+    height: 320px;
   }
 }
 
-.sponsors-links-container h3 {
-  margin-top: 40px;
+@media screen and (min-width: 640px) {
+  .codeland-sponsors__mentor .codeland-sponsors__logo-wrapper {
+    height: 240px;
+  }
 }
 
-.sponsors-contact-information,
-.sponsors-options {
-  grid-column-end: span 1;
-  width: 100%;
-  margin-bottom: 1em;
+.night-theme .codeland-sponsors__logo-wrapper,
+.ten-x-hacker-theme .codeland-sponsors__logo-wrapper {
+  background: var(--base-100);
+}
+
+.codeland-sponsors__logo-wrapper:hover .codeland-sponsors__logo {
+  opacity: 0.7;
+}
+
+.codeland-sponsors__mentor {
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 640px) {
+  .codeland-sponsors__mentor {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .codeland-sponsors__platinum {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .codeland-sponsors__mentor {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.codeland-sponsors__logo-content {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--base-100);
+  content: 'Visit booth ➝';
+  display: grid;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  transform: translateY(100%);
+  transition: all var(--transition-props);
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  padding: 1em;
+}
+
+.codeland-sponsors__logo-wrapper:hover .codeland-sponsors__logo-content {
+  transform: translateY(0);
+}
+
+.codeland-sponsors__logo-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 1;
+}
+
+.codeland-sponsors__logo-blurb {
+  line-height: 1.1;
+  font-weight: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 0.9em;
+}
+
+.codeland-sponsors__platinum .codeland-sponsors__logo-blurb {
+  -webkit-line-clamp: 4;
+}
+
+.codeland-sponsors__mentor .codeland-sponsors__logo-blurb {
+  -webkit-line-clamp: 3;
+}
+
+.codeland-sponsors__logo-action {
+  color: var(--accent-brand);
+  font-weight: bold;
 }
