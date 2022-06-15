@@ -84,22 +84,6 @@
   grid-template-columns: 1fr;
 }
 
-@media screen and (min-width: 640px) {
-  .codeland-sponsors__mentor {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .codeland-sponsors__platinum {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .codeland-sponsors__mentor {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
 .codeland-sponsors__logo-content {
   align-items: center;
   background: rgba(255, 255, 255, 0.95);
@@ -123,31 +107,98 @@
   transform: translateY(0);
 }
 
+// .codeland-sponsors__logo-wrapper .codeland-sponsors__logo-content {
+//   transform: translateY(0);
+// }
+
 .codeland-sponsors__logo-title {
   font-weight: bold;
   font-size: 1.5em;
   line-height: 1;
 }
 
-.codeland-sponsors__logo-blurb {
-  line-height: 1.1;
-  font-weight: normal;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  font-size: 0.9em;
-}
-
-.codeland-sponsors__platinum .codeland-sponsors__logo-blurb {
-  -webkit-line-clamp: 4;
-}
-
-.codeland-sponsors__mentor .codeland-sponsors__logo-blurb {
-  -webkit-line-clamp: 3;
-}
-
 .codeland-sponsors__logo-action {
   color: var(--accent-brand);
   font-weight: bold;
 }
+
+.codeland-sponsors__logo-blurb {
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 0.6em;
+  line-height: 1.1;
+  font-weight: normal;
+}
+
+.codeland-sponsors__platinum .codeland-sponsors__logo-blurb {
+  -webkit-line-clamp: 10;
+}
+
+.codeland-sponsors__mentor .codeland-sponsors__logo-blurb {
+  -webkit-line-clamp: 12;
+}
+
+@media screen and (min-width: 640px) {
+  .codeland-sponsors__platinum .codeland-sponsors__logo-wrapper {
+    height: 320px;
+  }
+
+  .codeland-sponsors__mentor .codeland-sponsors__logo-wrapper {
+    height: 240px;
+  }
+
+  .codeland-sponsors__platinum .codeland-sponsors__logo-blurb {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .codeland-sponsors__mentor {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .codeland-sponsors__mentor .codeland-sponsors__logo-blurb {
+    font-size: 0.5em;
+  }
+
+  .codeland-sponsors__platinum .codeland-sponsors__logo-blurb {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .codeland-sponsors__platinum {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .codeland-sponsors__mentor .codeland-sponsors__logo-blurb {
+    font-size: 0.6em;
+  }
+
+  .codeland-sponsors__platinum .codeland-sponsors__logo-blurb {
+    font-size: 0.8em;
+    -webkit-line-clamp: 12;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .codeland-sponsors__mentor {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .codeland-sponsors__mentor .codeland-sponsors__logo-blurb {
+    font-size: 0.5em;
+  }
+
+  .codeland-sponsors__platinum .codeland-sponsors__logo-blurb {
+    // font-size: 1em;
+  }
+}
+
+// @media screen and (min-width: 2000px) {
+//   .codeland-sponsors__mentor .codeland-sponsors__logo-blurb {
+//     font-size: 0.75em;
+//   }
+// }
