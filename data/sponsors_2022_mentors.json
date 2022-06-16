@@ -50,6 +50,16 @@
     }
   },
   {
+    "name": "AWS",
+    "link": "https://aws.amazon.com/developer/community/?cards.sort-by=item.additionalFields.publishedDate&cards.sort-order=desc",
+    "blurb": "Visit the AWS Community page today and learn about the AWS Heroes, AWS Community Builders and AWS User Group communities. User Groups are open to all and the AWS Community Builder Program will be opening applications soon!",
+    "logo": {
+      "width": 600,
+      "height": 359,
+      "path": "sponsors/2022/AWS.png"
+    }
+  },
+  {
     "name": "DuploCloud",
     "link": "https://duplocloud.com",
     "blurb": "DuploCloud offers a DevSecOps software platform for teams that don’t have dedicated DevOps and augments those that do. The platform automates the provisioning of your application to the cloud (AWS, GCP, Azure), integrating cloud ops, SecOps, and security/compliance with 24x7 monitoring and support.",
